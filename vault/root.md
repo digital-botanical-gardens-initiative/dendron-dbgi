@@ -18,3 +18,6 @@ This section contains useful links to related resources.
 - [Home Page](https://wiki.dendron.so/)
 - [Github](https://link.dendron.so/6b24)
 - [Developer Docs](https://docs.dendron.so/)
+
+
+A direct edit from Github
