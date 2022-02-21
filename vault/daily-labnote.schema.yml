@@ -1,0 +1,26 @@
+version: 1
+schemas:
+# Daily is the top most schema since its parent is 'root' it must have an identifier
+# this identifier 'daily' will be used when using 'Lookup (schema)' command.
+- id: daily
+  parent: root
+  title: daily
+  desc: ""
+  # Children of the top most schema do not need to contain identifier and just 
+  # require a 'pattern' to be set to match the hierarchy of notes.
+  children:
+    - pattern: journal
+      children:
+          # This pattern matches the YYYY (year) child hierarchy
+        - pattern: "[0-2][0-9][0-9][0-9]"
+          children:
+              # This pattern matches the MM (month) child hierarchy
+            - pattern: "[0-1][0-9]"
+              children:
+                  # This pattern matches the DD (day) child hierarchy
+                - pattern: "[0-3][0-9]"
+                  # As with regular schema we can set the template to be used with
+                  # the match of our notes. Below is an example usage of shorthand template
+                  # definition (which defaults to type: note). 
+                  desc: Five Minute Journal
+                  template: labnote-template
