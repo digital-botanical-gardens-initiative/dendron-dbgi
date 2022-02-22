@@ -1,9 +1,11 @@
 ---
-id: U009aLcdwg7wV25T3jTiq
-title: Labnote Template
+id: Gg8rj28LewzMA9GwoKBPg
+title: '2022-02-22'
 desc: ''
-updated: 1645516841483
-created: 1645441738236
+updated: 1645516895487
+created: 1645516847082
+traitIds:
+  - journalNote
 ---
 
 ## Starting the day
@@ -12,11 +14,13 @@ First lets check the last discussions on the forum https://github.com/digitized-
 
 ### Today's Todo 
 
-- [ ] 
+- [ ] Working on the taxonomical resolving part
 - [ ] 
 - [ ] 
 
 ### Today Notes & ideas
+
+
 
 
 
