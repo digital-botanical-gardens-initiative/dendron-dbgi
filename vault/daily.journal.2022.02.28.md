@@ -2,7 +2,7 @@
 id: MGbPYXghxP8RyeqQJ9L61
 title: '2022-02-28'
 desc: ''
-updated: 1646050857643
+updated: 1646051090473
 created: 1646035368686
 traitIds:
   - journalNote
@@ -27,6 +27,6 @@ First lets check the last discussions on the forum https://github.com/digitized-
 
 ### Future Todo
 
-- [ ] 
+- [ ]
 - [ ] 
 - [ ] 
