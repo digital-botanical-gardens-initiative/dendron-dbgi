@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1646063242519
+updated: 1646063925856
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -16,6 +16,7 @@ The open science describes a working method in science that share the entire res
 ## The pilot presentation
 
 This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden. All plants will be classified following the Open Tree of Life taxonomy (OTL, 2022).
+
 
 ## The methodology
 
