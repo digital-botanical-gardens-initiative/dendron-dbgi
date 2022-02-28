@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Root
 desc: ''
-updated: 1645438795590
+updated: 1646050086940
 created: 1645438795591
 ---
 # Welcome to Dendron
@@ -20,4 +20,4 @@ This section contains useful links to related resources.
 - [Developer Docs](https://docs.dendron.so/)
 
 
-A direct edit from Github
+
