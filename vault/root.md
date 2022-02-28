@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1646052813161
+updated: 1646053962179
 created: 1645438795591
 ---
 # Welcome to the digitized botanical gardens initiative website
@@ -13,7 +13,8 @@ With these ambitions, the project will be achieved in open science, to provide a
 
 ## The open science project
 
-The open science describes a science working method that 
+The open science describes a working method in science that share the entire research process to the relevant actors. The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science (EC, 2022).
+
 ## The pilote presentation
 
 
@@ -22,6 +23,6 @@ The open science describes a science working method that
 
 ## References
 
-
+EC (European Commission) (2022). Open Science : https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en [Consulted the 28th february].
 
 
