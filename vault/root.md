@@ -2,12 +2,12 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1646057061230
+updated: 1646058951367
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
 
-Here you can find a pilot project that aim to digitize the Fribourg botanical garden with liquid chromatography extractions and mass spectrometry analyses. The goal of this pilot is to find an easy, normalized way to collect and analyse plants in different environments, to permit a project further deployed at a national, whether international scale with a complete taxonomy based on the "open tree of life" data (OTL, 2022). With these ambitions, the project will be achieved in open science, to provide an easy access to anyone who wants to take part of it.
+Here you can find a pilot project that aim to digitize the Fribourg botanical garden with liquid chromatography extractions and mass spectrometry analyses. The goal of this pilot is to find an easy, normalized way to collect and analyse plants in different environments, to permit a project further deployed at a national, whether international scale with a complete taxonomy based on the "Open Tree of Life" one. With these ambitions, the project will be achieved in open science, to provide an easy access to anyone who wants to take part of it.
 
 ## The open science project
 
@@ -16,7 +16,7 @@ The open science describes a working method in science that share the entire res
 
 ## The pilot presentation
 
-This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden.
+This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden. All plants will be classified following the Open Tree of Life taxonomy (OTL, 2022).
 
 ## The methodology
 
@@ -24,11 +24,15 @@ Firstly, we have to clean the plant list of the Fribourg botanical garden to obt
 
 Secondly, the 96 well plate will be partly filled with the same specimen, extracted with different liquid chromatography methods to seclect the best extraction way. Another part will host different parts of the same plant to determine the chemistry differences between them. For instance, it is not clear if we will analyse these different parts separately or alltogether in the same well. If some well are still available, they will be filled with some species, selected randomly or not, in the Fribourg botanical garden.
 
-Finally, the results obtained will be analysed to select the best extraction method and to determine the way to analyse different parts of the same specimen. With these observations, an extraction and analysis protocol will be built to simplify, automatize and 
+Finally, the results obtained will be analysed to select the best extraction method and to determine the way to analyse different parts of the same specimen. With these observations, an extraction and analysis protocol will be built to simplify, automatize and coordinate the future data acquisition.
 
+## Extraction methods
+
+For instance, the extraction method is not fixed. We will try some and determine the chosen one later as explained above. The idea is at least to try one with liquid nitrogen to obtain the maximum of chemicals and another one with dryed plants to have a facilitated method to collect the plants wolrdwide without the problem of bringing liquid nitrogen in remote areas.
+
+The first one with liquid nitrogen could be 
 ## References
 
 EC (European Commission) (2022). Open Science : https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en [Consulted the 28th february 2022].
-
- OTL (Open Tree of Life (2022). https://tree.opentreeoflife.org/about/open-tree-of-life [Consulted the 28th february 2022].
-
+OTL (Open Tree of Life (2022). https://tree.opentreeoflife.org/about/open-tree-of-life [Consulted the 28th february 2022].
+De Vos, R., Moco, S., Lommen, A., Keurentjes, J.J.B., Bino, R.J. & Hall, R.D. (2007). Untargeted large-scale plant metabolomics using liquid chromatography coupled to mass spectrometry. *Nature Publishing Group*, 2(4): https://www.researchgate.net/publication/6381678_Untargeted_large-scale_plant_metabolomics_using_liquid_chromatography_coupled_to_mass_spectrometry [Consulted the 28th february 2022].
