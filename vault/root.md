@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1646061958080
+updated: 1646063242519
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -33,6 +33,7 @@ For instance, the extraction method is not fixed. We will try some and determine
 
 The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds (De Vos et al., 2007).
 
+And we have this work which is of interest [[bedigian2005]]
 ### Dryed plants extraction
 
 
@@ -44,3 +45,4 @@ The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to b
 - OTL (Open Tree of Life (2022). https://tree.opentreeoflife.org/about/open-tree-of-life [Consulted the 28th february 2022].
 
 - De Vos, R., Moco, S., Lommen, A., Keurentjes, J.J.B., Bino, R.J. & Hall, R.D. (2007). Untargeted large-scale plant metabolomics using liquid chromatography coupled to mass spectrometry. *Nature Publishing Group*, 2(4): https://www.researchgate.net/publication/6381678_Untargeted_large-scale_plant_metabolomics_using_liquid_chromatography_coupled_to_mass_spectrometry [Consulted the 28th february 2022].
+
