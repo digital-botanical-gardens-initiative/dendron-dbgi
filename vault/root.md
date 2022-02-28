@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1646061908821
+updated: 1646061958080
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -12,7 +12,6 @@ Here you can find a pilot project that aim to digitize the Fribourg botanical ga
 ## The open science project
 
 The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science (EC, 2022). 
-
 
 ## The pilot presentation
 
@@ -35,6 +34,8 @@ For instance, the extraction method is not fixed. We will try some and determine
 The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds (De Vos et al., 2007).
 
 ### Dryed plants extraction
+
+
 
 ## References
 
