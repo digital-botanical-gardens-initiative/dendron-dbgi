@@ -1,7 +1,7 @@
 {
   "name": "dendron-dbgi",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the dendron repository for the Open Notebook of the Digitized Botanical Gardens project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/digitized-botanical-gardens-initiative/dendron-dbgi#readme",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.82.0"
+    "@dendronhq/dendron-cli": "^0.84.0"
   }
 }
