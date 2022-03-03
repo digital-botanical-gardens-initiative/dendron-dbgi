@@ -1,6 +1,29 @@
-version: 5
+version: 4
+useFMTitle: true
+useNoteTitleForLink: true
+mermaid: true
+useKatex: true
 dev:
     enablePreviewV2: true
+site:
+    copyAssets: true
+    siteHierarchies:
+        - root
+    siteRootDir: docs
+    usePrettyRefs: true
+    siteUrl: 'https://digitized-botanical-gardens-initiative.github.io'
+    assetsPrefix: /dendron-dbgi
+    gh_edit_link: true
+    gh_edit_link_text: Click here to edit this page on Github !
+    gh_edit_repository: 'https://github.com/digitized-botanical-gardens-initiative/dendron-dbgi'
+    title: Dendron
+    description: Personal knowledge space
+    siteLastModified: true
+    gh_edit_branch: main
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
 commands:
     lookup:
         note:
@@ -18,7 +41,6 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
 workspace:
     vaults:
         -
@@ -64,7 +86,6 @@ workspace:
     enableEditorDecorations: true
     maxPreviewsCached: 10
     maxNoteLength: 204800
-    dendronVersion: 0.84.0
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -72,37 +93,3 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
-publishing:
-    enableFMTitle: true
-    enableNoteTitleForLink: true
-    enableMermaid: true
-    enablePrettyRefs: true
-    enableKatex: true
-    assetsPrefix: /dendron-dbgi
-    copyAssets: true
-    siteHierarchies:
-        - root
-    enableSiteLastModified: true
-    siteRootDir: docs
-    siteUrl: 'https://digitized-botanical-gardens-initiative.github.io'
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
-    enableRandomlyColoredTags: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
-    writeStubs: false
-    seo:
-        title: Dendron
-        description: Personal knowledge space
-    github:
-        enableEditLink: true
-        editLinkText: Click here to edit this page on Github !
-        editBranch: main
-        editViewMode: tree
-        editRepository: >-
-            https://github.com/digitized-botanical-gardens-initiative/dendron-dbgi
-    enablePrettyLinks: true
