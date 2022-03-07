@@ -1,13 +1,13 @@
 ---
-id: x153i4fgowsk07j49zpv8ac
+id: dnh6rcu8a6e56nnxya1wsgt
 title: Acer Palmatum
 desc: ''
-updated: 1646650020913
-created: 1646650020913
+updated: 1646656574142
+created: 1646656574142
 stub: false
 isDir: false
 ---
-ipen,determination,multiplication,hivernage,protectionHiv1,protectionHiv2,taxonFamille1,taxonControle,taxonBiblio,periodeDeSemis,idTaxon,secteur,matched_name,fuzzy_match_score,Inventaire FRIBG,is_approximate_match,is_synonym,nomenclature_code,score,search_string,taxon.flags,taxon.is_suppressed,taxon.is_suppressed_from_synth,taxon.name,taxon.ott_id,taxon.rank,taxon.source,taxon.synonyms,taxon.tax_sources,taxon.unique_name,_merge,ott_id,organism_otol_kingdom,organism_otol_phylum,organism_otol_class,organism_otol_order,organism_otol_family,organism_otol_genus,organism_otol_species,organism_otol_unique_name,flags,rank
-XX 0 FRIBG 19960516,,,,,,Sapindaceae,,,,Acer palmatum Murray,FougÃÂ¨res,Acer palmatum,90.0,acer palmatum,False,False,ICN,1.0,acer palmatum,[],False,False,Acer palmatum,506130.0,species,ott3.3draft1,"['? eupalmatum', 'Acer dissectum', 'Acer eupalmatum', 'Acer formosum', 'Acer japonicum polymorphum', 'Acer jucundum', 'Acer palmatum amabile', 'Acer palmatum atropurpureum', 'Acer palmatum dissectum', 'Acer palmatum hakonense', 'Acer palmatum pilosum', 'Acer palmatum plicatum', 'Acer palmatum pubescens', 'Acer palmatum quinquelobum', 'Acer palmatum sanguineum', 'Acer palmatum spectabile', 'Acer palmatum thunbergii', 'Acer polymorphum', 'Acer polymorphum palmatum', 'Acer polymorphum thunbergii', 'Acer roseomarginatum eupalmatum', 'Acer sanguineum', 'Acer sessilifolium', 'Negundo sessilifolium']","['ncbi:66201', 'gbif:7912328', 'irmng:11004165']",Acer palmatum,both,506130.0,Archaeplastida,Streptophyta,Magnoliopsida,Sapindales,Sapindaceae,Acer,,Acer palmatum,[],species
-XX 0 FRIBG 10000484,,,,,,Sapindaceae,,,,Acer palmatum Murray 'Atropurpureum',FougÃÂ¨res,Acer palmatum,90.0,acer palmatum,False,False,ICN,1.0,acer palmatum,[],False,False,Acer palmatum,506130.0,species,ott3.3draft1,"['? eupalmatum', 'Acer dissectum', 'Acer eupalmatum', 'Acer formosum', 'Acer japonicum polymorphum', 'Acer jucundum', 'Acer palmatum amabile', 'Acer palmatum atropurpureum', 'Acer palmatum dissectum', 'Acer palmatum hakonense', 'Acer palmatum pilosum', 'Acer palmatum plicatum', 'Acer palmatum pubescens', 'Acer palmatum quinquelobum', 'Acer palmatum sanguineum', 'Acer palmatum spectabile', 'Acer palmatum thunbergii', 'Acer polymorphum', 'Acer polymorphum palmatum', 'Acer polymorphum thunbergii', 'Acer roseomarginatum eupalmatum', 'Acer sanguineum', 'Acer sessilifolium', 'Negundo sessilifolium']","['ncbi:66201', 'gbif:7912328', 'irmng:11004165']",Acer palmatum,both,506130.0,Archaeplastida,Streptophyta,Magnoliopsida,Sapindales,Sapindaceae,Acer,,Acer palmatum,[],species
-XX 0 FRIBG 10000485,,,,,,Sapindaceae,,,,Acer palmatum Thunb. 'Dissectum',FougÃÂ¨res,Acer palmatum,90.0,acer palmatum,False,False,ICN,1.0,acer palmatum,[],False,False,Acer palmatum,506130.0,species,ott3.3draft1,"['? eupalmatum', 'Acer dissectum', 'Acer eupalmatum', 'Acer formosum', 'Acer japonicum polymorphum', 'Acer jucundum', 'Acer palmatum amabile', 'Acer palmatum atropurpureum', 'Acer palmatum dissectum', 'Acer palmatum hakonense', 'Acer palmatum pilosum', 'Acer palmatum plicatum', 'Acer palmatum pubescens', 'Acer palmatum quinquelobum', 'Acer palmatum sanguineum', 'Acer palmatum spectabile', 'Acer palmatum thunbergii', 'Acer polymorphum', 'Acer polymorphum palmatum', 'Acer polymorphum thunbergii', 'Acer roseomarginatum eupalmatum', 'Acer sanguineum', 'Acer sessilifolium', 'Negundo sessilifolium']","['ncbi:66201', 'gbif:7912328', 'irmng:11004165']",Acer palmatum,both,506130.0,Archaeplastida,Streptophyta,Magnoliopsida,Sapindales,Sapindaceae,Acer,,Acer palmatum,[],species
+Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott506130
+
+
+Check Wikipedia entry here: https://en.wikipedia.org/wiki/Acer_palmatum

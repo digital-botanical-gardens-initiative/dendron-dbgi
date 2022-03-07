@@ -1,11 +1,13 @@
 ---
-id: j6q8b8s8e8xwmf1qbv1lv0h
+id: u0y2yjmcfgwlgtzhkoi73kj
 title: Vachellia Karroo
 desc: ''
-updated: 1646650020908
-created: 1646650020908
+updated: 1646656574139
+created: 1646656574139
 stub: false
 isDir: false
 ---
-ipen,determination,multiplication,hivernage,protectionHiv1,protectionHiv2,taxonFamille1,taxonControle,taxonBiblio,periodeDeSemis,idTaxon,secteur,matched_name,fuzzy_match_score,Inventaire FRIBG,is_approximate_match,is_synonym,nomenclature_code,score,search_string,taxon.flags,taxon.is_suppressed,taxon.is_suppressed_from_synth,taxon.name,taxon.ott_id,taxon.rank,taxon.source,taxon.synonyms,taxon.tax_sources,taxon.unique_name,_merge,ott_id,organism_otol_kingdom,organism_otol_phylum,organism_otol_class,organism_otol_order,organism_otol_family,organism_otol_genus,organism_otol_species,organism_otol_unique_name,flags,rank
-ZA 0 FRIBG 20030001,,,,,,Fabaceae,,,,Acacia karroo Hayne,Serre 1 S-Afr.,Acacia karroo,95.0,acacia karroo,False,True,ICN,1.0,acacia karroo,[],False,False,Vachellia karroo,232958.0,species,ott3.3draft1,"['Acacia dekindtiana', 'Acacia karroo']","['ncbi:138024', 'gbif:3974754']",Vachellia karroo,both,232958.0,Archaeplastida,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Vachellia,,Vachellia karroo,[],species
+Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott232958
+
+
+Check Wikipedia entry here: https://en.wikipedia.org/wiki/Vachellia_karroo

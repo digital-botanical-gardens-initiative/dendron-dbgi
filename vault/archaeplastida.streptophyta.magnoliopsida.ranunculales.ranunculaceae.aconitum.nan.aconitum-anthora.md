@@ -1,13 +1,13 @@
 ---
-id: 2phewfpnzkdoi1b5fa4qzsg
+id: vnbzjkk9wc20ii8xo52vmdi
 title: Aconitum Anthora
 desc: ''
-updated: 1646650020911
-created: 1646650020911
+updated: 1646656574140
+created: 1646656574140
 stub: false
 isDir: false
 ---
-ipen,determination,multiplication,hivernage,protectionHiv1,protectionHiv2,taxonFamille1,taxonControle,taxonBiblio,periodeDeSemis,idTaxon,secteur,matched_name,fuzzy_match_score,Inventaire FRIBG,is_approximate_match,is_synonym,nomenclature_code,score,search_string,taxon.flags,taxon.is_suppressed,taxon.is_suppressed_from_synth,taxon.name,taxon.ott_id,taxon.rank,taxon.source,taxon.synonyms,taxon.tax_sources,taxon.unique_name,_merge,ott_id,organism_otol_kingdom,organism_otol_phylum,organism_otol_class,organism_otol_order,organism_otol_family,organism_otol_genus,organism_otol_species,organism_otol_unique_name,flags,rank
-CH 0 FRIBG 20020675,,,,,,Ranunculaceae,,,,Aconitum altissimum Mill.,Pl. protÃÂ©gÃÂ©es,Aconitum anthora,86.0,aconitum anthora,False,False,ICN,1.0,aconitum anthora,[],False,False,Aconitum anthora,14057.0,species,ott3.3draft1,"['Aconitum anthora atrovirens', 'Aconitum anthora eulophum', 'Aconitum anthora grandiflorum', 'Aconitum anthora inclinatum', 'Aconitum anthora jacquinianum', 'Aconitum anthora jacquinii', 'Aconitum anthora versicolor', 'Aconitum pseudanthora', 'Aconitum pseudanthora pseudanthora']","['ncbi:112588', 'gbif:3033670', 'irmng:11428408']",Aconitum anthora,both,14057.0,Archaeplastida,Streptophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aconitum,,Aconitum anthora,[],species
-HU 0 FRIBG 20100314,,,,,,Ranunculaceae,,,,Aconitum anthora L.,Alp. calcaire 4,Aconitum anthora,95.0,aconitum anthora,False,False,ICN,1.0,aconitum anthora,[],False,False,Aconitum anthora,14057.0,species,ott3.3draft1,"['Aconitum anthora atrovirens', 'Aconitum anthora eulophum', 'Aconitum anthora grandiflorum', 'Aconitum anthora inclinatum', 'Aconitum anthora jacquinianum', 'Aconitum anthora jacquinii', 'Aconitum anthora versicolor', 'Aconitum pseudanthora', 'Aconitum pseudanthora pseudanthora']","['ncbi:112588', 'gbif:3033670', 'irmng:11428408']",Aconitum anthora,both,14057.0,Archaeplastida,Streptophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aconitum,,Aconitum anthora,[],species
-XX 0 FRIBG 19860002,"Enz Peter, 1988",,,,,Ranunculaceae,,,,Aconitum rostratum Bernh.,Pl. protÃÂ©gÃÂ©es,Aconitum anthora,86.0,aconitum anthora,False,False,ICN,1.0,aconitum anthora,[],False,False,Aconitum anthora,14057.0,species,ott3.3draft1,"['Aconitum anthora atrovirens', 'Aconitum anthora eulophum', 'Aconitum anthora grandiflorum', 'Aconitum anthora inclinatum', 'Aconitum anthora jacquinianum', 'Aconitum anthora jacquinii', 'Aconitum anthora versicolor', 'Aconitum pseudanthora', 'Aconitum pseudanthora pseudanthora']","['ncbi:112588', 'gbif:3033670', 'irmng:11428408']",Aconitum anthora,both,14057.0,Archaeplastida,Streptophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aconitum,,Aconitum anthora,[],species
+Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott14057
+
+
+Check Wikipedia entry here: https://en.wikipedia.org/wiki/Aconitum_anthora

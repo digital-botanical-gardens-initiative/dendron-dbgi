@@ -1,12 +1,13 @@
 ---
-id: jvrdw3f3chttbqkl66tnaic
+id: rno01b1ezickw4ayrnz9d48
 title: Acmella Oleracea
 desc: ''
-updated: 1646650020907
-created: 1646650020907
+updated: 1646656574138
+created: 1646656574138
 stub: false
 isDir: false
 ---
-ipen,determination,multiplication,hivernage,protectionHiv1,protectionHiv2,taxonFamille1,taxonControle,taxonBiblio,periodeDeSemis,idTaxon,secteur,matched_name,fuzzy_match_score,Inventaire FRIBG,is_approximate_match,is_synonym,nomenclature_code,score,search_string,taxon.flags,taxon.is_suppressed,taxon.is_suppressed_from_synth,taxon.name,taxon.ott_id,taxon.rank,taxon.source,taxon.synonyms,taxon.tax_sources,taxon.unique_name,_merge,ott_id,organism_otol_kingdom,organism_otol_phylum,organism_otol_class,organism_otol_order,organism_otol_family,organism_otol_genus,organism_otol_species,organism_otol_unique_name,flags,rank
-XX 0 FRIBG 20060044,,,,,,Asteraceae,,,11 s,Acmella oleracea (L.) R.K. Jansen,MÃÂ©dicinal,Acmella oleracea,90.0,acmella oleracea,False,False,ICN,1.0,acmella oleracea,[],False,False,Acmella oleracea,5794458.0,species,ott3.3draft1,"['Acmella calva oleracea', 'Acmella occidentalis', 'Anacyclus pyrethraria', 'Anthemis occidentalis', 'Bidens acmelloides', 'Bidens fervida', 'Bidens fixa', 'Bidens fusca', 'Bidens oleracea', 'Cotula pyrethraria', 'Isocarpha pyrethraria', 'Pyrethraria dichotoma', 'Pyrethrum spilanthus', 'Spilanthes acmella oleracea', 'Spilanthes calva oleracea', 'Spilanthes fusca', 'Spilanthes oleracea', 'Spilanthes oleracea fusca', 'Spilanthes oleracea oleracea', 'Spilanthes radicans']","['ncbi:469459', 'gbif:5386764', 'irmng:10212993']",Acmella oleracea,both,5794458.0,Archaeplastida,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Acmella,,Acmella oleracea,[],species
-XX 0 FRIBG 20060044,,,,,,Asteraceae,,,,Acmella oleracea (L.) R.K. Jansen,Serre 5,Acmella oleracea,90.0,acmella oleracea,False,False,ICN,1.0,acmella oleracea,[],False,False,Acmella oleracea,5794458.0,species,ott3.3draft1,"['Acmella calva oleracea', 'Acmella occidentalis', 'Anacyclus pyrethraria', 'Anthemis occidentalis', 'Bidens acmelloides', 'Bidens fervida', 'Bidens fixa', 'Bidens fusca', 'Bidens oleracea', 'Cotula pyrethraria', 'Isocarpha pyrethraria', 'Pyrethraria dichotoma', 'Pyrethrum spilanthus', 'Spilanthes acmella oleracea', 'Spilanthes calva oleracea', 'Spilanthes fusca', 'Spilanthes oleracea', 'Spilanthes oleracea fusca', 'Spilanthes oleracea oleracea', 'Spilanthes radicans']","['ncbi:469459', 'gbif:5386764', 'irmng:10212993']",Acmella oleracea,both,5794458.0,Archaeplastida,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Acmella,,Acmella oleracea,[],species
+Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott5794458
+
+
+Check Wikipedia entry here: https://en.wikipedia.org/wiki/Acmella_oleracea

@@ -1,11 +1,13 @@
 ---
-id: f08snmnm13vv10s00gzuiah
+id: c3gz6wxuoncu2y5h3ss0xui
 title: Acaena Pinnatifida
 desc: ''
-updated: 1646650020912
-created: 1646650020912
+updated: 1646656574141
+created: 1646656574141
 stub: false
 isDir: false
 ---
-ipen,determination,multiplication,hivernage,protectionHiv1,protectionHiv2,taxonFamille1,taxonControle,taxonBiblio,periodeDeSemis,idTaxon,secteur,matched_name,fuzzy_match_score,Inventaire FRIBG,is_approximate_match,is_synonym,nomenclature_code,score,search_string,taxon.flags,taxon.is_suppressed,taxon.is_suppressed_from_synth,taxon.name,taxon.ott_id,taxon.rank,taxon.source,taxon.synonyms,taxon.tax_sources,taxon.unique_name,_merge,ott_id,organism_otol_kingdom,organism_otol_phylum,organism_otol_class,organism_otol_order,organism_otol_family,organism_otol_genus,organism_otol_species,organism_otol_unique_name,flags,rank
-XX 0 FRIBG 10000479,,,,,,Rosaceae,,,,Acaena pinnatifida Ruiz et Pav.,Rocaille 1,Acaena pinnatifida,90.0,acaena pinnatifida,False,False,ICN,1.0,acaena pinnatifida,[],False,False,Acaena pinnatifida,984459.0,species,ott3.3draft1,"['Acaena aculeata', 'Acaena andicola', 'Acaena arthrotricha', 'Acaena calcitrapa', 'Acaena californica', 'Acaena cuneata', 'Acaena euacantha', 'Acaena fuegina', 'Acaena incisa', 'Acaena leptophylla', 'Acaena longifolia', 'Acaena lucida', 'Acaena montana', 'Acaena multifida', 'Acaena multifida abavia', 'Acaena multifida alaticonnata', 'Acaena multifida canella', 'Acaena multifida glaberrima', 'Acaena multifida intercedens', 'Acaena multifida macrophylla', 'Acaena multifida minor', 'Acaena multifida multiglomerulans', 'Acaena multifida quinquefida', 'Acaena multifida ramificans', 'Acaena multifida subexalaris', 'Acaena multifida utrinquepilosa', 'Acaena oligacantha', 'Acaena pectinata', 'Acaena philippi', 'Acaena pinnatifida aconcaguensis', 'Acaena pinnatifida aculeata', 'Acaena pinnatifida brevispica', 'Acaena pinnatifida calcitrapa', 'Acaena pinnatifida depauperata', 'Acaena pinnatifida elatior', 'Acaena pinnatifida eucantha', 'Acaena pinnatifida glabrata', 'Acaena pinnatifida glabricupula', 'Acaena pinnatifida gracilescens', 'Acaena pinnatifida grandiflora', 'Acaena pinnatifida heterotricha', 'Acaena pinnatifida humilior', 'Acaena pinnatifida hypoleuca', 'Acaena pinnatifida intermedia', 'Acaena pinnatifida leptophylla', 'Acaena pinnatifida liocarpa', 'Acaena pinnatifida longifolia', 'Acaena pinnatifida longiuscula', 'Acaena pinnatifida macrura', 'Acaena pinnatifida mansoensis', 'Acaena pinnatifida membranacea', 'Acaena pinnatifida mollis', 'Acaena pinnatifida nudiscapa', 'Acaena pinnatifida oligacantha', 'Acaena pinnatifida pallidiflora', 'Acaena pinnatifida parvifrons', 'Acaena pinnatifida pliacantha', 'Acaena pinnatifida tomentellicupula', 'Acaena pinnatifida uspallatensis', 'Acaena sericea', 'Acaena sericea latifoliolata', 'Acaena sericea robusta', 'Acaena sericea sericella', 'Acaena sericea subglabricupula', 'Acaena sericea tomentosicupula', 'Ancistrum acaena', 'Ancistrum pinnatifidum']","['ncbi:281873', 'gbif:5370645', 'gbif:5370716', 'irmng:10579083', 'irmng:10419437', 'irmng:10419502', 'irmng:11266703', 'irmng:11305282', 'irmng:11072947', 'irmng:11216823', 'irmng:10181155', 'irmng:10581965', 'irmng:11056317', 'irmng:10186898', 'irmng:10176793']",Acaena pinnatifida,both,984459.0,Archaeplastida,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Acaena,,Acaena pinnatifida,[],species
+Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott984459
+
+
+Check Wikipedia entry here: https://en.wikipedia.org/wiki/Acaena_pinnatifida
