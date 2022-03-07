@@ -1,0 +1,11 @@
+---
+id: xkx8s4wo9e9nhlurir2ge4m
+title: Clinopodium Acinos
+desc: ''
+updated: 1646650020908
+created: 1646650020908
+stub: false
+isDir: false
+---
+ipen,determination,multiplication,hivernage,protectionHiv1,protectionHiv2,taxonFamille1,taxonControle,taxonBiblio,periodeDeSemis,idTaxon,secteur,matched_name,fuzzy_match_score,Inventaire FRIBG,is_approximate_match,is_synonym,nomenclature_code,score,search_string,taxon.flags,taxon.is_suppressed,taxon.is_suppressed_from_synth,taxon.name,taxon.ott_id,taxon.rank,taxon.source,taxon.synonyms,taxon.tax_sources,taxon.unique_name,_merge,ott_id,organism_otol_kingdom,organism_otol_phylum,organism_otol_class,organism_otol_order,organism_otol_family,organism_otol_genus,organism_otol_species,organism_otol_unique_name,flags,rank
+CH 0 FRIBG 20080119,Sciboz J.,,,,,Lamiaceae,,,13 s,Acinos arvensis (Lam.) Dandy,SystÃÂ¨me 1,Acinos arvensis,90.0,acinos arvensis,False,True,ICN,1.0,acinos arvensis,['sibling_higher'],False,False,Clinopodium acinos,444441.0,species,ott3.3draft1,"['Acinos acinos publ', 'Acinos acuminatus', 'Acinos arvensis', 'Acinos arvensis acuminatus', 'Acinos arvensis argutus', 'Acinos arvensis arvensis', 'Acinos arvensis eglandulosus', 'Acinos arvensis lancifolius', 'Acinos arvensis perennans', 'Acinos arvensis villosus', 'Acinos clinopodiifacie oppr', 'Acinos eglandulosus', 'Acinos inflectus', 'Acinos schizodontus', 'Acinos subcrispus', 'Acinos thymoides', 'Acinos thymoides perennans', 'Acinos thymoides villosus', 'Acinos villosus', 'Acinos villosus argutus', 'Acinos vulgaris villosus', 'Calamintha acinos', 'Calamintha acinos lancifolia', 'Calamintha acinos villosa', 'Calamintha arvensis', 'Calamintha heterophylla', 'Calamintha villosa', 'Clinopodium acinos villosum', 'Faucibarba acinos', 'Melissa acinos', 'Melissa arvensis', 'Satureja acinos', 'Satureja acinos albiflora', 'Satureja acinos canescens', 'Satureja acinos ellpitica', 'Satureja acinos lancifolia', 'Satureja villosa', 'Thymus acinoides', 'Thymus acinos', 'Thymus acinos alpinus', 'Thymus acinos subglabra', 'Thymus acinos villosus', 'Thymus arvensis', 'Thymus canescens', 'Thymus diffusus', 'Thymus gibbosus', 'Thymus heterophyllus']","['ncbi:306377', 'gbif:2927118', 'irmng:10200782']",Clinopodium acinos,both,444441.0,Archaeplastida,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Clinopodium,,Clinopodium acinos,['sibling_higher'],species
