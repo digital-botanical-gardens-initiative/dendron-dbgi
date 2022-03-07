@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1646657070757
+updated: 1646662201835
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -32,7 +32,7 @@ For instance, the extraction method is not fixed. We will try some and determine
 
 ### Liquid nitrogen extraction
 
-The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds (De Vos et al., 2007).
+The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obrain a rotio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18<sub> (De Vos et al., 2007). 
 
 And we have this work which is of interest [[biblio.fosteropenscienceframework2017-zotero]]
 ### Dryed plants extraction
