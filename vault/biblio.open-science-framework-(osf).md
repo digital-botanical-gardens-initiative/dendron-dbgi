@@ -1,9 +1,9 @@
 ---
-id: zo1cbc0cak9fm5dn9s3ivte
-title: Fosteropenscienceframework2017 Zotero
+id: rgs771fw15l9qhwtxd7nhac
+title: Open Science Framework (Osf)
 desc: ''
-updated: 1646065741554
-created: 1646065741554
+updated: 1646980930058
+created: 1646980930058
 stub: false
 isDir: false
 ---
@@ -17,7 +17,8 @@ isDir: false
 * Date Added: [[2022-01-28]]
 * URL: [http://jmla.pitt.edu/ojs/jmla/article/view/88](http://jmla.pitt.edu/ojs/jmla/article/view/88)
 * DOI: [10.5195/jmla.2017.88](https://doi.org/10.5195/jmla.2017.88)
-* Cite key: fosterOpenScienceFramework2017
+* Cite key: undefined
+* Topics: [[biblio.open-science]]
 , #zotero, #literature-notes, #reference
 * PDF Attachments
 	- [Texte intégral](zotero://open-pdf/library/items/D6XDR3HQ)
@@ -28,6 +29,6 @@ The Open Science Framework (OSF) is a free, open source, research workflow w
 
 
 ##  Zotero links
-* [Local library](zotero://select/items/2_TGIISPD6)
+* [Local library](zotero://select/items/3_TGIISPD6)
 * [Cloud library](http://zotero.org/groups/4613367/items/TGIISPD6)
 

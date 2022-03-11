@@ -1,9 +1,9 @@
 ---
-id: eukvaucp0xzsbkd0b3tikw0
-title: Mirowskifutureopenscience2018 Zotero
+id: ltevmmaqluzzk4zq7qthsi4
+title: The Future(s) of Open Science
 desc: ''
-updated: 1646065741555
-created: 1646065741555
+updated: 1646980930059
+created: 1646980930059
 stub: false
 isDir: false
 ---
@@ -17,7 +17,8 @@ isDir: false
 * Date Added: [[2022-01-28]]
 * URL: [http://journals.sagepub.com/doi/10.1177/0306312718772086](http://journals.sagepub.com/doi/10.1177/0306312718772086)
 * DOI: [10.1177/0306312718772086](https://doi.org/10.1177/0306312718772086)
-* Cite key: mirowskiFutureOpenScience2018
+* Cite key: undefined
+* Topics: [[biblio.open-science]]
 , #zotero, #literature-notes, #reference
 
 ## Abstract
@@ -26,6 +27,6 @@ Almost everyone is enthusiastic that ‘open science’ is the wave of the futur
 
 
 ##  Zotero links
-* [Local library](zotero://select/items/2_R53XLFBC)
+* [Local library](zotero://select/items/3_R53XLFBC)
 * [Cloud library](http://zotero.org/groups/4613367/items/R53XLFBC)
 
