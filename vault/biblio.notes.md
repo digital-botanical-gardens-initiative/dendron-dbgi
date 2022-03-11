@@ -1,3 +1,10 @@
+---
+id: 03jqnk93ghuz60qdxzgy4wm
+title: Notes
+desc: ''
+updated: 1646980687638
+created: 1646980632733
+---
 To convert my references to markdown :
 
 Open Zotero -> Go to dbgi-bibliography -> right click on the reference -> Mdnotes -> export to markdown -> create a new folder called "biblio_dendron" -> put the md file in it
