@@ -1,13 +1,36 @@
 ---
-id: 121maqvc3stt4cagzq5xjpl
+id: 3rr3okqe3lb5gq0tj539i34
 title: Acer Japonicum
 desc: ''
-updated: 1646656574142
-created: 1646656574142
+updated: 1646978268960
+created: 1646978268960
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott814702
+This is the page dedicated to **Acer_japonicum**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Acer_japonicum
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott814702
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott814702"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Acer_japonicum
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Acer_japonicum"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    

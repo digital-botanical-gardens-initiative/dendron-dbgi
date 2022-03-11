@@ -1,13 +1,36 @@
 ---
-id: hfqya2eqmtw8hjy14aqo5zr
+id: i8rmszkpixnr03xsvgpespq
 title: Acer Sempervirens
 desc: ''
-updated: 1646656574142
-created: 1646656574142
+updated: 1646978268961
+created: 1646978268961
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott830658
+This is the page dedicated to **Acer_sempervirens**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Acer_sempervirens
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott830658
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott830658"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Acer_sempervirens
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Acer_sempervirens"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    

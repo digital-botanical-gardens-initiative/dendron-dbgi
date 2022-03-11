@@ -1,13 +1,36 @@
 ---
-id: bbj3wyowsilc48w3k4er6yo
+id: tdwxecc08frj8n5pos2kxy9
 title: Abutilon Grandifolium
 desc: ''
-updated: 1646656574140
-created: 1646656574140
+updated: 1646978268958
+created: 1646978268958
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott464177
+This is the page dedicated to **Abutilon_grandifolium**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Abutilon_grandifolium
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott464177
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott464177"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Abutilon_grandifolium
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Abutilon_grandifolium"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    

@@ -1,13 +1,36 @@
 ---
-id: bqyzd9z54g8nxax0s6f7wmm
+id: vapdl9wa113e2u0ybrmhn86
 title: Acanthus Montanus
 desc: ''
-updated: 1646656574139
-created: 1646656574139
+updated: 1646978268957
+created: 1646978268957
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott828092
+This is the page dedicated to **Acanthus_montanus**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Acanthus_montanus
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott828092
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott828092"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Acanthus_montanus
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Acanthus_montanus"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    

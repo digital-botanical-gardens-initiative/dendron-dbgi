@@ -1,13 +1,36 @@
 ---
-id: 8u10rv417t8kq20d32lyq33
+id: cdmiz87daamgu4099dnuxxt
 title: Abies Numidica
 desc: ''
-updated: 1646656574143
-created: 1646656574143
+updated: 1646978268962
+created: 1646978268962
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott140066
+This is the page dedicated to **Abies_numidica**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Abies_numidica
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott140066
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott140066"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Abies_numidica
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Abies_numidica"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    

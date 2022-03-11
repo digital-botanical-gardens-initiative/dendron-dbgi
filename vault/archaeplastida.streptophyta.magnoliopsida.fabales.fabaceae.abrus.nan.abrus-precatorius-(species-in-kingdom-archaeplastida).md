@@ -1,13 +1,36 @@
 ---
-id: ab0lhaf2n14fxqr3tybhtpe
+id: ho4wqhhrfl9toklr3ky3mgi
 title: Abrus Precatorius (Species in Kingdom Archaeplastida)
 desc: ''
-updated: 1646656574139
-created: 1646656574139
+updated: 1646978268957
+created: 1646978268957
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott39530
+This is the page dedicated to **Abrus_precatorius_(species_in_kingdom_Archaeplastida)**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Abrus_precatorius_(species_in_kingdom_Archaeplastida)
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott39530
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott39530"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Abrus_precatorius_(species_in_kingdom_Archaeplastida)
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Abrus_precatorius_(species_in_kingdom_Archaeplastida)"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    

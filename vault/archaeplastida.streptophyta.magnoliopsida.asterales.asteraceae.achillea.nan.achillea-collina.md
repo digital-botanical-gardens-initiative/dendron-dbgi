@@ -1,13 +1,36 @@
 ---
-id: x8qmb1ww8pii34dq4s022nw
+id: lq2750898yy3lrnxug4so11
 title: Achillea Collina
 desc: ''
-updated: 1646656574137
-created: 1646656574137
+updated: 1646978268955
+created: 1646978268955
 stub: false
 isDir: false
 ---
-Check OTOL tree here: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott245242
+This is the page dedicated to **Achillea_collina**
 
 
-Check Wikipedia entry here: https://en.wikipedia.org/wiki/Achillea_collina
+Direct link to OTOL entry: https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott245242
+
+
+
+<html>
+    <body>
+    <iframe src="https://tree.opentreeoflife.org/opentree/argus/opentree13.4@ott245242"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
+
+
+Direct link to Wikipedia entry: https://en.wikipedia.org/wiki/Achillea_collina
+
+
+
+<html>
+    <body>
+    <iframe src="https://en.wikipedia.org/wiki/Achillea_collina"
+    width="800" height="400" frameborder="0" allowfullscreen> </iframe>
+    </body>
+</html>
+    
