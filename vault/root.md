@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648040433853
+updated: 1648040676243
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -38,4 +38,4 @@ And we have this work which is of interest [[biblio.fosteropenscienceframework20
 
 
 
-<sub>1</sub>
+<sub>[1]</sub>
