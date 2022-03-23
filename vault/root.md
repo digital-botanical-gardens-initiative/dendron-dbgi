@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648045588137
+updated: 1648045702624
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -37,6 +37,6 @@ And we have this work which is of interest [[biblio.fosteropenscienceframework20
 ### Dryed plants extraction
 [[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry]]
 
-
+## References
 
 <sup>1</sup> [[biblio.open-science]]
