@@ -2,7 +2,7 @@
 id: Qi1Z0BWicJLYowGMW2l9r
 title: Buffer Dbgi
 desc: ''
-updated: 1645516291721
+updated: 1648045134859
 created: 1645443184300
 ---
 
@@ -45,3 +45,16 @@ ott3.3draft1
 Betula carpinifolia,Betula excelsa,Betula humilis,Betula lenta genuina,Betula uber
 Betula lenta
 ncbi:216994,gbif:5331709,irmng:10859215
+
+
+Different tests to have a nice bibliography
+
+[1](./dendron.biblio.open-science.md) Doesn't work
+
+[2](./biblio.open-science.md) Doesn't work
+
+[3](biblio.open-science.md) Doesn't work
+
+[4]([[biblio.open-science]]) Doesn't work
+
+[5](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/) Works but not optimal
