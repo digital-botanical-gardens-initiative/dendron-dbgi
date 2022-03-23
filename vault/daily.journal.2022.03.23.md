@@ -2,7 +2,7 @@
 id: u69a290q2ewegjliu9qs90z
 title: '2022-03-23'
 desc: ''
-updated: 1648051711499
+updated: 1648051795093
 created: 1648038806533
 traitIds:
   - journalNote
@@ -20,7 +20,7 @@ First lets check the last discussions on the forum https://github.com/digitized-
 - [ ] Read about the subject
 
 ### Today Notes & ideas
-
+Some solutions for the bibliography have been added to the buffer-dbgi note.
 
 
 
