@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648043795328
+updated: 1648044080372
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -17,7 +17,11 @@ The open science describes a working method in science that share the entire res
 
 [2](./biblio.open-science.md)
 
-[3](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/)
+[3](biblio.open-science.md)
+
+[4]([[biblio.open-science]])
+
+[5](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/)
 
 ## The pilot presentation
 
