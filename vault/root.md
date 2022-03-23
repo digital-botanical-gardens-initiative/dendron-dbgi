@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648045331332
+updated: 1648045588137
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -27,7 +27,7 @@ Finally, the results obtained will be analysed to select the best extraction met
 
 ## Extraction methods
 
-For instance, the extraction method is not fixed. We will try some and determine the chosen one later as explained above. The idea is at least to try one with liquid nitrogen to obtain the maximum of chemicals and another one with dryed plants to have a facilitated method to collect the plants wolrdwide without the problem of bringing liquid nitrogen in remote areas. The first one with liquid nitrogen seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection ([[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry.md.]]). But for many applications, it is impossible to use liquid nitrogen in the field, in the industry or to conserve these compounds until they get used by privates. That is why a method with dryed plants would be more convenient for the acquisition and the further potential utilisation in the industry or in the private context, thus these volatiles or unstable compounds are not so important to find.
+For instance, the extraction method is not fixed. We will try some and determine the chosen one later as explained above. The idea is at least to try one with liquid nitrogen to obtain the maximum of chemicals and another one with dryed plants to have a facilitated method to collect the plants wolrdwide without the problem of bringing liquid nitrogen in remote areas. The first one with liquid nitrogen seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection <sup>[4](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/q0w79srkd9gbnf1dl5l3ekw/)</sup>. But for many applications, it is impossible to use liquid nitrogen in the field, in the industry or to conserve these compounds until they get used by privates. That is why a method with dryed plants would be more convenient for the acquisition and the further potential utilisation in the industry or in the private context, thus these volatiles or unstable compounds are not so important to find.
 
 ### Liquid nitrogen extraction
 
@@ -39,4 +39,4 @@ And we have this work which is of interest [[biblio.fosteropenscienceframework20
 
 
 
-<sub>[1]</sub>
+<sup>1</sup> [[biblio.open-science]]
