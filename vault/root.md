@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648043723064
+updated: 1648043795328
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -13,7 +13,9 @@ Here you can find a pilot project that aim to digitize the Fribourg botanical ga
 
 The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science <sup>[[biblio.open-science]]</sup>.
 
-[2](./dendron.biblio.open-science.md)
+[1](./dendron.biblio.open-science.md)
+
+[2](./biblio.open-science.md)
 
 [3](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/)
 
