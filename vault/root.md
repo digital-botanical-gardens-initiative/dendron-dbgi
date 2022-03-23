@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648045702624
+updated: 1648046442130
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -31,12 +31,22 @@ For instance, the extraction method is not fixed. We will try some and determine
 
 ### Liquid nitrogen extraction
 
-The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obrain a rotio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18</sub> >([[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry.md]]). 
+The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obrain a rotio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18</sub><sup>[4](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/q0w79srkd9gbnf1dl5l3ekw/)</sup>. 
 
-And we have this work which is of interest [[biblio.fosteropenscienceframework2017-zotero]]
 ### Dryed plants extraction
-[[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry]]
+
 
 ## References
 
 <sup>1</sup> [[biblio.open-science]]
+<sup>2</sup> [[biblio.open-tree-of-life-synthetic-tree]]
+<sup>3</sup> [[biblio.open-tree-of-life-taxonomy]]
+<sup>4</sup> [[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry]]
+<sup>5</sup> [[biblio.a-metabolomics-strategy-for-authentication-of-plant-medicines-with-multiple-botanical-origins,-a-case-study-of-uncariae-rammulus-cum-uncis]]
+<sup>6</sup> [[biblio.a-supertree-pipeline-for-summarizing-phylogenetic-and-taxonomic-information-for-millions-of-species]]
+<sup>7</sup> [[biblio.open-science-framework-(osf)]]
+<sup>8</sup> [[biblio.an-enhanced-strategy-integrating-offline]]
+<sup>9</sup> [[biblio.automated-assembly-of-a-reference-taxonomy-for-phylogenetic-data-synthesis]]
+<sup>10</sup> [[biblio.long-term-metabolomics-reference-material]]
+<sup>11</sup> [[biblio.phylesystem-a-git-based-data-store-for-community-curated-phylogenetic-estimates-fig--1-]]
+<sup>12</sup> [[biblio.the-future(s)-of-open-science]]
