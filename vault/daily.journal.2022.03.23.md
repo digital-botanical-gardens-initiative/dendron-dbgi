@@ -2,7 +2,7 @@
 id: u69a290q2ewegjliu9qs90z
 title: '2022-03-23'
 desc: ''
-updated: 1648038806533
+updated: 1648051711499
 created: 1648038806533
 traitIds:
   - journalNote
@@ -15,9 +15,9 @@ First lets check the last discussions on the forum https://github.com/digitized-
 
 ### Today's Todo 
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Find a good way to manage bibliography
+- [ ] Continue the writing of the document
+- [ ] Read about the subject
 
 ### Today Notes & ideas
 
@@ -28,6 +28,7 @@ First lets check the last discussions on the forum https://github.com/digitized-
 
 ### Future Todo
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] See with PMA what's best for the bibliography
+- [ ] Continue the writing of the document
+- [ ] Continue to inform about the subject
+- [ ] Finding how to add the wikipedia and OTL link to all categories in the taxonomy
