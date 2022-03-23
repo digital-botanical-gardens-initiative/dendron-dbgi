@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648039497109
+updated: 1648039566754
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -16,7 +16,6 @@ The open science describes a working method in science that share the entire res
 ## The pilot presentation
 
 This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden. All plants will be classified following the Open Tree of Life taxonomy [[biblio.open-tree-of-life-synthetic-tree]], [[biblio.open-tree-of-life-taxonomy]].
-<>
 
 ## The methodology
 
@@ -39,11 +38,4 @@ And we have this work which is of interest [[biblio.fosteropenscienceframework20
 [[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry]]
 
 
-## References
-
-- EC (European Commission) (2022). Open Science : https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en [Consulted the 28th february 2022].
-
-- OTL (Open Tree of Life (2022). https://tree.opentreeoflife.org/about/open-tree-of-life [Consulted the 28th february 2022].
-
-- De Vos, R., Moco, S., Lommen, A., Keurentjes, J.J.B., Bino, R.J. & Hall, R.D. (2007). Untargeted large-scale plant metabolomics using liquid chromatography coupled to mass spectrometry. *Nature Publishing Group*, 2(4): https://www.researchgate.net/publication/6381678_Untargeted_large-scale_plant_metabolomics_using_liquid_chromatography_coupled_to_mass_spectrometry [Consulted the 28th february 2022].
 
