@@ -1,9 +1,9 @@
 ---
-id: ckw7i7b1xg8f6a98xh58c1x
+id: tanihptwdy0ilt6ip1zfv99
 title: Open Science
 desc: ''
-updated: 1648030339302
-created: 1648030339302
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -11,8 +11,8 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[webpage]]
-* Date Added: [[2022-02-01]]
+* Item Type: [Webpage](webpage)
+* Date Added: [2022-02-01](2022-02-01)
 * URL: [https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en)
 * Cite key: undefined
 * Topics: [[biblio.open-science]]

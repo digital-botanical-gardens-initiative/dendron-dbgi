@@ -1,11 +1,11 @@
 ---
-id: ya2osoxbjuq0quc51mals6b
+id: pz16haz1e6xv9czfs16l0s7
 title: >-
   A Metabolomics Strategy for Authentication of Plant Medicines with Multiple
   Botanical Origins, a Case Study of Uncariae Rammulus Cum Uncis
 desc: ''
-updated: 1648030339301
-created: 1648030339301
+updated: 1648041938828
+created: 1648041938828
 stub: false
 isDir: false
 ---
@@ -13,10 +13,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[huiqin-pan]], [[changliang-yao]], [[shuai-yao]], [[wenzhi-yang]], [[wanying-wu]], [[dean-guo]]
-* Date: [[03.2020]]
-* Date Added: [[2022-02-01]]
+* Date: [03/2020](03/2020)
+* Date Added: [2022-02-01](2022-02-01)
 * URL: [https://onlinelibrary.wiley.com/doi/10.1002/jssc.201901064](https://onlinelibrary.wiley.com/doi/10.1002/jssc.201901064)
 * DOI: [10.1002/jssc.201901064](https://doi.org/10.1002/jssc.201901064)
 * Cite key: undefined

@@ -1,9 +1,9 @@
 ---
-id: py0h0y4fz25wop5j6tucet1
+id: zcjnrkarnhjbr9u4ivj4bu6
 title: Long Term Metabolomics Reference Material
 desc: ''
-updated: 1648030339302
-created: 1648030339302
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -11,10 +11,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[goncalo-j.-gouveia]], [[amanda-o.-shaver]], [[brianna-m.-garcia]], [[alison-m.-morse]], [[erik-c.-andersen]], [[arthur-s.-edison]], [[lauren-m.-mcintyre]]
-* Date: [[2021-07-06]]
-* Date Added: [[2022-02-03]]
+* Date: [2021-07-06](2021-07-06)
+* Date Added: [2022-02-03](2022-02-03)
 * URL: [https://doi.org/10.1021/acs.analchem.1c01294](https://doi.org/10.1021/acs.analchem.1c01294)
 * DOI: [10.1021/acs.analchem.1c01294](https://doi.org/10.1021/acs.analchem.1c01294)
 * Cite key: undefined

@@ -1,9 +1,9 @@
 ---
-id: epr4j69vyk2x3tlshke3jve
+id: afp9xexc4zl8qehaypm9oo9
 title: Open Science Framework (Osf)
 desc: ''
-updated: 1648030339302
-created: 1648030339302
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -11,10 +11,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[erin-d.-foster]], [[ariel-deardorff]]
-* Date: [[2017-04-04]]
-* Date Added: [[2022-01-28]]
+* Date: [2017-04-04](2017-04-04)
+* Date Added: [2022-01-28](2022-01-28)
 * URL: [http://jmla.pitt.edu/ojs/jmla/article/view/88](http://jmla.pitt.edu/ojs/jmla/article/view/88)
 * DOI: [10.5195/jmla.2017.88](https://doi.org/10.5195/jmla.2017.88)
 * Cite key: undefined

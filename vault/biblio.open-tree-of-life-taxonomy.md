@@ -1,9 +1,9 @@
 ---
-id: be7uqnt2qmwazitqbibdd6k
+id: xbmwlxunh2po31yces4a5pp
 title: Open Tree of Life Taxonomy
 desc: ''
-updated: 1648030339302
-created: 1648030339302
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -11,10 +11,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[opentreeoflife]], [[[karen-a.-cranston]] [[[benjamin-redelings]] [[[luna-luisa-sanchez-reyes]] [[[jim-allman]] [[[emily-jane-mctavish]] [[[mark-t.-holder]]
-* Date: [[2019-10-30]]
-* Date Added: [[2022-02-01]]
+* Date: [2019-10-30](2019-10-30)
+* Date Added: [2022-02-01](2022-02-01)
 * URL: [https://zenodo.org/record/3937750](https://zenodo.org/record/3937750)
 * DOI: [10.5281/ZENODO.3937750](https://doi.org/10.5281/ZENODO.3937750)
 * Cite key: undefined

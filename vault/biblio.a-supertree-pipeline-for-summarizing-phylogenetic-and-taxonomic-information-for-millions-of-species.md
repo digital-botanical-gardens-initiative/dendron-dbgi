@@ -1,11 +1,11 @@
 ---
-id: sdckh5f6nbyt568zvgcm5vf
+id: 56u7kvnfw9fxm1d9nwt399z
 title: >-
   A Supertree Pipeline for Summarizing Phylogenetic and Taxonomic Information
   for Millions of Species
 desc: ''
-updated: 1648030339302
-created: 1648030339302
+updated: 1648041938828
+created: 1648041938828
 stub: false
 isDir: false
 ---
@@ -13,10 +13,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[benjamin-d.-redelings]], [[mark-t.-holder]]
-* Date: [[2017-03-01]]
-* Date Added: [[2022-02-01]]
+* Date: [2017-03-01](2017-03-01)
+* Date Added: [2022-02-01](2022-02-01)
 * URL: [https://peerj.com/articles/3058](https://peerj.com/articles/3058)
 * DOI: [10.7717/peerj.3058](https://doi.org/10.7717/peerj.3058)
 * Cite key: undefined

@@ -1,11 +1,11 @@
 ---
-id: jw3odnpz1berf2djxxccq3o
+id: q0w79srkd9gbnf1dl5l3ekw
 title: >-
   Untargeted Large Scale Plant Metabolomics Using Liquid Chromatography Coupled
   to Mass Spectrometry
 desc: ''
-updated: 1648030339303
-created: 1648030339303
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -13,10 +13,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[ric-ch-de-vos]], [[sofia-moco]], [[arjen-lommen]], [[joost-jb-keurentjes]], [[raoul-j-bino]], [[robert-d-hall]]
-* Date: [[4.2007]]
-* Date Added: [[2022-02-01]]
+* Date: [4/2007](4/2007)
+* Date Added: [2022-02-01](2022-02-01)
 * URL: [http://www.nature.com/articles/nprot.2007.95](http://www.nature.com/articles/nprot.2007.95)
 * DOI: [10.1038/nprot.2007.95](https://doi.org/10.1038/nprot.2007.95)
 * Cite key: undefined

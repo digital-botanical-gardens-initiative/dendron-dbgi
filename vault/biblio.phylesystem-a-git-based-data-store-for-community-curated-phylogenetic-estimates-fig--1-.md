@@ -1,11 +1,11 @@
 ---
-id: ov0kl7chio5ypovhvxnd69y
+id: iqkduh0vcdtkocjfnk5n0yi
 title: >-
   Phylesystem a Git Based Data Store for Community Curated Phylogenetic
   Estimates Fig  1 
 desc: ''
-updated: 1648030339303
-created: 1648030339303
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -13,10 +13,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[emily-jane-mctavish]], [[cody-e.-hinchliff]], [[james-f.-allman]], [[joseph-w.-brown]], [[karen-a.-cranston]], [[mark-t.-holder]], [[jonathan-a.-rees]], [[stephen-a.-smith]]
-* Date: [[2015-09-01]]
-* Date Added: [[2022-02-01]]
+* Date: [2015-09-01](2015-09-01)
+* Date Added: [2022-02-01](2022-02-01)
 * URL: [https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv276](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv276)
 * DOI: [10.1093/bioinformatics/btv276](https://doi.org/10.1093/bioinformatics/btv276)
 * Cite key: undefined

@@ -1,9 +1,9 @@
 ---
-id: t97klqigenk7n75szqywdt3
+id: n4qhexh8vmdsqqea7reiv6i
 title: The Future(s) of Open Science
 desc: ''
-updated: 1648030339303
-created: 1648030339303
+updated: 1648041938829
+created: 1648041938829
 stub: false
 isDir: false
 ---
@@ -11,10 +11,10 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [[article]]
+* Item Type: [Article](article)
 * Authors: [[philip-mirowski]]
-* Date: [[04.2018]]
-* Date Added: [[2022-01-28]]
+* Date: [04/2018](04/2018)
+* Date Added: [2022-01-28](2022-01-28)
 * URL: [http://journals.sagepub.com/doi/10.1177/0306312718772086](http://journals.sagepub.com/doi/10.1177/0306312718772086)
 * DOI: [10.1177/0306312718772086](https://doi.org/10.1177/0306312718772086)
 * Cite key: undefined
