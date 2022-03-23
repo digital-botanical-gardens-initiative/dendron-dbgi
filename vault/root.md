@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: Digitized Botanical gardens intitiative
 desc: ''
-updated: 1648046442130
+updated: 1648046700362
 created: 1645438795591
 ---
 ## Welcome to the digitized botanical gardens initiative website
@@ -39,14 +39,25 @@ The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to b
 ## References
 
 <sup>1</sup> [[biblio.open-science]]
+
 <sup>2</sup> [[biblio.open-tree-of-life-synthetic-tree]]
+
 <sup>3</sup> [[biblio.open-tree-of-life-taxonomy]]
+
 <sup>4</sup> [[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry]]
+
 <sup>5</sup> [[biblio.a-metabolomics-strategy-for-authentication-of-plant-medicines-with-multiple-botanical-origins,-a-case-study-of-uncariae-rammulus-cum-uncis]]
+
 <sup>6</sup> [[biblio.a-supertree-pipeline-for-summarizing-phylogenetic-and-taxonomic-information-for-millions-of-species]]
+
 <sup>7</sup> [[biblio.open-science-framework-(osf)]]
+
 <sup>8</sup> [[biblio.an-enhanced-strategy-integrating-offline]]
+
 <sup>9</sup> [[biblio.automated-assembly-of-a-reference-taxonomy-for-phylogenetic-data-synthesis]]
+
 <sup>10</sup> [[biblio.long-term-metabolomics-reference-material]]
+
 <sup>11</sup> [[biblio.phylesystem-a-git-based-data-store-for-community-curated-phylogenetic-estimates-fig--1-]]
+
 <sup>12</sup> [[biblio.the-future(s)-of-open-science]]
