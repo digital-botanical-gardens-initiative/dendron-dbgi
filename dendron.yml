@@ -80,6 +80,7 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    enableHierarchyDisplay: true
     assetsPrefix: /dendron-dbgi
     copyAssets: true
     siteHierarchies:
