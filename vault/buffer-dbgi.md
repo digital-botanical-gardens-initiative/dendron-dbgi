@@ -2,7 +2,7 @@
 id: Qi1Z0BWicJLYowGMW2l9r
 title: Buffer Dbgi
 desc: ''
-updated: 1648045134859
+updated: 1648109860522
 created: 1645443184300
 ---
 
@@ -47,6 +47,11 @@ Betula lenta
 ncbi:216994,gbif:5331709,irmng:10859215
 
 
+
+
+---- 
+
+
 Different tests to have a nice bibliography
 
 [1](./dendron.biblio.open-science.md) Doesn't work
@@ -58,3 +63,15 @@ Different tests to have a nice bibliography
 [4]([[biblio.open-science]]) Doesn't work
 
 [5](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/) Works but not optimal
+
+
+[[biblio.open-science]]
+
+[[Foo Note|dendron://vault/foo]]
+
+
+
+[[1|biblio.a-supertree-pipeline-for-summarizing-phylogenetic-and-taxonomic-information-for-millions-of-species]]
+
+
+[[biblio.an-enhanced-strategy-integrating-offline]]
