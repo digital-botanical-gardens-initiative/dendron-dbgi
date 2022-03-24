@@ -34,8 +34,11 @@ Go in Zotero to Tools -> Mdnotes preferences and follow these settings:
 
 ## References import on Dendron:
 1) Just for the first import: Create a folder named "biblio" on your computer and replace "path to "biblio" folder" with the correct pass of the folder.
+
 2) Go on Zotero, select the references to export, right click on it -> Better BibTeX -> Refresh BibTeX key -> right click -> Manage Attachments -> Rename and Move -> right click -> mdnotes -> Export to markdown. You now should have the references listed in the "biblio" folder in this format: "authorname_year.md".
+
 3) Just for the first import: Go to Visual Studio Code and ?
+
 4) For the next imports, you just have to repeat the 2nd step and then go to Visual Studio Code -> press ctrl+shift+p -> Dendron: Import Pod -> dendron.markdown and your references present in the "biblio" folder will be imported in the Dendron.
 
 Now you can add theses references in text ensured with double hooks.
