@@ -4,7 +4,6 @@
 # src: C:\Users\edoua\Desktop\Travail de bachelor\Biblio_dendron
 src: /Users/pma/Dropbox/git_repos/COMMONS_Lab/DBGI/taxonomical-preparator/data/out/taxo
 
-
 # description: name of vault to import into
 # type: string
 # required: true
