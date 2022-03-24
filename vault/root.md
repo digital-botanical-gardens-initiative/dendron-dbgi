@@ -31,6 +31,6 @@ For instance, the extraction method is not fixed. We will try some and determine
 
 ### Liquid nitrogen extraction
 
-The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obtain a ratio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18</sub>-reversed phase microbore with a small particle size. ([[biblio.devos_2007]]). 
+The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obtain a ratio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18</sub>-reversed phase microbore with a small particle size, with a 45 minutes low continuous acetonitrile gradient followed by 15 minutes of washing and stabilization of the gradient. For big analyses higher gradient with less time could be possible, with a loss of resolution ([[biblio.devos_2007]]). 
 
 ### Dryed plants extraction
