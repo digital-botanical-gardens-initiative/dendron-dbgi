@@ -1,11 +1,9 @@
 ---
-id: i74a231s1jm45dc4eli2jk5
-title: >-
-  Phylesystem a Git Based Data Store for Community Curated Phylogenetic
-  Estimates Fig  1 
+id: ywznxqlfadw9vm8bpx0wyo3
+title: Mctavish_2015
 desc: ''
-updated: 1648125742296
-created: 1648125742296
+updated: 1648125742295
+created: 1648125742295
 stub: false
 isDir: false
 ---
@@ -13,17 +11,17 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[emily-jane-mctavish]], [[cody-e.-hinchliff]], [[james-f.-allman]], [[joseph-w.-brown]], [[karen-a.-cranston]], [[mark-t.-holder]], [[jonathan-a.-rees]], [[stephen-a.-smith]]
-* Date: [2015-09-01](2015-09-01)
-* Date Added: [2022-02-01](2022-02-01)
+* Date: [[2015-09-01]]
+* Date Added: [[2022-02-01]]
 * URL: [https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv276](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv276)
 * DOI: [10.1093/bioinformatics/btv276](https://doi.org/10.1093/bioinformatics/btv276)
-* Cite key: undefined
+* Cite key: mctavish_2015
 * Topics: [[taxonomy]]
 , #zotero, #literature-notes, #reference
 * PDF Attachments
-	- [Texte intégral](zotero://open-pdf/library/items/BWMCRYYG)
+	- [mctavish_et_al_2015_phylesystem.pdf](zotero://open-pdf/library/items/BWMCRYYG)
 
 
 ##  Zotero links

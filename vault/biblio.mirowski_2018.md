@@ -1,9 +1,9 @@
 ---
-id: hugqsti7oiantpfry90t3f2
-title: The Future(s) of Open Science
+id: hvjstnij6dsxgrlqd5mnng2
+title: Mirowski_2018
 desc: ''
-updated: 1648125742296
-created: 1648125742296
+updated: 1648125742295
+created: 1648125742295
 stub: false
 isDir: false
 ---
@@ -11,13 +11,13 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[philip-mirowski]]
-* Date: [04/2018](04/2018)
-* Date Added: [2022-01-28](2022-01-28)
+* Date: [[04.2018]]
+* Date Added: [[2022-01-28]]
 * URL: [http://journals.sagepub.com/doi/10.1177/0306312718772086](http://journals.sagepub.com/doi/10.1177/0306312718772086)
 * DOI: [10.1177/0306312718772086](https://doi.org/10.1177/0306312718772086)
-* Cite key: undefined
+* Cite key: mirowski_2018
 * Topics: [[biblio.open-science]]
 , #zotero, #literature-notes, #reference
 

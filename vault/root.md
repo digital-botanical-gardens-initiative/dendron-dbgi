@@ -11,11 +11,11 @@ Here you can find a pilot project that aim to digitize the Fribourg botanical ga
 
 ## The open science project
 
-The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science <sup>[1](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/)</sup>.
+The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science ([[biblio._]]).
 
 ## The pilot presentation
 
-This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden. All plants will be classified following the Open Tree of Life taxonomy <sup>[2](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/phlzm2bqhtnouhsvyijcffk/), [3](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/xbmwlxunh2po31yces4a5pp/)</sup>.
+This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden. All plants will be classified following the Open Tree of Life taxonomy ([[biblio.opentreeoflife_2019]], [[biblio.opentreeoflife_2019a]]).
 
 ## The methodology
 
@@ -27,37 +27,10 @@ Finally, the results obtained will be analysed to select the best extraction met
 
 ## Extraction methods
 
-For instance, the extraction method is not fixed. We will try some and determine the chosen one later as explained above. The idea is at least to try one with liquid nitrogen to obtain the maximum of chemicals and another one with dryed plants to have a facilitated method to collect the plants wolrdwide without the problem of bringing liquid nitrogen in remote areas. The first one with liquid nitrogen seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection <sup>[4](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/q0w79srkd9gbnf1dl5l3ekw/)</sup>. But for many applications, it is impossible to use liquid nitrogen in the field, in the industry or to conserve these compounds until they get used by privates. That is why a method with dryed plants would be more convenient for the acquisition and the further potential utilisation in the industry or in the private context, thus these volatiles or unstable compounds are not so important to find.
+For instance, the extraction method is not fixed. We will try some and determine the chosen one later as explained above. The idea is at least to try one with liquid nitrogen to obtain the maximum of chemicals and another one with dryed plants to have a facilitated method to collect the plants wolrdwide without the problem of bringing liquid nitrogen in remote areas. The first one with liquid nitrogen seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection ([[biblio.devos_2007]]). But for many applications, it is impossible to use liquid nitrogen in the field, in the industry or to conserve these compounds until they get used by privates. That is why a method with dryed plants would be more convenient for the acquisition and the further potential utilisation in the industry or in the private context, thus these volatiles or unstable compounds are not so important to find.
 
 ### Liquid nitrogen extraction
 
-The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obtain a ratio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18</sub>-reversed phase microbore with a small particle size. <sup>[4](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/q0w79srkd9gbnf1dl5l3ekw/)</sup>. 
+The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. The plant is directly frozen by liquid nitrogen, some solvant is added to obtain a ratio solvent/sample of 3 and the solution is sonicated 15 minutes. The column used for the liquid chromatography is a C<sub>18</sub>-reversed phase microbore with a small particle size. ([[biblio.devos_2007]]). 
 
 ### Dryed plants extraction
-
-
-## References
-
-<sup>1</sup> [[biblio.open-science]]
-
-<sup>2</sup> [[biblio.open-tree-of-life-synthetic-tree]]
-
-<sup>3</sup> [[biblio.open-tree-of-life-taxonomy]]
-
-<sup>4</sup> [[biblio.untargeted-large-scale-plant-metabolomics-using-liquid-chromatography-coupled-to-mass-spectrometry]]
-
-<sup>5</sup> [[biblio.a-metabolomics-strategy-for-authentication-of-plant-medicines-with-multiple-botanical-origins,-a-case-study-of-uncariae-rammulus-cum-uncis]]
-
-<sup>6</sup> [[biblio.a-supertree-pipeline-for-summarizing-phylogenetic-and-taxonomic-information-for-millions-of-species]]
-
-<sup>7</sup> [[biblio.open-science-framework-(osf)]]
-
-<sup>8</sup> [[biblio.an-enhanced-strategy-integrating-offline]]
-
-<sup>9</sup> [[biblio.automated-assembly-of-a-reference-taxonomy-for-phylogenetic-data-synthesis]]
-
-<sup>10</sup> [[biblio.long-term-metabolomics-reference-material]]
-
-<sup>11</sup> [[biblio.phylesystem-a-git-based-data-store-for-community-curated-phylogenetic-estimates-fig--1-]]
-
-<sup>12</sup> [[biblio.the-future(s)-of-open-science]]

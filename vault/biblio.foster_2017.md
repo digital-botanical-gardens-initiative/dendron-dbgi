@@ -1,8 +1,8 @@
 ---
-id: vobpxlvbrdzz636nzgw0dvm
-title: Open Science Framework (Osf)
+id: j2rsz5dj8cbgvnzxpkhfd60
+title: Foster_2017
 desc: ''
-updated: 1648125742295
+updated: 1648125742294
 created: 1648125742295
 stub: false
 isDir: false
@@ -11,17 +11,17 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[erin-d.-foster]], [[ariel-deardorff]]
-* Date: [2017-04-04](2017-04-04)
-* Date Added: [2022-01-28](2022-01-28)
+* Date: [[2017-04-04]]
+* Date Added: [[2022-01-28]]
 * URL: [http://jmla.pitt.edu/ojs/jmla/article/view/88](http://jmla.pitt.edu/ojs/jmla/article/view/88)
 * DOI: [10.5195/jmla.2017.88](https://doi.org/10.5195/jmla.2017.88)
-* Cite key: undefined
+* Cite key: foster_2017
 * Topics: [[biblio.open-science]]
 , #zotero, #literature-notes, #reference
 * PDF Attachments
-	- [Texte intégral](zotero://open-pdf/library/items/D6XDR3HQ)
+	- [foster_deardorff_2017_open_science_framework_(osf).pdf](zotero://open-pdf/library/items/D6XDR3HQ)
 
 ## Abstract
 

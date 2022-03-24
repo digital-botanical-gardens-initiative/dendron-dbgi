@@ -1,9 +1,9 @@
 ---
-id: c7znrcf9r8140ybsmdd2td9
-title: Automated Assembly of a Reference Taxonomy for Phylogenetic Data Synthesis
+id: sq1t8p4espqo4okee2pjile
+title: Rees_2017
 desc: ''
-updated: 1648125742294
-created: 1648125742294
+updated: 1648125742296
+created: 1648125742296
 stub: false
 isDir: false
 ---
@@ -11,17 +11,17 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[jonathan-rees]], [[karen-cranston]]
-* Date: [2017-05-22](2017-05-22)
-* Date Added: [2022-02-01](2022-02-01)
+* Date: [[2017-05-22]]
+* Date Added: [[2022-02-01]]
 * URL: [http://bdj.pensoft.net/articles.php?id=12581](http://bdj.pensoft.net/articles.php?id=12581)
 * DOI: [10.3897/BDJ.5.e12581](https://doi.org/10.3897/BDJ.5.e12581)
-* Cite key: undefined
+* Cite key: rees_2017
 * Topics: [[taxonomy]]
 , #zotero, #literature-notes, #reference
 * PDF Attachments
-	- [Texte intégral](zotero://open-pdf/library/items/SMH7CVGU)
+	- [rees_cranston_2017_automated_assembly_of_a_reference.pdf](zotero://open-pdf/library/items/SMH7CVGU)
 
 
 ##  Zotero links

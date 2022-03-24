@@ -1,11 +1,9 @@
 ---
-id: bf6jx042whj7gvvlz3v4ou3
-title: >-
-  A Supertree Pipeline for Summarizing Phylogenetic and Taxonomic Information
-  for Millions of Species
+id: xeqomfhj3p33qqfei2soe3r
+title: Redelings_2017
 desc: ''
-updated: 1648125742294
-created: 1648125742294
+updated: 1648125742296
+created: 1648125742296
 stub: false
 isDir: false
 ---
@@ -13,17 +11,17 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[benjamin-d.-redelings]], [[mark-t.-holder]]
-* Date: [2017-03-01](2017-03-01)
-* Date Added: [2022-02-01](2022-02-01)
+* Date: [[2017-03-01]]
+* Date Added: [[2022-02-01]]
 * URL: [https://peerj.com/articles/3058](https://peerj.com/articles/3058)
 * DOI: [10.7717/peerj.3058](https://doi.org/10.7717/peerj.3058)
-* Cite key: undefined
+* Cite key: redelings_2017
 * Topics: [[taxonomy]]
 , #zotero, #literature-notes, #reference
 * PDF Attachments
-	- [Texte intégral](zotero://open-pdf/library/items/C7Z76U2N)
+	- [redelings_holder_2017_a_supertree_pipeline_for_summarizing.pdf](zotero://open-pdf/library/items/C7Z76U2N)
 
 ## Abstract
 

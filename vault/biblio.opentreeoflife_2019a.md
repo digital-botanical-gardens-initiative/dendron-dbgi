@@ -1,6 +1,6 @@
 ---
-id: xcpumocvuc5w2ndh1hrdufe
-title: Open Tree of Life Taxonomy
+id: mfrgmhelknul0xlc9tf9z0y
+title: Opentreeoflife_2019a
 desc: ''
 updated: 1648125742295
 created: 1648125742295
@@ -11,13 +11,13 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[opentreeoflife]], [[[karen-a.-cranston]] [[[benjamin-redelings]] [[[luna-luisa-sanchez-reyes]] [[[jim-allman]] [[[emily-jane-mctavish]] [[[mark-t.-holder]]
-* Date: [2019-10-30](2019-10-30)
-* Date Added: [2022-02-01](2022-02-01)
+* Date: [[2019-10-30]]
+* Date Added: [[2022-02-01]]
 * URL: [https://zenodo.org/record/3937750](https://zenodo.org/record/3937750)
 * DOI: [10.5281/ZENODO.3937750](https://doi.org/10.5281/ZENODO.3937750)
-* Cite key: undefined
+* Cite key: opentreeoflife_2019a
 * Topics: [[taxonomy]]
 , #zotero, #literature-notes, #reference
 
@@ -32,4 +32,4 @@ The reference taxonomy is an algorithmic combination of several source taxonomie
 
 ## Highlights and Annotations
 
-- [[open-tree-of-life-taxonomy---other]]
+- [[opentreeoflife_2019a---other]]

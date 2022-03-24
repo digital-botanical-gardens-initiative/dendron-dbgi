@@ -1,6 +1,6 @@
 ---
-id: nba3sff5krtwudxeac0rlc0
-title: Open Tree of Life Synthetic Tree
+id: 59kzlsii4fy8j7zgehnkne6
+title: Opentreeoflife_2019
 desc: ''
 updated: 1648125742295
 created: 1648125742295
@@ -11,13 +11,13 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[opentreeoflife]], [[[benjamin-redelings]] [[[luna-luisa-sanchez-reyes]] [[[karen-a.-cranston]] [[[jim-allman]] [[[mark-t.-holder]] [[[emily-jane-mctavish]]
-* Date: [2019-12-23](2019-12-23)
-* Date Added: [2022-02-01](2022-02-01)
+* Date: [[2019-12-23]]
+* Date Added: [[2022-02-01]]
 * URL: [https://zenodo.org/record/3937741](https://zenodo.org/record/3937741)
 * DOI: [10.5281/ZENODO.3937741](https://doi.org/10.5281/ZENODO.3937741)
-* Cite key: undefined
+* Cite key: opentreeoflife_2019
 * Topics: [[taxonomy]]
 , #zotero, #literature-notes, #reference
 
@@ -32,4 +32,4 @@ Open Tree of Life aims to construct a comprehensive, dynamic and digitally-avail
 
 ## Highlights and Annotations
 
-- [[open-tree-of-life-synthetic-tree---other]]
+- [[opentreeoflife_2019---other]]

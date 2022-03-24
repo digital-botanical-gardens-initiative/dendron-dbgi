@@ -1,6 +1,6 @@
 ---
-id: 90hn4g8gdi2shesg3h8ulra
-title: Long Term Metabolomics Reference Material
+id: 1bpc9dbos4wrrxmjs190gw6
+title: Gouveia_2021
 desc: ''
 updated: 1648125742295
 created: 1648125742295
@@ -11,17 +11,17 @@ isDir: false
 
 ## Metadata
 
-* Item Type: [Article](article)
+* Item Type: [[article]]
 * Authors: [[goncalo-j.-gouveia]], [[amanda-o.-shaver]], [[brianna-m.-garcia]], [[alison-m.-morse]], [[erik-c.-andersen]], [[arthur-s.-edison]], [[lauren-m.-mcintyre]]
-* Date: [2021-07-06](2021-07-06)
-* Date Added: [2022-02-03](2022-02-03)
+* Date: [[2021-07-06]]
+* Date Added: [[2022-02-03]]
 * URL: [https://doi.org/10.1021/acs.analchem.1c01294](https://doi.org/10.1021/acs.analchem.1c01294)
 * DOI: [10.1021/acs.analchem.1c01294](https://doi.org/10.1021/acs.analchem.1c01294)
-* Cite key: undefined
+* Cite key: gouveia_2021
 * Topics: [[qc]]
 , #zotero, #literature-notes, #reference
 * PDF Attachments
-	- [Full Text PDF](zotero://open-pdf/library/items/INZH7Z9W)
+	- [gouveia_et_al_2021_long-term_metabolomics_reference.pdf](zotero://open-pdf/library/items/INZH7Z9W)
 
 ## Abstract
 
