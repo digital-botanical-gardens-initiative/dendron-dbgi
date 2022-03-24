@@ -65,13 +65,8 @@ Different tests to have a nice bibliography
 [5](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/) Works but not optimal
 
 
-[[biblio.open-science]]
+[[testososo|biblio.open-science]]
 
 [[Foo Note|dendron://vault/foo]]
 
-
-
-[[1|biblio.a-supertree-pipeline-for-summarizing-phylogenetic-and-taxonomic-information-for-millions-of-species]]
-
-
-[[biblio.an-enhanced-strategy-integrating-offline]]
+[[zup|biblio.open-tree-of-life-synthetic-tree]]
