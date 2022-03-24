@@ -5,20 +5,21 @@ desc: ''
 updated: 1646983379614
 created: 1646980632733
 ---
-To convert my references to markdown :
+# How to use Zotero to create a bibliography on Dendron :
 
-Open Zotero -> Go to dbgi-bibliography -> right click on the reference -> Mdnotes -> export to markdown -> create a new folder called "biblio_dendron" -> put the md file in it
-When i do that, I have a md called "undefined-zotero.md" for all my references. The markdow however contains the right informations [^1]
+## Zotero installation:
+- Zotero 5.0.95.1 or older (Mdnotes for Zotero is actually not working on more recent versions) : https://zotero.en.uptodown.com/windows/versions
 
-To import my markdowns ro dendron :
+## Mandatory Zotero add-ons installation:
+- Better BibTex for Zotero : https://retorque.re/zotero-better-bibtex/
+- ZotFile : http://zotfile.com/
+- Mdnotes for Zotero : https://github.com/argenos/zotero-mdnotes
 
-ctrl + shift + P -> search "Import pod" -> config.import.yml
-When config.import.yml opened : [^2]
-On "src" I put the "C:\Users\edoua\Desktop\Travail de bachelor\Biblio_dendron" path
-On "vaultName" I don't know what i have to write. I tried "biblio." but it doesn't work
-And i don't know if there are other things to change or add to make a correct import.
+Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the extension in the Add-ons Manager -> "Install Now"
 
-Content [^3]
+## Set the add-ons settings:
 
-[^1]: [[biblio.long-term-metabolomics-reference-material.md]]
-[^1]
+### Better Bibtex for Zotero:
+Go in Zotero to Edit -> Better BibteX and follow these settings :
+![Better BibteX settings](assets/images/Bibtex_settings.png)
+
