@@ -8,14 +8,14 @@ created: 1646980632733
 # How to use Zotero to create a bibliography on Dendron:
 
 ## Zotero installation:
-- Zotero 5.0.95.1 or older (Mdnotes for Zotero is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions
+Zotero 5.0.95.1 or older (Mdnotes for Zotero is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions
 
 ## Mandatory Zotero add-ons installation:
 - Better BibTex for Zotero: https://retorque.re/zotero-better-bibtex/
 - ZotFile: http://zotfile.com/
 - Mdnotes for Zotero: https://github.com/argenos/zotero-mdnotes
 
-Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the extension in the Add-ons Manager -> "Install Now"
+Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the extension in the Add-ons Manager -> Install Now
 
 ## Set the add-ons settings:
 
@@ -32,4 +32,5 @@ Go in Zotero to Tools -> Mdnotes preferences and follow these settings:
 ![Mdnotes settings 1](assets/images/Mdnotes_settings_1.png)
 ![Mdnotes settings 2](assets/images/Mdnotes_settings_2.png)
 
-## 
+## Import references on Dendron:
+1. Create a folder named "biblio" on your computer and replace "Path to the bibliography folder on the Dendron folder"

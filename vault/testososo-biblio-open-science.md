@@ -1,2 +1,0 @@
-# testososo|biblio.open-science
-
