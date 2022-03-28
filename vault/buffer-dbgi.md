@@ -70,3 +70,6 @@ Different tests to have a nice bibliography
 [[Foo Note|dendron://vault/foo]]
 
 [[zup|biblio.open-tree-of-life-synthetic-tree]]
+
+
+[[Phylesystem|biblio.phylesystem-a-git-based-data-store-for-community-curated-phylogenetic-estimates-fig--1-]]
