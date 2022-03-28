@@ -8,9 +8,7 @@ created: 1646980632733
 # How to use Zotero to add references on the Digitized Botanical gardens initiative Dendron:
 
 ## Zotero installation and setup:
-Zotero 5.0.95.1 or older (Mdnotes for Zotero is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions
-
-A new version of mdnotes is however actually available in alpha (see image under), compatible with Zotero 6.x.xx.x. 
+Zotero 5.0.95.1 or older (Mdnotes for Zotero v0.1.3 is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions.
 
 Now you have to add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references. For this, go to https://www.zotero.org/groups/4613367/dbgi-bibliography and join the Zotero group. Now you can add your references in the folder to import them on Dendron.
 
