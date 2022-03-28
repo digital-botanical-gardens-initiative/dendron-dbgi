@@ -6,6 +6,16 @@ updated: 1648109860522
 created: 1645443184300
 ---
 
+# What is this page
+
+This page is a buffer note. Consiuder it as a scrapbook allowing toi copy / paste and share info that do not necessarily fit in a category / or that will not be kept on the long term.
+
+Ideally the buffer is filled from the top (older entries at the bottom)
+
+---
+
+
+# Buffer 
 
 organism_taxonomy_01domain	organism_taxonomy_02kingdom	organism_taxonomy_03phylum	organism_taxonomy_04class	organism_taxonomy_05order	organism_taxonomy_06family	organism_taxonomy_07tribe	organism_taxonomy_08genus	organism_taxonomy_09species
 Eukaryota	Archaeplastida	Streptophyta	Magnoliopsida	Dipsacales	Adoxaceae		Viburnum	Viburnum farreri
