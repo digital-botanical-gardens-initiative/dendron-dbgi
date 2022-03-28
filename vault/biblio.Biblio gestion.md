@@ -8,16 +8,16 @@ created: 1646980632733
 # How to use Zotero to add references on the Digitized Botanical gardens initiative Dendron:
 
 ## Zotero installation and setup:
-Zotero 5.0.95.1 or older (Mdnotes for Zotero v0.1.3 is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions.
+Zotero: https://www.zotero.org/download/.
 
-Now you have to add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references. For this, go to https://www.zotero.org/groups/4613367/dbgi-bibliography and join the Zotero group. Now you can add your references in the folder to import them on Dendron.
+Now you have to add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references. For this, go to https://www.zotero.org/groups/4613367/dbgi-bibliography, login or register and join the Zotero group. Now you can add your references in the folder to import them on Dendron.
 
 ## Mandatory Zotero add-ons installation:
-- Better BibTex for Zotero: https://retorque.re/zotero-better-bibtex/
-- ZotFile: http://zotfile.com/
-- Mdnotes for Zotero: https://github.com/argenos/zotero-mdnotes
+- Better BibTex for Zotero: https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.3.0/zotero-better-bibtex-6.3.0.xpi
+- ZotFile: https://github.com/jlegewie/zotfile/releases/download/v5.1.1/zotfile-5.1.1-fx.xpi
+- Mdnotes for Zotero: https://github.com/argenos/zotero-mdnotes/releases/download/0.2.0-alpha5/mdnotes-0.2.0-alpha5.xpi
 
-Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the extension in the Add-ons Manager -> Install Now
+Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the add-on file in the Add-ons Manager -> Install Now
 
 ## Set the add-ons settings:
 
