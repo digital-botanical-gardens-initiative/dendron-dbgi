@@ -7,8 +7,10 @@ created: 1646980632733
 ---
 # How to use Zotero to create a bibliography on Dendron:
 
-## Zotero installation:
+## Zotero installation and setup:
 Zotero 5.0.95.1 or older (Mdnotes for Zotero is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions
+
+Now add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references.
 
 ## Mandatory Zotero add-ons installation:
 - Better BibTex for Zotero: https://retorque.re/zotero-better-bibtex/
@@ -37,8 +39,8 @@ Go in Zotero to Tools -> Mdnotes preferences and follow these settings:
 
 2) Go on Zotero, select the references to export, right click on it -> Better BibTeX -> Refresh BibTeX key -> right click -> Manage Attachments -> Rename and Move -> right click -> mdnotes -> Export to markdown. You now should have the references listed in the "biblio" folder in this format: "authorname_year.md".
 
-3) Just for the first import: Go to Visual Studio Code and ?
+3) To configure the import: Go to Visual Studio Code -> ctrl + shift + p -> Dendron: Configure Pod -> dendron.markdown import markdown. Then add the "biblio" folder path on the "src:" line and "vault" on the "vaultName:" line.
 
-4) For the next imports, you just have to repeat the 2nd step and then go to Visual Studio Code -> press ctrl+shift+p -> Dendron: Import Pod -> dendron.markdown and your references present in the "biblio" folder will be imported in the Dendron.
+4) For the first and next imports, you just have to repeat the 2nd step and then go to Visual Studio Code -> press ctrl+shift+p -> Dendron: Import Pod -> dendron.markdown and your references present in the "biblio" folder will be imported in the Dendron.
 
 Now you can add theses references in text ensured with double hooks.
