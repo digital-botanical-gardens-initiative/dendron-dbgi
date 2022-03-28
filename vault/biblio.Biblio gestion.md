@@ -5,12 +5,14 @@ desc: ''
 updated: 1646983379614
 created: 1646980632733
 ---
-# How to use Zotero to create a bibliography on Dendron:
+# How to use Zotero to add references on the Digitized Botanical gardens initiative Dendron:
 
 ## Zotero installation and setup:
 Zotero 5.0.95.1 or older (Mdnotes for Zotero is actually not working on more recent versions): https://zotero.en.uptodown.com/windows/versions
 
-Now add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references.
+A new version of mdnotes is however actually available in alpha (see image under), compatible with Zotero 6.x.xx.x. 
+
+Now you have to add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references. For this, go to https://www.zotero.org/groups/4613367/dbgi-bibliography and join the Zotero group. Now you can add your references in the folder to import them on Dendron.
 
 ## Mandatory Zotero add-ons installation:
 - Better BibTex for Zotero: https://retorque.re/zotero-better-bibtex/
@@ -37,7 +39,7 @@ Go in Zotero to Tools -> Mdnotes preferences and follow these settings:
 ## References import on Dendron:
 1) Just for the first import: Create a folder named "biblio" on your computer and replace "path to "biblio" folder" with the correct pass of the folder.
 
-2) Go on Zotero, select the references to export, right click on it -> Better BibTeX -> Refresh BibTeX key -> right click -> Manage Attachments -> Rename and Move -> right click -> mdnotes -> Export to markdown. You now should have the references listed in the "biblio" folder in this format: "authorname_year.md".
+2) Go on the "dbgi-bibliography" folder in Zotero, select the new added references to export, right click on it -> Better BibTeX -> Refresh BibTeX key -> right click -> Manage Attachments -> Rename and Move -> right click -> mdnotes -> Export to markdown. You now should have the references listed in the "biblio" folder in this format: "authorname_year.md".
 
 3) To configure the import: Go to Visual Studio Code -> ctrl + shift + p -> Dendron: Configure Pod -> dendron.markdown import markdown. Then add the "biblio" folder path on the "src:" line and "vault" on the "vaultName:" line.
 
