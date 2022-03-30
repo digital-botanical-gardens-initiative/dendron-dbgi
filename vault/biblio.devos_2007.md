@@ -1,9 +1,9 @@
 ---
-id: kg3akq368d1tq6lwurnipd8
+id: z9gzz5bn7o4ku7m2c2j4zqi
 title: Devos_2007
 desc: ''
-updated: 1648125742294
-created: 1648125742294
+updated: 1648627503859
+created: 1648627503859
 stub: false
 isDir: false
 ---
@@ -14,7 +14,7 @@ isDir: false
 * Item Type: [[article]]
 * Authors: [[ric-ch-de-vos]], [[sofia-moco]], [[arjen-lommen]], [[joost-jb-keurentjes]], [[raoul-j-bino]], [[robert-d-hall]]
 * Date: [[4.2007]]
-* Date Added: [[2022-02-01]]
+* Date Added: [[2022-03-01]]
 * URL: [http://www.nature.com/articles/nprot.2007.95](http://www.nature.com/articles/nprot.2007.95)
 * DOI: [10.1038/nprot.2007.95](https://doi.org/10.1038/nprot.2007.95)
 * Cite key: devos_2007

@@ -9,7 +9,7 @@ created: 1645438795591
 
 Here you can find a pilot project that aim to digitize the Fribourg botanical garden with liquid chromatography extractions and mass spectrometry analyses. The goal of this pilot is to find an easy, normalized way to collect and analyse plants in different environments, to permit a project of untargeted large-scale plant metabolomic library further deployed at a national, whether international scale with a complete taxonomy based on the "Open Tree of Life" one. With these ambitions, the project will be achieved in open science, to provide an easy access to anyone who wants to take part of it.
 
-## The open science project
+## An open science project
 
 The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science ([[biblio._]]).
 

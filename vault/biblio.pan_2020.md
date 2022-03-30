@@ -1,9 +1,9 @@
 ---
-id: fpgyxe1umnb5k2ejioyi6tw
+id: j7kpjfoldu009jj9s7l13uo
 title: Pan_2020
 desc: ''
-updated: 1648125742296
-created: 1648125742296
+updated: 1648627503860
+created: 1648627503860
 stub: false
 isDir: false
 ---
@@ -14,7 +14,7 @@ isDir: false
 * Item Type: [[article]]
 * Authors: [[huiqin-pan]], [[changliang-yao]], [[shuai-yao]], [[wenzhi-yang]], [[wanying-wu]], [[dean-guo]]
 * Date: [[03.2020]]
-* Date Added: [[2022-02-01]]
+* Date Added: [[2022-03-01]]
 * URL: [https://onlinelibrary.wiley.com/doi/10.1002/jssc.201901064](https://onlinelibrary.wiley.com/doi/10.1002/jssc.201901064)
 * DOI: [10.1002/jssc.201901064](https://doi.org/10.1002/jssc.201901064)
 * Cite key: pan_2020

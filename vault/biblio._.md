@@ -1,9 +1,9 @@
 ---
-id: kfgvww1pfx35o0tna52hfch
+id: 5edc6k25mtxi5pshm65gnch
 title: _
 desc: ''
-updated: 1648125742293
-created: 1648125742293
+updated: 1648627503859
+created: 1648627503859
 stub: false
 isDir: false
 ---
@@ -12,10 +12,10 @@ isDir: false
 ## Metadata
 
 * Item Type: [[webpage]]
-* Date Added: [[2022-02-01]]
+* Date Added: [[2022-03-01]]
 * URL: [https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en)
 * Cite key: _
-* Topics: [[biblio.open-science]]
+* Topics: [[open-science]]
 , #zotero, #literature-notes, #reference
 
 ## Abstract

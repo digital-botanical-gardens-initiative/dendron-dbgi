@@ -1,9 +1,9 @@
 ---
-id: hvjstnij6dsxgrlqd5mnng2
+id: 3vu1zlr83a70mhxvprda6jt
 title: Mirowski_2018
 desc: ''
-updated: 1648125742295
-created: 1648125742295
+updated: 1648627503860
+created: 1648627503860
 stub: false
 isDir: false
 ---
@@ -14,11 +14,11 @@ isDir: false
 * Item Type: [[article]]
 * Authors: [[philip-mirowski]]
 * Date: [[04.2018]]
-* Date Added: [[2022-01-28]]
+* Date Added: [[2022-02-28]]
 * URL: [http://journals.sagepub.com/doi/10.1177/0306312718772086](http://journals.sagepub.com/doi/10.1177/0306312718772086)
 * DOI: [10.1177/0306312718772086](https://doi.org/10.1177/0306312718772086)
 * Cite key: mirowski_2018
-* Topics: [[biblio.open-science]]
+* Topics: [[open-science]]
 , #zotero, #literature-notes, #reference
 
 ## Abstract

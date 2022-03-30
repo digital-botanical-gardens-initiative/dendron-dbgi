@@ -1,9 +1,9 @@
 ---
-id: 1bpc9dbos4wrrxmjs190gw6
+id: dfamwutrxms689lzhshinfz
 title: Gouveia_2021
 desc: ''
-updated: 1648125742295
-created: 1648125742295
+updated: 1648627503859
+created: 1648627503859
 stub: false
 isDir: false
 ---
@@ -14,7 +14,7 @@ isDir: false
 * Item Type: [[article]]
 * Authors: [[goncalo-j.-gouveia]], [[amanda-o.-shaver]], [[brianna-m.-garcia]], [[alison-m.-morse]], [[erik-c.-andersen]], [[arthur-s.-edison]], [[lauren-m.-mcintyre]]
 * Date: [[2021-07-06]]
-* Date Added: [[2022-02-03]]
+* Date Added: [[2022-03-03]]
 * URL: [https://doi.org/10.1021/acs.analchem.1c01294](https://doi.org/10.1021/acs.analchem.1c01294)
 * DOI: [10.1021/acs.analchem.1c01294](https://doi.org/10.1021/acs.analchem.1c01294)
 * Cite key: gouveia_2021

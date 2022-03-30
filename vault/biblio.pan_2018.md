@@ -1,9 +1,9 @@
 ---
-id: rkkk4jpjv9gyg7wgl8lsed1
+id: zfmj9xpm2m91tiq83b7h5bg
 title: Pan_2018
 desc: ''
-updated: 1648125742296
-created: 1648125742296
+updated: 1648627503860
+created: 1648627503860
 stub: false
 isDir: false
 ---
@@ -14,7 +14,7 @@ isDir: false
 * Item Type: [[article]]
 * Authors: [[huiqin-pan]], [[changliang-yao]], [[wenzhi-yang]], [[shuai-yao]], [[yong-huang]], [[yibei-zhang]], [[wanying-wu]], [[dean-guo]]
 * Date: [[08.2018]]
-* Date Added: [[2022-02-01]]
+* Date Added: [[2022-03-01]]
 * URL: [https://linkinghub.elsevier.com/retrieve/pii/S0021967318307027](https://linkinghub.elsevier.com/retrieve/pii/S0021967318307027)
 * DOI: [10.1016/j.chroma.2018.05.066](https://doi.org/10.1016/j.chroma.2018.05.066)
 * Cite key: pan_2018
