@@ -1,13 +1,9 @@
 # description: Where to import from
 # type: string
-# <<<<<<< HEAD
 # required: true
-# src: C:\Users\edoua\Desktop\Travail de bachelor\Biblio_dendron
-#=======
 # # required: true
 src: C:\Users\edoua\Desktop\Travail de bachelor\Biblio_dendron
 # src: /Users/pma/Dropbox/git_repos/COMMONS_Lab/DBGI/taxonomical-preparator/data/out/taxo
-# >>>>>>> c47837377aaaa13bd5f2a7009beab7c288447279
 
 # description: name of vault to import into
 # type: string
