@@ -19,3 +19,4 @@ This pilot aim to try different extraction methods, species and plant parts to e
 
 [[methodology]]
 
+[[biblio.devos_2007]]
