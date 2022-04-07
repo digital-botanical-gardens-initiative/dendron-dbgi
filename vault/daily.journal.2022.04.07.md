@@ -1,0 +1,35 @@
+---
+id: 2dykap9rsrbn48yp5ga8a7r
+title: '2022-04-07'
+desc: ''
+updated: 1649317360653
+created: 1649317360653
+traitIds:
+  - journalNote
+---
+
+
+## Starting the day
+
+First lets check the last discussions on the forum https://github.com/digitized-botanical-gardens-initiative/forum/discussions
+
+### Today's Todo 
+
+- [ ] See with the botanical garden collaborators when we can make the cartography of the botanical garden.
+- [ ] 
+- [ ] 
+
+### Today Notes & ideas
+The DGPS and the drone are available, we just still have to see with the botanical garden collaborators to see when we can do the mesurements.
+
+For the lyophilisation, a night in the freezer at -80°C is ok and seems to work. The jar has been put in water ice during the transport to prevent melting before the transfer in the lyophilisator. one and a half hour later, it's still frozen without water in the bottom, what we didn't have with the liquid nitrogen directly.
+
+
+
+## Ending the day
+
+### Future Todo
+
+- [ ] 
+- [ ] 
+- [ ] 

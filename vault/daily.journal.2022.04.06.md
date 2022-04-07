@@ -42,8 +42,10 @@ Today afternoon is the meeting with Horst Machguth that is the owner of the dron
 
 ## Ending the day
 
+The drone fly is ok, but not already planified. We have to manage with the botanical garden collaborators when we can fly. The lyophilisation has not worked properly, so we have put the samples in the freezer at -80°C during the night
+
 ### Future Todo
 
+- [ ] Before the meeting with Reynald Delaloye, we have to put again the samples in the lyophilisation machine.
 - [ ] Tomorrow morning is the meeting with Reynald Delaloye that permits to use DGPS to georeference the cartography of the botanical garden
 - [ ] Find a better way to carry liquid nitrogen in the garden for the plants prelevation
-- [ ] 
