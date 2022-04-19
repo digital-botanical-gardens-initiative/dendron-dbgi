@@ -33,6 +33,17 @@ The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to b
 
 For the dried technic, 30mg dried powder seems to be a good weight for the sample. For the extraction, the same technic as liquid nitrogen seems to be good. In ([[biblio.pan_2020]]) however, only aqueous methanol at 75% concentration is used, with an utrasonic extraction of 1 hour un a water bath to extract alkaloids. After a 10 minutes centrifugation at 14'000 rpm, the supernatant is diluted 10 folds with 75% aqueous methanol. These solutions are stored at 4°C before analysis ([[biblio.pan_2020]]). Another technic is available for dryed plant extract with other reagants in [[biblio.pan_2018]].
 
+<<<<<<< HEAD
+To dry plants, the method we will use is probably silica gel in a ziplock bag. The best ratio is minimum 50-60g silica gel for 4-6g of plant material. It permits to have a great tissues conservation and is practical in the field. Moreover, it can be reused multiple time by heating the silica gel at 120°C during 2 hours ([[biblio.shibata_2013]]). Continue to 1.2. About silica gel point Shibata, 2013.
+
+
+#######parkinglot#####
+
+https://github.com/Stanford-ChEMH-MCAC/protocols/blob/master/sample_preparation/general_metabolite_extraction_from_plant_tissue.md
+
+
+=======
 ## Chromatography methods
 
 The column used for the liquid chromatography is a C<sub>18</sub>-reversed phase microbore with a small particle size, with a 45 minutes low continuous acetonitrile gradient followed by 15 minutes of washing and stabilization of the gradient. For big analyses higher gradient with less time could be possible, with a loss of resolution. All the steps are precisely described in [[biblio.devos_2007]]. 
+>>>>>>> 7973a94b4ae62cdabbedae932a9685e642f8f1b4
