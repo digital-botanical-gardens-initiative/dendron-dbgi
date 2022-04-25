@@ -2,7 +2,7 @@
 id: wohavl4oryqkh83hm9xu1aj
 title: '2022-04-25'
 desc: ''
-updated: 1650894843864
+updated: 1650894909794
 created: 1650892277256
 traitIds:
   - journalNote
@@ -15,8 +15,8 @@ First lets check the last discussions on the forum https://github.com/digitized-
 
 ### Today's Todo 
 
-- [ ] 
-- [ ] 
+- [ ] Finish the sample of the greenhouse 5 of the Fribourg botanical garden
+- [ ] Begin with some extractions
 - [ ] 
 
 ### Today Notes & ideas
