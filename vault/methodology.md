@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1650905826316
+updated: 1651481298862
 created: 1646063874468
 ---
 Firstly, we have cleaned the plant list of the Fribourg botanical garden to obtain a clear document with all unique species with their informations and locations in the garden. In the same time we have, with the help of the "Open Tree of Life" taxonomy, created a complete taxonomy of all plants. We try now to add a wikipedia and OTL link for any branch of the taxonomy, to have basic informations of them. These steps are not mandatory but permit to begin with good bases for the future of the project.
@@ -27,7 +27,7 @@ To dry plants, the method we will use is probably silica gel in a ziplock bag. T
 
 ### Extraction with liquid nitrogen samples
 
-The acidified aqueous methanol with 75% methanol and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites. Some solvant is added to the lyophilised sample to obtain a ratio solvent/sample of 3 and the solution is sonicated 15 minutes ([[biblio.devos_2007]]). 
+The acidified aqueous methanol with 80% methanol, 20% water and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites ([[biblio.devos_2007]]). For instance we have tested to prelevate 50 micrograms powder and add 1.7 microlitters solvent. This permits to obtain 1 microlitter supernatant.
 
 ### Extraction with dryed samples
 
