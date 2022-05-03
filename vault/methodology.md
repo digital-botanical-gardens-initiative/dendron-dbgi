@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1651481298862
+updated: 1651608285317
 created: 1646063874468
 ---
 Firstly, we have cleaned the plant list of the Fribourg botanical garden to obtain a clear document with all unique species with their informations and locations in the garden. In the same time we have, with the help of the "Open Tree of Life" taxonomy, created a complete taxonomy of all plants. We try now to add a wikipedia and OTL link for any branch of the taxonomy, to have basic informations of them. These steps are not mandatory but permit to begin with good bases for the future of the project.
@@ -27,11 +27,11 @@ To dry plants, the method we will use is probably silica gel in a ziplock bag. T
 
 ### Extraction with liquid nitrogen samples
 
-The acidified aqueous methanol with 80% methanol, 20% water and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites ([[biblio.devos_2007]]). For instance we have tested to prelevate 50 micrograms powder and add 1.7 microlitters solvent. This permits to obtain 1 microlitter supernatant.
+The acidified aqueous methanol with 80% methanol, 20% water and 0.1% formic acid seems to be the most efficient solvent for extraction of a large range of compounds, especially for secondary metabolites ([[biblio.devos_2007]]). For instance we have tested to prelevate 50 milligrams of powder and add 1.7 milliliters solvent. This permits to obtain ca. 1 milliliter of supernatant.
 
 ### Extraction with dryed samples
 
-For the dried technic, 30mg dried powder seems to be a good weight for the sample. For the extraction, the same technic as liquid nitrogen seems to be good. In ([[biblio.pan_2020]]) however, only aqueous methanol at 75% concentration is used, with an utrasonic extraction of 1 hour un a water bath to extract alkaloids. After a 10 minutes centrifugation at 14'000 rpm, the supernatant is diluted 10 folds with 75% aqueous methanol. These solutions are stored at 4°C before analysis ([[biblio.pan_2020]]). Another technic is available for dryed plant extract with other reagants in [[biblio.pan_2018]].
+For the dried technic, 30mg dried powder seems to be a good weight for the sample. For the extraction, the same technic as liquid nitrogen seems to be good. In ([[biblio.pan_2020]]) however, only aqueous methanol at 75% concentration is used, with an ultrasonic extraction of 1 hour un a water bath to extract alkaloids. After a 10 minutes centrifugation at 14'000 rpm, the supernatant is diluted 10 folds with 75% aqueous methanol. These solutions are stored at 4°C before analysis ([[biblio.pan_2020]]). Another technic is available for dryed plant extract with other reagents in [[biblio.pan_2018]].
 
 To dry plants, the method we will use is probably silica gel in a ziplock bag. The best ratio is minimum 50-60g silica gel for 4-6g of plant material. It permits to have a great tissues conservation and is practical in the field. Moreover, it can be reused multiple time by heating the silica gel at 120°C during 2 hours ([[biblio.shibata_2013]]). Continue to 1.2. About silica gel point Shibata, 2013.
 
