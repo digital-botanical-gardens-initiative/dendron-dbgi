@@ -2,7 +2,7 @@
 id: u99hayzbaqkdh7looobpuuc
 title: Ressources
 desc: ''
-updated: 1648461376735
+updated: 1652268964780
 created: 1648461376735
 ---
 
@@ -12,3 +12,6 @@ http://gigasciencejournal.com/blog/digital-botanical-garden/
 
 
 
+https://www.idigbio.org/
+
+@edouardbruelhart add a pages for links
