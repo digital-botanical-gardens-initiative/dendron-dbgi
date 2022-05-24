@@ -2,13 +2,16 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1653396725024
+updated: 1653398934746
 created: 1646063874468
 ---
 ## Data treatment
 
 The first step of this pilot was to clean up the list of the plants available in the Fribourg botanical garden with the help of a Python interface (for more details see : https://github.com/digitized-botanical-gardens-initiative/taxonomical-preparator). This has permitted to obtain a clear document with all unique species with their informations and locations in the garden. In the same time we have, with the help of the "Open Tree of Life" taxonomy, created a complete taxonomy of all plants. To this base, we have linked the OTL, Wikidata and Wikipedia page for each specimen of this list. We haven't found a good protocol to assign a unique ID for each plant yet. For instance, we have chosen to assign batch IDs that are in format DBGI_01_04_001 to DBGI_01_04_095 for the lyophilisated samples and DBGI_01_11_001 to DBGI_01_11_040 for the silica dryed ones. We have to find a way to link this with the iNaturalist website to have the exact location, pictures and other informations on each harvested samples.
 
+## Map of the Fribourg botanical garden with a drone
+
+To have a very precise location for each harvested sample, we have made a high resolution map of the Fribourg botanical garden with a drone. This map aim to to obtain centimetric coordinates precision of each sample using the Structure From Motion (SFM) technology.
 ## Harvesting method
 
 The general process used for the harvesting of one sample is firstly to take a minimum of four pictures (one of the plant in general, one of the flowers/fruits/seeds/leaves in detail, one of the prelevated zone and the last of the sample with the assigned code on it) (see an example with Physalis peruviana below). These pictures are for the iNaturalist page of the sample. 
@@ -26,7 +29,7 @@ The second step of the sampling is to prelevate
 
 For the sampling, we have tested two different methods, that are complementary :
 
-- Direct put the sample in liquid Nitrogen after prelevation, and then lyophilisate in batch of approximatively 50 samples during 48 hours
+- Direct put the sample in liquid Nitrogen after prelevation, and then lyophilisate in batch of approximatively 50 samples during 48 hours minimum
 - Put the samples in coffee filters and then in plastic bags with silica
 
 ### Liquid Nitrogen harvesting
