@@ -2,10 +2,36 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1651608285317
+updated: 1653396725024
 created: 1646063874468
 ---
-Firstly, we have cleaned the plant list of the Fribourg botanical garden to obtain a clear document with all unique species with their informations and locations in the garden. In the same time we have, with the help of the "Open Tree of Life" taxonomy, created a complete taxonomy of all plants. We try now to add a wikipedia and OTL link for any branch of the taxonomy, to have basic informations of them. These steps are not mandatory but permit to begin with good bases for the future of the project.
+## Data treatment
+
+The first step of this pilot was to clean up the list of the plants available in the Fribourg botanical garden with the help of a Python interface (for more details see : https://github.com/digitized-botanical-gardens-initiative/taxonomical-preparator). This has permitted to obtain a clear document with all unique species with their informations and locations in the garden. In the same time we have, with the help of the "Open Tree of Life" taxonomy, created a complete taxonomy of all plants. To this base, we have linked the OTL, Wikidata and Wikipedia page for each specimen of this list. We haven't found a good protocol to assign a unique ID for each plant yet. For instance, we have chosen to assign batch IDs that are in format DBGI_01_04_001 to DBGI_01_04_095 for the lyophilisated samples and DBGI_01_11_001 to DBGI_01_11_040 for the silica dryed ones. We have to find a way to link this with the iNaturalist website to have the exact location, pictures and other informations on each harvested samples.
+
+## Harvesting method
+
+The general process used for the harvesting of one sample is firstly to take a minimum of four pictures (one of the plant in general, one of the flowers/fruits/seeds/leaves in detail, one of the prelevated zone and the last of the sample with the assigned code on it) (see an example with Physalis peruviana below). These pictures are for the iNaturalist page of the sample. 
+
+![physalis peruviana general](assets\images\Physalis_peruviana_general.jpg)Physalis peruviana in general with it's label in the botanical garden (if available)
+
+![physalis peruviana detail](assets\images\Physalis_peruviana_detail.jpg)Detailed fruits and leaves of Physalis peruviana 
+
+![physalis peruviana sample location](assets\images\Physalis_peruviana_sample_loc.jpg)The location of the sampling indicated with the scalpel to know exactly what have been prelevated
+
+![physalis peruviana sample](assets\images\Physalis_peruviana_sample.jpg)Photo of the sample with the label (here Physalis peruviana, but for the next harvests, a unique code will be developed). Here the exemple has been made with the silica sampling
+
+
+The second step of the sampling is to prelevate 
+
+For the sampling, we have tested two different methods, that are complementary :
+
+- Direct put the sample in liquid Nitrogen after prelevation, and then lyophilisate in batch of approximatively 50 samples during 48 hours
+- Put the samples in coffee filters and then in plastic bags with silica
+
+### Liquid Nitrogen harvesting
+
+
 
 Secondly, the 96 well plate will be partly filled with the same specimen, extracted with different liquid chromatography methods to seclect the best extraction way. Another fraction of the plate will host different parts of the same plant to determine the chemistry differences between them. For instance, it is not clear if we will analyse these different parts separately or alltogether in the same well. If some well are still available, they will be filled with some species, selected randomly or not, in the Fribourg botanical garden.
 
