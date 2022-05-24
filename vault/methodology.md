@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1653398934746
+updated: 1653406168659
 created: 1646063874468
 ---
 ## Data treatment
@@ -12,6 +12,7 @@ The first step of this pilot was to clean up the list of the plants available in
 ## Map of the Fribourg botanical garden with a drone
 
 To have a very precise location for each harvested sample, we have made a high resolution map of the Fribourg botanical garden with a drone. This map aim to to obtain centimetric coordinates precision of each sample using the Structure From Motion (SFM) technology.
+
 ## Harvesting method
 
 The general process used for the harvesting of one sample is firstly to take a minimum of four pictures (one of the plant in general, one of the flowers/fruits/seeds/leaves in detail, one of the prelevated zone and the last of the sample with the assigned code on it) (see an example with Physalis peruviana below). These pictures are for the iNaturalist page of the sample. 
@@ -25,7 +26,9 @@ The general process used for the harvesting of one sample is firstly to take a m
 ![physalis peruviana sample](assets\images\Physalis_peruviana_sample.jpg)Photo of the sample with the label (here Physalis peruviana, but for the next harvests, a unique code will be developed). Here the exemple has been made with the silica sampling
 
 
-The second step of the sampling is to prelevate 
+The second step of the sampling is to add a point on the QField application (see chapter "Map of the Fribourg botanical garden with a drone"). This point will be exploited later to add a more precise location of the plant as possible on iNaturalist website.
+
+The first step is to prelevate the part of the plant indicated on the third picture and store it in liquid nitrogen or in silica gel, according to the prefered method, that are described below.
 
 For the sampling, we have tested two different methods, that are complementary :
 
@@ -34,7 +37,32 @@ For the sampling, we have tested two different methods, that are complementary :
 
 ### Liquid Nitrogen harvesting
 
+The liquide nitrogen sample seems to be more precise, but is more difficult to apply in nature. This technic seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection ([[biblio.devos_2007]]). But with the first results obtained, the lyophilisation seems to degrade a bit the sample, and the results are a bit less precise as silica gel method.
 
+In fact, for the pilot, the sample is put in a folded aluminium leaf, that is directly stored in the field in liquid nitrogen. After each harvesting (approximatively 50 samples), the batch is directly put in the lyophilisator for at least 48 hours. The aluminum leafs with samples are then stored at -80°C waiting the weighting and extraction. However, for the next extractions, 5ml falcon tubes seems to be better for the harvest and storage.
+
+### Silica gel harvesting
+
+The silica gel was first imagined for prelevating in difficult areas where liquid nitrogen is unavailable, because it's assumed to be less preservative as liquid nitrogen. But after the first tests, it seems to be better as the lyophilization to obtain the better quality samples.
+
+In fact, for the pilot, the sample is put in a brown coffee filter, and then in a ziplock plastic bag. The silica gel is added after the harvesting session (approximatively 40 samples, that represented approximatively 5 hours in the field). Then, the silica gel is changed regularly when it becomes white. After approximatively one month, the majority of the samples are dry and don't need a silica change anymore.
+
+## Extraction method
+
+We have chosen to use the same extraction method for liquid nitrogen and silica gel samples to have the best comparison results.
+
+Firstly, we prelevate 50 micrograms of dryed plants for each sample, with an error of 5%, corresponding to ±2.5 micrograms. This matter is weighted in 2ml rounded bottom eppendorf tubes, and three 4mm metal beads are added. The tubes are then stored in liquid nitrogen. The samples are given a unique code at this step, that will follow the sample during all the rest of the process. After that, the samples are passed in the Retsch machine 2.5 minutes at 25Hz. After that, 1.7ml of mix 80% methanol, 20% distillated water ans 0.1% formic acid is added, and the whole is passed in the Retsch 2.5 minutes at 25Hz again. Then, the tube is passed 2 minutes at 13'000RPM in a centrifugation machine and approximatively 1.4ml of supernatent is prelevated and stored in 1.5ml vials with non split caps. These vials are stored at -80°C.
+
+For the passage in the liquid chromatography and the mass specrometer, 300 microliters are prelevated in the 1.5ml vials and put in an other 1.5ml vial with a 400 microliters filter with a split cap. Thes vials are then put in the chromatograph and analyzed by batch of maximum 270 vials.
+
+
+
+
+
+
+
+
+# Old
 
 Secondly, the 96 well plate will be partly filled with the same specimen, extracted with different liquid chromatography methods to seclect the best extraction way. Another fraction of the plate will host different parts of the same plant to determine the chemistry differences between them. For instance, it is not clear if we will analyse these different parts separately or alltogether in the same well. If some well are still available, they will be filled with some species, selected randomly or not, in the Fribourg botanical garden.
 
