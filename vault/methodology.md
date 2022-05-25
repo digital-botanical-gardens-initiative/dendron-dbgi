@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1653481055666
+updated: 1653481446216
 created: 1646063874468
 ---
 ## Data treatment
@@ -19,11 +19,11 @@ The general process used for the harvesting of one sample is firstly to take a m
 
 ![physalis peruviana general](assets/images/Physalis_peruviana_general.jpg)Physalis peruviana in general with it's label in the botanical garden (if available)
 
-![physalis peruviana detail](assets\images\Physalis_peruviana_detail.jpg)Detailed fruits and leaves of Physalis peruviana 
+![physalis peruviana detail](assets/images/Physalis_peruviana_detail.jpg)Detailed fruits and leaves of Physalis peruviana 
 
-![physalis peruviana sample location](assets\images\Physalis_peruviana_sample_loc.jpg)The location of the sampling indicated with the scalpel to know exactly what have been prelevated
+![physalis peruviana sample location](assets/images/Physalis_peruviana_sample_loc.jpg)The location of the sampling indicated with the scalpel to know exactly what have been prelevated
 
-![physalis peruviana sample](assets\images\Physalis_peruviana_sample.jpg)Photo of the sample with the label (here Physalis peruviana, but for the next harvests, a unique code will be developed). Here the exemple has been made with the silica sampling
+![physalis peruviana sample](assets/images/Physalis_peruviana_sample.jpg)Photo of the sample with the label (here Physalis peruviana, but for the next harvests, a unique code will be developed). Here the exemple has been made with the silica sampling
 
 
 The second step of the sampling is to add a point on the QField application (see chapter "Map of the Fribourg botanical garden with a drone"). This point will be exploited later to add a more precise location of the plant as possible on iNaturalist website.
