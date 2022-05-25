@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: Methodology
 desc: ''
-updated: 1653406168659
+updated: 1653468767591
 created: 1646063874468
 ---
 ## Data treatment
@@ -55,6 +55,7 @@ Firstly, we prelevate 50 micrograms of dryed plants for each sample, with an err
 
 For the passage in the liquid chromatography and the mass specrometer, 300 microliters are prelevated in the 1.5ml vials and put in an other 1.5ml vial with a 400 microliters filter with a split cap. Thes vials are then put in the chromatograph and analyzed by batch of maximum 270 vials.
 
+test
 
 
 
@@ -62,7 +63,8 @@ For the passage in the liquid chromatography and the mass specrometer, 300 micro
 
 
 
-# Old
+
+# Older version
 
 Secondly, the 96 well plate will be partly filled with the same specimen, extracted with different liquid chromatography methods to seclect the best extraction way. Another fraction of the plate will host different parts of the same plant to determine the chemistry differences between them. For instance, it is not clear if we will analyse these different parts separately or alltogether in the same well. If some well are still available, they will be filled with some species, selected randomly or not, in the Fribourg botanical garden.
 
