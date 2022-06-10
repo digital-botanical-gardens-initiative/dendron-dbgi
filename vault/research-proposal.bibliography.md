@@ -2,7 +2,7 @@
 id: ja5dyhggtksdtkhf6qdksur
 title: Bibliography
 desc: ''
-updated: 1653916259891
+updated: 1654022213866
 created: 1653914697880
 ---
 
@@ -40,5 +40,30 @@ https://www.pnas.org/doi/full/10.1073/pnas.2115642118
 
 # Standards recommendations for the Earth BioGenome Project
 https://www.pnas.org/doi/full/10.1073/pnas.2115639118
+
+
+
+https://issues.org/astonishingly-hyperconnected-biodiversity-loss-climate-change-kearney/#.YpZUldzDeJM.twitter
+
+
+> Only by recognizing the complexity of biodiversity and the ancient and ongoing evolutionary and ecological processes that drive it will it be possible to develop coherent policies for sustaining the planet’s biodiversity and the services that it provides.
+> 
+
+
+# Biodiversity loss due to more than climate change
+
+https://www.science.org/doi/10.1126/science.abm6216
+
+
+# Our future in the Anthropocene biosphere
+
+
+https://link.springer.com/article/10.1007/s13280-021-01544-8
+
+
+Recently, the IPCC and IPBES issued their first joint report. It provides welcome high-level recognition that the climate and biodiversity crises are fundamentally connected. https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-report-biodiversity-and-climate-change
+
+[[people.maureen-kearney]]
+
 
 
