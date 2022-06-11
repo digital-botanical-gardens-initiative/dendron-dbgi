@@ -1,11 +1,11 @@
 ---
 id: txkHnVTI9AawnquiublXO
-title: Digitized Botanical gardens intitiative
+title: Digital Botanical Gardens Initiative
 desc: ''
-updated: 1652710269479
+updated: 1654966695023
 created: 1645438795591
 ---
-## Welcome to the digitized botanical gardens initiative website
+## Welcome to the  Digital Botanical Gardens Initiative Dendron Scientific
 
 Here you can find a pilot project that aim to digitize the Fribourg botanical garden with liquid chromatography extractions and mass spectrometry analyses. The goal of this pilot is to find an easy, normalized way to collect and analyse plants in different environments, to permit a project of untargeted large-scale plant metabolomic library further deployed at a national, whether international scale with a complete taxonomy based on the "Open Tree of Life" one. With these ambitions, the project will be achieved in open science, to provide an easy access to anyone who wants to take part of it.
 
