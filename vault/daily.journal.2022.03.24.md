@@ -10,7 +10,7 @@ traitIds:
 
 ## Starting the day
 
-First lets check the last discussions on the forum https://github.com/digitized-botanical-gardens-initiative/forum/discussions
+First lets check the last discussions on the forum https://github.com/digital-botanical-gardens-initiative/forum/discussions
 
 ### Today's Todo 
 

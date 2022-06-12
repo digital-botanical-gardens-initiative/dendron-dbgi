@@ -72,7 +72,7 @@ Different tests to have a nice bibliography
 
 [4]([[biblio.open-science]]) Doesn't work
 
-[5](https://digitized-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/) Works but not optimal
+[5](https://digital-botanical-gardens-initiative.github.io/dendron-dbgi/notes/tanihptwdy0ilt6ip1zfv99/) Works but not optimal
 
 
 [[testososo|biblio.open-science]]
