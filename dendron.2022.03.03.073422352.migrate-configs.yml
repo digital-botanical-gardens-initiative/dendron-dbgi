@@ -11,11 +11,11 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
-    siteUrl: 'https://digitized-botanical-gardens-initiative.github.io'
+    siteUrl: 'https://digital-botanical-gardens-initiative.github.io'
     assetsPrefix: /dendron-dbgi
     gh_edit_link: true
     gh_edit_link_text: Click here to edit this page on Github !
-    gh_edit_repository: 'https://github.com/digitized-botanical-gardens-initiative/dendron-dbgi'
+    gh_edit_repository: 'https://github.com/digital-botanical-gardens-initiative/dendron-dbgi'
     title: Dendron
     description: Personal knowledge space
     siteLastModified: true
