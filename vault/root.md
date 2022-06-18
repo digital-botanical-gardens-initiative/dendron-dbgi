@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: The Digital Botanical Gardens Initiative Dendron page
 desc: ''
-updated: 1655565301186
+updated: 1655565391937
 created: 1645438795591
 ---
 
@@ -18,5 +18,5 @@ The DBGI main goals are briefly summarized below :
 
 # An Open Science project
 
-The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science ([[biblio._]]).
+The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowledge and improve the participation, the innovation process, the creativity and the trust in science ([[biblio._]]).
 
