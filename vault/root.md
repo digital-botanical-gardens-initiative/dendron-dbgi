@@ -1,20 +1,22 @@
 ---
 id: txkHnVTI9AawnquiublXO
-title: Digital Botanical Gardens Initiative
+title: The Digital Botanical Gardens Initiative Dendron page
 desc: ''
-updated: 1654966695023
+updated: 1655565301186
 created: 1645438795591
 ---
-## Welcome to the  Digital Botanical Gardens Initiative Dendron Scientific
 
-Here you can find a pilot project that aim to digitize the Fribourg botanical garden with liquid chromatography extractions and mass spectrometry analyses. The goal of this pilot is to find an easy, normalized way to collect and analyse plants in different environments, to permit a project of untargeted large-scale plant metabolomic library further deployed at a national, whether international scale with a complete taxonomy based on the "Open Tree of Life" one. With these ambitions, the project will be achieved in open science, to provide an easy access to anyone who wants to take part of it.
+# Overview
 
-## An open science project
+The Digital Botanical Gardens Initiative (DBGI) ambitions to explore innovative solutions for the collection, management and sharing of digital information acquired on living botanical collections. A particular focus will be placed on the large scale characterization of the chemodiversity of living plants collections through mass spectrometric approaches. The acquired data will be structured, organized and connected with relevant metadata through semantic web technology. The gathered knowledge will then inform ecosystem functioning research and orient biodiversity conservation projects. The DBGI initially aims to take advantage of the readily available living collections of Swiss botanical gardens to establish robust and scalable biodiversity digitisation workflows. The ultimate goal is to apply these approaches in the field and at the global scale in wildlife ecosystems. 
+
+# Main goals
+
+The DBGI main goals are briefly summarized below :
+
+![](/assets/images/2022-06-18-17-13-23.png)
+
+# An Open Science project
 
 The open science describes a working method in science that share the entire research process and data to the relevant actors (Academia, Industry, Public authorities, citizen groups, ...). The goal is to diffuse the latest knowladges and improve the participation, the innovation process, the creativity and the trust in science ([[biblio._]]).
 
-## The pilot presentation
-
-This pilot aim to try different extraction methods, species and plant parts to elaborate a simple way to create a national, whether international metabolomic platform based on the mass spectromety. It will be based on 96 samples that corresponds to a 96 well plate for mass spectrometry to have a sufficient sample pool to determine the best exctraction method and begin with some random species available in the Fribourg botanical garden. All plants will be classified following the Open Tree of Life taxonomy ([[biblio.opentreeoflife_2019]], [[biblio.opentreeoflife_2019a]]).
-
-## [[methodology]]
