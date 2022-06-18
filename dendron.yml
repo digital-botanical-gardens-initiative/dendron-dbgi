@@ -102,7 +102,7 @@ publishing:
         description: Personal knowledge space
     github:
         enableEditLink: true
-        editLinkText: Click here to edit this page on Github !
+        editLinkText: Participate and click here to edit this page on Github !
         editBranch: main
         editViewMode: tree
         editRepository: >-
