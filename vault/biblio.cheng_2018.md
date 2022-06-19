@@ -1,10 +1,9 @@
 ---
-id: vk363tvtplcyk141edw780e
+id: a9g4fs0rw9k95olz7efi52t
 title: Cheng_2018
 desc: ''
-updated: 1649078466206
-created: 1649078466206
-stub: false
+updated: 1655667742652
+created: 1655667742652
 isDir: false
 ---
 # 10KP: A phylodiverse genome sequencing plan

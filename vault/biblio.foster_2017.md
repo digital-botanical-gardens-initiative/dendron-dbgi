@@ -1,10 +1,9 @@
 ---
-id: qyvpatbe7irz5zcec11pk3h
+id: zouaxc5rsauafwssvbq7xfp
 title: Foster_2017
 desc: ''
-updated: 1649078466206
-created: 1649078466206
-stub: false
+updated: 1655667742652
+created: 1655667742652
 isDir: false
 ---
 # Open Science Framework (OSF)

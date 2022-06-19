@@ -1,10 +1,9 @@
 ---
-id: x7nwmpqt69sj6k8pju58evk
+id: wovzupojulqoenjl9u21i17
 title: Chen_2014
 desc: ''
-updated: 1649078466205
-created: 1649078466205
-stub: false
+updated: 1655667742652
+created: 1655667742652
 isDir: false
 ---
 # DGNSS-C: A differential solution for enhancing smartphone GNSS performance

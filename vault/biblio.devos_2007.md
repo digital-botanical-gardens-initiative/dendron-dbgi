@@ -1,10 +1,9 @@
 ---
-id: y6n405t12zr1xz52aw5q6k1
+id: nziwoqud4bxsclv6fnk78a2
 title: Devos_2007
 desc: ''
-updated: 1649078466206
-created: 1649078466206
-stub: false
+updated: 1655667742652
+created: 1655667742652
 isDir: false
 ---
 # Untargeted large-scale plant metabolomics using liquid chromatography coupled to mass spectrometry

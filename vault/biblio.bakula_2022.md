@@ -1,10 +1,9 @@
 ---
-id: suadunesmda7g4mjhngy61l
+id: 8bc1zg3t36mimohdrgnra5d
 title: Bakula_2022
 desc: ''
-updated: 1649078466205
-created: 1649078466205
-stub: false
+updated: 1655667742652
+created: 1655667742652
 isDir: false
 ---
 # Performance of DGPS Smartphone Positioning with the Use of P(L1) vs. P(L5) Pseudorange Measurements

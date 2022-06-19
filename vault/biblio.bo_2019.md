@@ -1,10 +1,9 @@
 ---
-id: 68wvh7lssn49lmn82znuvtd
+id: nzxxgzl6x9hz2ji95gkwilx
 title: Bo_2019
 desc: ''
-updated: 1649078466205
-created: 1649078466205
-stub: false
+updated: 1655667742652
+created: 1655667742652
 isDir: false
 ---
 # Genomic and Imaging Data Supporting the Digitization of Ruili Botanical Garden
