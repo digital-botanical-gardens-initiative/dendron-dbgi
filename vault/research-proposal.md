@@ -2,13 +2,13 @@
 id: u2knp6eada3o9pw2i0maz2h
 title: Research Proposal
 desc: ''
-updated: 1655034215780
+updated: 1655669450136
 created: 1653914626113
 ---
 
 
 A research proposal should be written in order to briefly but clearly present the DBGI to potential collaborators and funders.
-The idea is to draft a 4-5 page proposal taht could eventually be published at RIO
+The idea is to draft a 4-5 page proposal that could eventually be published at RIO
 
 The document is available and editable at https://docs.google.com/document/d/1UYcAk1JyJzV_KIBxW2G8ILnNyV3jImBqroW4ESFVQfw/edit?usp=sharing
 A version (DBGI_proposal_v0.1) as been saved today Sunday 12 June 2022 
