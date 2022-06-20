@@ -2,7 +2,7 @@
 id: u2knp6eada3o9pw2i0maz2h
 title: Research Proposal
 desc: ''
-updated: 1655669450136
+updated: 1655713184019
 created: 1653914626113
 ---
 
@@ -25,3 +25,5 @@ A version (DBGI_proposal_v0.1) as been saved today Sunday 12 June 2022
 - What is the total number of different species in Swiss botanical gardens ?
 This should be answered. Get in touch with the guy in charge of the relational DB of species in Switzerland. Ask @manu or Alain 
 These are the Botalista people https://botalista.community/
+
+test
