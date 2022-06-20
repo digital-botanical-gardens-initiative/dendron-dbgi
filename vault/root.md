@@ -2,11 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: The Digital Botanical Gardens Initiative Dendron page
 desc: ''
-<<<<<<< HEAD
-updated: 1655448773026
-=======
 updated: 1655567577818
->>>>>>> 1969117e2328c1bc177db1973d3c677051cbf4fc
 created: 1645438795591
 ---
 
