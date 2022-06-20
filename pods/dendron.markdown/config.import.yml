@@ -2,7 +2,7 @@
 # type: string
 # required: true
 # # required: true
-src: C:\Users\edoua\Desktop\Travail de bachelor\Biblio_dendron
+src: C:\Users\edoua\Desktop\Travail de bachelor\Biblio_dendron\biblio
 # src: /Users/pma/Dropbox/git_repos/COMMONS_Lab/DBGI/taxonomical-preparator/data/out/taxo
 
 # description: name of vault to import into
