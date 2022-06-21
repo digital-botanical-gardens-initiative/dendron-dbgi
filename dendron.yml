@@ -19,6 +19,7 @@ commands:
     insertNoteIndex:
         enableMarker: false
     copyNoteLink: {}
+    templateHierarchy: template
 workspace:
     vaults:
         -
@@ -52,8 +53,12 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
@@ -66,6 +71,7 @@ workspace:
     maxNoteLength: 204800
     dendronVersion: 0.84.0
     enableFullHierarchyNoteTitle: false
+    enableHandlebarTemplates: true
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -105,6 +111,6 @@ publishing:
         editLinkText: Participate and click here to edit this page on Github !
         editBranch: main
         editViewMode: tree
-        editRepository: >-
-            https://github.com/digital-botanical-gardens-initiative/dendron-dbgi
+        editRepository: https://github.com/digital-botanical-gardens-initiative/dendron-dbgi
     enablePrettyLinks: true
+    enableTaskNotes: true
