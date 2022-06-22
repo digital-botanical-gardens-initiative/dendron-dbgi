@@ -2,7 +2,7 @@
 id: Qi1Z0BWicJLYowGMW2l9r
 title: Buffer Dbgi
 desc: ''
-updated: 1655027552120
+updated: 1655875954705
 created: 1645443184300
 ---
 
@@ -13,6 +13,8 @@ This page is a buffer note. Consiuder it as a scrapbook allowing toi copy / past
 Ideally the buffer is filled from the top (older entries at the bottom)
 
 ---
+
+
 
 
 # Buffer 
