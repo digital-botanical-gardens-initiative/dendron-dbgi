@@ -2,11 +2,11 @@
 id: oqjyhh23glvv5kns81yi68y
 title: ground-control-points
 desc: ''
-updated: 1655988626840
+updated: 1655990310235
 created: 1655970704287
 ---
 
-The ID corresponds to the number of the ground control points, X and Y correspond to the horizontal position and Z corresponds to the elevation in meters.
+The ID corresponds to the number of the ground control points, X and Y correspond to the horizontal position under CH1903+/LV95 projection and Z corresponds to the elevation in meters.
 
 <center>
 

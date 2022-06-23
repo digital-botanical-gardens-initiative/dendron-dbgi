@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: methodology
 desc: ''
-updated: 1655989937912
+updated: 1655990607510
 created: 1646063874468
 ---
 ## Bibliography import
@@ -30,7 +30,7 @@ The general process used for the harvesting of one sample is firstly to take a m
 ![physalis peruviana sample](assets/images/Physalis_peruviana_sample.jpg){max-width : 600px, display: block, margin: 0 auto}*Photo of the sample with the label (here Physalis peruviana, but for the next harvests, a unique code will be developed). Here the exemple has been made with the silica sampling*
 
 
-The second step of the sampling is to add a point on the map with the open source software QGIS. You can find complete explanations and processes [here](). This point will be exploited later to add a more precise location of the plant as possible on iNaturalist website.
+The second step of the sampling is to add a point on the map with the open source software QGIS. You can find complete explanations and processes [here](https://www.dbgi.org/dendron-dbgi/notes/s2z62u99lhdo7dvz3093fbb/). This point will be exploited later to add a more precise location of the plant as possible on iNaturalist website.
 
 The third step of the sampling is to prelevate the part of the plant indicated on the third picture and store it in liquid nitrogen or in silica gel, according to the prefered method, that are described below.
 
