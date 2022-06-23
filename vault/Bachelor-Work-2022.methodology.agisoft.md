@@ -2,7 +2,7 @@
 id: vic6a1naill9jh3j0b94pvh
 title: agisoft
 desc: ''
-updated: 1655971378519
+updated: 1655990807878
 created: 1655669059864
 ---
 ## 1) Import the drone pictures : 
@@ -27,7 +27,7 @@ Some points in the points cloud could be wrong aligned. To obtain a high quality
 
 ## 4) Georeferencing :
 
-Now we will import the ground control points to geolocate the map. You can find the ground control points coordinates of the Jardin botanique de l'université de Fribourg map [here](). To do that, we have to put them in a .txt file in the Reference/Import Reference tab. Then we put the settings displayed in Figure 5, then click *ok* and *yes to all* to create new control points. Then, in Reference settings we add the precision that is 2 centimeters under Marker accuracy (m).
+Now we will import the ground control points to geolocate the map. You can find the ground control points coordinates of the Jardin botanique de l'université de Fribourg map [here](https://www.dbgi.org/dendron-dbgi/notes/oqjyhh23glvv5kns81yi68y/). To do that, we have to put them in a .txt file in the Reference/Import Reference tab. Then we put the settings displayed in Figure 5, then click *ok* and *yes to all* to create new control points. Then, in Reference settings we add the precision that is 2 centimeters under Marker accuracy (m).
 
 ![Import control points](assets/images/import_references.png){max-width : 600px, display: block, margin: 0 auto}*Figure 5: Importation of control points*
 
