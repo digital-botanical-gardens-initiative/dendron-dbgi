@@ -1,6 +1,6 @@
 ---
 id: yfcyker90ehybzzidcwv2k0
-title: Drone Map
+title: drone-map
 desc: ''
 updated: 1655671090481
 created: 1655665529382

@@ -1,6 +1,6 @@
 ---
 id: ncecr276strq8ddetek9hn2
-title: Inaturalist
+title: inaturalist
 desc: ''
 updated: 1652954485633
 created: 1652954469821
