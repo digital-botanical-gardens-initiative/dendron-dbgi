@@ -1,9 +1,9 @@
 ---
-id: lzfqq8u85m3bfuutfwz4tf6
+id: y93ovm3qmgowyxkh1pbrpmu
 title: Mirowski_2018
 desc: ''
-updated: 1655667742653
-created: 1655667742653
+updated: 1655972030222
+created: 1655972030222
 isDir: false
 ---
 # The future(s) of open science
