@@ -2,12 +2,12 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: methodology
 desc: ''
-updated: 1655971951275
+updated: 1655989355350
 created: 1646063874468
 ---
 ## Bibliography import
 
-To import bibliography in the Dendron, you can refer to this [section]()
+To import bibliography in the Dendron, you can refer to this [section](https://www.dbgi.org/dendron-dbgi/notes/sjdf315d2g7bf4omgj04iwo/)
 
 ## Data treatment
 

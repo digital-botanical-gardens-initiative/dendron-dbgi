@@ -2,10 +2,20 @@
 id: oqjyhh23glvv5kns81yi68y
 title: ground-control-points
 desc: ''
-updated: 1655972313257
+updated: 1655988626840
 created: 1655970704287
 ---
 
 The ID corresponds to the number of the ground control points, X and Y correspond to the horizontal position and Z corresponds to the elevation in meters.
 
-![Control points](assets/images/control_points.png){max-width : 600px, display: block, margin: 0 auto}*Ground control points coordinates with MN95 projection*
+<center>
+
+|ID    |  X  |  Y  |  Z  |
+|:------:|:-----:|:-----:|:-----:|
+|1	|2578523.25381254	|1182279.10545675	|638.712743969075|
+|3	|2578531.3535295	|1182381.97163993	|637.935981184595|
+|4	|2578467.26463049	|1182369.74836427	|635.09435189904|
+|5	|2578495.48132894	|1182386.48850263	|636.235873985752|
+|6	|2578506.20331576	|1182454.65739935	|632.435948461215|
+|7	|2578414.52677361	|1182475.81653005	|632.833861436589|
+|8	|2578349.31324887	|1182478.89529241	|632.108228339522|
