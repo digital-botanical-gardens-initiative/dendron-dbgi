@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: methodology
 desc: ''
-updated: 1655989355350
+updated: 1655989937912
 created: 1646063874468
 ---
 ## Bibliography import
@@ -30,9 +30,9 @@ The general process used for the harvesting of one sample is firstly to take a m
 ![physalis peruviana sample](assets/images/Physalis_peruviana_sample.jpg){max-width : 600px, display: block, margin: 0 auto}*Photo of the sample with the label (here Physalis peruviana, but for the next harvests, a unique code will be developed). Here the exemple has been made with the silica sampling*
 
 
-The second step of the sampling is to add a point on the map via the QField application. You can find complete explanations and processes [here](). This point will be exploited later to add a more precise location of the plant as possible on iNaturalist website.
+The second step of the sampling is to add a point on the map with the open source software QGIS. You can find complete explanations and processes [here](). This point will be exploited later to add a more precise location of the plant as possible on iNaturalist website.
 
-The first step is to prelevate the part of the plant indicated on the third picture and store it in liquid nitrogen or in silica gel, according to the prefered method, that are described below.
+The third step of the sampling is to prelevate the part of the plant indicated on the third picture and store it in liquid nitrogen or in silica gel, according to the prefered method, that are described below.
 
 For the sampling, we have tested two different methods, that are complementary :
 
@@ -50,6 +50,10 @@ In fact, for the pilot, the sample is put in a folded aluminium leaf, that is di
 The silica gel was first imagined for prelevating in difficult areas where liquid nitrogen is unavailable, because it's assumed to be less preservative as liquid nitrogen. But after the first tests, it seems to be as good as the lyophilization to obtain high quality samples.
 
 In fact, for the pilot, the sample is put in a brown coffee filter, and then in a ziplock plastic bag. The silica gel is added after the harvesting session (approximatively 40 samples, that represented approximatively 5 hours in the field). Then, the silica gel is changed regularly when it becomes white. After approximatively one month, the majority of the samples are dry and don't need a silica change anymore.
+
+## Import samples on iNaturalist
+
+After the sampling in the field, we have to import the samples on Inaturalist to identify the plant species, add the pictures and add the precise location. The advantages and utility of iNaturalist are described [here](https://www.dbgi.org/dendron-dbgi/notes/ncecr276strq8ddetek9hn2/)
 
 ## Extraction method
 
