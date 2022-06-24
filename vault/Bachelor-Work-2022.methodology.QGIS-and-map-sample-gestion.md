@@ -2,7 +2,7 @@
 id: s2z62u99lhdo7dvz3093fbb
 title: QGIS and map sample gestion
 desc: ''
-updated: 1656077252873
+updated: 1656077391757
 created: 1655989511525
 ---
 
@@ -39,7 +39,7 @@ Before going to sample on the field, we have to create a new layer for the harve
 
 3) Go to *QFieldCloud Projects* and select the DBGI one to download on the smartphone. This step can take several minutes.
 
-4) When the project is open, go to the left menu and select your layer. Then click on the pencil at the top right to pass in edition mode. You can now add the harvested samples by searching and selecting it in the Plant_ID. Don't forget to add the DBG sample code. All the other field will be automatically filled. If, for any reason, the sample is not available in this field, select *aaunknown* parameter and fill the *unknown* field with the name of the sampled plant.
+4) When the project is open, go to the left menu and select your layer. Then click on the pencil at the top right to pass in edition mode. You can now add the harvested samples by searching and selecting it in the Plant_ID. Don't forget to add the DBG sample code. All the other fields will be automatically filled. If, for any reason, the sample is not available in this field, select *aaunknown* parameter and fill the *unknown* field with the name of the sampled plant.
 
 5) After the sample cession, reopen the left menu and click on the cloud. You just have to select *Push the modifications* to upload the modifications made on the server. You can then download them to the QGIS project on the computer.
 
