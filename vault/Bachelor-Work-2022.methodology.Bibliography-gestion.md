@@ -1,8 +1,8 @@
 ---
 id: sjdf315d2g7bf4omgj04iwo
-title: Bibligraphy gestion
+title: Bibliography gestion
 desc: ''
-updated: 1656062785645
+updated: 1656087584412
 created: 1648652137758
 ---
 
