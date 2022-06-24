@@ -2,7 +2,7 @@
 id: kvsq63izkgbpmrd8sg12rw4
 title: methodology
 desc: ''
-updated: 1656082288929
+updated: 1656085217768
 created: 1646063874468
 ---
 ## Bibliography import
@@ -61,9 +61,6 @@ We have chosen to use the same extraction method for liquid nitrogen and silica 
 
 Firstly, we prelevate 50 micrograms of dryed plants for each sample, with an error of 5%, corresponding to ±2.5 micrograms. This matter is weighted in 2ml rounded bottom eppendorf tubes, and three 4mm metal beads are added. The tubes are then stored in liquid nitrogen. The samples are given a unique code at this step, that will follow the sample during all the rest of the process. After that, the samples are passed in the Retsch machine 2.5 minutes at 25Hz. After that, 1.7ml of mix 80% methanol, 20% distillated water ans 0.1% formic acid is added, and the whole is passed in the Retsch 2.5 minutes at 25Hz again. Then, the tube is passed 2 minutes at 13'000RPM in a centrifugation machine and approximatively 1.4ml of supernatent is prelevated and stored in 1.5ml vials with non split caps. These vials are stored at -80°C.
 
-For the passage in the liquid chromatography and the mass specrometer, 300 microliters are prelevated in the 1.5ml vials and put in an other 1.5ml vial with a 400 microliters filter with a split cap. These vials are then put in the chromatograph and analyzed by batch of maximum 270 vials.
-
-
 ## Controls
 
 We have made 3 different controls to see the impact of the extraction on the sampes.
@@ -72,8 +69,18 @@ We have made 3 different controls to see the impact of the extraction on the sam
 - The seconde control is equivalent to the first control, but has been stored 5 days at room temperature with the metal beads to see a potential impact of the rusted beads.
 - The third control is just the extraction solution put on an eppedorf tube and prelevated some minutes later to put in vials for mass spectrometry analysis.
 
-## Link between the samples and the database
+## Liquid chromatography and Mass spectrometry analyse
 
-The link between the samples and the database can be resumed by the schema below.
+For the passage in the liquid chromatography and the mass specrometer, 300 microliters are prelevated in the 1.5ml vials and put in an other 1.5ml vial with a 400 microliters filters with a split cap. These vials are then put in the chromatograph and analyzed by batch of maximum 270 vials.
+
+## Mass Spectrometry Data treatment
+
+To treat the data, we have converted the raw MS data with [proteowizard](https://proteowizard.sourceforge.io/) to then use [MZmine 2.53](https://github.com/mzmine/mzmine2/releases) for the data correction. We then have imported the resluts on the [GNPS website]https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) to create the molecular network. Finally, the molecular network has been downloaded from GNPS to display and manage it with [Cytoscape 3.8.2](https://cytoscape.org/download_old_versions.html).
+
+![MS data treatment](assets/images/ms_data_treatment.png){max-width : 600px, display: block, margin: 0 auto}
+
+## Link between the samples, the results and the database
+
+The link between the samples, the results and the database can be resumed by the schema below.
 
 ![Project schema](assets/images/project_schema.png){max-width : 600px, display: block, margin: 0 auto}*Complete schema of the pilot project*
