@@ -1,9 +1,9 @@
 ---
-id: m0ttm0e48tc9znde5r77ahl
+id: o68lydtopbawgaq2h84kxy7
 title: _c
 desc: ''
-updated: 1656054163865
-created: 1656054163865
+updated: 1656059639672
+created: 1656059639672
 isDir: false
 ---
 # Hackaday

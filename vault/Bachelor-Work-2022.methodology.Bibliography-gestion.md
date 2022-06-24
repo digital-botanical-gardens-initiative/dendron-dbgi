@@ -2,7 +2,7 @@
 id: sjdf315d2g7bf4omgj04iwo
 title: Bibligraphy gestion
 desc: ''
-updated: 1653395246500
+updated: 1656062785645
 created: 1648652137758
 ---
 
@@ -25,16 +25,16 @@ Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons
 
 ### Better Bibtex for Zotero:
 Go in Zotero to Edit -> Better BibteX and follow these settings:
-![Better BibteX settings](assets/images/Bibtex_settings.png)
+![Better BibteX settings](assets/images/Bibtex_settings.png){max-width : 600px, display: block, margin: 0 auto}
 
 ### Zotfile:
 Go in Zotero to Tools -> Zotfile Preferences... and follow these settings in the "Renaming Rules" tab:
-![Zotfile settings](assets/images/Zotfile_settings.png)
+![Zotfile settings](assets/images/Zotfile_settings.png){max-width : 600px, display: block, margin: 0 auto}
 
 ### Mdnotes fo Zotero:
 Go in Zotero to Tools -> Mdnotes preferences and follow these settings:
-![Mdnotes settings 1](assets/images/Mdnotes_settings_1.png)
-![Mdnotes settings 2](assets/images/Mdnotes_settings_2.png)
+![Mdnotes settings 1](assets/images/Mdnotes_settings_1.png){max-width : 600px, display: block, margin: 0 auto}
+![Mdnotes settings 2](assets/images/Mdnotes_settings_2.png){max-width : 600px, display: block, margin: 0 auto}
 
 ## References import on Dendron:
 1) Just for the first import: Create a folder named "biblio" on your computer and replace "path to "biblio" folder" with the correct pass of the folder.

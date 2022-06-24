@@ -1,9 +1,9 @@
 ---
-id: hr23lcj0svuyaft0r9o7vn0
+id: snrt15832dkkhqpto3acms5
 title: Shibata_2013
 desc: ''
-updated: 1656054163868
-created: 1656054163868
+updated: 1656059639673
+created: 1656059639673
 isDir: false
 ---
 # Optimising the Protocols for Making Large Scale Collections of Silica gel dried material for Phylogenetics studies

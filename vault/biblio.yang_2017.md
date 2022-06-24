@@ -1,9 +1,9 @@
 ---
-id: ml1sx5076yiz0znygp1t09r
+id: ncthxkgm7lgr0gztpr4vi92
 title: Yang_2017
 desc: ''
-updated: 1656054163868
-created: 1656054163868
+updated: 1656059639673
+created: 1656059639673
 isDir: false
 ---
 # An efficient field and laboratory workflow for plant phylotranscriptomic projects
