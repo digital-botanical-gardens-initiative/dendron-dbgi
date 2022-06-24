@@ -1,6 +1,6 @@
 ---
 id: kvsq63izkgbpmrd8sg12rw4
-title: methodology
+title: bmethodology
 desc: ''
 updated: 1655990607510
 created: 1646063874468
