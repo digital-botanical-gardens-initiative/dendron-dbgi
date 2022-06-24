@@ -2,7 +2,7 @@
 id: ncecr276strq8ddetek9hn2
 title: iNaturalist
 desc: ''
-updated: 1656057552885
+updated: 1656057895008
 created: 1652954469821
 ---
 > "iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" ([[biblio._f]])
@@ -33,7 +33,7 @@ For now, we haven't found a satisfying automatized manner to import pictures and
 
 7) Add the species name for each plant on the "species name" field.
 
-8) Add the location for each plant using the QGIS exported CSV in the *Location* field.
+8) Add the location for each plant using the [QGIS](https://www.dbgi.org/dendron-dbgi/notes/s2z62u99lhdo7dvz3093fbb/) exported CSV in the *Location* field.
 
 9) Add the dbgi_id in the *Fields* field for each plant.
 
