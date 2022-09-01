@@ -114,3 +114,5 @@ publishing:
         editRepository: https://github.com/digital-botanical-gardens-initiative/dendron-dbgi
     enablePrettyLinks: true
     enableTaskNotes: true
+    ga:
+      tracking: G-EPEXM5GLLG
