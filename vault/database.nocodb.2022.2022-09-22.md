@@ -2,7 +2,7 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1663860588398
+updated: 1663861118197
 created: 1663846442568
 ---
 ## TODO
@@ -15,23 +15,26 @@ created: 1663846442568
 
 ### Pros - Cons
 
-❓ nocoDb
-        ❌ copy-paste
-        ❌ phone app
-        ❌ scroll
-        ✔️ open-source
-        ✔️ user friendly interface
-❌ OpenOffice Base
-        ❓ user friendly interface
-        ✔️ open-source
-        ✔️ copy-paste
-        ❌ phone app
-        ❌❌ Can't change column name 
-❓ dBeaver
-        ✔️ open-source
-        ✔️ copy-paste
-        ✔️ scroll
-        ✔️ SQL queries execution
-        ✔️ Triggers
-        ❓ user friendly interface
-        ❌ phone app
+#### ❓ nocoDb
+
+        -❌ copy-paste
+        -❌ phone app
+        -❌ scroll
+        -✔️ open-source
+        -✔️ user friendly interface
+
+#### ❌ OpenOffice Base
+        -❓ user friendly interface
+        -✔️ open-source
+        -✔️ copy-paste
+        -❌ phone app
+        -❌❌ Can't change column name 
+
+#### ❓ dBeaver
+        -✔️ open-source
+        -✔️ copy-paste
+        -✔️ scroll
+        -✔️ SQL queries execution
+        -✔️ Triggers
+        -❓ user friendly interface
+        -❌ phone app
