@@ -2,7 +2,7 @@
 id: sjdf315d2g7bf4omgj04iwo
 title: Bibliography gestion
 desc: ''
-updated: 1656087584412
+updated: 1663616594075
 created: 1648652137758
 ---
 
@@ -19,7 +19,7 @@ Now you have to add the "dbgi-bibliography" shared folder on Zotero to access to
 - ZotFile: https://github.com/jlegewie/zotfile/releases/download/v5.1.1/zotfile-5.1.1-fx.xpi
 - Mdnotes for Zotero: https://github.com/argenos/zotero-mdnotes/releases/download/0.2.0-alpha5/mdnotes-0.2.0-alpha5.xpi
 
-Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the add-on file in the Add-ons Manager -> Install Now
+Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the add-on file in the Add-ons  -> Install Now
 
 ## Set the add-ons settings:
 
