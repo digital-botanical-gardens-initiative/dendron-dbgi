@@ -2,7 +2,7 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1664196154809
+updated: 1664199353651
 created: 1663846442568
 ---
 ## TODO
@@ -18,25 +18,23 @@ created: 1663846442568
 #### ❓ nocoDb
 
 * https://www.nocodb.com/
-* 
+* Open-source
 * **Pricing**: Free
 * **Row limitations**: None
 
         -❌ copy-paste
         -❌ phone app
         -❌ scroll
-        -✔️ open-source
         -✔️ user friendly interface
 
 #### ❌ OpenOffice Base
 
 * https://www.openoffice.org/product/base.html
-*       
+* open-source      
 * **Pricing**: Free
 * **Row limitations**: 1,048,576 ?
 
         -❓ user friendly interface
-        -✔️ open-source
         -✔️ copy-paste
         -❌ phone app
         -❌❌ Can't change column name 
@@ -44,11 +42,10 @@ created: 1663846442568
 #### ❓ dBeaver
 
 * https://dbeaver.com/
-*
+* open-source
 * **Pricing**: https://dbeaver.com/buy/
 * **Row limitations**: None?
 
-        -✔️ open-source
         -✔️ copy-paste
         -✔️ scroll
         -✔️ SQL queries execution
@@ -60,11 +57,10 @@ created: 1663846442568
 #### ❌ Baserow
 
 * https://baserow.io/
-* 
+* open-source
 * **Pricing**: https://baserow.io/pricing
 * **Row limitations**: https://baserow.io/pricing
 
-        -✔️ open-source
         -✔️ user friendly interface
         -✔️ copy-paste
         -❌ Triggers
@@ -76,11 +72,10 @@ created: 1663846442568
 #### ❓ Grist
 
 * https://www.getgrist.com/
-*
+* open-source
 * **Pricing**: https://www2.getgrist.com/pricing
 * **Row limitations**: https://www2.getgrist.com/pricing
 
-        -✔️ open-source
         -✔️ user friendly interface
         -✔️ copy-paste
         -✔️ scroll
