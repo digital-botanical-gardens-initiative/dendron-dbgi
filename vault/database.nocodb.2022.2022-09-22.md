@@ -2,13 +2,13 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1664443925271
+updated: 1664459922998
 created: 1663846442568
 ---
 ## TODO
 
 - [x]    Check current db structure / AirTable
-- [ ]    Explore nocoDb
+- [x]    Explore nocoDb
 - [x]    Better opensource alternative to nocodb and airtable?
 - [ ]    Database backups
 
@@ -84,5 +84,23 @@ created: 1663846442568
         -❓ Triggers
         -❌ online
         -❌ phone app
-                -✔️ But nice web version for smartphone
+                -✔️ But nice web version on smartphone
         -✔️ history 
+
+#### ❓ Directus
+
+* https://directus.io/
+* open-source (GNU GENERAL PUBLIC LICENSE)
+* **Pricing**: https://directus.io/pricing/
+* **Row limitations**: None
+
+        -❌ Cloud
+        -✔️ Scroll (1000)
+        -✔️ Triggers
+        - ~ user friendly interface
+                -❌ Not easy to import from existing table
+        -❌ copy-paste
+                -✔️ But easy export to csv/Json/xml where you can choose which column and which items
+        -❌ phone app
+                -✔️ But nice web version on smartphone
+        -✔️ Possibility to create a dashboard
