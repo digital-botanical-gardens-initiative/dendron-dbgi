@@ -2,7 +2,7 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1664199353651
+updated: 1664443925271
 created: 1663846442568
 ---
 ## TODO
@@ -18,7 +18,7 @@ created: 1663846442568
 #### ❓ nocoDb
 
 * https://www.nocodb.com/
-* Open-source
+* Open-source (MIT License)
 * **Pricing**: Free
 * **Row limitations**: None
 
@@ -26,11 +26,13 @@ created: 1663846442568
         -❌ phone app
         -❌ scroll
         -✔️ user friendly interface
+        -✔️ Import feasible from airtable
+        -❌ SQL queries execution
 
 #### ❌ OpenOffice Base
 
 * https://www.openoffice.org/product/base.html
-* open-source      
+* open-source (Apache license 2.0)   
 * **Pricing**: Free
 * **Row limitations**: 1,048,576 ?
 
@@ -42,7 +44,7 @@ created: 1663846442568
 #### ❓ dBeaver
 
 * https://dbeaver.com/
-* open-source
+* open-source (Apache license 2.0)
 * **Pricing**: https://dbeaver.com/buy/
 * **Row limitations**: None?
 
@@ -57,7 +59,7 @@ created: 1663846442568
 #### ❌ Baserow
 
 * https://baserow.io/
-* open-source
+* open-source (License: https://github.com/bram2w/baserow/blob/master/LICENSE)
 * **Pricing**: https://baserow.io/pricing
 * **Row limitations**: https://baserow.io/pricing
 
@@ -72,7 +74,7 @@ created: 1663846442568
 #### ❓ Grist
 
 * https://www.getgrist.com/
-* open-source
+* open-source (Apache License 2.0)
 * **Pricing**: https://www2.getgrist.com/pricing
 * **Row limitations**: https://www2.getgrist.com/pricing
 
