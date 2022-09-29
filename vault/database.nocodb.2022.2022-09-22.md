@@ -2,7 +2,7 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1664459922998
+updated: 1664460285261
 created: 1663846442568
 ---
 ## TODO
@@ -13,9 +13,9 @@ created: 1663846442568
 - [ ]    Database backups
 
 
-### Pros - Cons
+## Pros - Cons
 
-#### ❓ nocoDb
+### ❓ nocoDb
 
 * https://www.nocodb.com/
 * Open-source (MIT License)
@@ -29,7 +29,7 @@ created: 1663846442568
         -✔️ Import feasible from airtable
         -❌ SQL queries execution
 
-#### ❌ OpenOffice Base
+### ❌ OpenOffice Base
 
 * https://www.openoffice.org/product/base.html
 * open-source (Apache license 2.0)   
@@ -41,7 +41,7 @@ created: 1663846442568
         -❌ phone app
         -❌❌ Can't change column name 
 
-#### ❓ dBeaver
+### ❓ dBeaver
 
 * https://dbeaver.com/
 * open-source (Apache license 2.0)
@@ -56,7 +56,7 @@ created: 1663846442568
         -❌ No free version
         -❌ phone app
 
-#### ❌ Baserow
+### ❌ Baserow
 
 * https://baserow.io/
 * open-source (License: https://github.com/bram2w/baserow/blob/master/LICENSE)
@@ -71,7 +71,7 @@ created: 1663846442568
         -❌ online
         - Basically same as AirTable but without apps
 
-#### ❓ Grist
+### ❓ Grist
 
 * https://www.getgrist.com/
 * open-source (Apache License 2.0)
@@ -87,7 +87,7 @@ created: 1663846442568
                 -✔️ But nice web version on smartphone
         -✔️ history 
 
-#### ❓ Directus
+### ❓ Directus
 
 * https://directus.io/
 * open-source (GNU GENERAL PUBLIC LICENSE)
