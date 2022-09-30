@@ -2,7 +2,7 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1664460285261
+updated: 1664522310462
 created: 1663846442568
 ---
 ## TODO
@@ -104,3 +104,7 @@ created: 1663846442568
         -❌ phone app
                 -✔️ But nice web version on smartphone
         -✔️ Possibility to create a dashboard
+        -✔️ Can be linked to a db (https://directus.io/#databases)
+                -✔️ Backup/history via db
+                - https://learndirectus.com/how-to-backup-directus/
+        
