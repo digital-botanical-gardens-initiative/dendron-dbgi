@@ -2,7 +2,7 @@
 id: oei17u7eiqmyw25c2einq2t
 title: 2022 09 22
 desc: ''
-updated: 1664522310462
+updated: 1664805621707
 created: 1663846442568
 ---
 ## TODO
@@ -103,8 +103,11 @@ created: 1663846442568
                 -✔️ But easy export to csv/Json/xml where you can choose which column and which items
         -❌ phone app
                 -✔️ But nice web version on smartphone
+        -✔️ Image as an item
         -✔️ Possibility to create a dashboard
         -✔️ Can be linked to a db (https://directus.io/#databases)
                 -✔️ Backup/history via db
                 - https://learndirectus.com/how-to-backup-directus/
+                - -> Resolve importation problem
+        -✔️ Allows Multilingual app
         
