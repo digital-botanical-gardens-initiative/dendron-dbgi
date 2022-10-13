@@ -6,8 +6,6 @@ updated: 1665406742323
 created: 1665062031188
 ---
 
-## DIRECTUS
-
 Access to db from localhost: http://directus.dbgi.org
 
 Generate table layout to create new table before importing csv:    
