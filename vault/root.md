@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: The Digital Botanical Gardens Initiative
 desc: ''
-updated: 1664815536040
+updated: 1665763628400
 created: 1645438795591
 ---
 
@@ -33,4 +33,4 @@ If we apply this "working with the garage door up" idea to a scientific research
 For the projects of the DBGI we will follow such approach in order to share early ideas and results but also the less shiny parts of the research projects. 
 Expect to find strange ideas, badly formulated text and poorly written code. However if you have time and interest you should be able to participate at each step of the process. Hopefully this will lead to enhanced collaboration and participation. Maybe yes, maybe not. Let's make it a methodological experiment !
 
-Each pages of this website are written in markdown and hosted on Github. You can edit them by clicking on the "Click here to edit this page on Github !" link at the bottom of the page.
+Each pages of this website are written in markdown and hosted on Github. You can edit them by clicking on the "Click here to edit this page on Github !" link at the bottom of the page
