@@ -1,5 +1,5 @@
 ---
-id: oqjyhh23glvv5kns81yi68y
+id: wqi7qfozmmbih89am4hils5
 title: ground-control-points
 desc: ''
 updated: 1655990310235

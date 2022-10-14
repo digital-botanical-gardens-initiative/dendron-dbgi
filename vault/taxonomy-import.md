@@ -1,8 +1,8 @@
 ---
-id: yd690j42b98sb3p2pt7decw
+id: 33he41crbpmxc3zfekajq5l
 title: Taxonomy Import
 desc: ''
-updated: 1664814713607
+updated: 1655027552111
 created: 1646646898643
 ---
 
@@ -12,10 +12,3 @@ We will exploit the import from markdown capacities of dendron see https://wiki.
 
 An import of similar folder structure should allow to reflect the taxo https://github.com/digital-botanical-gardens-initiative/taxonomical-preparator/tree/main/data/out/folder_struct/a/b
 
-
-## List of plants of the BGUniFR
-
-http://www.dbgi.org/dendron-jbuf/
-
-
-TODO (document the process to pass from the raw species list to a functional Dendron)
