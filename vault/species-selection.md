@@ -2,13 +2,13 @@
 id: u00xeh658r6bezvmllkxtpi
 title: Species Selection
 desc: ''
-updated: 1651608404940
+updated: 1665812745584
 created: 1645712028668
 ---
 
 # Species list
 
-For an overview of species present in the UniFr botanical garden you can have a look at the [[taxo]] hierarchy.
+For an overview of species present in the UniFr botanical garden you can have a look at this website http://www.dbgi.org/dendron-jbuf/.
 
 
 # Species selection
