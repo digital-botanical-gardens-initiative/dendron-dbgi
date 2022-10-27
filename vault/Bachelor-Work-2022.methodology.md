@@ -2,7 +2,7 @@
 id: miu199fuk0p6rmmpu0iyswd
 title: methodology
 desc: ''
-updated: 1656085217768
+updated: 1666267427137
 created: 1646063874468
 ---
 ## Bibliography import
@@ -59,7 +59,7 @@ After the sampling in the field, we have to import the samples on Inaturalist to
 
 We have chosen to use the same extraction method for liquid nitrogen and silica gel samples to have the best comparison results.
 
-Firstly, we prelevate 50 micrograms of dryed plants for each sample, with an error of 5%, corresponding to ±2.5 micrograms. This matter is weighted in 2ml rounded bottom eppendorf tubes, and three 4mm metal beads are added. The tubes are then stored in liquid nitrogen. The samples are given a unique code at this step, that will follow the sample during all the rest of the process. After that, the samples are passed in the Retsch machine 2.5 minutes at 25Hz. After that, 1.7ml of mix 80% methanol, 20% distillated water ans 0.1% formic acid is added, and the whole is passed in the Retsch 2.5 minutes at 25Hz again. Then, the tube is passed 2 minutes at 13'000RPM in a centrifugation machine and approximatively 1.4ml of supernatent is prelevated and stored in 1.5ml vials with non split caps. These vials are stored at -80°C.
+Firstly, we prelevate 50 milligrams of dryed plants for each sample, with an error of 5%, corresponding to ±2.5 milligrams. This matter is weighted in 2ml rounded bottom eppendorf tubes, and three 4mm metal beads are added. The tubes are then stored in liquid nitrogen. The samples are given a unique code at this step, that will follow the sample during all the rest of the process. After that, the samples are passed in the Retsch machine 2.5 minutes at 25Hz. After that, 1.7ml of mix 80% methanol, 20% distillated water ans 0.1% formic acid is added, and the whole is passed in the Retsch 2.5 minutes at 25Hz again. Then, the tube is passed 2 minutes at 13'000RPM in a centrifugation machine and approximatively 1.4ml of supernatent is prelevated and stored in 1.5ml vials with non split caps. These vials are stored at -80°C.
 
 ## Controls
 

@@ -2,13 +2,18 @@
 id: u00xeh658r6bezvmllkxtpi
 title: Species Selection
 desc: ''
-updated: 1665812745584
+updated: 1665814799763
 created: 1645712028668
 ---
 
 # Species list
 
 For an overview of species present in the UniFr botanical garden you can have a look at this website http://www.dbgi.org/dendron-jbuf/.
+
+Noting here. For the previous website a specific option needs to be set up for dendron publishing. Thnaks to Kevin @Dendron for this one.
+See line 43 here https://github.com/digital-botanical-gardens-initiative/dendron-jbuf/blob/ff84020e6fc43aca3e7aa7302a2f72b661f756e2/.github/workflows/publish.yml#L43
+
+
 
 
 # Species selection
