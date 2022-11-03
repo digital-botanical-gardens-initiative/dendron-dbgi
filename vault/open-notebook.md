@@ -1,7 +1,10 @@
 ---
-id: j7elakxwtnn3u917ha3fy9h
+id: 9ptd3t99ukog7mtpkdgviib
 title: Open Notebook
 desc: ''
-updated: 1666554781561
-created: 1666554781561
+updated: 1667490265116
+created: 1667483796820
 ---
+
+This is were you can access the DBGI Open Notebook.
+

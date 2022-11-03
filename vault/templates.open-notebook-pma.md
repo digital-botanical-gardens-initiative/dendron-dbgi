@@ -1,12 +1,12 @@
 ---
-id: 4tilv9fbyo1jrt8jkd8cj8f
-title: Daily Dbgi Labnote Pma
+id: d0pfmt03bq4h4n8oo11d0vs
+title: Open Notebook Pma
 desc: ''
-updated: 1665670155794
-created: 1665670112914
+updated: 1667483436962
+created: 1667483368106
 ---
 
-# This is PMA's DBGI lab notebook.
+# This is PMA's DBGI daily open-notebook.
 
 Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 
@@ -29,6 +29,7 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 ###
 ###
 ###
+
 
 ## Today I learned that
 
