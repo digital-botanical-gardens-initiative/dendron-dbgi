@@ -2,7 +2,7 @@
 id: vlp2lq6jscitl7t09tppc8p
 title: '2022-11-03'
 desc: ''
-updated: 1667493867629
+updated: 1667494103776
 created: 1667483796806
 traitIds:
   - open-notebook-pma
@@ -29,7 +29,7 @@ Today is 2022.11.03
 To be tested and compared with @edouardbruelhart implementation.
 Its there https://gist.github.com/Maarrk/01172c1689897979b944c05f8ca948b3
 
-Created the hooks and followed the tiuto.
+Created the hooks and followed the tuto.
 
 Lets try this now
 
