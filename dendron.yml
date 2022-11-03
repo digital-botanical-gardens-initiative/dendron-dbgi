@@ -18,7 +18,8 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
     templateHierarchy: template
 workspace:
     vaults:
@@ -72,6 +73,16 @@ workspace:
     dendronVersion: 0.84.0
     enableFullHierarchyNoteTitle: false
     enableHandlebarTemplates: true
+    hooks:
+        onCreate:
+            -
+                id: hello
+                pattern: hello.*
+                type: js
+            -
+                id: newbib
+                pattern: bib.*
+                type: js
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -84,25 +95,13 @@ preview:
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    enableHierarchyDisplay: true
-    assetsPrefix: /dendron-dbgi
     copyAssets: true
     siteHierarchies:
         - root
-    enableSiteLastModified: true
-    siteRootDir: docs
-    siteUrl: https://digital-botanical-gardens-initiative.github.io
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
-    enableRandomlyColoredTags: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
     writeStubs: false
+    siteRootDir: docs
     seo:
         title: Dendron
         description: Personal knowledge space
@@ -112,7 +111,20 @@ publishing:
         editBranch: main
         editViewMode: tree
         editRepository: https://github.com/digital-botanical-gardens-initiative/dendron-dbgi
-    enablePrettyLinks: true
+    enableSiteLastModified: true
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
     enableTaskNotes: true
+    enablePrettyLinks: true
+    searchMode: lookup
+    enableMermaid: true
+    enableHierarchyDisplay: true
+    assetsPrefix: /dendron-dbgi
+    siteUrl: https://digital-botanical-gardens-initiative.github.io
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
     ga:
-      tracking: G-EPEXM5GLLG
+        tracking: G-EPEXM5GLLG
