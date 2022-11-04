@@ -2,7 +2,7 @@
 id: vlp2lq6jscitl7t09tppc8p
 title: '2022-11-03'
 desc: ''
-updated: 1667494103776
+updated: 1667503510999
 created: 1667483796806
 traitIds:
   - open-notebook-pma
@@ -37,7 +37,16 @@ Lets try this now
 
 [[bib.gaudry_2021]]
 
+
+[[bib.walker_2022]]
+
+
 Not Working :( Discussing errors here https://discord.com/channels/717965437182410783/766135383335370783/1037768813552341035)
+
+
+There was also this one and I dont remember if it was investigated https://github.com/mivanit/dendron-citations
+
+
 
 
 ### Chat with Daniele Sylvestro
