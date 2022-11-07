@@ -2,7 +2,7 @@
 id: jnyx3o0lzw3m1lxqz2z2psn
 title: TODO
 desc: ''
-updated: 1667483632959
+updated: 1667824052663
 created: 1666857724079
 ---
 
@@ -12,4 +12,4 @@ created: 1666857724079
 - [x] backup
 - [ ] Create tutorial
 - [x] Hide pwd
-- [ ] change script to compare tables
+- [x] change script to compare tables
