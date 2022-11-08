@@ -2,12 +2,12 @@
 id: jnyx3o0lzw3m1lxqz2z2psn
 title: TODO
 desc: ''
-updated: 1667824052663
+updated: 1667920679128
 created: 1666857724079
 ---
 
 - [x] Create script to update database
-- [ ] Create script to format data (DBGI_id)
+- [x] Create script to format data (DBGI_id)
 - [x] Run script everyday (cronjob)
 - [x] backup
 - [ ] Create tutorial
