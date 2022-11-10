@@ -1,5 +1,5 @@
 ---
-id: yffeux7oa52oelm4jrq5xpy
+id: o7n5pvojo1ky0hbd86e6tst
 title: '2022-04-25'
 desc: ''
 updated: 1655027552117
@@ -7,6 +7,7 @@ created: 1650892277256
 traitIds:
   - journalNote
 ---
+
 
 
 ## Starting the day

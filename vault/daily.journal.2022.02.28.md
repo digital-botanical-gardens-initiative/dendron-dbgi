@@ -1,5 +1,5 @@
 ---
-id: ajht0gjpmnl676o1u5t22jz
+id: u6onqx095u4r2pji608uku0
 title: '2022-02-28'
 desc: ''
 updated: 1655027552109
@@ -7,6 +7,7 @@ created: 1646035368686
 traitIds:
   - journalNote
 ---
+
 
 ## Starting the day
 

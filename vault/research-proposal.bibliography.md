@@ -1,10 +1,11 @@
 ---
-id: lh678kybnr1mtblfhw7ows6
+id: zue2odnpgpr8qgdzgwbxj5u
 title: Bibliography
 desc: ''
 updated: 1654022213866
 created: 1653914697880
 ---
+
 
 
 # A complete digitization of German herbaria is possible, sensible and should be started now

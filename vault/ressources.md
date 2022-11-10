@@ -1,10 +1,11 @@
 ---
-id: s2gg8e244mm9cjh2qtmox14
+id: 165zhtrhauww30lf9dbp8fa
 title: Ressources
 desc: ''
-updated: 1662373047091
+updated: 1652268964780
 created: 1648461376735
 ---
+
 
 Found this interesting initiative while looking for the DBGI repo via google ...
 
@@ -15,11 +16,3 @@ http://gigasciencejournal.com/blog/digital-botanical-garden/
 https://www.idigbio.org/
 
 @edouardbruelhart add a pages for links
-
-https://github.com/nfdi4plants
-
-https://bicikl-project.eu/
-
-https://www.dissco.eu/
-
-https://blackrhinoconservation.com/

@@ -1,5 +1,5 @@
 ---
-id: 57nevnyyb39dqy1md51ndj6
+id: zyggmfzsugn2pi3ozn3lh74
 title: '2022-04-06'
 desc: ''
 updated: 1655027552123
@@ -7,6 +7,7 @@ created: 1649236372024
 traitIds:
   - journalNote
 ---
+
 
 
 ## Starting the day

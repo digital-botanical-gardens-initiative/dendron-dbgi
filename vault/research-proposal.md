@@ -1,10 +1,11 @@
 ---
-id: vwmf3kyfzjeeeq777vdof8j
+id: p6xf974t6tqndzis0qjc9j6
 title: Research Proposal
 desc: ''
 updated: 1655713184019
 created: 1653914626113
 ---
+
 
 
 A research proposal should be written in order to briefly but clearly present the DBGI to potential collaborators and funders.
