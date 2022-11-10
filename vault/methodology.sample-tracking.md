@@ -1,8 +1,8 @@
 ---
-id: xv6n4p518atpb0xuyoo939b
+id: kw8d33ou2rr8ypjeltuxzny
 title: Sample Tracking
 desc: ''
-updated: 1657175830151
+updated: 1652954448284
 created: 1650384872179
 ---
 
@@ -14,15 +14,6 @@ This papers seems to offer some nice solutions
 https://www.biorxiv.org/content/10.1101/457051v1.full.pdf
 
 https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13405
-
-
-
-## Nocodb
-
-Looking into nocodb (https://www.nocodb.com/) to handle the sample tracking.
-
-A postgres was established on the commons lab server and exposed at http://commons.dbgi.org/
-
 
 
 

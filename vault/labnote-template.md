@@ -1,10 +1,11 @@
 ---
-id: rdezxl0axca5oykdl9svfhd
+id: 3r5uxl0tc0s1tp7tvlixz24
 title: Labnote Template
 desc: ''
 updated: 1655027552116
 created: 1645441738236
 ---
+
 
 ## Starting the day
 

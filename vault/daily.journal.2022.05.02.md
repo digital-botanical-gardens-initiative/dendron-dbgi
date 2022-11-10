@@ -1,5 +1,5 @@
 ---
-id: kt42h4pgtkb1v1x0ximd1yn
+id: 2ym8qtotm2by9jp6mck5swf
 title: '2022-05-02'
 desc: ''
 updated: 1655027552103
@@ -7,6 +7,7 @@ created: 1651480314129
 traitIds:
   - journalNote
 ---
+
 
 
 ## Starting the day

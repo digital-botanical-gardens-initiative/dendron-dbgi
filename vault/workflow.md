@@ -1,10 +1,11 @@
 ---
-id: c6z5rc1ym8po88d7bmo6qtx
+id: v3eyay0icafeftx6kbyemlm
 title: Workflow
 desc: ''
 updated: 1655570123996
 created: 1655569968455
 ---
+
 
 As said, this initiative will aim to characterize the chemodiversity of the all botanical gardens of Switzerland. However, this ambitious objective will require us to evaluate our methodology. For this, we started by selecting two botanical collections: the Jardin Botanique de l’Université de Fribourg (JBUF) and the Jardin Botanique de Neuchâtel (JBN). This choice was made for practical reasons (these are the respective working places of the DBGI initiators) but also because these two gardens each offer their unique characteristics. On one hand the JBUF presents over 5000 species systematically organized to reflect the Angiosperm Phylogeny Group (APG) system. The JBUF researchers are specialized in conservation biology. On the other hand, the JBN presents over 2000 species organized in 8 sub-gardens. The JBN has a focus on ethnomedical plants.
 Below we will briefly outline the research workflow envisioned for the DBGI. The main steps have been schematized on Figure 3. The overall workflow can be divided into two main parts. One dealing with physical objects (upper part of Fig. 3) and a second one dealing with data and metadata acquired from these objects (lower part of Fig. 3). 

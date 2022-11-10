@@ -1,10 +1,11 @@
 ---
-id: 61x7wal7jogcfgzhqskqgj9
+id: bum7d9d6lnc0a863iqaogka
 title: Buffer Dbgi
 desc: ''
 updated: 1655875954705
 created: 1645443184300
 ---
+
 
 # What is this page
 
