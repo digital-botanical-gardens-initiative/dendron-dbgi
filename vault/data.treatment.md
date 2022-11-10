@@ -1,10 +1,11 @@
 ---
-id: opibvkj3u7ssz5qq3mltj6b
+id: iaa2g392h073scg24s9ruh3
 title: Treatment
 desc: ''
 updated: 1653577229509
 created: 1653572455789
 ---
+
 
 Notes taken for the organization of the DBGI pilot MS data for its intake as a graph.
 

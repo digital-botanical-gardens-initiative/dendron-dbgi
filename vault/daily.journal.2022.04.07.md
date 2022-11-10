@@ -1,5 +1,5 @@
 ---
-id: masbtc0jyerfc12orhkbd40
+id: ye72xhbjnpnssvsue3nq9b9
 title: '2022-04-07'
 desc: ''
 updated: 1655027552112
@@ -7,6 +7,7 @@ created: 1649317360653
 traitIds:
   - journalNote
 ---
+
 
 
 ## Starting the day

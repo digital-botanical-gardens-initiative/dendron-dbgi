@@ -1,5 +1,5 @@
 ---
-id: jxxoh5qfpx7c6tykd3m2dmn
+id: eerzimvzr7s6n6j47x6sre2
 title: Bibliography gestion
 desc: ''
 updated: 1656087584412

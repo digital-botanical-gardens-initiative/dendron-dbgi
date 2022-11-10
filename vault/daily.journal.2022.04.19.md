@@ -1,5 +1,5 @@
 ---
-id: qfad2j11uspmnysfzg89fo9
+id: fz35lqwshpe5oyz25rqafic
 title: '2022-04-19'
 desc: ''
 updated: 1655027552106
@@ -7,6 +7,7 @@ created: 1650386734709
 traitIds:
   - journalNote
 ---
+
 
 
 ## Starting the day

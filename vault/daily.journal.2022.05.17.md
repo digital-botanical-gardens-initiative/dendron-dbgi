@@ -1,5 +1,5 @@
 ---
-id: dm6v13bcu4b07iml0q0ao06
+id: qehhmjbk7xbf3qb9pw5jiru
 title: '2022-05-17'
 desc: ''
 updated: 1655027552105
@@ -7,6 +7,7 @@ created: 1652773379855
 traitIds:
   - journalNote
 ---
+
 
 
 ## Starting the day
