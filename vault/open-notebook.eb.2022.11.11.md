@@ -2,7 +2,7 @@
 id: bou894env5gm1043gz2i06y
 title: '2022-11-11'
 desc: ''
-updated: 1668183892654
+updated: 1668184033758
 created: 1668152843931
 traitIds:
   - open-notebook-eb
@@ -17,7 +17,7 @@ Today is 2022.11.11
 Today will be a boring day. I'll change all the iNaturalist DBGI codes entries frome dbgi_id to emi_external_id and from DBGI_SPL_000000 to dbgi_000000.
 
 # done
-
+All is done except those ones down, that will be done when old samples will be relabeled.
 # notes
 
 iNaturalist entries without new spl_code batch bw silica + nitro :
