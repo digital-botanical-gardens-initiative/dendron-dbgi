@@ -2,7 +2,7 @@
 id: bou894env5gm1043gz2i06y
 title: '2022-11-11'
 desc: ''
-updated: 1668153928059
+updated: 1668183892654
 created: 1668152843931
 traitIds:
   - open-notebook-eb
@@ -19,6 +19,22 @@ Today will be a boring day. I'll change all the iNaturalist DBGI codes entries f
 # done
 
 # notes
+
+iNaturalist entries without new spl_code batch bw silica + nitro :
+- Genus Leucania (nitro + silica)
+- Khaya senegalensis (nitro + silica)
+- manihot esculenta (nitro)
+- cycas circinalis (nitro + silica)
+- brahea edulis (nitro + silica)
+- Guaiacum officinale (nitro + silica)
+- Cascabela thevetia (nitro)
+
+iNaturalist entries without new spl_code batch bw nitro :
+- unknown (Villamilla Peruviana)
+- unknown (Plectranthus amboinicus "variegatus")
+- Combretum indicum
+- unknown (nephelium longana)
+- Elettaria cardamomum ( Elettaria major)
 
 # code
 
