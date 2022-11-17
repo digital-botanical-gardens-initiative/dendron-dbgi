@@ -2,13 +2,13 @@
 id: zcltrmc3qfwydyouqg0ae64
 title: TODO
 desc: ''
-updated: 1668440089299
+updated: 1668698971038
 created: 1666857724079
 ---
 
 - [x] Create script to update database
 - [x] Create script to format data (DBGI_id)
-- [ ] Run script everyday (cronjob)
+- [x] Run script everyday (cronjob)
 - [x] backup
 - [ ] Create tutorial
 - [x] Hide pwd

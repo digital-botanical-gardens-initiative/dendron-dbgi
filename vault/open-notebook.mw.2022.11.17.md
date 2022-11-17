@@ -2,7 +2,7 @@
 id: c6a43vkelhov72igdp303gu
 title: '2022-11-17'
 desc: ''
-updated: 1668681084987
+updated: 1668698930331
 created: 1668670965639
 traitIds:
   - open-notebook-mw
@@ -17,7 +17,7 @@ Today is 2022.11.17
 
 - [ ] Show images from url on directus
 - [x] Resolve cronjob problem (update db)
-- [ ] Pswd in cronjob
+- [?] Pswd in cronjob
 
 ### If everything done before end of day
 - [ ] go on with the tutorial
@@ -39,7 +39,7 @@ Solved by creating a bash script that activate the environment and run the scrip
 >
 > \#run python script
 > python inat_fetcher.py
-
+>
 > \# deactivate environment
 > conda deactivate
 
@@ -47,5 +47,12 @@ Solved by creating a bash script that activate the environment and run the scrip
 Problem => pswd visible in cronjob
 But still only on local (just like .env file) so is it really a problem?
 
+### Show images from url on directus
+Install extension?
+
+I couldn't find a solution today
+
 ## TODO NEXT
 
+- Show images from url on directus
+- go on with the tutorial
