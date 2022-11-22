@@ -2,7 +2,7 @@
 id: pvrfh4r4duir0wjp856m5gx
 title: Open Notebook Eb
 desc: ''
-updated: 1668153356007
+updated: 1669145270951
 created: 1667489728300
 ---
 
@@ -13,6 +13,8 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 # To do
 
 # done
+
+# Perspectives
 
 # notes
 
