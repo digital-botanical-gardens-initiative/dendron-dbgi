@@ -2,7 +2,7 @@
 id: bpn6phjdxlh99vx2midfrhk
 title: '2022-11-24'
 desc: ''
-updated: 1669305411458
+updated: 1669305800790
 created: 1669304197258
 traitIds:
   - open-notebook-eb
@@ -45,4 +45,8 @@ Further to do :
 
 # links
 
+https://docs.qfield.org/how-to/pictures/
+https://i.stack.imgur.com/I0vW8.png
+https://qfield.org/docs/prepare/add-1-n-pictures.html
+https://gis.stackexchange.com/questions/394479/qfield-create-a-form-for-multiple-1n-photos
 
