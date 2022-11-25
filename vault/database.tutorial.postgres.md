@@ -2,7 +2,7 @@
 id: xfo9r506ukemq0r2191kqkl
 title: Postgres
 desc: ''
-updated: 1669276545733
+updated: 1669303689316
 created: 1666246320224
 ---
 
@@ -91,6 +91,6 @@ If one need to select data that satisfy a specified condition, one can use a WHE
 The condition should be true, false or unknown. It can be a boolean expression or a combination of boolean expressions using the AND and OR operators.
 
 ## If http://directus.dbgi.org stops running
->    *cd /prog/directus_dbgi*
+>    *cd /prog/directus_dbgi*            
 >    *setsid nohup npx directus start > log.log 2>&1 &*
 >    *echo $! > save_pid.txt*

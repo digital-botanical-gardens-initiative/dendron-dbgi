@@ -2,7 +2,7 @@
 id: wp6ovmq51f3ymg09xxtbcq3
 title: '2022-11-24'
 desc: ''
-updated: 1669278712521
+updated: 1669362171328
 created: 1669274657700
 traitIds:
   - open-notebook-mw
@@ -14,7 +14,7 @@ Today is 2022.11.24
 
 
 ## TODO
-- [ ] Meeting with pma at 10am
+- [x] Meeting with pma at 10am
 - [ ] Show images from url on directus
 
 ### If everything done before end of day
@@ -30,6 +30,10 @@ To discuss:
 
 - show images
 
+### new TODO after meeting
+- [ ] dbgi_id without regex
+- [ ] url on directus
+- [ ] show images
 
 ## CODE
 
@@ -44,5 +48,24 @@ Connect to instance:
 Help:      
 >   *npx directusctl --help*
 
-## TODO NEXT
+### dbgi_id without regex
 
+> for i in range(len(df)):          
+>     dct = dict()         
+>     if df.ofvs[i] is not np.nan:       
+>         ls = df.ofvs[i].replace(' ','').replace('\'','')        
+>         for j in ls.split(','):        
+>             j = j.split(':')         
+>             dct[j[0]] = j[1]          
+>         if dct['name_ci'] == 'emi_external_id':           
+>             print(dct['value_ci'], i)        
+>             df.at[i,'dbgi_id'] = dct['value_ci']        
+
+Works on jupyter notebook but not on format_module.py ....         
+Error: *ls = df.ofvs[i].replace(' ','').replace('\'','')  AttributeError: 'list' object has no attribute 'replace'*
+
+
+## TODO NEXT
+- [ ] dbgi_id without regex
+- [ ] url on directus
+- [ ] show images
