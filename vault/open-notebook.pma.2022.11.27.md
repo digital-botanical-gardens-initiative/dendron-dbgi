@@ -2,7 +2,7 @@
 id: g96a0vk2ap7k3pbng1k5val
 title: '2022-11-27'
 desc: ''
-updated: 1669567845635
+updated: 1669568025986
 created: 1669567738536
 traitIds:
   - open-notebook-pma
@@ -33,7 +33,9 @@ For example, the collections of the botanical gardens of the world comprise abou
 
 Mounce R, Smith P, Brockington S (2017) Ex situ conservation of plant diversity in the world’s botanic gardens. Nat Plants 3:795–802.
 
+Citizen Science project for eDNA collection 
 
+https://ucedna.com/
 
 
 ## Todo tomorrow
