@@ -2,7 +2,7 @@
 id: 7hhjzqsoanl33skn32r16i4
 title: '2022-11-29'
 desc: ''
-updated: 1669729666713
+updated: 1669729894935
 created: 1669728500125
 traitIds:
   - open-notebook-eb
@@ -45,5 +45,7 @@ You can now take the cog tif to import it on QGIS.
 # code
 
 # links
-
+https://opensourceoptions.com/blog/how-to-install-gdal-with-anaconda/
+https://dev.to/ibrahimawadhamid/large-geotiff-raster-files-on-geoserver-using-cog-546h
+https://github.com/rouault/cog_validator
 
