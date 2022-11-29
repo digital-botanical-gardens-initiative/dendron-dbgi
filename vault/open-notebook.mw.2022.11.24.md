@@ -2,7 +2,7 @@
 id: wp6ovmq51f3ymg09xxtbcq3
 title: '2022-11-24'
 desc: ''
-updated: 1669362171328
+updated: 1669734530921
 created: 1669274657700
 traitIds:
   - open-notebook-mw
@@ -39,27 +39,35 @@ To discuss:
 
 ### Show images from url on directus
 Could maybe create a script to convert        
-=> install directus CLI        
->   *sudo npm install -g @directus/cli*
+=> install directus CLI
+```bash       
+sudo npm install -g @directus/cli
+```
 
 Connect to instance:      
->   *npx directusctl instance connect --instance directus_dbgi*
+```bash
+npx directusctl instance connect --instance directus_dbgi*
+``` 
 
-Help:      
->   *npx directusctl --help*
+Help:  
+```bash
+npx directusctl --help
+```
 
 ### dbgi_id without regex
 
-> for i in range(len(df)):          
->     dct = dict()         
->     if df.ofvs[i] is not np.nan:       
->         ls = df.ofvs[i].replace(' ','').replace('\'','')        
->         for j in ls.split(','):        
->             j = j.split(':')         
->             dct[j[0]] = j[1]          
->         if dct['name_ci'] == 'emi_external_id':           
->             print(dct['value_ci'], i)        
->             df.at[i,'dbgi_id'] = dct['value_ci']        
+```python
+for i in range(len(df)):          
+  dct = dict()         
+  if df.ofvs[i] is not np.nan:       
+    ls = df.ofvs[i].replace(' ','').replace('\'','')        
+    for j in ls.split(','):        
+      j = j.split(':')         
+      dct[j[0]] = j[1]          
+      if dct['name_ci'] == 'emi_external_id':           
+        print(dct['value_ci'], i)        
+        df.at[i,'dbgi_id'] = dct['value_ci']      
+```  
 
 Works on jupyter notebook but not on format_module.py ....         
 Error: *ls = df.ofvs[i].replace(' ','').replace('\'','')  AttributeError: 'list' object has no attribute 'replace'*
