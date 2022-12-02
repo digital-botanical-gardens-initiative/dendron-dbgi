@@ -2,12 +2,11 @@
 id: zcltrmc3qfwydyouqg0ae64
 title: TODO
 desc: ''
-updated: 1669274780554
+updated: 1669987886392
 created: 1666857724079
 ---
 
 - [ ] Create tutorial
-- [ ] Show images from url on directus
 - [x] Create script to update database
 - [x] Create script to format data (DBGI_id)
 - [x] Run script everyday (cronjob)

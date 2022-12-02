@@ -2,7 +2,7 @@
 id: w48mw1uhhxc4g084lqstrmp
 title: Open Notebook M
 desc: ''
-updated: 1668670907993
+updated: 1669987249169
 created: 1667489728300
 ---
 
@@ -14,6 +14,8 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 ## TODO
 
 ## CODE
+
+## NOTE
 
 ## TODO NEXT
 

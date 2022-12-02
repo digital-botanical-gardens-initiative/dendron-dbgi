@@ -1,0 +1,26 @@
+---
+id: mo79h9s695a4xdagcvnqdpm
+title: '2022-12-02'
+desc: ''
+updated: 1669987402871
+created: 1669987211200
+traitIds:
+  - open-notebook-mw
+---
+
+
+# This is Maëlle's DBGI daily open-notebook.
+
+Today is 2022.12.02
+
+
+## TODO
+
+- [ ] go on with the tutorial
+
+## CODE
+
+
+
+## TODO NEXT
+

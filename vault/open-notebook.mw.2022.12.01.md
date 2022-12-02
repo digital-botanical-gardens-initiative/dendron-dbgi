@@ -2,7 +2,7 @@
 id: zmxxhzyjnkoz3urerxjpo2i
 title: '2022-12-01'
 desc: ''
-updated: 1669899377466
+updated: 1669987371501
 created: 1669879843072
 traitIds:
   - open-notebook-mw
@@ -18,7 +18,7 @@ Today is 2022.12.01
 
 - [x] dbgi_id without regex
 - [x] url on directus
-- [ ] show images
+- [x] display images
 
 ### If everything done before end of day
 - [ ] go on with the tutorial
@@ -32,6 +32,9 @@ Added directus-extension-display-link extension
 npm install directus-extension-display-link
 ```
 
+### display images 
+ => Via links
+
 ## NOTE
 Had problems with conda environment and spent a lot of time resolving them
 
@@ -40,3 +43,4 @@ Fetching the emi_external_id without regex in format_module.py now seems to work
 
 ## TODO NEXT
 
+- [ ] go on with the tutorial
