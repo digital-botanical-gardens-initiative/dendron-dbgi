@@ -2,7 +2,7 @@
 id: xfo9r506ukemq0r2191kqkl
 title: Postgres
 desc: ''
-updated: 1669734920597
+updated: 1669989109458
 created: 1666246320224
 ---
 
@@ -12,6 +12,11 @@ psql -U username
 ```
 
 # DATABASE
+
+## Create new database
+```psql
+CREATE DATABASE dbname;
+```
 
 ## list all database
 ```psql
@@ -27,13 +32,13 @@ psql -U username
 
 ## Create a new table
 ```psql
-   CREATE TABLE table_name(             
-       column1 datatype,             
-       column2 datatype,        
-       column3 datatype,         
-       .....            
-       columnN datatype,         
-       PRIMARY KEY( one or more columns )          
+CREATE TABLE table_name(             
+   column1 datatype,             
+   column2 datatype,        
+   column3 datatype,         
+   .....            
+   columnN datatype,         
+   PRIMARY KEY( one or more columns )          
    );
 ```
 
@@ -55,6 +60,12 @@ This will give an sql command to crate the new table. The datatypes may have to 
 \d table_name
 ```
 
+## Add a column
+```psql
+ALTER TABLE table_name
+ADD COLUMN new_column_name data_type constraint;
+```
+
 ## Drop a table
 ```psql
 DROP TABLE name;
@@ -65,9 +76,9 @@ DROP TABLE name;
 
 ### Manually
 ```psql
-   INSERT INTO table_name (column1, column2, column3,...columnN)              
-   VALUES (value1_row1, value2_row1, value3_row1,...valueN_row1),        
-            (value1_row2, value2_row2, value3_row2,...valueN_row2),          
+INSERT INTO table_name (column1, column2, column3,...columnN)              
+VALUES (value1_row1, value2_row1, value3_row1,...valueN_row1),        
+         (value1_row2, value2_row2, value3_row2,...valueN_row2),          
             ....;         
 ```
 
@@ -75,51 +86,78 @@ No need to specify the columns name if one is adding values for all the columns 
 
 ### From a csv file
 ```psql
-   COPY table_name     
-   FROM 'path/to/csv'       
-   DELIMITER ';'       
-   CSV HEADER
+COPY table_name     
+FROM 'path/to/csv'       
+DELIMITER ';'       
+CSV HEADER
 ```
 
 ## Update data in table
 ```psql
-   UPDATE table_name      
-   SET column1 = value1,       
-       column2 = value2,       
-       ...        
-   WHERE condition;
+UPDATE table_name      
+SET column1 = value1,       
+   column2 = value2,       
+   ...        
+WHERE condition;
 ```
 
 ## Delete data from table
 ```psql
-   DELETE FROM table_name        
-   WHERE condition;
+DELETE FROM table_name        
+WHERE condition;
 ```
+
+## Constraints
+
+### When defining the table
+
+```psql
+CREATE TABLE TABLE (
+	column_1 data_type,
+	column_2 data_type,
+	… 
+   PRIMARY KEY (column_1, column_2),
+   CONSTRAINT constraint_name
+   FOREIGN KEY(fk_columns) 
+	REFERENCES parent_table(parent_key_columns)
+);
+```
+
+### After creation
+
+```psql
+ALTER TABLE products 
+ADD PRIMARY KEY (product_no);
+
+ALTER TABLE child_table 
+ADD CONSTRAINT constraint_name 
+FOREIGN KEY (fk_columns) 
+REFERENCES parent_table (parent_key_columns);
+```
+
 
 ## Some useful clauses
 ### Select statement
 The SELECT statement returns all rows from one or more columns in a table.
 
 ```psql
-   SELECT column_1, column_2, ..., column_n    (or * for all columns)     
-   FROM table_name       
-   other clauses;
+SELECT column_1, column_2, ..., column_n    (or * for all columns)     
+FROM table_name       
+other clauses;
 ```
 
 ### Where clause
 If one need to select data that satisfy a specified condition, one can use a WHERE clause as follow:       
 
 ```psql
-   SELECT select_list     
-   FROM table_name       
-   WHERE condition        
+SELECT select_list     
+FROM table_name       
+WHERE condition        
 ```
 
 The condition should be true, false or unknown. It can be a boolean expression or a combination of boolean expressions using the AND and OR operators.
 
-## If http://directus.dbgi.org stops running
-```bash
-    cd /prog/directus_dbgi              
-    setsid nohup npx directus start > log.log 2>&1 &
-    echo $! > save_pid.txt
-```
+# To go further
+
+https://www.postgresqltutorial.com/
+
