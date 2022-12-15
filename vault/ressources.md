@@ -2,7 +2,7 @@
 id: 165zhtrhauww30lf9dbp8fa
 title: Ressources
 desc: ''
-updated: 1652268964780
+updated: 1670342871713
 created: 1648461376735
 ---
 
@@ -16,3 +16,6 @@ http://gigasciencejournal.com/blog/digital-botanical-garden/
 https://www.idigbio.org/
 
 @edouardbruelhart add a pages for links
+
+
+https://www.biodiversity-exploratories.de/en/

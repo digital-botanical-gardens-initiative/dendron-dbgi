@@ -2,7 +2,7 @@
 id: 2gpzh1s85imdp4ig17g5ccj
 title: Directus
 desc: ''
-updated: 1669988288527
+updated: 1670576773400
 created: 1666246339244
 ---
 
@@ -12,6 +12,26 @@ Access to directus: http://directus.dbgi.org
 ## Creating a directus project
 
 https://docs.directus.io/self-hosted/installation/cli.html
+
+## Navigate on directus
+
+The leftmost section of the App is the module bar which includes:
+
+    - Content — The primary way to view and interact with database content
+    - User Directory — A dedicated section for the platform's system Users
+    - File Library — An aggregate of all files uploaded and managed within the platform
+    - Insights — Access to infinitely customizable data dashboards
+    - App Guide — A tailored, in-app portal for the platform's concepts, guides, and reference
+    - Dendron — Link to the dendron website
+    - Mailto — Link to send a mail to the administrator
+    - Github — Link to dbgi github repo
+    - Settings — An admin-only section for configuring the project and system settings
+
+## To stop http://directus.dbgi.org
+```bash
+cd /prog/directus_dbgi
+kill -9 `cat save_pid.txt`
+```
 
 ## If http://directus.dbgi.org stops running
 ```bash
