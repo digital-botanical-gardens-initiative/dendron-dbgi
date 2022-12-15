@@ -2,7 +2,7 @@
 id: rjpsp1q81ug71ochxwcxk4s
 title: '2022-12-15'
 desc: ''
-updated: 1671092348830
+updated: 1671112045768
 created: 1671089514425
 traitIds:
   - open-notebook-mw
@@ -16,11 +16,13 @@ Today is 2022.12.15
 
 ## TODO
 
-- [ ] meeting with pma
+- [x] meeting with pma
 
 ## CODE
 
+
 ## NOTES
+
 
 ### Meeting with pma
 
@@ -28,10 +30,13 @@ Today is 2022.12.15
 - directus module bar
 - url
 - dbgi id with dictionary
-- launch scripts from another place?
 
 - evaluation 
 - MSc thesis 
 
 ## TODO NEXT
 
+- link naturalist id pyinat-samples
+- [x] add edited by/when column
+- autoincrementation id
+- tuto for dummy
