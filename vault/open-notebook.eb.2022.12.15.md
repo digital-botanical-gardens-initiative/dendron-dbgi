@@ -2,7 +2,7 @@
 id: 7e5d8r3w17f3p4225ndatlu
 title: '2022-12-15'
 desc: ''
-updated: 1671101536954
+updated: 1671101658069
 created: 1671101227053
 traitIds:
   - open-notebook-eb
@@ -19,7 +19,7 @@ Today is 2022.12.15
 # Perspectives
 
 # notes
-Discussion with Pierre-Marie about the analysis of the batch in progress. No analyse before 2023.
+Discussion with Pierre-Marie about the analysis of the batch in progress. No analyse before 2023. But needs some preparations
 
 To prepare : 
 - 20 samples of the first batch, 10 with silica and 10 with liquid nitrogen to see how it conserves. From the plant samples
