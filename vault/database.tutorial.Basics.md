@@ -2,13 +2,13 @@
 id: l5hk8footuy2893u4zi6yvs
 title: Basics
 desc: ''
-updated: 1671719817307
+updated: 1671720358877
 created: 1671713381437
 ---
 
 ### How to add items to the samples table
 
-1. Download the template or export the table as a csv from directus.
+1. Download the [template](https://github.com/digital-botanical-gardens-initiative/dendron-dbgi/blob/main/vault/assets/test_samples.csv) or export the table as a csv from directus.
 ![directus samples](assets/images/directus-samples.jpg){max-width : 600px, display: block, margin: 0 auto}
 ![directus export](assets/images/directus-export.jpg){max-width : 600px, display: block, margin: 0 auto}
 
