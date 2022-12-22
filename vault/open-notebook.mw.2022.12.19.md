@@ -2,7 +2,7 @@
 id: 5ioljyxkuh1yfeq1ivfi0p4
 title: '2022-12-19'
 desc: ''
-updated: 1671461690973
+updated: 1671698353854
 created: 1671454857808
 traitIds:
   - open-notebook-mw
@@ -24,6 +24,7 @@ Today is 2022.12.19
 #### Autoincrementation id:
 https://stackoverflow.com/questions/27121196/how-to-auto-increment-alpha-numeric-value-in-postgresql
 
+```psql
 CREATE SEQUENCE xxx;
 CREATE TABLE samples_2(EMI_external_ID text PRIMARY KEY 
                                     CHECK (EMI_external_ID ~ '^\w+_[0-9]+$' ) 
@@ -35,25 +36,29 @@ CREATE TABLE samples_2(EMI_external_ID text PRIMARY KEY
                       sample location VARCHAR(25),
                       QR uuid,
                                     FOREIGN KEY(QR) REFERENCES directus_files(id) ON DELETE SET NULL);
+```
 
 ==> Works if only 'DBGI_' ids
 
 Should maybe create 2 columns to concat => one with autoincremented integer, second with project id (eg.DBGI)
 
 #### link naturalist id pyinat-samples
+```psql
 UPDATE samples
 SET inaturalist_ID = pyinat.ID
 FROM pyinat WHERE samples."DBGI_SPL_ID" = pyinat.EMI_external_ID;
+```
 
 Then create a trigger to do that automatically:
 
+```psql
 CREATE OR REPLACE FUNCTION update_emi_id()
 RETURNS TRIGGER AS $$
 BEGIN
   UPDATE samples
   SET inaturalist_ID = pyinat.ID
   FROM pyinat 
-    WHERE samples."DBGI_SPL_ID" = NEW.EMI_external_ID;
+    WHERE samples."DBGI_SPL_ID" = pyinat.EMI_external_ID;
   RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
@@ -62,7 +67,7 @@ CREATE TRIGGER update_emi_id_trigger
 AFTER UPDATE OF EMI_external_ID ON pyinat
 FOR EACH ROW
 EXECUTE PROCEDURE update_emi_id();
-
+```
 
 
 
@@ -70,4 +75,4 @@ EXECUTE PROCEDURE update_emi_id();
 
 ## TODO NEXT
 
-- [ ] tuto for dummy
+- [ ] tuto for dummy => until 23.01
