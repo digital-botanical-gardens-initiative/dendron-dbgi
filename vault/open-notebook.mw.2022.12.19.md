@@ -2,7 +2,7 @@
 id: 5ioljyxkuh1yfeq1ivfi0p4
 title: '2022-12-19'
 desc: ''
-updated: 1671698353854
+updated: 1671711843212
 created: 1671454857808
 traitIds:
   - open-notebook-mw
@@ -35,7 +35,7 @@ CREATE TABLE samples_2(EMI_external_ID text PRIMARY KEY
                       Comment text,
                       sample location VARCHAR(25),
                       QR uuid,
-                                    FOREIGN KEY(QR) REFERENCES directus_files(id) ON DELETE SET NULL);
+                      FOREIGN KEY(QR) REFERENCES directus_files(id) ON DELETE SET NULL);
 ```
 
 ==> Works if only 'DBGI_' ids
