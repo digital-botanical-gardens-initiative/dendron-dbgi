@@ -2,7 +2,7 @@
 id: pydikqycpcrnouzggmjil9f
 title: drone-map
 desc: ''
-updated: 1656077939930
+updated: 1671890236651
 created: 1655665529382
 ---
 To do the drone map, we firstly put 8 ground markers (Figure 3) all around the botanical garden. Thes control points (Figure 1) are geolocated with a differential GPS that permits to obtain data with an error of less than 3 centimenters (Figure 2). After that, we make the drone fly with an app called "DroneDeploy" that automatically makes fly the drone (Figure 3) and takes pictures of the zone to have a complete mapping.
@@ -24,3 +24,5 @@ Then, we can extract the WGS84 coordinates from the QGIS project in a CSV to add
 ## Acknowledgements
 
 The creation of the drone map has been made possible with the help the Geosciences department, geography unit of the University of Fribourg. Special thanks are due to Reynald Delaloye (UNIFR) and Horst Machguth (UNIFR) for the Differential GPS and drone loan and the explanations provided about their utilisation.
+
+![DBGI map](dendron-dbgi/vault/assets/maps/JBN-JBN_map.kml)
