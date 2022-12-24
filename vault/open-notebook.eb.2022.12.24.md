@@ -2,7 +2,7 @@
 id: l3udotv1v1raxb3qdvawp5b
 title: '2022-12-24'
 desc: ''
-updated: 1671885505431
+updated: 1671895547225
 created: 1671885454820
 traitIds:
   - open-notebook-eb
@@ -23,6 +23,8 @@ Today is 2022.12.24
 - Optimize the communication between QGIS and iNaturalist
 
 # done
+
+I finally succeeded to publish the map with geoserver in WMS format. However, I didn't find yet how to make it available for all. For now, I can only see the map with the computer that hosts the map. In addition, I didn't find how to publish the map directly on dendron. For now, it has to pass via a link, that is not so good. It would be better to directly have the map on dendron.
 
 # Perspectives
 
