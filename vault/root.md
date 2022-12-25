@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: The Digital Botanical Gardens Initiative
 desc: ''
-updated: 1665763628400
+updated: 1671988078916
 created: 1645438795591
 ---
 
@@ -14,14 +14,14 @@ The Digital Botanical Gardens Initiative (DBGI) ambitions to explore innovative 
 
 The DBGI main goals are briefly summarized below :
 
-![](/assets/images/2022-06-18-17-13-23.png)
+![](/assets/images/2022-06-18-17-13-23.png){max-width: 400px, display: block, margin: 0 auto}
 
 # An Open Science project
 
 
 ## Working with the garage door up
 
-![](/assets/images/2022-06-18-17-47-56.png)
+![](/assets/images/2022-06-18-17-47-56.png){max-width: 400px}
 
 A way of working briefly described by Andy Matuschak here https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu. 
 
