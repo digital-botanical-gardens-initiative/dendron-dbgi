@@ -2,7 +2,7 @@
 id: 6cwzu4c8qiv4kzr83kvfldw
 title: '2022-12-30'
 desc: ''
-updated: 1672426716404
+updated: 1672428429445
 created: 1672426508620
 traitIds:
   - open-notebook-pma
@@ -35,6 +35,8 @@ But also on some DBGI related aspects.
 D. mentioned multiple templates existing at https://openwetware.org/wiki/Main_Page
 øõø~
 - maybe propose a topic for https://www.swat4ls.org/
+👉 hackaton proposal form https://www.swat4ls.org/workshops/basel2023/hackathon/
+
 - guinea pigs should start the crash tests (for note taking and Open Notebook Science)
 
 
