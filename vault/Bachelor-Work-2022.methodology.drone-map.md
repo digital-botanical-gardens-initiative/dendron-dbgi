@@ -2,7 +2,7 @@
 id: pydikqycpcrnouzggmjil9f
 title: drone-map
 desc: ''
-updated: 1672785630962
+updated: 1672787004470
 created: 1655665529382
 ---
 To do the drone map, we firstly put 8 ground markers (Figure 3) all around the botanical garden. Thes control points (Figure 1) are geolocated with a differential GPS that permits to obtain data with an error of less than 3 centimenters (Figure 2). After that, we make the drone fly with an app called "DroneDeploy" that automatically makes fly the drone (Figure 3) and takes pictures of the zone to have a complete mapping.
@@ -25,106 +25,5 @@ Then, we can extract the WGS84 coordinates from the QGIS project in a CSV to add
 
 The creation of the drone map has been made possible with the help the Geosciences department, geography unit of the University of Fribourg. Special thanks are due to Reynald Delaloye (UNIFR) and Horst Machguth (UNIFR) for the Differential GPS and drone loan and the explanations provided about their utilisation.
 
-## Map with open layers
+<iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://localhost:8080/geoserver/JBN/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN%3AJBN_map&bbox=2561566.7357523777%2C1205487.1416632638%2C2561988.054040848%2C1205660.3500881642&width=768&height=330&srs=EPSG%3A2056&styles=&format=application/openlayers" style="border: 1px solid black"></iframe><br/><small><a href="http://localhost:8080/geoserver/JBN/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN%3AJBN_map&bbox=2561566.7357523777%2C1205487.1416632638%2C2561988.054040848%2C1205660.3500881642&width=768&height=330&srs=EPSG%3A2056&styles=&format=application/openlayers">Open the map in a new window</a></small>
 
-<script src="https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
-
-</div id="map">
-
-<script var view = new View({
-  center: [-9101767, 2822912],
-  zoom: 14
-});
-
-var map = new Map({
-     target: 'map',
-  controls: defaultControls().extend([
-    new FullScreen({
-      source: 'fullscreen'
-    })
-  ]),
-  layers: [
-    new TileLayer({
-      source: new OSM()
-    })
-  ],
-  view: view
-});
-></script>
-</div>
-
-</div id="map2">
-<script
-var map = new ol.Map({
-  target: 'map2',
-  layers: [
-    new ol.layer.Tile({
-      source: new ol.source.OSM()
-    })
-  ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([0, 0]),
-    zoom: 2
-  })
-});
-></script>
-</div>
-
-</div id="map3"></div>
-<script
-var map = new ol.Map({
-  target: 'map3',
-  layers: [
-    new ol.layer.Tile({
-      source: new ol.source.OSM()
-    })
-  ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([0, 0]),
-    zoom: 2
-  })
-});
-></script>
-
-<!DOCTYPE html>
-<html>
-<body>
-
-<script>
-var map = new ol.Map({
-  layers: [
-    new ol.layer.Tile({
-      source: new ol.source.OSM()
-    })
-  ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([0, 0]),
-    zoom: 2
-  })
-});
-</script>
-
-</body>
-</html>
-
-## Map with leaflet
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-  crossorigin=""/>
-
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-  crossorigin=""></script>
-
-  <div id="map"></div>
-
-<script var map = L.map('map');
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
-  maxZoom: 18
-}).addTo(map);
-map.setView([51.505, -0.09], 13);
-></script>
