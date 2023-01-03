@@ -2,7 +2,7 @@
 id: pydikqycpcrnouzggmjil9f
 title: drone-map
 desc: ''
-updated: 1672783452899
+updated: 1672784569273
 created: 1655665529382
 ---
 To do the drone map, we firstly put 8 ground markers (Figure 3) all around the botanical garden. Thes control points (Figure 1) are geolocated with a differential GPS that permits to obtain data with an error of less than 3 centimenters (Figure 2). After that, we make the drone fly with an app called "DroneDeploy" that automatically makes fly the drone (Figure 3) and takes pictures of the zone to have a complete mapping.
@@ -29,14 +29,59 @@ The creation of the drone map has been made possible with the help the Geoscienc
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
 
-</div id="map"></div>
+</div id="map">
 
-<script src="dendron-dbgi\vault\assets\scripts\mapdisplay.js"></script>
+<script var view = new View({
+  center: [-9101767, 2822912],
+  zoom: 14
+});
 
-<script src="/dendron-dbgi/vault/assets/scripts/mapdisplay.js"></script>
+var map = new Map({
+     target: 'map',
+  controls: defaultControls().extend([
+    new FullScreen({
+      source: 'fullscreen'
+    })
+  ]),
+  layers: [
+    new TileLayer({
+      source: new OSM()
+    })
+  ],
+  view: view
+});
+></script>
+</div>
 
-<script src="/vault/assets/scripts/mapdisplay.js"></script>
+</div id="map2">
+<script
+var map = new ol.Map({
+  target: 'map2',
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
+    })
+  ],
+  view: new ol.View({
+    center: ol.proj.fromLonLat([0, 0]),
+    zoom: 2
+  })
+});
+></script>
+</div>
 
-<script src="/assets/scripts/mapdisplay.js"></script>
-
-<script src="assets/scripts/mapdisplay.js"></script>
+</div id="map3"></div>
+<script
+var map = new ol.Map({
+  target: 'map2',
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
+    })
+  ],
+  view: new ol.View({
+    center: ol.proj.fromLonLat([0, 0]),
+    zoom: 2
+  })
+});
+></script>
