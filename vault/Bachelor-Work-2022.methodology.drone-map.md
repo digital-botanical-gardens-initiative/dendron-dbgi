@@ -25,19 +25,4 @@ Then, we can extract the WGS84 coordinates from the QGIS project in a CSV to add
 
 The creation of the drone map has been made possible with the help the Geosciences department, geography unit of the University of Fribourg. Special thanks are due to Reynald Delaloye (UNIFR) and Horst Machguth (UNIFR) for the Differential GPS and drone loan and the explanations provided about their utilisation.
 
-<script src="https://openlayers.org/en/v4.7.4/build/ol.js"></script>
 
-<div id="map"></div>
-
-var map = new ol.Map({
-  target: 'map',
-  layers: [
-    new ol.layer.Tile({
-      source: new ol.source.OSM()
-    })
-  ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([0, 0]),
-    zoom: 2
-  })
-});
