@@ -2,14 +2,14 @@
 id: trzsyfzfrls2if6tjt9dy5u
 title: Species Selection
 desc: ''
-updated: 1651608404940
+updated: 1672347099671
 created: 1645712028668
 ---
 
 
 # Species list
 
-For an overview of species present in the UniFr botanical garden you can have a look at the [[taxo]] hierarchy.
+For an overview of species present in the UniFr botanical garden you can have a look at the http://www.dbgi.org/dendron-jbuf/ hierarchy.
 
 
 # Species selection
@@ -28,4 +28,16 @@ Maybe a family to think about
 
 See https://www.unifr.ch/jardin-botanique/fr/recherche/projets.html
 Most likely will not be developed enough in March/May
+
+## Baldellia
+
+http://www.dbgi.org/dendron-jbuf/notes/2br7f2tk8zr34ed97vza7i1/
+
+Gregor Kozlowski is still very interested in the chemical profiles of Baldellia. 
+
+## Audrey Le Cabec
+
+Audrey (from ICOA) should be passing some months next spring.
+She will work on "chèvrefeuille, fusain et clématite." and maybe other species.
+Maybe add http://www.dbgi.org/dendron-jbuf/notes/2br7f2tk8zr34ed97vza7i1/ to the list.
 
