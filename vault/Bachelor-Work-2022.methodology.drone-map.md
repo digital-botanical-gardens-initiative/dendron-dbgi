@@ -2,7 +2,7 @@
 id: pydikqycpcrnouzggmjil9f
 title: drone-map
 desc: ''
-updated: 1671900261143
+updated: 1672743232790
 created: 1655665529382
 ---
 To do the drone map, we firstly put 8 ground markers (Figure 3) all around the botanical garden. Thes control points (Figure 1) are geolocated with a differential GPS that permits to obtain data with an error of less than 3 centimenters (Figure 2). After that, we make the drone fly with an app called "DroneDeploy" that automatically makes fly the drone (Figure 3) and takes pictures of the zone to have a complete mapping.
@@ -25,11 +25,19 @@ Then, we can extract the WGS84 coordinates from the QGIS project in a CSV to add
 
 The creation of the drone map has been made possible with the help the Geosciences department, geography unit of the University of Fribourg. Special thanks are due to Reynald Delaloye (UNIFR) and Horst Machguth (UNIFR) for the Differential GPS and drone loan and the explanations provided about their utilisation.
 
-[geoserver_map
-url="http://localhost:8080/geoserver/JBN/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN%3AJBN_map&bbox=2561566.7357523777%2C1205487.1416632638%2C2561988.054040848%2C1205660.3500881642&width=768&height=330&srs=EPSG%3A2056&styles=&format=application/openlayerss"
-layer_group="JBN:JBN_map"
-zoom=12
-center=[2561769.87060, 1205580.61596]
-]
+<script src="https://openlayers.org/en/v4.7.4/build/ol.js"></script>
 
-{{ embed:url=<https://drive.switch.ch/index.php/s/eBMp4xiteJhnlAR> }}
+<div id="map"></div>
+
+var map = new ol.Map({
+  target: 'map',
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
+    })
+  ],
+  view: new ol.View({
+    center: ol.proj.fromLonLat([0, 0]),
+    zoom: 2
+  })
+});
