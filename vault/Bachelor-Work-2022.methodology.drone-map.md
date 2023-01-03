@@ -2,7 +2,7 @@
 id: pydikqycpcrnouzggmjil9f
 title: drone-map
 desc: ''
-updated: 1672757713746
+updated: 1672758224777
 created: 1655665529382
 ---
 To do the drone map, we firstly put 8 ground markers (Figure 3) all around the botanical garden. Thes control points (Figure 1) are geolocated with a differential GPS that permits to obtain data with an error of less than 3 centimenters (Figure 2). After that, we make the drone fly with an app called "DroneDeploy" that automatically makes fly the drone (Figure 3) and takes pictures of the zone to have a complete mapping.
@@ -31,4 +31,4 @@ The creation of the drone map has been made possible with the help the Geoscienc
 
 </div id="map"></div>
 
-<script src="dendron-dbgi/hooks/mapdisplay.js"></script>
+<script src="hooks/mapdisplay.js"></script>
