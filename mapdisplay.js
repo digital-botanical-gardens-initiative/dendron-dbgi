@@ -1,6 +1,3 @@
-<><script src="https://openlayers.org/en/v4.7.4/build/ol.js"></script>
-</div id="map"></div>
-
 var map = new ol.Map({
     target: 'map',
     layers: [
