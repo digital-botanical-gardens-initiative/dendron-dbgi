@@ -2,7 +2,7 @@
 id: pydikqycpcrnouzggmjil9f
 title: drone-map
 desc: ''
-updated: 1672789883173
+updated: 1672845839510
 created: 1655665529382
 ---
 To do the drone map, we firstly put 8 ground markers (Figure 3) all around the botanical garden. Thes control points (Figure 1) are geolocated with a differential GPS that permits to obtain data with an error of less than 3 centimenters (Figure 2). After that, we make the drone fly with an app called "DroneDeploy" that automatically makes fly the drone (Figure 3) and takes pictures of the zone to have a complete mapping.
@@ -30,5 +30,7 @@ The creation of the drone map has been made possible with the help the Geoscienc
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
 
 
-<iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://localhost:8080/geoserver/JBN/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN%3AJBN_map&bbox=2561566.7357523777%2C1205487.1416632638%2C2561988.054040848%2C1205660.3500881642&width=768&height=330&srs=EPSG%3A2056&styles=&format=application/openlayers" style="border: 1px solid black"></iframe><br/><small><a href="http://localhost:8080/geoserver/JBN/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN%3AJBN_map&bbox=2561566.7357523777%2C1205487.1416632638%2C2561988.054040848%2C1205660.3500881642&width=768&height=330&srs=EPSG%3A2056&styles=&format=application/openlayers">Open the map in a new window</a></small>
+<iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://localhost:8080/geoserver/JBN_map/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN_map%3AJBN_drone_map_1&bbox=2561567.7408503504%2C1205488.4366130966%2C2561770.4148272583%2C1205644.1839002925&width=768&height=590&srs=EPSG%3A2056&styles=&format=application/openlayers#toggle" style="border: 1px solid black"></iframe><br/><small><a href="http://localhost:8080/geoserver/JBN_map/wms?service=WMS&version=1.1.0&request=GetMap&layers=JBN_map%3AJBN_drone_map_1&bbox=2561567.7408503504%2C1205488.4366130966%2C2561770.4148272583%2C1205644.1839002925&width=768&height=590&srs=EPSG%3A2056&styles=&format=application/openlayers#toggle">Open the map in a new window</a></small>
+
+
 
