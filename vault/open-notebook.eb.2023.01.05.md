@@ -2,7 +2,7 @@
 id: 19o3nwq1e2cbfwun1sbw2p5
 title: '2023-01-05'
 desc: ''
-updated: 1672950653014
+updated: 1672956242746
 created: 1672950372336
 traitIds:
   - open-notebook-eb
@@ -27,6 +27,8 @@ Today is 2023.01.05
 # Perspectives
 
 # notes
+
+batch edition seems possible. I began to create a R code that will change the device coordinates by the coordinates indicated in QField for the placed point. I'll try it harder tomorrow.
 
 # code
 
