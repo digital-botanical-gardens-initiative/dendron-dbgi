@@ -2,7 +2,7 @@
 id: 19o3nwq1e2cbfwun1sbw2p5
 title: '2023-01-05'
 desc: ''
-updated: 1672956242746
+updated: 1673044259605
 created: 1672950372336
 traitIds:
   - open-notebook-eb
@@ -16,7 +16,7 @@ Today is 2023.01.05
 
 - Relabel the falcon with the bigger labels
 
-- Try to host correctly the dbgi maps with geoserver
+- Try to host correctly the dbgi maps with geoserver (actually delayed)
 
 - Prepare the inserts for the mass spec analysis
 
