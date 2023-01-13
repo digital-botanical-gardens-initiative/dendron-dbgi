@@ -1,6 +1,6 @@
 ---
 id: pvrfh4r4duir0wjp856m5gx
-title: Open Notebook Eb
+title: Open Notebook Ebruelhart
 desc: ''
 updated: 1669145270951
 created: 1667489728300
