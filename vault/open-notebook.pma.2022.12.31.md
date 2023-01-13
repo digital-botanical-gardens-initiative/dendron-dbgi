@@ -2,7 +2,7 @@
 id: wjbg6tl4gd7nqyegd8gmsrw
 title: '2022-12-31'
 desc: ''
-updated: 1672499943100
+updated: 1672500640146
 created: 1672499747681
 traitIds:
   - open-notebook-pma
@@ -34,6 +34,12 @@ At one point we discussed funding sources
 https://www.biodiversa.eu/
 
 Created a [[fundings]] section
+
+Some outcomes of the Bio2Bio in the 2019-2020 were:
+
+- https://www.interacademies.org/sites/default/files/2020-09/Pesic_et_al-2020-Biologia_Futura_0.pdf
+- https://shop.elsevier.com/books/biodiversity-and-biomedicine/ozturk/978-0-12-819541-3#full-description
+(available as pdf at https://iasworld.org/wp-content/uploads/2021/11/Biodiversity-Biomedicine-Book-pdf-22-08-2020.pdf)
 
 
 Found again these slices of itw https://twitter.com/tracesdreams/status/920572201367166977
