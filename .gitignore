@@ -10,3 +10,5 @@ pods/service-connections
 .dendron.cache.*
 .next
 .backup
+
+.DS_Store
