@@ -2,7 +2,7 @@
 id: khvagputmfl3gro5zswusl1
 title: Setup
 desc: ''
-updated: 1673617038075
+updated: 1673617165365
 created: 1672177489546
 ---
 
@@ -62,7 +62,8 @@ module.exports = {
 #### Edit the template.
 
 You can (optionally) have a template for your journal notes.
-Here I used the following [[templates.open-notebook-pma]] and can be modified according to your needs.
+Here I used the following [[templates.open-notebook-pmallard]]. 
+This template can be modified according to your needs.
 
 #### Set a keyboard shortcut
 
@@ -78,7 +79,7 @@ For this you can
 
 I have created additional traits for DBGI members. You should find yours :) Else please ask.
 
-They are called, respectively : 
+They are called, respectively :
 
 - open-notebook-acsima.js
 - open-notebook-bmulhauser.js
@@ -99,4 +100,4 @@ They are called, respectively :
 - open-notebook-pmallard.js
 - open-notebook-tmendes.js
 
-You can thus adapt your keyboard short cut as you want !
+Adapt your keyboard shortcuts so that it leads to your own note traits.
