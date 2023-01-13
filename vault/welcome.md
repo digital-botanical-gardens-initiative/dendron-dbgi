@@ -2,14 +2,14 @@
 id: tofizf0eb38rduuw6ffnzba
 title: Welcome
 desc: ''
-updated: 1673618282259
+updated: 1673619261609
 created: 1673617203399
 ---
 
 
 Welcome the the DBGI Dendron.
 
-As you might have read in [[root]]. We will follow the Open Notebook Science approach to document our research in the frame of the DBGI projects.
+As you might have read in [[root]], we will follow the Open Notebook Science approach to document our research in the frame of the DBGI projects.
 
 For this we use the Dendron system as a mean to efficiently capture notes and publish them.
 
@@ -42,5 +42,16 @@ This note is a succinct tutorial note aiming to get you started in the use of th
     ```
     git clone https://github.com/digital-botanical-gardens-initiative/dendron-dbgi.git
     ```
-4. In VSCode navigate to the cloned repository.
+4. In VSCode open (File/Open) the cloned repository.
+5. Voila ! You should now be in the DBGI Dendron.
+
+Feel free to explore and contribute.
+A first, important step could be to configure VSCode so that you can easily add a daily note. See steps described at [[open-notebook.setup]]
+
+
+## Questions, comments, suggestions ?
+
+Feel free to contribute here https://github.com/orgs/digital-botanical-gardens-initiative/discussions/categories/dendron
+
+
 
