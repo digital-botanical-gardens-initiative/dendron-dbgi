@@ -2,7 +2,7 @@
 id: khvagputmfl3gro5zswusl1
 title: Setup
 desc: ''
-updated: 1672177489546
+updated: 1673617038075
 created: 1672177489546
 ---
 
@@ -11,7 +11,6 @@ created: 1672177489546
 
 The idea is to be able to have a template and a note trait which can easily create note following the behaviors of a Daily Journal Note.
 For this we followed https://wiki.dendron.so/notes/kwgbkl58xka0zsib8uhhkfw/ and https://wiki.dendron.so/notes/bdZhT3nF8Yz3WDzKp7hqh/
-
 
 I resume below the followed recipe.
 
@@ -67,21 +66,37 @@ Here I used the following [[templates.open-notebook-pma]] and can be modified ac
 
 #### Set a keyboard shortcut
 
-I added a keyboard shortcut for it. But this needs to be done locally (its not part of the Dendron)
+I added a keyboard shortcut for it. But this needs to be done locally in your VSCode preferences (its not part of the published Dendron)
 For this you can
 
 1. Run the VSCode Command Preferences: Open Keyboard Shortcuts (JSON) (Cmd+Shift + P)
 2. Add the following entry to the bottom of your keybindings.json file, with the shortcut key combo of your choice:
   {
     "key": "cmd+o cmd+n",
-    "command": "dendron.customCommand.open-notebook-pma"
+    "command": "dendron.customCommand.open-notebook-pmallard"
   }
 
-I have created three additional traits for now for @mwannier30, @Edefossez and @edouardbruelhart
+I have created additional traits for DBGI members. You should find yours :) Else please ask.
+
 They are called, respectively : 
 
-- open-notebook-mw
-- open-notebook-ed
-- open-notebook-eb
+- open-notebook-acsima.js
+- open-notebook-bmulhauser.js
+- open-notebook-brinn.js
+- open-notebook-cdessimoz.js
+- open-notebook-dagosti.js
+- open-notebook-dmietchen.js
+- open-notebook-ebruelhart.js
+- open-notebook-edefossez.js
+- open-notebook-ewillighagen.js
+- open-notebook-gkozlowski.js
+- open-notebook-hluetcke.js
+- open-notebook-jgalgonek.js
+- open-notebook-mwang.js
+- open-notebook-mwannier.js
+- open-notebook-nalvarez.js
+- open-notebook-pcudremauroux.js
+- open-notebook-pmallard.js
+- open-notebook-tmendes.js
 
 You can thus adapt your keyboard short cut as you want !
