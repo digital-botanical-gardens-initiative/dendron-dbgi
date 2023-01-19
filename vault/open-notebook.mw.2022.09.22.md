@@ -1,10 +1,15 @@
 ---
-id: kp3lsw2vowll91vagfxscp7
-title: Softwares
+id: o7acjnkovdko8q1hp1jw6ag
+title: '22'
 desc: ''
-updated: 1664805621707
-created: 1663846442568
+updated: 1674143628189
+created: 1674143542040
 ---
+
+# This is Maëlle's DBGI daily open-notebook.
+
+Today is 2022.09.22
+
 ## TODO
 
 - [x]    Check current db structure / AirTable
@@ -13,7 +18,7 @@ created: 1663846442568
 - [ ]    Database backups
 
 
-## Pros - Cons
+## Pros - Cons of softwares
 
 ### ❓ nocoDb
 
