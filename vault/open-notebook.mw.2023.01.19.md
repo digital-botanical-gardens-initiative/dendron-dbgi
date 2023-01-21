@@ -2,7 +2,7 @@
 id: v2nr0qvs7lm0caryei97f4u
 title: '2023-01-19'
 desc: ''
-updated: 1674227503200
+updated: 1674289994894
 created: 1674143215718
 traitIds:
   - open-notebook-mw
@@ -27,7 +27,7 @@ I moved the database.softwares and database.versioning into the open-notebook of
 
 
 #### directus user permissions
-added the right to dbgi users to change their own passwords:
+added the right to dbgi users to change their own passwords:                 
 https://github.com/directus/directus/discussions/5911
 
 ## TODO NEXT
