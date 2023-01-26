@@ -2,7 +2,7 @@
 id: l5hk8footuy2893u4zi6yvs
 title: Basics
 desc: ''
-updated: 1674294138924
+updated: 1674723023949
 created: 1671713381437
 ---
 
@@ -15,14 +15,16 @@ The data can be visualized with other layouts (e.g. map) than the table one by c
 
 ## How to add items to the samples table
 
-1. Download the [template](https://github.com/digital-botanical-gardens-initiative/dendron-dbgi/blob/main/vault/assets/test_samples.csv) or export the table as a csv from directus.
+1. Download the [template](https://github.com/digital-botanical-gardens-initiative/dendron-dbgi/blob/main/vault/assets/samples_template.csv) or export the table as a csv from directus.
 ![directus samples](assets/images/directus-samples.jpg){max-width : 600px, display: block, margin: 0 auto}
 ![directus export](assets/images/directus-export.jpg){max-width : 600px, display: block, margin: 0 auto}
 
 2. Fill the template with your data (no need to add the dbgi_spl_id,user_created,date_created,user_updated,date_updated - it is autoincremented)
 ![samples template](assets/images/template.jpg){max-width : 600px, display: block, margin: 0 auto}
 
-3. Import the data on directus
+3. Save the file in a **COMMA** separated csv file
+
+4. Import the data on directus
 ![directus import](assets/images/directus-import.jpg){max-width : 600px, display: block, margin: 0 auto}
 
 
