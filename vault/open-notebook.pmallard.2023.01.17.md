@@ -2,7 +2,7 @@
 id: prufwcq8vgbyg8z24eync0o
 title: '2023-01-17'
 desc: ''
-updated: 1673949408962
+updated: 1673950001591
 created: 1673949283447
 traitIds:
   - open-notebook-pmallard
@@ -32,6 +32,13 @@ Today is 2023.01.17
 Mentioned that we could think/present smt about citizen science aspects of DBGI or EMI
 Might be there in person. 
 
+Reply (PM)
+
+> One way I think we could connect with DBGI/EMI and the citizen sciences aspects is via the iNaturalist platform.
+> I see that your workshop is on Wikidata (in part) why not explore possibilities to strengthen WD <-> iNat links ? (Not sure this is exactly citizen science though) However it could allow iNat user to fetch infor from WD or Scholia taxon
+> For now their is connection with Wikipedia see https://www.inaturalist.org/taxa/169521-Tabernaemontana-divaricata As you can see some even have a Phytochemistry section. Could be a nice way to improve chemical descriptions ?
+> 
+> 
 
 ## Todo tomorrow
 
