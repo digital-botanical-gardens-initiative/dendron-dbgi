@@ -2,7 +2,7 @@
 id: l5hk8footuy2893u4zi6yvs
 title: Basics
 desc: ''
-updated: 1674723023949
+updated: 1674740440143
 created: 1671713381437
 ---
 
@@ -15,7 +15,7 @@ The data can be visualized with other layouts (e.g. map) than the table one by c
 
 ## How to add items to the samples table
 
-1. Download the [template](https://github.com/digital-botanical-gardens-initiative/dendron-dbgi/blob/main/vault/assets/samples_template.csv) or export the table as a csv from directus.
+1. Download the [template](https://github.com/digital-botanical-gardens-initiative/dendron-dbgi/blob/902271bc7475bb85842fbee28011c99d25d93e8c/vault/assets/samples_template.csv) or export the table as a csv from directus.
 ![directus samples](assets/images/directus-samples.jpg){max-width : 600px, display: block, margin: 0 auto}
 ![directus export](assets/images/directus-export.jpg){max-width : 600px, display: block, margin: 0 auto}
 
