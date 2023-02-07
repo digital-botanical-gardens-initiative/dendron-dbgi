@@ -2,7 +2,7 @@
 id: y7jopb2ea9jtgiljrorp7pl
 title: '2023-02-07'
 desc: ''
-updated: 1675784962950
+updated: 1675785160395
 created: 1675758958624
 traitIds:
   - open-notebook-mwannier
@@ -72,9 +72,6 @@ Important features:
 - phylogeny by MASST (*https://masst.gnps2.org/microbemasst/*) (*NP classifier*)
 
 
-
-
-
 ## TODO NEXT
 
 - prepare presentation for DBGI meeting
@@ -82,3 +79,10 @@ Important features:
     - Java
     - Python
     - HTML
+- [ ] Read articles/look examples from open-notebook.pmallard.2023.02.07.md 
+    - https://microbeatlas.org/
+    - https://www.nature.com/articles/s41592-021-01339-5
+    - https://pubmed.ncbi.nlm.nih.gov/34662515/
+    - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00445-4
+    - https://pubs.acs.org/doi/full/10.1021/acs.jnatprod.8b00767
+    - https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac124/6980761
