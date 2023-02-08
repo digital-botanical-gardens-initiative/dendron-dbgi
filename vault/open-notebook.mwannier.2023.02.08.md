@@ -2,7 +2,7 @@
 id: 8lh10mwrs3hq3npcubl3ndj
 title: '2023-02-08'
 desc: ''
-updated: 1675853095632
+updated: 1675868671413
 created: 1675842190513
 traitIds:
   - open-notebook-mwannier
@@ -17,7 +17,7 @@ Today is 2023.02.08
 ## TODO
 
 - [x] prepare presentation for DBGI meeting
-- [ ] Read articles/look examples from open-notebook.pmallard.2023.02.07.md 
+- [x] Read articles/look examples from open-notebook.pmallard.2023.02.07.md 
     - https://microbeatlas.org/
     - https://www.nature.com/articles/s41592-021-01339-5
     - https://pubmed.ncbi.nlm.nih.gov/34662515/
@@ -39,7 +39,14 @@ Today is 2023.02.08
 Done with **python dash**
 
 ### NPClassifier
+(https://pubmed.ncbi.nlm.nih.gov/34662515/)                                   
 => Finding closely related NP 
+
+Useful for drug discovery 
 
 ## TODO NEXT
 
+- [ ] Search for best way to create dashboard
+    - Java
+    - Python
+    - HTML
