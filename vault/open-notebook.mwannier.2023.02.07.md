@@ -2,7 +2,7 @@
 id: y7jopb2ea9jtgiljrorp7pl
 title: '2023-02-07'
 desc: ''
-updated: 1675785160395
+updated: 1675842189504
 created: 1675758958624
 traitIds:
   - open-notebook-mwannier
@@ -46,10 +46,12 @@ Must do a formal written thesis (~30-40 pages) and an oral presentation
 
 ### tmap
 **python**
+
 Visualization => Python package Faerun for large scale data sets - Faster than matplotlib/pyplot - interactive plots
 
 ### molplotly
 **python**
+
 allows 2D images of molecules to be shown in plotly figures when hovering over the data points
 
 ### vega
