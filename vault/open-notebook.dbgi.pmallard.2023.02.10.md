@@ -2,7 +2,7 @@
 id: wa62hh70cbmrra0nxu10a69
 title: '2023-02-10'
 desc: ''
-updated: 1676015760789
+updated: 1676039247087
 created: 1676013381292
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -18,6 +18,70 @@ Today is 2023.02.10
 ### Draft a program for the 22nd meeting
 
 Check with Manu
+
+9:30 Start
+
+- Coffee ☕ (10 min)
+- Round table : short presentation 30 sec per person (10 min)
+- Program of the day (10 min)
+- Some background on Ecometabolomics & Natural Products based drug discovery - preliminary works and the origins of DBGI. Manu 10-15 min
+- DBGI & EMI. PMA 10-15 min
+- What has been done until now ?
+  - DBGI wet lab Pilot UniFr/UniNe. Edouard 10 min
+  - DBGI data management pilot UniFr. Maëlle 10 min
+- Coffee Break ☕ (10 min)
+- The DBGI-KM structure.
+  - Personnel
+    - 1 FTE (1.5 years) Postdoc UniFr (discuss CV)
+    - 1 FTE (1 year) Postdoc UniNe (discuss CV)
+    - 0.5 FTE (2years) inhouse computational data scientist ETHZ-SIS (establish exactly who ?)
+    - 1 FTE (1.5years) inhouse computational data scientist SIB (establish exactly who ?)
+
+- Lunch break (1:30)
+
+- Dendron Workshop + Open Science discussion 
+  - RIO Special collection
+  - Publication of the ChordB proposal
+
+- Collection of specimens & Legal aspects
+  - Anne-Laure JBN, Donat, Nadir, Blaise, Gregor 
+
+What do we have ?
+What do we want ?
+ For now UniFr / UniNe
+
+Private Partner Orchids GreeenHouse (EMI/DBGI ?)
+
+- WP2 Sample tracking system establishment
+  - physical objects
+    - living specimens (look trough the window)
+    - dried tissues collections (bring Tubes)
+    - extracts (Tubes)
+  - digital objects
+    - iNat
+    - Directus
+    - MassIVE
+    - Physical samples tracking
+
+- WP3 Knowledge representation and graph establishment
+
+- WP4 Human-Data Interaction
+
+- WP5 Community Engagement, Public Outreach & Biodiversity Conservation
+
+- Varia
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ###
