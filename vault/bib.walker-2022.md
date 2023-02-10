@@ -8,5 +8,5 @@ created: 1667503519451
 Importing data from Zotero failed with error:
 
 ```
-TypeError: Cannot read properties of undefined (reading '2')
+Error: connect ECONNREFUSED 127.0.0.1:23119
 ```
