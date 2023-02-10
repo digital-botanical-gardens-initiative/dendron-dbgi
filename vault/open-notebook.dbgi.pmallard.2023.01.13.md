@@ -25,7 +25,7 @@ For news and checking how / when we could start communicating and liberating the
 
 #### Preparing a open notebook template for each DBGI member
 
-[[open-notebook-dbgi.setup]]
+[[open-notebook.dbgi.setup]]
 
 
 ## Paused

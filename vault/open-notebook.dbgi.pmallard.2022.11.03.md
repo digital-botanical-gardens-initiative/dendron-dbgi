@@ -58,7 +58,7 @@ We might prepare a joint Master thesis proposal which would have for objective t
 
 ### Deined a setup for daily notes
 
-[[open-notebook-dbgi.setup]]
+[[open-notebook.dbgi.setup]]
 
 
 
