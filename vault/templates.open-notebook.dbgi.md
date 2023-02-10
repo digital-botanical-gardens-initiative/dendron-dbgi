@@ -1,6 +1,6 @@
 ---
 id: b51e1k7qbe6jj1quhxnag04
-title: Open Notebook Dbgi
+title: Dbgi
 desc: ''
 updated: 1673608466305
 created: 1667483368106
