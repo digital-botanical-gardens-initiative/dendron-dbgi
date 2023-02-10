@@ -5,3 +5,19 @@ desc: ''
 updated: 1676013878277
 created: 1676013878277
 ---
+# This is Edouard's DBGI daily open-notebook.
+
+Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
+
+# To do
+
+# done
+
+# Perspectives
+
+# notes
+
+# code
+
+# links
+
