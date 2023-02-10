@@ -8,7 +8,7 @@ module.exports = {
       // This example sets a prefix of 'planning', and then adds a date
       // hierarchy using the luxon module.
       return {
-        name: "open-notebook.dmietchen." + luxon.DateTime.local().toFormat("yyyy.MM.dd"),
+        name: "open-notebook-dbgi.dmietchen." + luxon.DateTime.local().toFormat("yyyy.MM.dd"),
         promptUserForModification: true,
       };
     },

@@ -2,7 +2,7 @@
 id: khvagputmfl3gro5zswusl1
 title: Setup
 desc: ''
-updated: 1673617165365
+updated: 1676013779558
 created: 1672177489546
 ---
 
@@ -35,7 +35,7 @@ module.exports = {
       // This example sets a prefix of 'planning', and then adds a date
       // hierarchy using the luxon module.
       return {
-        name: "open-notebook.pma." + luxon.DateTime.local().toFormat("yyyy.MM.dd"),
+        name: "open-notebook-dbgi.pma." + luxon.DateTime.local().toFormat("yyyy.MM.dd"),
         promptUserForModification: true,
       };
     },
