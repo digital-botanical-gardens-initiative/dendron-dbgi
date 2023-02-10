@@ -2,7 +2,7 @@
 id: wa62hh70cbmrra0nxu10a69
 title: '2023-02-10'
 desc: ''
-updated: 1676039247087
+updated: 1676040184906
 created: 1676013381292
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -65,7 +65,14 @@ Private Partner Orchids GreeenHouse (EMI/DBGI ?)
 
 - WP3 Knowledge representation and graph establishment
 
+What do we have ?
+What do we want ?
+
+
 - WP4 Human-Data Interaction
+
+What do we have ?
+What do we want ?
 
 - WP5 Community Engagement, Public Outreach & Biodiversity Conservation
 
