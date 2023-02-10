@@ -38,7 +38,7 @@ It was lost in ... a daily note. So this means that the page should be available
 Maybe think of something related to amoeba pattern https://wiki.dendron.so/notes/e780000d-c784-4945-8e42-35218a3ecf10/ when notes are too big.
 This would be a rule to get out notes from the daily notes to the main dendron. You came back to them once so it means they might have some kind of importance and that you should find them in another way then just browsing through your daily notes.
 
-Moved them to [[open-notebook.setup.md]]
+Moved them to [[open-notebook-dbgi.setup]]
 
 
 

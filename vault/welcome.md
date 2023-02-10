@@ -46,7 +46,7 @@ This note is a succinct tutorial note aiming to get you started in the use of th
 5. Voila ! You should now be in the DBGI Dendron.
 
 Feel free to explore and contribute.
-A first, important step could be to configure VSCode so that you can easily add a daily note. See steps described at [[open-notebook.setup]]
+A first, important step could be to configure VSCode so that you can easily add a daily note. See steps described at [[open-notebook-dbgi.setup]]
 
 
 ## Questions, comments, suggestions ?
