@@ -2,7 +2,7 @@
 id: wa62hh70cbmrra0nxu10a69
 title: '2023-02-10'
 desc: ''
-updated: 1676039977393
+updated: 1676040580055
 created: 1676013381292
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -80,9 +80,6 @@ Private Partner Orchids GreeenHouse (EMI/DBGI ?)
     - Physical samples tracking
 
 - WP3 Knowledge representation and graph establishment
-
-What do we have ?
-What do we want ?
 
 - WP4 Human-Data Interaction
 
