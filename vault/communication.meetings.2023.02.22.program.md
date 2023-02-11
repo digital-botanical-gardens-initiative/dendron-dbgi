@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676100044183
+updated: 1676135707136
 created: 1676042332330
 ---
 # First DBGI-KM meeting
@@ -30,7 +30,6 @@ Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavi
 
 - Some background on Ecometabolomics & Natural Products based drug discovery - preliminary works and the origins of DBGI. Manu 10-15 min
 
-
 - DBGI & EMI. PMA 10-15 min
 
 - What has been done until now ?
@@ -47,7 +46,6 @@ Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavi
     - 1 FTE (1.5years) inhouse computational data scientist SIB (establish exactly who ?)
   - Gant chart (Who does what when ?)
   - Communication 
-
 
 ### Lunch break (~1h30)
 
@@ -80,66 +78,80 @@ All these means are encouraged but should not be a brake to implication and deve
 
 - Anne-Laure JBN, Donat, Nadir, Blaise, Gregor 
 
-What do we have ?
-What do we want ?
- For now UniFr / UniNe
+##### What do we have ?
+
+For now UniFr / UniNe
 
 Private Partner Orchids GreeenHouse (EMI/DBGI ?)
+##### What do we want ?
 
 #### WP2 Sample tracking system establishment
 
 Henry, Catarina, Bernd, Maelle, Edouard
 
+
 ##### What do we have ?
 
-###### physical objects
+###### Physical objects
 
-    - living specimens (look trough the window)
+    - living specimens (look trough the window !)
     - dried tissues collections (bring Tubes)
     - extracts (Tubes)
     - fridges ()
-###### digital objects
+###### Digital objects
 
-    - iNat
-    - Directus
-    - MassIVE
-    - Physical samples tracking
+    - Species list
+    - iNat. The DBGI iNat project https://www.inaturalist.org/projects/digital-botanical-gardens-initiative
+
+
+    - Directus (http://directus.dbgi.org/) Have a quick tour.
+    - MassIVE (several set uploaded e.g. https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=bd2a519b678e4f92aeca6434166ea548, https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=589f0793f15d4b87aebd699900ad468e)
+    - Physical samples tracking: none at the moment.
 
 ##### What do we want ?
 
-###### physical objects
+###### Physical objects
 
-    - living specimens (look trough the window)
-    - dried tissues collections (bring Tubes)
-    - extracts (Tubes)
-    - fridges ()
-###### digital objects
+    - living specimens (look trough the window) - Could this improve ? How ?
+    - dried tissues collections (Falcon Tubes) - Could this improve ? How ?
+    - extracts (Tubes) - Could this improve ? How ?
+    - fridges () - Could this improve ? How ?
 
+###### Digital objects
+
+    - Species list
     - iNat
     - Directus
     - MassIVE
     - Physical samples tracking
 
-
+Frictionless Software toolkit (https://frictionlessdata.io/)
+Bioregistry (https://bioregistry.io/) (Also in WP3)
 
 #### WP3 Knowledge representation and graph establishment
 
 Ana, Tarcisio, Jakub, Philippe 
 ##### What do we have ?
 
-- ENPKG
+- ENPKG 
+
+https://enpkg.commons-lab.org/graphdb/
+https://enpkg.commons-lab.org/
+
+The idea for now is to fork the ENPKG repos on the DBGI organisation.
+We will build on these, at least for the MS > RDF part. 
 
 ##### What do we want ?
 
 - DBGI-KG
 - EMI-KG 
 
-
-
-
 #### WP4 Human-Data Interaction
 
 ##### What do we have ?
+
+For now the https://enpkg.commons-lab.org/graphdb/ endpoint.
+
 ##### What do we want ?
 
 #### WP5 Community Engagement, Public Outreach & Biodiversity Conservation
