@@ -2,25 +2,19 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676135707136
+updated: 1676138124937
 created: 1676042332330
 ---
-# First DBGI-KM meeting
 
-
-## Details 
+First DBGI-KM meeting 
 
 **Wednesday 22 February 2023**
 
 Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavillonvert
 
+# Morning 
 
-## Program 
-
-
-### Morning 
-
-9:30 Start
+## First part [9h30]
 
 - Have a coffee, have a seat ☕ (10 min)
 
@@ -36,131 +30,53 @@ Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavi
   - DBGI wet lab Pilot UniFr/UniNe. Edouard 10 min
   - DBGI data management pilot UniFr. Maëlle 10 min
 
-- Coffee Break ☕ (10 min)
 
-- The DBGI-KM structure
+Coffee Break ☕ (10 min) 
+
+## Second part [11h15] 
+
+The DBGI-KM structure
+
   - Personnel
     - 1 FTE (1.5 years) Postdoc UniFr (discuss CV)
     - 1 FTE (1 year) Postdoc UniNe (discuss CV)
     - 0.5 FTE (2years) inhouse computational data scientist ETHZ-SIS (establish exactly who ?)
     - 1 FTE (1.5years) inhouse computational data scientist SIB (establish exactly who ?)
   - Gant chart (Who does what when ?)
-  - Communication 
+  - Communication on the project (we should have news from swissuniversities on the 16th Feb)
 
-### Lunch break (~1h30)
+Questions ? 
+
+# Lunch break [12:15]
 
 https://www.lesarsenaux8.ch/
 
-### Afternoon
+# Afternoon [14:00]
 
-#### Open Science & Communication
+## Open Science & Communication [14:00]
 
-- Lightning Dendron workshop
-- RIO Special collection
-- Publication of the ChordB proposal
-- Zulip, Github Discussions
+![[communication.meetings.2023.02.22.program.notes.open-science.md]]
 
-https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+## Botanical Gardens, collection of specimens & legal aspects [14:30]
 
-Have a slide explaining the relation of :
+![[communication.meetings.2023.02.22.program.notes.botanical-garden.md]]
 
-- email
-- Zulip
-- Dendron
-- Github Discussions
-- Github issues
+## WP2 Sample tracking system establishment [14:45]
 
-When to use what and why ?
+![[communication.meetings.2023.02.22.program.notes.wp2]]
 
-All these means are encouraged but should not be a brake to implication and development
+## WP3 Knowledge representation and graph establishment [15:15]
 
-#### Botanical Gardens, collection of specimens & legal aspects
+![[communication.meetings.2023.02.22.program.notes.wp3]]
 
-- Anne-Laure JBN, Donat, Nadir, Blaise, Gregor 
+## WP4 Human-Data Interaction
 
-##### What do we have ?
+![[communication.meetings.2023.02.22.program.notes.wp4]]
 
-For now UniFr / UniNe
+## WP5 Community Engagement, Public Outreach & Biodiversity Conservation
 
-Private Partner Orchids GreeenHouse (EMI/DBGI ?)
-##### What do we want ?
+![[communication.meetings.2023.02.22.program.notes.wp5]]
 
-#### WP2 Sample tracking system establishment
+## Varia
 
-Henry, Catarina, Bernd, Maelle, Edouard
-
-
-##### What do we have ?
-
-###### Physical objects
-
-    - living specimens (look trough the window !)
-    - dried tissues collections (bring Tubes)
-    - extracts (Tubes)
-    - fridges ()
-###### Digital objects
-
-    - Species list
-    - iNat. The DBGI iNat project https://www.inaturalist.org/projects/digital-botanical-gardens-initiative
-
-
-    - Directus (http://directus.dbgi.org/) Have a quick tour.
-    - MassIVE (several set uploaded e.g. https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=bd2a519b678e4f92aeca6434166ea548, https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=589f0793f15d4b87aebd699900ad468e)
-    - Physical samples tracking: none at the moment.
-
-##### What do we want ?
-
-###### Physical objects
-
-    - living specimens (look trough the window) - Could this improve ? How ?
-    - dried tissues collections (Falcon Tubes) - Could this improve ? How ?
-    - extracts (Tubes) - Could this improve ? How ?
-    - fridges () - Could this improve ? How ?
-
-###### Digital objects
-
-    - Species list
-    - iNat
-    - Directus
-    - MassIVE
-    - Physical samples tracking
-
-Frictionless Software toolkit (https://frictionlessdata.io/)
-Bioregistry (https://bioregistry.io/) (Also in WP3)
-
-#### WP3 Knowledge representation and graph establishment
-
-Ana, Tarcisio, Jakub, Philippe 
-##### What do we have ?
-
-- ENPKG 
-
-https://enpkg.commons-lab.org/graphdb/
-https://enpkg.commons-lab.org/
-
-The idea for now is to fork the ENPKG repos on the DBGI organisation.
-We will build on these, at least for the MS > RDF part. 
-
-##### What do we want ?
-
-- DBGI-KG
-- EMI-KG 
-
-#### WP4 Human-Data Interaction
-
-##### What do we have ?
-
-For now the https://enpkg.commons-lab.org/graphdb/ endpoint.
-
-##### What do we want ?
-
-#### WP5 Community Engagement, Public Outreach & Biodiversity Conservation
-
-##### What do we have ?
-##### What do we want ?
-
-#### Varia
-
-- Next meeting ?! 
-  - Where ?
-  - Who ?
+![[communication.meetings.2023.02.22.program.notes.varia]]
