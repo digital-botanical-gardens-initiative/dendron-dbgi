@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676138352997
+updated: 1676138734114
 created: 1676042332330
 ---
 
@@ -18,7 +18,7 @@ Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavi
 
 - Have a coffee, have a seat ☕ (10 min)
 
-- Round table : short presentation 30 sec per person (10 min)
+- Round table : short presentation 30 sec per person (10 min).
 
 - Program of the day (10 min)
 
@@ -38,8 +38,10 @@ Coffee Break ☕ (10 min)
 The DBGI-KM structure
 
   - Personnel
-    - 1 FTE (1.5 years) Postdoc UniFr (discuss CV)
-    - 1 FTE (1 year) Postdoc UniNe (discuss CV)
+  View of the DBGI Consortium
+  View of the Swiss DBGI-KM Consortium
+    - 1 FTE (1.5 years) Postdoc UniFr (discuss candidates)
+    - 1 FTE (1 year) Postdoc UniNe (discuss candidates)
     - 0.5 FTE (2years) inhouse computational data scientist ETHZ-SIS (establish exactly who ?)
     - 1 FTE (1.5years) inhouse computational data scientist SIB (establish exactly who ?)
   - Gant chart (Who does what when ?)
