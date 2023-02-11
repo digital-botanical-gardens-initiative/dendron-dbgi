@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676138124937
+updated: 1676138352997
 created: 1676042332330
 ---
 
@@ -47,36 +47,37 @@ The DBGI-KM structure
 
 Questions ? 
 
-# Lunch break [12:15]
+# Lunch break [12:00]
 
 https://www.lesarsenaux8.ch/
 
-# Afternoon [14:00]
+# Afternoon [13:30]
 
-## Open Science & Communication [14:00]
+## Open Science & Communication [13:30]
 
 ![[communication.meetings.2023.02.22.program.notes.open-science.md]]
 
-## Botanical Gardens, collection of specimens & legal aspects [14:30]
+## Botanical Gardens, collection of specimens & legal aspects [14:00]
 
 ![[communication.meetings.2023.02.22.program.notes.botanical-garden.md]]
 
-## WP2 Sample tracking system establishment [14:45]
+## WP2 Sample tracking system establishment [14:15]
 
 ![[communication.meetings.2023.02.22.program.notes.wp2]]
 
-## WP3 Knowledge representation and graph establishment [15:15]
+## WP3 Knowledge representation and graph establishment [14:45]
 
 ![[communication.meetings.2023.02.22.program.notes.wp3]]
 
-## WP4 Human-Data Interaction
+## WP4 Human-Data Interaction [15:15]
 
 ![[communication.meetings.2023.02.22.program.notes.wp4]]
 
-## WP5 Community Engagement, Public Outreach & Biodiversity Conservation
+## Break 
+## WP5 Community Engagement, Public Outreach & Biodiversity Conservation [16:00]
 
 ![[communication.meetings.2023.02.22.program.notes.wp5]]
 
-## Varia
+## Varia [16:15]
 
 ![[communication.meetings.2023.02.22.program.notes.varia]]
