@@ -2,7 +2,7 @@
 id: f1b58fewgynd36i6voll7gc
 title: Open Science
 desc: ''
-updated: 1676200311679
+updated: 1676210617949
 created: 1676137411411
 ---
 
@@ -11,6 +11,9 @@ created: 1676137411411
 Open Science questions and Communication within the DBGI as well as communication with the community and public.
 
 ## Lightning Dendron workshop
+
+❗ News : Dendron is apparently no longer actively developed. Here is Kevin's (Dendron main dev) message https://discord.com/channels/717965437182410783/737323300967022732/1072563304289030164
+
 
 ### Generalities 
 
