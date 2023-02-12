@@ -103,8 +103,8 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dendron
-        description: Personal knowledge space
+        title: DBGI Dendron page
+        description: Open Notebook Science in the DBGI
     github:
         enableEditLink: true
         editLinkText: Participate and click here to edit this page on Github !
