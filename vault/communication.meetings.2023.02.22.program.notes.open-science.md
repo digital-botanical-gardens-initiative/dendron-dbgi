@@ -2,19 +2,35 @@
 id: f1b58fewgynd36i6voll7gc
 title: Open Science
 desc: ''
-updated: 1676198561672
+updated: 1676200311679
 created: 1676137411411
 ---
 
+# Open Science
 
-- Lightning Dendron workshop
+Open Science questions and Communication within the DBGI as well as communication with the community and public.
 
-Have a look in : 
+## Lightning Dendron workshop
 
-https://wiki.dendron.so/
+### Generalities 
 
-- RIO Special collection
-- Publication of the ChordB proposal
+Have a look in : https://wiki.dendron.so/
+
+### For DBGI
+
+Have a look in [[welcome]] 
+
+Setup of individual Open Notebooks according to [[open-notebook.dbgi.setup]]
+
+
+# RIO Topical collection:  
+https://riojournal.com/topical_collections
+
+    - Publication of the ChordB ORD proposal ?
+
+Would allow to have a first research outcome published. 
+    How should we proceed regarding the budget ? How heavy should be the reformating ? 
+
 - Zulip, Github Discussions
 
 https://github.com/orgs/digital-botanical-gardens-initiative/discussions
