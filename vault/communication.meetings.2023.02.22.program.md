@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676138734114
+updated: 1676138808954
 created: 1676042332330
 ---
 
@@ -10,7 +10,8 @@ First DBGI-KM meeting
 
 **Wednesday 22 February 2023**
 
-Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavillonvert
+Physical at Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavillonvert
+Remote at https://meet.jit.si/DBGI_talks
 
 # Morning 
 
