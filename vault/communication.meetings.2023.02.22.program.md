@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676198456743
+updated: 1676199689617
 created: 1676042332330
 ---
 
@@ -19,9 +19,9 @@ First DBGI-KM meeting
 
 - Have a coffee, have a seat ☕ (10 min)
 
-- Round table : short presentation 30 sec per person (10 min).
-
 - Program of the day (10 min)
+
+- Round table : short presentation 30 sec per person (10 min).
 
 - Some background on Ecometabolomics & Natural Products based drug discovery - preliminary works and the origins of DBGI. Manu 10-15 min
 
