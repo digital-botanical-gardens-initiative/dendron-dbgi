@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: The Digital Botanical Gardens Initiative
 desc: ''
-updated: 1676198227840
+updated: 1676198885001
 created: 1645438795591
 ---
 
@@ -19,7 +19,7 @@ The DBGI main goals are briefly summarized below :
 # An Open Science project
 
 
-## Working with the workshop door open
+## Working with the workshop doors open
 
 ![](/assets/images/2022-06-18-17-47-56.png){max-width: 400px}
 
@@ -28,7 +28,7 @@ A way of working briefly described by Andy Matuschak here https://notes.andymatu
 
 ## Open Notebook Science
 
-If we apply this "working with the garage door up" idea to a scientific research endeavor we understand it as respecting the core concepts of open-science. These are in fact the principles of Open Notebook Science https://en.wikipedia.org/wiki/Open-notebook_science
+If we apply this "working with the workshop doors open" idea to a scientific research endeavor we understand it as respecting the core concepts of open-science. These are in fact the principles of Open Notebook Science https://en.wikipedia.org/wiki/Open-notebook_science
 
 For the projects of the DBGI we will follow such approach in order to share early ideas and results but also the less shiny parts of the research projects. 
 
