@@ -2,7 +2,7 @@
 id: g152oth6vwzpqf5pohwcvg9
 title: '2023-02-12'
 desc: ''
-updated: 1676200342771
+updated: 1676200384503
 created: 1676200314515
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -27,6 +27,9 @@ Today is 2023.02.12
 ## Paused
 
 ## Done
+
+### Updated the packages.json for http://www.dbgi.org/dendron-jbuf/
+Should work now
 
 ## Notes
 
