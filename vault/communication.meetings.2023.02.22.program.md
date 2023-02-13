@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676199689617
+updated: 1676273425483
 created: 1676042332330
 ---
 
@@ -29,6 +29,7 @@ First DBGI-KM meeting
 
 - What has been done until now ?
   - DBGI wet lab Pilot UniFr/UniNe. Edouard 10 min
+[[communication.meetings.2023.02.22.program.notes.dbgi-wetlab-pilot]]
   - DBGI data management pilot UniFr. Maëlle 10 min
 
 

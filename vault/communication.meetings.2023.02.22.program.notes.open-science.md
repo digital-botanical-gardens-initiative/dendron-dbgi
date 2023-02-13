@@ -2,11 +2,14 @@
 id: f1b58fewgynd36i6voll7gc
 title: Open Science
 desc: ''
-updated: 1676210617949
+updated: 1676273513925
 created: 1676137411411
 ---
 
 # Open Science
+
+Daniel, Egon 
+
 
 Open Science questions and Communication within the DBGI as well as communication with the community and public.
 
