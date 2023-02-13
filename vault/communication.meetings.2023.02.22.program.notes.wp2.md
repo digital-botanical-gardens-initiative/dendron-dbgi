@@ -2,7 +2,7 @@
 id: jw4pq186ky5v60f1xrk9z84
 title: Wp2
 desc: ''
-updated: 1676273466628
+updated: 1676273672592
 created: 1676137552017
 ---
 
@@ -39,7 +39,7 @@ Henry, Catarina, Bernd, Ming, Maelle, Edouard
     - Species list
     - iNat
     - Directus
-    - MassIVE
+    - MassIVE. Are they new developments /recommendations on this side ? GNPS2 ?
     - Physical samples tracking
 
 Frictionless Software toolkit (https://frictionlessdata.io/)
