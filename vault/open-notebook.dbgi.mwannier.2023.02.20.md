@@ -2,7 +2,7 @@
 id: pk5tod8gh3jg5ow9k1mba1d
 title: '2023-02-20'
 desc: ''
-updated: 1676888942143
+updated: 1676900784652
 created: 1676880697707
 traitIds:
   - open-notebook-mwannier
@@ -29,4 +29,10 @@ Way to improve speed of dashboard as we'll load huge amount of data:
 
 How to use Molplotly in dashboard?? => molplotly already returns an app
 => Can display on one page  
+
+
+Found a great tutorial for multipage dash:                
+https://www.youtube.com/watch?v=RMBSQ6leonU         
+https://github.com/Coding-with-Adam/Dash-by-Plotly/tree/master/Deploy_App_to_Web/Multipage_App
+
 ## TODO NEXT
