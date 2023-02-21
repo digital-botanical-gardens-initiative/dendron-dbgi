@@ -48,7 +48,7 @@ The DBGI-KM structure
     - 1 FTE (1 year) Postdoc UniNe (discuss candidates)
     - 0.5 FTE (2years) inhouse computational data scientist ETHZ-SIS (establish exactly who ?)
     - 1 FTE (1.5years) inhouse computational data scientist SIB (establish exactly who ?)
-  - Gant chart (Who does what when ?)
+  - Gantt chart (Who does what when ?)
   - Communication on the project (we should have news from swissuniversities on the 16th Feb)
 
 Questions ? 

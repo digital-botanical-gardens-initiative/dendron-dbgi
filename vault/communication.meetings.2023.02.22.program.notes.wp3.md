@@ -7,7 +7,7 @@ created: 1676137624960
 ---
 
 
-Ana, Tarcisio, Christophe, Daniel, Egon, Jakub, Philippe
+Ana, Tarcisio, Christophe, Daniel (can't be there due to teaching duties), Egon, Jakub, Philippe
 
 ### What do we have ?
 

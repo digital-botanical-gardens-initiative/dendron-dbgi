@@ -26,7 +26,7 @@ module.exports = {
      * Dendron workspace.
      */
     setTemplate: () => {
-      return "templates.open-notebook-mwannier";
+      return "templates.open-notebook.dbgi.mwannier";
     },
   },
 };
