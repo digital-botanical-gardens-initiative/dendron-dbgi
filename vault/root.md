@@ -2,7 +2,7 @@
 id: txkHnVTI9AawnquiublXO
 title: The Digital Botanical Gardens Initiative
 desc: ''
-updated: 1676198959520
+updated: 1677091032677
 created: 1645438795591
 ---
 
@@ -39,3 +39,17 @@ Expect to find strange ideas, badly formulated text and poorly written code. How
 Each pages of this website are written in markdown and hosted on Github. You can edit them by clicking on the "Click here to edit this page on Github !" link at the bottom of the page
 
 If you are willing to participate the the DBGI Dendron notes have a look at the [[welcome]] section to get you started !
+
+
+## What's new ?!
+
+This web site might not necessarily seem to be change since the last time you came to visit.
+
+If something moved recently you should be able to track this below : 
+
+<html>
+ <body>
+  <iframe src="https://github.com/digital-botanical-gardens-initiative/dendron-dbgi/commits/main"
+   width="800" height="400" frameborder="0" allowfullscreen></iframe>
+ </body>
+</html>
