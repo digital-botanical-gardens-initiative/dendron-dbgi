@@ -2,7 +2,7 @@
 id: a8dn6e97qtmq2fpdql1q3mp
 title: Wp4
 desc: ''
-updated: 1676989841077
+updated: 1677027436685
 created: 1676137649086
 ---
 
@@ -17,3 +17,11 @@ Example data exploration tools and publications from the BioSODA SNF project: ht
 ### What do we want ?
 
 An intuitive, easy to use, data access platform allowing domain experts to explore the available data.
+
+See Scholia proposal at the SWAT4HCLS hackaton by Egon 
+
+##### Hacking Scholia for custom SPARQL endpoints discord
+
+https://github.com/SWAT4HCLS/Biohackathon-SWAT4HCLS-2023/issues/4
+This hack project is following up efforts of other to repurpose the Scholia platform for other SPARQL endpoints, like custom Wikibase installations or Wikidata subsets. In this project we will explore how we can make the Scholia code base configurable for the aspects to show, and which panels to show.
+If the project is successful, we have a custom Scholia instance around any of the existing public SPARQL endpoints (e.g. ChEMBL, UniProt/NextProt, etc).

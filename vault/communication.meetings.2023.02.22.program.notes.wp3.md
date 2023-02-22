@@ -2,7 +2,7 @@
 id: c40aj2zry2u1082ouweo1n4
 title: Wp3
 desc: ''
-updated: 1676273566521
+updated: 1677027491248
 created: 1676137624960
 ---
 
@@ -25,3 +25,9 @@ We will build on these, at least for the MS > RDF part.
 
 - DBGI-KG
 - EMI-KG
+
+- Wikibase. Is this an option ? 
+How complicated ? Does someone has experience in setting these up ?
+https://wikiba.se/
+
+
