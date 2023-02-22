@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1677089974091
+updated: 1677090377856
 created: 1676042332330
 ---
 
@@ -23,7 +23,11 @@ First DBGI-KM meeting
 
 - Round table : short presentation 30 sec per person (10 min).
 
+
 - Some background on Ecometabolomics & Natural Products based drug discovery - preliminary works and the origins of DBGI. Manu 10-15 min
+
+Slides at <a href="https://doi.org/10.5281/zenodo.7666200"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7666200.svg" alt="DOI"></a>
+
 
 - DBGI & EMI. PMA 10-15 min
 
