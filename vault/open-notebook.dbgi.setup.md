@@ -2,9 +2,11 @@
 id: khvagputmfl3gro5zswusl1
 title: Setup
 desc: ''
-updated: 1676013779558
+updated: 1676998849311
 created: 1672177489546
 ---
+
+
 
 
 ### Defining a Note trait for daily logs
