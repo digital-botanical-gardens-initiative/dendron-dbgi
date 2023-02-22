@@ -2,7 +2,7 @@
 id: sfencnlxrgzr2ffrf1gy32w
 title: Botanical Garden
 desc: ''
-updated: 1677027263546
+updated: 1677088695039
 created: 1676137482978
 ---
 
@@ -19,8 +19,21 @@ For now UniFr / UniNe
 
 ### What do we want ?
 
-Other Botanical gardens in CH ? International ?
-Private Partner Orchids GreeenHouse (EMI/DBGI ?)
+Should we contact other Botanical gardens in CH ? International ?
+
+Maybe yes at least for questions regarding Nagoya and CBD. (e.g Geneva BG, Vienna Botanical Gardens, IPEN exchange group) BGCI (BG conservation iNternational) 
+HBH (Hortus Botanicus Helveticus )
+
+Meeting in Neuchâtel in August 30-31 Manu will present DBGI
+
+
+Private Partner Orchids Green House (EMI/DBGI ?)
+Legal & ethics ? 
+Nagoya status. 
+
+We want to track provenance and licences regarding reuse of data. 
+
+
 
 
 ## Litterature information collection 
@@ -42,3 +55,49 @@ They are two aspects here.
 - how do we exploit previous knowledge
 
 Both are very important, but the first one is of utmost importance in the DBGI and EMI.
+
+Purl.org or similar to mirror url such as inat observations ids
+PIDs (Persistent Data Id) EPIC SSCC
+https://www.pidconsortium.net/
+
+
+Which are the metadata that we want to collect ?
+- 
+
+# Can we uniquely identify a specimen ?
+
+
+We basically have 
+
+- observations (tracked on iNat)
+- specimens (How ? can this be tracked ?) if they dont exist we create it.
+- species (tracked on iNat)
+
+❗ This point turned out to be not so simple as we have discussed. It's however an important an interesting one to tackle.
+
+DISSCO (https://www.dissco.eu/) and Taxonomic Data WG TDWG (https://www.tdwg.org/)
+
+### Working group on legal and ethics aspects of acces to genetic / metabolic diversity
+
+Anne-Laure
+
+Data are linked to genetical resssource.
+Nagoya protocol. We need legal guarantees.
+What can be published under which conditions ?
+
+CITES plants.
+Applied after 2014.
+Nagoya concern use of traditional knowledge.
+
+Ethical guidelines. 
+Prior Informed Consent.
+
+- ask to juridical in university. Legal services. To be check in UniF and UniNe
+HBH (Hortus Botonicus Helveticus )
+
+Present DBGI/EMI
+
+Valérie Wyssbrod
+
+👉 Set up a small working group on legal and ethics aspects. 
+
