@@ -2,7 +2,7 @@
 id: f1b58fewgynd36i6voll7gc
 title: Open Science
 desc: ''
-updated: 1677089993634
+updated: 1677090512504
 created: 1676137411411
 ---
 
@@ -43,7 +43,7 @@ Would allow to have a first research outcome published.
 
 https://github.com/orgs/digital-botanical-gardens-initiative/discussions
 
-Have a slide explaining the relation of :
+A slide explaining the relation of :
 
 - email
 - Zulip
@@ -52,5 +52,7 @@ Have a slide explaining the relation of :
 - Github issues
 
 When to use what and why ?
+
+See last slide at <a href="https://doi.org/10.5281/zenodo.7663471"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7663471.svg" alt="DOI"></a>
 
 All these means are encouraged but should not be a brake to implication and development
