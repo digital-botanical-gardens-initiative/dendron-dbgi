@@ -2,7 +2,7 @@
 id: 7fl4cu3b0ihzfwpnyghmes8
 title: '2023-02-23'
 desc: ''
-updated: 1677141531533
+updated: 1677160287741
 created: 1677138085779
 traitIds:
   - open-notebook-mwannier
@@ -17,7 +17,7 @@ Today is 2023.02.23
 ## TODO
 
 - Meeting with pma - 10am
-
+- add dashboard on dbgi github
 
 ## CODE
 
@@ -29,11 +29,44 @@ To discuss in meeting:
 - template for directus
 
 
-molplotly doesn't show the molecules => problem was in molplotly scripts
-But still doesn't appear when 
+molplotly doesn't show the molecules => problem was in molplotly scripts                    
+But still doesn't appear when on a multipage app => issue github
+
+
 
 ## TODO NEXT
 
-
+- Run GNPS on local
+- issue moltplotly
 
 ## Important for redaction
+
+### Important point of my project
+
+(refer to ChordB proposal for details)
+
+1. establish a Dashboard to view "LOTUS type data"
+
+- molecular structures
+  - molecular structure metadata 
+  - molecular structure taxonomies
+- biological organisms
+  - biological organisms structure metadata 
+  - biological organisms structure taxonomies
+
+This Dashboard can feed on static tabular files
+
+2. establish a Dashboard to view "DBGI type data"
+
+"DBGI type data" = "LOTUS type data" + mass spectrometry data
+
+- LCMS profiles
+- spectrums
+
+cf. GNPS LCMS Dashboard
+
+This Dashboard can feed on static tabular files + Mass spec files
+
+3. Improve these Dashboard so they can feed on KG
+
+- SPARQL queries 
