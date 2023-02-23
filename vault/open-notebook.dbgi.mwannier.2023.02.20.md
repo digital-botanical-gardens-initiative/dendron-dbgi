@@ -2,7 +2,7 @@
 id: pk5tod8gh3jg5ow9k1mba1d
 title: '2023-02-20'
 desc: ''
-updated: 1676900784652
+updated: 1677160259633
 created: 1676880697707
 traitIds:
   - open-notebook-mwannier
@@ -24,6 +24,7 @@ Way to improve speed of dashboard as we'll load huge amount of data:
 - https://vaex.io/docs/index.html
 - https://github.com/predict-idlab/plotly-resampler
 - https://dash.plotly.com/performance
+- datashader (seems more for maps)
 
 
 

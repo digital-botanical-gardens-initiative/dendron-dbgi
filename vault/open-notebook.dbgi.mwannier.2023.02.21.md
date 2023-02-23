@@ -2,7 +2,7 @@
 id: n6q9mhbpvesbo1oiewipczt
 title: '2023-02-21'
 desc: ''
-updated: 1676989027994
+updated: 1677143913800
 created: 1676965831727
 traitIds:
   - open-notebook-mwannier
@@ -23,6 +23,7 @@ SPARQL/KG python libraries:
 - https://pypi.org/project/sparql-dataframe/ => convert sparql result in pandas dataframe
 - https://pypi.org/project/SPARQL-parser/
 - https://pypi.org/project/graphdb-python/ => GraphDb workbench
+- rdflib
 
 
 
