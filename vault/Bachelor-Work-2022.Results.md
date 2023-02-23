@@ -16,7 +16,7 @@ We can see below that a large majority of compounds are conserved across both sa
 
 ![molecular comparison](assets/images/molecular_comparison.png){max-width : 600px, display: block, margin: 0 auto}*Differences between silica gel and liquid nitrogen*
 
-![phylogenetic tree](assets/images/phylogenetic_tree.png){max-width : 600px, display: block, margin: 0 auto}*Organisation of the samples based on chemistery ploted with a phylogenetic tree*
+![chemotaxonomic tree](assets/images/phylogenetic_tree.png){max-width : 600px, display: block, margin: 0 auto}*Organisation of the samples based on their chemistry*
 
 These results have been obtained by profiling the plants less than one month after the sampling. Therefor, it is not guaranteed that these results are true for older stored samples.
 

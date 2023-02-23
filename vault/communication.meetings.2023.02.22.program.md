@@ -2,7 +2,7 @@
 id: 33r62tekbrtckkfadan4kwj
 title: Program
 desc: ''
-updated: 1676362478542
+updated: 1677090377856
 created: 1676042332330
 ---
 
@@ -23,17 +23,29 @@ First DBGI-KM meeting
 
 - Round table : short presentation 30 sec per person (10 min).
 
+
 - Some background on Ecometabolomics & Natural Products based drug discovery - preliminary works and the origins of DBGI. Manu 10-15 min
+
+Slides at <a href="https://doi.org/10.5281/zenodo.7666200"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7666200.svg" alt="DOI"></a>
+
 
 - DBGI & EMI. PMA 10-15 min
 
+Slides at <a href="https://doi.org/10.5281/zenodo.7662428"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7662428.svg" alt="DOI"></a>
+
+
 - What has been done until now ?
   - DBGI wet lab Pilot UniFr/UniNe. Edouard 10 min
+
+Slides at <a href="https://doi.org/10.5281/zenodo.7661180"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7661180.svg" alt="DOI"></a>
+
 [[communication.meetings.2023.02.22.program.notes.dbgi-wetlab-pilot]]
+
   - DBGI data management pilot UniFr. Maëlle 10 min
+
+Slides at <a href="https://doi.org/10.5281/zenodo.7665022"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7665022.svg" alt="DOI"></a>
+
 [[communication.meetings.2023.02.22.program.notes.data-management-pilot]]
-
-
 
 Coffee Break ☕ (10 min) 
 
@@ -41,7 +53,9 @@ Coffee Break ☕ (10 min)
 
 The DBGI-KM structure
 
-  - Personnel
+Slides at <a href="https://doi.org/10.5281/zenodo.7663471"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7663471.svg" alt="DOI"></a>
+
+- Personnel
   View of the DBGI Consortium
   View of the Swiss DBGI-KM Consortium
     - 1 FTE (1.5 years) Postdoc UniFr (discuss candidates)
