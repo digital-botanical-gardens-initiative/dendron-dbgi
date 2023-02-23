@@ -2,7 +2,7 @@
 id: duroxonpr6sjqcls3wceqcg
 title: '2023-02-23'
 desc: ''
-updated: 1677145014485
+updated: 1677170356183
 created: 1677145003318
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -67,6 +67,29 @@ This Dashboard can feed on static tabular files + Mass spec files
 ## Done
 
 ## Notes
+
+- Red arrow system for specimens labelling
+
+Thinking off the specimens identifications issues discussed in the last DBGI meeting see [[communication.meetings.2023.02.22.program.notes.botanical-garden]]
+
+Here is a possible solution.
+Clearly not perfect but maybe a basis to be improved upon.
+
+Basically the idea would be to have a physical marker (example a red arrow in the pictures attached) pointing toward the sampled specimen.
+The picture should be take when sampling the specimen with a large angle (in oprder to cover the spatical resolution error of the smartphone)
+
+A unique id should also be attributed to a specimen. This ID could be labelled on the red arrow and also photographed, just as for the samples id.
+
+Improvements: 
+
+- a laser pointing system that would display both the arrow and the code on the ground.
+- a portable printer to have the label directly printed when doing the collection.
+
+Also we thought that having more than the minimal 5 pictures could be important. For ex in the picture below we see that they can be a good mean to describe even broadly the environment of the plant (e.g neighboring species, soil aspect etc)
+
+![Labelling of a given specimen](/assets/images/2023-02-23-17-37-53.png)
+
+![idem](/assets/images/2023-02-23-17-39-02.png)
 
 ## Todo tomorrow
 
