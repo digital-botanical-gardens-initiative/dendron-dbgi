@@ -2,7 +2,7 @@
 id: fomxq979rwrl6eq0koybvl1
 title: agisoft
 desc: ''
-updated: 1655990807878
+updated: 1677162025729
 created: 1655669059864
 ---
 ## 1) Import the drone pictures : 
@@ -19,7 +19,7 @@ Under Workflow/Align Photos, the parameters have been set like in Figure 2. Then
 
 ![tie points model](assets/images/tie_points_model.png){max-width : 600px, display: block, margin: 0 auto}*Figure 3: Tie points cloud model*
 
-## 3) Filter the tie points cloud model : 
+## 3) Filter the tie points cloud model : dendron-dbgi\vassets\images\alignement_parameters.png
 
 Some points in the points cloud could be wrong aligned. To obtain a high quality map, we have to remove them. Under Model/Gradual Selection we select *Reconstruction Ucertainty* and place the cursor at 10%. Then we ckick *ok* and *delete* (Figure 4). Then we repeat the operation with *Project Accuracy*. Then we have to update the camera positions in Tools/Optimize Cameras by ckicking *ok*.
 
