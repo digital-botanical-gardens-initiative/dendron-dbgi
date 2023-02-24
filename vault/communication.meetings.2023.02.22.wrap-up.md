@@ -33,6 +33,7 @@ This is a quick wrap-up of the first DBGI meeting held Wednesday 22 February 202
 ## Remote
 
 - Blaise Mulhauser (briefly)
+- Daniel Mietchen
 - Jakub Galgonek
 - Philippe Cudré-Mauroux (briefly)
 
