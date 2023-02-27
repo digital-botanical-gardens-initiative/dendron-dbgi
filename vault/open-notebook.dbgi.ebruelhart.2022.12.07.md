@@ -2,7 +2,7 @@
 id: qjst6sh69sq0jfjq6huiaes
 title: '2022-12-07'
 desc: ''
-updated: 1670419280178
+updated: 1677482158795
 created: 1670410438752
 traitIds:
   - open-notebook-eb
@@ -20,7 +20,7 @@ Today is 2022.12.07
 
 # notes
 
-After a discussion with Pierre-Marie, it seemed not good to grind plants in advance without adding the extraction solvent (methanol 80, water 20 and formic acid 0.1). So here is the list of all extracts that habe been grinded some days before adding the solvent (grinded thursday 1th december 2022 and solvent added 7th december 2022). To see the effect, 20 plants of this batch will be reextracted from the same samples and directly extracted after the grinding. These are actually not already defined, but will be selected randomly among the incrimined batch.
+After a discussion with Pierre-Marie, it seemed not good to grind plants in advance without adding the extraction solvent (methanol 80, water 20 and formic acid 0.1). So here is the list of all extracts that have been grinded some days before adding the solvent (grinded thursday 1th december 2022 and solvent added 7th december 2022). To see the effect, 20 plants of this batch will be reextracted from the same samples and directly extracted after the grinding. These are actually not already defined, but will be selected randomly among the incrimined batch.
 
 DBGI_SPL_000379
 DBGI_SPL_000380
