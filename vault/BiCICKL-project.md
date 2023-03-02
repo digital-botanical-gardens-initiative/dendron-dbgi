@@ -2,7 +2,7 @@
 id: se2pzun6petcy32hf5j3wuw
 title: BiCICKL-project
 desc: ''
-updated: 1677769174544
+updated: 1677770298700
 created: 1677768038128
 ---
 
@@ -40,3 +40,9 @@ Today (Thursday 02 March 2023) we had a first meeting to launch this small proje
 The notes have been taken here https://docs.google.com/document/d/12c-W8vjoz81lMu-zJsmPHr-X8WtF0H594T-e8jLZt3Q/edit
 
 Also backed up there [[BiCICKL-project.first-meeting]]
+
+
+## Communications 
+
+Started a discussion category at https://github.com/orgs/digital-botanical-gardens-initiative/discussions/categories/bicickl-feeding-the-lotus-project
+
