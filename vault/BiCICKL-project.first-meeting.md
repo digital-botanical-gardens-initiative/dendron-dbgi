@@ -2,7 +2,7 @@
 id: goothtp7r9v98y6xr905q60
 title: first-meeting
 desc: ''
-updated: 1677768517131
+updated: 1677769340458
 created: 1677768434016
 ---
 
@@ -93,15 +93,16 @@ https://pubs.acs.org/journal/jnprdf
 PubChem RDF for compounds dictionary:
 https://ftp.ncbi.nlm.nih.gov/pubchem/RDF/
 
-To Do
-PM & Adriano provide a list of the articles
-PM & Adriano provide ca 20 articles where the elements are highlighted that need to be extracted
-DA get Journal of Natural Products and Phytochemistry articles
-DA talk to GS/CN to scrape
-PM & Adriano defines the annotation schema: molecules, taxon, predicate, methods, specimen, organs  (PO), habitats/location
-PM & Adriano provides a list of vocabularies/ontologies for each entities
-PM & Adriano provide annotated articles
-PR/AF check how to hide access to closed access into SIBiLS
+To Do: 
+
+* PM & Adriano provide a list of the articles
+* PM & Adriano provide ca 20 articles where the elements are highlighted that need to be extracted
+* DA get Journal of Natural Products and Phytochemistry articles
+* DA talk to GS/CN to scrape
+* PM & Adriano defines the annotation schema: molecules, taxon, predicate, methods, specimen, organs  (PO), habitats/location
+* PM & Adriano provides a list of vocabularies/ontologies for each entities
+* PM & Adriano provide annotated articles
+* PR/AF check how to hide access to closed access into SIBiLS
 
 Next meeting / 
 recurring meeting March 16, 2023, 2 - 3 pm

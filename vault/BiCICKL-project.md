@@ -2,15 +2,16 @@
 id: se2pzun6petcy32hf5j3wuw
 title: BiCICKL-project
 desc: ''
-updated: 1677768426836
+updated: 1677769174544
 created: 1677768038128
 ---
 
 
 We submitted last year a proposal for the https://bicikl-project.eu/open-call-projects.
 
-This proposal was entitled "Exploiting and sharing existing and new knowledge in the frame of the Digital Botanical Gardens Initiative."
-It aimed to explore two aspects related to knowledge exploitation and sharing of small molecules and their occurences.
+This proposal was entitled **_"Exploiting and sharing existing and new knowledge in the frame of the Digital Botanical Gardens Initiative."_**
+
+It aims to explore several aspects related to knowledge exploitation and sharing of small molecules and their occurrences.
 
 The abstract was : 
 
@@ -30,12 +31,12 @@ The abstract was :
 https://docs.google.com/document/d/1RgzNW_gL0UVj8oJ3yz7Dj9APq1r5cjR41zsVdcvGdeo/edit#heading=h.ngrefc2bpjv2
 
 
-On the 20th February we received the good news that our proposal was accepted !
+On the 20th February we received the good news that our proposal was accepted ! Which means we will get support (in the form of time, expertise and implementations from the BiCICKL team, no money) to advance this project.
 
 ## First meeting 
 
-On the Thursday 02 March 2023 we had a first meeting to launch this small project and discuss initial ideas.
+Today (Thursday 02 March 2023) we had a first meeting to launch this small project and discuss initial ideas.
 
 The notes have been taken here https://docs.google.com/document/d/12c-W8vjoz81lMu-zJsmPHr-X8WtF0H594T-e8jLZt3Q/edit
 
-Also backep up there 
+Also backed up there [[BiCICKL-project.first-meeting]]
