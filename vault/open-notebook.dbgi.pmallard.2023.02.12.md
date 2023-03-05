@@ -22,7 +22,7 @@ Today is 2023.02.12
 
 ## Doing
 
-- Working on the [[communication.meetings.2023.02.22.program]]
+- Working on the [[meetings.2023.02.22.program]]
 
 ## Paused
 

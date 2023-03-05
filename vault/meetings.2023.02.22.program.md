@@ -39,13 +39,13 @@ Slides at <a href="https://doi.org/10.5281/zenodo.7662428"><img src="https://zen
 
 Slides at <a href="https://doi.org/10.5281/zenodo.7661180"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7661180.svg" alt="DOI"></a>
 
-[[communication.meetings.2023.02.22.program.notes.dbgi-wetlab-pilot]]
+[[meetings.2023.02.22.program.notes.dbgi-wetlab-pilot]]
 
   - DBGI data management pilot UniFr. Maëlle 10 min
 
 Slides at <a href="https://doi.org/10.5281/zenodo.7665022"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7665022.svg" alt="DOI"></a>
 
-[[communication.meetings.2023.02.22.program.notes.data-management-pilot]]
+[[meetings.2023.02.22.program.notes.data-management-pilot]]
 
 Coffee Break ☕ (10 min) 
 
@@ -75,29 +75,29 @@ https://www.lesarsenaux8.ch/
 
 ## Open Science & Communication [13:30]
 
-![[communication.meetings.2023.02.22.program.notes.open-science.md]]
+![[meetings.2023.02.22.program.notes.open-science]]
 
 ## Botanical Gardens, collection of specimens & legal aspects [14:00]
 
-![[communication.meetings.2023.02.22.program.notes.botanical-garden.md]]
+![[meetings.2023.02.22.program.notes.botanical-garden]]
 
 ## WP2 Sample tracking system establishment [14:15]
 
-![[communication.meetings.2023.02.22.program.notes.wp2]]
+![[meetings.2023.02.22.program.notes.wp2]]
 
 ## WP3 Knowledge representation and graph establishment [14:45]
 
-![[communication.meetings.2023.02.22.program.notes.wp3]]
+![[meetings.2023.02.22.program.notes.wp3]]
 
 ## WP4 Human-Data Interaction [15:15]
 
-![[communication.meetings.2023.02.22.program.notes.wp4]]
+![[meetings.2023.02.22.program.notes.wp4]]
 
 ## Break 
 ## WP5 Community Engagement, Public Outreach & Biodiversity Conservation [16:00]
 
-![[communication.meetings.2023.02.22.program.notes.wp5]]
+![[meetings.2023.02.22.program.notes.wp5]]
 
 ## Varia [16:15]
 
-![[communication.meetings.2023.02.22.program.notes.varia]]
+![[meetings.2023.02.22.program.notes.varia]]

@@ -70,7 +70,7 @@ This Dashboard can feed on static tabular files + Mass spec files
 
 - Red arrow system for specimens labelling
 
-Thinking off the specimens identifications issues discussed in the last DBGI meeting see [[communication.meetings.2023.02.22.program.notes.botanical-garden]]
+Thinking off the specimens identifications issues discussed in the last DBGI meeting see [[meetings.2023.02.22.program.notes.botanical-garden]]
 
 Here is a possible solution.
 Clearly not perfect but maybe a basis to be improved upon.
