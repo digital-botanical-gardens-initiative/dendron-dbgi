@@ -2,7 +2,7 @@
 id: r0xxex1f9ay56gbvbxordyv
 title: '2023-02-23'
 desc: ''
-updated: 1677170463812
+updated: 1678279640647
 created: 1677159799519
 traitIds:
   - open-notebook-lschwegler
@@ -39,10 +39,10 @@ Edourad showed me what we need to collect the samples in the greenhouse.
 - Mobile phone with the QField app
 
 I took a few samples of the plants in the greenhouse where the succulents and cacti are. To test the drying method I also took two samples from each plant: one sliced and one not. 
-- dbgi_000921: sliced and dbgi_000919: not sliced
-- dbgi_000992: sliced and dbgi_001013: not sliced
-- dbgi_000991: sliced and dbgi_000913: not sliced
-- dbgi_000915: sliced and dbgi_001017: not sliced
+- dbgi_000921: sliced and dbgi_000919: not sliced ---> XXX
+- dbgi_000992: sliced and dbgi_001013: not sliced -->XXX
+- dbgi_000991: sliced and dbgi_000913: not sliced 
+- dbgi_000915: sliced and dbgi_001017: not sliced -->XXX
 - dbgi_000922: sliced and dbgi_000998: not sliced
 
 Sampling the plants in the greenhouse:
