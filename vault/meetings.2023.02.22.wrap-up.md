@@ -39,9 +39,9 @@ This is a quick wrap-up of the first DBGI meeting held Wednesday 22 February 202
 
 # Program followed
 
-[[communication.meetings.2023.02.22.program]]
+[[meetings.2023.02.22.program]]
 
-More details and notes can be find under the corresponding sections of the [[communication.meetings.2023.02.22.program]].
+More details and notes can be find under the corresponding sections of the [[meetings.2023.02.22.program]].
 
 # Resume 
 
