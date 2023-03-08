@@ -2,7 +2,7 @@
 id: 6wf4nyadhqx87k85fw3rnp9
 title: '2023-03-08'
 desc: ''
-updated: 1678283048502
+updated: 1678284262194
 created: 1678280454978
 traitIds:
   - open-notebook-lschwegler
@@ -27,11 +27,11 @@ Today is 2023.03.08
 
 ## Notes
 Today, together with Edouard, I looked at the plant samples that we froze dry last week. 3 out of 5 not sliced succulents were still wet. 
-- dbgi_000921: sliced and dbgi_000919: not sliced
+- dbgi_000921: sliced and dbgi_000919: not sliced --> not completely dry!
 - dbgi_000992: sliced and dbgi_001013: not sliced --> not completely dry!
 - dbgi_000991: sliced and dbgi_000913: not sliced
 - dbgi_000915: sliced and dbgi_001017: not sliced --> not completely dry!
-- dbgi_000922: sliced and dbgi_000998: not sliced --> not completely dry!
+- dbgi_000922: sliced and dbgi_000998: not sliced 
 
 This means that when I take the samples I have to decide whether to slice them or not, and with the larger succulent leaves it has now been shown that it is worth slicing them. 
 
