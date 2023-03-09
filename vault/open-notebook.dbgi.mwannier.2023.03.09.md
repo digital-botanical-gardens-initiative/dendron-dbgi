@@ -2,7 +2,7 @@
 id: vvjl5eqh65v26cums0cmo2w
 title: '2023-03-09'
 desc: ''
-updated: 1678382711882
+updated: 1678383228378
 created: 1678350205615
 traitIds:
   - open-notebook-mwannier
@@ -161,7 +161,7 @@ Why should care ?
 
 
 
-![image](\assets\images\widsgeneva.jpeg)
+![selfie](assets/images/widsgeneva.jpeg)
 
 
 ## TODO NEXT
