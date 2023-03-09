@@ -2,7 +2,7 @@
 id: cbwrju2b64lo20terlyzei1
 title: '2023-03-09'
 desc: ''
-updated: 1678359588826
+updated: 1678388665393
 created: 1678359528501
 traitIds:
   - open-notebook-lschwegler
@@ -30,6 +30,11 @@ Regarding yesterday's correction: it is unclear to say that only the large leave
 - Therefore, in future I will not slice the succulents but I can dry them several times in the dry freezer. Also, it might be good not to fill the freezer too much, that could also give a better result. This means I will use the freezer a lot, but unfortunately it is not always available. One option is to buy an additional one. This will probably not affect me any more as my bachelor project ends on 01.06.202023.
 - We can't really move the scale from the lab to another place. It is extremely sensitive and expensive. Buying an additional one is an option, but also a question of time and money. So it would mean if Edouard and Stefanie could do it for me?
 - I need a list of the plants I need to collect in the greenhouse.
+
+AFTERNOON:
+There is a scale I can use "Mettler Toledo". 
+I now also have the list of plants I will collect in the greenhouse. There are 341 succulents and cacti, but which ones have more than one specimen, so there are probably just over 200 that I have to collect. 
+I have photographed the plants for which the drying worked and those for which it did not and I have also deposited them here under vault-assets-images_lendita. 
 
 
 ## Todo tomorrow
