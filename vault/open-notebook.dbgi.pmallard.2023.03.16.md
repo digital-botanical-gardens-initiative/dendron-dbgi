@@ -2,7 +2,7 @@
 id: kce3yv1v6lcse3zuvmb9hfz
 title: '2023-03-16'
 desc: ''
-updated: 1678970153168
+updated: 1678970426697
 created: 1678968706665
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -85,8 +85,14 @@ From Vol74. issue 2 (Feb 2011) until Vol83. issue 3 we have the format with the 
 
 
 
+-----
+(From Donat)
 
-
+> Here is the template to prepare the bibliographic citations for the use of the publications in the TNA
+>  
+> Example: https://docs.google.com/spreadsheets/d/16F5tO0MvDuzD5aFoqdH_Vwbt6vtJT9fsJRTUP5d_NTo/edit#gid=0
+> Template to be copied and used: https://docs.google.com/spreadsheets/d/1JAxI4uBLS9lhhtP9iyhOQPOHsSMqywjCYfIcqUIMCKU/edit#gid=0
+> 
 
 
 ## Paused
