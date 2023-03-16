@@ -2,7 +2,7 @@
 id: kce3yv1v6lcse3zuvmb9hfz
 title: '2023-03-16'
 desc: ''
-updated: 1678971436840
+updated: 1678982399981
 created: 1678968706665
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -78,7 +78,12 @@ Indeed the https://pubs.acs.org/action/doSearch?SeriesKey=jnprdf&AllField=* does
 
 From Vol83. issue 4 (April 2020) until today we have format with the grey abstract
 
+Provide 10 pdfs
+
+
 https://pubs.acs.org/doi/10.1021/np100882h
+
+Provide 10 pdfs
 
 From Vol74. issue 2 (Feb 2011) until Vol83. issue 3 we have the format with the yellow abstract
 
@@ -113,8 +118,24 @@ Looking into https://github.com/MicheleCotrufo/pdf2doi
 
 And https://github.com/MicheleCotrufo/pdf2bib
 
-pdf2bib is working smootly.
-Ask Donat if they can handle bibtex file rather than the gdocs 
+pdf2bib is working smoothly.
+Ask Donat if they can handle bibtex file rather than the gdocs
+
+
+- Ask IT if possible to open UniFR VPN to external email account
+
+
+Adriano will give Patrick the set of papers curated manually and the LOTUS outputs (filtered for the one already present in PMC)
+
+Apparently it would be possible to ask for a UniFR access 
+see https://my.unifr.ch/group/res/compte-pour-externes
+
+
+
+
+
+
+
 
 
 
