@@ -2,7 +2,7 @@
 id: kce3yv1v6lcse3zuvmb9hfz
 title: '2023-03-16'
 desc: ''
-updated: 1678970426697
+updated: 1678971436840
 created: 1678968706665
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -93,6 +93,29 @@ From Vol74. issue 2 (Feb 2011) until Vol83. issue 3 we have the format with the 
 > Example: https://docs.google.com/spreadsheets/d/16F5tO0MvDuzD5aFoqdH_Vwbt6vtJT9fsJRTUP5d_NTo/edit#gid=0
 > Template to be copied and used: https://docs.google.com/spreadsheets/d/1JAxI4uBLS9lhhtP9iyhOQPOHsSMqywjCYfIcqUIMCKU/edit#gid=0
 > 
+
+
+-rw-r--r--@ 1 pma  staff  2894552 Mar 16 12:31 acs.jnatprod.2c00978.pdf
+-rw-r--r--@ 1 pma  staff  2213582 Mar 16 12:39 acs.jnatprod.2c01032.pdf
+-rw-r--r--@ 1 pma  staff    63644 Mar 16 12:37 np010258i.pdf
+-rw-r--r--@ 1 pma  staff  1160622 Mar 16 12:32 np200715v.pdf
+-rw-r--r--@ 1 pma  staff   393127 Mar 16 12:36 np50002a005.pdf
+
+
+
+acs.jnatprod.2c00978.pdf
+acs.jnatprod.2c01032.pdf
+np010258i.pdf
+np200715v.pdf
+np50002a005.pdf
+
+Looking into https://github.com/MicheleCotrufo/pdf2doi
+
+And https://github.com/MicheleCotrufo/pdf2bib
+
+pdf2bib is working smootly.
+Ask Donat if they can handle bibtex file rather than the gdocs 
+
 
 
 ## Paused
