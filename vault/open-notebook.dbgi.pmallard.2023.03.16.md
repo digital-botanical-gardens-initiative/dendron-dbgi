@@ -2,7 +2,7 @@
 id: kce3yv1v6lcse3zuvmb9hfz
 title: '2023-03-16'
 desc: ''
-updated: 1678969099145
+updated: 1678970153168
 created: 1678968706665
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -53,6 +53,7 @@ https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#:~:text=The%20divide%
 
 I start with JNP and look here
 https://pubs.acs.org/loi/jnprdf
+Indeed the https://pubs.acs.org/action/doSearch?SeriesKey=jnprdf&AllField=* doesnt offer clear date searching menu ...
 
 
 2009 
@@ -67,6 +68,22 @@ https://pubs.acs.org/loi/jnprdf
 2023
 
 ![](/assets/images/2023-03-16-13-11-07.png)
+
+
+
+
+![](/assets/images/2023-03-16-13-26-32.png)
+
+![](/assets/images/2023-03-16-13-32-47.png)
+
+From Vol83. issue 4 (April 2020) until today we have format with the grey abstract
+
+https://pubs.acs.org/doi/10.1021/np100882h
+
+From Vol74. issue 2 (Feb 2011) until Vol83. issue 3 we have the format with the yellow abstract
+
+
+
 
 
 
