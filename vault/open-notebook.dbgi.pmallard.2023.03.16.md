@@ -2,7 +2,7 @@
 id: kce3yv1v6lcse3zuvmb9hfz
 title: '2023-03-16'
 desc: ''
-updated: 1678982399981
+updated: 1678988754555
 created: 1678968706665
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -132,18 +132,18 @@ see https://my.unifr.ch/group/res/compte-pour-externes
 
 
 
-
-
-
-
-
-
-
 ## Paused
 
 ## Done
 
 ## Notes
+
+https://www.printables.com/model/424604-thermo-scientific-vanquish-autosampler-trayfreezer
+
+Could be useful for stock of samples in freezer and injection on the Vanquish.
+Removes the step of getting out each of the samples and replacing in the trays.
+
+
 
 ## Todo tomorrow
 
