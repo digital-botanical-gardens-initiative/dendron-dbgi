@@ -1,9 +1,9 @@
 ---
-id: g152oth6vwzpqf5pohwcvg9
-title: '2023-02-12'
+id: d68hrdr6hfb2cin8tpzpivq
+title: '2023-03-05'
 desc: ''
-updated: 1676200384503
-created: 1676200314515
+updated: 1678011342307
+created: 1678011333819
 traitIds:
   - open-notebook-dbgi-pmallard
 ---
@@ -11,7 +11,7 @@ traitIds:
 
 # This is PMA's DBGI daily open-notebook.
 
-Today is 2023.02.12
+Today is 2023.03.05
 
 ## Todo today
 
@@ -22,16 +22,15 @@ Today is 2023.02.12
 
 ## Doing
 
-- Working on the [[meetings.2023.02.22.program]]
-
 ## Paused
 
 ## Done
 
-### Updated the packages.json for http://www.dbgi.org/dendron-jbuf/
-Should work now
-
 ## Notes
+
+There is a whole website to learn wb https://learningwikibase.com/
+Created a first Wb instance at https://dbgi-sandbox.wikibase.cloud/wiki/Main_Page
+
 
 ## Todo tomorrow
 

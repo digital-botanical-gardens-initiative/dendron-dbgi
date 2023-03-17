@@ -40,7 +40,7 @@ Wikibase <-> WD is straightforward.
 
 1. start by Using existing WikiBase 
 
-Scholia could work with any Wikibase (cg Egon hackaton proposal at SWAT) See at ![[communication.meetings.2023.02.22.program.notes.wp4#hacking-scholia-for-custom-sparql-endpoints]]
+Scholia could work with any Wikibase (cg Egon hackaton proposal at SWAT) See at ![[meetings.2023.02.22.program.notes.wp4#hacking-scholia-for-custom-sparql-endpoints]]
 
 
 Daniel runs his own instance Wikibase instance.
