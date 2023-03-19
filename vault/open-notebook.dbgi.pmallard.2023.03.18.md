@@ -2,7 +2,7 @@
 id: dfj04lm9swzeg51xcbpgt5v
 title: '2023-03-18'
 desc: ''
-updated: 1679127673364
+updated: 1679148176835
 created: 1679127559964
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -77,6 +77,10 @@ We also follow Open Notebook Science approach (https://en.wikipedia.org/wiki/Ope
 ## Paused
 
 ## Done
+
+Look into protocols.io
+https://www.protocols.io/file-manager/3F4ABBC4C59511EDAB840A58A9FEAC02
+
 
 ## Notes
 
