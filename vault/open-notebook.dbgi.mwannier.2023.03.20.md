@@ -2,7 +2,7 @@
 id: 4y3rowjuwqpbp005g82rrjb
 title: '2023-03-20'
 desc: ''
-updated: 1679307990454
+updated: 1679325704844
 created: 1679305060065
 traitIds:
   - open-notebook-mwannier
@@ -63,6 +63,7 @@ To sum up:
 
 ## TODO NEXT
 
+- add progress bar https://dash.plotly.com/long-callbacks
 
 
 ## Important for redaction
