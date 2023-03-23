@@ -2,7 +2,7 @@
 id: wpvgtzcvxy5ctbwvlilieao
 title: '2023-03-23'
 desc: ''
-updated: 1679560492423
+updated: 1679588301400
 created: 1679560177365
 traitIds:
   - open-notebook-lschwegler
@@ -37,6 +37,13 @@ Before the start on Procycling and then after the start (wait approx. 2 min) and
 The principle of the freeze dryer: Freeze drying is based on the physical process of sublimation: In this process, the ice crystals sublime directly into the gaseous state without the intermediate appearance of a liquid phase. The end product of freeze-drying is called lyophilisate.
 
 Important, after the dry freezer I have to replace the lids of the samples with those without holes. 
+
+Today it was more pleasant than yesterday to collect the plant fragments. It was less hot. Everything went well so far. 
+
+I was now able to book the freeze dryer for the following dates:
+- Wednesday, 29.03.23, 08:00 to Friday, 31.03.23, 10:30 a.m.
+- Tuesday, 04.04.23, 16:00 to Friday, 07.04.23, 10:30
+- Wednesday, 19.04.23, 08:00 to Friday, 21.04.23, 10:30 a.m.
 
 
 ## Todo tomorrow
