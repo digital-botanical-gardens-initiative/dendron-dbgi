@@ -2,7 +2,7 @@
 id: ubj4yl08jyx6844fad17wjb
 title: '2023-03-21'
 desc: ''
-updated: 1679413753165
+updated: 1679491221745
 created: 1679384309263
 traitIds:
   - open-notebook-mwannier
@@ -23,7 +23,9 @@ Today is 2023.03.21
 
 ## NOTES
 
-Calculate similitude between molecules: https://medium.com/data-professor/how-to-calculate-molecular-similarity-25d543ea7f40
+Calculate similitude between molecules: 
+  - https://medium.com/data-professor/how-to-calculate-molecular-similarity-25d543ea7f40
+  - https://gnps-structure.ucsd.edu/structuresimilarity?smiles1=<smiles string>&smiles2=<smiles string> => seems to be better option
 
 
 
