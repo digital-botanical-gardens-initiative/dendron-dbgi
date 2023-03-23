@@ -2,7 +2,7 @@
 id: wpvgtzcvxy5ctbwvlilieao
 title: '2023-03-23'
 desc: ''
-updated: 1679588301400
+updated: 1679588853058
 created: 1679560177365
 traitIds:
   - open-notebook-lschwegler
@@ -44,6 +44,7 @@ I was now able to book the freeze dryer for the following dates:
 - Wednesday, 29.03.23, 08:00 to Friday, 31.03.23, 10:30 a.m.
 - Tuesday, 04.04.23, 16:00 to Friday, 07.04.23, 10:30
 - Wednesday, 19.04.23, 08:00 to Friday, 21.04.23, 10:30 a.m.
+- Tuesday, 02.05.23 until Friday, 05.05.23
 
 
 ## Todo tomorrow
