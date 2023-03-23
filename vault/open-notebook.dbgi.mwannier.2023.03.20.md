@@ -2,7 +2,7 @@
 id: 4y3rowjuwqpbp005g82rrjb
 title: '2023-03-20'
 desc: ''
-updated: 1679325704844
+updated: 1679468890644
 created: 1679305060065
 traitIds:
   - open-notebook-mwannier
@@ -57,7 +57,7 @@ Sharability:
 
 To sum up:                                             
 
-**Help improve MS ddata acccessibility and interoperability, lower barriers of entry for MS data analysis in the research environment and the calssroom, encourage data transparency and sharing, and strengten the reproducibility of MS data analysis.**
+**Help improve MS data acccessibility and interoperability, lower barriers of entry for MS data analysis in the research environment and the classroom, encourage data transparency and sharing, and strengten the reproducibility of MS data analysis.**
 
 
 
