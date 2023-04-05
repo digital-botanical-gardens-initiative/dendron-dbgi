@@ -2,11 +2,11 @@
 id: 3p92gjvv8krrc6kjlk7rz6r
 title: Alecabec
 desc: ''
-updated: 1679994264180
+updated: 1680696541646
 created: 1679994238929
 ---
 
-# This is **My Name** DBGI daily open-notebook.
+# This is Audrey's DBGI daily open-notebook.
 
 Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 
