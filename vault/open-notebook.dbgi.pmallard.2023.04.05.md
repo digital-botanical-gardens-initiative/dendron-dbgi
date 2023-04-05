@@ -2,7 +2,7 @@
 id: wli8olqef70t0l79fkxh113
 title: '2023-04-05'
 desc: ''
-updated: 1680673782112
+updated: 1680690297215
 created: 1680673761005
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -64,6 +64,87 @@ Meeting ID: 642 9062 6872
 We are looking forward to seeing you all on Wednesday!
  
 Best regards,
+
+
+### Slides by Caterina
+
+ElN and an Admin interfaces
+
+Concepts
+
+
+Thre components
+
+- Inventory Management
+- ELN
+- Data Management
+
+
+Inventory is shared by all group members
+
+- Samples/Material
+- Protocols
+- Instruments
+
+In the ELN :
+
+- Personal space
+- Project Spaces
+
+Both describe experiments
+
+
+Collections/Objects and Datasets haves types
+Types are defined by their metadata
+
+
+
+
+3 web UI
+
+- CoreUI (deprecated)
+- ELN UI 
+- New Admin I
+
+
+### Application case
+
+We have a sample for which we want to measure the mass loss at given t and p
+
+Note: Codes CANNOT be changed after registration. This statement is valid for codes anywhere in openBIS.
+
+
+# API
+
+- Java and Python API
+No REST API 
+
+![](/assets/images/2023-04-05-10-10-51.png)
+
+
+Ask for this support !
+This should help to stick to existing ontologies 
+
+## Forum
+
+https://openbis.ch/index.php/community-forum/
+
+And else through issuing a ticket
+
+
+# It is also possible to export an OpenBis 
+
+Jython scripts for Dynamic properties
+
+
+
+1. create User from the ELN interface
+2. Edit and fine tune in the Admin interfaces
+
+
+
+
+
 
 
 ## Paused
