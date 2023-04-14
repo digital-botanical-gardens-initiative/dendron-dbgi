@@ -2,7 +2,7 @@
 id: l6q4u73d01xqilb5qvle9ga
 title: '2023-04-14'
 desc: ''
-updated: 1681475262684
+updated: 1681475584876
 created: 1681473813463
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -29,6 +29,16 @@ Not sure if this is the same as a Topical collection https://riojournal.com/topi
 
 Submitted request for a collection at https://riojournal.com/open_collection
 
+
+> Dear Pierre-Marie Allard,
+> Thank you for submitting your proposal for a collection to Research Ideas and Outcomes: Digital Botanical Gardens Initiative outcomes
+> 
+> The proposal will be evaluated by the Journal's editors and you will be informed about its acceptance or rejection.
+> 
+> ___________________
+> Research Ideas and Outcomes
+> Editorial Office
+> riojournal.com
 
 ## Paused
 
