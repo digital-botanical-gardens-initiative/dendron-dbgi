@@ -2,7 +2,7 @@
 id: z38tri6wkk7srwczdzxqcrg
 title: '2023-04-13'
 desc: ''
-updated: 1681386491248
+updated: 1681395079507
 created: 1681375773589
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -52,8 +52,9 @@ https://github.com/digital-botanical-gardens-initiative/taxonomical-preparator/b
   * Localisation Euonymus : alatus Sied. : Syst. 2 // europeaus : Syst. 2 // Fortunei : cour
 
 ## Notes
- at 1 pm - utilisation of Mzmine etc.
+ * at 1 pm - utilisation of Mzmine etc.
  
+ MatchMS sur github 
 
  
 ## Todo tomorrow
