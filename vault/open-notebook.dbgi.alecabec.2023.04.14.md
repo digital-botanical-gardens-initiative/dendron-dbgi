@@ -2,7 +2,7 @@
 id: 6f9wvdo0z5a36t1f365gdr5
 title: '2023-04-14'
 desc: ''
-updated: 1681460062764
+updated: 1681485496664
 created: 1681456265147
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -29,11 +29,23 @@ Today is 2023.04.14
 ## Paused
 
 ## Done
+https://www.youtube.com/watch?v=z4UX0N6ciTE
+
+format : centroid MzMl 
+Compute => Sirius - molecular formula identification 
+ * ms/ms isotope scorer = score if the quality of the data is good 
+ * No need to select database to do "de novo" 
+
+ => Zodiac : 
+ => CSI finger print : possibility to add it own database (database, list of smiles) 
+ => Canopus : just activated 
+
 
 ## Notes
 
 
 ## Todo tomorrow
+ read : https://pubs.acs.org/doi/10.1021/acs.analchem.0c03581
 
 ###
 ###
