@@ -2,7 +2,7 @@
 id: mn44v5c7fa6f4qqoz117s8k
 title: '2023-04-19'
 desc: ''
-updated: 1681896800500
+updated: 1681907798800
 created: 1681891336751
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -46,6 +46,12 @@ connect shh :
 
 4. to detach : ctrl+C 
   to stop session ; on powershell : xpra stop 100 (number of the session)
+
+* Wet lab : 
+  - add acid formic to the solvent of extraction to  quench metabolic or chemical reaction (enzyme, oxidation)
+  
+
+
 
 ## Todo tomorrow
 
