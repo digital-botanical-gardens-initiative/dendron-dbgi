@@ -2,7 +2,7 @@
 id: mn44v5c7fa6f4qqoz117s8k
 title: '2023-04-19'
 desc: ''
-updated: 1681896561600
+updated: 1681896800500
 created: 1681891336751
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -14,6 +14,9 @@ traitIds:
 Today is 2023.04.19
 
 ## Todo today
+ * try to exclude lock mass of the data "datacompass.xzxml" (coleus)
+ 
+
 
 ### Have a look at the DBGI discussion forum
     - https://github.com/orgs/digital-botanical-gardens-initiative/discussions
@@ -38,7 +41,7 @@ connect shh :
 
 2. Terminal de commande 
 `C:\Users\Lecab>"C:\Program Files\Xpra\Xpra_cmd.exe" attach ssh:lecabeca@biolpc045600:200`
--
+
 3. Open sirius or mzmine to open software on the session 
 
 4. to detach : ctrl+C 
