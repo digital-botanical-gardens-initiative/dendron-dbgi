@@ -2,7 +2,7 @@
 id: 0xohd77tmw9oh150mmfwi4h
 title: '2023-04-21'
 desc: ''
-updated: 1682067401251
+updated: 1682290834925
 created: 1682067289669
 traitIds:
   - open-notebook-ebruelhart
@@ -13,6 +13,10 @@ traitIds:
 Today is 2023.04.21
 
 # To do
+
+# graph treatment
+
+Doc pour mzmine: sur le site de GNPS
 
 # done
 
