@@ -2,7 +2,7 @@
 id: ueqdl22uvswqqk0k53iftqv
 title: '2023-04-25'
 desc: ''
-updated: 1682515059947
+updated: 1682515161583
 created: 1682409247590
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -40,12 +40,13 @@ git clone url du lien git
 ## Done
 
 ## Notes
+``` 
 ..cd retourner au dossier d'avant 
 git status 
 git add 
 commit -m "message" 
 git push 
-
+```
 
 
 ## Todo tomorrow
