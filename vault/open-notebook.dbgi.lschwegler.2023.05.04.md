@@ -2,7 +2,7 @@
 id: 2rdj76oftew3rh61as7f24u
 title: '2023-05-04'
 desc: ''
-updated: 1683199370914
+updated: 1683205441598
 created: 1683199321606
 traitIds:
   - open-notebook-lschwegler
@@ -26,7 +26,7 @@ Today is 2023.05.04
 ## Done
 
 ## Notes
-.
+Finally I could upload the rest of the pictures to iNaturalist. Of course it's still manual and it takes some time but I'm happy when it's going on. Now I have to find out which of the collected plants are missing the photos...
 
 ## Todo tomorrow
 
