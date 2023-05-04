@@ -2,7 +2,7 @@
 id: 3yd85jqtrhbde34gqn7efi9
 title: '2023-05-03'
 desc: ''
-updated: 1683102385371
+updated: 1683104961904
 created: 1683096770516
 traitIds:
   - open-notebook-lschwegler
@@ -24,6 +24,7 @@ Today is 2023.05.03
 ## Paused
 
 ## Done
+dbgi_0001036 - 51mg
 
 ## Notes
 Unfortunately, even after the second run in the freeze dryer, one sample was not dry. I cannot explain why. There were also samples with plants that were much thicker and larger. Today I took a new sample in the greenhouse and froze it. Afterwards I can put it straight into the freeze dryer. 
