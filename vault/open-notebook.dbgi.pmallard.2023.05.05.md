@@ -2,7 +2,7 @@
 id: fjm2ss789yrtuh2n1rguf0d
 title: '2023-05-05'
 desc: ''
-updated: 1683294112174
+updated: 1683296562371
 created: 1683273225743
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -115,6 +115,19 @@ dbgi_001057_01_01
 20230505Z1400001_dbgi_001057_01.mzML
 
 
+## Discused with Audrey just now 
+
+Huernia schneideriana
+## observation 
+dbgi_001057 ~ 155584652
+dbgi_001057_01 ~ extraction
+dbgi_001057_01_01 ~ vial
+dbgi_001057_01_02 ~ vial
+dbgi_001057_01_03 ~ vial
+dbgi_001057_01_04 ~ vial
+
+20230505Z1400001_ALC_dbgi_001057_01_01.mzML
+20230505Z1401101_ALC_dbgi_001057_01_01.mzML
 
 ## species 
 Huernia schneideriana
@@ -143,7 +156,7 @@ Huernia schneideriana
 dbgi_001057 ~ 155584652 ~ CETAF0000001
 
 ## extract
-CETAF0000001_extract
+CETAF0000001_dbgi_001057_01
 
 ## mass spec run
 CETAF0000001_run
