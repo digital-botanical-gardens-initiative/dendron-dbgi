@@ -303,6 +303,10 @@ sample_filename_pos	sample_id	sample_type	organism_species	ipen	sample_prep_mode
 
 ## Notes
 
+https://www.cetaf.org/wp-content/uploads/CETAF-stable-identifiers-for-specimens-poster.pdf?_ga=2.233198302.1318400479.1683303704-271587775.1683303704
+
+
+
 ## Todo tomorrow
 
 ###
