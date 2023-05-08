@@ -73,7 +73,7 @@ In order to use the workflow you will need to have the following account / appli
 
 
 ## Todo tomorrow
-
+Modification of the Dbgi name dbgi_00000_01_01 (n° vial)
 ###
 ###
 ###
