@@ -2,7 +2,7 @@
 id: u4b5rb3tmprpqfq986iswih
 title: '2023-05-02'
 desc: ''
-updated: 1683060121085
+updated: 1683485976241
 created: 1683034596724
 traitIds:
   - open-notebook-ebruelhart
@@ -70,9 +70,13 @@ Now stays some questions to finish the job correclty:
 
 # Solutions
 
-
+Try to make 2 different tags in Subject
+Homogeneize the pictures sizes (all to have the same pixel sizes)
+cookie cutter -> makes packages
+Nextcloud good solution
+cthoyt.com -> documentation, how to do packages
 
 # code
 
 # links
-
+test
