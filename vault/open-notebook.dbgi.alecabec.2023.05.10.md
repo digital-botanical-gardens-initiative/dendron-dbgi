@@ -2,7 +2,7 @@
 id: fzcxvbu7h0hdan74cetvee2
 title: '2023-05-10'
 desc: ''
-updated: 1683711238059
+updated: 1683720447663
 created: 1683708248922
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -28,9 +28,7 @@ Today is 2023.05.10
 ## Done
 
 ## Notes
-Yesterday, we collected plant at JBN with Emmanuel. 
-
-The plant with a cross are the one we did collect : 
+Yesterday, we collected plant at JBN with Emmanuel. The plant with a cross are the one we collected : 
 
 - [X] Clematis alpina (L.) Mill. 
 - [X] Clematis tangutica (Maxim.) Korsh. 
@@ -49,6 +47,9 @@ The plant with a cross are the one we did collect :
 - [ ] Clematis Koreana (**doubt on the identification need to check with Emmnanuel and a botanist**)
 - [X] Clematis recta 
 - [X] Lonicera caucasica 
+
+Plant were collected according the dbgi protocole [[Bachelor-Work-2022]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into liquid nitrogen during the harvesting before beeing lyophilized. 
+The lyophilisation is realised at UniNe with the Telstar LyoQuest. 
 
 ## Todo tomorrow
 
