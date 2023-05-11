@@ -2,7 +2,7 @@
 id: wgog1f2a62k1jkbw3pb2wh9
 title: '2023-05-02'
 desc: ''
-updated: 1683007453263
+updated: 1683793354268
 created: 1683007336509
 traitIds:
   - open-notebook-mwannier
@@ -35,7 +35,6 @@ Error when connecting to db via node:
 Provisory Solution: 'export NODE_TLS_REJECT_UNAUTHORIZED=0'
 
 ## TODO NEXT
-
 
 
 ## Important for redaction
