@@ -2,7 +2,7 @@
 id: u9oouu4kv2hvljpxhx7oqhh
 title: '2023-04-28'
 desc: ''
-updated: 1682684402143
+updated: 1683905585442
 created: 1682668069890
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -63,6 +63,11 @@ git push
 ```
 * visual code "dendron gitrepo" 
 pull (to load document locally)
+```
+ 'PS C:\Users\Lecab\gitrepo\coleus-project> git pull' 
+
+``` 
+
 
 ## Paused
 
