@@ -2,7 +2,7 @@
 id: 2brymurxjvzna9waixemuna
 title: '2023-05-03'
 desc: ''
-updated: 1683207724707
+updated: 1683817421778
 created: 1683097779986
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -48,12 +48,10 @@ RT = 0.5 - 21 min ; MS1 ; centroided ; peak scan = 5 ; treshold 5E2 ; min 1E4  m
 
 * deconvolution : wavelet ; auto ; 0.025 Da ; 0,15 min 
 
-Group isotop : 0.02 mz or 8 ppm ; 0.08 min charge max = 4 ; most intense (ask why no low and not most)
-
-aligment : (not the bk 1st) 0.01 m/z or 12 ppm ; RT tolerance 0.1 min 
 
 * isotope peak grouper : m/z 0.001 - 5 ppm ; rt 0.08 min ; max charge 2 lowest m/z 
 
+* aligment : (not the bk 1st) 0.01 m/z or 12 ppm ; RT tolerance 0.1 min 
 * filter : MS/MS +  two ions in the isotopic pattern 
 
 * gap filling : same Rt & MS range gap filler 
