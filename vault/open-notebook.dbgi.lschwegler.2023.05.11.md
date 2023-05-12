@@ -2,7 +2,7 @@
 id: c4hvz8539dphj9ip5vm3nhd
 title: '2023-05-11'
 desc: ''
-updated: 1683811253951
+updated: 1683883099752
 created: 1683789404230
 traitIds:
   - open-notebook-lschwegler
@@ -34,6 +34,7 @@ The missing pictures for iNaturalist: that was a lot of work and cost me a lot o
 
 This week has been kind of just ironing out problems & realising that I'm done with the collection in the succulent greenhouse but won't have the evaluations for my bachelorwork. Well, I will write and present wat i have and that is quite a lot. Now it's important for me to be able to write my Bachelorwork and finish it soon. Sometimes I'm afraid that the baby will come and I won't be able to finish it. 
 I can also look at the results of the mass spectrometry after I've submitted my bachelorwork (just because I'm interested).
+
 
 ## Todo tomorrow
 
