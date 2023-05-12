@@ -2,7 +2,7 @@
 id: e1m3ycj6u45qh4wrb1zay42
 title: '2023-05-08'
 desc: ''
-updated: 1683707417011
+updated: 1683816618529
 created: 1683547717979
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -14,12 +14,8 @@ traitIds:
 Today is 2023.05.08
 
 ## Todo today
- * Preparation of the collect at JBN : 
+ * Preparation to collect at JBN 
 
-Print label for the collection
-
- Prepare falcon (dbgi-001139 to dbgi-001173) ~ 30 
- 
  
 
 ### Have a look at the DBGI discussion forum
@@ -34,6 +30,10 @@ Print label for the collection
 
 ## Done
 
+Print label for the collection
+
+ Prepare falcon (dbgi-001139 to dbgi-001173) ~ 30 
+ 
 ## Notes
 
 ## Todo tomorrow
