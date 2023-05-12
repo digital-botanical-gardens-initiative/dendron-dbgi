@@ -2,7 +2,7 @@
 id: qlb4frklnbw6ijvsr17f9go
 title: '2023-05-11'
 desc: ''
-updated: 1683818453455
+updated: 1683903100232
 created: 1683792193182
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -49,7 +49,7 @@ Clematis florida, Clematis tangutica and Lonicera nigra from the system couldn't
 
 
 
-**2/ treatment Coleus with modification of level noise**
+**2/ treatment Coleus with modification of level noise** (not finish pb with transfer of the dataset)
 
 Treatement of X072067ALC.dataCompass.mzxml ; X072068ALC.dataCompass.mzxml ; X072069ALC.dataCompass.mzxml (Bk, aerial part, roots)
 
