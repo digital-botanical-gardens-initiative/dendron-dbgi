@@ -2,7 +2,7 @@
 id: eskkdd6xy9vcwqs4ckd84fz
 title: '2023-05-04'
 desc: ''
-updated: 1683881899013
+updated: 1683882486578
 created: 1683191782769
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -47,7 +47,7 @@ In order to use the workflow you will need to have the following account / appli
   
   c. Download the .csv file with your new dbgi_id 
  
- DBGI_ID| Extract | Vial | Vial label
+ plant_ID| n° Extract | n° Vial | Vial label
 ---------|----------|---------|--------
  dbgi_XXXXXX | YY | ZZ | dbgi_XXXXXX_YY_ZZ 
  dbgi_XXXXXX | YY | ZZ | dbgi_XXXXXX_YY_ZZ
