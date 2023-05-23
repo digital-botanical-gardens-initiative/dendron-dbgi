@@ -2,7 +2,7 @@
 id: 1u37mlza55e6dgksabcv7qn
 title: DBGI QGIS plugin
 desc: ''
-updated: 1684845100550
+updated: 1684847292789
 created: 1684843029214
 ---
 # Welcome to the DBGI plugin page!
@@ -27,7 +27,10 @@ In the future, this plugin could eventually perform more tasks depending on te D
 - Enter the name of your geopackage (no white space please)
 - Choose the species names layer (.csv or .gpkg). If there is no species names layer, add one to the project (A new feature will come if no species names layer available, work in progress...)
 - Choose the field in the species names layer that contains the binomial nomenclature
-- Your new layer is now added to the QGIS project.
+- Save with ctrl + s. Your new layer is now added to the QGIS project.
 
 #### 3. Sync back with QFieldCloud
-- In QGIS, go to Plugins -> QField
+- In the QGIS project, go to Plugins -> QFieldSync -> Syncrhronize Current Cloud Project
+- !!! Warning !!! At this step you could corrupt the project. So make sure to click on Prefer cloud, and then tick under the little laptop icon only your layer (your_layer_name.gpkg), the cloud attachment (extension _attachment.zip) and the project (extension .qgs) (Figure 1).
+
+![sync back](assets/images/sync_back_QGIS.png){max-width : 600px, display: block, margin: 0 auto}*Figure 1: Add the layer to the cloud project*
