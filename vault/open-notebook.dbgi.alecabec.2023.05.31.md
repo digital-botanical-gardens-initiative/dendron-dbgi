@@ -2,7 +2,7 @@
 id: 8ept2yu5gzdhgqmb7480xvv
 title: '2023-05-31'
 desc: ''
-updated: 1685525418712
+updated: 1685527270979
 created: 1685523142091
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -27,11 +27,21 @@ Today is 2023.05.31
 ## Paused
 
 ## Done
-### Ornamental project - preparation of vials for LC-MS analysis 
+### Ornamental project - preparation of vials for LC-MS analysis (2025-05-30)
 150 µL of extracts or blank were transfert to a vial for further analysis, QC was realised with 5 µL of the 38 samples. 
 
 **labellisation**  : 
  DBGI_xxxxxx_01_03 refer to vial prepared on may 30th and send to NE (transported on ice and conserved at +4°C waiting for analysis)
+
+### Ornamental project - analysis parameters used 
+The following LC parameters were used : 
+
+The following MS parameters were used : 
+
+### Ornemental project - data treatment 
+1/ raw data were converted into mzXML files using MS convert 
+
+
 
 ## Notes
 
