@@ -2,7 +2,7 @@
 id: eskkdd6xy9vcwqs4ckd84fz
 title: '2023-05-04'
 desc: ''
-updated: 1683882486578
+updated: 1685529058410
 created: 1683191782769
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -29,28 +29,44 @@ Today is 2023.05.04
 
 ## Notes
 
+### Tutorial 
+
 **DBGI Workflow** : from the creation of an DBGI_ID to the mass spectrometry analysis 
 
 In order to use the workflow you will need to have the following account / application : directus, Avery, Qfield, Inaturalist, GNPS 
 
-## **Creation of the DBGI_ID** ## 
-  
+## **DBGI Labelisation** ## 
+  ### Principe 
   DBGI_ID will allow you to link the plant, the extract and analysis. 
+
+  DBGI_ID can be composed of : 
+
+  plant identification | extract code | vial code | 
+---------|----------|---------|
+ dbgi_XXXXXX | YY | ZZ |  
+ 
+  The **plant identification** helps you to connect all the plant metadata (localisation, species, genus). 
   
-  You will need to print two kinds of labels with two kind of dbgi_ID
-    - To collect the plant : dgbi_XXXXXX 
-    - To identify the extract : dbgi_XXXXXX_YY_ZZ ; YY corresponded to the extract and ZZ to the vial containing the extract
-## 
+  The **extract code** is corresponding to the stock vial obtained and conserved in freezer. 
+  
+  The **vial code** is referring to the vial analysed. Usually around 150 µL of stock extract is taken and transferred to a vial for analysis. 
+
+
+  At each step you will need to print labels to identify falcon or vials. 
+
+
+  ### Pratical 
   a. Creation of an account on directus  
   
   b. Implementation of the dbgi_ID list using [[database.tutorial.directus.Basics]] protocol. 
   
   c. Download the .csv file with your new dbgi_id 
+
+  d. Add the following column 
  
- plant_ID| n° Extract | n° Vial | Vial label
----------|----------|---------|--------
- dbgi_XXXXXX | YY | ZZ | dbgi_XXXXXX_YY_ZZ 
- dbgi_XXXXXX | YY | ZZ | dbgi_XXXXXX_YY_ZZ
+ plant identification | extract code | vial code | Plant ID_extract code | Plant ID_extract code_vial code
+---------|----------|---------|
+ dbgi_XXXXXX | YY | ZZ |  dbgi_XXXXXX_YY |dbgi_XXXXXX_YY_ZZ 
 
   ##
   d. Label creation using Avery. 
