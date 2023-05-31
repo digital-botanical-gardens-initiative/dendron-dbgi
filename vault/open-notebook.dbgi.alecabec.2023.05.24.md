@@ -2,7 +2,7 @@
 id: oihbgu0s5xsp03f9ejl88zp
 title: '2023-05-24'
 desc: ''
-updated: 1684918520859
+updated: 1685525147333
 created: 1684913916171
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -26,19 +26,16 @@ Today is 2023.05.24
 ## Paused
 
 ## Done
+### Ornamental project - preparation of vials for LC-MS analysis 
+150 µL of extracts or blank were transfert to a vial for further analysis (orbitrap), QC was realised with 5 µL of the 38 samples. Vials were conserved at +4°C waiting for analysis 
 
-NMRXiv = website pour deposer ses spectres RMN 
-Creation git repo : sur git créer le git repo ; sur le serveur dans le doc associé cloner 'git clone + code ssh' 
-en local : 
+**labellisation**  : 
+ DBGI_xxxxxx_01_01 refer to vial prepared on may 24th and analysed with orbitrap seq : 20230529_dbgi_alc (pos & neg)
+
 ## Notes
+NMRXiv = website pour deposer ses spectres RMN 
 
+Creation git repo : sur git créer le git repo ; sur le serveur dans le doc associé cloner 'git clone + code ssh' 
+en local : copier le lien HTTPS, sur visualcode en local faire git clone et coller le https
 ## Todo tomorrow
-
-###
-###
-###
-
-
-## Today I learned that
-
-- 
+ 

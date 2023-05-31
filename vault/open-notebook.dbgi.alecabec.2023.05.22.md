@@ -2,7 +2,7 @@
 id: zktipm9otdm0nbk4wdcjtls
 title: '2023-05-22'
 desc: ''
-updated: 1684854524529
+updated: 1685525121934
 created: 1684755805152
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -22,9 +22,8 @@ Today is 2023.05.22
 ###
 
 ## Doing
-- [] datatreatment for PM / 
-
-* Mass detection 
+### datatreatment project 28 
+- * Mass detection 
 
 MS level 1 : Noise level 1.5E2 
 
@@ -48,15 +47,19 @@ RT = 0.5 - 15.3 min ; MS1 ; centroided ; peak scan = 5 ; treshold 5E2 ; min 1E3 
 
 * feature list method - identification - adduct (Na, K, NH3)+ complexe 0.001 M/z
 
-==> feature list avec moi de 160 features (trop restrictif)
-## Paused
+==> feature list with less than 160 features (trop restrictif)
 
 ## Done
-- [X] broyage & extraction of the 38 samples of clematis, lonicera & euonymus 
+### Ornamental project 
+
+- [X] Preparation of the sample for analysis (Grinding, extraction, labelisation of the 38 samples of clematis, lonicera & euonymus) ; blank is the solvant extraction which followed the same step than sample (extraction with 3 beads in eppendorf)  
+ 
+**labellisation** : DBGI_xxxxxx_01 refer to stock vial (conserved in the freezer) 
 
 ## Notes
 
-Eworkshop Jean luc Wolfender GA 
+
+
 
 
 
