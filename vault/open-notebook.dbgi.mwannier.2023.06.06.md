@@ -1,9 +1,9 @@
 ---
-id: jxf9j6qjoqn1msh4kpck98s
-title: '2023-06-05'
+id: roromv02kixlcl9knjd9m7u
+title: '2023-06-06'
 desc: ''
-updated: 1686057318011
-created: 1685953230243
+updated: 1686057355496
+created: 1686057318692
 traitIds:
   - open-notebook-mwannier
 ---
@@ -11,7 +11,7 @@ traitIds:
 
 # This is Maëlle's DBGI daily open-notebook.
 
-Today is 2023.06.05
+Today is 2023.06.06
 
 
 ## TODO
@@ -24,6 +24,9 @@ Today is 2023.06.05
 - [ ] Structure
   - [x] Fetch InChi from JSME
   - [ ] Substructure search algo
+    - [x] Ulmann
+    - [ ] DF
+    - [ ]
   - [ ] Tanimoto algo
   - [x] Search in taxo group
   - [ ] Return options
@@ -34,6 +37,7 @@ Today is 2023.06.05
   - [ ] Return options
     - [ ] Graph
     - [ ] Table
+
 
 ## CODE
 
