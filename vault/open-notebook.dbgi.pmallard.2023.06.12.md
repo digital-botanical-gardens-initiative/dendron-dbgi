@@ -2,7 +2,7 @@
 id: muctzzo3wicwfunt4wz99tn
 title: '2023-06-12'
 desc: ''
-updated: 1686569511143
+updated: 1686570717607
 created: 1686567993641
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -98,6 +98,13 @@ Environmental bioinformatics will be a strategic obj of SIB in the next years.
 
 Someone mentionned 
 https://opendatanavigator.switch.ch/
+
+Biodiversity PMC
+https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/
+
+
+Ocellus info
+https://ocellus.info/
 
 
 
