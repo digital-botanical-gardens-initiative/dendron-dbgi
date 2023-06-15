@@ -2,7 +2,7 @@
 id: 1n9kw635ospnbwjvismwj9u
 title: '2023-06-15'
 desc: ''
-updated: 1686825939143
+updated: 1686845030727
 created: 1686813851132
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -106,6 +106,40 @@ For next meeting:
     - discuss Quality Control options - at what level should constraints be defined? 
     - OWL language? SHACL? Meta-model constraints + Github tests where adding bogus new elements should not be allowable
 - ML model that indicates possible missing fields / incorrect new data you are trying to add based on the existing data already in the graphical
+
+
+### Workshop by Luca on GNN
+
+Justin Reese indicates these meetings each 2 weeks
+
+https://www.linkedin.com/feed/update/urn:li:activity:7074081027261874176/
+
+Topic of negative sampling. A pretty complex topi
+
+![](/assets/images/2023-06-15-17-11-34.png)
+
+Embeddings : a representation of categorical elements in a vector space.
+
+Allows to make operation like 
+
+(King - Men) + Woman ~ Queen
+
+![](/assets/images/2023-06-15-17-12-39.png)
+
+
+![](/assets/images/2023-06-15-17-21-16.png)
+
+
+
+http://kghub.org/
+
+https://openreview.net/pdf?id=m1oqEOAozQU
+
+https://diegogalpy.github.io/
+
+
+graph convolution
+
 
 
 
