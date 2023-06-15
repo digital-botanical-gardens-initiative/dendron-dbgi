@@ -2,7 +2,7 @@
 id: 1n9kw635ospnbwjvismwj9u
 title: '2023-06-15'
 desc: ''
-updated: 1686820821183
+updated: 1686821117064
 created: 1686813851132
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -45,6 +45,10 @@ https://github.com/biolink
 We need to think about a metamodel.
 
 We need to think about constraints (e.g. IK should have and associated IK2D)
+
+ether pad 
+
+
 
 
 
