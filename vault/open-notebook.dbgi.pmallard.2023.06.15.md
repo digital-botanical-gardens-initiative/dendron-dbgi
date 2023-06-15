@@ -2,7 +2,7 @@
 id: 1n9kw635ospnbwjvismwj9u
 title: '2023-06-15'
 desc: ''
-updated: 1686821117064
+updated: 1686825291294
 created: 1686813851132
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -48,6 +48,10 @@ We need to think about constraints (e.g. IK should have and associated IK2D)
 
 ether pad 
 
+https://mypads2.framapad.org/p/notes-june-2023-1o1hws9v1
+
+
+https://microbiomedata.org/
 
 
 
