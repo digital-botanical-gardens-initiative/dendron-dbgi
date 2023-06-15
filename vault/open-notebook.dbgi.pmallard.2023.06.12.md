@@ -2,7 +2,7 @@
 id: muctzzo3wicwfunt4wz99tn
 title: '2023-06-12'
 desc: ''
-updated: 1686570717607
+updated: 1686573229759
 created: 1686567993641
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -70,7 +70,9 @@ Coffee/tea - hopefully!
 
 # Panel Questions
 
-- Are you using text mining tools in your pipeline? 
+- Are you using text mining tools in your pipeline?
+
+
 
 - Which services would you wish to have from a text mining pipeline?
 
@@ -105,6 +107,27 @@ https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/
 
 Ocellus info
 https://ocellus.info/
+
+
+SIB Literature Services (SIBILS)
+
+BioC files standards
+https://bioc.sourceforge.net/
+
+ebiodiv matching services
+
+https://sandbox.ebiodiv.org/
+
+https://biodiversityknowledgehub.eu/fair-data-place/explore-linked-data/
+
+https://synospecies.plazi.org/#Sadayoshia+acamar
+
+
+
+https://www.checklistbank.org/
+
+
+
 
 
 
