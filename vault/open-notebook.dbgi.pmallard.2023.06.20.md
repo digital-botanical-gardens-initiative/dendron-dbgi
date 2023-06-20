@@ -2,7 +2,7 @@
 id: d2q46bncdvjrt49sj5mf2un
 title: '2023-06-20'
 desc: ''
-updated: 1687267688425
+updated: 1687272286537
 created: 1687262285971
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -64,6 +64,25 @@ https://github.com/gbif/portal-feedback/issues
 https://www.gbif.org/new-data-model
 
 
+### Some points discussed
+
+#### linking iNaturalist observations and GBIF
+
+- examples ?
+- Issues because observations for botanical gardens specimens correspond to "cultivated" categorie, hence no "research grade" quality in iNat, so not taken up by GBIF
+
+#### how do we label an individual ?
+
+A priori we can identify an observation (e.g. an iNat observation id https://www.inaturalist.org/observations/160942639)
+A priori we can label a species corresponding to this observation (e.g iNat taxa id https://www.inaturalist.org/taxa/168422-Sansevieria-cylindrica or GBIF https://www.gbif.org/species/2770617)
+A priori we can lable the physical objects (dried powder, extracts etc) linked to an observation (in this case the emi_external_id dbgi_000512, present on the iNat obervation page + inhouse)
+
+However we do not know how to efficiently identify the **individual** corresponding to an observation.
+
+- is it required to do so ?
+- If we can, we should 
+
+
 ### Some issues posted following the discussion
 
 
@@ -82,6 +101,22 @@ To be followed up possibly in 7-10 days.
 ## Done
 
 ## Notes
+
+
+- For next OpenBis meeting:
+
+- can we display picture from hyperlinks
+- can we display maps from lat/lon coordinates
+- we cannot use the API (both as user or admin) see issue on Rostyk 
+- have a one2one and a one2many links examples
+- see for upload of a simple csv from the UI
+- try to pass current directus tables to OpenBis
+- updates on QRcodes 
+
+
+
+
+
 
 ## Todo tomorrow
 
