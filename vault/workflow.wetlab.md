@@ -1,3 +1,10 @@
+---
+id: vrl2ey4vuvmomo8zj14wx6u
+title: Wetlab
+desc: ''
+updated: 1687270862924
+created: 1687270862924
+---
 
 **DBGI Workflow** : from the creation of an DBGI_ID to the LC-MS analysis
 
