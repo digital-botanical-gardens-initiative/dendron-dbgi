@@ -1,6 +1,6 @@
 ---
 id: vrl2ey4vuvmomo8zj14wx6u
-title: Wetlab
+title: wetlab
 desc: ''
 updated: 1687270862924
 created: 1687270862924
