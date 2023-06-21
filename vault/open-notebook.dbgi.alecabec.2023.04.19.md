@@ -2,7 +2,7 @@
 id: mn44v5c7fa6f4qqoz117s8k
 title: '2023-04-19'
 desc: ''
-updated: 1681907798800
+updated: 1687336635908
 created: 1681891336751
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -50,7 +50,6 @@ connect shh :
 * Wet lab : 
   - add acid formic to the solvent of extraction to  quench metabolic or chemical reaction (enzyme, oxidation)
   
-
 
 
 ## Todo tomorrow

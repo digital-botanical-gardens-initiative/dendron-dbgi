@@ -2,7 +2,7 @@
 id: at1rofti4wm05hfdlfi8vie
 title: '2023-06-13'
 desc: ''
-updated: 1686671859650
+updated: 1687274516454
 created: 1686656143309
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -49,10 +49,10 @@ Today is 2023.06.13
 
 plant | code | m en g 
 ---------|----------|---------
- chèvrefeuille  | ALC_11 | 0,0511 
- clematite Mme Le coutre | ALC_12 | 0,0507
- clematite Julia Correvon | ALC_13 | 0,0501
- fusain | ALC_14 | 0,0501 
+ Lonicera heckrottii ‘Goldflame’ | ALC_11 | 0,0511 
+ Clematis patens ‘Mme Lecoultre’ | ALC_12 | 0,0507
+ Clematis viticella ‘Mme Julia Correvon’ | ALC_13 | 0,0501
+ Euonymus fortunei ‘Emerald Gold’| ALC_14 | 0,0501 
 
 - stock at -20°C 
 
