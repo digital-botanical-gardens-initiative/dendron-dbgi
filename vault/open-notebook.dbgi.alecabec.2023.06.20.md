@@ -2,7 +2,7 @@
 id: aekrrxb8bzhzb2kce0virw4
 title: '2023-06-20'
 desc: ''
-updated: 1687274832689
+updated: 1687357797960
 created: 1687263605737
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -32,23 +32,23 @@ The DBGI is an Open Science project, this ambition had lead the contributors to 
 
 The used of this tools had required the learning of basics skills of navigating via a control terminal 
  
-General command  | use
+| General command  | use |
 |-------------------|
- cd | access to a folder | 
- mkdir | create new folder | 
- cd .. | come back one folder before 
- tree | show the tree structure 
- ls | know the file or folder present
+| `cd` | access to a folder | 
+| `mkdir` | create new folder | 
+| `cd ..` | come back one folder before |
+| `tree` | show the tree structure |
+| `ls` | know the file or folder present |
 
  ##
  
 Specific to git | use 
 |---------------------|
-git clone + https url | clone the repository in local folder 
-git pull | actualise the local folder from git 
-git add | add one or several file to the repository 
-git commit -m "exemple" | commit the new modification to git 
-git push | push last modifications to actualise the git 
+`git clone` + https url | clone the repository in local folder 
+`git pull` | actualise the local folder from git 
+`git add` | add one or several file to the repository 
+`git commit -m` "exemple" | commit the new modification to git commit
+`git push` | push last modifications to actualise the git 
 git status | 
 
 ##
