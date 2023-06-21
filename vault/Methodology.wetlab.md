@@ -1,35 +1,10 @@
 ---
-id: eskkdd6xy9vcwqs4ckd84fz
-title: '2023-05-04'
+id: vrl2ey4vuvmomo8zj14wx6u
+title: wetlab
 desc: ''
-updated: 1687269809295
-created: 1683191782769
-traitIds:
-  - open-notebook-dbgi-alecabec
+updated: 1687270862924
+created: 1687270862924
 ---
-
-
-# This is Audrey's DBGI daily open-notebook.
-
-Today is 2023.05.04
-
-## Todo today
-
-### Have a look at the DBGI discussion forum
-    - https://github.com/orgs/digital-botanical-gardens-initiative/discussions
-
-###
-###
-
-## Doing
-
-## Paused
-
-## Done
-
-## Notes
-
-### Tutorial 
 
 **DBGI Workflow** : from the creation of an DBGI_ID to the LC-MS analysis
 
@@ -44,6 +19,8 @@ In order to use the workflow you will need to have the following account / appli
   plant identification | extract code | vial code | 
 ---------|----------|---------|
  dbgi_XXXXXX | YY | ZZ |  
+
+ ##
  
   The **plant identification** helps you to connect all the plant metadata (localisation, species, genus). 
   
@@ -78,42 +55,29 @@ In order to use the workflow you will need to have the following account / appli
   For vial label use the vial label columm and create an associated QR code
 
   e. Print label 
-  Sample label are print on L4732 sheet 
-  Vial label are print on L4731 sheet
+  Sample label are print on L4732 sheet and Vial label are print on L4731 sheet
   
   f. Labelling falcon tube/vial + protect with scotch tape 
 
 ## **Plant's collect** ##
    
-  a. Before collecting : provide for sufficient falcon tubes with DBGI-SPL-ID 
+  a. Before collecting : provide for sufficient falcon tubes with DBGI-ID 
   
   b. Qfield software (follow the protocol section 'utilisation of Qfield'  http://www.dbgi.org/dendron-dbgi/notes/h33m4gr8eny7li4yhlxotdb) during collection 
   
-  c. The transfert of the data collected on iNaturalist is automatic
+  c. The transfert of the data collected on iNaturalist is automatic (check with Edouard if there is any problem at this step)
   
 ## **Extraction** ## 
 (extraction section : http://www.dbgi.org/dendron-dbgi/notes/mpboa8wpvhpygf5fw4o9v11/)
  
-100 µL in one vial for analysis LC-MS/MS + one vial with ~XX µL in the freezer 
+100 µL in one vial for analysis LC-MS/MS + one stock vial with ~ 1000 µL in the freezer 
 
 
 ## **LC-MS analysis** ##
-  
   a. Preparation of the samples list 
 
   b. Analysis 
 
+
 ## **Datatreatment** ##
    for datatreament follow the **link** 
-
-
-## Todo tomorrow
-Modification of the Dbgi name dbgi_00000_01_01 (n° vial)
-###
-###
-###
-
-
-## Today I learned that
-
-- 

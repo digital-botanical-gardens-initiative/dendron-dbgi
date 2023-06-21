@@ -2,7 +2,7 @@
 id: 1n9kw635ospnbwjvismwj9u
 title: '2023-06-15'
 desc: ''
-updated: 1686845030727
+updated: 1686847854180
 created: 1686813851132
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -139,6 +139,11 @@ https://diegogalpy.github.io/
 
 
 graph convolution
+
+
+https://en.wikipedia.org/wiki/Laplacian_matrix
+https://en.wikipedia.org/wiki/Adjacency_matrix
+
 
 
 
