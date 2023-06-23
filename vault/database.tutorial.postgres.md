@@ -2,7 +2,7 @@
 id: xfo9r506ukemq0r2191kqkl
 title: Postgres
 desc: ''
-updated: 1669989109458
+updated: 1687525984355
 created: 1666246320224
 ---
 
@@ -156,6 +156,13 @@ WHERE condition
 ```
 
 The condition should be true, false or unknown. It can be a boolean expression or a combination of boolean expressions using the AND and OR operators.
+
+# SEQUENCE
+## Restart the sequence padding
+If one do a mistake in the emi_external_id incremantation and needs to go back in the sequence:
+```psql
+SELECT setval('samples_padding',1057); #If one want to restart the sequence at 1057
+```
 
 # To go further
 

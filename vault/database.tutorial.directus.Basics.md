@@ -2,7 +2,7 @@
 id: l5hk8footuy2893u4zi6yvs
 title: Basics
 desc: ''
-updated: 1676466552919
+updated: 1687526360164
 created: 1671713381437
 ---
 
@@ -30,6 +30,11 @@ Or export the table as a csv from directus:
 ![directus import](assets/images/directus-import.jpg){max-width : 600px, display: block, margin: 0 auto}
 
 
+### redo sequence
+If one does a mistake and needs to get back in the incremantation of the emi_external_id:
+1. Delete the wrong entries
+2. Connect to the psql database ![[database.tutorial.postgres#connect-to-postgresql]]
+3. Restart the sequence padding ![[database.tutorial.postgres#restart-the-sequence-padding]]
 
 
 ## Change password
