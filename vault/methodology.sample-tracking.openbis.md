@@ -2,7 +2,7 @@
 id: 4exd51dppbtw62p1oekjcry
 title: Openbis
 desc: ''
-updated: 1687874050506
+updated: 1687946716634
 created: 1687871650038
 ---
 
@@ -13,15 +13,25 @@ created: 1687871650038
 - For next OpenBis meeting:
 
 - can we display picture from hyperlinks
+
 - can we display maps from lat/lon coordinates
+
 - we cannot use the API (both as user or admin) see issue on Rostyk 
   - the creation of a PAT apparently didn't solve the issue
 - have a one2one and a one2many links examples. How to we do this ?
+
+
 - see for upload of a simple csv from the UI
 - try to pass current Directus tables to OpenBis
 - updates on QRcodes
-- can we locate individual samples in boxes (e.g. 9*9) in racks, in shelves, in a fridge ?
+
+
+
+
 - why can't properties in General panel (e.g. https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/#/object-type/SPECIMEN) be modified. For ex pass from multivarchar to hyperlink ?
+
+- can we locate individual samples in boxes (e.g. 9*9) in racks, in shelves, in a fridge ?
+
 
 What do you need from us to advance ?
 
@@ -31,9 +41,27 @@ Sample type OBSERVATION has no property type ID assigned.
 
 Indeed they are no id field in the OBSERVATION schema (https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/#/object-type/OBSERVATION)
 Should the headers match exactly ? 
-Should ALL fields be present ?
-TSV import mention (deprecated) will this not be supported in the future ?
+- yes Should ALL fields be present ?
+- NO if they aren't defined as mandatory in the Object type/OBSERVATION
+- TSV import mention (deprecated) will this not be supported in the future ?
 
+
+# Todo 
+
+- create a schema of the tables we want to connect 
+- minimal example
+- excel sheet for each table
+- property name / property type
+
+
+CODE is UPPERCASE and _instead of space no special chracter
+label should match the header 
+Descrption : free text 
+DATA TYPE: their is a list 
+
+
+# Implementation of one to many and many to many 
+To be handled through pyBIS
 
 
 
@@ -48,5 +76,32 @@ https://openbis-dbgi.labnotebook.ch/openbis/webapp/eln-lims/
 
 ## pyOpenBis scripts
 https://github.com/digital-botanical-gardens-initiative/openbis_meta_data_entry_registration
+
+
+oBIS
+
+is another API
+
+
+
+## Upcoming trainings
+
+
+Caterina Barillari
+Caterina Barillari dit:
+https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/
+ 
+11:33
+R
+Rostyk
+Rostyk dit: openBIS admin training: 
+Rostyk dit:
+https://ethz.ch/staffnet/en/it-services/catalogue/support-training/it-training/courses/details.9890o.html
+ 
+Rostyk dit: openBIS User Training 
+Rostyk dit:
+https://ethz.ch/staffnet/en/it-services/catalogue/support-training/it-training/courses/details.9925o.html
+ 
+Rostyk dit: you are invited to register with those upcoming online trainings 
 
 
