@@ -2,7 +2,7 @@
 id: toexcdqwxzo1lm7vur7sqce
 title: '2023-07-04'
 desc: ''
-updated: 1688474107313
+updated: 1688535859269
 created: 1688455583186
 traitIds:
   - open-notebook-mwannier
@@ -26,7 +26,7 @@ Problem with:
     repository.query(payload).then((stream) => {
       stream.on('data', (bindings) => {
         console.log(bindings);
-        for (const binding in bindings) {
+        // for (const binding in bindings) {
           console.log(binding);
           if (bindings.hasOwnProperty(binding)) {
             nodes.push({id: bindings[binding].value, label: bindings[binding].value});
