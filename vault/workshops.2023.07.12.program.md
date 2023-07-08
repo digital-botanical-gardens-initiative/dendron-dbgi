@@ -2,7 +2,7 @@
 id: mr8692oaa717fbwx3sny852
 title: Program
 desc: ''
-updated: 1688665209392
+updated: 1688796474278
 created: 1688664802253
 ---
 
@@ -32,6 +32,9 @@ Starting at 9:30
  - Coffee break (10 min)
  - Laboratory object description
  - Metadata for provenance (e.g, Prov-O)
+
+ See [Supporting Sustainability of Chemistry by Linking Research Data with Physically Preserved Research Materials](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64a2fa0cba3e99daef73fa6a/original/supporting-sustainability-of-chemistry-by-linking-research-data-with-physically-preserved-research-materials.pdf)
+ 
 
 # Final remarks and next steps 
 
