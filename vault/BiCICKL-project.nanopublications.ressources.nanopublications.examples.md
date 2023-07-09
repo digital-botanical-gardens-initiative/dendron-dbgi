@@ -1,8 +1,8 @@
 ---
 id: 06hrtla5z9lgugnqt1y6y2h
-title: exampl
+title: examples
 desc: ''
-updated: 1688887013080
+updated: 1688891021599
 created: 1688886716997
 ---
 
