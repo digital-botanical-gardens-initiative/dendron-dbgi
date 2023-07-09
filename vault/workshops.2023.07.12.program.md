@@ -2,7 +2,7 @@
 id: mr8692oaa717fbwx3sny852
 title: Program
 desc: ''
-updated: 1688796474278
+updated: 1688891857011
 created: 1688664802253
 ---
 
@@ -34,6 +34,7 @@ Starting at 9:30
  - Metadata for provenance (e.g, Prov-O)
 
  See [Supporting Sustainability of Chemistry by Linking Research Data with Physically Preserved Research Materials](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64a2fa0cba3e99daef73fa6a/original/supporting-sustainability-of-chemistry-by-linking-research-data-with-physically-preserved-research-materials.pdf)
+Maybe would it also worth having a look at [[Methodology.metadata]] ressources such as the CEDAR workbench.
  
 
 # Final remarks and next steps 
