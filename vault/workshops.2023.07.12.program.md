@@ -2,16 +2,18 @@
 id: mr8692oaa717fbwx3sny852
 title: Program
 desc: ''
-updated: 1688968603635
+updated: 1688968752834
 created: 1688664802253
 ---
 
-(Program proposition by Tarcisio)
+Agenda **Wednesday 12 July 2023**
 
-Preliminary agenda 
- 
 
 Starting at 9:30 
+
+- Physical at Pavillon Vert. See here for location details https://www.unifr.ch/scimed/fr/pavillonvert
+- Remote at https://meet.jit.si/DBGI_talks
+
 
 # Welcome and workshop members’ introduction (15 min)
 
