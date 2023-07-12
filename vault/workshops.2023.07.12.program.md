@@ -46,6 +46,7 @@ This recap should allow us to start on the same page when working on the semanti
  - Coffee break (10 min)
  - Laboratory object description
  - Metadata for provenance (e.g, Prov-O)
+ - Links / cross-references ? To which resources?
 
 See [Supporting Sustainability of Chemistry by Linking Research Data with Physically Preserved Research Materials](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64a2fa0cba3e99daef73fa6a/original/supporting-sustainability-of-chemistry-by-linking-research-data-with-physically-preserved-research-materials.pdf)
 Maybe would it also worth having a look at [[Methodology.metadata]] ressources such as the CEDAR workbench.
