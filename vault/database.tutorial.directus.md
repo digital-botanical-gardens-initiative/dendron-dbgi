@@ -2,7 +2,7 @@
 id: 2gpzh1s85imdp4ig17g5ccj
 title: Directus
 desc: ''
-updated: 1670576773400
+updated: 1689238136744
 created: 1666246339244
 ---
 
@@ -32,6 +32,9 @@ The leftmost section of the App is the module bar which includes:
 cd /prog/directus_dbgi
 kill -9 `cat save_pid.txt`
 ```
+
+## Notes
+This should be runned as root (type sudo su)
 
 ## If http://directus.dbgi.org stops running
 ```bash
