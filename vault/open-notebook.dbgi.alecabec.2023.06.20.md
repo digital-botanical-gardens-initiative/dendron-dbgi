@@ -2,7 +2,7 @@
 id: aekrrxb8bzhzb2kce0virw4
 title: '2023-06-20'
 desc: ''
-updated: 1687357797960
+updated: 1689767209074
 created: 1687263605737
 traitIds:
   - open-notebook-dbgi-alecabec
@@ -13,11 +13,11 @@ traitIds:
 
 ## Context of the internship 
  
-The analytical team of the Institute of Organic and Analytical Chemistry (ICOA) of the University of Orléans is especialized in the characterization of plant extract and the determination of their bioactivity.  Ornamental plants are highly produced in the Région Centre Val-de-Loire (France) beeing able to characterized and identify bioactive could lead to new way of valorization of this large quantity of raw materials.   
+The analytical team of the Institute of Organic and Analytical Chemistry (ICOA) of the University of Orléans is specialized in the characterization of plant extract and the determination of their bioactivity. Ornamental plants are highly produced in the Région Centre Val-de-Loire (France) being able to characterized and identify bioactive could lead to new way of valorisation of this large quantity of raw materials.
 
-In order to discover the potential of ornamental plant, a metabolomic study is undertaken. In this study we are interested in 3 genus of ornamental plants. The CDHRC (Comité de Développement Horticol Région Centre) produce 2 _Clematis sp_, 1 _Lonicera sp_ and 1 _Euonymus sp_ and to extend our study to several species a collaboration with the DBGI (Digital Botanical Garden Initiave) had been established. 
-
-The objective of this collaboration is to acquire news skills in metabolomic treatment, to access to severals species of _Clematis sp_, _Lonicera sp_, and _Euonymus sp_ to the study and integrate this result to the DBGI dataset.  
+To discover the potential of ornamental plant, a metabolomic study is undertaken. In this study we are interested in 3 genera of ornamental plants. The CDHRC (Comité de Développement Horticol Région Centre) produce 2 _Clematis_ spp, 1 _Lonicera_ sp and 1 _Euonymus_ sp and to extend our study to several species a collaboration with the DBGI (Digital Botanical Garden Initiative) had been established.
+The objective of this collaboration is to acquire news skills in metabolomic treatment, to access to several species of _Clematis_, _Lonicera_ and _Euonymus_ to the study and integrate this result to the DBGI dataset.
+ 
 
 ## Methodology
 
