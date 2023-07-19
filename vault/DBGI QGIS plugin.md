@@ -2,7 +2,7 @@
 id: 1u37mlza55e6dgksabcv7qn
 title: DBGI QGIS plugin
 desc: ''
-updated: 1684847292789
+updated: 1689776414016
 created: 1684843029214
 ---
 # Welcome to the DBGI plugin page!
@@ -11,15 +11,17 @@ created: 1684843029214
 
 ### Description:
 
-For instance, this plugin performs only one task: Creating geopackage layers for the Digital Botanical Gardens Initiative project.
+For instance, this plugin performs two tasks:
+- Creating geopackage layers for the Digital Botanical Gardens Initiative project
+- Modifying deprecated geopackage layers created with the v0.1 of this plugin
 
 In the future, this plugin could eventually perform more tasks depending on te DBGI project's needs.
 
 ### Example of use:
 
 #### 1. Install the plugin: 
-- Open QGIS, go to Plugins -> Manage And Install Plugins... -> All -> DBGI (Actually not available)
-- Download the zipped plugin [here](https://github.com/digital-botanical-gardens-initiative/gpkg_creator/releases/download/v0.1/gpkg_creator.zip), open QGIS and go to Plugins -> Manage And Install Plugins... -> Install from ZIP and select the zipped file to install it.
+- Open QGIS, go to Plugins -> Manage And Install Plugins... -> All -> DBGI
+- Or download the zipped plugin [here](https://github.com/digital-botanical-gardens-initiative/gpkg_creator/releases/download/v0.2/gpkg_creator_v2.zip), open QGIS and go to Plugins -> Manage And Install Plugins... -> Install from ZIP and select the zipped file to install it.
 
 #### 2. Create a geopackage for the DBGI project:
 - Open the needed QGIS project (to know how to do it, go [there](https://www.dbgi.org/dendron-dbgi/notes/qug423ond4xtns8lelu38p2/) )
