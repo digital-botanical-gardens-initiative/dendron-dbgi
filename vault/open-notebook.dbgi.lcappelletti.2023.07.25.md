@@ -2,7 +2,7 @@
 id: m3w3375qg6wrmwniyt215x6
 title: '25'
 desc: ''
-updated: 1690296337733
+updated: 1690298498346
 created: 1690284231044
 ---
 
@@ -12,6 +12,7 @@ created: 1690284231044
 Today is 2023.07.25
 
 ## Todo today
+
 * Call with [Pierre-Marie Allard](https://www.unifr.ch/bio/en/services/metabolomics-and-proteomics-platform/people/335736/16398) to discuss the [ENPKG Workflow](https://github.com/enpkg/enpkg_workflow)
     * Write a command that runs for the test data [made available on Zenodo](https://zenodo.org/record/8152039) that can be later adapted to be a test suite.
     * Clarify what are the functionalities requested from the following dependencies:

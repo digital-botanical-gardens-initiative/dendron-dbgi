@@ -2,7 +2,7 @@
 id: n6ebzlvhe56zvmm935zl068
 title: '2023-07-25'
 desc: ''
-updated: 1690286547795
+updated: 1690287869695
 created: 1690286511560
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -24,7 +24,12 @@ Today is 2023.07.25
 
 Point with Luca
 
-some points to be adressed at [[lcap]]
+Some points to be adressed at [[open-notebook.dbgi.lcappelletti.2023.07.25]]
+
+[[meet.2023.07.25]]
+
+
+
 
 
 ## Paused
