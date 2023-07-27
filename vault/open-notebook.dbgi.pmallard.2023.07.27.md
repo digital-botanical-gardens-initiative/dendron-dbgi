@@ -2,7 +2,7 @@
 id: uychcr92ff7k1rombsetop3
 title: '2023-07-27'
 desc: ''
-updated: 1690448229605
+updated: 1690461960002
 created: 1690443935483
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -22,7 +22,7 @@ Today is 2023.07.27
 
 ## Doing
 
-Point Edouard
+### Point Edouard
 
 Looking into the noveltries of the qfield app
 -dpownload on deggoglzided android --- semms to work fine
@@ -74,8 +74,31 @@ Readlist
 - https://www.pnas.org/doi/abs/10.1073/pnas.1423041112
 
 
+And a constraint to the sample_name field so that the "unknown" value is automatically enforced when the "no_name_on_list" button is checked.
 
 
+Dig a bit the Directus tuto's https://www.dbgi.org/dendron-dbgi/notes/dy871a7dv1wcjmkvrte9ex7/
+
+
+
+Created a new test layer in the JBUF project on QGis
+Also synced it with Qfield
+Added and additonal field with a constrained vocabulary (helicity l/r)
+
+### Point Maelle
+
+Chek into Goat and the "simple" taxo coverage counter present at https://goat.genomehubs.org/projects/EBP
+
+Error handling. 
+For the SOPARQL and SQL interface be sure not to accidentaly DELETE all the present data
+
+
+https://www.bioinformatics.unibe.ch/studies/general_information/index_eng.html
+
+https://cloud.bioinformatics.unibe.ch/index.php/s/Mr7cKf37RicjZiN
+
+Deadline rapport 31 Aout
+Deadline correction 12 Sept. 
 
 ## Paused
 
