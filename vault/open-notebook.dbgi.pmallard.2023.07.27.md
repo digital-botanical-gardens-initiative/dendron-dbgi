@@ -2,7 +2,7 @@
 id: uychcr92ff7k1rombsetop3
 title: '2023-07-27'
 desc: ''
-updated: 1690461960002
+updated: 1690471867158
 created: 1690443935483
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -99,6 +99,26 @@ https://cloud.bioinformatics.unibe.ch/index.php/s/Mr7cKf37RicjZiN
 
 Deadline rapport 31 Aout
 Deadline correction 12 Sept. 
+
+
+### Point Marco
+
+https://github.com/anticipated-lotus/GNN
+
+Concatenate molecules pathways to molecule fingerprints
+
+- Design a script that can handle the generation of a global fingerprint and append it to the previously calculated LOTUS fp.
+
+(SMILES -> full Classyfire taxo + Morgan FP) 
+Be careful, the binary encoder should be done AFTER the gloabl fingerprinting stage.
+
+- Establish the samne script for biological organism.
+
+This should allow to evaluate the occurence of unknown molecule and species.
+
+Validate on JNP hot of the press !
+
+
 
 ## Paused
 
