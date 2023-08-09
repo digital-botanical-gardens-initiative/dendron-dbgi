@@ -2,7 +2,7 @@
 id: kmkcd9dh6zbazzexqb95cha
 title: '2023-05-08'
 desc: ''
-updated: 1683605692531
+updated: 1691500641638
 created: 1683524942967
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -25,6 +25,31 @@ Today is 2023.05.08
 ### Call with Luca
 
 Luca Cappelletti https://github.com/LucaCappelletti94
+
+
+Sirius 
+
+positive is simple digits
+negative mode is prefix by a -
+
+
+Classical mgf 
+should be 1+ or 1-
+
+
+Toy dataset should also include negative mode files.
+
+
+
+Consider poking Ming regarding the possibility to interact (upload) directly to MassiVE
+
+Data dumps of iNat ?
+
+
+
+
+
+
 
 ### Intro on EMI/DBGI
 
