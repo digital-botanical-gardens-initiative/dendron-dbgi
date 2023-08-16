@@ -2,7 +2,7 @@
 id: m1240xev45nrrsu7p29orad
 title: '2023-08-16'
 desc: ''
-updated: 1692182246119
+updated: 1692182265338
 created: 1692180485745
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -66,7 +66,7 @@ Think about a metadata validator interface.
 
 It should propose a metadata template with :
 
-- X reuqired metadata fields
+- the X required metadata fields
 - a list of validated but optional metadata fields
 - a form to request addition of a metadata field which would not be already present in the previous list
 
