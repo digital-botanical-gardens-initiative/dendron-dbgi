@@ -2,7 +2,7 @@
 id: p92dof7843ap4repef4b74c
 title: '2023-08-28'
 desc: ''
-updated: 1693210803422
+updated: 1693210833854
 created: 1693209850576
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -39,7 +39,7 @@ Mention of DiSSCO developping their PID (not mature for now) https://know.dissco
 
 - Hortus botanicus in Neuchatel this Wednesday 
 
-- thibnk of ways to push DBGI samples to GBIF, eventough they are not "Research grade" obervations on www.inaturalist.org
+- think of ways to push DBGI samples to GBIF, eventough they are not "Research grade" obervations on www.inaturalist.org
 Donat will also investigate into this
 
 https://www.inaturalist.org/posts/29105-making-sure-your-observations-are-shared-to-GBIF
