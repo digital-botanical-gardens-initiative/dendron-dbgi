@@ -2,7 +2,7 @@
 id: p92dof7843ap4repef4b74c
 title: '2023-08-28'
 desc: ''
-updated: 1693210833854
+updated: 1693234268342
 created: 1693209850576
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -59,6 +59,30 @@ Notably :
 We have to dig this
 
 - Set a meeting for this Friday with Patrick and Adriano on progress of the BiCICKL TNA 
+
+
+### Looking for an iNat data dump
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7924439/
+20 GB in 10 minutes: a case for linking major biodiversity databases using an open socio-technical infrastructure and a pragmatic, cross-institutional collaboration
+
+https://www.wikidata.org/wiki/Wikidata:Dataset_Imports
+
+https://www.globalbioticinteractions.org/
+
+GLOBI taxon graph https://zenodo.org/record/7761832
+
+
+Peek into https://github.com/bio-guoda
+
+
+## Data to be turned into a graph
+
+https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp
+
+
+
+
 
 
 
