@@ -2,7 +2,7 @@
 id: jj89v4nh02m729y6re4si5y
 title: '2023-09-01'
 desc: ''
-updated: 1693548800326
+updated: 1693550307260
 created: 1693547904117
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -58,6 +58,41 @@ The Semantic Sensor Network (SSN) ontology is an ontology for describing sensors
 ## Done
 
 ## Notes
+
+
+## Schema.org vs. SKOS
+
+Deviated on another ChatGPT query :
+
+Please briefly describe Schema.org and SKOS and resume what are they similarities and differences.
+> 
+> **Schema.org**:
+> - Schema.org is a collaborative project by major search engines like Google, Bing, Yahoo, and others.
+> - It provides a structured vocabulary (set of terms and definitions) to describe content on the web.
+> - It's mainly used for marking up web pages so that search engines can understand and display content more effectively in search results. For example, it helps in displaying rich snippets, which are enhanced search results with additional information like ratings and event details.
+> - Schema.org is primarily used for enhancing the visibility of web content in search results and for providing structured data on web pages.
+> 
+> **SKOS (Simple Knowledge Organization System)**:
+> - SKOS is a widely used standard for organizing and representing knowledge, particularly for creating and managing controlled vocabularies, taxonomies, and thesauri.
+> - It's designed to help people and software systems to organize and navigate complex sets of information by defining relationships and concepts in a structured way.
+> - SKOS is used in various domains, including libraries, cultural heritage institutions, and information management, to create and manage controlled vocabularies.
+> - It's focused on knowledge organization and management, making it easier to categorize and retrieve information.
+> 
+> **Similarities**:
+> 1. **Semantic Structure**: Both Schema.org and SKOS provide a structured way to describe and organize information. They use defined terms and relationships to create a semantic structure.
+> 
+> 2. **Interoperability**: Both standards aim to enhance the interoperability of data and information. They help systems and applications understand and process data consistently.
+> 
+> 3. **Web Integration**: While their primary purposes differ, both Schema.org and SKOS can be used on the web. Schema.org is more focused on enhancing the presentation of web content in search results, while SKOS helps in organizing knowledge on the web.
+> 
+> **Differences**:
+> 1. **Primary Purpose**: The primary purpose of Schema.org is to enhance the visibility and presentation of web content in search engine results. In contrast, SKOS is primarily used for organizing knowledge and creating controlled vocabularies.
+> 
+> 2. **Domain of Use**: Schema.org is mainly used in the context of web content, websites, and search engine optimization. SKOS, on the other hand, is used in a broader range of domains, including libraries, cultural heritage institutions, and knowledge management.
+> 
+> 3. **Granularity**: Schema.org terms are often more granular and specific, focusing on describing web content elements like products, events, and reviews. SKOS, on the other hand, is used to create broader taxonomies and thesauri, organizing knowledge into hierarchies of concepts.
+> 
+> In summary, Schema.org is primarily for enhancing web content visibility, while SKOS is for organizing knowledge and creating controlled vocabularies. Both standards use structured semantics but have different domains of application and granularity in terms of the information they represent.
 
 ## Todo tomorrow
 
