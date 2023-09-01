@@ -2,7 +2,7 @@
 id: jj89v4nh02m729y6re4si5y
 title: '2023-09-01'
 desc: ''
-updated: 1693550307260
+updated: 1693563377361
 created: 1693547904117
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -58,6 +58,25 @@ The Semantic Sensor Network (SSN) ontology is an ontology for describing sensors
 ## Done
 
 ## Notes
+
+Discussion with XXXX on the EMI project
+
+"A la une" Université de Neuchatel
+
+Projet Sinergia qui se termine (Herbiers de Rousseau)
+FOCUS + pendant pour le futur 
+
+
+Dies Academicus.
+
+- Matthieu Avenzzi directeur du centre de dialectologie
+
+- Mention de l'heritage de Augustin Pyramus de Candolle
+
+
+- Chris kahlemayer
+
+NCCR Plant Survival
 
 
 ## Schema.org vs. SKOS

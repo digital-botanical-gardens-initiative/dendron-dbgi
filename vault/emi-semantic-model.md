@@ -2,7 +2,7 @@
 id: u3r5ovqpurmj36nsvmetsl8
 title: Emi Semantic Model
 desc: ''
-updated: 1693558591732
+updated: 1693567695584
 created: 1693548771769
 ---
 
@@ -104,6 +104,30 @@ This section is non-normative.
 ![](/assets/images/2023-09-01-08-55-23.png)
 
 
+
+#### Schema of an EMI Observation procedure
+
+```mermaid
+graph TD
+
+		Smartphone -->|rdf:type|sosa:Sensor
+		Smartphone -->|sosa:madeObservation|Field_Observation["Field_Observation"]
+		Smartphone -->|sosa:observes|Pictures["Pictures"]
+    Field_Observation -->|rdf:type|sosa:Observation["sosa:Observation"]
+    Field_Observation -->|sosa:observedProperty|Pictures["Pictures"]
+    Pictures --> |rdf:type|sosa:Observable_property["sosa:Observable_property"]
+    Field_Observation -->|sosa:usedProcedure|Observation_Procedure["Observation_Procedure"]
+    Field_Observation -->|sosa:resultTime|xsd:dateTime
+    Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Field_Observation -->|sosa:hasResult|iNaturalist_Observation["iNaturalist_Observation"]
+    Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
+    Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
+    t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
+    t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
+    t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+    t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+```
+
 #### Schema of an EMI Collection procedure
 
 ```mermaid
@@ -140,28 +164,23 @@ graph TD
 ```
 
 
-#### Schema of an EMI Observation procedure
+#### Schema of an EMI Mass Spectrometry analysis procedure
 
 ```mermaid
 graph TD
 
-		Smartphone -->|rdf:type|sosa:Sensor
-		Smartphone -->|sosa:madeObservation|Field_Observation["Field_Observation"]
-		Smartphone -->|sosa:observes|Pictures["Pictures"]
-    Field_Observation -->|rdf:type|sosa:Observation["sosa:Observation"]
-    Field_Observation -->|sosa:observedProperty|Pictures["Pictures"]
-    Pictures --> |rdf:type|sosa:Observable_property["sosa:Observable_property"]
-    Field_Observation -->|sosa:usedProcedure|Observation_Procedure["Observation_Procedure"]
-    Field_Observation -->|sosa:resultTime|xsd:dateTime
-    Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
-    Field_Observation -->|sosa:hasResult|iNaturalist_Observation["iNaturalist_Observation"]
-    Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
-    Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
-    t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
-    t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
-    t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
-    t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+		Mass_Spectrometer -->|rdf:type|MS_Actuator["sosa:Actuator"]
+		Mass_Spectrometer -->|rdf:type|MS_Sampler["sosa:Sampler"]
+		Mass_Spectrometer -->|sosa:madeActuation|Mass_Spectrometry_Analysis["Mass_Spectrometry_Analysis"]
+		Mass_Spectrometer -->|sosa:madeSampling|Mass_Spectrometry_Analysis["Mass_Spectrometry_Analysis"]
+    Mass_Spectrometry_Analysis -->|rdf:type|MS_Actuation["sosa:Actuation"]
+    Mass_Spectrometry_Analysis -->|sosa:usedProcedure|Mass_Spectrometry_Analysis_Procedure["Mass_Spectrometry_Analysis_Procedure"]
+    Mass_Spectrometry_Analysis -->|sosa:resultTime|ms_time["xsd:dateTime"]
+    Mass_Spectrometry_Analysis -->|"sosa:hasFeatureOfInterest"|Lab_Extract["Lab_Extract"]
+    Mass_Spectrometry_Analysis -->|sosa:hasResult|Mass_Spectrometry_Results["Mass_Spectrometry_Results"]
+
 ```
+
 
 ### Schema of an EMI Observation and Collection procedure
 
@@ -209,6 +228,18 @@ graph TD
     Lab_Extraction -->|sosa:resultTime|xsd:dateTime
     Lab_Extraction -->|sosa:resultTime|le_time["xsd:dateTime"]
     Lab_Extraction -->|sosa:hasResult|Lab_Extract["Lab_Extract"]
+    end
+
+    subgraph mass_spectrometry
+		Mass_Spectrometer -->|rdf:type|MS_Actuator["sosa:Actuator"]
+		Mass_Spectrometer -->|rdf:type|MS_Sampler["sosa:Sampler"]
+		Mass_Spectrometer -->|sosa:madeActuation|Mass_Spectrometry_Analysis["Mass_Spectrometry_Analysis"]
+		Mass_Spectrometer -->|sosa:madeSampling|Mass_Spectrometry_Analysis["Mass_Spectrometry_Analysis"]
+    Mass_Spectrometry_Analysis -->|rdf:type|MS_Actuation["sosa:Actuation"]
+    Mass_Spectrometry_Analysis -->|sosa:usedProcedure|Mass_Spectrometry_Analysis_Procedure["Mass_Spectrometry_Analysis_Procedure"]
+    Mass_Spectrometry_Analysis -->|sosa:resultTime|ms_time["xsd:dateTime"]
+    Mass_Spectrometry_Analysis -->|"sosa:hasFeatureOfInterest"|Lab_Extract["Lab_Extract"]
+    Mass_Spectrometry_Analysis -->|sosa:hasResult|Mass_Spectrometry_Results["Mass_Spectrometry_Results"]
     end
 
 ```
