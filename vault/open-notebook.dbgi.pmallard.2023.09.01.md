@@ -2,7 +2,7 @@
 id: jj89v4nh02m729y6re4si5y
 title: '2023-09-01'
 desc: ''
-updated: 1693579299150
+updated: 1693579354178
 created: 1693547904117
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -116,14 +116,17 @@ European Journal of Taxonomy
 https://lookerstudio.google.com/u/0/reporting/bd7418d7-b12d-4eaa-a512-ba3afca1e1d1/page/p_98ckqtsnnc/edit
 
 
-Andra Waagmesteer added TaxoTreatments.
+Q: Are the taxon linked to their WD QID ?
 
+Andra Waagmesteer added TaxoTreatments to WD
+
+Should be possible ...
 
 https://tb.plazi.org/GgServer/dioStats/stats?outputFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source+cont.treatCount&groupingFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source&orderingFields=doc.name&FP-bib.source=Phytochemistry&format=HTML
 
 
+Q: Asked for the possibility to accessed "raw tagged JATS" for the paper where a full Taxonomic Treatment wouldn't have been detected.
 JATS xml
-Asked for the possibility to accessed "raw tagged JATS" for the paper where a full Taxonomic Treatment wouldn't have been detected.
 
 Switch html to xml in the first link to access to the tagged JATS version of the article
 
