@@ -2,7 +2,7 @@
 id: u3r5ovqpurmj36nsvmetsl8
 title: Emi Semantic Model
 desc: ''
-updated: 1693567695584
+updated: 1693573457082
 created: 1693548771769
 ---
 
@@ -188,16 +188,17 @@ graph TD
 graph TD
 
 
-    Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
-    Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
-    Lab_Extraction -->|"sosa:hasFeatureOfInterest"|Field_Sample["Field_Sample"]
-    Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
-    Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
-    t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
-    t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
-    t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
-    t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
 
+    subgraph field
+    
+    subgraph collection
+		Collector -->|rdf:type|sosa:Sampler
+		Collector -->|sosa:madeSampling|Field_Sampling["Field_Sampling"]
+    Field_Sampling -->|rdf:type|sosa:Sampling["sosa:Sampling"]
+    Field_Sampling -->|sosa:usedProcedure|Sampling_Procedure["Sampling_Procedure"]
+    Field_Sampling -->|sosa:resultTime|fs_time["xsd:dateTime"]
+
+    end 
 
     subgraph observation
 		Smartphone -->|rdf:type|sosa:Sensor
@@ -209,27 +210,28 @@ graph TD
     Field_Observation -->|sosa:usedProcedure|Observation_Procedure["Observation_Procedure"]
     Field_Observation -->|sosa:resultTime|fo_time["xsd:dateTime"]
     Field_Observation -->|sosa:hasResult|iNaturalist_Observation["iNaturalist_Observation"]
+
     end
 
-    subgraph collection
-		Collector -->|rdf:type|sosa:Sampler
-		Collector -->|sosa:madeSampling|Field_Sampling["Field_Sampling"]
-    Field_Sampling -->|rdf:type|sosa:Sampling["sosa:Sampling"]
-    Field_Sampling -->|sosa:usedProcedure|Sampling_Procedure["Sampling_Procedure"]
-    Field_Sampling -->|sosa:resultTime|fs_time["xsd:dateTime"]
+    Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
+    Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
+
+    end
+    
+    Lab_Extraction -->|"sosa:hasFeatureOfInterest"|Field_Sample["Field_Sample"]
+    t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
+    t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
+    t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+    t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+
     Field_Sampling -->|sosa:hasResult|Field_Sample["Field_Sample"]
-    end 
 
-    subgraph extraction
-		Extractor -->|rdf:type|sosa:Actuator
-		Extractor -->|sosa:madeActuation|Lab_Extraction["Lab_Extraction"]
-    Lab_Extraction -->|rdf:type|sosa:Actuation["sosa:Actuation"]
-    Lab_Extraction -->|sosa:usedProcedure|Lab_Extraction_Procedure["Lab_Extraction_Procedure"]
-    Lab_Extraction -->|sosa:resultTime|xsd:dateTime
-    Lab_Extraction -->|sosa:resultTime|le_time["xsd:dateTime"]
-    Lab_Extraction -->|sosa:hasResult|Lab_Extract["Lab_Extract"]
-    end
+    subgraph lab
 
+
+    direction TB
     subgraph mass_spectrometry
 		Mass_Spectrometer -->|rdf:type|MS_Actuator["sosa:Actuator"]
 		Mass_Spectrometer -->|rdf:type|MS_Sampler["sosa:Sampler"]
@@ -238,11 +240,27 @@ graph TD
     Mass_Spectrometry_Analysis -->|rdf:type|MS_Actuation["sosa:Actuation"]
     Mass_Spectrometry_Analysis -->|sosa:usedProcedure|Mass_Spectrometry_Analysis_Procedure["Mass_Spectrometry_Analysis_Procedure"]
     Mass_Spectrometry_Analysis -->|sosa:resultTime|ms_time["xsd:dateTime"]
-    Mass_Spectrometry_Analysis -->|"sosa:hasFeatureOfInterest"|Lab_Extract["Lab_Extract"]
     Mass_Spectrometry_Analysis -->|sosa:hasResult|Mass_Spectrometry_Results["Mass_Spectrometry_Results"]
     end
 
+    subgraph extraction
+		Extractor -->|rdf:type|sosa:Actuator
+		Extractor -->|sosa:madeActuation|Lab_Extraction["Lab_Extraction"]
+    Lab_Extraction -->|rdf:type|sosa:Actuation["sosa:Actuation"]
+    Lab_Extraction -->|sosa:usedProcedure|Lab_Extraction_Procedure["Lab_Extraction_Procedure"]
+    Lab_Extraction -->|sosa:resultTime|xsd:dateTime
+    Lab_Extraction -->|sosa:resultTime|le_time["xsd:dateTime"]
+
+    end
+
+    Lab_Extraction -->|sosa:hasResult|Lab_Extract["Lab_Extract"]
+    Mass_Spectrometry_Analysis -->|"sosa:hasFeatureOfInterest"|Lab_Extract["Lab_Extract"]
+
+    end
+
 ```
+
+
 
 Trying Mermaid class diagramm (https://mermaid.js.org/syntax/classDiagram.html) as these representation start to look crowded
 
