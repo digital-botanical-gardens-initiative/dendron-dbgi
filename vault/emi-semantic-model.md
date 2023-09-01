@@ -2,7 +2,7 @@
 id: u3r5ovqpurmj36nsvmetsl8
 title: Emi Semantic Model
 desc: ''
-updated: 1693556110211
+updated: 1693558591732
 created: 1693548771769
 ---
 
@@ -168,14 +168,19 @@ graph TD
 ```mermaid
 graph TD
 
-		Collector -->|rdf:type|sosa:Sampler
-		Collector -->|sosa:madeSampling|Field_Sampling["Field_Sampling"]
-    Field_Sampling -->|rdf:type|sosa:Sampling["sosa:Sampling"]
-    Field_Sampling -->|sosa:usedProcedure|Sampling_Procedure["Sampling_Procedure"]
-    Field_Sampling -->|sosa:resultTime|xsd:dateTime
-    Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
-    Field_Sampling -->|sosa:hasResult|Field_Sample["Field_Sample"]
 
+    Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Lab_Extraction -->|"sosa:hasFeatureOfInterest"|Field_Sample["Field_Sample"]
+    Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
+    Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
+    t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
+    t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
+    t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+    t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+
+
+    subgraph observation
 		Smartphone -->|rdf:type|sosa:Sensor
 		Smartphone -->|sosa:madeObservation|Field_Observation["Field_Observation"]
 		Smartphone -->|sosa:observes|Pictures["Pictures"]
@@ -183,23 +188,81 @@ graph TD
     Field_Observation -->|sosa:observedProperty|Pictures["Pictures"]
     Pictures --> |rdf:type|sosa:Observable_property["sosa:Observable_property"]
     Field_Observation -->|sosa:usedProcedure|Observation_Procedure["Observation_Procedure"]
-    Field_Observation -->|sosa:resultTime|xsd:dateTime
-    Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Field_Observation -->|sosa:resultTime|fo_time["xsd:dateTime"]
     Field_Observation -->|sosa:hasResult|iNaturalist_Observation["iNaturalist_Observation"]
+    end
 
+    subgraph collection
+		Collector -->|rdf:type|sosa:Sampler
+		Collector -->|sosa:madeSampling|Field_Sampling["Field_Sampling"]
+    Field_Sampling -->|rdf:type|sosa:Sampling["sosa:Sampling"]
+    Field_Sampling -->|sosa:usedProcedure|Sampling_Procedure["Sampling_Procedure"]
+    Field_Sampling -->|sosa:resultTime|fs_time["xsd:dateTime"]
+    Field_Sampling -->|sosa:hasResult|Field_Sample["Field_Sample"]
+    end 
+
+    subgraph extraction
 		Extractor -->|rdf:type|sosa:Actuator
 		Extractor -->|sosa:madeActuation|Lab_Extraction["Lab_Extraction"]
     Lab_Extraction -->|rdf:type|sosa:Actuation["sosa:Actuation"]
     Lab_Extraction -->|sosa:usedProcedure|Lab_Extraction_Procedure["Lab_Extraction_Procedure"]
     Lab_Extraction -->|sosa:resultTime|xsd:dateTime
-    Lab_Extraction -->|"sosa:hasFeatureOfInterest"|Field_Sample["Field_Sample"]
+    Lab_Extraction -->|sosa:resultTime|le_time["xsd:dateTime"]
     Lab_Extraction -->|sosa:hasResult|Lab_Extract["Lab_Extract"]
+    end
+
+```
+
+Trying Mermaid class diagramm (https://mermaid.js.org/syntax/classDiagram.html) as these representation start to look crowded
 
 
+
+```mermaid
+classDiagram
+    Animal --> Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+```
+
+
+```mermaid
+classDiagram
+
+		Collector --> Field_Sampling : "`sosa:madeSampling`"
+
+    class Collector{
+        rdf:type a sosa:Sampler
+    }
+```
+
+		Collector -->|rdf:type|sosa:Sampler
+		Collector -->|sosa:madeSampling|Field_Sampling["Field_Sampling"]
+    Field_Sampling -->|rdf:type|sosa:Sampling["sosa:Sampling"]
+    Field_Sampling -->|sosa:usedProcedure|Sampling_Procedure["Sampling_Procedure"]
+    Field_Sampling -->|sosa:resultTime|xsd:dateTime
+    Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
+    Field_Sampling -->|sosa:hasResult|Field_Sample["Field_Sample"]
     Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
     Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
     t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
     t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
     t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
     t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
-```
