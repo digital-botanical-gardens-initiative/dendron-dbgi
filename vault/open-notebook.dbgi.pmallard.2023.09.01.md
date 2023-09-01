@@ -2,7 +2,7 @@
 id: jj89v4nh02m729y6re4si5y
 title: '2023-09-01'
 desc: ''
-updated: 1693563377361
+updated: 1693579299150
 created: 1693547904117
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -59,7 +59,88 @@ The Semantic Sensor Network (SSN) ontology is an ontology for describing sensors
 
 ## Notes
 
-Discussion with XXXX on the EMI project
+### Discussion with Donat
+
+Present: Donat, Guido Sautter, Felipe Simoes
+
+
+- On ants
+
+https://scholar.google.com/citations?user=mr4ptE4AAAAJ&hl=en&oi=ao
+
+Morgan
+
+http://antbase.org/agosticv_2003.html
+
+Gökçen, O.A., Morgan, D.E., Dani, F.R., Agosti,D., Wehner, R., 2002. Dufour gl contents of ants of the Cataglyphisbicolor group. Journal of Chemical Ecology 28 (1), 71-87.
+
+
+#### Phytochem
+
+- Issues form 100 - 208
+- 1400 left to process
+- 900 papers in TreatmentBank
+
+See : https://tb.plazi.org/GgServer/dioStats/stats?outputFields=bib.year+bib.source&groupingFields=bib.year+bib.source&FP-bib.source=Phytochemistry&format=HTML
+
+Before 2020 pagination change 
+
+
+https://tb.plazi.org/GgServer/srsStats/stats?outputFields=doc.uuid+doc.articleUuid+bib.source+tax.name&groupingFields=doc.uuid+doc.articleUuid+bib.source+tax.name&FP-bib.source=Phytochemistry&format=HTML
+
+Two dashboards
+
+Some zipfile couldn't be opened.
+Scrapping bot Issue 200, 203, 204 + issue 116.
+
+@pma Launch the bot again for these
+
+
+
+Definition of a Taxonomic Treatment
+
+https://tb.plazi.org/GgServer/html/9E75879AFFF7FF8F6952B0FFFF7AF9B6
+
+
+https://tb.plazi.org/GgServer/pdsStats
+
+
+- Guido Sautter most of the coding for Plazi since 2012. In Germany.
+- Felipe Simoes joined Plazi in 2020 (Porto Allegre) head of a team of 8.
+
+Mind the timezones next time that we set a meeting !
+
+
+European Journal of Taxonomy
+
+https://lookerstudio.google.com/u/0/reporting/bd7418d7-b12d-4eaa-a512-ba3afca1e1d1/page/p_98ckqtsnnc/edit
+
+
+Andra Waagmesteer added TaxoTreatments.
+
+
+https://tb.plazi.org/GgServer/dioStats/stats?outputFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source+cont.treatCount&groupingFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source&orderingFields=doc.name&FP-bib.source=Phytochemistry&format=HTML
+
+
+JATS xml
+Asked for the possibility to accessed "raw tagged JATS" for the paper where a full Taxonomic Treatment wouldn't have been detected.
+
+Switch html to xml in the first link to access to the tagged JATS version of the article
+
+https://tb.plazi.org/GgServer/html/9E75879AFFF7FF8F6952B0FFFF7AF9B6
+
+>>>
+
+https://tb.plazi.org/GgServer/xml/9E75879AFFF7FF8F6952B0FFFF7AF9B6
+
+https://tb.plazi.org/GgServer/taxPubL1/9E75879AFFF7FF8F6952B0FFFF7AF9B6
+
+
+
+
+### Chat with UniNe communication 
+
+Discussion with XXXX ? Ask Manu on the EMI project
 
 "A la une" Université de Neuchatel
 

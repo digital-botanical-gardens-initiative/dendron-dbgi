@@ -2,7 +2,7 @@
 id: u3r5ovqpurmj36nsvmetsl8
 title: Emi Semantic Model
 desc: ''
-updated: 1693573457082
+updated: 1693574568667
 created: 1693548771769
 ---
 
@@ -182,12 +182,12 @@ graph TD
 ```
 
 
-### Schema of an EMI Observation and Collection procedure
+### Schema of an EMI overall procedure
+
 
 ```mermaid
+
 graph TD
-
-
 
     subgraph field
     
@@ -266,52 +266,17 @@ Trying Mermaid class diagramm (https://mermaid.js.org/syntax/classDiagram.html) 
 
 
 
-```mermaid
-classDiagram
-    Animal --> Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
-    }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
-    }
-    class Zebra{
-        +bool is_wild
-        +run()
-    }
-```
-
 
 ```mermaid
 classDiagram
 
-		Collector --> Field_Sampling : "`sosa:madeSampling`"
+		Collector --> Field_Sampling : sosa_madeSampling
 
     class Collector{
         rdf:type a sosa:Sampler
     }
+    class Field_Sampling{
+        rdf:type a sosa:Sample
+    }
 ```
 
-		Collector -->|rdf:type|sosa:Sampler
-		Collector -->|sosa:madeSampling|Field_Sampling["Field_Sampling"]
-    Field_Sampling -->|rdf:type|sosa:Sampling["sosa:Sampling"]
-    Field_Sampling -->|sosa:usedProcedure|Sampling_Procedure["Sampling_Procedure"]
-    Field_Sampling -->|sosa:resultTime|xsd:dateTime
-    Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
-    Field_Sampling -->|sosa:hasResult|Field_Sample["Field_Sample"]
-    Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
-    Living_System -->|skos:narrower|t_b["ex:Taxon_b"]
-    t_a -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
-    t_b -->|rdf:type|w["<a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521</a>"]
-    t_a -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
-    t_b -->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
