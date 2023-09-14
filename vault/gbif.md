@@ -1,32 +1,11 @@
 ---
-id: urq110fh5eyr0umzizuzcnu
-title: '2023-09-14'
+id: f7cx4bd1mxjt63d0daza1xb
+title: Gbif
 desc: ''
-updated: 1694649912436
-created: 1694647488452
-traitIds:
-  - open-notebook-dbgi-pmallard
+updated: 1694649894962
+created: 1694649883906
 ---
 
-
-# This is PMA's DBGI daily open-notebook.
-
-Today is 2023.09.14
-
-## Todo today
-
-### Have a look at the DBGI discussion forum
-    - https://github.com/orgs/digital-botanical-gardens-initiative/discussions
-###
-###
-
-## Doing
-
-at [[gbif]]
-
-## Paused
-
-## Done
 
 Registered the following 
 
@@ -46,14 +25,3 @@ Registered the following
 
 We need to peek into Global Registry of Scientific Collections (GRSciColl)
 https://www.gbif.org/grscicoll
-
-## Todo tomorrow, one day ... or never
-
-###
-###
-###
-
-
-## Today I learned that
-
--
