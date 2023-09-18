@@ -2,7 +2,7 @@
 id: uchpm4tt1enj34vr209qauc
 title: '2023-09-17'
 desc: ''
-updated: 1694932520626
+updated: 1694935574463
 created: 1694932202779
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -52,6 +52,10 @@ https://www.idigbio.org/content/biodigicon-2023-0
 ## Done
 
 ## Notes
+
+https://github.com/bio-guoda/preston/issues/250
+https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d
+
 
 ## Todo tomorrow, one day ... or never
 
