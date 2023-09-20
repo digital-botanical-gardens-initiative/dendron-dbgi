@@ -222,7 +222,7 @@ graph TD
     Field_Observation -->|sosa:usedProcedure|Observation_Procedure["Observation_Procedure"]
     Field_Observation -->|sosa:resultTime|fo_time["xsd:dateTime"]
     Field_Observation -->|sosa:hasResult|iNaturalist_Observation["iNaturalist_Observation"]
-    end
+
     Field_Observation -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
     Field_Sampling -->|"sosa:hasFeatureOfInterest"|Living_System["Living_System"]
     Living_System -->|skos:narrower|t_a["ex:Taxon_a"]
