@@ -2,7 +2,7 @@
 id: xbm6thpignhvxup4oktamzo
 title: '2023-09-22'
 desc: ''
-updated: 1695377371790
+updated: 1695385991020
 created: 1695377033069
 traitIds:
   - open-notebook-ebruelhart
@@ -14,7 +14,7 @@ Today is 2023.09.22
 
 # What to discuss with Pierre-Marie
 
-- What kind of informations for extractions
+- What kind of informations for extractions: date and time, UUID, 
 - What kind of informations for injections
 - Choose good vials racks
 - Where to store extracts weight
@@ -23,3 +23,4 @@ Today is 2023.09.22
 - Specials databases for different racks? Do I have to create a special database for each type of racks or is it just a parameter to fill in a field next to the samples/extracts/injects?
 - Same questio with fridges/fridges stages
 
+label ependorf dbgi_000001_01_tmp
