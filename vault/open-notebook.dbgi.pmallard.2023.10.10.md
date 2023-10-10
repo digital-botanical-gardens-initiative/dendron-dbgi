@@ -2,7 +2,7 @@
 id: 5825zwurxtvpbbu6aensrov
 title: '2023-10-10'
 desc: ''
-updated: 1696955879546
+updated: 1696957122786
 created: 1696939503372
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -39,6 +39,11 @@ Now also looking at http://basic-formal-ontology.org/
 See https://www.researchgate.net/publication/228831199_How_to_track_absolutely_everything
 
 https://www.ebi.ac.uk/ols4/ontologies/ro/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002577
+
+![](/assets/images/2023-10-10-18-58-09.png)
+
+
+![](/assets/images/2023-10-10-18-58-33.png)
 
 
 
