@@ -2,7 +2,7 @@
 id: 5825zwurxtvpbbu6aensrov
 title: '2023-10-10'
 desc: ''
-updated: 1696954973475
+updated: 1696955879546
 created: 1696939503372
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -31,10 +31,16 @@ https://webprotege.stanford.edu/
 
 
 We have discussed some time (4hours) and I believe, have advanced on the EMI semantic model.
-One of the keys here would be to define and emi_system (though part will be defining what it is, but in a nutshel any subpart of the observable universe)
+One of the keys here would be to define and emi_system (though part will be defining what it is, but in a nutshell any subpart of the observable universe)
 I our case these emi_system would range from the biosphere to an isolated group of analytes. We connect system to other systems through one of the sosa operation (Actuation, Sampling, Observation)
 Usually these operation are used to connect system to subsystems. The RO has been discussed to define these relationships.
 Now also looking at http://basic-formal-ontology.org/
+
+See https://www.researchgate.net/publication/228831199_How_to_track_absolutely_everything
+
+https://www.ebi.ac.uk/ols4/ontologies/ro/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002577
+
+
 
 
 
