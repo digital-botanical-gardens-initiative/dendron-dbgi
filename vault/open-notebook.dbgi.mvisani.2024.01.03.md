@@ -2,7 +2,7 @@
 id: t1itgshmemb1c939iv7m706
 title: '2024-01-03'
 desc: ''
-updated: 1704362273766
+updated: 1704387220090
 created: 1704270443197
 traitIds:
   - open-notebook-mvisani
@@ -30,14 +30,15 @@ There should also be 2 edge types:
 
 
 ## Todo today
-* prepare data for anticipating LOTUS using [grape](https://github.com/AnacletoLAB/grape). 
-* get all species from LOTUS (locally), run on the cluster to get the phylogeny. 
-* link molecules to Classyfire
-* link species to molecules
-* Should I use ontologies ? should it be a directed graph ?
+- [ ] prepare data for anticipating LOTUS using [grape](https://github.com/AnacletoLAB/grape). 
+- [x] get all species from LOTUS (locally), run on the cluster to get the phylogeny. 
+- [x] create Classyfire phylogeny
+- [ ] link molecules to Classyfire
+- [ ] link species to molecules
+
 
 ## Doing
-
+To get full LOTUS https://w.wiki/8jGu
 
 ## Done
 * 
