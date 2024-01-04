@@ -2,7 +2,7 @@
 id: mzmf31vrxvl1nvyoo23lemn
 title: '2023-12-19'
 desc: ''
-updated: 1702991219925
+updated: 1703173293866
 created: 1702987672061
 traitIds:
   - open-notebook-mvisani
@@ -18,7 +18,7 @@ Prep work for starting the job on January.
 This query : https://w.wiki/8YzQ will recursively find all the parent taxon of a species all the way to the "Biota" group. This should then be useful to create the LOTUS graph to use in [grape](https://github.com/AnacletoLAB/grape/tree/main). 
 
 I should then :
-* get all the species that are linked to a referenced molecule using this query : https://w.wiki/8Yzn
+* get all the species that are linked to a referenced molecule using this query : https://w.wiki/8Z7Y
 * for each species get their taxonomy thanks to this query : https://w.wiki/8YzQ
 * create a list of all the nodes (species : 37082 ) and their taxonomy 
 * create a list of all the edges of the tree
@@ -59,9 +59,12 @@ pd.json_normalize(results['results']['bindings'])
 
 
 ## Todo today
-packages used : python 3.11.*, pip, grape and sparqlwrapper
+packages used : python 3.11.*, pip, grape
 
-## Doing
+Here are the NaN values of the species in LOTUS. It seems to confirm what I saw during the Master thesis where GBIF seems to have the most species known. The total is 37082 species. 
+* NaN is NCBI : 8133
+* NaN is GBIF : 736
+* NaN is OTL : 8073
 
 
 ## Done
