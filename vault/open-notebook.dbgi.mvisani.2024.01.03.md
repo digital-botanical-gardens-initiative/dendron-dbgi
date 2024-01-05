@@ -2,7 +2,7 @@
 id: t1itgshmemb1c939iv7m706
 title: '2024-01-03'
 desc: ''
-updated: 1704387220090
+updated: 1704450344973
 created: 1704270443197
 traitIds:
   - open-notebook-mvisani
@@ -30,15 +30,18 @@ There should also be 2 edge types:
 
 
 ## Todo today
-- [ ] prepare data for anticipating LOTUS using [grape](https://github.com/AnacletoLAB/grape). 
 - [x] get all species from LOTUS (locally), run on the cluster to get the phylogeny. 
+- [x] create species phylogeny
+- [x] link species to molecules
 - [x] create Classyfire phylogeny
-- [ ] link molecules to Classyfire
-- [ ] link species to molecules
+- [ ] link molecules to Classyfire $\rightarrow$ problem : I downloaded only the inchikey and not the Inchi so I can't run Classyfire. Needs a fix.
+
+After that the data should be ready for [grape](https://github.com/AnacletoLAB/grape/tree/main)
+
 
 
 ## Doing
-To get full LOTUS https://w.wiki/8jGu
+To get full LOTUS https://w.wiki/8jtH
 
 ## Done
 * 
