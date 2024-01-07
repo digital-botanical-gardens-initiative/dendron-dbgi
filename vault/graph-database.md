@@ -2,7 +2,7 @@
 id: xoiil9w7pvz3ojhif2a8ppj
 title: Graph Database
 desc: ''
-updated: 1704642535882
+updated: 1704647141238
 created: 1704642493175
 ---
 
@@ -47,3 +47,5 @@ or in other words
 
 - Do we want to benefit from inference?
 - Do we want to have attributes on relationships?
+
+
