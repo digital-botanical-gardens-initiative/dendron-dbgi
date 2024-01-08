@@ -2,7 +2,7 @@
 id: grouiddhien7l02sww2pp98
 title: '2024-01-05'
 desc: ''
-updated: 1704470178547
+updated: 1704733752101
 created: 1704469231004
 traitIds:
   - open-notebook-mvisani
@@ -21,13 +21,13 @@ Today is 2024.01.05
 
 
 ## Done
-* 
+
 
 
 ## Todo on Monday 2024.01.08
 Restart implementation of query of Classyfire. To do so I need to:
-- [ ] look at test.py file. In the end I need only a list of the Inchi (max 1000 molecules per list $\rightarrow$ from my dataframe, create chunks of 1000 molecules) 
-- [ ] once I have my list I need to do this `compound = "\\n".join(comp)` to link them together.
-- [ ] Once they are linked I can use `structure_query` and `get_results` to get the results and then I'll my self made `filter_df` function to get the results in a dataframe
-- [ ] the files created today (Friday 05.01.2024) (`./data/molecules/classyfire/*` should be deleted)
+- [x] look at test.py file. In the end I need only a list of the Inchi (max 1000 molecules per list $\rightarrow$ from my dataframe, create chunks of 1000 molecules) 
+- [x] once I have my list I need to do this `compound = "\\n".join(comp)` to link them together.
+- [x] Once they are linked I can use `structure_query` and `get_results` to get the results and then I'll use my self made `filter_df` function to get the results in a dataframe
+- [x] the files created today (Friday 05.01.2024) (`./data/molecules/classyfire/*` should be deleted)
 

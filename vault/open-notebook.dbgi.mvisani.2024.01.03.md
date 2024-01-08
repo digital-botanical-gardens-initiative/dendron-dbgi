@@ -2,7 +2,7 @@
 id: t1itgshmemb1c939iv7m706
 title: '2024-01-03'
 desc: ''
-updated: 1704450344973
+updated: 1704733653108
 created: 1704270443197
 traitIds:
   - open-notebook-mvisani
@@ -34,7 +34,7 @@ There should also be 2 edge types:
 - [x] create species phylogeny
 - [x] link species to molecules
 - [x] create Classyfire phylogeny
-- [ ] link molecules to Classyfire $\rightarrow$ problem : I downloaded only the inchikey and not the Inchi so I can't run Classyfire. Needs a fix.
+- [x] link molecules to Classyfire $\rightarrow$ problem : I downloaded only the inchikey and not the Inchi so I can't run Classyfire. Needs a fix.
 
 After that the data should be ready for [grape](https://github.com/AnacletoLAB/grape/tree/main)
 
