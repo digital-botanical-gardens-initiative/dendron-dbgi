@@ -2,7 +2,7 @@
 id: 816e28jq94e7o03c7l1t30z
 title: '2024-01-08'
 desc: ''
-updated: 1704736438430
+updated: 1704736777764
 created: 1704712049324
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -45,8 +45,6 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '359.0'
 
 Adressed by https://github.com/enpkg/enpkg_full/commit/2e1d9c701687063e58d9f6bd0bb63704361d323b
-
-
 
 
 
