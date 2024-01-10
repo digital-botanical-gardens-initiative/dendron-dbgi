@@ -2,7 +2,7 @@
 id: 6w7yj61siq9fi8uc4r06waf
 title: '2024-01-09'
 desc: ''
-updated: 1704816292104
+updated: 1704894750960
 created: 1704802594086
 traitIds:
   - open-notebook-mvisani
@@ -13,7 +13,7 @@ Today is 2024.01.09
 
 
 ## Notes
-
+Interesting video for managing big projects in python : https://www.youtube.com/watch?v=tAuRQs_d9F8&t=169s
 ## Todo today
 * prepare questions for Luca !!!
 * 
@@ -36,6 +36,7 @@ Then maybe be able to add new species and new molecules (see question below with
 * Should I train/test split on heterogenous nodes only ?
 * Should I run the edge prediction pipeline ? 
 * What kind of embedding should we go for ?
+* How can I perform grid search to look for the best embedding on the cluster ? I was able to run stuff on the cluster but when I put them as list it seems like 
 
 
 #### EMIKG
