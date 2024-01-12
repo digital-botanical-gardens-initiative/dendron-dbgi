@@ -2,7 +2,7 @@
 id: rp4pokgcew53oouoxv0ahd3
 title: '2024-01-12'
 desc: ''
-updated: 1705054458425
+updated: 1705056015728
 created: 1705047496451
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -68,6 +68,13 @@ When you expect to have full control of a thing, e.g. you are the provider.
 
 
 Created [[emikg-portal]]
+
+
+A prefixed tree https://docs.rs/trie-rs/latest/trie_rs/
+To integrate.
+
+
+
 
 ## Paused
 
