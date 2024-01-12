@@ -2,7 +2,7 @@
 id: rp4pokgcew53oouoxv0ahd3
 title: '2024-01-12'
 desc: ''
-updated: 1705052123958
+updated: 1705052749403
 created: 1705047496451
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -43,9 +43,10 @@ SciBERT
 
 Creating a [[anticipated-lotus]] page in the Dendron DBGI vault.
 
-Textual description at least 10 words of both species and molecules.
+- Textual description at least 10 words of both species and molecules.
 
-
+This textual description needs also to be as complete as the existing ones.
+So a WD description would be OK if we keep name, INCHI, SMILES etc, but not the pubchem id for ex.
 
 
 
