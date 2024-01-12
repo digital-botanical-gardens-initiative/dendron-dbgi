@@ -2,7 +2,7 @@
 id: u0j1vcvpfc79uy7awl258k3
 title: '2024-01-12'
 desc: ''
-updated: 1705052776952
+updated: 1705062241165
 created: 1705046122635
 traitIds:
   - open-notebook-mvisani
@@ -25,11 +25,6 @@ We can't have one graph with edges and the other not due to data structure. One 
 * two problems : edge weights can mean different 
 * negative edges weights need also a weight
 
-#####
-#####
-
-#### EMI KG
-
 ## Todo today
 * 
 
@@ -41,6 +36,12 @@ We can't have one graph with edges and the other not due to data structure. One 
 
 
 ## Todo
+### LOTUS
 * verify if we have textual description of both species and molecules (at least 10 words) 
 * try to list the features that we TRULY need for all nodes of a specific class 
 * define all requirements 
+
+### EMI KG
+* follow a **monorepo** approach because 
+* **SQLite** compiled inside the repo
+* work a bit on basics in Rust
