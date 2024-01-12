@@ -2,7 +2,7 @@
 id: rp4pokgcew53oouoxv0ahd3
 title: '2024-01-12'
 desc: ''
-updated: 1705051763174
+updated: 1705052123958
 created: 1705047496451
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -33,8 +33,6 @@ They are models which are positive
 
 Inductive models means that we cannot use node embedding per se
 
-
-
 ![](/assets/images/2024-01-12-10-15-07.png)
 
 
@@ -43,8 +41,12 @@ The wikidata page of these nodes could be a thing.
 
 SciBERT
 
-
 Creating a [[anticipated-lotus]] page in the Dendron DBGI vault.
+
+Textual description at least 10 words of both species and molecules.
+
+
+
 
 
 ## Paused
