@@ -2,7 +2,7 @@
 id: 6w7yj61siq9fi8uc4r06waf
 title: '2024-01-09'
 desc: ''
-updated: 1704985075945
+updated: 1705046463960
 created: 1704802594086
 traitIds:
   - open-notebook-mvisani
@@ -25,7 +25,7 @@ Interesting video for managing big projects in python : https://www.youtube.com/
 ## Done
 ### Questions for Luca:
 #### Lotus
-We don't want to increase data with ChEBI or NCBItaxon or whatever. We just want to try to complete a bit LOTUS. 
+We currently have the LOTUS database and this must not chnage by adding new molecules by downloading CHEBI or NCBI or whatever.
 
 Then maybe be able to add new species and new molecules (see question below with *inductive*)
 
@@ -45,6 +45,8 @@ Then maybe be able to add new species and new molecules (see question below with
 * What should I do ? 
 * OOP ? start class creation ? 
 * What are these datatables things ?
+* Why Rust ? 
+* Why not using dataclasses for code simplification
 
 
 ## Todo tomorrow
