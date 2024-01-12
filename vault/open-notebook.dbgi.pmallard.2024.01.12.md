@@ -2,7 +2,7 @@
 id: rp4pokgcew53oouoxv0ahd3
 title: '2024-01-12'
 desc: ''
-updated: 1705052123958
+updated: 1705056015728
 created: 1705047496451
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -43,8 +43,35 @@ SciBERT
 
 Creating a [[anticipated-lotus]] page in the Dendron DBGI vault.
 
-Textual description at least 10 words of both species and molecules.
+- Textual description at least 10 words of both species and molecules.
 
+This textual description needs also to be as complete as the existing ones.
+So a WD description would be OK if we keep name, INCHI, SMILES etc, but not the pubchem id for ex.
+
+
+### EMIKG Portal
+
+- Mono repo approach
+
+e.g. google is a mono repo 
+
+https://github.com/enpkg/enpkg_full
+
+https://en.wikipedia.org/wiki/Monorepo
+
+Rust monoliths backend : handles the DB, the authorizations, Sample management, etc. No particular reason to do it in Rust except for the security reasons. Should be as integrated as possible.
+
+Rust part listen to API calls from Python modules.
+
+
+When you expect to have full control of a thing, e.g. you are the provider. 
+
+
+Created [[emikg-portal]]
+
+
+A prefixed tree https://docs.rs/trie-rs/latest/trie_rs/
+To integrate.
 
 
 
