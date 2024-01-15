@@ -2,7 +2,7 @@
 id: pjngtdo5fnq1y4k7vitoafx
 title: Ressources
 desc: ''
-updated: 1705075033819
+updated: 1705310244365
 created: 1705062020400
 ---
 
@@ -20,6 +20,9 @@ Here is an example:
 ### Molecules
 For the molecules however, this is more difficult. 
 * one potential solution would be to use the information in the wikidata page and use it as text. 
-  * Here is an example : https://w.wiki/8pau
+  * Here is an example : https://w.wiki/8qrK
 * One other solution would be to use ChemBERT to contextualize the SMILES however that means that we use a different model that for the molecules. 
 * But then why couldn't we just use the molecular fingerprints ?
+
+ChemBERT : https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1
+
