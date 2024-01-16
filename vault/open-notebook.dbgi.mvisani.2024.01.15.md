@@ -2,7 +2,7 @@
 id: eipurn3m7txv08qtrvl1y49
 title: '2024-01-15'
 desc: ''
-updated: 1705336924920
+updated: 1705407507037
 created: 1705309257324
 traitIds:
   - open-notebook-mvisani
@@ -25,7 +25,9 @@ we need :
 It looks like CHEM-BERT works better than MAP4 for the features.
 
 ## Todo today
-
+Read papers : 
+- [x] https://static.googleusercontent.com/media/research.google.com/it//pubs/archive/40671.pdf
+- [ ] https://vigna.di.unimi.it/ftp/papers/HyperBall.pdf 
 ## Doing
 
 
@@ -34,5 +36,5 @@ It looks like CHEM-BERT works better than MAP4 for the features.
 
 
 ## Todo tomorrow
-* insert nodes for each term in NCBI taxon. 
-* Insert NCBi taxon to the graph that I created. This will allow to increase the information for the species with an NCBi id and the other will just have the wikidata topology.
+- [x] insert nodes for each term in NCBI taxon. 
+- [x] Insert NCBi taxon to the graph that I created. This will allow to increase the information for the species with an NCBi id and the other will just have the wikidata topology.
