@@ -2,7 +2,7 @@
 id: zay749ii6thnxdmzykoaq4c
 title: '2024-01-16'
 desc: ''
-updated: 1705414220756
+updated: 1705415614911
 created: 1705413549993
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -39,6 +39,18 @@ https://gift.uni-goettingen.de/home
 
 
 We should move these ressources to [[traits-database]]
+
+
+Get in touch with https://opentraits.org/
+
+- https://www.globalbioticinteractions.org/
+
+
+https://guoda.bio/
+
+https://denver.hesge.ch/BiotXplorer/
+
+We can put thisng related to biotic interactions in [[biotic-interactions]]
 
 
 
