@@ -2,7 +2,7 @@
 id: ctixxbnr9iqbqx85ls78nta
 title: '2024-01-17'
 desc: ''
-updated: 1705509855558
+updated: 1705512859280
 created: 1705507352459
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -22,7 +22,7 @@ Today is 2024.01.17
 
 ## Doing
 
-Meeting with Harry Caufield and Luca Cappelletti
+Meeting with [[people.harry-caufield]] and [[people.luca-cappelletti]]
 
 - KG-x conversion 
 - KG-hub 
@@ -42,6 +42,11 @@ Two version of the Graph
 
 
 List use cases of the KG. Pasting this at [[emikg-use-cases]].
+
+
+@pma Update the ENPKG Schema at https://github.com/enpkg/enpkg_website/blob/156395bc43affe0ed91ecea30a1d4d60741020c7/common/data/config/schema/enpkg_schema.ttl
+
+
 
 
 
