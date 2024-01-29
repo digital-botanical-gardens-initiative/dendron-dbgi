@@ -2,7 +2,7 @@
 id: 84mk1tk8agy6r3gwmzylc6g
 title: '2024-01-26'
 desc: ''
-updated: 1706305022005
+updated: 1706459416390
 created: 1706277290491
 traitIds:
   - open-notebook-mvisani
@@ -26,3 +26,4 @@ Today is 2024.01.26
 
 ## Todo tomorrow
 - [ ] change graph to a dumped version of `graph.remove_singleton_nodes()` because we might have some problem with the hash. 
+- [ ] ask why by changing the model, the sketching needs to be run again
