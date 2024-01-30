@@ -2,7 +2,7 @@
 id: h4nhme31wsr6pq037ti8ldw
 title: '2024-01-26'
 desc: ''
-updated: 1706613745684
+updated: 1706630097775
 created: 1706279542512
 traitIds:
   - open-notebook-acsima
@@ -39,12 +39,18 @@ MySQL workbench
 
 Protégé as an Ontop editor for the mappings
 
-Tarcisio will document the Ontop process.
 
 
 Ana find the option that need to be activated on the graphdb enpkg instance so as to allow query form bioquery to work.
 
+to add in graphdb properties
 
+```bash
+graphdb.workbench.cors.enable=true
+graphdb.workbench.cors.origin=*
+```
+
+- Tarcisio will document the Ontop process.
 - Share to Tarcisio the whole ENPKG processed data before the graph part.
 - PM share table 1. with the parts we want to template
 - Ana index individual queries so they have their own URL
