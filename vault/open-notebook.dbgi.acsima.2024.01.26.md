@@ -2,7 +2,7 @@
 id: h4nhme31wsr6pq037ti8ldw
 title: '2024-01-26'
 desc: ''
-updated: 1706630097775
+updated: 1706630159777
 created: 1706279542512
 traitIds:
   - open-notebook-acsima
@@ -59,6 +59,8 @@ graphdb.workbench.cors.origin=*
 - Poke Adriano and Nico to see if we can align on the Swiss part of the KG.
 
 
+Think of a common place to share todo's 
+Maybe at https://github.com/orgs/digital-botanical-gardens-initiative/projects/1
 
 
 ## Notes
