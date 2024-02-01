@@ -2,7 +2,7 @@
 id: ksjpcncq5xld5e7wjtqup92
 title: '2024-02-01'
 desc: ''
-updated: 1706787126070
+updated: 1706787402915
 created: 1706774087985
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -22,7 +22,7 @@ Today is 2024.02.01
 
 ### Call Donat
 
-#### Vinesh vineyards 
+#### Vinesch vineyards 
 
 
 https://www.inaturalist.org/projects/vinesch where they already sampled a lot.
@@ -76,9 +76,9 @@ https://doi.org/10.5281/zenodo.580296
 Willy
 
 
-### Vinesh 
+### Vinesch
 
-Vinesh EMI Bioblitz - 2024-05-03 -> 2024-05-07
+Vinesch EMI Bioblitz - 2024-05-03 -> 2024-05-07
 
 News
 
