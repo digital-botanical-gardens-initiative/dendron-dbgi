@@ -2,7 +2,7 @@
 id: ksjpcncq5xld5e7wjtqup92
 title: '2024-02-01'
 desc: ''
-updated: 1706779306956
+updated: 1706787126070
 created: 1706774087985
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -13,18 +13,17 @@ traitIds:
 
 Today is 2024.02.01
 
-## Todo today
+## Todo today 
 
 ### Have a look at the DBGI discussion forum
     - https://github.com/orgs/digital-botanical-gardens-initiative/discussions
-###
-###
 
 ## Doing
 
 ### Call Donat
 
 #### Vinesh vineyards 
+
 
 https://www.inaturalist.org/projects/vinesch where they already sampled a lot.
 
@@ -58,6 +57,7 @@ Curation of entries of Taxonomic Treatment can be done at https://github.com/pla
 https://github.com/plazi/community/issues/266
 
 https://github.com/plazi/community/blob/master/learningModules.md
+
 
 
 giora@plazi.org 
