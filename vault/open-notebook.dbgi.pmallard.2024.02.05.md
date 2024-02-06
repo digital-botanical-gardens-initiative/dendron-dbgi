@@ -1,9 +1,9 @@
 ---
-id: nb3ha1jadnmfq57rfhpjm0k
-title: '2024-02-02'
+id: b8n1vn26n8u1w2wibw8natf
+title: '2024-02-05'
 desc: ''
-updated: 1707128515444
-created: 1706882211410
+updated: 1707128411173
+created: 1707128374931
 traitIds:
   - open-notebook-dbgi-pmallard
 ---
@@ -11,7 +11,7 @@ traitIds:
 
 # This is PMA's DBGI daily open-notebook.
 
-Today is 2024.02.02
+Today is 2024.02.05
 
 ## Todo today
 
@@ -22,7 +22,12 @@ Today is 2024.02.02
 
 ## Doing
 
-Pasted at [[database.tutorial.directus.notes]]
+
+Checking back the Directis instance with Edouard
+
+[[database.tutorial.directus]]
+
+
 
 ## Paused
 
