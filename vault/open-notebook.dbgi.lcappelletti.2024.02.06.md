@@ -2,7 +2,7 @@
 id: qco7rce4pduh62w1m51vkgq
 title: '2024-02-06'
 desc: ''
-updated: 1707220866103
+updated: 1707221097826
 created: 1707220777211
 traitIds:
   - open-notebook-dbgi-lcappelletti
@@ -13,21 +13,11 @@ traitIds:
 
 Today is 2024.02.06
 
-## Todo today
-
-## Doing
-
-## Paused
-
 ## Done
+* Call with Marco to finish up the [Sirius bindings crate](https://github.com/earth-metabolome-initiative/emi-monorepo/tree/sirius-bindings/bindings/sirius) which is getting close to be finished. We are now working on the documentation and the tests. Specifically, it needs:
+  * [ ] A test for the actual execution of Sirius as part of the test suite on the GitHub actions CI.
+  * [ ] A richer README that explains what is the crate, and how to use it.
 
-## Notes
-
-## Todo tomorrow
-
-###
-###
-###
 
 
 ## Today I learned that
