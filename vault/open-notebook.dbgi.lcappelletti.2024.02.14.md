@@ -2,7 +2,7 @@
 id: vkrxot5n7cupgnensmnmkxc
 title: '2024-02-14'
 desc: ''
-updated: 1707901775350
+updated: 1707948587958
 created: 1707901526517
 traitIds:
   - open-notebook-dbgi-lcappelletti
@@ -19,6 +19,12 @@ Today is 2024.02.14
 
 ## Done
 
+* Refactored all Diesel migrations to make them executable
+* Identified some missing tables to be added still to the Diesel migrations
+
+## Todo tomorrow
+
+* Add the missing tables to the Diesel migrations
 
 ## Today I learned that
 
