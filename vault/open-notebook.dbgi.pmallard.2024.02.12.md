@@ -2,7 +2,7 @@
 id: a5h68k7782sqmjf2eqakaew
 title: '2024-02-12'
 desc: ''
-updated: 1707727767445
+updated: 1707750219244
 created: 1707722610968
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -201,6 +201,38 @@ Colin suggested that we could mix the whould sample and THEN aliquot It
 - this means a better representation of the chemistry of the sample
 - however it also leads to more cross sample contaminations (trhough the powder)
 - less storage lifetime ?
+
+
+#### EMI portal table
+
+Bluetooth
+https://caniuse.com/web-bluetooth
+
+We should be able to have an app working offline as long as we are logged in.
+
+Edouard mentions the interst of using local maps
+
+me says:
+https://www.swisstopo.admin.ch/fr/orthophotos-swissimage-10-cm
+ 
+me says:
+https://www.swisstopo.admin.ch/fr/orthophotos-swissimage-10-cm#SWISSIMAGE-10-cm---Acc%C3%A8s-aux-g%C3%A9odonn%C3%A9es
+ 
+
+https://map.geo.admin.ch/?lang=en&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen&layers_opacity=1,1,1,0.8,0.8&layers_visibility=false,false,false,false,false&layers_timestamp=18641231,,,,
+
+
+me says:
+https://github.com/opengisch/QField
+ 
+me says:
+https://georust.org/
+ 
+me says:
+https://pka.github.io/rust-for-geo/#/title-slide
+ 
+
+ 
 
 ## Paused
 
