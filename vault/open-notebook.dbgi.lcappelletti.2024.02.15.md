@@ -2,7 +2,7 @@
 id: 3doal1n9m2gyojifyfw2w5x
 title: '2024-02-15'
 desc: ''
-updated: 1708006339890
+updated: 1708010323398
 created: 1707984677956
 traitIds:
   - open-notebook-dbgi-lcappelletti
@@ -25,6 +25,7 @@ Today is 2024.02.15
 ## Done
 * Added several missing tables
 * Converted all tables into Diesel structs, and cargo check is now passing
+* Now backend actually starts arctix application
 
 ## Notes
 
