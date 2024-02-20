@@ -10,3 +10,4 @@ During this work, we have realised that some processes are not automatized enoug
 Another point is the accessiblity of the molecular network. For now, we have to dowload it and open it witha a software (Cytoscape). It would be more convenient to directly display it ont this website.
 
 And, of course, we have to continue the sampling of the Jardin Botanique de l'Université de Fribourg.
+
