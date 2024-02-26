@@ -2,7 +2,7 @@
 id: lnulnlix7o62u59lk9v8sza
 title: '2024-02-26'
 desc: ''
-updated: 1708968197675
+updated: 1708968454032
 created: 1708954861145
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -68,6 +68,10 @@ Future is at https://github.com/earth-metabolome-initiative/emi-monorepo
 DBGI Dendron:  https://www.dbgi.org/dendron-dbgi/
 
 https://github.com/digital-botanical-gardens-initiative
+
+https://enpkg.commons-lab.org/graphdb/
+
+
 
 Cette partie peut aussi comporter des démonstrations. (30-40 min.)
 
