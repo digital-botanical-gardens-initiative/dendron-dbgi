@@ -2,7 +2,7 @@
 id: lnulnlix7o62u59lk9v8sza
 title: '2024-02-26'
 desc: ''
-updated: 1708968454032
+updated: 1708968597930
 created: 1708954861145
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -71,6 +71,11 @@ https://github.com/digital-botanical-gardens-initiative
 
 https://enpkg.commons-lab.org/graphdb/
 
+https://riojournal.com/topical_collection/215/
+
+https://zenodo.org/communities/earth-metabolome/records?q=&l=list&p=1&s=10&sort=newest
+https://zenodo.org/communities/dbgi-zenodo-repository/records?q=&l=list&p=1&s=10&sort=newest
+https://zenodo.org/communities/commons-lab-repository/records?q=&l=list&p=1&s=10&sort=newest
 
 
 Cette partie peut aussi comporter des démonstrations. (30-40 min.)
