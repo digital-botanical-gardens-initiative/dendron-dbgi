@@ -2,7 +2,7 @@
 id: lnulnlix7o62u59lk9v8sza
 title: '2024-02-26'
 desc: ''
-updated: 1708968597930
+updated: 1709121113499
 created: 1708954861145
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -53,10 +53,12 @@ Il s’agit de présenter ton projet de recherche :
 
 Will reuse presentations.
 
+[Mass-specs, computers and Linked Open Data for chemodiversity characterisation at the global scale.](https://doi.org/10.5281/zenodo.10663625)
 [Earth Metabolome Initiative semantic model workshop intro - What is the stuff we are talking about ?](https://doi.org/10.5281/zenodo.8137605)
 [Digital Botanical Gardens & Earth Metabolome : two aligned iniatives](https://doi.org/10.5281/zenodo.7662428)
-
 P-79
+
+
 
 - Le travail avec les données : collecte, stockage, traitement et analyse des données ; forme des donnes ; versioning ; infrastructure, outils et standards utilisés, archivage etc.
 
