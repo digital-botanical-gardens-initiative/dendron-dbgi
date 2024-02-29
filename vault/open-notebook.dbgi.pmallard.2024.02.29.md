@@ -2,7 +2,7 @@
 id: 4qksss796vkfp7bbzzk37vq
 title: '2024-02-29'
 desc: ''
-updated: 1709201964239
+updated: 1709225802187
 created: 1709198350207
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -54,7 +54,7 @@ location /ws {
 
 This block tells NGINX to proxy all requests to the /ws location to the backend server. It also sets the Upgrade and Connection headers to upgrade the connection to a WebSocket connection.
 
-
+Strangely enough this blocked the cookies (on Firefox)
 
 ## Todo tomorrow, one day ... or never
 
@@ -65,4 +65,14 @@ This block tells NGINX to proxy all requests to the /ws location to the backend 
 
 ## Today I learned that
 
--
+- https://experiment.com/ is a platform for crowdfunding of Scientific project.
+
+We are thinking of mounting one of such project to fund Marco in the next 6 monthes and finalize the work on anticipated LOTUS.
+
+AI for Interspecies Communication https://experiment.com/programs/interspecies
+
+We also discovered about the https://www.earthspecies.org/
+
+
+
+
