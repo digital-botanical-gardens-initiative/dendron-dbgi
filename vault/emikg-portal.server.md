@@ -2,7 +2,7 @@
 id: 7r9ro0rp9ibbx76yl6n3c61
 title: Server
 desc: ''
-updated: 1709213633138
+updated: 1709281788221
 created: 1708590198521
 ---
 
@@ -99,9 +99,10 @@ Memory | Crucial Micron DDR5 RDIMM 64 Go 2Rx4 4800 * 4 | https://www.digitec.ch/
 
 Storage |Crucial T700 *3 | https://www.digitec.ch/fr/s1/product/crucial-t700-4000-go-m2-2280-ssd-35665192 | 1683
 
-Storage | Samsung 990 Pro * 3 | https://www.digitec.ch/fr/s1/product/samsung-990-pro-4000-go-m2-2280-ssd-37073751 | 882
+Storage | Samsung 990 Pro * 4 | https://www.digitec.ch/fr/s1/product/samsung-990-pro-4000-go-m2-2280-ssd-37073751 | 1176
 
-Storage | IronWolf Pro 6 TB 3.5" 7200 RPM Internal Hard Drive (x3, used in RAID5 for a total of 12TB of space, with 6TBs being used for the RAID5 itself) | https://www.digitec.ch/fr/s1/product/seagate-ironwolf-pro-high-wrl-6-to-35-cmr-disque-dur-21950873?supplier=406802&utm_source=google&utm_medium=cpc&utm_campaign=PROD_CH_PMAX_CSS_Cluster_8&campaignid=20496494580&adgroupid=&adid=&dgCidg=CjwKCAiA_tuuBhAUEiwAvxkgTmYN05ckW2I1YwTh_FuAlShvxV823shM3co1Ypa6HzIaSVGMdO4r6BoChx0QAvD_BwE&gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgTmYN05ckW2I1YwTh_FuAlShvxV823shM3co1Ypa6HzIaSVGMdO4r6BoChx0QAvD_BwE&gclsrc=aw.ds | 618
+Storage | IronWolf Pro 20 TB 3.5" 7200 RPM Internal Hard Drive (x3, used in RAID5 for a total of 40TB of space, with 20TBs being used for the RAID5 itself) | https://www.digitec.ch/fr/s1/product/seagate-ironwolf-pro-high-wrl-20-to-35-cmr-disque-dur-21950868 | 1212
+
 
 Total : 9292.72
 
