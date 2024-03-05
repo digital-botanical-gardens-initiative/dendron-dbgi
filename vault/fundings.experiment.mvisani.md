@@ -2,7 +2,7 @@
 id: 14dqmq8lyciwgrycpko080u
 title: Mvisani
 desc: ''
-updated: 1709226645414
+updated: 1709542546866
 created: 1709225084586
 ---
 
@@ -24,3 +24,6 @@ Here are some ideas for the title of the project:
 https://www.earthspecies.org/
 https://experiment.com/projects/jvqjplzolhyncosrbpob?s=discover
 
+
+# About This Project
+The Earth Metabolome Initiative (EMI) aims to characterize the chemical diversity of life on Earth. 
