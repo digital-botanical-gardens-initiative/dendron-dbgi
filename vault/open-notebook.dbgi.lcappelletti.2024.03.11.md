@@ -2,7 +2,7 @@
 id: 0dkbfv9jbivzty9qb2qfvv4
 title: '2024-03-11'
 desc: ''
-updated: 1710163060807
+updated: 1710163777694
 created: 1710162882890
 traitIds:
   - open-notebook-dbgi-lcappelletti
@@ -26,6 +26,8 @@ Today is 2024.03.11
 ## Paused
 
 ## Done
+
+* Briefly discussed with Marco regarding odd behaviour of the sketching features with new nodes.
 
 ## Notes
 
