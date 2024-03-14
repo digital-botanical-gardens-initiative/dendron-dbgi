@@ -2,7 +2,7 @@
 id: 7r9ro0rp9ibbx76yl6n3c61
 title: Server
 desc: ''
-updated: 1709281788221
+updated: 1710162593460
 created: 1708590198521
 ---
 
@@ -108,6 +108,8 @@ Total : 9292.72
 
 
 
+
+https://www.digitec.ch/fr/shoplist/show/8d42a76844e4084613438512445ecb2f
 
 
 
