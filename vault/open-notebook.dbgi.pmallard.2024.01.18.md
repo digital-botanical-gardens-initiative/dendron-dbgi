@@ -2,7 +2,7 @@
 id: xei3ys1nswrtl7el31zst88
 title: '2024-01-18'
 desc: ''
-updated: 1705577625846
+updated: 1710338546808
 created: 1705567454002
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -162,8 +162,8 @@ Rayon for parrelization
 
 ## Notes
 
-Adriano suggests using http://index.semanticscience.org/ see also https://github.com/vemonet/shapes-of-you to organize SPARQL queries. We should implement this for the enpkg repo.
-https://github.com/Adafede/sparql
+Adriano suggests using http://index.semanticscience.org/ see also https://github.com/vemonet/shapes-of-you to organize SPARQL queries. We should implement this for the enpkg repo. ^gtqcltnl9vto
+https://github.com/Adafede/sparql ^80vefrsejm29
 
 
 
