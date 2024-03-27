@@ -2,7 +2,7 @@
 id: 0hs8vm2942sdd1fr3rret7l
 title: issues
 desc: ''
-updated: 1711444023682
+updated: 1711530299058
 created: 1711443573246
 ---
 
@@ -45,6 +45,8 @@ If that doesn't work, add the original name to the description or as a comment a
 Search for your taxon's parent taxon in the header search on our website. For example, if I want to want to add Crotalus exampleus to iNaturalist, I would search for Crotalus in the search box and click "About" next to it.
 This will take you to the taxon's page. Click on the Curation menu (under the graphs on the right) and select "Flag for Curation".
 Write a short note about the taxon you would like to add and please link to a source. If you have a lot of information you think is important, or a large body of text, please put it in the comments of your newly created flag, rather than adding it to the reason for flagging. Our site curators will see it and take a look as soon as possible.
+
+Here we worked on https://www.inaturalist.org/flags/655470
 
 
 
