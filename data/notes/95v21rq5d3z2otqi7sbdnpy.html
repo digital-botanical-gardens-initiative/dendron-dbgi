@@ -1,0 +1,113 @@
+<h1 id="2024-02-27">2024-02-27<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-27"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.27</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<ul>
+<li>Meeting with Disha</li>
+</ul>
+<p>25 traits downloaded from TryDB</p>
+<ul>
+<li>Write a SPARQL query to get all species from the ENPKG</li>
+</ul>
+<p>Work on the ENPKG as a example dataset</p>
+<p>PREFIX enpkg: <a href="https://enpkg.commons-lab.org/kg/">https://enpkg.commons-lab.org/kg/</a></p>
+<p>SELECT DISTINCT ?raw_material ?submitted_taxon ?wd_taxon_id WHERE {
+?raw_material a enpkg:RawMaterial ;
+enpkg:submitted_taxon ?submitted_taxon ;
+enpkg:has_wd_id ?wd_taxon_id .
+}</p>
+<p><a href="https://query.wikidata.org/">https://query.wikidata.org/</a></p>
+<p>PREFIX enpkg: <a href="https://enpkg.commons-lab.org/kg/">https://enpkg.commons-lab.org/kg/</a>
+PREFIX wd: <a href="http://www.wikidata.org/entity/">http://www.wikidata.org/entity/</a>
+PREFIX rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>
+PREFIX wdt: <a href="http://www.wikidata.org/prop/direct/">http://www.wikidata.org/prop/direct/</a>  </p>
+<p>SELECT DISTINCT ?raw_material ?submitted_taxon ?wd_taxon_id ?family WHERE {
+?raw_material a enpkg:RawMaterial ;
+enpkg:submitted_taxon ?submitted_taxon ;
+enpkg:has_wd_id ?wd_taxon_id .</p>
+<pre><code>    # Outer query to fetch species names from Wikidata
+# Fetching taxonomic information from Wikidata
+SERVICE &#x3C;https://query.wikidata.org/sparql> {
+    ?wd_taxon_id wdt:P225 ?species_name .
+    OPTIONAL {
+        ?family wdt:P31 wd:Q16521 ;
+                wdt:P105 wd:Q35409 ;
+                wdt:P225 ?family_name ;
+                ^wdt:P171* ?wd_taxon_id .
+    }
+</code></pre>
+<p>}
+} LIMIT 10</p>
+<p>PREFIX enpkg: <a href="https://enpkg.commons-lab.org/kg/">https://enpkg.commons-lab.org/kg/</a>
+PREFIX wd: <a href="http://www.wikidata.org/entity/">http://www.wikidata.org/entity/</a>
+PREFIX rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>
+PREFIX wdt: <a href="http://www.wikidata.org/prop/direct/">http://www.wikidata.org/prop/direct/</a>  </p>
+<p>SELECT DISTINCT ?submitted_taxon ?wd_taxon_id ?ncbi_id ?otl_id WHERE {
+?raw_material a enpkg:RawMaterial ;
+enpkg:submitted_taxon ?submitted_taxon ;
+enpkg:has_wd_id ?wd_taxon_id .</p>
+<pre><code># Outer query to fetch external identifiers from Wikidata
+# Fetching taxonomic information from Wikidata
+SERVICE &#x3C;https://query.wikidata.org/sparql> {
+    OPTIONAL {
+            ?wd_taxon_id wdt:P685 ?ncbi_id ;
+                         wdt:P9157 ?otl_id .
+    }
+</code></pre>
+<p>}
+}</p>
+<p>We now try to fetch all plant parts in the ENPKG</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a> summary: External identifiers form ENPKG biosources
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a> description: List all RawMaterial treated in the ENPKG, fetch their wd_id and then run a federated query to look for external identifiers (in this case NCBI and OTL ids)
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a> endpoint: <a href="https://enpkg.commons-lab.org/graphdb/sparql">https://enpkg.commons-lab.org/graphdb/sparql</a>
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a> tags:
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a>   - ENPKG
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a>   - Natural products
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#+ (Private)</a>   - Taxonomy</p>
+<p>PREFIX enpkg: <a href="https://enpkg.commons-lab.org/kg/">https://enpkg.commons-lab.org/kg/</a>
+PREFIX wd: <a href="http://www.wikidata.org/entity/">http://www.wikidata.org/entity/</a>
+PREFIX rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>
+PREFIX wdt: <a href="http://www.wikidata.org/prop/direct/">http://www.wikidata.org/prop/direct/</a><br>
+PREFIX enpkgmodule: <a href="https://enpkg.commons-lab.org/module/">https://enpkg.commons-lab.org/module/</a></p>
+<p>SELECT ?raw_material ?submitted_taxon ?wd_taxon_id ?organ ?broad_organ ?tissue ?subsystem WHERE {
+?raw_material a enpkg:RawMaterial .
+OPTIONAL{
+?raw_material    enpkg:submitted_taxon ?submitted_taxon . }
+OPTIONAL{
+enpkg:has_wd_id ?wd_taxon_id . }
+OPTIONAL{
+enpkgmodule:has_organe ?organ . }
+OPTIONAL{
+enpkgmodule:has_broad_organe ?broad_organ . }
+OPTIONAL{
+enpkgmodule:has_tissue ?tissue . }
+OPTIONAL{
+enpkgmodule:has_subsystem ?subsystem .
+}
+}</p>
+<p>Match the TRY6 data</p>
+<p>"Translate" the ENPKG schema in plain words</p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h3 id="established-panel-for-the-botanical-gardens">Established panel for the botanical Gardens<a aria-hidden="true" class="anchor-heading icon-link" href="#established-panel-for-the-botanical-gardens"></a></h3>
+<p>Nous connaissons actuellement moins de 0,01% des molécules produites par les organismes vivants et l'exploration de la diversité chimique n'en est qu'à ses débuts. Cependant, les récents développements technologiques accélèrent la cartographie de la diversité chimique, notamment grâce aux progrès de la spectrométrie de masse, de la bioinformatique et de la métabolomique.</p>
+<p>Dans ce contexte, le projet de recherche Earth Metabolome Initiative (<a href="http://www.earthmetabolome.org">www.earthmetabolome.org</a>) initié par les Universités de Neuchâtel et de Fribourg, vise à cartographier de manière exhaustive la diversité des molécules contenues dans tous les organismes vivants de notre planète. Les Jardins botaniques de Neuchâtel et de Fribourg collaborent activement aux premières étapes de ce projet en mettant à disposition l'ensemble de leurs collections vivantes pour des analyses dans le cadre de la phase pilote du projet, ce qui constitue la Digital Botanical Gardens Initiative (<a href="http://www.dbgi.org">www.dbgi.org</a>).</p>
+<p>Dans le cadre d'une démarche d'Open Science (science ouverte) et afin de contribuer au mieux aux domaines appliqués tel que la découverte de nouveaux médicaments, l'agroécologie ou la conservation de la biodiversité, l'ensemble des données collectées seront mises à disposition de tous, librement. </p>
+<p>Ces données représentent une ressource inestimable et d’accès facilité non seulement pour la recherche académique publique, mais aussi pour certaines industries ouvrant ainsi la porte à de possibles nouveaux brevets. Afin d’éviter certaines des dérives observées par le passé, la traçabilité de l’origine géographique de chacune de ces nouvelles molécules sera systématiquement établie et publiée. Ceci devrait permettre de renforcer la mise en application du protocole de Nagoya. Cependant, il est difficile d’anticiper si une telle démarche sera suffisante pour assurer une protection solide des droits liés aux connaissances traditionnelles et assurer une juste répartition des bénéfices associés à la commercialisation de ressources naturelles. Un des volets de ce projet consiste donc en une étude juridique afin d'évaluer les avantages et les risques d’une telle approche.</p>
+<p>La question qui vous est posée aujourd'hui : </p>
+<p>“Pensez que le partage libre et ouvert de données relatives à la chimie du vivant sera bénéfique ou non pour la biodiversité et la société humaine dans son ensemble ?”</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow-one-day--or-never">Todo tomorrow, one day ... or never<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow-one-day--or-never"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

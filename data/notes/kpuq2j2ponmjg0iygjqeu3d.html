@@ -1,0 +1,23 @@
+<h1 id="2024-01-15">2024-01-15<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-01-15"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<h2 id="how-to-manually-update-the-https-certificates">How to manually update the HTTPS certificates<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-manually-update-the-https-certificates"></a></h2>
+<p>Due to the current limitations in automating the renovation of the <a href="https://certbot.eff.org/">Certbot certificate renewal</a> caused by the <a href="https://community.letsencrypt.org/t/palo-alto-firewall-users-with-failing-http-01-challenges-enable-acme-protocol/177600">Palo Alto Firewall</a> we are currently forced to manually update the certificates.</p>
+<p>Specifically, we first need to optain the updated certificates from the <a href="https://certbot.eff.org/">Certbot</a> service, which will require us to update the DNS records of the <a href="https://kg.earthmetabolome.org">kg.earthmetabolome.org</a> domain. Once the DNS points to a server outside of the firewall controlled network, we can run the certbot standalone certificates update in order to obtain the updated certificates. Once the certificates are obtained, we can then update the DNS records to point back to the firewall controlled network.</p>
+<p>Now, we need to upload the new certificates to the server within the firewall controlled network. If you are not currently connected within the university of Fribourg network, recall to connect to the VPN service. If you do not have yet access to the VPN service, please contact the IT service of the university of Fribourg.</p>
+<p>Once you are now connected to the server, run the following commands to find the current position of the certificates:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">cat</span> /etc/nginx/nginx.conf
+</code></pre>
+<p>The output should be something like:</p>
+<pre class="language-bash"><code class="language-bash">ssl_certificate /etc/letsencrypt/live/kg.earthmetabolome.org/fullchain.pem<span class="token punctuation">;</span>
+ssl_certificate_key /etc/letsencrypt/live/kg.earthmetabolome.org/privkey.pem<span class="token punctuation">;</span>
+</code></pre>
+<p>Now, we need to replace the certificates with the new ones. To do so, we need to copy the new certificates to the server. To do so, we can use the following command:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">scp</span> -r /path/to/certificates/ user@server:.
+</code></pre>
+<p>And then we copy the new certificates to the correct location:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">cp</span> ~/*.pem /etc/letsencrypt/live/kg.earthmetabolome.org/
+</code></pre>
+<p>Finally, we need to restart the nginx service:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> systemctl restart nginx
+</code></pre>
+<p>Now you can verify that the certificates have been updated by visiting the <a href="https://kg.earthmetabolome.org">kg.earthmetabolome.org</a> website, and checking the HTTPS certificate information.</p>
