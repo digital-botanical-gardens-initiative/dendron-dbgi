@@ -2,7 +2,7 @@
 id: 165zhtrhauww30lf9dbp8fa
 title: Ressources
 desc: ''
-updated: 1670342871713
+updated: 1711443414189
 created: 1648461376735
 ---
 
@@ -19,3 +19,15 @@ https://www.idigbio.org/
 
 
 https://www.biodiversity-exploratories.de/en/
+
+
+Website to check names https://verifier.globalnames.org/
+
+
+https://globalnames.org/
+
+
+
+It works with OpenRefine ! https://github.com/gnames/gnverifier/wiki/OpenRefine-readme
+
+

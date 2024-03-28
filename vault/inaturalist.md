@@ -8,7 +8,7 @@ created: 1657174218999
 
 We use [iNaturalist](https://www.inaturalist.org/home) to track the selected specimens in the DBGI.
 
-See [[Bachelor-Work-2022.methodology.inaturalist.md]] for some details worked on during Edouard's bachelor.
+See [[Bachelor-Works.2022.methodology.inaturalist]] for some details worked on during Edouard's bachelor.
 
 
 We had issues to fetch back all observation of a project through [pyinaturalist](https://github.com/pyinat/pyinaturalist), notably because of obscured geolocalisation for some protected species.
