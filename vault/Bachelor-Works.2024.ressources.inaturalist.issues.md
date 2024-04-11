@@ -2,11 +2,11 @@
 id: 0hs8vm2942sdd1fr3rret7l
 title: issues
 desc: ''
-updated: 1712650822712
+updated: 1712820308731
 created: 1711443573246
 ---
 
-
+** inat use https://powo.science.kew.org/ **
 
 The original species name (from the UniFR Botanical Gardens) is not always recognized by iNat.
 
