@@ -2,7 +2,7 @@
 id: ig41sdi15e6x9f1o8zaeqwu
 title: '2024-04-15'
 desc: ''
-updated: 1713168484367
+updated: 1713203654590
 created: 1713166208351
 traitIds:
   - open-notebook-dbgi-dtandon
@@ -36,7 +36,7 @@ c) Data literacy sounds great, but the implementation is tricky and needs effort
 
 ## Todo tomorrow or soon
 
-1. #SciComm Meeting with Philip from Science-et-cite went ok. He said to pursue the video idea (interview with PIs and junior researchers, pseudoscience??). Gave contacts for people who can help with making videos. 
+1. #SciComm Philipp gave contacts for people who can help with making videos. 
 
 From Philip:
 
@@ -54,7 +54,7 @@ https://www.science-studios.ch/
 4. #SciComm Build a graphical overview of the two ideas discussed with Manuela.
 
 ## Today I learned that
-
+1. Ontop with duckdb https://www.linkedin.com/pulse/scaling-sparql-querying-billion-observations-ontop-duckdb-gschwend-myghf/
 
 ## Paused
 
