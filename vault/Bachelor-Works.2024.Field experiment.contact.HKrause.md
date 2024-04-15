@@ -2,7 +2,7 @@
 id: c79p86rclk342ptr5jindkh
 title: HKraus
 desc: ''
-updated: 1713190061212
+updated: 1713192608352
 created: 1712650640193
 ---
 
@@ -40,3 +40,5 @@ Experiment :
     * second traitement : mesofauna of soil : belese extractor
     * third : 1m^2 taking all the different plant --> doing mass spect for the EMI and then see paires of plantes 
     * 4th extraction of soil 
+
+
