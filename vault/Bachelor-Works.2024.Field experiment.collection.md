@@ -2,7 +2,7 @@
 id: xrqpfbvtzmunmltt436j00e
 title: collection
 desc: ''
-updated: 1713255757603
+updated: 1713256540661
 created: 1713191700761
 ---
 # Collection at the DOK 
@@ -31,5 +31,8 @@ Mode of transportation : EcoBus (reserved for the day)
 * measuring tape
 * big boxes 
 * _1/pers_ Ethanol 
+* sardines
+* Rope / string 
+* External battery 
 
 
