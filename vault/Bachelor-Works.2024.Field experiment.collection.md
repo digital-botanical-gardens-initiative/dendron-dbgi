@@ -2,7 +2,7 @@
 id: xrqpfbvtzmunmltt436j00e
 title: collection
 desc: ''
-updated: 1713193740678
+updated: 1713255757603
 created: 1713191700761
 ---
 # Collection at the DOK 
@@ -29,5 +29,7 @@ Mode of transportation : EcoBus (reserved for the day)
 * Thermos for the liquid nitrogen
 * Showels 
 * measuring tape
-* 
+* big boxes 
+* _1/pers_ Ethanol 
+
 
