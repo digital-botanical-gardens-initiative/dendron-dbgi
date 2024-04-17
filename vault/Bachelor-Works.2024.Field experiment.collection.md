@@ -2,7 +2,7 @@
 id: xrqpfbvtzmunmltt436j00e
 title: collection
 desc: ''
-updated: 1713256540661
+updated: 1713338061236
 created: 1713191700761
 ---
 # Collection at the DOK 
@@ -27,12 +27,17 @@ Mode of transportation : EcoBus (reserved for the day)
 * gloves (each size)
 * _XX_ liquid nitrogen
 * Thermos for the liquid nitrogen
-* Showels 
+* Shovels 
 * measuring tape
 * big boxes 
 * _1/pers_ Ethanol 
 * sardines
 * Rope / string 
-* External battery 
+* External battery with cables for each type of device
+* Indicator arrows
+* Coffee filter
+* scissors
+* Sharp knife 
+* Soil corer 
 
 
