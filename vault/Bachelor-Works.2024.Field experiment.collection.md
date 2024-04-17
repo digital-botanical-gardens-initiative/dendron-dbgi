@@ -2,7 +2,7 @@
 id: xrqpfbvtzmunmltt436j00e
 title: collection
 desc: ''
-updated: 1713338061236
+updated: 1713345445729
 created: 1713191700761
 ---
 # Collection at the DOK 
@@ -16,11 +16,10 @@ Mode of transportation : EcoBus (reserved for the day)
 
 **Equipment list**
 
-* _XX_ Falcon tubes with label 
-* _XX_ Falcon tubes (reserve without label) 
-* _XX_ Label (reserve) 
-* _8_ Terracotta pot to maintain soil mesofauna 
-* _8_ big zip lock bag 
+* _80_ Falcon tubes with label 
+* _80_ Falcon tubes (reserve without label) 
+* _80_ Label (reserve) 
+* _16_ big zip lock bag 
 * _1_ Wooden frame 1m^2 
 * _1/pers_ tablet / smartphone with the application 
 * _1/pers_ scalpel + a spare in case
@@ -31,7 +30,7 @@ Mode of transportation : EcoBus (reserved for the day)
 * measuring tape
 * big boxes 
 * _1/pers_ Ethanol 
-* sardines
+* sardines 
 * Rope / string 
 * External battery with cables for each type of device
 * Indicator arrows
