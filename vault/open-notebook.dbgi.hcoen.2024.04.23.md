@@ -2,7 +2,7 @@
 id: 1ok08wq22ono0f15ij991it
 title: '2024-04-23'
 desc: ''
-updated: 1713856423819
+updated: 1713862299664
 created: 1713856338089
 traitIds:
   - open-notebook-dbgi-hcoen
@@ -19,6 +19,13 @@ Transfert the point from the tablette to the smartphone. Megafauna observation a
 Waiting for the application to be updated for fibl observation
 # To do 
 Extraction
+
+Writing : 
+* megafauna extraction methodology : complete the methodology (amount of dry individual, quantity of extraction mix...)
+* 20x20 crushed : extraction methodology 
+* mesofauna : add image of berlese 
+* mesofauna : complete extraction processe after the berlese
+
 # Perspectives
 
 # Notes
