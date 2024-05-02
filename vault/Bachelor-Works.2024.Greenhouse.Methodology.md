@@ -2,15 +2,15 @@
 id: 4evk2eobrhbx4fkyjw1wene
 title: Methodology
 desc: ''
-updated: 1712852826294
+updated: 1714652367871
 created: 1712650726429
 ---
 
-# Situation 
+## Situation 
 For this part of the Digital Botanical Garden Initiative the Tropical greenhouse will be collected. This tropical greenhouse is located in the botanical garden of Fribourg and contained about 280 tropical plant species with no specific taxonomic or provenance links. This area contains aquatic, epiphytic, terrestrial and others. 
 
 
-# Collection
+## Collection
 The collection method consists of cutting one or several leaves (depending on the size), wrap them in a coffee filter and put them in a falcon tube. Each falcon tube is  pre-labelled with a unique code assigned to the extract and use as an identifer throughout the experiments. 
 the tube are then store in liquid nitrogen and finally put in the freezer (-80°C) if they are not freeze-dried immediatly. Each collected plant, will be report as a point on a qfield map, with several additional data such as the precise locatation, identification of the plant if possible and minimum five photos. These photos show : 
 1) The plant identification pannel
@@ -22,7 +22,7 @@ the tube are then store in liquid nitrogen and finally put in the freezer (-80°
 
 These photos are then upload on iNaturalist for checking the identification of the plant. This provides a check by external experts and enables us to correct our identifications if necessary. It also benefits iNaturalist, as some plants not included in the database have been added. 
 
-# Extraction 
+## Extraction 
 All plant extracts are freeze-dried and store in a container. 
 
 The first step is to weigh out 50 micrograms of each extract and place it in an eppendorf 2ml with rounded bottom. We accepted an 5% of the weight as an error (±2.5 micrograms). Then add thee metal beads (4mm) inside the tube which will be used to crush the extracts.
@@ -36,8 +36,9 @@ Finally, the supernatant is collected and pipetted into a vials tube with hermet
 
 ![Vials tube](image-5.png){max-width : 600px, display: block, margin: 0 auto}*Figure 1 : Vials tube containing extracts of various plants from the tropical greenhouse.*
 
-# Sample Tracking 
+## Analyse
+Some aliquots are made with the vial tubes with 120 microliter of the plant extract. These aliquots are analyzed by liquid chromatography mass spectrometry. So that the molecules are separed by their weight.
+
+## Sample Tracking 
 Because of the large number of samples, it is important to have reliable sample tracking. As said before, as soon as the samples are collected, each plant is assigned a unique code. This code will follow the plant through each stage of extraction, analysis and storage. This unique code will be report on each different tube during the extraction process and all data relating to this sample are added to the database.
 By consulting this database, we can quickly find out which plant has already been extracted, how many times it has been extracted, the exact weight that have been extracted and in which container the various tubes are stored. The whole process is automated, and the database automatically updated. 
-
-# Analyse
