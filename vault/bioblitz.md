@@ -2,7 +2,7 @@
 id: wz5g4xn6pp8ydojxns1pfcc
 title: Bioblitz
 desc: ''
-updated: 1715068439041
+updated: 1715069231974
 created: 1715068408832
 ---
 
@@ -10,7 +10,7 @@ created: 1715068408832
 ### Vinesh map
 
 
-![alt text](image-7.png)
+![alt text](/assets/images/image-7.png)
 
 (From Donat)
 
@@ -24,4 +24,3 @@ B Bus stop Stundhus (Bus Visp – Saas Fee)
  
 Red
 Access by car. Access is through the gravel pit. The junction (J)  branches off on the left side of the street!
-
