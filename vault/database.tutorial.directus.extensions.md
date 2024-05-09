@@ -2,7 +2,7 @@
 id: fy6l4ix3kbue7gs8ys6oor3
 title: Extension
 desc: ''
-updated: 1715246176227
+updated: 1715246203643
 created: 1715243770418
 ---
 
@@ -71,4 +71,9 @@ docker compose up -d
 
 Yay !!
 ![](/assets/images/2024-05-09-11-11-49.png)
+
+
+Now renders 
+
+![](/assets/images/2024-05-09-11-16-38.png)
 
