@@ -2,7 +2,7 @@
 id: wz5g4xn6pp8ydojxns1pfcc
 title: Bioblitz
 desc: ''
-updated: 1716133190448
+updated: 1716133600517
 created: 1715068408832
 ---
 
@@ -28,6 +28,8 @@ Prepare my stuff (see [[bioblitz.checklist]]), and make sure to have all the nec
 Install the following (check with Edouard/Luca and make a list of the software and logins to create)
 Check with Edouard and make sure that everyone has its collection layer on QGis
 Ask Donat how is the internet connection over there 
+
+https://github.com/orgs/digital-botanical-gardens-initiative/projects/2
 
 
 ### What to bring ?
