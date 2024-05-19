@@ -2,11 +2,11 @@
 id: wz5g4xn6pp8ydojxns1pfcc
 title: Bioblitz
 desc: ''
-updated: 1715092121437
+updated: 1716133190448
 created: 1715068408832
 ---
 
-### Overview
+## Overview
 
 The idea would be to have a hands-on session so that all of us could observe, test and eventually modify and improve our current workflow - "from the plant to the graph".
 This would happen in two stages, the first one in the field, the second one in the lab.
@@ -19,9 +19,47 @@ This would allow all of us to have a clear overview + a hands on experience of t
 
 We would like to fully document the two stages of our experiment here and issue a publication type "From the field to the graph: an open resource documenting the metabolome of XXX species established in XX days, by XX persons". Furthermore we might have a skilled and professional cameraman (Christian in cc.) to document the whole process and produce a short movie !
 
+## Organization 
 
-### Vinesh map
+### What should I do prior to the event ?
 
+Prepare my stuff (see [[bioblitz.checklist]]), and make sure to have all the necessary equipment for the field trip.
+
+Install the following (check with Edouard/Luca and make a list of the software and logins to create)
+Check with Edouard and make sure that everyone has its collection layer on QGis
+Ask Donat how is the internet connection over there 
+
+
+### What to bring ?
+
+Checklist, see [[bioblitz.checklist]]
+
+
+## Resources
+
+
+### Vinesch iNaturalist page 
+
+https://www.inaturalist.org/projects/vinesch
+
+### Vinesch web page
+
+https://vinesch.ch/
+
+
+### How to get there ?
+
+Note that in both cases, the vineyard is only accessible by foot. 
+This is a 20-30 min walk from the parking lot.
+We will have stuff to carry up there, bring good shoes and a backpack !
+
+### For those who come by train
+
+Join Visp train station https://maps.app.goo.gl/VVKXW2JpyNxmeWgc8 
+From there, we will organize a shuttle to the vineyard.
+
+
+### For those who come by car
 
 ![alt text](/assets/images/image-7.png)
 
@@ -37,3 +75,11 @@ B Bus stop Stundhus (Bus Visp – Saas Fee)
  
 Red
 Access by car. Access is through the gravel pit. The junction (J)  branches off on the left side of the street!
+
+
+
+
+
+
+
+
