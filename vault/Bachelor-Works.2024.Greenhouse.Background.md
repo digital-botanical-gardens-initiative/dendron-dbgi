@@ -2,10 +2,10 @@
 id: cv95ld7dw1kw538z4npt1ih
 title: Background
 desc: ''
-updated: 1712652752276
+updated: 1715422780632
 created: 1712650718230
 ---
-# Earth Metabolom Initiative
+# Earth Metabolome Initiative
 The Earth Metabolom Initivative is a large scale project to catalogue the metabolome of all organisms on the planet Earth. Ultimaly, this will create a library accessible to all, enabling targeted research and protection of certain organisms and metabolomites. These data will enable us to observe the chemodiversity of specific locations and thus add chemical arguments to environmental protection.
 
 # Digital Botanical Garden Initiative
