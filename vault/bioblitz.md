@@ -2,7 +2,7 @@
 id: wz5g4xn6pp8ydojxns1pfcc
 title: Bioblitz
 desc: ''
-updated: 1716133600517
+updated: 1716297580089
 created: 1715068408832
 ---
 
@@ -48,6 +48,12 @@ https://www.inaturalist.org/projects/vinesch
 
 https://vinesch.ch/
 
+
+## When  ?
+
+Saturday 8th June (day and night)
+
+## Where ?
 
 ### How to get there ?
 
