@@ -2,7 +2,7 @@
 id: v75w6ha9nyvbrxvi45wwdpv
 title: Methode02 Mesofauna and Megafauna extraction
 desc: ''
-updated: 1716289017028
+updated: 1716289125174
 created: 1713190242031
 ---
 
@@ -19,7 +19,7 @@ A place is randomly chose in the side row of the 5m x 20m plot. To limit the cro
 #### Berlese
 First of all, the block of earth is gently disassembled by hand. The megafauna is set aside. Each individual is placed in a pre-labelled falcon tube and an individual observation is added to qfield (located where the soil was taken). The observation is done exactly the same as the observation of plants. Photos are taken, localisation, and, if known, the species name (If not, "unknow" will be filled in the box). 
 
-The megafauna falcon tubes are store in the -80°C and then dry-freezed during 72 hours. ... 
+The megafauna falcon tubes are store in the -80°C and then dry-freezed during 72 hours. Those specimens will then be extracted with the dbgi process. 
 
 The mesofauna is extracted by the berlese extractor. The soil is placed in a sieve and gently compacted. The sieve is placed over a funnel and a container of ethanol is placed directly underneath. A bulb that heats up is placed above the earth and this heat dries the soil from above. The mesofauna try to escape the heat and drought by escaping from below, eventually falling into the ethanol. 
 
