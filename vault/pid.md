@@ -2,7 +2,7 @@
 id: 6c37mounk3i96bftncrvr29
 title: Pid
 desc: ''
-updated: 1710696984552
+updated: 1716377633999
 created: 1710695963125
 ---
 
@@ -40,7 +40,7 @@ IGSN IDs may be registered for all material samples from any research domain. In
 These three types of use cases (collections, features-of-interest, and ephemeral samples) should cover the majority of physical samples in the frame of DBGI/EMI.
 
 
-Sandbox at https://doi.test.datacite.org/
+Sandbox at https://doi.test.datacite.org/ (credentials available on request)
 
 
 Organization Fee
