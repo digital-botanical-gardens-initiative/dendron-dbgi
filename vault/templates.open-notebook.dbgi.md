@@ -2,7 +2,7 @@
 id: b51e1k7qbe6jj1quhxnag04
 title: Dbgi
 desc: ''
-updated: 1673608466305
+updated: 1716442613073
 created: 1667483368106
 ---
 
@@ -12,7 +12,7 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 
 ## Todo today
 
-### Have a look at the DBGI discussion forum
+### Have a look at the DBGI projects dashboard
     - https://github.com/orgs/digital-botanical-gardens-initiative/discussions
 
 ###
@@ -26,7 +26,7 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 
 ## Notes
 
-## Todo tomorrow
+## Todo 
 
 ###
 ###
