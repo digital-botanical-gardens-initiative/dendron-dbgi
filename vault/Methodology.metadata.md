@@ -2,7 +2,7 @@
 id: g9o88ewzmt71l13xi7bcwf9
 title: metadata
 desc: ''
-updated: 1716282039201
+updated: 1716453796136
 created: 1688888133840
 ---
 
@@ -26,3 +26,8 @@ https://github.com/kindly/flatterer
 
 
 https://av.tib.eu/media/53341
+
+
+
+https://www.researchobject.org/ro-crate/ (investigated by Henry and Rostyk at SIS)
+

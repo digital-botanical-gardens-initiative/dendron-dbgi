@@ -2,7 +2,7 @@
 id: r1al025p6bsylkky0x789h0
 title: '2024-05-23'
 desc: ''
-updated: 1716442852510
+updated: 1716453742724
 created: 1716442112033
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -31,6 +31,14 @@ Created GH project for WP2 Sample Tracking https://github.com/orgs/digital-botan
 Could you check [[welcome]] ? Did you have any questions ?
 
 Could you check [[open-notebook.dbgi.setup]] ? Did you have any questions ?
+
+
+Henry mention note taking internally using Confluence 
+
+https://www.researchobject.org/ro-crate/
+
+https://arks.org/
+
 
 
 
