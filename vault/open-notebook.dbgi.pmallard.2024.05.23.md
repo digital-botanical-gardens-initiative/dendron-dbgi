@@ -2,7 +2,7 @@
 id: r1al025p6bsylkky0x789h0
 title: '2024-05-23'
 desc: ''
-updated: 1716442835617
+updated: 1716442852510
 created: 1716442112033
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -26,7 +26,6 @@ Setting up daily notes traits for Rostyslav.
 Copying templates
 
 Created GH project for WP2 Sample Tracking https://github.com/orgs/digital-botanical-gardens-initiative/projects/3
-
 
 
 Could you check [[welcome]] ? Did you have any questions ?
