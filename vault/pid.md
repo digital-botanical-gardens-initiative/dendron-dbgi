@@ -2,7 +2,7 @@
 id: 6c37mounk3i96bftncrvr29
 title: Pid
 desc: ''
-updated: 1716377633999
+updated: 1716905522794
 created: 1710695963125
 ---
 
@@ -48,3 +48,13 @@ The organization fee for non-profit organizations is 500€ per year. This fee i
 
 👉 another reason to have a non-profit organization
 
+
+## DiSSCo
+- Distributed System of Scientific Collections, [DiSSCo](https://www.dissco.eu/)
+- a new world-class Research Infrastructure (RI) for Natural Science Collections
+- As of June 2024, is in transition phase to becoming a European Research Infrastructure Consortium (ERIC)
+- The final Construction Phase of the Research Infrastructure is foreseen in 2025
+- List of national nodes contacts: https://www.dissco.eu/contact/
+  - For CH: Alice Cibois, Muséum d’histoire naturelle de la Ville de Genève, alice.cibois@ville-ge.ch
+- Publication on PID schemes for DiSSCo: https://riojournal.com/article/67379/
+  - *"DiSSCo will adopt a ‘driven-by DOI’ persistent identifier (PID) scheme customised with natural sciences community characteristics. Establishing a new Registration Agency in collaboration with the International DOI Foundation is a practical way forward to support the FAIR (findable, accessible interoperable, reusable) data architecture of DiSSCo research infrastructure."*
