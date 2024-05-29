@@ -2,7 +2,7 @@
 id: 6c37mounk3i96bftncrvr29
 title: Pid
 desc: ''
-updated: 1716905522794
+updated: 1716966556534
 created: 1710695963125
 ---
 
@@ -55,6 +55,13 @@ The organization fee for non-profit organizations is 500€ per year. This fee i
 - As of June 2024, is in transition phase to becoming a European Research Infrastructure Consortium (ERIC)
 - The final Construction Phase of the Research Infrastructure is foreseen in 2025
 - List of national nodes contacts: https://www.dissco.eu/contact/
-  - For CH: Alice Cibois, Muséum d’histoire naturelle de la Ville de Genève, alice.cibois@ville-ge.ch
+  - For CH: [Alice Cibois](https://museumlab-geneve.ch/auteurs/alice-cibois/), Muséum d’histoire naturelle de la Ville de Genève
 - Publication on PID schemes for DiSSCo: https://riojournal.com/article/67379/
   - *"DiSSCo will adopt a ‘driven-by DOI’ persistent identifier (PID) scheme customised with natural sciences community characteristics. Establishing a new Registration Agency in collaboration with the International DOI Foundation is a practical way forward to support the FAIR (findable, accessible interoperable, reusable) data architecture of DiSSCo research infrastructure."*
+
+## CETAF
+- [CETAF](https://cetaf.org/) is a consortium of European taxonomic facilities
+- There is some relation to DiSSCo, see https://cetaf.org/template-activities/cetaf-projects/dissco-research-infrastructure-2/
+- CETAF has also worked on [best practices](https://cetaf.org/resources/best-practices/) regarding stable identifiers
+  - [Poster](https://www.cetaf.org/wp-content/uploads/CETAF-stable-identifiers-for-specimens-poster.pdf)
+  - But Wiki link seems to be broken and the [code repository](https://sourceforge.net/projects/stablecollectionidentifiers/) on Sourceforge has been last updated in Feb. 2017
