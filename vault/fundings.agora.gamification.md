@@ -2,7 +2,7 @@
 id: 1440p8izi9pptzhgk1lfd57
 title: Gamification
 desc: ''
-updated: 1717056452210
+updated: 1717056521958
 created: 1717055986287
 ---
 ## Resources
@@ -29,6 +29,27 @@ https://doi.org/10.1111/conl.12113
 ### Gamified Citizen Science: A Study of Expert Users in the Field of Biodiversity
 https://www.diva-portal.org/smash/get/diva2:1449975/fulltext01.pdf
 
+In previous research, researchers have looked into different
+gamified applications of citizen science such as fold.it,
+Zooniverse and Happy Moths. However, the users and
+participants of these studies are often on different skill
+levels, or beginners in the field. In this study, 10 expert
+users who submit their findings of species to
+Artdatabanken, an organisation that works in the field of
+biodiversity, were interviewed to find out their motivations
+for reporting their findings. This was done with the goal of
+finding what type of gamification that might suit these
+expert users to increase the quality of the data submitted
+through Artportalen, together with any obstacles that might
+hinder it. Through a latent thematic analysis and comparing
+the themes to Bartle’s Taxonomy of Players, the results
+show that these users were mainly of the types ‘achiever’
+and ‘socialiser’. The answers were also compared to the
+theory of intrinsic and extrinsic motivation, which showed
+that the users are mainly reporting because of extrinsic
+motivation. While this supports the implementation of
+gamification there were things that would rather be solved
+by increasing usability.
 
 ### Gaming for the Environment: How Games are Modernizing Conservation
 https://curiositysavestheplanet.com/gaming-for-the-environment-how-gamification-is-modernizing-conservation/
