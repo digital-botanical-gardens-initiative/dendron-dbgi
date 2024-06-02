@@ -2,7 +2,7 @@
 id: 5a2co0kd5mt4fg0t9fbfpx1
 title: '2024-05-30'
 desc: ''
-updated: 1717058529075
+updated: 1717070564731
 created: 1717056650296
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -45,7 +45,24 @@ https://github.com/OneZoom/OZtree
 
 Idea: establish a mirror of the OneZoom tree but for Molecules
 
+#### SwissCollNet
 
+- https://swisscollnet.scnat.ch/fr
+
+
+Michael Greef
+Reto Nyffeler
+Sabine Bavamian BBMRI https://www.bbmri-eric.eu/
+Donat Agosti
+Michell Price
+Alice Cibois
+Matthieu Perret https://www.cjbg.ch/propos/annuaire/mathieu-perret
+Barbara König
+
+Working on the RoadMap
+Deadline 4th June
+
+Working doc https://docs.google.com/presentation/d/1xCqwK7-21QjsvgPvj9F3IXja9KHBnLOXLHqsiUNgJqk/edit#slide=id.p1
 
 
 
