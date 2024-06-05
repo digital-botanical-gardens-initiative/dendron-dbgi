@@ -2,11 +2,39 @@
 id: b7e4siv7m4n6bondte8ovob
 title: Checklist
 desc: ''
+<<<<<<< HEAD
 updated: 1717579045860
+=======
+updated: 1717596661509
+>>>>>>> c55ceb2e2 (Dendron workspace sync)
 created: 1716131828594
 ---
 
+
+## For everybody
+
+### Suggested field gear
+
+- [ ] Smartphone
+- [ ] Small accessory battery
+- [ ] Head lamp (great if someone has a UV lamp !)
+- [ ] Backpack (for all your stuff)
+- [ ] Good pair of shoes
+- [ ] Rain jacket
+- [ ] Sleeping bag
+- [ ] Sleeping mat
+- [ ] Hat or cap
+- [ ] Sunglasses
+- [ ] Sunscreen (please make sure to wash hands with EtOH and wear gloves before sampling, these sunscreen tend to stick to samples and will contaminate mass spec)
+- [ ] Small notebook, pens and pencils
+- [ ] Camera
+- [ ] Binoculars
+
+
+
 ## For DBGI collectors
+
+(this is brought from UniFr/UniNe)
 
 ### Material for collection
 
@@ -65,21 +93,4 @@ Small, medium, large (1 box each)
 - [ ] Ziplocks
 5
 
-
-
-## For everybody
-
-### Field gear
-
-- [ ] Smartphone
-- [ ] Small accessory battery
-- [ ] Head lamp (great if someone has a UV lamp !)
-- [ ] Backpack (for all your stuff)
-- [ ] Good shoes
-- [ ] Rain jacket
-- [ ] Hat or cap
-- [ ] Sunscreen (please make sure to wash hands with EtOH and wear gloves before sampling, these sunscreen tend to stick to samples and will contaminate mass spec)
-- [ ] Small notebook, pens and pencils
-- [ ] Camera
-- [ ] Binoculars
 

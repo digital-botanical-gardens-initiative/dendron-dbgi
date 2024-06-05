@@ -2,7 +2,7 @@
 id: wz5g4xn6pp8ydojxns1pfcc
 title: Bioblitz
 desc: ''
-updated: 1716297580089
+updated: 1717597346896
 created: 1715068408832
 ---
 
@@ -23,18 +23,11 @@ We would like to fully document the two stages of our experiment here and issue 
 
 ### What should I do prior to the event ?
 
-Prepare my stuff (see [[bioblitz.checklist]]), and make sure to have all the necessary equipment for the field trip.
+- Prepare my stuff (see [[bioblitz.checklist]]), and make sure to have all the necessary equipment for the field trip.
 
-Install the following (check with Edouard/Luca and make a list of the software and logins to create)
-Check with Edouard and make sure that everyone has its collection layer on QGis
-Ask Donat how is the internet connection over there 
+- Some software to fetch and account to create. See [[bioblitz.software]].
 
 https://github.com/orgs/digital-botanical-gardens-initiative/projects/2
-
-
-### What to bring ?
-
-Checklist, see [[bioblitz.checklist]]
 
 
 ## Resources
@@ -53,6 +46,8 @@ https://vinesch.ch/
 
 Saturday 8th June (day and night)
 
+We'll meet all at 9:30 am at the Visp train station.
+
 ## Where ?
 
 ### How to get there ?
@@ -66,15 +61,12 @@ We will have stuff to carry up there, bring good shoes and a backpack !
 Join Visp train station https://maps.app.goo.gl/VVKXW2JpyNxmeWgc8 
 From there, we will organize a shuttle to the vineyard.
 
-
 ### For those who come by car
+
+If you drive directly to the vineyard, you can park at the bottom of the vineyard (P1) or at the top (P2).
 
 ![alt text](/assets/images/image-7.png)
 
-(From Donat)
-
-
-Hi PM
 Here the map
 Blue
 Full line walking from the car parking P2
