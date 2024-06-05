@@ -2,11 +2,7 @@
 id: rcoxo851eefptm1ocegepfv
 title: Software
 desc: ''
-<<<<<<< HEAD
-updated: 1717575122163
-=======
-updated: 1717597144298
->>>>>>> c55ceb2e2 (Dendron workspace sync)
+updated: 1717599237490
 created: 1716900805326
 ---
 
@@ -29,7 +25,6 @@ The persons mentionned as "already created" on this list have already created an
 
 If someone is missing or if you have any problem, you can contact me at edouard.bruelhart@unifr.ch
 
-<<<<<<< HEAD
 - Maelle Wannier: mwannier
 - Emmanuel Defossez: mdefossez
 - Donat Agosti: dagosti
@@ -51,14 +46,12 @@ If someone is missing or if you have any problem, you can contact me at edouard.
 ### Change your password on the server
 
 Your provisory password will be communicated by email. When you have it, go to [this adress](https://emi-collection.unifr.ch/accounts/password/change/), login and change your password.
-=======
  Send me an email (edouard.bruelhart@unifr.ch) with:
  - The account username you freshly created
  - Your complete name
  - Your ORCID identifier. If you don't have one, create at [https://orcid.org/](https://orcid.org/)
  
  This step is useful to give you write access to the project and to link the samples you collect to you.
->>>>>>> c55ceb2e2 (Dendron workspace sync)
 
 ### Open the bioblitz project in QField
 
@@ -68,14 +61,11 @@ Your provisory password will be communicated by email. When you have it, go to [
 - Once signed in, go to Community and click on bioblitz_vinesch project. It will download the project.
 - Once project is downloaded, you can click again to open it and see the map. Now you are ready to collect!
 
-<<<<<<< HEAD
 ### Sampling guide
 
 Please refer to [[bioblitz.sampling-protocol]] for informations about the sampling protocol.
-=======
 ### Create a github account.
 
 See [https://github.com/signup](https://github.com/signup).
 This account will be required to access the EMI portal [https://portal.earthmetabolome.org/](https://portal.earthmetabolome.org/) which we will also benchmark during the event.
->>>>>>> c55ceb2e2 (Dendron workspace sync)
 

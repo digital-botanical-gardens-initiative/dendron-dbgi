@@ -2,11 +2,7 @@
 id: b7e4siv7m4n6bondte8ovob
 title: Checklist
 desc: ''
-<<<<<<< HEAD
-updated: 1717579045860
-=======
-updated: 1717596661509
->>>>>>> c55ceb2e2 (Dendron workspace sync)
+updated: 1717599215419
 created: 1716131828594
 ---
 
