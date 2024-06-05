@@ -2,7 +2,7 @@
 id: b7e4siv7m4n6bondte8ovob
 title: Checklist
 desc: ''
-updated: 1716901176911
+updated: 1717579045860
 created: 1716131828594
 ---
 
@@ -47,6 +47,7 @@ Small, medium, large (1 box each)
 10 units
 - [ ] Medium brown paper bags
 100 units
+- [ ] arrows 10
 
 
 ### Individual collection bags
