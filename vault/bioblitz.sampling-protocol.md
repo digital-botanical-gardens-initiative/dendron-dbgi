@@ -2,7 +2,7 @@
 id: c0k0ph2bjp7bbrrikjknd45
 title: Sampling Protocol
 desc: ''
-updated: 1717517496341
+updated: 1717575588478
 created: 1717514255507
 ---
 
@@ -17,8 +17,8 @@ How to proceed:
 - Then hit Synchronize
 
 ## Add features
-- Select the layer you want to edit and pass in editing mode. Optionnaly (see image below).
-- You can activate the GPS location to locate you approximatively on the field.
+- Select the layer you want to edit and pass in editing mode (see image below).
+- Optionnaly, you can activate the GPS location to locate you approximatively on the field.
 - When you point the plant location, tap on the "plus" button. This will make appear a form that you can fill.
 
 ## Fields to fill
@@ -34,7 +34,9 @@ How to proceed:
 
 - sample_id is the code sticked on the tube. You can scan it by clicking on the 3 dots.
 
-- Then you have 5 pictures to take of the species, one of the specimen label (if available), one in general, one of the plant's details (flowers or remarkable details that permit identification), one where you cut and one with the species label (if availabe) and the dbgi code on the tube.
+- Then you have 5 (+1 optional if needed) pictures to take of the species, one of the specimen label (if available), one in general, one of the plant's details (flowers or remarkable details that permit identification), one where you cut and one with the species label (if availabe) and the dbgi code on the tube.
+
+- The form contains two more tabs containing individual and environmental fields. These fields are optional. You can choose to fill them or not, following the results you want to obtain. You have free comments in these tabs, so if you want to add informations on the samples, you can add them here ("comment_eco" and "comment_env")
 
 - Once done, the upper of the form should be green, and you can add you observation to the project by clicking on the tick in the upper left corner.
 

@@ -2,25 +2,39 @@
 id: rhlvuheapx8zry1q0xhee7u
 title: Collectors
 desc: ''
-updated: 1717514159401
+updated: 1717574816283
 created: 1717513944738
 ---
 
-
-Edouard Bruelhart
-Marco Visani
-Maelle Wannier
 Pierre-Marie Allard
-Emmanuel Defossez
+Edouard Bruelhart
 Héloise Coen
-Donat Agosti
-Tarcisio Mendes de Farias
+Marco Visani
 Ana Claudia Sima
-Mazarine Laboureau
-henry.lutcke@id.ethz.ch
-luca.cappelletti@unifr.ch
-colin.volet@unifr.ch
-Urs Schaffner u.schaffner@cabi.org
-Jacqueline Detraz jhmh.detraz@bluewin.ch
-Hans Peter Wymann wymann.hp@gmail.com
 Chanton Marlis marlis@chanton.ch
+colin.volet@unifr.ch
+Donat Agosti
+henry.lutcke@id.ethz.ch
+Hans Peter Wymann wymann.hp@gmail.com
+Jacqueline Detraz jhmh.detraz@bluewin.ch
+luca.cappelletti@unifr.ch
+Emmanuel Defossez
+Mazarine Laboureau
+Maelle Wannier
+Tarcisio Mendes de Farias
+Urs Schaffner u.schaffner@cabi.org
+
+QField usernames:
+Maelle Wannier: mwannier
+Emmanuel Defossez: mdefossez
+Donat Agosti: dagosti
+Tarcisio Mendes de Farias: tmendes
+Ana Claudia Sima: aclaudia
+Mazarine Laboureau: mlaboureau
+Henry Lutcke: hlutcke
+Luca Cappelletti: lcappelletti
+Colin Volet: cvolet
+Urs Schaffner: uschaffner
+Jacqueline Detraz: jdetraz
+Hans Peter Wymann: hpwymann
+Chanton Marlis: cmarlis

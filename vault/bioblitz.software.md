@@ -2,7 +2,7 @@
 id: rcoxo851eefptm1ocegepfv
 title: Software
 desc: ''
-updated: 1717514926956
+updated: 1717575122163
 created: 1716900805326
 ---
 
@@ -18,18 +18,33 @@ Alternatively, on Androids, you can download the APK file from [https://github.c
 
 **Make sure to accept these following permissions to make QField work properly: "Camera", "Pictures and videos" and "Location"**
 
-### Create an account on the server
+### Your already created accounts
 
-Go to [this adress](https://emi-collection.unifr.ch/accounts/signup/) and create an account. If you have the error below, don't worry, your account has been successfully created.
+The persons mentionned as "already created" on this list have already created an account, so just take this one to connect.
 
- ![tie points model](assets/images/error_message.png)
+If someone is missing or if you have any problem, you can contact me at edouard.bruelhart@unifr.ch
 
- Send me an email (edouard.bruelhart@unifr.ch) with:
- - The account username you freshly created
- - Your complete name
- - Your ORCID identifier
- 
-**This step is useful to give you write access to the project and to link the samples you collect to you.**
+- Maelle Wannier: mwannier
+- Emmanuel Defossez: mdefossez
+- Donat Agosti: dagosti
+- Tarcisio Mendes de Farias: tmendes
+- Ana Claudia Sima: aclaudia
+- Mazarine Laboureau: mlaboureau
+- Henry Lutcke: hlutcke
+- Luca Cappelletti: lcappelletti
+- Colin Volet: cvolet
+- Urs Schaffner: uschaffner
+- Jacqueline Detraz: jdetraz
+- Hans Peter Wymann: hpwymann
+- Chanton Marlis: cmarlis
+- Pierre-Marie Allard: already created
+- Edouard Bruelhart: already created
+- Héloise Coen: already created
+- Marco Visani: already created
+
+### Change your password on the server
+
+Your provisory password will be communicated by email. When you have it, go to [this adress](https://emi-collection.unifr.ch/accounts/password/change/), login and change your password.
 
 ### Open the bioblitz project in QField
 
