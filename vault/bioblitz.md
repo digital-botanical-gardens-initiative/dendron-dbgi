@@ -2,7 +2,7 @@
 id: wz5g4xn6pp8ydojxns1pfcc
 title: Bioblitz
 desc: ''
-updated: 1717597346896
+updated: 1717598832049
 created: 1715068408832
 ---
 
@@ -22,6 +22,7 @@ We would like to fully document the two stages of our experiment here and issue 
 ## Organization 
 
 ### What should I do prior to the event ?
+
 
 - Prepare my stuff (see [[bioblitz.checklist]]), and make sure to have all the necessary equipment for the field trip.
 
