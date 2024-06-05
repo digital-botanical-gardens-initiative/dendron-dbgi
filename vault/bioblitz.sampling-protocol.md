@@ -2,7 +2,7 @@
 id: c0k0ph2bjp7bbrrikjknd45
 title: Sampling Protocol
 desc: ''
-updated: 1717575588478
+updated: 1717577680710
 created: 1717514255507
 ---
 
@@ -22,11 +22,11 @@ How to proceed:
 - When you point the plant location, tap on the "plus" button. This will make appear a form that you can fill.
 
 ## Fields to fill
-- collector_fullname corresponds to your name. If you are not in the list, you can add yourself by filling the "collector_list" layer (same process as above)
+- collector_fullname corresponds to your name. If you are not in the list, you can add yourself by filling the "collector_list" layer (same process as above). Check the box on the right to keep the selection between observations.
 
-- observation_subject corresponds to the organ/part of the specimen you want to collect. If you don't find a correct term, you can add it by filling the "observation_subject" layer
+- observation_subject corresponds to the organ/part of the specimen you want to collect. If you don't find a correct term, you can add it by filling the "observation_subject" layer. Check the box on the right to keep the selection between observations.
 
-- inat_upload is a tick button that allows you to choose whether your observation has to be uploaded on iNaturalist or not. This option is ticked by default. Example cases when this button has to be unticked: non-living samples (soil, water, ..) or multiple macroscopic species (20x20cm whole sampling for example)
+- inat_upload is a tick button that allows you to choose whether your observation has to be uploaded on iNaturalist or not. This option is ticked by default. Example cases when this button has to be unticked: non-living samples (soil, water, ..) or multiple macroscopic species (20x20cm whole sampling for example). Check the box on the right to keep the selection between observations.
 
 - taxon_name field corresponds to the scientific name of the plant (open form where you can search on). If you are unsure or you don't know the species no worry, it's why we upload the observations on iNaturalist.
 
