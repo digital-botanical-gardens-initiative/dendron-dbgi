@@ -2,7 +2,7 @@
 id: e0ly9v0hp53ilajle826vxo
 title: '2024-06-05'
 desc: ''
-updated: 1717665863025
+updated: 1717677175473
 created: 1717579673632
 traitIds:
   - open-notebook-dbgi-ebruelhart
@@ -15,10 +15,10 @@ Today is 2024.06.05
 
 - [x] Go to Scimed shop
 - [x] Make collection arrows (10)
-- [ ] Grab permanent markers (20)
-- [ ] Grab insects aspirators (5)
+- [x] Grab permanent markers (20)
+- [x] Grab insects aspirators (5)
 - [ ] Get the bus keys
-- [ ] Prepare collection kits
+- [x] Prepare collection kits
 - [x] Prepare ethanol  70%
 - [x] Print labels
 - [x] Paste labels on tubes
