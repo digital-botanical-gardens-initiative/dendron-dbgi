@@ -2,7 +2,7 @@
 id: rcoxo851eefptm1ocegepfv
 title: Software
 desc: ''
-updated: 1717677070155
+updated: 1717677098823
 created: 1716900805326
 ---
 
@@ -50,7 +50,7 @@ Your provisory password will be communicated by email. When you have it, go to [
 
 Send me an email (edouard.bruelhart@unifr.ch) with your ORCID identifier. If you don't have one, create it at [https://orcid.org/](https://orcid.org/)
  
-ORCID is useful to tack the collector for each collected sample. 
+ORCID is useful to track the collector for each collected sample. 
 
 ### Open the bioblitz project in QField
 
