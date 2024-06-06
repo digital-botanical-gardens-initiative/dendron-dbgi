@@ -2,7 +2,7 @@
 id: rcoxo851eefptm1ocegepfv
 title: Software
 desc: ''
-updated: 1717672672947
+updated: 1717677070155
 created: 1716900805326
 ---
 
@@ -47,12 +47,10 @@ If someone is missing or if you have any problem, you can contact me at edouard.
 ### Change your password on the server
 
 Your provisory password will be communicated by email. When you have it, go to [this adress](https://emi-collection.unifr.ch/accounts/password/change/), login and change your password.
- Send me an email (edouard.bruelhart@unifr.ch) with:
- - The account username you freshly created
- - Your complete name
- - Your ORCID identifier. If you don't have one, create at [https://orcid.org/](https://orcid.org/)
+
+Send me an email (edouard.bruelhart@unifr.ch) with your ORCID identifier. If you don't have one, create it at [https://orcid.org/](https://orcid.org/)
  
- This step is useful to give you write access to the project and to link the samples you collect to you.
+ORCID is useful to tack the collector for each collected sample. 
 
 ### Open the bioblitz project in QField
 
