@@ -2,7 +2,7 @@
 id: e0ly9v0hp53ilajle826vxo
 title: '2024-06-05'
 desc: ''
-updated: 1717677175473
+updated: 1717680326290
 created: 1717579673632
 traitIds:
   - open-notebook-dbgi-ebruelhart
@@ -23,4 +23,4 @@ Today is 2024.06.05
 - [x] Print labels
 - [x] Paste labels on tubes
 - [x] Get paper bags (Meyer)
-- [ ] Charge phone and tablet for collection
+- [x] Charge phone and tablet for collection
