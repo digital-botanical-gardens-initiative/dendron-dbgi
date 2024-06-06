@@ -2,7 +2,7 @@
 id: b7e4siv7m4n6bondte8ovob
 title: Checklist
 desc: ''
-updated: 1717599215419
+updated: 1717680631949
 created: 1716131828594
 ---
 
@@ -34,59 +34,61 @@ created: 1716131828594
 
 ### Material for collection
 
-- [ ] Pre-labelled falcons (50 ml)
+- [x] Pre-labelled falcons (50 ml)
 1000 tubes
-- [ ] Dried silica beads
+- [x] Dried silica beads
 10 pots
-- [ ] Ethanol (96%)
+- [x] Ethanol (96%)
 10 L pure
 10 L 70%
-- [ ] Small 200 ml sprayers for EtOH
+- [x] Small 200 ml sprayers for EtOH
 10
-- [ ] Brown coffee filters
+- [x] Brown coffee filters
 13 boxes of 80
-- [ ] Blue gloves
+- [x] Blue gloves
 Small, medium, large (1 box each)
-- [ ] Tweezers
+- [x] Tweezers
 5 pairs
-- [ ] Scissors
+- [x] Scissors
 2 pairs
-- [ ] Scalpels
+- [x] Scalpels
 3 boxes of 10
-- [ ] Insect aspirators
+- [x] Insect aspirators
 5 units
-- [ ] Strings
+- [x] Strings
 1 roll
-- [ ] Ziplocks
+- [x] Ziplocks
 1 box of 100
-- [ ] Plastic tape for "long term" labelling
+- [x] Plastic tape for "long term" labelling
 2 rolls different colors
-- [ ] Permanent markers
+- [x] Permanent markers
 2 * 10 units different colors
-- [ ] Wiping tissues
+- [x] Wiping tissues
 10 small rolls
-- [ ] Big plastic boxes
+- [x] Big plastic boxes
 5 units
-- [ ] Small cotton tissue bags
+- [x] Small cotton tissue bags
 10 units
-- [ ] Medium brown paper bags
+- [x] Medium brown paper bags
 100 units
-- [ ] arrows 10
+- [x] arrows 10
 
 
 ### Individual collection bags
 
-- [ ] Wiping tissues
+- [x] Wiping tissues
 1 small rolls
-- [ ] Scalpels
+- [x] Scalpels
 1 scalpel
-- [ ] Blue gloves
+- [ ] Blue gloves (everybody takes it because of sizes)
 5 pairs
-- [ ] Small 200 ml sprayers for EtOH
+- [x] Small 200 ml sprayers for EtOH
 1
-- [ ] Pre-labelled falcons (50 ml)
+- [x] Pre-labelled falcons (50 ml)
 20 tubes
-- [ ] Ziplocks
+- [x] Ziplocks
 5
+- [x] Brown coffee filters
+20
 
 
