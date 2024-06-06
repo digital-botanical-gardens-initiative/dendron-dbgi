@@ -2,7 +2,7 @@
 id: rhlvuheapx8zry1q0xhee7u
 title: Collectors
 desc: ''
-updated: 1717574816283
+updated: 1717671877833
 created: 1717513944738
 ---
 
@@ -23,6 +23,7 @@ Mazarine Laboureau
 Maelle Wannier
 Tarcisio Mendes de Farias
 Urs Schaffner u.schaffner@cabi.org
+Disha Tandon disha.tandon@unine.ch
 
 QField usernames:
 Maelle Wannier: mwannier
@@ -38,3 +39,4 @@ Urs Schaffner: uschaffner
 Jacqueline Detraz: jdetraz
 Hans Peter Wymann: hpwymann
 Chanton Marlis: cmarlis
+Disha Tadon: dtandon
