@@ -2,7 +2,7 @@
 id: rcoxo851eefptm1ocegepfv
 title: Software
 desc: ''
-updated: 1717599237490
+updated: 1717672672947
 created: 1716900805326
 ---
 
@@ -38,6 +38,7 @@ If someone is missing or if you have any problem, you can contact me at edouard.
 - Jacqueline Detraz: jdetraz
 - Hans Peter Wymann: hpwymann
 - Chanton Marlis: cmarlis
+- Disha Tandon: dtandon
 - Pierre-Marie Allard: already created
 - Edouard Bruelhart: already created
 - Héloise Coen: already created
