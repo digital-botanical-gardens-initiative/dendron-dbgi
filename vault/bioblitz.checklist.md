@@ -2,7 +2,7 @@
 id: b7e4siv7m4n6bondte8ovob
 title: Checklist
 desc: ''
-updated: 1717680631949
+updated: 1717680918989
 created: 1716131828594
 ---
 
@@ -86,7 +86,7 @@ Small, medium, large (1 box each)
 1
 - [x] Pre-labelled falcons (50 ml)
 20 tubes
-- [x] Ziplocks
+- [x] Ziplocks (2 different sizes)
 5
 - [x] Brown coffee filters
 20
