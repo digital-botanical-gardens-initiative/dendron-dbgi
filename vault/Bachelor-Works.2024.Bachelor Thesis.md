@@ -2,13 +2,17 @@
 id: x5weuur2uruf2lf12j755n9
 title: Bachelor Thesis
 desc: ''
-updated: 1718024186348
+updated: 1718024540137
 created: 1718004229586
 ---
 
 # Abstract 
 
 # Background 
+
+Here is the background of the thesis.
+
+
 ## Earth metabolome initiative 
 ## Digital botanical gardens initiative 
 ### Tropical greenhouse 
@@ -16,6 +20,7 @@ created: 1718004229586
 #### Methodology
 #### Inaturalist ressources 
 
+In the next section, we will ...
 
 
 # Transitioning from DBGI to EMI
@@ -59,15 +64,15 @@ species if available)
 ## Metabolomics analysis
 
 ### Methodology
-
-
+#### LC
+#### MS
+#### Data treatment
 
 ### Result
 
 #### Untargeted analysis
 #### Supervised analysis
 #### Molecular networking
-
 
 # Discussion
 
