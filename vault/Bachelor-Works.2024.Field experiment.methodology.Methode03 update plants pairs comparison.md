@@ -2,7 +2,7 @@
 id: 3xk6ihdzdjghu2uuxmacm55
 title: Methode03 update plants pairs comparison
 desc: ''
-updated: 1716293715683
+updated: 1718027921816
 created: 1716289374468
 ---
 
@@ -17,3 +17,4 @@ We collected them with the dbgi methodology
 
 ### Extraction 
 Extraction with the dbgi methodology. 
+test
