@@ -2,7 +2,7 @@
 id: 4evk2eobrhbx4fkyjw1wene
 title: Methodology
 desc: ''
-updated: 1718006018449
+updated: 1718023160241
 created: 1712650726429
 ---
 
@@ -28,7 +28,9 @@ All plant extracts are freeze-dried and store in falcon tube with non perforated
 The first step is to weigh out 50 micrograms of each extract and place it in an eppendorf 2ml with rounded bottom. We accepted an 5% of the weight as an error (±2.5 micrograms). Then add thee metal beads (4mm) inside the tube which will be used to crush the extracts. The plant remains are returned to the falcon and stored in the container.
 
 The sample are then passed in the Retsch machine (shaker) for 2.5 minutes at 25Hz. In this process, the plants are ground to a fine powder. 
-![Eppendofr with grounded plants](image-6.png){max-width : 600px, display: block, margin: 0 auto}*Figure 2 : Eppendoft tubes with grounded plants*
+![Eppendofr with grounded plants](/assets/images/image-6.png){max-width : 600px, display: block, margin: 0 auto}*Figure 2 : Eppendoft tubes with grounded plants*
+
+![](/assets/images/2024-06-10-13-57-11.png)
 
 Once the plants have been ground, the tubes are carefully reopened and 1.7 ml of the extraction solution is pipetted into each tube. The extraction solution mix is composed of 80% methanol, 20% distilled water and 0.1% formic acid. The tubes are then returned to the Restch machine to be shaken again for 2.5 minutes at 25Hz.They are then centrifuged for 2 minutes at 13'000RPM to separate the supernatant from the plant deposits. 
 

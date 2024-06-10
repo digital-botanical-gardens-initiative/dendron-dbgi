@@ -2,7 +2,7 @@
 id: x5weuur2uruf2lf12j755n9
 title: Bachelor Thesis
 desc: ''
-updated: 1718004659897
+updated: 1718020571741
 created: 1718004229586
 ---
 
@@ -16,7 +16,7 @@ created: 1718004229586
 #### Methodology
 #### Inaturalist ressources 
 
-# From DBGI to EMI : DOK project 
+# Transitionning from DBGI to EMI
 
 ## Background 
 ### The DOK trial
@@ -24,7 +24,7 @@ created: 1718004229586
 
 ## DOK project experiments 
 
-### 20x20 crushed : chemiodiversity quatifaction 
+### 20x20 crushed : chemiodiversity 
 #### Methodology 
 #### Result 
 
