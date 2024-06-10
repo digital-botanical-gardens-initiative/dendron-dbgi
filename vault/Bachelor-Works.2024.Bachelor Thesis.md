@@ -2,7 +2,7 @@
 id: x5weuur2uruf2lf12j755n9
 title: Bachelor Thesis
 desc: ''
-updated: 1718024540137
+updated: 1718025477556
 created: 1718004229586
 ---
 
@@ -49,12 +49,11 @@ species if available)
 #### Methodology 
 #### Result 
 
-- 
+- [https://doi.org/10.1038/s42004-024-01210-6]
 
 ### Plants pair comparison 
 #### Methodology
 #### Result 
-
 
 
 ### Soil extraction 
@@ -78,3 +77,6 @@ species if available)
 
 
 # Conclusion 
+
+# References
+
