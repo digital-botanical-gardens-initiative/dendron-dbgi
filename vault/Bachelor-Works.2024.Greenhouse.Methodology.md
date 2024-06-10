@@ -2,7 +2,7 @@
 id: 4evk2eobrhbx4fkyjw1wene
 title: Methodology
 desc: ''
-updated: 1714652367871
+updated: 1718006018449
 created: 1712650726429
 ---
 
@@ -11,8 +11,8 @@ For this part of the Digital Botanical Garden Initiative the Tropical greenhouse
 
 
 ## Collection
-The collection method consists of cutting one or several leaves (depending on the size), wrap them in a coffee filter and put them in a falcon tube. Each falcon tube is  pre-labelled with a unique code assigned to the extract and use as an identifer throughout the experiments. 
-the tube are then store in liquid nitrogen and finally put in the freezer (-80°C) if they are not freeze-dried immediatly. Each collected plant, will be report as a point on a qfield map, with several additional data such as the precise locatation, identification of the plant if possible and minimum five photos. These photos show : 
+The collection method consists of cutting one or several leaves (depending on the size), wrap them in a coffee filter and put them in a falcon tube with a perforated cap. Each falcon tube is  pre-labelled with a unique code assigned to the extract and use as an identifer throughout the experiments. 
+The tube are then store in liquid nitrogen and finally put in the freezer (-80°C) if they are not freeze-dried immediatly. Each collected plant, will be report as a point on a qfield map, with several additional data such as the precise locatation, identification of the plant if possible and minimum five photos. These photos show : 
 1) The plant identification pannel
 2) The plant identification pannel with the labelled falcon tube 
 3) A general photo of the plant 
@@ -23,9 +23,9 @@ the tube are then store in liquid nitrogen and finally put in the freezer (-80°
 These photos are then upload on iNaturalist for checking the identification of the plant. This provides a check by external experts and enables us to correct our identifications if necessary. It also benefits iNaturalist, as some plants not included in the database have been added. 
 
 ## Extraction 
-All plant extracts are freeze-dried and store in a container. 
+All plant extracts are freeze-dried and store in falcon tube with non perforated cap and store in a labelled container. 
 
-The first step is to weigh out 50 micrograms of each extract and place it in an eppendorf 2ml with rounded bottom. We accepted an 5% of the weight as an error (±2.5 micrograms). Then add thee metal beads (4mm) inside the tube which will be used to crush the extracts.
+The first step is to weigh out 50 micrograms of each extract and place it in an eppendorf 2ml with rounded bottom. We accepted an 5% of the weight as an error (±2.5 micrograms). Then add thee metal beads (4mm) inside the tube which will be used to crush the extracts. The plant remains are returned to the falcon and stored in the container.
 
 The sample are then passed in the Retsch machine (shaker) for 2.5 minutes at 25Hz. In this process, the plants are ground to a fine powder. 
 ![Eppendofr with grounded plants](image-6.png){max-width : 600px, display: block, margin: 0 auto}*Figure 2 : Eppendoft tubes with grounded plants*
@@ -37,7 +37,7 @@ Finally, the supernatant is collected and pipetted into a vials tube with hermet
 ![Vials tube](image-5.png){max-width : 600px, display: block, margin: 0 auto}*Figure 1 : Vials tube containing extracts of various plants from the tropical greenhouse.*
 
 ## Analyse
-Some aliquots are made with the vial tubes with 120 microliter of the plant extract. These aliquots are analyzed by liquid chromatography mass spectrometry. So that the molecules are separed by their weight.
+Some aliquots are made with the vial tubes with 120 microliter of the plant extract. These aliquots are analyzed by liquid chromatography mass spectrometry. 
 
 ## Sample Tracking 
 Because of the large number of samples, it is important to have reliable sample tracking. As said before, as soon as the samples are collected, each plant is assigned a unique code. This code will follow the plant through each stage of extraction, analysis and storage. This unique code will be report on each different tube during the extraction process and all data relating to this sample are added to the database.
