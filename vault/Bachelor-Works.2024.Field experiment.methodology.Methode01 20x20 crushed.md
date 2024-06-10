@@ -2,7 +2,7 @@
 id: jxduqg1hoq82t16sxtnxgl7
 title: Methode01 20x20 crushed
 desc: ''
-updated: 1714644307627
+updated: 1716453373926
 created: 1713190220161
 ---
 
@@ -21,7 +21,10 @@ The entire contents of the zip-lock are transfered to a paper bag and put in the
 
 After lyophilization all the sample are weighted. They are then placed in a blender with a proportional amount of 200ml/40g of the dbgi extraction mix. The plants are blended until a homogeneous fluid is obtained. Six grams of this fluid are set appart in a falcon tube and 34 milliter of the dbgi mix are added to reconstituate the ratio of dbgi extraction. A second tube is completely filled with plant extract and stored at -80°C for future extractions. 
 
+Alternately the sample can be dry crushed in the blender and store as a dry powder. The dbgi mix can be add to the powder in the right proportion. 
+
 The tube are then centrifuged  and the extraction process is performed in the same way as the dbgi extraction process. 
 
 ## Necessary change in method 
-During the collecte the zip-lock partially destroyed in liquid nitrogen. It is necessary to find another means of storage. 
+During the collecte the zip-lock partially destroyed in liquid nitrogen. It is necessary to find another means of storage. Paper bag can be use for the liquide nitrogen and the dry-freezer. 
+But zip lock are indispensable after the lyophilisation to keep the sample dry. 
