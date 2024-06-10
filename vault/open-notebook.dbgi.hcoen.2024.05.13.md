@@ -2,7 +2,7 @@
 id: ttabcvmtf41vhfzg48x5q3i
 title: '2024-05-13'
 desc: ''
-updated: 1715604814540
+updated: 1716289179395
 created: 1715602312094
 traitIds:
   - open-notebook-dbgi-hcoen
@@ -17,7 +17,7 @@ Today is 2024.05.13
 # Problem/Question
 
 # To do 
-faire une treemap puis filtre sur r ou python
+faire une treemap puis filtre sur r ou python --> fait mais moche
 # Perspectives
 
 # Notes
