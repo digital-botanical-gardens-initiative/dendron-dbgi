@@ -2,7 +2,7 @@
 id: 8u9qb1u3gp4e3osrb73xvor
 title: Fundings
 desc: ''
-updated: 1714325924295
+updated: 1717055966344
 created: 1672499912729
 ---
 
@@ -50,3 +50,4 @@ https://www.bafu.admin.ch/bafu/en/home/topics/education/environmental-research--
 
 
 https://biodiversity.scnat.ch/
+

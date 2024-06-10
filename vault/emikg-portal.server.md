@@ -2,7 +2,7 @@
 id: 7r9ro0rp9ibbx76yl6n3c61
 title: Server
 desc: ''
-updated: 1710162593460
+updated: 1715159252902
 created: 1708590198521
 ---
 
@@ -67,7 +67,7 @@ https://www.digitec.ch/fr/s1/product/msi-geforce-rtx-4090-suprim-liquid-x-24-go-
 
 
 
-
+### 
 
 
 Item | Model | Link | Price
