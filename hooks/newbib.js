@@ -8,6 +8,11 @@
  @params _: instance of [lodash](https://lodash.com/docs)
  */
  module.exports = async function ({ wsRoot, note, NoteUtils, execa, axios, _ }) {
+    // Prevent making any changes if the note already exists
+    if (note.body !== "") {
+        return { note };
+    }
+
     let csl = {};
     try {
         const response = await axios({
@@ -26,9 +31,13 @@
                 ]
             }
         })
+        if ("error" in response.data) {
+            note.body = `Zotero responded with error code \`${response.data.error.code}\`, message: \`${response.data.error.message}\`\n`;
+            return { note };
+        }
         csl = JSON.parse(response.data.result[2])[0]; // Skip HTTP response code and content type, get first paper
     } catch (error) {
-        note.body = `Importing data from Zotero failed with error:\n\n\`\`\`\n${error}\n\`\`\``;
+        note.body = `Importing data from BibTeX failed with error:\n\n\`\`\`\n${error}\n\`\`\`\n`;
         return { note };
     }
 
