@@ -30,5 +30,9 @@
     },
     "peacock.color": "#42b883",
     "dendron.markdown.preview.enabled": true,
-    "zotero-citation-picker.port": "http://127.0.0.1:23119/better-bibtex/cayw?format=pandoc&prefix=[[bib.&suffixfix=]]"
+    "zotero-citation-picker.port": "http://localhost:23119/better-bibtex/cayw?format=pandoc"
+
+
+
+
 }
