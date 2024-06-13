@@ -16,7 +16,7 @@
     let csl = {};
     try {
         const response = await axios({
-            url: 'http://localhost:23119/better-bibtex/json-rpc',
+            url: 'http://localhost:23119/better-bibtex/cayw?format=json',
             method: 'post',
             headers: {
                 'Content-Type': 'application/json',
@@ -35,7 +35,7 @@
             note.body = `Zotero responded with error code \`${response.data.error.code}\`, message: \`${response.data.error.message}\`\n`;
             return { note };
         }
-        csl = JSON.parse(response.data.result[2])[0]; // Skip HTTP response code and content type, get first paper
+        csl = JSON.parse(response.data.result[2]); // Skip HTTP response code and content type, get first paper
     } catch (error) {
         note.body = `Importing data from BibTeX failed with error:\n\n\`\`\`\n${error}\n\`\`\`\n`;
         return { note };
