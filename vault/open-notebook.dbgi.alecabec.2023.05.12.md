@@ -41,7 +41,7 @@ Today is 2023.05.12
 
 NB: Clematis rehderiana do not exist anymore in the garden but panel is still present
 
-Plant were collected according the dbgi protocole [[Bachelor-Work-2022]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into ice during the harvesting before beeing lyophilized. Falcon are placed at -70°C before being freeze drying. 
+Plant were collected according the dbgi protocole [[Bachelor-Works.Edouard-Brülhart]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into ice during the harvesting before beeing lyophilized. Falcon are placed at -70°C before being freeze drying. 
 
 **2/Put plant in the freeze dryer**
 
