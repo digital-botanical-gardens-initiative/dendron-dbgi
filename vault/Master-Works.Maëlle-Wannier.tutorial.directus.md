@@ -1,6 +1,6 @@
 ---
 id: 2gpzh1s85imdp4ig17g5ccj
-title: Directus
+title: directus
 desc: ''
 updated: 1689238136744
 created: 1666246339244

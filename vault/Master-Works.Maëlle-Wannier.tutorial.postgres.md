@@ -1,6 +1,6 @@
 ---
 id: xfo9r506ukemq0r2191kqkl
-title: Postgres
+title: postgres
 desc: ''
 updated: 1687525984355
 created: 1666246320224

@@ -25,7 +25,7 @@ Today is 2024.02.05
 
 Checking back the Directis instance with Edouard
 
-[[database.tutorial.directus]]
+[[Master-Works.Maëlle-Wannier.tutorial.directus]]
 
 
 

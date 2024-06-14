@@ -58,7 +58,7 @@ In order to use the workflow you will need to have the following account / appli
   ### Pratical 
   a. Creation of an account on directus  
   
-  b. Implementation of the dbgi_ID list using [[database.tutorial.directus.Basics]] protocol. 
+  b. Implementation of the dbgi_ID list using [[Master-Works.Maëlle-Wannier.tutorial.directus.Basics]] protocol. 
   
   c. Download the .csv file with your new dbgi_id 
 

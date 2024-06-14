@@ -33,8 +33,8 @@ Or export the table as a csv from directus:
 ### redo sequence
 If one does a mistake and needs to get back in the incremantation of the emi_external_id:
 1. Delete the wrong entries
-2. Connect to the psql database ![[database.tutorial.postgres#connect-to-postgresql]]
-3. Restart the sequence padding ![[database.tutorial.postgres#restart-the-sequence-padding]]
+2. Connect to the psql database ![[Master-Works.Maëlle-Wannier.tutorial.postgres#connect-to-postgresql]]
+3. Restart the sequence padding ![[Master-Works.Maëlle-Wannier.tutorial.postgres#restart-the-sequence-padding]]
 
 
 ## Change password
