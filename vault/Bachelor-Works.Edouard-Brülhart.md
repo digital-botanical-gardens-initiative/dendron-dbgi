@@ -1,8 +1,8 @@
 ---
 id: a4ngr68s9ad0hxptzdp28uq
-title: Bachelor Work 2022
+title: Edouard-Brülhart
 desc: ''
-updated: 1656087722665
+updated: 1718368948625
 created: 1656059640205
 ---
 This Bachelor project is the first pilot of the Digital Botanical Gardens Initiative. It had for objective to test different processes to further select the final protocol for the main [DBGI project](https://www.dbgi.org/dendron-dbgi/).
