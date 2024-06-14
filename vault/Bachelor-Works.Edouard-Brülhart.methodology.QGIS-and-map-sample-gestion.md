@@ -6,7 +6,7 @@ updated: 1656077391757
 created: 1655989511525
 ---
 
-QGIS ([[biblio._g]]) is an open source Geographic Information Software that permits to manage a lot of different geographic data. We use it to display the drone map and to add sample points.
+QGIS ([[Bachelor-Works.Edouard-Brülhart.biblio._g]]) is an open source Geographic Information Software that permits to manage a lot of different geographic data. We use it to display the drone map and to add sample points.
 
 To do that, we have made a QGIS project with the drone map as base. The project can be joined creating a QFieldCloud account [here](https://app.qfield.cloud/accounts/login/).
 

@@ -1,6 +1,6 @@
 ---
 id: ji4eoxcoevr7u5beshcylgp
-title: Shibata_2013
+title: shibata_2013
 desc: ''
 updated: 1656059639673
 created: 1656059639673

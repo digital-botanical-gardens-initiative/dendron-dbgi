@@ -1,6 +1,6 @@
 ---
-id: zbtrye1w4lzye45s8qf8vgw
-title: Br00ksm3t4l_a
+id: jz4rehjqyefpaaer58w9r6t
+title: br00ksm3t4l_
 desc: ''
 updated: 1656059639673
 created: 1656059639673
@@ -14,7 +14,8 @@ isDir: false
 * Authors: [[br00ksm3t4l]]
 * Date Added: [[2022-03-31]]
 * URL: [https://www.instructables.com/Sub-Centimeter-GPS-With-RTKLIB/](https://www.instructables.com/Sub-Centimeter-GPS-With-RTKLIB/)
-* Cite key: br00ksm3t4l_a
+* Cite key: br00ksm3t4l_
+* Topics: [[gnss-location]]
 , #zotero, #literature-notes, #reference
 
 ## Abstract
@@ -23,6 +24,6 @@ Sub Centimeter GPS With RTKLIB: I recently had the need for a very accurate and 
 
 
 ##  Zotero links
-* [Local library](zotero://select/items/3_6VREMH9C)
-* [Cloud library](http://zotero.org/groups/4613367/items/6VREMH9C)
+* [Local library](zotero://select/items/3_98VFP95B)
+* [Cloud library](http://zotero.org/groups/4613367/items/98VFP95B)
 

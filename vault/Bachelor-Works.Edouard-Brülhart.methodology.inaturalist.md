@@ -5,7 +5,7 @@ desc: ''
 updated: 1656057895008
 created: 1652954469821
 ---
-> "iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" ([[biblio._f]])
+> "iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" ([[Bachelor-Works.Edouard-Brülhart.biblio._f]])
 
 ## iNaturalist advantages and utility
 

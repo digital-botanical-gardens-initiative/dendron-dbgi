@@ -1,6 +1,6 @@
 ---
 id: zue2odnpgpr8qgdzgwbxj5u
-title: Bibliography
+title: bibliography
 desc: ''
 updated: 1654022213866
 created: 1653914697880

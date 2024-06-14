@@ -7,7 +7,7 @@ created: 1718357899194
 ---
 We use [iNaturalist](https://www.inaturalist.org/home) to resolve or confirm taxons of specimens we collect for the DBGI project, and more generally for the EMI project.
 
-"iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" ([[biblio._f]])
+"iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" ([[Bachelor-Works.Edouard-Brülhart.biblio._f]])
 
 ## iNaturalist advantages and utility
 

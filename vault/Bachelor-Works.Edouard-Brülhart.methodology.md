@@ -42,7 +42,7 @@ For the sampling, we have tested two different methods, that are complementary :
 
 ### Liquid Nitrogen harvesting
 
-The liquide nitrogen sample seems to be more precise, but is more difficult to apply in nature. This technic seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection ([[biblio.devos_2007]]).
+The liquide nitrogen sample seems to be more precise, but is more difficult to apply in nature. This technic seems to be better to capt the chemicals before their degradation (oxydation for example) or disappearence (volatiles) and provide the best quality chemicals detection ([[Bachelor-Works.Edouard-Brülhart.biblio.devos_2007]]).
 
 In fact, for the pilot, the sample is put in a folded aluminium leaf, that is directly stored in the field in liquid nitrogen. After each harvesting (approximatively 50 samples), the batch is directly put in the lyophilisator for at least 48 hours. The aluminum leafs with samples are then stored at -80°C waiting the weighting and extraction. However, for the next extractions, 15ml falcon tubes seems to be better for the harvest and storage.
 

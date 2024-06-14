@@ -1,6 +1,6 @@
 ---
 id: 2c9rzly7t0hp97skojpcusv
-title: Mirowski_2018
+title: mirowski_2018
 desc: ''
 updated: 1656059639673
 created: 1656059639673

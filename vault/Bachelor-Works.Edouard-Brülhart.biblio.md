@@ -1,10 +1,9 @@
 ---
 id: z1zl1fl62r0zie9azb8ejhm
-title: Biblio
+title: biblio
 desc: ''
 updated: 1655573491367
 created: 1648644248764
-stub: true
 ---
 
 
