@@ -2,7 +2,7 @@
 id: 5u2uiaco359415r2i31ymac
 title: Methods
 desc: ''
-updated: 1718353554085
+updated: 1718372548930
 created: 1718349372688
 ---
 The methods are organized in four categories, following the chronological order of the workflow.
