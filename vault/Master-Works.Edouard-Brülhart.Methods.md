@@ -7,7 +7,7 @@ created: 1718349372688
 ---
 The methods are organized in four categories, following the chronological order of the workflow.
 
-### [[master-work-23-24.Database]]
+### [[Master-Works.Edouard-Brülhart.Database]]
 
 ### Collection process
 The collection process is made using QGIS and QField, with a QFieldCloud server.
