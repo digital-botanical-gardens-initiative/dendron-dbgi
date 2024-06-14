@@ -1,8 +1,8 @@
 ---
 id: eerzimvzr7s6n6j47x6sre2
-title: Bibliography gestion
+title: Bibliography-gestion
 desc: ''
-updated: 1656087584412
+updated: 1718369029408
 created: 1648652137758
 ---
 
