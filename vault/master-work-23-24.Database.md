@@ -2,7 +2,7 @@
 id: utxt2dpc9ytwb941oz4nfg8
 title: Database
 desc: ''
-updated: 1718354566310
+updated: 1718355857041
 created: 1718349400476
 ---
 
@@ -15,6 +15,10 @@ This database is the core part that stores the data from the beginning to the en
 ## Data structure
 
 The data structure works as follow:
-- Labels: A table that stores all the sample labels we generate using a python script.
 
-- database structure
+- [[master-work-23-24.Database.Labels]]: A table that stores all the sample labels we generate using the [[master-work-23-24.Scripts.Python.label-creator]] software. This permits to only obtain unique labels to avoid duplicate samples.
+- [[master-work-23-24.Database.QField_data]]: A table that stores the collection metadata. This also permit to check that samples labels used during the collection are effectively unique and present in the [[master-work-23-24.Database.Labels]] table.
+- [[master-work-23-24.Database.QField_data_obs]]: A table that store the observations metadata from specimens we cuouldn't collect during collection campains.
+- [[master-work-23-24.Database.Inat_data]]: A table that stores the [[master-work-23-24.iNaturalist]] metadata. These data are fetched from [[master-work-23-24.iNaturalist]], in order to have a community taxon resolution or curation, retrieved by the [[master-work-23-24.Scripts.Python.inat-fetcher]] script.
+- [[master-work-23-24.Database.]
+
