@@ -1,6 +1,6 @@
 ---
 id: rcoxo851eefptm1ocegepfv
-title: Software
+title: software
 desc: ''
 updated: 1717677098823
 created: 1716900805326
@@ -62,7 +62,7 @@ ORCID is useful to track the collector for each collected sample.
 
 ### Sampling guide
 
-Please refer to [[bioblitz.sampling-protocol]] for informations about the sampling protocol.
+Please refer to [[Bioblitz.Vinesch-Bioblitz.sampling-protocol]] for informations about the sampling protocol.
 ### Create a github account.
 
 See [https://github.com/signup](https://github.com/signup).

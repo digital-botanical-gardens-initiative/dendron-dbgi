@@ -1,21 +1,19 @@
 ---
 id: bum7d9d6lnc0a863iqaogka
-title: Buffer Dbgi
+title: Buffer
 desc: ''
-updated: 1655875954705
+updated: 1718369905651
 created: 1645443184300
 ---
 
 
 # What is this page
 
-This page is a buffer note. Consiuder it as a scrapbook allowing toi copy / paste and share info that do not necessarily fit in a category / or that will not be kept on the long term.
+This page is a buffer note. Consider it as a scrapbook allowing to copy/paste and share info that do not necessarily fit in a category or that will not be kept on the long term.
 
 Ideally the buffer is filled from the top (older entries at the bottom)
 
 ---
-
-
 
 
 # Buffer 

@@ -1,6 +1,6 @@
 ---
 id: wz5g4xn6pp8ydojxns1pfcc
-title: Bioblitz
+title: Vinesch-Bioblitz
 desc: ''
 updated: 1717598832049
 created: 1715068408832
@@ -24,9 +24,9 @@ We would like to fully document the two stages of our experiment here and issue 
 ### What should I do prior to the event ?
 
 
-- Prepare my stuff (see [[bioblitz.checklist]]), and make sure to have all the necessary equipment for the field trip.
+- Prepare my stuff (see [[Bioblitz.Vinesch-Bioblitz.checklist]]), and make sure to have all the necessary equipment for the field trip.
 
-- Some software to fetch and account to create. See [[bioblitz.software]].
+- Some software to fetch and account to create. See [[Bioblitz.Vinesch-Bioblitz.software]].
 
 https://github.com/orgs/digital-botanical-gardens-initiative/projects/2
 

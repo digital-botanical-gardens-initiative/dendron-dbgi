@@ -1,6 +1,6 @@
 ---
 id: rhlvuheapx8zry1q0xhee7u
-title: Collectors
+title: collectors
 desc: ''
 updated: 1717671877833
 created: 1717513944738

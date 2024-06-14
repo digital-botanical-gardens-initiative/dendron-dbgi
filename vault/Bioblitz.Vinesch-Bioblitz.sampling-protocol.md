@@ -1,6 +1,6 @@
 ---
 id: c0k0ph2bjp7bbrrikjknd45
-title: Sampling Protocol
+title: sampling-protocol
 desc: ''
 updated: 1717577680710
 created: 1717514255507
@@ -8,7 +8,7 @@ created: 1717514255507
 
 ## Before collection
 
-**Make sure you have your collection application setup.** If not, you can go here to set it up: [[bioblitz.software]]
+**Make sure you have your collection application setup.** If not, you can go here to set it up: [[Bioblitz.Vinesch-Bioblitz.software]]
 
 If you are ready, synce the project to obtain the latest version. It will take the latest files on the server and store it locally on your phone. Normally, if some modification are available on the cloud, you should have an exclamation mark inside the blue cloud.
 
@@ -40,7 +40,7 @@ How to proceed:
 
 - Once done, the upper of the form should be green, and you can add you observation to the project by clicking on the tick in the upper left corner.
 
-- Now you can collect the sample and put it in a tube. If you don't know how to do it, you can follow this guide: [[bioblitz.prelevation-protocol]]
+- Now you can collect the sample and put it in a tube. If you don't know how to do it, you can follow this guide: [[Bioblitz.Vinesch-Bioblitz.prelevation-protocol]]
 
 - You have done your first observation!
 

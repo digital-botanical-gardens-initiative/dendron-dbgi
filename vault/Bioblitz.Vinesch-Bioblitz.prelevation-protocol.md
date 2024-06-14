@@ -1,13 +1,13 @@
 ---
 id: bj0uy2um0ht3qcokrxjek10
-title: Prelevation Protocol
+title: prelevation-protocol
 desc: ''
 updated: 1717576475650
 created: 1717517339326
 ---
 ## After adding an observation on QField
 
-When you have successfully added your observation on QField, you need to collect the specimen. Here you can find the protocol on how to do it. If you don't know how to add observations on QField, you can go to this note: [[bioblitz.sampling-protocol]].
+When you have successfully added your observation on QField, you need to collect the specimen. Here you can find the protocol on how to do it. If you don't know how to add observations on QField, you can go to this note: [[Bioblitz.Vinesch-Bioblitz.sampling-protocol]].
 
 ## Make sure you are ready
 - Make sure you have all the necessary material to collect your sample (little cotton bag given during the collection day)
