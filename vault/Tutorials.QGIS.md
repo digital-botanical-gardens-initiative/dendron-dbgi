@@ -1,6 +1,6 @@
 ---
 id: qug423ond4xtns8lelu38p2
-title: Local project
+title: QGIS
 desc: ''
 updated: 1685099398875
 created: 1680685151204

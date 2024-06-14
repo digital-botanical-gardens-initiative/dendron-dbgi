@@ -2,12 +2,12 @@
 id: nat1tahs5uze95g4vu680dk
 title: Field-setup
 desc: ''
-updated: 1685099383018
+updated: 1718371445870
 created: 1680685041564
 ---
-If you are new into the DBGI project and you want to collect samples, here is the tutorial to do it:
+If you are new into the DBGI and EMI projects and you want to collect samples, here is the tutorial to do it:
 
-1. Go [there](https://dbgimap.hopto.org/accounts/signup/) to create an account on the collection server. An error will occur, but your account have been registered. You won't need to use this webpage again.
+1. Go [there](https://emi-collection.unifr.ch/accounts/signup/) to create an account on the collection server. An error will occur, but your account have been registered. You won't need to use this webpage again.
 
 2. Communicate the username of you newly created account and the specific project you want to join (JBN, JBUF, EMI, ...) to Edouard Brülhart (edouard.bruelhart@unifr.ch). Wait the adding (manual so it can take some hours/days).
 
