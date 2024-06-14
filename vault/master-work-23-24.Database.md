@@ -2,7 +2,7 @@
 id: utxt2dpc9ytwb941oz4nfg8
 title: Database
 desc: ''
-updated: 1718354426546
+updated: 1718354566310
 created: 1718349400476
 ---
 
@@ -18,6 +18,3 @@ The data structure works as follow:
 - Labels: A table that stores all the sample labels we generate using a python script.
 
 - database structure
-
-[[master-work-23-24.Scripts]]
-[[master-work-23-24.Scripts.Python.label-creator]]
