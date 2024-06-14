@@ -1,6 +1,6 @@
 ---
 id: hy4n88ddtp2enkka583exqm
-title: Emikg Use Cases
+title: use-cases
 desc: ''
 updated: 1705509837226
 created: 1705509671672

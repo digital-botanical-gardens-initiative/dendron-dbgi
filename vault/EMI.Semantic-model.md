@@ -1,6 +1,6 @@
 ---
 id: u3r5ovqpurmj36nsvmetsl8
-title: Emi Semantic Model
+title: Semantic-model
 desc: ''
 updated: 1695045009288
 created: 1693548771769
@@ -8,9 +8,9 @@ created: 1693548771769
 
 # Sandbox
 
-[[emi-semantic-model]]
+[[EMI.Semantic-model]]
 
-Working on the EMI semantic model at [[emi-semantic-model]]
+Working on the EMI semantic model at [[EMI.Semantic-model]]
 
 Checking if the mermaid format used by Tarcisio can be used to draft the model directly in dendron notes
 

@@ -1,6 +1,6 @@
 ---
 id: ha16yu7114ctzc0r7x83dkk
-title: Emi Rdb Tables
+title: rdb-tables
 desc: ''
 updated: 1695735894568
 created: 1695388693267

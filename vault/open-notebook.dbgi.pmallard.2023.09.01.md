@@ -22,9 +22,9 @@ Today is 2023.09.01
 
 ## Doing
 
-[[emi-semantic-model]]
+[[EMI.Semantic-model]]
 
-Working on the EMI semantic model at [[emi-semantic-model]]
+Working on the EMI semantic model at [[EMI.Semantic-model]]
 
 Checking if the mermaid format used by Tarcisio can be used to draft the model directly in dendron notes
 

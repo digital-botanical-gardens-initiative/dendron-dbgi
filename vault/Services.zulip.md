@@ -1,6 +1,6 @@
 ---
 id: j3jsdxtx10sz97uy306240h
-title: Zulip
+title: zulip
 desc: ''
 updated: 1678380558164
 created: 1678380209978

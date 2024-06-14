@@ -1,6 +1,6 @@
 ---
 id: 5ny9w344zjft6o29hfrmxbx
-title: High_quantity_extraction
+title: High Quantity Extraction
 desc: ''
 updated: 1687519482433
 created: 1687518551385

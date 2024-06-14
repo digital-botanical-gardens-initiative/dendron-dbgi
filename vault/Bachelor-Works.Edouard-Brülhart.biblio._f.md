@@ -14,7 +14,7 @@ isDir: false
 * Date Added: [[2022-06-24]]
 * URL: [https://www.inaturalist.org/pages/what%252Bis%252Bit](https://www.inaturalist.org/pages/what%252Bis%252Bit)
 * Cite key: _f
-* Topics: [[inaturalist]]
+* Topics: [[Services.iNaturalist]]
 , #zotero, #literature-notes, #reference
 
 

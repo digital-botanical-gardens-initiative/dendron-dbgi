@@ -41,7 +41,7 @@ Two version of the Graph
 - version with raw data
 
 
-List use cases of the KG. Pasting this at [[emikg-use-cases]].
+List use cases of the KG. Pasting this at [[EMI.emikg-portal.use-cases]].
 
 
 @pma Update the ENPKG Schema at https://github.com/enpkg/enpkg_website/blob/156395bc43affe0ed91ecea30a1d4d60741020c7/common/data/config/schema/enpkg_schema.ttl

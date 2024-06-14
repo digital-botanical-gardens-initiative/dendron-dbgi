@@ -25,7 +25,7 @@ Today is 2023.09.26
 
 ### Discussion Edouard DB EMI
 
-Working at [[emi-rdb-tables]]
+Working at [[EMI.rdb-tables]]
 
 ## Paused
 
