@@ -1,8 +1,8 @@
 ---
-id: s3dye81qhtiednp1s3cse32
-title: Master-works
+id: fmlpvd5ebpugd0idxhytk28
+title: Master-Works
 desc: ''
-updated: 1718369319470
-created: 1718360806322
+updated: 1718372791403
+created: 1718372772631
 ---
 Here you can find all master works that have been made for the DBGI and/or EMI project.
