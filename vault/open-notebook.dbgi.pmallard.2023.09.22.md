@@ -71,7 +71,7 @@ This table contains
 
 Across project DB all headers should be identical.
 
-We now work in [[emi-rdb-tables]]
+We now work in [[EMI.rdb-tables]]
 
 
 

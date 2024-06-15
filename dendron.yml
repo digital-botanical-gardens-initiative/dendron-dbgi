@@ -79,10 +79,6 @@ workspace:
                 id: hello
                 pattern: hello.*
                 type: js
-            -
-                id: newbib
-                pattern: bib.*
-                type: js
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true

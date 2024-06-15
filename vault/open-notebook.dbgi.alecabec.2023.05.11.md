@@ -41,7 +41,7 @@ Today is 2023.05.11
 - [X] Euonymus alatus 
 - [X] Euonymus europeaus 
 
-Plant were collected according the dbgi protocole [[Bachelor-Work-2022]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into liquid nitrogen during the harvesting before beeing lyophilized. Falcon are placed at -70°C before being freeze drying. 
+Plant were collected according the dbgi protocole [[Bachelor-Works.Edouard-Brülhart]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into liquid nitrogen during the harvesting before beeing lyophilized. Falcon are placed at -70°C before being freeze drying. 
 
 Clematis florida, Clematis tangutica and Lonicera nigra from the system couldn't be collect (no leave or not enough). 
 

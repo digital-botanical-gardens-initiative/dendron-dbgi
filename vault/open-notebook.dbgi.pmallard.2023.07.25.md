@@ -26,7 +26,7 @@ Point with Luca
 
 Some points to be adressed at [[open-notebook.dbgi.lcappelletti.2023.07.25]]
 
-[[meet.2023.07.25]]
+[[meetings.2023.07.25]]
 
 
 

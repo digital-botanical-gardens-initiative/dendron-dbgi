@@ -34,7 +34,7 @@ Today is 2024.02.19
 ###
 ###
 
-See [[emikg-portal.api]]
+See [[EMI.emikg-portal.api]]
 
 ## Today I learned that
 

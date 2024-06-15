@@ -36,7 +36,7 @@ Today is 2022.12.28
 
 Egon mentioned BioSample Elixir initiative which could be of interest.
 https://www.ebi.ac.uk/training/online/courses/biosamples-quick-tour/what-is-biosamples/
-Could be of interest in the frame of [[methodology.sample-tracking]]
+Could be of interest in the frame of [[old-methodology.sample-tracking]]
 
 Also advised we should have a look at https://www.swat4ls.org/
 

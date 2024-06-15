@@ -67,7 +67,7 @@ Two services now available
 https://dbgi.vital-it.ch/login
 https://dbgi.vital-it.ch/bioquery
 
-SOSA ontology see [[emi-semantic-model]]
+SOSA ontology see [[EMI.Semantic-model]]
 https://github.com/digital-botanical-gardens-initiative/earth_metabolome_ontology
 
 

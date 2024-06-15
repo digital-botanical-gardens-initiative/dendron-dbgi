@@ -28,5 +28,11 @@
         "titleBar.inactiveBackground": "#42b88399",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#42b883"
+    "peacock.color": "#42b883",
+    "dendron.markdown.preview.enabled": true,
+    "zotero-citation-picker.port": "http://localhost:23119/better-bibtex/cayw?format=pandoc"
+
+
+
+
 }

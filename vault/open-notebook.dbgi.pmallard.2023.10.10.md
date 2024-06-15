@@ -24,7 +24,7 @@ Today is 2023.10.10
 
 CAll Tarcisio 
 
-Point on [[emi-semantic-model]]
+Point on [[EMI.Semantic-model]]
 
 Tarcisio proposed the online protégé 
 https://webprotege.stanford.edu/

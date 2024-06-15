@@ -48,7 +48,7 @@ Yesterday, we collected plant at JBN with Emmanuel. The plant with a cross are t
 - [X] Clematis recta 
 - [X] Lonicera caucasica 
 
-Plant were collected according the dbgi protocole [[Bachelor-Work-2022]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into liquid nitrogen during the harvesting before beeing lyophilized. 
+Plant were collected according the dbgi protocole [[Bachelor-Works.Edouard-Brülhart]] ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into liquid nitrogen during the harvesting before beeing lyophilized. 
 The lyophilisation is realised at UniNe with the Telstar LyoQuest. 
 
 ## Todo tomorrow
