@@ -2,23 +2,24 @@
 id: qzkz3q0dtvn2knx3hnor144
 title: Report
 desc: ''
-updated: 1718208817964
+updated: 1718455132198
 created: 1718028111500
 ---
 # Abstract 
+The transition from the Digital Botanical Garden Initiative (DBGI) pilot project to the main Earth Metabolome Initiative (EMI) is a very important step towards adapting our collection and extraction methods to a wider spectrum of organisms or groups of specimens. 
+This transitional project, undertaken as a Bachelor's thesis at the University of Fribourg, involves a comparative study of the metabolomic content of crops, weeds and invertebrates present in two different fields, one cultivated according to a biodynamic farming system and the other using conventional agriculture and only mineral fertilizers. 
+The main objective of this study is not the metabolomic results themselves, although they are very interesting, but rather the adaptation of methods initially designed for data collection in a botanical garden to less controlled environments, with the aim of eventually setting up collection and extraction methods feasible in wild environments.  This methodological adaptation is crucial to the successful scaling-up of the EMI, ensuring that robust and reliable data can be collected in diverse and variable natural environments, thereby facilitating the achievement of the initiative's overall objectives. 
 
 # Background 
 
-Here is the background of the thesis 
+The planet is going through a biodiversity crisis that threatens the equilibrium of ecosystems. Protecting ecosystems is essential not only for the survival of the species that live in them, but also for preserving natural substances crucial to humanity, such as medicinal compounds or food resources. The Earth Metabolome Initiatives project and its pilot project, the Digital botanical gardens initiative, are part of this general context. This Bachelor's project is also part of this context, aiming to begin the transition from DBGI to EMI. 
 
 ## Earth metabolome initiative 
-The Earth Metabolom Initivative (EMI) is a large scale open science project whose aime is to catalogue the metabolome of all organisms currently known on the planet Earth. Ultimaly, this will create a library accessible to all, enabling targeted research and protection of certain organisms and metabolomites. These data will enable us to observe the chemodiversity of specific locations and thus add chemical arguments to environmental protection.
+The Earth Metabolom Initivative (EMI) is a large scale open science project whose aime is to profile the metabolomic content of all organisms currently known on the planet Earth. This initiative have three main objectif : The first one is to protect biodiversity by creating molecular and metabolomic arguments, the seconde is to understand the chemical functioning of the biosphere and the last one is to benefit human society, notably through drug discovery or food sustainability. Understanding the chemical functioning of the biosphere is fundamental to developing effective conservation strategies. This understanding enables us to better protect biological diversity and guarantee the sustainability of the ecosystem services on which the survival of all species, including our own, and our well-being depend. Establishing a global molecural map of chemical content could help us to deep into new concepts such as "chemical endemisms" or create some argument based on the chemiodiversity level of certain zones. 
+Ultimaly, this will create a library accessible to all, enabling targeted research and protection of certain organisms and metabolomites. These data will enable us to observe the chemodiversity of specific locations and thus add chemical arguments to environmental protection.
 
-This initiative have three main objectif. The first one is to protect biodiversity by creating new argument based on the metabolome of the species. This will develope some molecular argument conservation and new vision of biodiversity trought new concepts such as "chemical endemisms", in other words molecule that are present only in a certain ecosystem. The second point is to understand the chemical fonctionnement of the biosphere. 
-
--->> finish this part 
-
- by establishing a global molecular map of the Earth metabolome  
+ https://doi.org/10.5281/zenodo.10663625
+ https://doi.org/10.5281/zenodo.7486984
 
 ## Digital botanical gardens initiative 
 ### Background 
@@ -75,29 +76,58 @@ Because of the large number of samples, it is important to have reliable sample 
 
 
 
---->> In the next section, we will ... 
 
 # Transitioning from DBGI to EMI
 
 ## Background 
 ### The problematic
+In this section, we'll take a closer look at a transition project between DBGI and EMI. Until now, the methods implemented were adapted to the collection, extraction and profiling of plants from the botanical garden. However, it is important to adapt this methodology in order to broaden our possibilities and move closer to a solid methodology for the EMI project. 
+There are several aspects that complicate the method in uncontrolled environments. 
+Firstly, unlike in a botanical garden, plants and other organisms are not labelled in a wild environment. This makes the use of the Inaturalist platform as a control by others all the more important. Sufficient good-quality photos should be taken of each sample. 
+On the other hand, the collection of new types of samples implies the implementation of new collection and extraction methodologies. And finally, data processing methods also need to be updated, as we take samples containing many different organisms. The links between these need to be established in the data processing. 
 
+A cultivated field is an ideal place to start the transition. The composition of the crops is known, and a certain biodiversity is present within the field. Other organisms such as insects and soil macrofauna can also be collected quite easily. 
 ### The DOK trial
 #### Historical background
 In the 1970s, discussions on food production in relation to the environment and yield had already been generating debate for several decades. Some pioneers of organic farming practice and scientific from the Research Institute of Organic Agriculture (FiBL) and from the Swiss federal research centre for agricultural chemistry and environmental hygiene founded the DOK trial in 1978.
 
-The DOK trial is a long terme experiment comparing three cropping systems. DOK stands for BioDynamic, bioOrganic and Konventionell. These three farming system have been studied for 45 years. Since the start of the trial, a large number of scientific publications have been produced thanks to this long-term experiment. Important topics such as climate adaptation, biodiversity, soil quality and yield have been studied on this site.
+The DOK trial is a long terme experiment comparing three cropping systems. DOK stands for BioDynamic, bioOrganic and Konventionell. These three farming system have been studied for 45 years. The DOK trial mimics organic and conventioanl certified farming methods that are practiced in Switzerland. Since the start of the trial, a large number of scientific publications have been produced thanks to this long-term experiment. Important topics such as climate adaptation, biodiversity, soil quality and yield have been studied on this site.
 
 #### The site 
 The DOK site is located in the canton of Baselland, halfway between Biel-Benken and Therwil. The area is located in the Rhine Valley. The floor of this Valley are filled with a layer of gravel and covered by loess material (fine Calcareous silt). This large layer of1 to 1.3 m deep created a fertile soil, that allows water to rise through capillary transport during the sommer. The climate is favorable for agriculture, with temperatures averaging 9.7° C until the end of the last century and current annual rainfall of 872 mm. However, average temperatures have been rising steadily in recent decades, with an average of 11.2°C between 2010 and 2020. Climate change and crop resilience are also being studied at DOK, with a view to future extreme weather events (drought, heavy rain, hail, etc.). 
 
 #### Experimental design 
 
+The field is divided into 96 plots of 5x20 m. A total of 8 different treatments are applied. Both biodynamic (BIODYN) and bioorganic (BIOORG) systems receive slurry and farmyard manure. The conventional system (CONFYM) also receive slurry and farmyard manure but additionnaly it is also treated with mineral fertilizers. This three traetment are applied with two diffement intensities : 0.7 and 1.4 LU per hectare. A second conventional treatment (CONMIN) system is only treated with mineral fertilizer. In addition, there is control treatment (NOFERT) without any fertilizer. Manure treatment differs between systems, and consequently organic carbon and nitrogen inputs also differ. The conventional system (CONFYM) uses stacked manure, the bioorganic system (BIOORG) uses rotted manure and the biodynamic system (BIODYN) uses compost manure. These are aerated more intensively and for longer, respectively. Mineral fertilizers comply with Swiss Federation regulations for concentrations of calcium-ammonium-nitrate, urea, potassium chloride and triple super phosphate. 
 
-#### Previously obtained results
+Plant protection in both conventional systems consists of the application of herbicides, fungicides, insecticides, and molluscicides. In BIOORG and BIODYN the plant protection follows the standards (Lampking 1990). In addition, the BIOORG system treats potatoes with copper sulfate (CuSO4). The _Bacillus thuringiensis_ bacterium is sprayed against potato bettles in BIOORG and BIODYN systems. The NOFERT system uses the same protections as the organic systems. 
+
+
+
+3 crops are planted simultaneously (columns A, B and C in the shema) and a 7-year crop rotation is carried out in the plot following this sequence since 2013 : Maize, Soybeans, Vinter wheat 1 + catch crop, Potatoes, Winter Wheat 2, Grass-clover 1, Grass-clover 2. Grass-clover mixture is composed of _Trifolium pratense_ 6%, _Trifolium repens_ 12%, _Dactylis glomerata_ 17%, _Festuca pratensis_ 36%, _Lolium perenne_ 21% and _Phleum pratense_ 12%. 
+
+![](/assets/images/2024-06-13-11-37-29.png)*Field setup of the DOK trial with spatial orientation of blocks, columns, rows, and subplots. Each year three crops are cultivated in the subplots A, B, and C. N, NOFERT, unfertilized; D, BIODYN, biodynamic; O, BIOORG, bioorganic; K, CONFYM, conventional with farmyard manure; and M, CONMIN, conventional purely mineral fertilization. Organic fertilization: 0.7 and 1.4 correspond to organic fertilization at 0.7 and 1.4 livestock units per hectare. (H-M Krause et al. 2022)*
+
+
+#### Previous experiments and results obtained 
+Around 200 studies based on the DOK trial have been published to date. Some interesting results : 
+
+https://www.fibl.org/en/locations/switzerland/departments/soil-sciences/bw-projekte/dok-trial  
+
+
+In terms of energy efficiency, organic crops require 30-50% less energy to produce per unit area. This includes the energy needed to produce fertilizers and persticides. Taking into account the higher yield per unit area in conventional systems, the energy used per unit yield is still 19% lower for organic farming system. 
+
+On average, organic crop yields are about 20% lower (although yields of specific crops vary) compared to the conventional system receiving mineral fertilizers, while nutrient inputs in the conventional system are 60% higher for mineral nitrogen, 45% for potassium and 40% for phosphorus.
+
+Long-term measurements show a nitrogen deficit in all cultural systems. This means that the cultivated plants used more nitrogen than what was provided to them by the fertilizer applied. This additional nitrogen comes from soil mineralization, nitrogen fixation by legumes and their symbiosis, and aerial deposition. Regarding the phosphorus and the potassium, the deficits are much greater in biological and biodynamic systems than in conventional systems.
+
+The soil organic matter (humus) content remained stable only in the biodynamic system during the first 21 years of the trial. All other systems showed a decline in humus. This difference is significant between the biodynamic and the purely mineral conventional systems.
+
+
 
 ## DOK project experiments 
 ### Global experimental design 
+
 
 ### Collection review
 The collection took place on April 18 from 1:30 p.m. to around 7 p.m. at the DOK trial (Localisation : 47.502578, 7.539575 (Therwil, Basel canton)). The collection went smoothly, with cool weather. It didn't rain in the afternoon, but conditions were damp because it had rained that very morning. We didn't find many insects on site, probably because the weather was too cold for them, but we did collect a few, along with slugs and soil macrofauna. All the wheat fields (with no difference between cropping systems) had been infected by a fungal disease, which may have an influence on the metabolomic results. 
@@ -341,5 +371,8 @@ The link to directus are only available with a directus account and using the vp
 
 # Discussion and conclusion 
 
+- autres aspects de la transition doivent encore être travailler : 
+    - récolte sans azote liquide
+    - ... 
 # References
 
