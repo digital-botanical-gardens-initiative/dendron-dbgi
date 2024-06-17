@@ -2,7 +2,7 @@
 id: zlzmw93ezh9g89apr3l77zj
 title: '2024-02-13'
 desc: ''
-updated: 1707834918892
+updated: 1718354530876
 created: 1707818340915
 traitIds:
   - open-notebook-mvisani
@@ -15,7 +15,7 @@ Today is 2024.02.13
 ## Notes
 Add time taken to learn the language, tag pma, tag luca
 
-create a linkeding organisation for the EMI 
+create a g organisation for the EMI 
 ## Todo today
 - [ ] 
 
