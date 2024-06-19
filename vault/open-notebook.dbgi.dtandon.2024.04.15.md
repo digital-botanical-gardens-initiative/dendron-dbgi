@@ -2,7 +2,7 @@
 id: ig41sdi15e6x9f1o8zaeqwu
 title: '2024-04-15'
 desc: ''
-updated: 1713203654590
+updated: 1718354530862
 created: 1713166208351
 traitIds:
   - open-notebook-dbgi-dtandon
@@ -54,7 +54,7 @@ https://www.science-studios.ch/
 4. #SciComm Build a graphical overview of the two ideas discussed with Manuela.
 
 ## Today I learned that
-1. Ontop with duckdb https://www.linkedin.com/pulse/scaling-sparql-querying-billion-observations-ontop-duckdb-gschwend-myghf/
+1. Ontop with duckdb https://www..com/pulse/scaling-sparql-querying-billion-observations-ontop-duckdb-gschwend-myghf/
 
 ## Paused
 

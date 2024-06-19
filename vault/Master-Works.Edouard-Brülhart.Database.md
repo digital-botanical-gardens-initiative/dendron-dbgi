@@ -6,9 +6,9 @@ updated: 1718358903442
 created: 1718349400476
 ---
 
-## [[Master-Works.Edouard-Brülhart.Database.Services.Directus]]
+## [[Master-Works.Edouard-Brülhart.Services.Directus]]
 
-The database we use is an integration of [[Master-Works.Edouard-Brülhart.Database.Services.PostgreSQL]], a robust relational database system, with [[Master-Works.Edouard-Brülhart.Database.Services.Directus]], an open-source data platform. The combined solution offers a powerful, flexible, and user-friendly environment for managing structured data. This setup enables efficient data storage, retrieval, and management with a modern web-based interface, suitable for diverse applications in scientific research and beyond."
+The database we use is an integration of [[Master-Works.Edouard-Brülhart.Services.PostgreSQL]], a robust relational database system, with [[Master-Works.Edouard-Brülhart.Services.Directus]], an open-source data platform. The combined solution offers a powerful, flexible, and user-friendly environment for managing structured data. This setup enables efficient data storage, retrieval, and management with a modern web-based interface, suitable for diverse applications in scientific research and beyond."
 
 This database is the core part that stores the data from the beginning to the end. This then permits to retrieve easily and automatically all necessary metadata coming from the different services we use.
 

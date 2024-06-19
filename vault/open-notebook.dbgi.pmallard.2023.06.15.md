@@ -2,7 +2,7 @@
 id: 1n9kw635ospnbwjvismwj9u
 title: '2023-06-15'
 desc: ''
-updated: 1686847854180
+updated: 1718354530872
 created: 1686813851132
 traitIds:
   - open-notebook-dbgi-pmallard
@@ -112,7 +112,7 @@ For next meeting:
 
 Justin Reese indicates these meetings each 2 weeks
 
-https://www.linkedin.com/feed/update/urn:li:activity:7074081027261874176/
+https://www..com/feed/update/urn:li:activity:7074081027261874176/
 
 Topic of negative sampling. A pretty complex topi
 

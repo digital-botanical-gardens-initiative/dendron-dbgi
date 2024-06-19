@@ -2,7 +2,7 @@
 id: pwgi25wmjyo2lw342x3npi6
 title: '2023-05-11'
 desc: ''
-updated: 1683869987093
+updated: 1718354530853
 created: 1683793354813
 traitIds:
   - open-notebook-mwannier
@@ -24,7 +24,7 @@ Today is 2023.05.11
 ## NOTES
 
 Followed a lesson on D3js:
-https://www.linkedin.com/learning/d3-js-essential-training-for-data-scientists/creating-a-linear-scale?autoplay=true
+https://www..com/learning/d3-js-essential-training-for-data-scientists/creating-a-linear-scale?autoplay=true
 
 ## TODO NEXT
 

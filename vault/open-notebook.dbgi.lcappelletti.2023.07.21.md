@@ -2,7 +2,7 @@
 id: qs8zsh67h8a5kj4klmtnxbj
 title: '17'
 desc: ''
-updated: 1689952153135
+updated: 1718354530857
 created: 1689950746986
 ---
 
@@ -51,5 +51,5 @@ The following list of libraries used in the code has been identified, which will
 
 
 ## For next week
-* Delve into whether the data models suggested by [Chris Mungall](https://www.linkedin.com/in/chrismungall/) are a viable solution for the characterization of biological samples.
+* Delve into whether the data models suggested by [Chris Mungall](https://www..com/in/chrismungall/) are a viable solution for the characterization of biological samples.
 * Ask to Pierre-Marie for help understanding how to start using the data [made available on Zenodo](https://zenodo.org/record/8152039) for testing the [data organization](https://github.com/enpkg/enpkg_data_organization/tree/refactoring) and in chain all others to avoid breaking the pipeline during the refactoring.

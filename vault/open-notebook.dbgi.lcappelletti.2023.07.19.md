@@ -2,7 +2,7 @@
 id: 4gh9ubiyqx2c29rph7lyax3
 title: '17'
 desc: ''
-updated: 1689778750988
+updated: 1718354530881
 created: 1689775221469
 ---
 
@@ -31,5 +31,5 @@ git clone git@github.com:enpkg/enpkg_graph_builder.git
 ```
 
 ## Todo tomorrow
-* Delve into whether the data models suggested by [Chris Mungall](https://www.linkedin.com/in/chrismungall/) are a viable solution for the characterization of biological samples.
+* Delve into whether the data models suggested by [Chris Mungall](https://www..com/in/chrismungall/) are a viable solution for the characterization of biological samples.
 * Start writing a test suite for the [data organization](https://github.com/enpkg/enpkg_data_organization/tree/refactoring) repository with the data [made available on Zenodo](https://zenodo.org/record/8152039). 
