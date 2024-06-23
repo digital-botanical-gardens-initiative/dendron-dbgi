@@ -2,7 +2,7 @@
 id: qzkz3q0dtvn2knx3hnor144
 title: Report
 desc: ''
-updated: 1718981948714
+updated: 1719154918829
 created: 1718028111500
 ---
 # Abstract 
@@ -776,34 +776,48 @@ However, for _Solanum tuberosum_ a difference is already visible in the unsuperv
 #### Supervised analysis
 Supervised statistic, with maximazing the diffence based on the farming system, a clustering by BIODYN and CONMIN apprears in the wheat samples analysis. The metabolomic content is not the same in the wheat crops that are growing in different farming system. 
 
+![](/assets/images/2024-06-23-16-08-58.png)*PLSDA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Triticum aestivum_. Filter Variable Metadata Status : above sirius confidencescore. Sclaed graph. 
 
+By looking the molecules that are causing this difference in the wheat crop we can spot some endogene molecules such as pipecolic acid and also exogene molecules such as the metribuzin wich is a well know herbicid. Both of this molecules are present in the CONMIN system. First molecule of importance is the pipecolic acid that is required for the systemic acquired resistance in plant and overrepresented in the CONMIN farming system. 
 
-By looking the molecules that are causing this difference in the wheat crop we can spot some endogene molecules such as pipecolic acid and also exogene molecules such as the metribuzin wich is a well know herbicid. Both of this molecules are present in the CONMIN system. 
+![](/assets/images/2024-06-23-16-17-14.png)*PLSDA selected Features of Importance for dataset method biodynamic vs conventional purly mineral fertilization above sirius confidencescore scaled. 
 
-Treemap plots show that a big family of hydroxycinnamic acid amides (HCAA) are overrepresented in the CONMIN system. This HCAA molecules are present in both wheats and potatoes crops from CONMIN system. This family is known as a stress induce molecule family. 
+Although the differences were already visible with the unsupervised statistics, we can also observe a clear clustering of _Solanum tuberosum_ by farming system in the supervised analysis. 
+
+![](/assets/images/2024-06-23-16-31-02.png)*PLSDA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Solanum tuberosum_ . Filter Variable Metadata Status : above sirius confidencescore. Scaled graph. 
+
+The naringenin is the first component of importance in the PLSDA of potatoes analisys and is overrepresented in the BIODYN system. This flavonoid is an antioxydant molecule know to have good effect on human health (Venkateswara Rao P, SDVS Kiran, Rohini P and Bhagyasree P. Flavonoid: A review on Naringenin. J Pharmacogn Phytochem 2017;6(5):2778-2783.) Other studies present naringenin as a molecule capable of activating certain resistance genes against pathogens in certain plants (https://doi.org/10.3389/fpls.2021.672552). 
+
+![](/assets/images/2024-06-23-16-33-57.png)*PLSDA selected Features of Importance for dataset method biodynamic vs conventional purely mineral fertilization above sirius confidencescore scaled. 
+
+Treemap plots show that a big family of hydroxycinnamic acid amides (HCAA) are overrepresented in the CONMIN system. This HCAA molecules are present in both wheats and potatoes crops from CONMIN system. This family is known as a stress induce molecule family associated with plant defense mechanisisms (doi: 10.3389/fpls.2022.922119). 
 
 The metribuzin is also visible in both treemaps (wheat and potato) in the pseudoalkaloids group. 
 
-Potato crops show a strong overrepresentation of flavonoids in the BIODYN system. 
+Potato crops show a strong overrepresentation of flavonoids in the BIODYN system.This is consistent with our molecules of importance, including naringenin and its over-representation in BIODYN plots.
+
+        Tree map image 
+
 #### Molecular networking
-Around 5500 molecules have been found and are represented in the following molecular network. The HCAA group can be found and show also an overreprensentation in the CONMIN plot. 
+Around 5500 molecules have been found and are represented in the following molecular network. 
 
 # Discussion and conclusion 
 These different experiments showed a metabolomic difference between wheat and potatoes from two different farming systems. The results of these experiments have yet to be completed. But these results are encouraging for future metabolomic studies on this site.  
 
-To date, we have been unable to find any explanation for the presence of these stress molecules in wheat and potatoes from the conventional system. Investigations into the metabolism of these compounds and the culture conditions need to be carried out to learn more. We could detect some systhetic substances in the metabolomic content of both crops. However, a check with field technicians is necessary to ensure that the herbicide detected is indeed the one applied to the plants. 
+To date, we have been unable to find any explanation for the presence of these stress molecules in wheat and potatoes from the conventional system. Investigations into the metabolism of these compounds and the culture conditions need to be carried out to learn more. We could detect some systhetic substances in the metabolomic content of both crops from CONMIN system. However, a check with field technicians is necessary to ensure that the herbicide detected is indeed the one applied to the plants. 
 
-Other aspects required further investigation and methodology work. For example, the collection in wild environment were it is not possible to transport liquid nitrogen is still an open question. Plants can be collected and store in silicat gel, but insects, invertebrate, mollucs and other 
+This comparative study has enabled us to establish other important metadata for sample tracking. Our extraction methodologies could be tested on organisms other than plants, and were mostly successful. In addition, some ideas on how to relate our samples to each other have been put forward.  For example, how can we link organism extractions from the macrofauna of a certain soil with the overall metabolism of that soil? Lab applications and bioinformatics pipelines are being fine-tuned to overcome this problem. 
 
-- autres aspects de la transition doivent encore être travailler : 
-    - récolte sans azote liquide
-    - ... 
+Other methodological aspects remain to be worked on. Methodological alternatives for harvesting in the field where it is not possible to take some of our material (such as liquid nitrogen or dry ice) have yet to be worked on. Silica gel drying is possible in certain cases, for plants for example, but cannot be used with insects or other invertebrates for reasons of animal ethics. On-site extraction techniques could be considered to avoid sample degradation during transport and customs clearance problems. 
 
 # References
 
 # question a voir avec PMA 
 - légende image resultat metabo
+- est-ce qu'il faut mettre analyse avec sirius confidence ou l'autre sans ?
 - lien pour voir la treemap belle 
 - previous result ? 
 - référence 
+- réseau moléculaire ? je le trouve pas
+- est-ce que ya des résultats avec l'extraction pour les invertébrés (méthode fonctionne ou pas ?)
 
