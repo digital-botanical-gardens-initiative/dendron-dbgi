@@ -2,18 +2,18 @@
 id: f7t8dhqqnrtoirw7b2cf8sc
 title: Inaturalist_Commented_Observations
 desc: ''
-updated: 1719218205239
+updated: 1719218939466
 created: 1718357911547
 ---
-Aliquots table (*Figure 1*) permits to store the aliquot ID with all the associated metadata:
-- aliquot_id: Format dbgi_xxxxxx_xx_xx (sample) or dbgi_batch_blk_xxxxxx_xx (blank). Child of lab_extract_id format dbgi_xxxxxx_xx (sample) or dbgi_batch_blk_xxxxxx (blank). This ID corresponds to the label of the physical object aliquot.
-- user_created, date_created_user_updated, date_updated: Informations about who created/modified the aliquots informations and when.
-- UUID_aliquot: UUID of the aliquot, generated during creation of the physical object.
-- lab_extract_id: This ID corresponds to the label of the physical object laboratory extract. Provides a link to [[Master-Works.Edouard-Brülhart.Database.Tables.Lab_extracts]] parent.
-- status: Permits to track the status of the aliquot (example: OK, lost, broken, etc.).
-- aliquot_volume_microliter: Stores the volume that has been prelevated in the parent laboratory extract.
-- mobile_container_id: This ID corresponds to the label of a physical mobile container. Provides a link to [[Master-Works.Edouard-Brülhart.Database.Tables.Mobile_containers]] where the aliquot is stored.
+Inaturalist_Commented_Observations table (*Figure 1*) permits to store all iNaturalist observations that have been commented or curated by the community:
+- Inat_Id: The iNaturalist identifier of the observation.
+- jbuf_taxon: The original taxon proposed by the botanical garden.
+- proposed_taxons: If present, the taxon that have been proposed by the iNaturalist community.
+- Comments: If present, the comments posted by the iNaturalist community.
+- inaturalist_url: The iNaturalist URL of the observation.
 
-![image import](assets/images_bruelhed/aliquots.svg)
+This table aims to give a simple and clear interface to check the community curation. It also provides a simple tool to inform botanical gardens of possible errors in labelling. These cases are however very rare. Here you have an example of a community curation: https://www.inaturalist.org/observations/109442139
 
-*Figure 1: Aliquots table structure*
+![image import](assets/images_bruelhed/inat_commented_observations.svg)
+
+*Figure 1: Inaturalist_Commented_Observations table structure*
