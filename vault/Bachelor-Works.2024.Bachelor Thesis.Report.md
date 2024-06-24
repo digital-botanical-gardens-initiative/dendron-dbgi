@@ -816,7 +816,7 @@ Other methodological aspects remain to be worked on. Methodological alternatives
 - légende image resultat metabo
 - est-ce qu'il faut mettre analyse avec sirius confidence ou l'autre sans ?
 - lien pour voir la treemap belle 
-- previous result ? 
+- previous result mettre plus ou ça va? 
 - référence 
 - réseau moléculaire ? je le trouve pas
 - est-ce que ya des résultats avec l'extraction pour les invertébrés (méthode fonctionne ou pas ?)
