@@ -2,7 +2,7 @@
 id: bt0h5gmjdgfcp9felx24csb
 title: Tables
 desc: ''
-updated: 1719213672090
+updated: 1719222249173
 created: 1718357856222
 ---
 
@@ -26,4 +26,4 @@ Here you have a little summary of each table that is present in our database, wi
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Mass_spectrometry_analysis]]:A table that stores all mass spectrometry filename and injection informations.
 - [[Master-Works.Edouard-Brülhart.Database.Tables.SI_units]]: A table that stores all International System units with the corresponding conversions. It permits to call them in all our services in order to define and convert units.
 
-![image import](assets/images_bruelhed/db_schema.svg)*Figure 1: Database structure with links between tables*
+![image import](assets/images_bruelhed/db_schema.svg)*Figure 1: Database structure with links between tables. Tables that have "etc" as last column have been shortened in order to keep a readable figure. These supplementary columns are presented in the corresponding table chapter.*

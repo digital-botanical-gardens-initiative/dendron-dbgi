@@ -2,14 +2,14 @@
 id: qhkperw4qbwptd0yn958bod
 title: Lab_extracts
 desc: ''
-updated: 1719221151523
+updated: 1719222074440
 created: 1718357925201
 ---
 Lab_extracts table (*Figure 1*) permits to store the laboratory extracts ID with all the associated metadata:
 
 - lab_extract_id: Format dbgi_xxxxxx_xx (sample) or dbgi_batch_blk_xxxxxx (blank). Child of field_sample format dbgi_xxxxxx. This ID corresponds to the label of the physical object laboratory extract. The blanks are generated from the batch ID, by adding the *_blk* part.
 
-- user_created, date_created_user_updated, date_updated: Informations about who created/modified the aliquots informations and when.
+- user_created, date_created_user_updated, date_updated: Informations about who created/modified the Lab_extracts informations and when.
 
 - UUID_lab_extract: UUID of the laboratory extract, generated during creation of the physical object.
 
