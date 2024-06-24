@@ -2,58 +2,109 @@
 id: i6scy8dy7a9appqdqvxas6j
 title: Collection
 desc: ''
-updated: 1719212322312
+updated: 1719235756379
 created: 1718557537307
 ---
-Here you can find the actual collection workflow for DBGI and EMI projects. This workflow is separated into three different services: [[Master-Works.Edouard-Brülhart.Services.QGIS]], a desktop application to prepare the collection and to visualize collection afterwards, [[Master-Works.Edouard-Brülhart.Services.QField]], The field application available on IOS and Android and [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]], the cloud service that permits to synce the data altogether.
+Here you can find the actual collection workflow for DBGI and EMI projects. This workflow is separated into three different services:
+
+- ### [[Master-Works.Edouard-Brülhart.Services.QGIS]]
+
+    [[Master-Works.Edouard-Brülhart.Services.QGIS]] (Quantum GIS) is an open source GIS (Geographic Information System) that permits to manage a lot of different geographic data. We use it to display the drone map and to add sample points.
+
+- ### [[Master-Works.Edouard-Brülhart.Services.QField]]
+
+    [[Master-Works.Edouard-Brülhart.Services.QField]] is an advanced mobile GIS application designed to extend the functionality of QGIS into the field. It provides an efficient and robust solution for geospatial data collection, editing, and visualization on mobile devices.
+
+- ### [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]]
+
+    [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]] is a cloud-based service that seamlessly integrates with both QGIS and QField, providing a robust server solution for managing and synchronizing geospatial data across platforms. QFieldCloud serves as the vital link between QGIS on desktop environments and QField on mobile devices, enabling real-time data exchange and collaboration.
 
 ## Before collection
 
-1) If you don't have one, create an account [here](https://emi-collection.unifr.ch/accounts/login/) to have access to [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]].
+1) If you don't have one, create an account [here](https://emi-collection.unifr.ch/accounts/login/) to have access to our[[Master-Works.Edouard-Brülhart.Services.QFieldCloud]] self-hosted instance.
 
-2) [Download](https://qgis.org/fr/site/forusers/download.html) QGIS and install the QField Sync and DBGI plugins under *Plugins/Manage and Install Plugins/QField Sync/Install Plugin*. Enter your [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]] login to make the link with the server and retrieve projects.
+2) [Download](https://qgis.org/fr/site/forusers/download.html) QGIS and install the QField Sync and DBGI plugins under *Plugins/Manage and Install Plugins*. Enter your [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]] login to make the link with the server and retrieve projects.
 
-3) In QGIS to *Plugins/QFieldSync/QFieldCloud Projects Overview*, clik on the project you want and *synchronize*. A new page will open, select *Prefer Cloud* and control that all the ticks are under the little cloud ont the window above. Then click *Perform Actions*.
+3) In [[Master-Works.Edouard-Brülhart.Services.QGIS]], go to *Plugins/QFieldSync/QFieldCloud Projects Overview*, clik on the project you want and *synchronize*. A new page will open, select *Prefer Cloud* and control that all the ticks are under the little cloud ont the window above. Then click *Perform Actions* (*Figure 1*).
 
-4) When the project is loaded, go to *Vector/EMI/
+![Build settings orthomosaic](assets/images/QGIS_synchronisation.png)*Figure 1: How to obtain the synchronized QGIS project*
 
-![Build settings orthomosaic](assets/images/QGIS_synchronisation.png){max-width : 600px, display: block, margin: 0 auto}*How to obtain the synchronized QGIS project*
+4) If you don't have a collection layer, you can create one by going to *Plugins/QFieldSync/Synchronize Current Cloud Project* and select *Prefer cloud*, then hit *Perform Actions*. This will take the last changes from the server. Then go to *Vector/EMI/Create an EMI geopackage*. Choose the project code that is suited for your project(if you don't have one you can create one [here](http://directus.dbgi.org/admin/content/EMI_codes)). Then enter the name you want to give to the layer. Choose the identification layer and column, the collector layer and column and the observation_subject layer and column. Click OK and you should see your newly created layer, ready for collection.
 
-Now you have the project synced. If you want to upload changes from QGIS to the server, you can choose *Prefer Local* and if you want to download changes from server to QGIS, you can choose *Prefer Cloud* from Synchronizing project window.
+Now you have the project synced. If you want to upload changes from QGIS to the server, you can choose *Prefer Local* and if you want to download changes from server to QGIS, you can choose *Prefer Cloud* from Synchronizing project window. !!! Use *Prefer Local* carafully, if there is changes in the cloud that haven't been synced with the local project, these informations will be lost !!!
+
+## Manage collection application
+
+1) Download QField for QGIS on the appstore/playstore
+
+- IOS: [QField for QGIS IOS](https://apps.apple.com/us/app/qfield-for-qgis/id1531726814)
+- Android: [QField for QGIS Android](https://play.google.com/store/apps/details?id=ch.opengis.qfield&pli=1)
+
+Alternatively, on Androids, you can download the APK file from [https://github.com/opengisch/QField/releases](https://github.com/opengisch/QField/releases)
+
+**Make sure to accept these following permissions to make QField work properly: "Camera", "Pictures and videos" and "Location"**
+
+2) Open the application and login to QFieldCloud:
+
+- Go to QFieldCloud projects. Double tap on the bee logo, a new field called "Server URL" will appear. Fill it with "https://emi-collection.unifr.ch" and enter you username and password you used to register on [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]].
+- Click Sign In.
+- Once signed in, go to Community and click on your project. It will download it.
+- Once project is downloaded, you can click again to open it and see the map.
+
+3) Synce the project to obtain the latest version. It will take the latest files on the server and store it locally on your phone. Normally, if some modification are available on the cloud, you should have an exclamation mark inside the blue cloud:
+
+- After opening the project, click on the blue cloud
+
+- Then hit Synchronize
+
+3) Add features:
+
+- Select the layer you want to edit and pass in editing mode (*Figure 1*).
+
+- Optionnaly, you can activate the GPS location to locate you approximatively on the field.
+
+- When you point the plant location, tap on the "plus" button. This will make appear a form that you can fill.
+
+4) Fields to fill:
+
+- collector_fullname corresponds to your name. If you are not in the list, you can add yourself by filling the "collector_list" layer (same process as above). Check the box on the right to keep the selection between observations.
+
+- observation_subject corresponds to the organ/part of the specimen you want to collect. If you don't find a correct term, you can add it by filling the "observation_subject" layer. Check the box on the right to keep the selection between observations.
+
+- inat_upload is a tick button that allows you to choose whether your observation has to be uploaded on iNaturalist or not. This option is ticked by default. Example cases when this button has to be unticked: non-living samples (soil, water, ..) or multiple macroscopic species (20x20cm whole sampling for example). Check the box on the right to keep the selection between observations.
+
+- is_wild is a tick button that allows you to chooss whether the specimen you want to collect is wild or captive.
+
+- taxon_name field corresponds to the scientific name of the plant (open form where you can search on). If you are unsure or you don't know the species no worry, it's why we upload the observations on iNaturalist.
+
+- no_name_on_list is a tick button you can tick if the specimen you are observing is not present on the taxon_name list. It will make appear a field called name_proposition where you can write free text to identify the specimen
+
+- sample_id is the code sticked on the tube. You can scan it by clicking on the 3 dots.
+
+- Then you have 5 (+1 optional if needed) pictures to take of the species, one of the specimen label (if available), one in general, one of the plant's details (flowers or remarkable details that permit identification), one where you cut and one with the species label (if availabe) and the dbgi code on the tube.
+
+- The form contains two more tabs containing individual and environmental fields. These fields are optional. You can choose to fill them or not, following the results you want to obtain. You have free comments in these tabs, so if you want to add informations on the samples, you can add them here ("comment_eco" and "comment_env")
+
+- Once done, the upper of the form should be green, and you can add you observation to the project by clicking on the tick in the upper left corner.
+
+- Now you can collect the sample and put it in a tube. If you don't know how to do it, you can follow this guide: [[Bioblitz.Vinesch-Bioblitz.prelevation-protocol]]
+
+- You have done your first observation!
+
+5) Alternative to specimen collection
+
+There is also observation layers (finish by _obs). These layers are made to observe specimens that can't be collected (vertebrates, protected species, ...). They will then be uploaded to iNaturalist and enter the database to possibly collect them during another collection process.
+
+6) Upload your features:
+
+**This system works offline, so each time you finish your collection, you need to update the project on the server.**
+
+- Click on the little cloud and click on "push modifications". 
+- Wait until all is synced. Finished!
+
+![QField interface](assets/images/QField_settings.png)*Figure 1: How to use collection application*
+
+## Collect samples
 
 
-
-
-### [[Master-Works.Edouard-Brülhart.Services.QGIS]]
-
-QGIS ([[Bachelor-Works.Edouard-Brülhart.biblio._g]]) is an open source Geographic Information Software that permits to manage a lot of different geographic data. We use it to display the drone map and to add sample points.
-
-To add points, we make a new vector point layer for each sampling period. For now, Two batches are available, one for the SBL.20004 curse and one for this Bachelor Work.
-
-### [[Master-Works.Edouard-Brülhart.Services.QField]]
-
-#### Creation of a new point layer 
-
-This step has not been tested from another computer as the one who host the project. If you can't create a new layer by your own, please contact edouard.bruelhart@unifr.ch to find a solution.
-
-Before going to sample on the field, we have to create a new layer for the harvesting :
-
-- Right click on the *Other samples* layer in QGIS, *Export/Save Feature As*. On the *Save Vector Layer as...* choose the GeoPackage Format, in the File name add the layer in "C:\Users\edoua\QField\cloud\dbgi". Tick the *Replace all selected raw field values by displayed values* and then click *OK*.
-- Go to *Project/Properties/Relations* and click *Add Relation* in the bottom. In the Referenced field enter *Species list QGIS* and select the field *idTaxon*. In the Referencing field entre *Name of your new layer* and select the field *Plant_ID*. Set the Relation strength to *Association* and then confirm by *OK*. Click on the bottom of Project Properties *Apply* and then *OK*.
-- Right click on your new layer *Properties/Attribute Form* and renseign the field like in the the *other samples* layer, exept in *Plant_ID* field where you have to select the relation you created.
-- Upload the changes with the *QFieldSync* plugin.
-
-#### Utilisation on the field
-
-1) Download the QField [application](https://play.google.com/store/apps/details?id=ch.opengis.qfield). For now, only Android smartphones are available, but an IOS application seems to be in progess.
-
-2) Open the application and login to QFieldCloud.
-
-3) Go to *QFieldCloud Projects* and select the DBGI one to download on the smartphone. This step can take several minutes.
-
-4) When the project is open, go to the left menu and select your layer. Then click on the pencil at the top right to pass in edition mode. You can now add the harvested samples by searching and selecting it in the Plant_ID. Don't forget to add the DBG sample code. All the other fields will be automatically filled. If, for any reason, the sample is not available in this field, select *aaunknown* parameter and fill the *unknown* field with the name of the sampled plant.
-
-5) After the sample cession, reopen the left menu and click on the cloud. You just have to select *Push the modifications* to upload the modifications made on the server. You can then download them to the QGIS project on the computer.
-
-6) To obtain the location data, you just have to right click on the updated layer with the points on QGIS *Export/Save Feature As/CSV Format* and choose the location of the CSV.
 
