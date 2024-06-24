@@ -2,7 +2,7 @@
 id: wa0r6af9zkfrpejj600lga0
 title: iNaturalist
 desc: ''
-updated: 1718360806423
+updated: 1718558138365
 created: 1718357899194
 ---
 We use [iNaturalist](https://www.inaturalist.org/home) to resolve or confirm taxons of specimens we collect for the DBGI project, and more generally for the EMI project.
@@ -22,5 +22,3 @@ We can create projects with a delimited area where each added plant will automat
 The iNaturalist import is made automatically using collection informations from the [[Master-Works.Edouard-Brülhart.Services.QField]] collection application.
 
 The [[Master-Works.Edouard-Brülhart.Scripts.Python.Pictures_manager]] python script retrieves collection metadata from [[Master-Works.Edouard-Brülhart.Services.QFieldCloud]] server and generates pictures with all needed metadata for iNaturalist. Then, the [[Master-Works.Edouard-Brülhart.Scripts.Python.iNaturalist_import_bot]] python script will automatically upload these pictures in iNaturalist and generate the observations.
-
-[[Master-works]]
