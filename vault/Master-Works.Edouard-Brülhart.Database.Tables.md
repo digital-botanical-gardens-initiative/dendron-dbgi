@@ -2,11 +2,11 @@
 id: bt0h5gmjdgfcp9felx24csb
 title: Tables
 desc: ''
-updated: 1718358878757
+updated: 1719213672090
 created: 1718357856222
 ---
 
-Here you have a little summary of each table that is present in our database:
+Here you have a little summary of each table that is present in our database, with the corresponding structure in the database (*figure 1*):
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Emi_codes]]: A table that stores all EMI projects informations. It permits to organize all these projects in the database and different services.
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Universities]]: A table that stores all universities involved in this project.
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Labels]]: A table that stores all the sample labels we generate using the [[Master-Works.Edouard-Brülhart.Scripts.Python.label-creator]] software. This permits to only obtain unique labels to avoid duplicate samples for each project.
@@ -25,3 +25,5 @@ Here you have a little summary of each table that is present in our database:
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Mass_spectrometers]]: A table that stores all mass spectrometers involved in the project.
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Mass_spectrometry_analysis]]:A table that stores all mass spectrometry filename and injection informations.
 - [[Master-Works.Edouard-Brülhart.Database.Tables.SI_units]]: A table that stores all International System units with the corresponding conversions. It permits to call them in all our services in order to define and convert units.
+
+![image import](assets/images_bruelhed/db_schema.svg)*Figure 1: Database structure with links between tables*
