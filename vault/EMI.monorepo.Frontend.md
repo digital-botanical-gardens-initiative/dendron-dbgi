@@ -1,6 +1,6 @@
 ---
 id: 6sunjqumyp68ibjz7e4tx42
-title: Frontend
+title: frontend
 desc: ''
 updated: 1719323428789
 created: 1719316421481
