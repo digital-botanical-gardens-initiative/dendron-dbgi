@@ -2,10 +2,9 @@
 id: xvxsf3dxv17ajlxffib7pfy
 title: Connection
 desc: ''
-updated: 1719397107634
+updated: 1719397332465
 created: 1719393249669
 ---
-## [[Master-Works.Edouard-Brülhart.Laboratory.Laboratory Application.Connection]]
 
 Here you have the detailed behaviour of the laboratory application's connection page.
 
