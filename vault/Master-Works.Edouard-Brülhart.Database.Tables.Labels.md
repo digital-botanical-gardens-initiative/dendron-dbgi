@@ -5,7 +5,7 @@ desc: ''
 updated: 1719221891481
 created: 1718357872632
 ---
-Labels table (*Figure 1*) permits to create and reserve labels for the collection. These labels are created using the [[Master-Works.Edouard-Brülhart.Scripts.Python.label-creator]] software:
+Labels table (*Figure 1*) permits to create and reserve labels for the collection. These labels are created using the [[Master-Works.Edouard-Brülhart.Services.label-creator]] software:
 
 - field_sample_id: Format dbgi_xxxxxx. 
 

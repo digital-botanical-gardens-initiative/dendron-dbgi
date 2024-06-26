@@ -12,7 +12,7 @@ Here you have a little summary of each table that is present in our database, wi
 
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Universities]]: A table that stores all universities involved in this project.
 
-- [[Master-Works.Edouard-Brülhart.Database.Tables.Labels]]: A table that stores all the sample labels we generate using the [[Master-Works.Edouard-Brülhart.Scripts.Python.label-creator]] software. This permits to only obtain unique labels to avoid duplicate samples for each project.
+- [[Master-Works.Edouard-Brülhart.Database.Tables.Labels]]: A table that stores all the sample labels we generate using the [[Master-Works.Edouard-Brülhart.Services.label-creator]] software. This permits to only obtain unique labels to avoid duplicate samples for each project.
 
 - [[Master-Works.Edouard-Brülhart.Database.Tables.Mobile_containers]]: A table that stores all mobile containers labels. It permits to have unique labels for mobile containers and thus track all our samples.
 

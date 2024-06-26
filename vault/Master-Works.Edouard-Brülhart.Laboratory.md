@@ -2,7 +2,7 @@
 id: 4u9167irz9kzo0w3noogs2t
 title: Laboratory
 desc: ''
-updated: 1719392625372
+updated: 1719408222679
 created: 1718557636202
 ---
 Here you can find laboratory processes coming after [[Master-Works.Edouard-Brülhart.Collection]].
@@ -43,6 +43,12 @@ This extraction protocol is the classical one for the DBGI project. However, our
 
 The aliquot object is the one that will be injected. It permits to keep the extract in the freezer to limit contaminations and degradations. To proceed, a defined volume of the extract is prelevated and put in another vial containing an insert.
 
-## [[Master-Works.Edouard-Brülhart.Laboratory.Laboratory Application]]
+## [[Master-Works.Edouard-Brülhart.Mass-spectrometry]]
 
-All this process is made using a [[Master-Works.Edouard-Brülhart.Laboratory.Laboratory Application]] that permits to collect metadata, to track samples and to print labels.
+Once aliquots are made, they can be analyzed with a mass spectrometer.
+
+
+## [[Master-Works.Edouard-Brülhart.Services.Laboratory Application]]
+
+All this process is made using a [[Master-Works.Edouard-Brülhart.Services.Laboratory Application]] that permits to collect metadata, to track samples and to print labels.
+

@@ -5,7 +5,7 @@ desc: ''
 updated: 1719232169444
 created: 1718357879273
 ---
-Static_container table (*Figure 1*) permits to create and reserve labels for the static containers. These labels are created using the [[Master-Works.Edouard-Brülhart.Scripts.Python.label-creator]] software:
+Static_container table (*Figure 1*) permits to create and reserve labels for the static containers. These labels are created using the [[Master-Works.Edouard-Brülhart.Services.label-creator]] software:
 
 - container_id: Format container_static_xxxxxx.
 

@@ -5,7 +5,7 @@ desc: ''
 updated: 1719232582409
 created: 1718357868460
 ---
-University table (*Figure 1*) permits to store universities that are part of the EMI project. They are added using the [[Master-Works.Edouard-Brülhart.Scripts.Python.label-creator]] software:
+University table (*Figure 1*) permits to store universities that are part of the EMI project. They are added using the [[Master-Works.Edouard-Brülhart.Services.label-creator]] software:
 
 - University_name: Name of the university. Provided by this API: https://github.com/Hipo/university-domains-list-api
 

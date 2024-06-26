@@ -5,7 +5,7 @@ desc: ''
 updated: 1719229134939
 created: 1718357875950
 ---
-Mobile_container table (*Figure 1*) permits to create and reserve labels for the mobile containers. These labels are created using the [[Master-Works.Edouard-Brülhart.Scripts.Python.label-creator]] software:
+Mobile_container table (*Figure 1*) permits to create and reserve labels for the mobile containers. These labels are created using the [[Master-Works.Edouard-Brülhart.Services.label-creator]] software:
 
 - container_id: Format container_8x3_xxxxxx, with 8x3 the number of columns and rows, with bigger value first. This information permits to check the filling status of the container.
 
