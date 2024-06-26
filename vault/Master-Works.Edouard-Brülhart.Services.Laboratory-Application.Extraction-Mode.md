@@ -2,7 +2,7 @@
 id: 1yrhcmefwr4nn76nmz8r6c3
 title: Extraction-Mode
 desc: ''
-updated: 1719403593695
+updated: 1719404343943
 created: 1719393165022
 ---
 
@@ -23,3 +23,5 @@ After the scan of a valid vial box, the user has to scan a valid solvent batch, 
 The user can now begin to scan the extracts to print labels for the extract vial (*Figure 5*).
 
 ![ready](assets/images_bruelhed/extraction_mode_ready.png)*Figure 5: Laboratory application's extraction mode when user is ready to scan samples*
+
+[[Master-Works.Edouard-Brülhart.Services.Laboratory-Application]]
