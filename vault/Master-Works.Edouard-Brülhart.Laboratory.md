@@ -2,7 +2,7 @@
 id: 4u9167irz9kzo0w3noogs2t
 title: Laboratory
 desc: ''
-updated: 1719303680577
+updated: 1719392625372
 created: 1718557636202
 ---
 Here you can find laboratory processes coming after [[Master-Works.Edouard-Brülhart.Collection]].
@@ -25,8 +25,24 @@ To prepare for extraction, samples are then crushed. Until 50 milligrams of dry 
 
 ## Extraction
 
+After weighting, samples need to be extracted. The extraction process we use is the following:
 
+- 0.5, 1 or 1.5ml of mix 80% methanol, 20% distillated water ans 0.1% formic acid is added (depending on the original weight).
 
+- Second ballmill to maximize extraction.
 
+- Centrifugated 2 minutes at 13'000RPM
+
+- 1.4ml of supernatent is prelevated and stored in 1.5ml vials with non split caps.
+
+- Storage at -80°C.
+
+This extraction protocol is the classical one for the DBGI project. However, our tracking system permits to add other protocols for different purposes (for example bigger extractions than 1.5ml).
 
 ## Aliquot
+
+The aliquot object is the one that will be injected. It permits to keep the extract in the freezer to limit contaminations and degradations. To proceed, a defined volume of the extract is prelevated and put in another vial containing an insert.
+
+## [[Master-Works.Edouard-Brülhart.Laboratory.Laboratory Application]]
+
+All this process is made using a [[Master-Works.Edouard-Brülhart.Laboratory.Laboratory Application]] that permits to collect metadata, to track samples and to print labels.
