@@ -1,9 +1,9 @@
 ---
-id: qzkz3q0dtvn2knx3hnor144
-title: Report
+id: 7mjc9xys8nfuytzros2w0jy
+title: report
 desc: ''
-updated: 1719154918829
-created: 1718028111500
+updated: 1719487438372
+created: 1719487425124
 ---
 # Abstract 
 The transition from the Digital Botanical Garden Initiative (DBGI) pilot project to the main Earth Metabolome Initiative (EMI) is a very important step towards adapting our collection and extraction methods to a wider spectrum of organisms or groups of specimens. 
