@@ -6,4 +6,4 @@ updated: 1719487425247
 created: 1718355670082
 ---
 
-[[Bachelor-Works.Héloïse-Coen.Thesis.report]]
+[[Bachelor-Works.Héloïse-Coen.Bachelor Thesis.report]]
