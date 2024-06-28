@@ -2,7 +2,7 @@
 id: 7mjc9xys8nfuytzros2w0jy
 title: report
 desc: ''
-updated: 1719492174207
+updated: 1719496494304
 created: 1719487425124
 ---
 # Abstract 
@@ -372,20 +372,22 @@ The link to directus are only available with a directus account and using the vp
 #### Untargeted analysis
 The results of unsupervised statistics show a clustering by taxonomy. This show us that the biggest difference in term of metabolomic content is coming from the difference in between the species. 
 
-![](/assets/images/2024-06-21-16-38-47.png)*PCA for dataset fibl_pilot_pos. Comparison across all source_taxon. 
+![](/assets/images/2024-06-21-16-38-47.png)
+
+*PCA for dataset fibl_pilot_pos. Comparison across all taxa. 
 
 The unsupervised results for wheat alone do not show clustering by cropping system either. 
 
-![](/assets/images/2024-06-21-16-43-35.png)*PCA for dataset fibl_pilot_pos. Comparison across biodynamic vs conventional purely mineral fertilization. Filter taxon  _Triticum aestivum_ only. Scaled graph. 
+![](/assets/images/2024-06-21-16-43-35.png)*PCA for dataset fibl_pilot_pos. Comparison across biodynamic vs conventional purely mineral fertilization. Filter taxon  _Triticum aestivum_ only. 
 
 However, for _Solanum tuberosum_ a difference is already visible in the unsupervised statistics. Two distinct clusters are formed according to cultivation methods. 
 
-![](/assets/images/2024-06-21-16-51-10.png)*PCA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Solanum tuberosum_ . Filter Variable Metadata Status : above sirius confidencescore. Scaled graph. 
+![](/assets/images/2024-06-21-16-51-10.png)*PCA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Solanum tuberosum_ . Filter Variable Metadata Status : above sirius confidencescore (0.5). 
 
 #### Supervised analysis
 Supervised statistic, with maximizing the difference based on the farming system, a clustering by BIODYN and CONMIN appears in the wheat samples analysis. The metabolomic content is not the same in the wheat crops that are growing in different farming system. 
 
-![](/assets/images/2024-06-23-16-08-58.png)*PLSDA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Triticum aestivum_. Filter Variable Metadata Status : above sirius confidencescore. Scaled graph. 
+![](/assets/images/2024-06-23-16-08-58.png)*PLSDA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Triticum aestivum_. Filter Variable Metadata Status : above sirius confidencescore (0.5). 
 
 By looking the molecules that are causing this difference in the wheat crop we can spot some endogen molecules such as pipecolic acid and also exogenous molecules such as the metribuzin which is a well know herbicide. Both of this molecules are present in the CONMIN system. First molecule of importance is the pipecolic acid that is required for the systemic acquired resistance in plant and overrepresented in the CONMIN farming system. 
 
@@ -393,7 +395,7 @@ By looking the molecules that are causing this difference in the wheat crop we c
 
 Although the differences were already visible with the unsupervised statistics, we can also observe a clear clustering of _Solanum tuberosum_ by farming system in the supervised analysis. 
 
-![](/assets/images/2024-06-23-16-31-02.png)*PLSDA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Solanum tuberosum_ . Filter Variable Metadata Status : above sirius confidencescore. Scaled graph. 
+![](/assets/images/2024-06-23-16-31-02.png)*PLSDA for dataset fibl_pilot_pos. Comparison across method biodynamic vs conventional purely mineral fertilization. Filter taxon _Solanum tuberosum_ . Filter Variable Metadata Status : above sirius confidencescore (0.5). Scaled graph. 
 
 The naringenin is the first component of importance in the PLSDA of potatoes analysis and is overrepresented in the BIODYN system. This flavonoid is an antioxidant molecule know to have good effect on human health (Venkateswara Rao P, SDVS Kiran, Rohini P and Bhagyasree P. Flavonoid: A review on Naringenin. J Pharmacogn Phytochem 2017;6(5):2778-2783.) Other studies present naringenin as a molecule capable of activating certain resistance genes against pathogens in certain plants (https://doi.org/10.3389/fpls.2021.672552). 
 
@@ -422,11 +424,19 @@ Other methodological aspects remain to be worked on. Methodological alternatives
 # References
 
 # question a voir avec PMA 
-- légende image resultat metabo
-- est-ce qu'il faut mettre analyse avec sirius confidence ou l'autre sans ?
-- lien pour voir la treemap belle 
-- previous result mettre plus ou ça va? 
-- référence 
-- réseau moléculaire ? je le trouve pas
-- est-ce que ya des résultats avec l'extraction pour les invertébrés (méthode fonctionne ou pas ?)
+- [x] légende image resultat metabo
+- [x] est-ce qu'il faut mettre analyse avec sirius confidence ou l'autre sans ?
+- [x] lien pour voir la treemap belle 
+Example 
+
+https://www.earthmetabolome.org/fibl-metabolomics/fibl-pilot/fibl_pilot_pos/results/stats/99b2a72d5cd098e87bf07c559869e13a/Treemap_biodynamique_vs_conventional%20purely%20mineral%20fertilization_quan.html
+
+https://www.earthmetabolome.org/fibl-metabolomics/fibl-pilot/fibl_pilot_pos/results/stats/a980012090dbe43a64bec1352f48872c/Treemap_biodynamique_vs_conventional%20purely%20mineral%20fertilization_quan.html
+
+- [ ] previous result mettre plus ou ça va? 
+- [ ] référence 
+- [x] réseau moléculaire ? je le trouve pas
+
+
+- [ ] est-ce que ya des résultats avec l'extraction pour les invertébrés (méthode fonctionne ou pas ?)
 
