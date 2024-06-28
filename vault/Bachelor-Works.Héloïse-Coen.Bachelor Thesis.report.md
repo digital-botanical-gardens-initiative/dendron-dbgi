@@ -2,7 +2,7 @@
 id: 7mjc9xys8nfuytzros2w0jy
 title: report
 desc: ''
-updated: 1719492174207
+updated: 1719516911341
 created: 1719487425124
 ---
 # Abstract 
@@ -176,13 +176,7 @@ The 20cm X 20cm square is draw on the ground using a measuring tape. The locatio
 During the collect the zip-lock partially destroyed in liquid nitrogen. after further test we dicide that paper bag should be use for the liquid nitrogen and the dry-freezer for the next collect. But zip lock are indispensable after the lyophilization to keep the sample dry. 
 
 ##### Extraction 
-The entire contents of the zip-lock are transferred to a paper bag and put in the dry-freezer for 72 hours. If necessary, additional time in the dry-freezer should be applied as the samples must be very dry. 
-
-After lyophilization all the sample are weighted. They are then placed in a blender with a proportional amount of 200ml/40g of the dbgi extraction mix. The plants are blended until a homogeneous fluid is obtained. Six grams of this fluid are set apart in a falcon tube and 34 milliter of the dbgi mix are added to reconstitute the ratio of dbgi extraction. A second tube is completely filled with plant extract and stored at -80°C for future extractions.
-
-Alternately the sample can be dry crushed in the blender and store as a dry powder. The dbgi mix can be add to the powder in the right proportion. This is the preferred option, as it is much faster. But can only be applied to completely dry samples. 
-
-1700 microliters are then taken and placed in an Eppendorf tube. The Eppendorf tube are centrifuged. The supernatant is reserve in a vial tube and further extraction and analysis is carried out as described in the dbgi methodology. 
+s
 
 #### Result 
 ##### Emi_id of the sample and directus link (lab extract)
@@ -408,7 +402,7 @@ Potato crops show a strong overrepresentation of flavonoids in the BIODYN system
         Tree map image 
 
 #### Molecular networking
-Around 5500 molecules have been found and are represented in the following molecular network. 
+Around 5600 spectra have been found and are represented in the following molecular network. 
 
 # Discussion and conclusion 
 These different experiments showed a metabolomic difference between wheat and potatoes from two different farming systems. The results of these experiments have yet to be completed. But these results are encouraging for future metabolomic studies on this site.  
