@@ -2,7 +2,7 @@
 id: 6nza83uq5nwts16z6oh6egu
 title: Cedar
 desc: ''
-updated: 1719403435555
+updated: 1719912866236
 created: 1719392040347
 ---
 
@@ -89,3 +89,63 @@ https://github.com/metadatacenter
 - Populated (used) the Template to register a new entity in the project
 
 Next Action: explore how to organize/represent a scientific project
+
+### Benefits of Using CEDAR
+1. Standardized Templates: CEDAR allows users to create and use metadata templates that are consistent and reusable.
+2. User-Friendly Interface: CEDAR provides a graphical user interface that is easy to use.
+3. Controlled Vocabularies: It integrates with various controlled vocabularies and ontologies, which helps in standardizing the terms used in metadata.
+4. Collaboration and Sharing: CEDAR supports collaborative metadata management, allowing multiple users to work on the same metadata templates. It also facilitates the sharing of templates and metadata within and across organizations.
+5. Compliance with Standards: CEDAR supports various metadata standards, making it easier for organizations to comply with data management regulations and requirements specific to their field.
+6. Integration Capabilities: The tool can be integrated with other data management systems, thereby streamlining the process of metadata creation linked directly to data collection and analysis tools.
+
+### Limitations of Using CEDAR
+1. Learning Curve: While CEDAR is designed to be user-friendly, new users may still face a learning curve in understanding how to best utilize all its features and capabilities.
+2. Dependency on Internet: Being a web-based tool, CEDAR can be a limitation in low-bandwidth environments.
+3. Performance Issues: With large datasets or complex metadata schemas, users might experience performance issues such as slower response times.
+4. Customization Limits: While CEDAR is quite flexible, there may be limitations in terms of deep customization for specific organizational needs or unique metadata standards not yet fully supported by the platform.
+5. Maintenance and Support: Depending on the deployment model (e.g., hosted by Stanford or self-hosted), there might be issues related to maintenance, updates, and user support.
+6. Data Security and Privacy: For sensitive data, organizations need to consider the security measures in place, especially since metadata management often involves handling data that might be confidential or subject to privacy regulations.
+
+**CEDAR primarily focuses on the creation, management, and use of metadata templates, rather than functioning as a comprehensive ELN-LIMS or data repository for actual datasets.**
+
+#### CEDAR's Core Functions
+1. Metadata Template Creation: CEDAR enables the design and customization of metadata templates according to various standards and personal research needs. This is crucial for ensuring that all necessary metadata is systematically collected and standardized across different projects or studies.
+2. Metadata Management: It provides tools for managing and editing metadata, facilitating consistency and compliance with established data standards.
+3. Integration with Controlled Vocabularies and Ontologies: CEDAR integrates with existing controlled vocabularies and ontologies, which help in standardizing the metadata entries for accuracy and interoperability.
+
+### Limitations Regarding Data Handling
+- Data Storage: **CEDAR is not designed to store raw data files like FASTQ files, which are typically large and require specialized data storage solutions.**
+- Data Analysis: **It does not provide tools for analyzing raw data or performing computational tasks on datasets.**
+
+### Alternatives for Data Storage and Analysis
+For a project involving RNAseq analysis, you would use other tools and platforms in conjunction with CEDAR for a complete data management solution:
+1. Data Storage and Management:
+    - NCBI SRA (Sequence Read Archive): For uploading and storing FASTQ files. It’s widely used for archival and sharing of sequence data.
+    - ENA (European Nucleotide Archive): Another repository for storing FASTQ files, which provides access to a comprehensive record of the world's nucleotide sequencing information.
+    - GenomeSpace: A platform that provides storage and facilitates the integration of genomic data analysis tools.
+2. Data Analysis:
+    - Galaxy: An open-source, web-based platform for accessible, reproducible, and transparent computational biological research.
+    - Bioconductor: A project providing tools for the analysis and comprehension of high-throughput genomic data.
+
+### Integrating CEDAR with Data Management Workflows
+Even though CEDAR doesn’t handle raw data files directly, it plays a critical role in ensuring that the metadata associated with those files is thoroughly and consistently documented. This metadata can then be linked to the datasets stored in repositories like NCBI SRA or ENA, enhancing the traceability, reproducibility, and usability of the research data.
+
+VIDEO: [Making Metadata with CEDAR](https://www.youtube.com/watch?v=Inyf5hOCwAU)
+
+### The CEDAR API
+The [CEDAR API](https://more.metadatacenter.org/tools-training/cedar-api) is a web-based service hosted by the CEDAR team (access through HTTP requests).
+
+One can interact with the CEDAR API using any programming language that supports HTTP requests, such as Python, JavaScript, or Java. Steps to Access and Use the CEDAR API.
+
+1. Create a CEDAR Account
+1. Get an API Key
+3. Choose the Tool:
+    - Decide on the programming environment or tool to make HTTP requests:
+      - Python: Using libraries like requests or http.client.
+      - JavaScript: Using fetch API or libraries like axios for Node.js or browser-based applications.
+      - CURL: A command-line tool that can be used directly from your terminal to make HTTP requests.
+4. Make API Requests:
+- With the API key and chosen tool, one can start making HTTP requests to the CEDAR API.
+- One will use the base URL for the API and append endpoints for specific functionalities like creating templates, uploading elements, etc.
+
+Documentation: [CEDAR REST API  GIT REPO](https://github.com/metadatacenter-attic/cedar-docs/wiki/CEDAR-REST-APIs)
