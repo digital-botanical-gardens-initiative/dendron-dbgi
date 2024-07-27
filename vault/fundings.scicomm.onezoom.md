@@ -2,12 +2,12 @@
 id: zbmm9gl1vluxbkzxj756btd
 title: fundings-scicomm-onezoom
 desc: ''
-updated: 1722096076757
+updated: 1722099340190
 created: 1720775551812
 traitIds:
   - fundings.SciComm
 ---
-Meeting (09/07/2024) with James from OneZoom, Disha
+Meeting (19/07/2024) with James from OneZoom, Disha
 
 1. Tabs that will be included on OneZoom: iNaturalist. Github issues created.
    Tabs that will not be included: Wikidata (because the content of the wikidata-specific page directs to multiple other links, which may not be useful for the viewers), SPARQL end-point for the knowledge graph from EMI/DBGI (becuase it is not intuitive for the viewers at a first glance). Both these entities will be included as links in a general page for OneZoom species.
