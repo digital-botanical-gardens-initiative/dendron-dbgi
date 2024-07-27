@@ -2,12 +2,21 @@
 id: zbmm9gl1vluxbkzxj756btd
 title: fundings-scicomm-onezoom
 desc: ''
-updated: 1720779933634
+updated: 1722096076757
 created: 1720775551812
 traitIds:
   - fundings.SciComm
 ---
-Meeting (09/07/2024) with James from OneZoom, Pierre-Marie, Disha and Emmanuel
+Meeting (09/07/2024) with James from OneZoom, Disha
+
+1. Tabs that will be included on OneZoom: iNaturalist. Github issues created.
+   Tabs that will not be included: Wikidata (because the content of the wikidata-specific page directs to multiple other links, which may not be useful for the viewers), SPARQL end-point for the knowledge graph from EMI/DBGI (becuase it is not intuitive for the viewers at a first glance). Both these entities will be included as links in a general page for OneZoom species.
+2. Sponsorship option available for interested 'citizens'.
+3. Separate trees for selected branches can be made. James will let us know if they will make the Kiosk display.
+4. Work on EMI website to advance the user-journey. Embedded link in the EMI website?
+
+
+Meeting (09/07/2024) with James from OneZoom
 
 1. There are currently 2 mio species on OneZoom. They want to expand on gneomic data, biomass, chemodiv etc. The code is on github, so it is free to be re-used in whatever way we want.
 2. How many species to be presented on the OneZoom tree? We have ~37,000 from lotus and ~1690 from enpkg for which we have chemodiv records.
