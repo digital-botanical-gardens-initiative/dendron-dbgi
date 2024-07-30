@@ -1,0 +1,29 @@
+<h1 id="17">17<a aria-hidden="true" class="anchor-heading icon-link" href="#17"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.07.17</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul>
+<li>Effectively write an entry in <a href="https://github.com/digital-botanical-gardens-initiative/dendron-dbgi">Dendron DBGI</a>.</li>
+<li>Write notes regarding the (partial) use or inspiration to of the following resources for the Earth Metabolome KG:
+<ul>
+<li><a href="https://arxiv.org/abs/2307.05727">PheKnowLator</a></li>
+<li><a href="https://arxiv.org/abs/2212.13543">BioCypher</a></li>
+<li><a href="https://academic.oup.com/bioinformatics/article/39/7/btad418/7211646">KG-Hub</a></li>
+</ul>
+</li>
+<li>Verify whether <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372416/">BioLink</a> comes with the support of biological samples.</li>
+</ul>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li>What you are currently reading is my first entry in Denron DBGI.</li>
+<li><a href="https://arxiv.org/abs/2212.13543">BioCypher</a> and <a href="https://arxiv.org/abs/2307.05727">PheKnowLator</a> are primarily pipelines in Python for combining KGs. We need an efficient and robust pipeline to <strong>create</strong> a KG from scratch, and first thing first Python is likely not the suitable candidate for such objectives, altough it is okay when one needs to smash things togheter. The objective of the Earth Metabolome KG is not to compose through ETL several existing ontologies and KGs, but to create a new KG from the metabolomic data and its metadata. While it is vital for the long term viability of these data to be compatible with the existing ontologies and graphs by following the naming conventions for species for instance from the likes of <a href="https://www.ncbi.nlm.nih.gov/taxonomy">NCBITaxon</a>, it is not the goal of this KG to ingest them. The Earth Metabolome KG is not a KG of KGs, it is a KG of metabolomic data, that may be included in several other KGs.</li>
+<li><a href="https://academic.oup.com/bioinformatics/article/39/7/btad418/7211646">KG-Hub</a> is similar in nature to the aforementioned libraries, but also provides a <a href="https://kghub.org/">web-hosting that makes it particularly easy to access versioned KGs.</a> The standardized nature of the node types and edge types through the biolink format make it easier to combine different KGs, thought in several instances the level of detail in the hierarchy of biolink effectively used is too coarse and stops at extremely high level labels such as <a href="https://biolink.github.io/biolink-model/docs/NamedThing.html">biolink:NamedThing</a>. Aiming to have a standardized and structured set of labels will be vital for the Earth Metabolome KG, but they will also need to be finely grained and detailed enough to be useful for the biological samples and metabolomic data. The ease of access and clear versioning of the <a href="https://academic.oup.com/bioinformatics/article/39/7/btad418/7211646">KG-Hub</a> data is surely something to be imitated. Finally, the tight integration of the <a href="https://github.com/AnacletoLAB/grape">GRAPE</a> library with <a href="https://academic.oup.com/bioinformatics/article/39/7/btad418/7211646">KG-Hub</a> is something to be considered for the Earth Metabolome KG.</li>
+<li>Asked to <a href="https://www..com/in/deepakunni3/">Deepak Unni</a>, who is the main author of <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372416/">BioLink</a>, whether it provides support for biological samples as it is unclear from the BioLink paper and website.</li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul>
+<li>Write an entry describing the benefits of having a hierarchy for the Earth Metabolome KG's node &#x26; edge labels. Use <a href="https://github.com/LucaCappelletti94/kg-biolink">Biolink KG</a> as an example of an effective characterization of metadata based on the metadata topology.</li>
+<li>Delve into whether the data models suggested by <a href="https://www..com/in/chrismungall/">Chris Mungall</a> are a viable solution for the characterization of biological samples.</li>
+<li>Bother the authors of the resources that seem to be the most promising for the Earth Metabolome KG so to make sure I am not missing anything and neither reinventing the wheel.</li>
+<li>Start to delve into the <a href="https://github.com/enpkg/enpkg_workflow">ENPKG Workflow</a> so as to plan a holystic refactoring, if needed.</li>
+</ul>

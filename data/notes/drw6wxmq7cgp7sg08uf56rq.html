@@ -1,0 +1,35 @@
+<h1 id="pictures_manager">Pictures_manager<a aria-hidden="true" class="anchor-heading icon-link" href="#pictures_manager"></a></h1>
+<p>Pictures_manager scripts permits to collect and treat metadata and pictures coming from <a href="/dendron-dbgi/notes/w4qmirl0lfwt4035zizh3vt">QField</a>:</p>
+<ul>
+<li>
+<p>It downloads the collection layers, convert them in CSV files</p>
+</li>
+<li>
+<p>Checks that geographic coordinates are in the correct format, and if not convert them to suit the global geographic system (EPSG:4026)</p>
+</li>
+<li>
+<p>Downloads the pictures and delete them from the collection server in order to keep the collection server clean</p>
+</li>
+<li>
+<p>Controls if pictures are small enough, and if not compresses them</p>
+</li>
+<li>
+<p>Add time, geographic coordinates and EMI code in the pictures metadata to make them ready for iNaturalist upload</p>
+</li>
+<li>
+<p>Adds all these related metadata to the <a href="/dendron-dbgi/notes/ieyeybee3t9qu8mfy5lkpth">Directus</a> database</p>
+</li>
+<li>
+<p>Creates a copy of these pictures (possiblity to share them using nextcloud using the script)</p>
+</li>
+<li>
+<p>Creates one folder for each observation containing the related pictures, that serve as input for the <a href="/dendron-dbgi/notes/gr7dr9ty3pmvc7y9xqmomzj">iNaturalist_import_bot</a> script</p>
+</li>
+</ul>
+<p>You can find the source code <a href="https://github.com/digital-botanical-gardens-initiative/Pictures_manager">here</a>.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/wa0r6af9zkfrpejj600lga0">iNaturalist</a></li>
+<li><a href="/dendron-dbgi/notes/gr7dr9ty3pmvc7y9xqmomzj">iNaturalist_import_bot</a></li>
+</ul>
