@@ -2,7 +2,7 @@
 id: 2ulo3n4ukt4xrzs8cu46km3
 title: '2024-08-14'
 desc: ''
-updated: 1723621844177
+updated: 1723631801838
 created: 1723617714925
 traitIds:
   - open-notebook-dbgi-ebruelhart
@@ -16,8 +16,8 @@ pg_dump -h <IP> -p <port> -d <DB> -U <pg_username> -s -F p -E UTF-8 -f <filename
 
 # To discuss with PMA about directus DB
 
-- link batches table to ms_data and others
-- finite positions true false
-- table instruments models en plus
-- Pour plus tard: table users
-- EMI_Projects to projects (generalize)
+- [x] link batches table to ms_data and others
+- [x] finite positions true false
+- [x] table instruments models en plus
+- [ ] Pour plus tard: table users
+- [x] EMI_Projects to projects (generalize)
