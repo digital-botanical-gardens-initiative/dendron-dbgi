@@ -1,0 +1,78 @@
+<h1 id="2023-07-05">2023-07-05<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-07-05"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.07.05</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul>
+<li>Check discussion: <a href="https://github.com/orgs/digital-botanical-gardens-initiative/discussions">https://github.com/orgs/digital-botanical-gardens-initiative/discussions</a></li>
+<li>Check Zulip</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<p>Yesterday problem was resolved as follow:</p>
+<p>JS: </p>
+<pre class="language-js"><code class="language-js">  <span class="token keyword control-flow">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> nodes <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> headers <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    repository<span class="token punctuation">.</span><span class="token method function property-access">query</span><span class="token punctuation">(</span>payload<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">stream</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+      stream<span class="token punctuation">.</span><span class="token method function property-access">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">bindings</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> node <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+        <span class="token keyword control-flow">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> binding <span class="token keyword">in</span> bindings<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>bindings<span class="token punctuation">.</span><span class="token method function property-access">hasOwnProperty</span><span class="token punctuation">(</span>binding<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            node<span class="token punctuation">[</span>binding<span class="token punctuation">]</span> <span class="token operator">=</span> bindings<span class="token punctuation">[</span>binding<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token property-access">value</span><span class="token punctuation">;</span>  <span class="token comment">// use binding as id and bindings[binding].value as label</span>
+            <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>headers<span class="token punctuation">.</span><span class="token method function property-access">includes</span><span class="token punctuation">(</span>binding<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+              headers<span class="token punctuation">.</span><span class="token method function property-access">push</span><span class="token punctuation">(</span>binding<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// add the binding to the headers if it's not already there</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        nodes<span class="token punctuation">.</span><span class="token method function property-access">push</span><span class="token punctuation">(</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      stream<span class="token punctuation">.</span><span class="token method function property-access">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+        <span class="token comment">// Resolve the promise with the graph data and the headers when the stream ends</span>
+        <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token literal-property property">nodes</span><span class="token operator">:</span> nodes<span class="token punctuation">,</span> <span class="token literal-property property">headers</span><span class="token operator">:</span> headers<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>HTML:</p>
+<pre class="language-html"><code class="language-html">    &#x3C;% if (typeof results !== 'undefined' &#x26;&#x26; results.length > 0) { %>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>table table-striped table-responsive<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>thead</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>tr</span><span class="token punctuation">></span></span>
+                    &#x3C;% headers.forEach(function(header) { %>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>th</span><span class="token punctuation">></span></span>&#x3C;%= header %><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>th</span><span class="token punctuation">></span></span>
+                    &#x3C;% }); %>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>tr</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>thead</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>tbody</span><span class="token punctuation">></span></span>
+                &#x3C;% results.forEach(function(node) { %>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>tr</span><span class="token punctuation">></span></span>
+                        &#x3C;% headers.forEach(function(header) { %>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>td</span><span class="token punctuation">></span></span>&#x3C;%= node[header] %><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>td</span><span class="token punctuation">></span></span>
+                        &#x3C;% }); %>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>tr</span><span class="token punctuation">></span></span>
+                &#x3C;% }); %>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>tbody</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>table</span><span class="token punctuation">></span></span>
+        &#x3C;% } else { %>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>No results to display<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+        &#x3C;% } %>
+</code></pre>
+<p>Query to get the link to gnps:</p>
+<pre class="language-sparql"><code class="language-SPARQL"><span class="token keyword">PREFIX</span> <span class="token function"><span class="token prefix">enpkg<span class="token punctuation">:</span></span></span> <span class="token url"><span class="token punctuation">&#x3C;</span>https://enpkg.commons-lab.org/kg/<span class="token punctuation">></span></span>
+<span class="token keyword">select</span> <span class="token variable">?dbgi_sample</span> <span class="token variable">?GNPSdashboard</span> <span class="token keyword">where</span> <span class="token punctuation">{</span> 
+	<span class="token variable">?extract</span> <span class="token function"><span class="token prefix">enpkg<span class="token punctuation">:</span></span><span class="token local-name">has_lab_process</span></span> <span class="token variable">?dbgi_sample</span> <span class="token punctuation">.</span>
+    <span class="token variable">?dbgi_sample</span> <span class="token function"><span class="token prefix">enpkg<span class="token punctuation">:</span></span><span class="token local-name">has_LCMS</span></span> <span class="token variable">?LCMS</span> <span class="token punctuation">.</span>
+    <span class="token variable">?LCMS</span> <span class="token function"><span class="token prefix">enpkg<span class="token punctuation">:</span></span><span class="token local-name">has_gnpslcms_link</span></span> <span class="token variable">?GNPSdashboard</span> <span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>Should meet with pma:</p>
+<ul>
+<li>D'où les données doivent venir?
+=> DBGI + LOTUS</li>
+<li>Structure du graph => comment faire la figure?
+=> see article</li>
+<li>Lien GNPS
+=> OK</li>
+</ul>
+<p>=> meeting at 2pm</p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<h2 id="important-for-redaction">Important for redaction<a aria-hidden="true" class="anchor-heading icon-link" href="#important-for-redaction"></a></h2>

@@ -1,0 +1,34 @@
+<h1 id="2024-01-03">2024-01-03<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-01-03"></a></h1>
+<h1 id="this-is-marcos-daily-open-notebook">This is Marco's daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-marcos-daily-open-notebook"></a></h1>
+<p>Today is 2024.01.03</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>package to use (maybe) : <code>pip install obonet</code>
+use Networkx (should be already installed in with <a href="https://github.com/AnacletoLAB/grape">grape library</a> )</p>
+<h3 id="thoughts">Thoughts<a aria-hidden="true" class="anchor-heading icon-link" href="#thoughts"></a></h3>
+<p>I think there should be 2 node types : </p>
+<ul>
+<li>"biolink:OrganismTaxon" because species or phylogenies are all part of a taxonomy</li>
+<li>"biolink:ChemicalEntity" because molecules and molecule classes are all biological entites</li>
+</ul>
+<p>There should also be 2 edge types:</p>
+<ul>
+<li>"biolink:subclass_of" because in the end each subnode is part of another node</li>
+<li>"found in" (still need to find the correct one) for linking molecules with species</li>
+</ul>
+<p><strong>Also</strong> the graph should be directed I think (same thoughts as in <a href="#todo-today">here</a> )</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> get all species from LOTUS (locally), run on the cluster to get the phylogeny. </li>
+<li class="task-list-item"><input type="checkbox" checked disabled> create species phylogeny</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> link species to molecules</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> create Classyfire phylogeny</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> link molecules to Classyfire <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span></span> problem : I downloaded only the inchikey and not the Inchi so I can't run Classyfire. Needs a fix.</li>
+</ul>
+<p>After that the data should be ready for <a href="https://github.com/AnacletoLAB/grape/tree/main">grape</a></p>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p>To get full LOTUS <a href="https://w.wiki/8jtH">https://w.wiki/8jtH</a></p>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
