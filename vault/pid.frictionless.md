@@ -2,7 +2,7 @@
 id: dwf8c6r83907ga87zhrm03z
 title: Frictionless
 desc: ''
-updated: 1727858427856
+updated: 1728907202518
 created: 1727858303837
 ---
 
@@ -25,3 +25,12 @@ Key features include:
 - Plugins for SQL databases for data storage
 - Good for researchers, data scientists, and data engineers looking to make data handling more efficient and reliable
 
+
+
+### Other^relevant ressources
+
+- RO Crates
+- bagit https://direct.mit.edu/dint/article/4/2/372/110664/Evaluation-of-Application-Possibilities-for
+
+Evaluation of Application Possibilities for Packaging Technologies in Canonical Workflows
+https://doi.org/10.1162/dint_a_00137
