@@ -1,0 +1,27 @@
+<h1 id="2022-12-22">2022-12-22<a aria-hidden="true" class="anchor-heading icon-link" href="#2022-12-22"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2022.12.22</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> link naturalist id pyinat-samples => solve problem => always the same id</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> autoincrementation id</li>
+<li class="task-list-item"><input type="checkbox" disabled> tuto for dummy</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h3 id="autoincrementation">autoincrementation<a aria-hidden="true" class="anchor-heading icon-link" href="#autoincrementation"></a></h3>
+<pre class="language-psql"><code class="language-psql">CREATE SEQUENCE 'xxx';
+
+SELECT setval('xxx',1057); #begin the sequence at 1057
+
+ALTER TABLE samples                                       
+ALTER COLUMN "DBGI_SPL_ID"
+SET DEFAULT 'dbgi_' || lpad(nextval('xxx')::VARCHAR,6,'0'); #pad the sequence
+
+
+ALTER TABLE samples                                       
+ADD CONSTRAINT valid_id_check
+CHECK ("DBGI_SPL_ID" ~ '^\w+_[0-9]+$'); #check that the id is correct
+</code></pre>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>Tried to import a csv without setting the dbgi_spl_id => the id is autoincremented when imported!</p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
