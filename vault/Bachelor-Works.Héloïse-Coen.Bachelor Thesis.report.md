@@ -2,7 +2,7 @@
 id: 7mjc9xys8nfuytzros2w0jy
 title: report
 desc: ''
-updated: 1719496494304
+updated: 1730662751012
 created: 1719487425124
 ---
 # Abstract 
@@ -11,7 +11,6 @@ This transitional project, undertaken as a Bachelor's thesis at the University o
 The main objective of this study is not the metabolomic results themselves, although they are very interesting, but rather the adaptation of methods initially designed for data collection in a botanical garden to less controlled environments, with the aim of eventually setting up collection and extraction methods feasible in wild environments.  This methodological adaptation is crucial to the successful scaling-up of the EMI, ensuring that robust and reliable data can be collected in diverse and variable natural environments, thereby facilitating the achievement of the initiative's overall objectives. 
 
 # Background 
-The planet is going through a biodiversity crisis that threatens the equilibrium of ecosystems. Protecting ecosystems is essential not only for the survival of the species that live in them, but also for preserving natural substances crucial to humanity, such as medicinal compounds or food resources. The Earth Metabolome Initiatives project and its pilot project, the Digital botanical gardens initiative, are part of this general context. This Bachelor's project is also part of this context, aiming to begin the transition from DBGI to EMI. 
 
 ## Earth metabolome initiative 
 The Earth Metabolome Initivative (EMI) is a large scale open science project whose aim is to profile the metabolomic content of all organisms currently known on the planet Earth. This initiative have three main objectives : The first one is to protect biodiversity by creating molecular and metabolomic arguments, the second is to understand the chemical functioning of the biosphere and the last one is to benefit human society, notably through drug discovery or food sustainability. 
