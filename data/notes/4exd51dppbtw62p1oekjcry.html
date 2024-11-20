@@ -1,0 +1,98 @@
+<h1 id="openbis">Openbis<a aria-hidden="true" class="anchor-heading icon-link" href="#openbis"></a></h1>
+<p><a href="/dendron-dbgi/notes/b17we89hoe3m5ulu9d1t8by">Old Methodology</a></p>
+<h1 id="questions">Questions<a aria-hidden="true" class="anchor-heading icon-link" href="#questions"></a></h1>
+<h2 id="discussed">Discussed<a aria-hidden="true" class="anchor-heading icon-link" href="#discussed"></a></h2>
+<ul>
+<li>we cannot use the API (both as user or admin) see issue on Rostyk 
+<ul>
+<li>the creation of a PAT apparently didn't solve the issue</li>
+</ul>
+</li>
+</ul>
+<p>The o.set_token() function should be used
+<code>o.set_token('pierre-marie.allard_AT_unifr.ch-XXXXXXXXXXX', save_token=True)</code> </p>
+<ul>
+<li>have a one2one and a one2many links examples. How to we do this ?</li>
+</ul>
+<p>Caterina : this is not doable at the moment through the GUI. Or rather it is but manually.
+In our case we should take advantage of the pyOpenBis.
+This is fundamental for the DBGI project. We need to verify that handling of such linked tables is achievable in OpenBIS in a convenient manner. See Todo section for more details.</p>
+<ul>
+<li>can we display maps from lat/lon coordinates</li>
+</ul>
+<p>No. No geojson handling. We could by screenshoting the maps.
+Or maybe bettre hyperlinking to an external mapping (e.g. google maps) service</p>
+<ul>
+<li>
+<p>see for upload of a simple csv from the UI
+TSV is deprecated. This should be done using the Excel template. Caterina will discus with the dev team if a csv import can be maintained.</p>
+</li>
+<li>
+<p>can we locate individual samples in boxes (e.g. 9*9) in racks, in shelves, in a fridge ?</p>
+</li>
+</ul>
+<p>Yes. What is not doable for now is to define the place of a box of viales inside a rack.
+An intermediate level should be implemented.</p>
+<ul>
+<li>can we barcode a box of vials ?</li>
+</ul>
+<p>No. To be implemented.</p>
+<ul>
+<li>
+<p>Should the headers match exactly ?
+yes </p>
+</li>
+<li>
+<p>Should ALL fields be present ?</p>
+</li>
+</ul>
+<p>NO if they aren't defined as mandatory in the Object type/OBSERVATION
+But the depending on the field type they cannot be filled for ex with NA if the field type is digit.</p>
+<h2 id="not-discussed--for-next-time">Not discussed / for next time<a aria-hidden="true" class="anchor-heading icon-link" href="#not-discussed--for-next-time"></a></h2>
+<ul>
+<li>can we display picture from hyperlinks</li>
+<li>updates on QRcodes</li>
+<li>why can't properties in General panel (e.g. <a href="https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/#/object-type/SPECIMEN">https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/#/object-type/SPECIMEN</a>) be modified. For ex pass from multivarchar to hyperlink ?</li>
+</ul>
+<h1 id="todo">Todo<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h1>
+<ul>
+<li>try to pass current Directus tables to OpenBis</li>
+</ul>
+<h1 id="varia">Varia<a aria-hidden="true" class="anchor-heading icon-link" href="#varia"></a></h1>
+<p>What do you need from us to advance ?</p>
+<p>Found  one error:
+Sample type OBSERVATION has no property type ID assigned.</p>
+<p>Indeed they are no id field in the OBSERVATION schema (<a href="https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/#/object-type/OBSERVATION">https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/#/object-type/OBSERVATION</a>)</p>
+<h1 id="todo-1">Todo<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-1"></a></h1>
+<h2 id="unifr">UniFr<a aria-hidden="true" class="anchor-heading icon-link" href="#unifr"></a></h2>
+<ul>
+<li>create a schema of the tables we want to connect</li>
+<li>minimal example of each table</li>
+<li>excel sheet for each table</li>
+<li>property name / property type for each table</li>
+</ul>
+<p><code>CODE</code> is UPPERCASE and _ instead of space, no special chracter
+<code>label</code> should match the header
+<code>Description</code>: free text
+<code>DATA TYPE</code>: their is a list (where ?)</p>
+<h2 id="openbis-team">OpenBIS team<a aria-hidden="true" class="anchor-heading icon-link" href="#openbis-team"></a></h2>
+<ul>
+<li>produce pyOpenBis scripts and have the schema  and related tables proposed by UniFr implemented in the OpenBIS instance.</li>
+<li>implementation of barcodes possibilities at the "box of vials" levels</li>
+<li>possibility to track the localisation of boxes of vials within a rack. Creation of an additional and intermediate level in the storage tracking system in openBis.</li>
+</ul>
+<h1 id="ressources">Ressources<a aria-hidden="true" class="anchor-heading icon-link" href="#ressources"></a></h1>
+<h2 id="openbis-admin-interface">OpenBis admin interface<a aria-hidden="true" class="anchor-heading icon-link" href="#openbis-admin-interface"></a></h2>
+<p><a href="https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/">https://openbis-dbgi.labnotebook.ch/openbis/webapp/openbis-ng-ui/</a></p>
+<h2 id="openbis-user-interface">OpenBis user interface<a aria-hidden="true" class="anchor-heading icon-link" href="#openbis-user-interface"></a></h2>
+<p><a href="https://openbis-dbgi.labnotebook.ch/openbis/webapp/eln-lims/">https://openbis-dbgi.labnotebook.ch/openbis/webapp/eln-lims/</a></p>
+<h2 id="pyopenbis-scripts">pyOpenBis scripts<a aria-hidden="true" class="anchor-heading icon-link" href="#pyopenbis-scripts"></a></h2>
+<p><a href="https://github.com/digital-botanical-gardens-initiative/openbis_meta_data_entry_registration">https://github.com/digital-botanical-gardens-initiative/openbis_meta_data_entry_registration</a></p>
+<p>oBIS</p>
+<p>is another API</p>
+<h2 id="upcoming-trainings">Upcoming trainings<a aria-hidden="true" class="anchor-heading icon-link" href="#upcoming-trainings"></a></h2>
+<p><a href="https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/">https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/</a></p>
+<p>openBIS admin training: </p>
+<p><a href="https://ethz.ch/staffnet/en/it-services/catalogue/support-training/it-training/courses/details.9890o.html">https://ethz.ch/staffnet/en/it-services/catalogue/support-training/it-training/courses/details.9890o.html</a></p>
+<p>openBIS User Training </p>
+<p><a href="https://ethz.ch/staffnet/en/it-services/catalogue/support-training/it-training/courses/details.9925o.html">https://ethz.ch/staffnet/en/it-services/catalogue/support-training/it-training/courses/details.9925o.html</a></p>

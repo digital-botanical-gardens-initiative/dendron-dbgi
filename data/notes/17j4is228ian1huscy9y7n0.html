@@ -1,0 +1,20 @@
+<h1 id="2024-02-08">2024-02-08<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-08"></a></h1>
+<h1 id="this-is-marcos-daily-open-notebook">This is Marco's daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-marcos-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.08</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p><code>async</code>/<code>.await</code> is Rust's built-in tool for writing asynchronous functions that look like synchronous code. <code>async</code> transforms a block of code into a state machine that implements a trait called <code>Future</code>. Whereas calling a blocking function in a synchronous method would block the whole thread, blocked <code>Future</code>s will yield control of the thread, allowing other Futures to run.</p>
+<p><code>block_on</code> blocks the current thread until the provided future has run to completion. Other executors provide more complex behavior, like scheduling multiple futures onto the same thread.</p>
+<p>Inside an <code>async fn</code>, you can use <code>.await</code> to wait for the completion of another type that implements the <code>Future</code> trait, such as the output of another <code>async fn</code>. Unlike <code>block_on</code>, <code>.await</code> doesn't block the current thread, but instead asynchronously waits for the future to complete, allowing other tasks to run if the future is currently unable to make progress.</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> learn differences between <code>async</code> and <code>block_on</code> in Rust, I get the idea but not sure how to use them in practice</li>
+</ul>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul>
+<li>[ ]</li>
+</ul>

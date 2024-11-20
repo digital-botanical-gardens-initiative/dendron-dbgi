@@ -1,0 +1,44 @@
+<h1 id="graph-database">Graph Database<a aria-hidden="true" class="anchor-heading icon-link" href="#graph-database"></a></h1>
+<p>We are having some issues (stucked SPARQL queries, max 1 concurrent query, etc.) with the ENPKG GraphDB instance.
+<a href="https://enpkg.commons-lab.org/graphdb/">https://enpkg.commons-lab.org/graphdb/</a></p>
+<p>As discussed with Marco Pagni we should look into alternatives.
+MP and Seb are looking into the following options:</p>
+<ul>
+<li>RDF4J/Virtuoso</li>
+<li>qendpoint <a href="https://the-qa-company.com/products/qEndpoint">https://the-qa-company.com/products/qEndpoint</a></li>
+</ul>
+<p>We should discuss these with Tarcisio and Ana.</p>
+<p>Options I have briefly looked at this afternoon</p>
+<ul>
+<li>Ontop <a href="https://ontop-vkg.org/">https://ontop-vkg.org/</a></li>
+<li>Blazegraph <a href="https://blazegraph.com/">https://blazegraph.com/</a></li>
+<li>JanusGraph <a href="https://janusgraph.org/">https://janusgraph.org/</a></li>
+</ul>
+<p>When looking at the possibilities to realize SPARQL queries in JanusGraph I found the following informative discussion:</p>
+<p><a href="https://groups.google.com/g/janusgraph-users/c/I4rW_KhcgFE?pli=1">https://groups.google.com/g/janusgraph-users/c/I4rW_KhcgFE?pli=1</a></p>
+<p>Notably Serge's comment </p>
+<blockquote>
+<p>In general Property graph and RDF store have each their own advantage and it's more than a difference in implementation. I used the word general as some vendors are trying to reduce those difference. For example, Stardog extended SPARQL with a PATH operator which allow you to easily traverse a path which would usually be easier in a property graph.</p>
+<p>Things to consider are: Do you want to benefit from inference. For example, A isFatherOf B and B isFatherOf C you could add a rule that when you ask who 'isGrandFatherof' C it would return A without really having it in the database. You could load different rules which can be useful. So that clearly an advantage of RDF. However RDF does not support attribute on your relationship directly. While it could be model, it could get complicated and be slow if most relationship requires attribute.</p>
+<p>There are a few key difference like that that may make a technology better than another. I personally always start with a RDF solution, simply because I really am a fan of inference, and federated solution. If it does not work, it usually very easy to adjust the physical model to load in a property graph database.</p>
+<p>Therefore I really recommend that you read up on both technology as which one you should use could be dictated by your use case.</p>
+</blockquote>
+<p>So this brings a first question regarding the EMIKG. </p>
+<ul>
+<li>Do we want a Property Graph or a RDF store?</li>
+</ul>
+<p>or in other words</p>
+<ul>
+<li>Do we want to benefit from inference?</li>
+<li>Do we want to have attributes on relationships?</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/dendron-dbgi/notes/63csp4ewm2hyw7rhgowt4a8">Onto</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/p554acp6tv55czfzq8936za">2024-01-07</a></li>
+</ul>

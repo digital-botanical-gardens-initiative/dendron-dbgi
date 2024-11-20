@@ -1,0 +1,169 @@
+<h1 id="2023-03-09">2023-03-09<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-03-09"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.03.09</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul>
+<li>Check discussion: <a href="https://github.com/orgs/digital-botanical-gardens-initiative/discussions">https://github.com/orgs/digital-botanical-gardens-initiative/discussions</a></li>
+<li>Check Zulip</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h3 id="dbgi-meeting">dbgi meeting<a aria-hidden="true" class="anchor-heading icon-link" href="#dbgi-meeting"></a></h3>
+<p>To check:
+<a href="https://dash.gallery/dash-drug-discovery/">https://dash.gallery/dash-drug-discovery/</a></p>
+<h3 id="wids-geneva">WIDS Geneva<a aria-hidden="true" class="anchor-heading icon-link" href="#wids-geneva"></a></h3>
+<p><a href="https://widsgeneva.ch/">https://widsgeneva.ch/</a></p>
+<h4 id="building-a-data-practice-from-scratch-for-a-reasonable-budget-the-good-the-bad-and-the-ugly">Building a data practice from scratch for a reasonable budget: The Good, the Bad, and the Ugly<a aria-hidden="true" class="anchor-heading icon-link" href="#building-a-data-practice-from-scratch-for-a-reasonable-budget-the-good-the-bad-and-the-ugly"></a></h4>
+<p><em>Christelle Marfaing, Head of Data, May</em></p>
+<ul>
+<li>Seek and define your Good target</li>
+<li>Avoid the bad traps and dead ends</li>
+<li>Take the ugly way to get there</li>
+</ul>
+<h5 id="build-you-data-stack">Build you data stack<a aria-hidden="true" class="anchor-heading icon-link" href="#build-you-data-stack"></a></h5>
+<ul>
+<li>modern data stack movement (good way to start but not perfect) (<a href="https://www.alation.com/blog/modern-data-stack-explained/">https://www.alation.com/blog/modern-data-stack-explained/</a>) => Batch ingestion of multiple sources to a DWH</li>
+<li>Important to know what you want to build and what you want to buy</li>
+</ul>
+<h5 id="a-stack-is-nothing-without-a-team">A stack is nothing without a team<a aria-hidden="true" class="anchor-heading icon-link" href="#a-stack-is-nothing-without-a-team"></a></h5>
+<ul>
+<li>Full stack or specialized team?
+Specialization typically develops as a team matures and is heavily influenced by the prevailing trends at the time of the team's creation => will shape your HR policy</li>
+</ul>
+<p>Data teams models:</p>
+<ul>
+<li>Centralized (one manager - small team)</li>
+<li>Hybrid</li>
+<li>Decentralized (each business unit works on different projects)</li>
+<li>Data Mesh (<strong>Trendy in Paris</strong>)</li>
+</ul>
+<p>How to determine the model for your dream team?</p>
+<ul>
+<li>The degree of centralization of a team depends not only on the number of people but also on the team's maturity</li>
+<li>While decentralization can have advantages, a poorly executed ...</li>
+</ul>
+<p>How to avoid spending all your time recruiting?</p>
+<ul>
+<li>Let them learn</li>
+<li><strong>LET IT GO</strong></li>
+</ul>
+<h5 id="key-takeaways">Key takeaways<a aria-hidden="true" class="anchor-heading icon-link" href="#key-takeaways"></a></h5>
+<ul>
+<li>Be prepared to start it all again.</li>
+<li>There is no one-size-fits-all solution, but the more you learn about building a tech stack and team, the more informed your decisions will be.</li>
+<li>Building a tech stack and a team are interdependent</li>
+<li>Recruiting and keeping employees is a big challenge.</li>
+</ul>
+<h4 id="graph-neural-networks---applications-and-opportunities">Graph Neural Networks - applications and opportunities<a aria-hidden="true" class="anchor-heading icon-link" href="#graph-neural-networks---applications-and-opportunities"></a></h4>
+<p><em>Nadya Chernyavskaya, Senior Researcher, CERN</em></p>
+<ul>
+<li>When? Types of data to benefit from GNNs</li>
+<li>What For? </li>
+<li>How?</li>
+</ul>
+<h5 id="graph-and-their-properties">Graph and their properties<a aria-hidden="true" class="anchor-heading icon-link" href="#graph-and-their-properties"></a></h5>
+<ul>
+<li>nodes and edges with features</li>
+<li>directed/undirected</li>
+<li>connected/disconnected</li>
+<li>Self-loops</li>
+<li>multi-graph (edges of different types => heterogenous graph)</li>
+<li>permutation invariant (challenging to visualise)</li>
+</ul>
+<p>==> Graph structure offers much more flexibility:</p>
+<ul>
+<li>arbitrary size and complex topological structure</li>
+</ul>
+<h5 id="what-for">What for?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-for"></a></h5>
+<p>Learning on graphs:</p>
+<ul>
+<li>Node level- predict a property of a node</li>
+<li>Edge/Link level - predict links between two nodes (recommendation systems)</li>
+<li>Community/Subgraph level - detect if nodes form a community (user profiling task/ diagnostic tasks for rare disorders)</li>
+<li>graph level - categorize different graphs (<strong>molecule property prediction</strong>)</li>
+</ul>
+<p>Other tasks: Graph evolution, Graph generation (Drug discovery)</p>
+<h5 id="how">How?<a aria-hidden="true" class="anchor-heading icon-link" href="#how"></a></h5>
+<p>How to represent?</p>
+<ul>
+<li>adjacency matrix</li>
+<li>edge list </li>
+<li>adjacency list</li>
+</ul>
+<p>How to represent the features:</p>
+<ul>
+<li>Node features x edge features => 3D matrix</li>
+</ul>
+<h5 id="message-passing-view-of-gnns">Message passing view of GNNs<a aria-hidden="true" class="anchor-heading icon-link" href="#message-passing-view-of-gnns"></a></h5>
+<p>We can get information about large scale structure by repeating a simple local rule</p>
+<ul>
+<li>Rule: My neighbours tell me what they think i should know</li>
+<li>This is done for all neghbourhoods and the information is updated</li>
+<li>After 3 iterations, i know what my 3 hop neighbours think we all should know</li>
+</ul>
+<p>What about the previous information?</p>
+<ul>
+<li>Each node keep tracks </li>
+</ul>
+<h5 id="impact-">Impact ?<a aria-hidden="true" class="anchor-heading icon-link" href="#impact-"></a></h5>
+<ul>
+<li>traffic prediction in Google maps
+<ul>
+<li>Nodes: road segments</li>
+<li>Edges: connectivity between road segments</li>
+<li>Prediction: Time of arrival</li>
+</ul>
+</li>
+</ul>
+<h5 id="conclusion">Conclusion<a aria-hidden="true" class="anchor-heading icon-link" href="#conclusion"></a></h5>
+<ul>
+<li><strong>When?</strong> Graph nerual networks is a very powerful tool for complex and sparse data</li>
+<li><strong>What for?</strong> They can be successfully applied to a variety of different tasks such a s node classification, graph classification, edge prediction, etc.</li>
+<li><strong>How?</strong> We learned how to convert graph into a ML ready representation and build a GNN</li>
+</ul>
+<h4 id="databricks">Databricks<a aria-hidden="true" class="anchor-heading icon-link" href="#databricks"></a></h4>
+<p><a href="https://github.com/marzervou/wids">https://github.com/marzervou/wids</a></p>
+<h5 id="mlops">MLOps<a aria-hidden="true" class="anchor-heading icon-link" href="#mlops"></a></h5>
+<p>set of processes and automation for managing code, data and models to improve performance, stability and long-term efficiency of ML systems</p>
+<p>Why should care ?</p>
+<ul>
+<li>Helps reduce risk
+<ul>
+<li>technical risk - poorly performing models, fragile infrastructure</li>
+<li>Compliance risk - violating regulatory or corporate policies</li>
+</ul>
+</li>
+<li>improves long-term efficiency through automation
+<ul>
+<li>catch errors before they hit production</li>
+<li>avoid slow, manual processes</li>
+</ul>
+</li>
+</ul>
+<h5 id="databricks-httpswwwdatabrickscom">Databricks (<a href="https://www.databricks.com/">https://www.databricks.com/</a>)<a aria-hidden="true" class="anchor-heading icon-link" href="#databricks-httpswwwdatabrickscom"></a></h5>
+<ul>
+<li>lakehouse platform</li>
+<li>Dev/staging/prod environments can be separated</li>
+</ul>
+<ul>
+<li>prod environments => ML flow(<a href="https://mlflow.org/">https://mlflow.org/</a>)</li>
+</ul>
+<h5 id="deploy-code-process">Deploy code process<a aria-hidden="true" class="anchor-heading icon-link" href="#deploy-code-process"></a></h5>
+<ul>
+<li>Dev
+<ul>
+<li>Develop training code</li>
+<li>Develop ancillary code</li>
+<li>promote code</li>
+</ul>
+</li>
+<li>staging
+<ul>
+<li>Test model training code on subset of data</li>
+</ul>
+</li>
+<li>prod</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images/widsgeneva.jpeg" alt="selfie"></p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<h2 id="important-for-redaction">Important for redaction<a aria-hidden="true" class="anchor-heading icon-link" href="#important-for-redaction"></a></h2>
