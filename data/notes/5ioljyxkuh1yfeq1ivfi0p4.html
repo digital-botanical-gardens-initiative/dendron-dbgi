@@ -1,0 +1,53 @@
+<h1 id="2022-12-19">2022-12-19<a aria-hidden="true" class="anchor-heading icon-link" href="#2022-12-19"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2022.12.19</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> link naturalist id pyinat-samples</li>
+<li class="task-list-item"><input type="checkbox" disabled> autoincrementation id</li>
+<li class="task-list-item"><input type="checkbox" disabled> tuto for dummy</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h4 id="autoincrementation-id">Autoincrementation id:<a aria-hidden="true" class="anchor-heading icon-link" href="#autoincrementation-id"></a></h4>
+<p><a href="https://stackoverflow.com/questions/27121196/how-to-auto-increment-alpha-numeric-value-in-postgresql">https://stackoverflow.com/questions/27121196/how-to-auto-increment-alpha-numeric-value-in-postgresql</a></p>
+<pre class="language-psql"><code class="language-psql">CREATE SEQUENCE xxx;
+CREATE TABLE samples_2(EMI_external_ID text PRIMARY KEY 
+                                    CHECK (EMI_external_ID ~ '^\w+_[0-9]+$' ) 
+                                    DEFAULT 'DBGI_'  || lpad(nextval('xxx')::text,6,'0'), 
+                      Reserved boolean,
+                      BG VARCHAR(25),
+                      inaturalist_id numeric,
+                      Comment text,
+                      sample location VARCHAR(25),
+                      QR uuid,
+                      FOREIGN KEY(QR) REFERENCES directus_files(id) ON DELETE SET NULL);
+</code></pre>
+<p>==> Works if only 'DBGI_' ids</p>
+<p>Should maybe create 2 columns to concat => one with autoincremented integer, second with project id (eg.DBGI)</p>
+<h4 id="link-naturalist-id-pyinat-samples">link naturalist id pyinat-samples<a aria-hidden="true" class="anchor-heading icon-link" href="#link-naturalist-id-pyinat-samples"></a></h4>
+<pre class="language-psql"><code class="language-psql">UPDATE samples
+SET inaturalist_ID = pyinat.ID
+FROM pyinat WHERE samples."DBGI_SPL_ID" = pyinat.EMI_external_ID;
+</code></pre>
+<p>Then create a trigger to do that automatically:</p>
+<pre class="language-psql"><code class="language-psql">CREATE OR REPLACE FUNCTION update_emi_id()
+RETURNS TRIGGER AS $$
+BEGIN
+  UPDATE samples
+  SET inaturalist_ID = pyinat.ID
+  FROM pyinat 
+    WHERE samples."DBGI_SPL_ID" = pyinat.EMI_external_ID;
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER update_emi_id_trigger
+AFTER UPDATE OF EMI_external_ID ON pyinat
+FOR EACH ROW
+EXECUTE PROCEDURE update_emi_id();
+</code></pre>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> tuto for dummy => until 23.01</li>
+</ul>
