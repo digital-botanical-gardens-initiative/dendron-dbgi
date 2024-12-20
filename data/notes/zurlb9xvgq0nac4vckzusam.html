@@ -1,0 +1,25 @@
+<h1 id="backend">backend<a aria-hidden="true" class="anchor-heading icon-link" href="#backend"></a></h1>
+<h1 id="monorepo--backend">Monorepo : Backend<a aria-hidden="true" class="anchor-heading icon-link" href="#monorepo--backend"></a></h1>
+<p>Here we describe the basic structure of the backend of the <a href="https://github.com/earth-metabolome-initiative/emi-monorepo/tree/web">EMI monorepo</a>.</p>
+<h2 id="constraint_checkers"><code>constraint_checkers</code><a aria-hidden="true" class="anchor-heading icon-link" href="#constraint_checkers"></a></h2>
+<p>This folder contains the metaprogramming code to check the correctness of the database, and then to generate the rust files depending on the constraints.</p>
+<h2 id="db_data"><code>db_data</code><a aria-hidden="true" class="anchor-heading icon-link" href="#db_data"></a></h2>
+<p>Folder containing csv files with the data that will be inserted into the database. For example, the file <code>countries.csv</code> contains the list of all available/allowed countries in the database.</p>
+<h2 id="migrations"><code>migrations</code><a aria-hidden="true" class="anchor-heading icon-link" href="#migrations"></a></h2>
+<p>Folder containing the SQL files that are used to create the database schema. The files are numbered in order of execution.
+Here is a brief description of the types of tables:</p>
+<ul>
+<li><code>create_*_table</code> creates a table in the database</li>
+<li><code>create_*_sequential_index</code> changes the <code>id</code> column of the table from INTEGER to SERIAL</li>
+<li><code>populate_*_table</code> populates the table with data from the csv files in the <code>db_data</code> folder</li>
+<li><code>create_*_gin_index</code> creates an index to allow for searching in the table</li>
+<li><code>create_*_can_x_trigger</code> contain a function that takes a user ID (INTEGER) and the primary keys and returns a BOOLEAN indicating whether the user can {operation} the row</li>
+</ul>
+<h2 id="src"><code>src</code><a aria-hidden="true" class="anchor-heading icon-link" href="#src"></a></h2>
+<h3 id="api"><code>api</code><a aria-hidden="true" class="anchor-heading icon-link" href="#api"></a></h3>
+<h4 id="oauth"><code>oauth</code><a aria-hidden="true" class="anchor-heading icon-link" href="#oauth"></a></h4>
+<p>Directory containing the code for the OAuth2.0 authentication and its dependencies (login/logout, login providers, refresh tokens, etc).  </p>
+<h4 id="ws"><code>ws</code><a aria-hidden="true" class="anchor-heading icon-link" href="#ws"></a></h4>
+<p>Directory containing the code for the websockets.</p>
+<h3 id="database"><code>database</code><a aria-hidden="true" class="anchor-heading icon-link" href="#database"></a></h3>
+<p>This directory contains the code for the database connection between the backend and the database. We are using the <a href="https://diesel.rs/">Diesel</a> crate to interact with the database. Most of the code in this directory is generated automatically by the <code>constraint_checkers</code> package.</p>
