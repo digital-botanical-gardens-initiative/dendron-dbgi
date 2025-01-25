@@ -1,0 +1,1 @@
+Here you can find all bachelor works that have been made for the DBGI and/or EMI project.
