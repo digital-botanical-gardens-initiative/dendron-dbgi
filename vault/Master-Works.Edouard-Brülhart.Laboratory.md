@@ -2,7 +2,7 @@
 id: 4u9167irz9kzo0w3noogs2t
 title: Laboratory
 desc: ''
-updated: 1719408222679
+updated: 1740133258207
 created: 1718557636202
 ---
 Here you can find laboratory processes coming after [[Master-Works.Edouard-Brülhart.Collection]].
@@ -41,7 +41,7 @@ This extraction protocol is the classical one for the DBGI project. However, our
 
 ## Aliquot
 
-The aliquot object is the one that will be injected. It permits to keep the extract in the freezer to limit contaminations and degradations. To proceed, a defined volume of the extract is prelevated and put in another vial containing an insert.
+The aliquot object is the one that will be injected.  It permits to keep the extract in the freezer to limit contaminations and degradations. To proceed, a defined volume of the extract is prelevated and put in another vial containing an insert. Usually we will aliquot 150 µl of the mother vial.
 
 ## [[Master-Works.Edouard-Brülhart.Mass-spectrometry]]
 
