@@ -2,7 +2,7 @@
 id: 03imcjhwy8lktl7xr0if5tv
 title: '2025-02-24'
 desc: ''
-updated: 1740392601317
+updated: 1740392962713
 created: 1740391320841
 traitIds:
   - open-notebook-dbgi-ebruelhart
@@ -71,10 +71,6 @@ Today is 2025.02.24
 
 - Pictures_manager
 
-### To create
-
-- inaturalist-import-bot: Convert old iNaturalist_import_bot to this one
-
 ### To delete
 
 - iNaturalist_import_bot: Transfer and modify
@@ -110,6 +106,8 @@ Today is 2025.02.24
 - ms-metadata-fetcher: To check and improve
 
 - pictures-manager: To check and improve
+
+- inaturalist-import-bot: Convert old iNaturalist_import_bot to this one
 
 - directus-migration-scripts: Paused for now
 
