@@ -1,0 +1,29 @@
+<h1 id="2022-11-11">2022-11-11<a aria-hidden="true" class="anchor-heading icon-link" href="#2022-11-11"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2022.11.11</p>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h4 id="change-dbgi_id">Change dbgi_id<a aria-hidden="true" class="anchor-heading icon-link" href="#change-dbgi_id"></a></h4>
+<pre class="language-psql"><code class="language-psql"> UPDATE samples                                     
+ SET "DBGI_SPL_ID" = REPLACE("DBGI_SPL_ID",'DBGI_SPL_','dbgi_');
+</code></pre>
+<h4 id="change-column-name">Change column name<a aria-hidden="true" class="anchor-heading icon-link" href="#change-column-name"></a></h4>
+<pre class="language-psql"><code class="language-psql"> ALTER TABLE pyinat
+ RENAME COLUMN DBGI_ID TO EMI_EXTERNAL_ID;
+</code></pre>
+<h4 id="trigger-updated_on-column">Trigger updated_on column<a aria-hidden="true" class="anchor-heading icon-link" href="#trigger-updated_on-column"></a></h4>
+<pre class="language-psql"><code class="language-psql"> CREATE OR REPLACE FUNCTION updated_on_function()          
+ RETURNS TRIGGER LANGUAGE plpgsql         
+ AS $$      
+ BEGIN         
+ IF OLD!=NEW THEN        
+ NEW.updated_on = now();        
+ END IF;                
+ RETURN new;        
+ END        
+ $$;
+</code></pre>
+<pre class="language-psql"><code class="language-psql"> CREATE TRIGGER updated_on_trigger      
+ AFTER UPDATE ON pyinat      
+ FOR EACH ROW          
+ EXECUTE PROCEDURE updated_on_function();
+</code></pre>

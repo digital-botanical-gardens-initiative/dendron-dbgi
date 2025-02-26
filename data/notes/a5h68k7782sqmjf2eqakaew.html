@@ -1,0 +1,165 @@
+<h1 id="2024-02-12">2024-02-12<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-12"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.12</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p><a href="https://obo-communitygroup.slack.com/archives/C01P3D02U1H/p1707299939220829">https://obo-communitygroup.slack.com/archives/C01P3D02U1H/p1707299939220829</a></p>
+<p>Pierre-Marie Allard
+5 days ago
+Hello RO people ! Disclaimer: I am very new to RO and the ontology world in general please excuse me in case I say any absurdities.
+I would like to find the appropriate RO property to express the fact that a given molecule has been found in a given taxon. In LOTUS (an electronic ressource documenting occurence of small molecules across the tree of life) we have used the Wikidata P703 "found_in_taxon" property. E.g. erythromycin is found in taxon Aeromicrobium erythreum. Now I somehow found that the <a href="https://biolink.github.io/biolink-model/in_taxon/">https://biolink.github.io/biolink-model/in_taxon/</a> LinkML model states that this in_taxon is exactly mapped to RO:0002162 and P703.  Before using RO:0002162 I would like to make sure that there is no better suited property.
+One thing that made doubt is the fact that the description states : "Connects a biological entity to its taxon of origin." and that I am here trying to link a chemical entity to its taxon of origin.
+The other doubt I had was that "Connects a biological entity to its taxon of origin." could also be interpreted as organism X (for example this specimen defined by an iNaturalist observation) is connected to its taxon of origin in this case Arabidopsis thaliana (55021 or Q158695)
+(edited)</p>
+<p>eLifeeLife
+The LOTUS initiative for open knowledge management in natural products research
+The LOTUS initiative builds, through the Wikidata knowledge graph, a virtuous cycle of data sharing practices for natural products research.</p>
+<p>wikidata.orgwikidata.org
+found in taxon
+the taxon in which the item can be found</p>
+<p>wikidata.orgwikidata.org
+erythromycin
+chemical compound</p>
+<p>wikidata.orgwikidata.org
+Aeromicrobium erythreum
+species of bacterium
+11 replies</p>
+<p>Ray Stefancsik
+5 days ago
+Have you considered using RO:0002175 present in taxon alone or in combination with other properties?
+ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions
+:+1:
+1</p>
+<p>Pierre-Marie Allard
+5 days ago
+No. Until now I haven't. It looks adapted indeed. I like the fact that they are sister properties such as ambiguous_for_taxon, dubious_for_taxon and never_in_taxon. I think we could use the two first one in some cases when documenting the presence of contaminants in a metabolite annotation process for example. This brings me to another question:  Would that be OK to use present_in_taxon for a molecule not biosynthesized by the organism. Could I say acetamiprid (an insecticide) is  present_in_taxon bee (Apis mellifera) ?</p>
+<p>ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions</p>
+<p>ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions</p>
+<p>ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions</p>
+<p>ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions</p>
+<p>wikidata.orgwikidata.org
+(E)-acetamiprid
+chemical compound</p>
+<p>Damion Dooley
+4 days ago
+You would be doing that at the instance level?  A pesticide is not present in all bees.  Maybe in some bees belonging to a particular hive or area?  So not an “in taxon” relation but rather “part of” some organism or “part of” some organism which is member of some collection.  One can say an organism sample or part is “in taxon” some NCBITaxon entity.  A class-level assertion that would work?: “flight muscle mitochondria present in taxon some Apis mellifera” (edited) </p>
+<p>Ray Stefancsik
+4 days ago
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@Pierre-Marie (Private)</a> Allard
+, Do you consider the chemical part of some instances of the taxon or want to express that the chemical is located within some instances of the taxon?
+It is a valid philosophical question.
+erythromycin part of some Aeromicrobium erythreum
+erythromycin located in some Aeromicrobium erythreum
+I think you could also use RO:0002175 present in taxon in place of located in, but I may be wrong.
+ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions
+ebi.ac.ukebi.ac.uk
+Ontology Lookup Service (OLS)
+OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions</p>
+<p>Damion Dooley
+4 days ago
+Ah, right, the question of whether “present in taxon” was intended to cover identity characteristics of a taxon - things that allow us to recognize/classify an entity as belonging to that class (e.g. at stage of life as property’s example shows) - or more loosely allow us to also make claims about an instance of an organism or its part that don’t involve identity, e.g. pacemaker ‘present in taxon’ ‘john doe #2’. It seems that the parent object property “taxonomic class assertion” definition “An assertion that holds between an ontology class and an organism taxon class, which is intepreted to yield some relationship between instances of the ontology class and the taxon.” dissuades us from using it for describing contaminants and “foreign objects”?
+I’m interested too in an answer to this modelling question, esp. for contaminants in food.  RO says “located in” is to be used as an instance level relation.  I recall “part of” has been used a lot too at instance level (rather than just to establish class relations). Hmm! (edited) </p>
+<p>Chris Mungall
+4 days ago
+There are various interpretations of molecule class->taxon class:
+biosynthesized by pathways encoded by genes in the organism
+by product or intermediate of a native pathway of the organism (or further metabolized)
+produced by a microbe that is part of the “natural microbiome” [whatever that is] of that organism
+is in the metabolome of some tissue sample taken from that organism (guessing this is what LOTUS is?)
+Otherwise detected (including Ray’s pesticide case)</p>
+<p>Damion Dooley
+3 days ago
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@Chris (Private)</a> Mungall
+how would you/RO handle the mereology of contaminants? Doesn’t seem like there’s a ‘has part’ variant reserved for imbedded foreign objects or contaminants that are not contributing to taxa definition at a class level. (edited) </p>
+<p>Chris Mungall
+3 days ago
+can you say more?</p>
+<p>Damion Dooley
+3 days ago
+We can have an instance of say neonicotinoid ‘part of’ an instance of ‘Bombus terrestris’ rather than use ‘present in taxon’ which due to its parent term is supposed to be used at class level.  Yet, ‘part of’ doesn’t discern material that is normally part of the bee; wouldn’t it be informative to say something like ‘exogenous part of’; a relation that works for tooth fillings too etc. (There are ‘has host’ relations, but that’s not quite general enough).</p>
+<p>Chris Mungall
+3 days ago
+What’s the actual owl axiom?</p>
+<p>Damion Dooley
+5 hours ago
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@Chris (Private)</a> Mungall
+I realize, related to your case 5, that to model a contaminant (rather than biosynthesized molecule) wrt an organism or material, we either need a kind of “X has part Y” relation that indicates the range is a contaminant relative to the domain entity; alternately I guess a “contaminant role” could be assigned between the part and the material, if that’s what you are getting at re. owl axiom. (Like Alotrope’s impurity role).</p>
+<p>Answering at</p>
+<p>Many thanks for all the very interesting comments !</p>
+<p>I see two different issues here (that maybe could be discussed in their own threads ?)</p>
+<p><em>Problem 1.</em> <em>Are we linking a molecule to a taxon or to an organism ?</em> The way we have done this for now (at least in the frame of LOTUS) is that we linked the molecule to the lowest taxonomical level (the most precise) of the organism in which it has been found. For example <a href="https://www.wikidata.org/wiki/Q105674316">trigocherrin A</a> <a href="https://www.wikidata.org/wiki/Property:P703">found in taxon</a> <a href="https://www.wikidata.org/wiki/Q3006048">Trigonostemon cherrieri</a> <a href="https://www.wikidata.org/wiki/Property:P248">stated in</a> <a href="https://www.wikidata.org/wiki/Q83059010">"Trigocherrin A, the first natural chlorinated daphnane diterpene orthoester from Trigonostemon cherrieri"</a> (available at <a href="https://sci-hub.se/10.1021/ol2030907">https://sci-hub.se/10.1021/ol2030907</a>). In the original paper there is no information regarding the specific specimen of Trigonostemon cherrieri which was extracted, no geographical coordinate for example.</p>
+<p>Thus describing the link to the taxon and not the organism itself is the best we can do (with this type of information source in our hands). So my question is why should we precise <strong>some</strong> as proposed by <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@Ray (Private)</a> ? erythromycin found in taxon <strong>some</strong> Aeromicrobium erythreum (here i replaced the part_of by found_in_taxon so as not to mix the two topics). If the statement is true for a specific organism (e.g. a precise strain of Aeromicrobium erythreum cultivated under given conditions) this still holds true for the taxon Aeromicrobium erythreum and higher taxa ranks (e.g. genus Aeromicrobium). Right ? We are not using <a href="http://purl.obolibrary.org/obo/RO_0002504">always_present_in_taxon</a> so why should we precise <em>some</em> ?</p>
+<p>This topic is very interesting for us because in a much greater fashion than genomics, metabolomics reflects the phenotype and is greatly influenced by environmental conditions. So if we take <a href="https://www.wikidata.org/wiki/Q105674316">trigocherrin A</a> <a href="https://www.wikidata.org/wiki/Property:P703">found in taxon</a> <a href="https://www.wikidata.org/wiki/Q3006048">Trigonostemon cherrieri</a> this might be true for this specific tree grown in this part of the island at this period of the year, but will not hold true when the tree is older at another time of the year and in other environmental conditions.
+For this researchers should better document the organism they are profiling / extracting (exploiting <a href="https://en.wikipedia.org/wiki/Taxonomic_treatment">taxonomic treatments</a> and possibly ids such as an iNaturalist observation id or other georeferenced specimen e.g. <a href="https://www.gbif.org/occurrence/438823777">https://www.gbif.org/occurrence/438823777</a>). But this is another topic ...</p>
+<p><em>Problem 2.</em> <em>What is the nature of the molecule we are linking ?</em> Chris proposed </p>
+<ol>
+<li>biosynthesized by pathways encoded by genes in the organism</li>
+<li>by product or intermediate of a native pathway of the organism (or further metabolized)</li>
+<li>produced by a microbe that is part of the “natural microbiome” [whatever that is] of that organism</li>
+<li>is in the metabolome of some tissue sample taken from that organism (guessing this is what LOTUS is?)</li>
+<li>Otherwise detected (including Ray’s pesticide case)</li>
+</ol>
+<p>But we could also very well have :</p>
+<ol start="6">
+<li>exogeneous compound modified by the host</li>
+</ol>
+<p>or why not</p>
+<ol start="7">
+<li>exogeneous compound metabolized by a consortium of species from the host microbiota (see <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5534341/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5534341/</a>)</li>
+</ol>
+<p>Since it is virtually impossible to establish the source of the thousand of molecules characterized during an untargeted metabolomics experiments it would be interesting to find a way to express the following generic statement "this molecule has been detected in an organism identified as belonging to this taxon". We are not saying that they are no other taxon involved in the production of this molecule, nor that it could be a xenobiotic for example, we just can't precise it for the moment.</p>
+<p>So if i understand, the <a href="http://purl.obolibrary.org/obo/RO_0002175">present_in_taxon</a> initially proposed by Ray would not be OK or would it ? To me it looked very similar to <a href="https://www.wikidata.org/wiki/Property:P703">found in taxon</a> and quite generic but I must admit I am starting to get lost.</p>
+<p>By the way my question initially came from the fact that I am trying to propose a nanopublication template documenting such links across molecules and organisms. See <a href="https://nanodash.knowledgepixels.com/explore?id=https%3A%2F%2Fw3id.org%2Fnp%2FRATGmPlZuuhgKAcqSICT4Qg_J9z5N9rVQbdGt4hJ7yMJM">example</a> for now using  <a href="http://purl.obolibrary.org/obo/RO_0002162">in taxon</a></p>
+<p>Happy to elaborate if I have not been clear on some points!</p>
+<h4 id="what-part-of-the-plant-should-mix">What part of the plant should mix<a aria-hidden="true" class="anchor-heading icon-link" href="#what-part-of-the-plant-should-mix"></a></h4>
+<p>At the moment we take an aliquot (50 mg) and mix only this.
+Colin suggested that we could mix the whould sample and THEN aliquot It</p>
+<ul>
+<li>this means a better representation of the chemistry of the sample</li>
+<li>however it also leads to more cross sample contaminations (trhough the powder)</li>
+<li>less storage lifetime ?</li>
+</ul>
+<h4 id="emi-portal-table">EMI portal table<a aria-hidden="true" class="anchor-heading icon-link" href="#emi-portal-table"></a></h4>
+<p>Bluetooth
+<a href="https://caniuse.com/web-bluetooth">https://caniuse.com/web-bluetooth</a></p>
+<p>We should be able to have an app working offline as long as we are logged in.</p>
+<p>Edouard mentions the interst of using local maps</p>
+<p>me says:
+<a href="https://www.swisstopo.admin.ch/fr/orthophotos-swissimage-10-cm">https://www.swisstopo.admin.ch/fr/orthophotos-swissimage-10-cm</a></p>
+<p>me says:
+<a href="https://www.swisstopo.admin.ch/fr/orthophotos-swissimage-10-cm#SWISSIMAGE-10-cm---Acc%C3%A8s-aux-g%C3%A9odonn%C3%A9es">https://www.swisstopo.admin.ch/fr/orthophotos-swissimage-10-cm#SWISSIMAGE-10-cm---Acc%C3%A8s-aux-g%C3%A9odonn%C3%A9es</a></p>
+<p><a href="https://map.geo.admin.ch/?lang=en&#x26;topic=ech&#x26;bgLayer=ch.swisstopo.pixelkarte-farbe&#x26;layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen&#x26;layers_opacity=1,1,1,0.8,0.8&#x26;layers_visibility=false,false,false,false,false&#x26;layers_timestamp=18641231">https://map.geo.admin.ch/?lang=en&#x26;topic=ech&#x26;bgLayer=ch.swisstopo.pixelkarte-farbe&#x26;layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen&#x26;layers_opacity=1,1,1,0.8,0.8&#x26;layers_visibility=false,false,false,false,false&#x26;layers_timestamp=18641231</a>,,,,</p>
+<p>me says:
+<a href="https://github.com/opengisch/QField">https://github.com/opengisch/QField</a></p>
+<p>me says:
+<a href="https://georust.org/">https://georust.org/</a></p>
+<p>me says:
+<a href="https://pka.github.io/rust-for-geo/#/title-slide">https://pka.github.io/rust-for-geo/#/title-slide</a></p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow-one-day--or-never">Todo tomorrow, one day ... or never<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow-one-day--or-never"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>
