@@ -2,7 +2,7 @@
 id: 03imcjhwy8lktl7xr0if5tv
 title: '2025-02-24'
 desc: ''
-updated: 1740392962713
+updated: 1740577755566
 created: 1740391320841
 traitIds:
   - open-notebook-dbgi-ebruelhart
@@ -85,6 +85,8 @@ Today is 2025.02.24
 
 - Pictures_manager: Useless, check for resources and delete
 
+- DBGI_tracking_android: Useless, check for resources and delete
+
 ### To keep with status
 
 - NextCloud: Running and working
@@ -97,7 +99,7 @@ Today is 2025.02.24
 
 - ms-sample-list-creator: Working
 
-- directus-db: Running but to clarify (prod, dev, etc)
+- directus-db: Running but to clarify (prod, dev, etc) -> deleted and replaced by 3 repos (Directus-prod, Directus-dev and directus-backup)
 
 - qfieldcloud-fetcher: To check and improve
 
