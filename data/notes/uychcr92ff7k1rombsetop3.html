@@ -1,0 +1,84 @@
+<h1 id="2023-07-27">2023-07-27<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-07-27"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.07.27</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h3 id="point-edouard">Point Edouard<a aria-hidden="true" class="anchor-heading icon-link" href="#point-edouard"></a></h3>
+<p>Looking into the noveltries of the qfield app
+-dpownload on deggoglzided android --- semms to work fine</p>
+<ul>
+<li>Think about using a defined taxonomy for the field called "sample_name" rather than an excel list per garden.
+For example we could use the <a href="https://tree.opentreeoflife.org/about/taxonomy-version/ott3.5">https://tree.opentreeoflife.org/about/taxonomy-version/ott3.5</a></li>
+</ul>
+<p>When using QGis
+we should make sure to use only LTS releases <a href="https://qgis.org/en/site/">https://qgis.org/en/site/</a></p>
+<p>Addition of 2 tabs "individual metadata" and "environmental metadata" (on top of the main "sample metadata")</p>
+<ul>
+<li>Define which field we want</li>
+<li>We should define which controlled vocabularies are used to fill the newly proposed fields</li>
+</ul>
+<p>For e.g. <a href="https://en.wikipedia.org/wiki/Root" title="In vascular plants, the roots are the organs of a plant that are modified to provide anchorage for the plant and take in water and nutrients into the plant body, which allows  plants to grow taller and faster. They are most often below the surface of the soil, but roots can also be aerial or aerating, that is, growing up above the ground or especially above water.">root</a> is could be fetched from the Plant Ontology <a href="https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009005">https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009005</a>
+PO:0025004</p>
+<h1 id="phenology">Phenology<a aria-hidden="true" class="anchor-heading icon-link" href="#phenology"></a></h1>
+<p>Flowering stage <a href="https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0007616?lang=en">https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0007616?lang=en</a></p>
+<p>Where are the other stages e.g fruiting </p>
+<p>IPEN and related individuals identifiers</p>
+<p>Peek into <a href="https://www.ebi.ac.uk/ols4/ontologies/envo">ENVO</a> and <a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore">ECOCORE</a></p>
+<p>E.g. humus <a href="https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000000?lang=en">https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000000?lang=en</a></p>
+<p>E.g Rain <a href="https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001564">https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001564</a></p>
+<p>Herbivory <a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000020">https://www.ebi.ac.uk/ols4/ontologies/ecocore/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000020</a></p>
+<p><a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore">https://www.ebi.ac.uk/ols4/ontologies/ecocore</a>
+<a href="https://www.ebi.ac.uk/ols4/ontologies/envo">https://www.ebi.ac.uk/ols4/ontologies/envo</a></p>
+<p>For Edouard</p>
+<p>Readlist </p>
+<ul>
+<li><a href="https://datascience.codata.org/articles/10.5334/dsj-2021-011">https://datascience.codata.org/articles/10.5334/dsj-2021-011</a></li>
+<li><a href="https://www.pnas.org/doi/abs/10.1073/pnas.1423041112">https://www.pnas.org/doi/abs/10.1073/pnas.1423041112</a></li>
+</ul>
+<p>And a constraint to the sample_name field so that the "unknown" value is automatically enforced when the "no_name_on_list" button is checked.</p>
+<p>Dig a bit the Directus tuto's <a href="https://www.dbgi.org/dendron-dbgi/notes/dy871a7dv1wcjmkvrte9ex7/">https://www.dbgi.org/dendron-dbgi/notes/dy871a7dv1wcjmkvrte9ex7/</a></p>
+<p>Created a new test layer in the JBUF project on QGis
+Also synced it with Qfield
+Added and additonal field with a constrained vocabulary (helicity l/r)</p>
+<h3 id="point-maelle">Point Maelle<a aria-hidden="true" class="anchor-heading icon-link" href="#point-maelle"></a></h3>
+<p>Chek into Goat and the "simple" taxo coverage counter present at <a href="https://goat.genomehubs.org/projects/EBP">https://goat.genomehubs.org/projects/EBP</a></p>
+<p>Error handling.
+For the SOPARQL and SQL interface be sure not to accidentaly DELETE all the present data</p>
+<p><a href="https://www.bioinformatics.unibe.ch/studies/general_information/index_eng.html">https://www.bioinformatics.unibe.ch/studies/general_information/index_eng.html</a></p>
+<p><a href="https://cloud.bioinformatics.unibe.ch/index.php/s/Mr7cKf37RicjZiN">https://cloud.bioinformatics.unibe.ch/index.php/s/Mr7cKf37RicjZiN</a></p>
+<p>Deadline rapport 31 Aout
+Deadline correction 12 Sept. </p>
+<h3 id="point-marco">Point Marco<a aria-hidden="true" class="anchor-heading icon-link" href="#point-marco"></a></h3>
+<p><a href="https://github.com/anticipated-lotus/GNN">https://github.com/anticipated-lotus/GNN</a></p>
+<p>Concatenate molecules pathways to molecule fingerprints</p>
+<ul>
+<li>Design a script that can handle the generation of a global fingerprint and append it to the previously calculated LOTUS fp.</li>
+</ul>
+<p>(SMILES -> full Classyfire taxo + Morgan FP)
+Be careful, the binary encoder should be done AFTER the gloabl fingerprinting stage.</p>
+<ul>
+<li>Establish the samne script for biological organism.</li>
+</ul>
+<p>This should allow to evaluate the occurence of unknown molecule and species.</p>
+<p>Validate on JNP hot of the press !</p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/cm2e2wpc8piw6qco896meya">2023-08-09</a></li>
+</ul>

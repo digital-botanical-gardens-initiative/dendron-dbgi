@@ -1,0 +1,39 @@
+<h1 id="2024-02-29">2024-02-29<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-29"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.29</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>CSS and SASS</p>
+<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+<p>Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. It provides mechanisms such as variables, nesting, and mixins, making it easier to create and maintain CSS.</p>
+<p>Classes are prefixed by a dot (.) and IDs are prefixed by a hash (#).</p>
+<p>The websocket is a communication protocol that makes it possible to establish a two-way communication channel between a server and a client. It is a protocol that operates over TCP, and it is at the same time simple and efficient. It is used to create a real-time web application, such as a chat application or a live feed.</p>
+<p>When you have such a thing, you might want to specify its configuration in the NGINX file. This is done by adding a location block to the server block such as :</p>
+<pre><code>location /ws {
+    proxy_pass http://backend;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+}
+</code></pre>
+<p>This block tells NGINX to proxy all requests to the /ws location to the backend server. It also sets the Upgrade and Connection headers to upgrade the connection to a WebSocket connection.</p>
+<p>Strangely enough this blocked the cookies (on Firefox)</p>
+<h2 id="todo-tomorrow-one-day--or-never">Todo tomorrow, one day ... or never<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow-one-day--or-never"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li><a href="https://experiment.com/">https://experiment.com/</a> is a platform for crowdfunding of Scientific project.</li>
+</ul>
+<p>We are thinking of mounting one of such project to fund Marco in the next 6 monthes and finalize the work on anticipated LOTUS.</p>
+<p>AI for Interspecies Communication <a href="https://experiment.com/programs/interspecies">https://experiment.com/programs/interspecies</a></p>
+<p>We also discovered about the <a href="https://www.earthspecies.org/">https://www.earthspecies.org/</a></p>

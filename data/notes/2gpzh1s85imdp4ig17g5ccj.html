@@ -1,0 +1,37 @@
+<h1 id="directus">directus<a aria-hidden="true" class="anchor-heading icon-link" href="#directus"></a></h1>
+<p>Access to directus: <a href="http://directus.dbgi.org">http://directus.dbgi.org</a></p>
+<h2 id="creating-a-directus-project">Creating a directus project<a aria-hidden="true" class="anchor-heading icon-link" href="#creating-a-directus-project"></a></h2>
+<p><a href="https://docs.directus.io/self-hosted/installation/cli.html">https://docs.directus.io/self-hosted/installation/cli.html</a></p>
+<h2 id="navigate-on-directus">Navigate on directus<a aria-hidden="true" class="anchor-heading icon-link" href="#navigate-on-directus"></a></h2>
+<p>The leftmost section of the App is the module bar which includes:</p>
+<pre><code>- Content — The primary way to view and interact with database content
+- User Directory — A dedicated section for the platform's system Users
+- File Library — An aggregate of all files uploaded and managed within the platform
+- Insights — Access to infinitely customizable data dashboards
+- App Guide — A tailored, in-app portal for the platform's concepts, guides, and reference
+- Dendron — Link to the dendron website
+- Mailto — Link to send a mail to the administrator
+- Github — Link to dbgi github repo
+- Settings — An admin-only section for configuring the project and system settings
+</code></pre>
+<h2 id="to-stop-httpdirectusdbgiorg">To stop <a href="http://directus.dbgi.org">http://directus.dbgi.org</a><a aria-hidden="true" class="anchor-heading icon-link" href="#to-stop-httpdirectusdbgiorg"></a></h2>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /prog/directus_dbgi
+<span class="token function">kill</span> -9 <span class="token variable"><span class="token variable">`</span><span class="token function">cat</span> save_pid.txt<span class="token variable">`</span></span>
+</code></pre>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>This should be runned as root (type sudo su)</p>
+<h2 id="if-httpdirectusdbgiorg-stops-running">If <a href="http://directus.dbgi.org">http://directus.dbgi.org</a> stops running<a aria-hidden="true" class="anchor-heading icon-link" href="#if-httpdirectusdbgiorg-stops-running"></a></h2>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /prog/directus_dbgi              
+setsid <span class="token function">nohup</span> npx directus start <span class="token operator">></span> log.log <span class="token operator"><span class="token file-descriptor important">2</span>></span><span class="token file-descriptor important">&#x26;1</span> <span class="token operator">&#x26;</span>
+<span class="token builtin class-name">echo</span> <span class="token variable">$!</span> <span class="token operator">></span> save_pid.txt
+</code></pre>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/dendron-dbgi/notes/l5hk8footuy2893u4zi6yvs">Basics</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/b8n1vn26n8u1w2wibw8natf">2024-02-05</a></li>
+</ul>

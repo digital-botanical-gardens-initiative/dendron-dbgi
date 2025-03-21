@@ -1,0 +1,72 @@
+<h1 id="2022-11-24">2022-11-24<a aria-hidden="true" class="anchor-heading icon-link" href="#2022-11-24"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2022.11.24</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Meeting with pma at 10am</li>
+<li class="task-list-item"><input type="checkbox" disabled> Show images from url on directus</li>
+</ul>
+<h3 id="if-everything-done-before-end-of-day">If everything done before end of day<a aria-hidden="true" class="anchor-heading icon-link" href="#if-everything-done-before-end-of-day"></a></h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> go on with the tutorial</li>
+</ul>
+<h2 id="meeting-with-pma">Meeting with pma<a aria-hidden="true" class="anchor-heading icon-link" href="#meeting-with-pma"></a></h2>
+<p>To discuss:         </p>
+<ul>
+<li>
+<p>dot problem resolved</p>
+</li>
+<li>
+<p>Dbgi_id without regex on format module</p>
+</li>
+<li>
+<p>Block table on directus (=> when using another user)</p>
+</li>
+<li>
+<p>change dbgi_id => DBGI_000000</p>
+</li>
+<li>
+<p>Pswd in cronjob</p>
+</li>
+<li>
+<p>show images</p>
+</li>
+</ul>
+<h3 id="new-todo-after-meeting">new TODO after meeting<a aria-hidden="true" class="anchor-heading icon-link" href="#new-todo-after-meeting"></a></h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> dbgi_id without regex</li>
+<li class="task-list-item"><input type="checkbox" disabled> url on directus</li>
+<li class="task-list-item"><input type="checkbox" disabled> show images</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h3 id="show-images-from-url-on-directus">Show images from url on directus<a aria-hidden="true" class="anchor-heading icon-link" href="#show-images-from-url-on-directus"></a></h3>
+<p>Could maybe create a script to convert<br>
+=> install directus CLI</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">npm</span> <span class="token function">install</span> -g @directus/cli
+</code></pre>
+<p>Connect to instance:      </p>
+<pre class="language-bash"><code class="language-bash">npx directusctl instance connect --instance directus_dbgi*
+</code></pre>
+<p>Help:  </p>
+<pre class="language-bash"><code class="language-bash">npx directusctl --help
+</code></pre>
+<h3 id="dbgi_id-without-regex">dbgi_id without regex<a aria-hidden="true" class="anchor-heading icon-link" href="#dbgi_id-without-regex"></a></h3>
+<pre class="language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>df<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>          
+  dct <span class="token operator">=</span> <span class="token builtin">dict</span><span class="token punctuation">(</span><span class="token punctuation">)</span>         
+  <span class="token keyword">if</span> df<span class="token punctuation">.</span>ofvs<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token keyword">is</span> <span class="token keyword">not</span> np<span class="token punctuation">.</span>nan<span class="token punctuation">:</span>       
+    ls <span class="token operator">=</span> df<span class="token punctuation">.</span>ofvs<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'\''</span><span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span>        
+    <span class="token keyword">for</span> j <span class="token keyword">in</span> ls<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">','</span><span class="token punctuation">)</span><span class="token punctuation">:</span>        
+      j <span class="token operator">=</span> j<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">':'</span><span class="token punctuation">)</span>         
+      dct<span class="token punctuation">[</span>j<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> j<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>          
+      <span class="token keyword">if</span> dct<span class="token punctuation">[</span><span class="token string">'name_ci'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'emi_external_id'</span><span class="token punctuation">:</span>           
+        <span class="token keyword">print</span><span class="token punctuation">(</span>dct<span class="token punctuation">[</span><span class="token string">'value_ci'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span>        
+        df<span class="token punctuation">.</span>at<span class="token punctuation">[</span>i<span class="token punctuation">,</span><span class="token string">'dbgi_id'</span><span class="token punctuation">]</span> <span class="token operator">=</span> dct<span class="token punctuation">[</span><span class="token string">'value_ci'</span><span class="token punctuation">]</span>      
+</code></pre>
+<p>Works on jupyter notebook but not on format_module.py ....<br>
+Error: <em>ls = df.ofvs[i].replace(' ','').replace('\'','')  AttributeError: 'list' object has no attribute 'replace'</em></p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> dbgi_id without regex</li>
+<li class="task-list-item"><input type="checkbox" disabled> url on directus</li>
+<li class="task-list-item"><input type="checkbox" disabled> show images</li>
+</ul>
