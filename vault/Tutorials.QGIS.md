@@ -2,13 +2,15 @@
 id: qug423ond4xtns8lelu38p2
 title: QGIS
 desc: ''
-updated: 1744185144054
+updated: 1744187424210
 created: 1680685151204
 ---
 ## Here you can find informations to set up the field project (create new layers, projects, change settings, ...)
 
 ### First step: Download QGIS
 Select and download the suited verion of QGIS here: https://www.qgis.org/en/site/forusers/download.html
+
+Else, make sure you are using the latest QGIS version. If you are using a Mac, you can download the latest version from [QGIS MacOS](https://www.qgis.org/en/site/forusers/macosx.html).
 
 ### Second step: Open QGIS and install QFieldSync plugin:
 Go to the "Plugins" tab, "Manage and install plugins..." -> "All" and search for "QField Sync". Install it.
@@ -19,3 +21,5 @@ Go to the "Plugins" tab, "QFieldSync" -> "QFieldCloud Projects Overview". Double
 ### To create a layer for the collection
 
 You have the complete setup [here](https://www.dbgi.org/dendron-dbgi/notes/1u37mlza55e6dgksabcv7qn/)
+
+[[Services.QGIS.DBGI-plugin]]

@@ -2,7 +2,7 @@
 id: 1u37mlza55e6dgksabcv7qn
 title: DBGI-plugin
 desc: ''
-updated: 1718372028284
+updated: 1744187813918
 created: 1684843029214
 ---
 # Welcome to the DBGI plugin page!
@@ -27,13 +27,15 @@ In the future, this plugin could eventually perform more tasks depending on te D
 - Open the needed QGIS project (to know how to do it, go [there](https://www.dbgi.org/dendron-dbgi/notes/qug423ond4xtns8lelu38p2/) )
 - In QGIS go to Vector -> DBGI -> Create a DBGI geopackage
 - Enter the name of your geopackage (no white space please)
-- Choose the species names layer (.csv or .gpkg). If there is no species names layer, add one to the project (A new feature will come if no species names layer available, work in progress...)
-- Choose the field in the species names layer that contains the binomial nomenclature
+- Choose the identification's layer (a list of species name that you anticipate to collect) (.csv or .gpkg). If there is no species names layer, add one to the project (A new feature will come if no species names layer available, work in progress...)
+- Select identification name : choose the field in the species names layer that contains the binomial nomenclature (e.g. idTaxon)
+- Select collector's layer (e.g. collector list)
 - Save with ctrl + s. Your new layer is now added to the QGIS project.
 
 #### 3. Sync back with QFieldCloud
-- In the QGIS project, go to Plugins -> QFieldSync -> Syncrhronize Current Cloud Project
-- !!! Warning !!! At this step you could corrupt the project. So make sure to click on Prefer cloud, and then tick under the little laptop icon only your layer (your_layer_name.gpkg), the cloud attachment (extension _attachment.zip) and the project (extension .qgs) (Figure 1).
+- In the QGIS project, go to Plugins -> QFieldSync -> Synchronize Current Cloud Project
+- !!! Warning !!! At this step you could corrupt the project. So make sure to click on Prefer cloud, and then tick under the little laptop icon only your layer (your_layer_name.gpkg), the cloud attachment (name_of_project_attachment.zip) and the project (name_of_project .qgs) (Figure 1).
+- Perform actions
 
 ![sync back](assets/images/sync_back_QGIS.png){max-width : 600px, display: block, margin: 0 auto}*Figure 1: Add the layer to the cloud project*
 
