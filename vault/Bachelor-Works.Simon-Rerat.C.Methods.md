@@ -2,7 +2,7 @@
 id: eu1plal3d6wub84ws6fp1gt
 title: Methods
 desc: ''
-updated: 1750241580209
+updated: 1750345134088
 created: 1741178110506
 ---
 # Tree sampling
@@ -48,8 +48,10 @@ To achieve this, UUID transcribed in QR-codes were generated and attached to the
 
 
 Approximately 130 trees of the botanical garden have been sampled for this bachelor's work. They are scattered all over the garden, with a greater concentration in the arboretum, and near the fences as hedges. They tend to come from all over the world with local species (_Picea abies_) aswell as tropical ones (_Persea americana_). This work might show a strong bias toward gymnosperms as they present leaves all year long, and many trees didn't show any leaves before the end of march.
-(ADD JBUF MAP)
+
+
 ![alt text](CarteJBUF.PNG)
+_<center>Fig.XX-XX: Map of the JBUF. Trees sampled were ...</center>_
 
 
 ### Sampling
@@ -113,7 +115,57 @@ Approximately 130 trees of the botanical garden have been sampled for this bache
   
   _<center>Fig.XX-XX: Glass vials containing inserts</center>_
 
-  ## Sample Tracking & UUID
+
+<center>
+<style>
+svg[id^="mermaid-"] { max-height: 1100px}
+</style>
+<style>
+svg[id^="mermaid-"] { max-width: 700px }
+</style>
+
+```mermaid
+
+flowchart TB
+
+
+   
+     A(1. Choose individual)-->
+     B(2. Set UUID in the field)-->
+     C(3. Set localisation on the QGIS map)-->
+     D(4. Fill the QGIS fields and take the pictures)--Unique code is linked to the sample in the DB-->id99[(DBGI Database)]
+     D-->F(5. Take the sample)-->
+     G(6. Store with the adapted technique)
+     G-->GJ(7. Freeze dryer for 72 hours)
+
+
+     -->H[7. Weighing:50mg +-2,5mg]
+     H--Transfer data to-->id99
+    H-->I[8. Shake]
+    I--If not woody-->II[2,5 minutes at 25Hz]
+    I--If woody-->IJ[5 minutes at 25Hz]
+    II--> J[9. Shake]
+    IJ--> J
+     J--If not woody-->JJ[2,5 minutes at 25Hz]-->K
+    J--If woody-->JK[5 minutes at 25Hz]-->K
+    K[10. Extraction solution: 80% methanol, 20% H2O, 0,1% formic acid]
+    L[11.Centrifugate 2 minutes at 13'000 RPM]
+    K[10. Put 1,4ml of supernatant in 2mls storage vials]-->
+
+  L([11.Take 120μl of the sample for analysis])-->
+  M([12. Put the 120μl sample in the LC-MS])-->
+  N([13. Furter analysis with ProteoWisard, GNPS, MZMine, and Cytsocape])-->
+  O([14.Molecular network]) --Transfer data to--> id99
+  D-->P(Geolocalisation and pictures are automatically sent on iNaturalist)
+  P-->id99
+```
+</center>
+_<center>
+Fig.XX-XX: Here is a cheat sheet of the different steps from the garden to the integration in the database.
+</center>_
+
+
+## Sample Tracking & UUID
 One of the key aspect of the DBGI is establishing and preserving linkage between the field and the database. Therefore, a reliable sample tracking system is necessary to keep track of the numerous samples for the entirety of their processing. As soon as a sample has been collected, a unique code is assigned to it. It will follow it through each stage of preparation, from extraction to storage by being reported on all containers the sample will go through. This allows to efficiently link the data, and the metadata of the sample into the database.
 
 To go further in the labelling process, this Bachelor's project focuses on the introduction of Universally Unique IDentifiers (UUIDs), also known as Globally Unique Identifier (GUIDs) in the established workflow. UUIDs are 128-bit labels used to uniquely identify objects in computer systems. They are excellent for the purpose of the EMI, as they don't need central authority, and can be generated in the field, even in the absence of internet connection.
@@ -121,7 +173,3 @@ This will allow the DBGI to be more precise in its metadata assignation. Attribu
 
 One important point to keep in mind is that other alternatives to UUIDs such as LSID, URN, HTTP URI, DOI, IGSN, ... exist and are used in different biocollections. The biodiversity community hasn't decided on a single method to use as of yet. No specific method prevails on the others (Guralnik et al. 2015), whith their own advantages and drawbacks.
 As such, the method used by the DBGI might change as time goes on.
-
-(EST CE QUE JE VEUX METTRE UN FLOWCHART DE BZ RESUMANT TOUT LE WORKFLOW ?
-
-peut-être que ce n'est pas nécessaire, mais en vrai ça pourrait être pratique pour les prochains élèves qui devront faire de la PEch)

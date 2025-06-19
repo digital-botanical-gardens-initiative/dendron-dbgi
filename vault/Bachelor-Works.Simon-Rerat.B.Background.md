@@ -2,16 +2,18 @@
 id: it2hbdgf7o7mejku2hwo817
 title: Background
 desc: ''
-updated: 1743421306755
+updated: 1750345056601
 created: 1743421306755
 ---
 ## EMI:
 
-The goal of the Earth Metabolome Initiatve (EMI) is similar in scale to the Earth Biogenome Project. Yet instead of gene diversity, it takes an interest in chemical diversity (chemiodiversity). Its goal is simple, yet ambitious: Document all of the chemical diversity (chimiodiversity) of all known living organisms, while anthropogenic biodiversity loss is speeding up.
-In term, this should benefit  human society as a whole, help better understand the chemical fundations of the biosphere, and provide molecular arguments in favor of the protection of biodiversity.
+The goal of the Earth Metabolome Initiatve (EMI) is similar in scale to the Earth Biogenome Project. Yet instead of gene diversity, it takes an interest in chemical diversity (chemiodiversity). Its goal is simple, yet ambitious: Document all of the chemical diversity (chimiodiversity) of all known living organisms- All the while anthropogenic biodiversity loss is speeding up.
+
+Similarly to the Human Genome Project, which was an ambitious project aswell, the means necessary to achieve the goal of the EMI are massive and wouldn't have been possible without the collaboration of many teams from around the world. Yet the benefits Humanity sowed from it were enormous (bioarcheology, evolution, forensic sciences, animal husbandry, ...).
+Like the Human Genome project, the EMI should benefit  human society as a whole, by helping better understand the chemical fundations of the biosphere, providing molecular arguments in favor of the protection of biodiversity, ... .
 
 It strives for the creation of a new web of knowledge, linking metabolomics, biology, chemistry, and other open datasets together.
-To reach this goal, the EMI team will have to develop  informatical, organisational, and scientific tools tailor made for their needs.
+To reach this goal, the EMI team will have to develop  informatical, organisational, and scientific tools tailor made for its needs.
 This is where the Digital Botanical Gardens Initiative (DBGI) comes into place (The EMI Consortium, 2022).
 
 
@@ -25,14 +27,12 @@ Not to forget the creation of a knowledge graphe by recouping the informations f
 As the methods of the DBGI while be applied to the EMI, its methods and workflow need to be scalable to match the scale of such an ambitious project. And ultimately, be applicable in wild, hard to access ecosystems.
 This should help visualise and search the functioning of ecosystems, orient research and conservation efforts.
 
-![alt text](image-2.png){height: 800px, width: 800px, display: block, margin: 0 auto}
-  _<center>Fig.XX-XX: Data types and fluxes in the DBGI summarising the inner working of the database
-  
-   (IS THIS PICTURE REALLY NECESSARY ?)</center>_
 
 As of now, only the Jardin Botanique de l'Université de Fribourg (JBUF) and the Jardin Botanique de Neuchâtel (JBN) are part of the initiative. The causes being practical, founding teams have their offices located in Fribourg and Neuchâtel respectively, and ther unique characteristics, the JBUF arranged the System according to the APG IV (UNIFR about JBUF), and the JBN has a plants collection of ethnomedicinal value (The DBGI Consortium, 2022).
 
-## Definition of tree
+WHY USE BG ?
+
+## Definition of "tree"
 
 Defining what a tree is might seem childish at first glance. However, this simple question is all the more relevant as many definitions exist (Lund, 2015), but none seem to be universally agreed upon in botany (Hallé, 2008).
 
@@ -63,7 +63,7 @@ Finally, a tree is a «large» plant. Its height, the diameter of its trunk, its
 
 In short, a tree is a rather large plant, when compared to human standards, which  grows a self-supporting trunk.
 
-## iNaturalist ?
+## iNaturalist
 All pictures taken while sampling are periodically uploaded on the iNaturalist website on the [DBGI profile](https://www.inaturalist.org/projects/digital-botanical-gardens-initiative). This allows to confirm the belonging of a sampled individual to a certain species by external experts. 
 
-This tool is crucial for the DBGI,but mostly for the EMI due to their sheer scale. The quantity of organisms to sample is significant. Therefore, specialist working on all branches of the tree of life are needed to reach the EMI's goal. Using iNaturalist allows to save up ressources by having a preformed channel of access to them.
+This tool is crucial for the DBGI, and mostly for the EMI, due to their scale. The quantity of organisms to sample is large. Therefore, specialists working on all branches of the tree of life are needed to reach the EMI's goal. Using iNaturalist allows to save up ressources by having a preformed channel of access to them.

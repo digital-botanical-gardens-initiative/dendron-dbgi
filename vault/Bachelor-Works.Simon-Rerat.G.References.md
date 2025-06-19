@@ -2,9 +2,51 @@
 id: 2y2m8md570w0m4tx2yhetgu
 title: References
 desc: ''
-updated: 1750241779916
+updated: 1750341288276
 created: 1750241751532
 ---
-Cf. Zotero
 
-Bibliography:
+1.
+Allard, P.-M., Bisson, J. & Rutz, A. ISDB: In Silico Spectral Databases of Natural Products. Zenodo (2021).
+2. ## ^3kvwdyctonnv
+Allard, P.-M. et al. Integration of Molecular Networking and In-Silico MS/MS Fragmentation for Natural Products Dereplication. Anal Chem 88, 3317–3323 (2016).
+3.
+Barry A., T. Carboniferous Lepidodendraceae and Lepidocarpacea. ResearchGate (1978) doi:10.1007/BF02957853.
+4.
+Chambers, M. C. et al. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol 30, 918–920 (2012).
+5.
+Consortium, T. D. B. G. I. The Digital Botanical Gardens Initiative. Manubot https://digital-botanical-gardens-initiative.github.io/dbgi-green-paper/ (2022).
+6.
+Consortium, T. E. The Earth Metabolome Initiative ... a brief presentation. (2022) doi:10.5281/zenodo.7486984.
+7.
+Djoumbou Feunang, Y. et al. ClassyFire: automated chemical classification with a comprehensive, computable taxonomy. J Cheminform 8, 61 (2016).
+8.
+Dührkop, K. et al. SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information. Nat Methods 16, 299–302 (2019).
+9.
+Dührkop, K. et al. Systematic classification of unknown metabolites using high-resolution fragmentation mass spectra. Nat Biotechnol 39, 462–471 (2021).
+10.
+Fairon-Demaret, M. Some uppermost Devonian megafloras: a stratigraphical review. asgb (1986).
+11.
+Guralnick, R. P. et al. Community Next Steps for Making Globally Unique Identifiers Work for Biocollections Data. Zookeys 133–154 (2015) doi:10.3897/zookeys.494.9352.
+12.
+Hallé, F. Aux origines des plantes. vol. Vol. 1 (Fayard, Paris, 2008).
+13.
+Lund, H. G. Definitions of  Tree and Shrub. ResearchGate https://www.researchgate.net/publication/281743733_Definitions_of_'tree'_and_'shrub' (2015) doi:10.13140/RG.2.1.4103.9848.
+14.
+Meyer-Berthaud, B., Scheckler, S. E. & Wendt, J. Archaeopteris is the earliest known modern tree. Nature 398, 700–701 (1999).
+15.
+Myers, O. D., Sumner, S. J., Li, S., Barnes, S. & Du, X. One Step Forward for Reducing False Positive and False Negative Compound Identifications from Mass Spectrometry Metabolomics Data: New Algorithms for Constructing Extracted Ion Chromatograms and Detecting Chromatographic Peaks. Anal. Chem. 89, 8696–8703 (2017).
+16.
+Pluskal, T., Castillo, S., Villar-Briones, A. & Oresic, M. MZmine 2: modular framework for processing, visualizing, and analyzing mass spectrometry-based molecular profile data. BMC Bioinformatics 11, 395 (2010).
+17.
+Raven, J. & Crane, P. Trees. Current Biology 17, R303–R304 (2007).
+18.
+Rutz, A. et al. Taxonomically Informed Scoring Enhances Confidence in Natural Products Annotation. Front. Plant Sci. 10, (2019).
+19.
+Rutz, A. et al. The LOTUS initiative for open knowledge management in natural products research. Elife 11, e70780 (2022).
+20.
+Unifr. A propos | Jardin botanique de l’Université de Fribourg |. Unifr about JBUF https://www.unifr.ch/jardin-botanique/fr/about/.
+21.
+Wang, M. et al. Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking. Nat Biotechnol 34, 828–837 (2016).
+22.
+NPClassifier: A Deep Neural Network-Based Structural Classification Tool for Natural Products | Journal of Natural Products. https://pubs.acs.org/doi/10.1021/acs.jnatprod.1c00399.

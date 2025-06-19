@@ -2,7 +2,7 @@
 id: j0dw5yx7u1t2uyitabax2h8
 title: Contents
 desc: ''
-updated: 1750240950545
+updated: 1750342640174
 created: 1750240950545
 ---
 Structure of the thesis:
@@ -12,7 +12,7 @@ Structure of the thesis:
 ### EMI
 ### DBGI
 ### Definition of the tree
-### INaturalist
+### iNaturalist
 
 ## [[Bachelor-Works.Simon-Rerat.C.Methods]]
 ### Sampling
@@ -27,7 +27,5 @@ Structure of the thesis:
 ### Results
 
 ## [[Bachelor-Works.Simon-Rerat.E.Conclusions]]
-## [[Bachelor-Works.Simon-Rerat.G.Perspectives]]
-## [[Bachelor-Works.Simon-Rerat.H.References]]
-### Biblio
-### Picto ?
+## [[Bachelor-Works.Simon-Rerat.F.Perspectives]]
+## [[Bachelor-Works.Simon-Rerat.G.References]]
