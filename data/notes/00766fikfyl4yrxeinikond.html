@@ -1,0 +1,162 @@
+<h1 id="2023-04-27">2023-04-27<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-04-27"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.04.27</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul>
+<li>Check discussion: <a href="https://github.com/orgs/digital-botanical-gardens-initiative/discussions">https://github.com/orgs/digital-botanical-gardens-initiative/discussions</a></li>
+<li>Check Zulip</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h3 id="js-tutorials">JS tutorials<a aria-hidden="true" class="anchor-heading icon-link" href="#js-tutorials"></a></h3>
+<p><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc">https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc</a></p>
+<h4 id="variable-creation">variable creation<a aria-hidden="true" class="anchor-heading icon-link" href="#variable-creation"></a></h4>
+<ul>
+<li><strong>let</strong> => can be changed</li>
+<li><strong>const</strong> => can't be changed</li>
+<li><strong>var</strong> => older way</li>
+</ul>
+<h4 id="variable-comparison">variable comparison<a aria-hidden="true" class="anchor-heading icon-link" href="#variable-comparison"></a></h4>
+<ul>
+<li>
+<p><strong>==</strong> equals</p>
+</li>
+<li>
+<p><strong>!=</strong> not equals</p>
+</li>
+<li>
+<p><strong>===</strong> equals and same type</p>
+</li>
+<li>
+<p><strong>!==</strong> not equals to type</p>
+</li>
+<li>
+<p><strong>&#x26;&#x26;</strong> and</p>
+</li>
+<li>
+<p><strong>||</strong> or</p>
+</li>
+<li>
+<p><strong>!boolean</strong> inverse</p>
+</li>
+<li>
+<p>Check type => <code>typeof variableName</code></p>
+</li>
+</ul>
+<h4 id="loops">Loops<a aria-hidden="true" class="anchor-heading icon-link" href="#loops"></a></h4>
+<ul>
+<li><code>for(let i=0,i&#x3C;5,i++){}</code></li>
+<li><code>while(i&#x3C;5){}</code></li>
+<li><code>do{}while(i&#x3C;5)</code> => run the 'do' code one time before checking for condition</li>
+<li><code>if(){} else if{} else{}</code></li>
+<li>When testing multiple elif on same variable => </li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token keyword control-flow">switch</span><span class="token punctuation">(</span>variableToTest<span class="token punctuation">)</span><span class="token punctuation">{</span> 
+  <span class="token keyword">case</span> <span class="token string">'A'</span><span class="token operator">:</span>
+    code<span class="token punctuation">;</span>
+    <span class="token keyword control-flow">break</span><span class="token punctuation">;</span>
+  <span class="token keyword">case</span> <span class="token string">'B'</span><span class="token operator">:</span>
+    code<span class="token punctuation">;</span>
+    <span class="token keyword control-flow">break</span><span class="token punctuation">;</span>
+  <span class="token keyword">case</span> <span class="token string">'C'</span><span class="token operator">:</span>
+    code<span class="token punctuation">;</span>
+    <span class="token keyword control-flow">break</span><span class="token punctuation">;</span>
+  <span class="token keyword module">default</span><span class="token operator">:</span>
+    code<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> 
+</code></pre>
+<h4 id="functions">functions<a aria-hidden="true" class="anchor-heading icon-link" href="#functions"></a></h4>
+<h5 id="function-declaration">function declaration:<a aria-hidden="true" class="anchor-heading icon-link" href="#function-declaration"></a></h5>
+<pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  code<span class="token punctuation">;</span>
+  <span class="token keyword control-flow">return</span> <span class="token spread operator">...</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>call function: <code>name();</code></p>
+<h5 id="function-expresion">function expresion:<a aria-hidden="true" class="anchor-heading icon-link" href="#function-expresion"></a></h5>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">variable</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  code<span class="token punctuation">;</span>
+  <span class="token keyword control-flow">return</span> <span class="token spread operator">...</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<p>call expression: <code>variable();</code></p>
+<p>function declaration is happening at the beginning of the script even if it is defined at the end whereas function expression not.</p>
+<h5 id="arrow-function">arrow function:<a aria-hidden="true" class="anchor-heading icon-link" href="#arrow-function"></a></h5>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">variable</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">arguments</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> code<span class="token punctuation">;</span>
+</code></pre>
+<h5 id="method">method<a aria-hidden="true" class="anchor-heading icon-link" href="#method"></a></h5>
+<p>functions that are called as '.method' after an object</p>
+<h5 id="callbacks">callbacks<a aria-hidden="true" class="anchor-heading icon-link" href="#callbacks"></a></h5>
+<p>functions that are used in another function as argument</p>
+<pre class="language-js"><code class="language-js">object<span class="token punctuation">.</span><span class="token method function property-access">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span><span class="token string">'something'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>or with arrow function:</p>
+<pre class="language-js"><code class="language-js">object<span class="token punctuation">.</span><span class="token method function property-access">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token arrow operator">=></span><span class="token punctuation">{</span>
+  <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span><span class="token string">'something'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="objects">Objects<a aria-hidden="true" class="anchor-heading icon-link" href="#objects"></a></h4>
+<p>= python class</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">let</span> user <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'crystal'</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">'crystal@thenetningja.co.uk'</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">location</span><span class="token operator">:</span> <span class="token string">'berlin'</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">blogs</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span><span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'blog1'</span><span class="token punctuation">,</span><span class="token literal-property property">likes</span><span class="token operator">:</span> <span class="token number">30</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span><span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'blog2'</span><span class="token punctuation">,</span> <span class="token literal-property property">likes</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">}</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">login</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">// method creation</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span><span class="token string">'the user logged in'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">logBlogs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">blogs</span><span class="token punctuation">.</span><span class="token property-access">title</span> <span class="token comment">// 'this' calls the object</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// access value</span>
+name <span class="token operator">=</span> user<span class="token punctuation">.</span><span class="token property-access">name</span><span class="token punctuation">;</span> 
+name <span class="token operator">=</span> user<span class="token punctuation">[</span><span class="token string">'name'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// change value</span>
+user<span class="token punctuation">.</span><span class="token property-access">age</span> <span class="token operator">=</span> <span class="token number">35</span><span class="token punctuation">;</span> 
+user<span class="token punctuation">[</span><span class="token string">'age'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">35</span><span class="token punctuation">;</span>
+
+<span class="token comment">// call method</span>
+user<span class="token punctuation">.</span><span class="token method function property-access">login</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="nodejs-tutorials">Node.js tutorials<a aria-hidden="true" class="anchor-heading icon-link" href="#nodejs-tutorials"></a></h3>
+<p><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU">https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU</a></p>
+<h4 id="introduction">Introduction<a aria-hidden="true" class="anchor-heading icon-link" href="#introduction"></a></h4>
+<ul>
+<li>Node.js permits to read and write files on a computer</li>
+<li>connect to a database</li>
+<li>Act as a Server for content</li>
+<li>no need to link to html files</li>
+</ul>
+<p>=> Role is to run JS on the backend</p>
+<p>Why use Node.js?</p>
+<ul>
+<li>share code between front and back en as they use both JS</li>
+<li>Huge community behind it</li>
+<li>Huge amouont of third-party packages and tools to help</li>
+</ul>
+<h4 id="streams-and-buffer">streams and buffer<a aria-hidden="true" class="anchor-heading icon-link" href="#streams-and-buffer"></a></h4>
+<p>When loading data => not all at once but more like a stream.<br>
+Load data in buffer => when buffer is full => pass data</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> readStream <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token method function property-access">createReadStream</span><span class="token punctuation">(</span><span class="token string">'./docs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+readStream<span class="token punctuation">.</span><span class="token method function property-access">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token parameter">chunk</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  code
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Chunk is passed when buffer is full</p>
+<p>Can do the same for writing files with <code>fs.createWriteStream()</code>.</p>
+<h5 id="piping">piping<a aria-hidden="true" class="anchor-heading icon-link" href="#piping"></a></h5>
+<p>read a file and write
+<code>readStream.pipe(writeStream);</code></p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<p>Continue node.js course from #7</p>
+<h2 id="important-for-redaction">Important for redaction<a aria-hidden="true" class="anchor-heading icon-link" href="#important-for-redaction"></a></h2>

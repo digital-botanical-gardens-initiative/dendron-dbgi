@@ -1,0 +1,65 @@
+<h1 id="2024-02-05">2024-02-05<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-05"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.05</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>Call with Marco to explain what a Fuzzer is and how to use it in the Rust project.</p>
+<p>To fuzz a Rust project, you need to create a directory <code>fuzz</code> in the root of the crate, and then add a subdirectory therein called <code>fuzz_targets</code>. </p>
+<p>You will need to install the <code>cargo-fuzz</code> tool with the following command:</p>
+<pre class="language-bash"><code class="language-bash">cargo <span class="token function">install</span> cargo-fuzz
+</code></pre>
+<p>Create also a file <code>Cargo.toml</code> in the <code>fuzz</code> directory with the following content:</p>
+<pre class="language-toml"><code class="language-toml"><span class="token punctuation">[</span><span class="token table class-name">package</span><span class="token punctuation">]</span>
+<span class="token key property">name</span> <span class="token punctuation">=</span> <span class="token string">"{your crate name}-fuzz"</span>
+<span class="token key property">version</span> <span class="token punctuation">=</span> <span class="token string">"0.0.0"</span>
+<span class="token key property">publish</span> <span class="token punctuation">=</span> <span class="token boolean">false</span>
+<span class="token key property">edition</span> <span class="token punctuation">=</span> <span class="token string">"2021"</span>
+
+<span class="token punctuation">[</span><span class="token table class-name">package.metadata</span><span class="token punctuation">]</span>
+<span class="token key property">cargo-fuzz</span> <span class="token punctuation">=</span> <span class="token boolean">true</span>
+
+<span class="token punctuation">[</span><span class="token table class-name">dependencies</span><span class="token punctuation">]</span>
+<span class="token key property">libfuzzer-sys</span> <span class="token punctuation">=</span> <span class="token string">"0.4"</span>
+<span class="token key property">arbitrary</span> <span class="token punctuation">=</span> <span class="token punctuation">{</span> <span class="token key property">version</span> <span class="token punctuation">=</span> <span class="token string">"1"</span><span class="token punctuation">,</span> <span class="token key property">features</span> <span class="token punctuation">=</span> <span class="token punctuation">[</span><span class="token string">"derive"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+
+<span class="token punctuation">[</span>dependencies<span class="token punctuation">.</span><span class="token punctuation">{</span>your crate name<span class="token punctuation">}</span><span class="token punctuation">]</span>
+<span class="token key property">path</span> <span class="token punctuation">=</span> <span class="token string">".."</span>
+
+<span class="token comment"># Prevent this from interfering with workspaces</span>
+<span class="token punctuation">[</span><span class="token table class-name">workspace</span><span class="token punctuation">]</span>
+<span class="token key property">members</span> <span class="token punctuation">=</span> <span class="token punctuation">[</span><span class="token string">"."</span><span class="token punctuation">]</span>
+
+<span class="token punctuation">[</span><span class="token table class-name">profile.release</span><span class="token punctuation">]</span>
+<span class="token key property">debug</span> <span class="token punctuation">=</span> <span class="token number">1</span>
+
+<span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token table class-name">bin</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+<span class="token key property">name</span> <span class="token punctuation">=</span> <span class="token string">"{name of your harness}"</span>
+<span class="token key property">path</span> <span class="token punctuation">=</span> <span class="token string">"fuzz_targets/{name of your harness}.rs"</span>
+<span class="token key property">test</span> <span class="token punctuation">=</span> <span class="token boolean">false</span>
+<span class="token key property">doc</span> <span class="token punctuation">=</span> <span class="token boolean">false</span>
+</code></pre>
+<p>Very important is to create a <code>.gitignore</code> file in the <code>fuzz</code> directory with the following content:</p>
+<pre class="language-gitignore"><code class="language-gitignore"><span class="token entry string">target</span>
+<span class="token entry string">corpus</span>
+<span class="token entry string">artifacts</span>
+<span class="token entry string">coverage</span>
+</code></pre>
+<p>Then you can create a file <code>fuzz_targets/{name of your harness}.rs</code> with the following content:</p>
+<pre class="language-rust"><code class="language-rust"><span class="token attribute attr-name">#![no_main]</span>
+
+<span class="token keyword">use</span> <span class="token namespace">arbitrary<span class="token punctuation">::</span></span><span class="token class-name">Arbitrary</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token punctuation">{</span>name of your <span class="token keyword">crate</span><span class="token punctuation">}</span><span class="token punctuation">::</span><span class="token namespace">prelude<span class="token punctuation">::</span></span><span class="token operator">*</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token namespace">libfuzzer_sys<span class="token punctuation">::</span></span>fuzz_target<span class="token punctuation">;</span>
+
+<span class="token attribute attr-name">#[derive(Arbitrary, Debug)]</span>
+<span class="token keyword">struct</span> <span class="token type-definition class-name">FuzzCase</span> <span class="token punctuation">{</span>
+    document<span class="token punctuation">:</span> <span class="token class-name">Vec</span><span class="token operator">&#x3C;</span><span class="token class-name">String</span><span class="token operator">></span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token macro property">fuzz_target!</span><span class="token punctuation">(</span><span class="token closure-params"><span class="token closure-punctuation punctuation">|</span>data<span class="token punctuation">:</span> <span class="token class-name">FuzzCase</span><span class="token closure-punctuation punctuation">|</span></span> <span class="token punctuation">{</span>
+    <span class="token comment">// Your fuzzing code here</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Then you can run the fuzzer with the following command:</p>
+<pre class="language-bash"><code class="language-bash">cargo fuzz run <span class="token punctuation">{</span>name of your harness<span class="token punctuation">}</span>
+</code></pre>
