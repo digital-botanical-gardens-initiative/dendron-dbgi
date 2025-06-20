@@ -2,7 +2,7 @@
 id: eu1plal3d6wub84ws6fp1gt
 title: Methods
 desc: ''
-updated: 1750345134088
+updated: 1750425822638
 created: 1741178110506
 ---
 # Tree sampling
@@ -57,7 +57,7 @@ _<center>Fig.XX-XX: Map of the JBUF. Trees sampled were ...</center>_
 ### Sampling
 
   The classical DBGI methodology was applied to collect different organs. The main difference being the use of a standard secateurs, and a telescopic one to cut branches off.
-  For each sample, the geographical position of the specimen will be marked down on the JBUF QField map (should I add a paragraph explaining what QField is?)
+  For each sample, the geographical position of the specimen will be marked down on the JBUF QField map .
   At least 5 pictures must be taken for each sample:
 
     1) The whole specimen.
@@ -83,11 +83,11 @@ _<center>Fig.XX-XX: Map of the JBUF. Trees sampled were ...</center>_
   ![alt text](Picea_jezoensis_Cut.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   _<center>Fig.XX-XX: The location of the sampling is indicated with the scalpel</center>_
 
-  The different pictures and the geolocalisation of the sampled plants, are then imported on iNaturalist (should I add a paragraphe to explain what iNat is ?) to confirm the belonging of the specimen to a species. This, allows the collectors to harvest large quantities of plant matter without having to be trained botanists themselves, speeding up the progression of the project and allowing for interesting citizen science initiatives.
+  The different pictures and the geolocalisation of the sampled plants, are then imported on iNaturalist to confirm the belonging of the specimen to a species. This, allows the collectors to harvest large quantities of plant matter without having to be trained botanists themselves, speeding up the progression of the project and allowing for interesting citizen science initiatives.
   
   The organ must be separated from the parent organism. After the cut, the organ is wrapped in a brown coffee filter, and shoved in a falcon tube closed with a perforated cap. Each tube is pre-labeled with a unique QR-code which allows to identify and track the sample through its preparation and storage.
   The tubes are then temporarily submerged in liquid nitrogen.
-  If they can't be freeze-dryed immediatel, all tubes are stored in a -70°C freezer
+  If they can't be freeze-dryed immediatelly, all tubes are stored in a -70°C freezer.
 
   ### Extraction 
 
@@ -171,5 +171,5 @@ One of the key aspect of the DBGI is establishing and preserving linkage between
 To go further in the labelling process, this Bachelor's project focuses on the introduction of Universally Unique IDentifiers (UUIDs), also known as Globally Unique Identifier (GUIDs) in the established workflow. UUIDs are 128-bit labels used to uniquely identify objects in computer systems. They are excellent for the purpose of the EMI, as they don't need central authority, and can be generated in the field, even in the absence of internet connection.
 This will allow the DBGI to be more precise in its metadata assignation. Attributing the UUIDs to to sampled individuals adds an extra layer of information by giving it its own individuality. This is interesting as each individual differs in state and as such, in metabolomic contents.
 
-One important point to keep in mind is that other alternatives to UUIDs such as LSID, URN, HTTP URI, DOI, IGSN, ... exist and are used in different biocollections. The biodiversity community hasn't decided on a single method to use as of yet. No specific method prevails on the others (Guralnik et al. 2015), whith their own advantages and drawbacks.
+One important point to keep in mind is that other alternatives to UUIDs such as LSID, URN, HTTP URI, DOI, IGSN, ... exist and are used in different biocollections. The biodiversity community hasn't decided on a single method to use as of yet. No specific method prevails on the others  [[(Guralnik et al. 2015)|Bachelor-Works.Simon-Rerat.G.References#^al5dxwfbt2sg]], whith their own advantages and drawbacks.
 As such, the method used by the DBGI might change as time goes on.
