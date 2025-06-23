@@ -2,7 +2,7 @@
 id: eu1plal3d6wub84ws6fp1gt
 title: C_Methods
 desc: ''
-updated: 1750678694984
+updated: 1750686961971
 created: 1741178110506
 ---
 # Tree sampling
@@ -46,16 +46,15 @@ _<center>Graphe C-02: Visual representation of the bundling of samples with UUId
 In this regard, trees offer an interesting challenge and an opportunity to further develop the EMI tools as they are perennial, and don't present all of their organs at the same time. Therefore, being able to attach samples to a specific individual could allow to come back to collect missing organs or study the modifications of the metabolome through the year(s).
 To achieve this, Universally Unique Identifiers (UUIDs) transcribed in QR-codes were generated and attached to the specimen's panel. For now, ticks can be made at the back of the code to mark and follow the progression of the sampling on the specimen.
 
-ADD PIC OF QR CODE FRONT/BACKSIDE
-![alt text](<UUIDPanelRecto (1).jpg>){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+![UUIDPanelRecto](<assets/images_srérat/UUIDPanelRecto (1).jpg>){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
 _<center>Fig.C-01: Front side of an UUID QR-code next to the panel of a sampled individual ...</center>_
 
-![alt text](UUIDPanelverso.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+![UUIDPanelVerso](assets/images_srérat/UUIDPanelverso.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
 _<center>Fig.C-02: Back side of an UUID QR-code. The ticks show what organs already have been collected. Allowing to keep track of the progress </center>_
 
 Approximately 130 trees of the botanical garden have been sampled for this bachelor's work. They are scattered all over the garden, with a greater concentration in the arboretum, on the border of the system, and  near the outside fences. They tend to come from all over the world with local species (_Picea abies_) aswell as tropical ones (_Persea americana_). This work might show a strong bias toward gymnosperms as tehy tended to show a greater number of organs early in the year (this project took place from February to May).
 
-![alt text](CarteJBUF.PNG)
+![CarteJBUF](assets/images_srérat/CarteJBUF.PNG)
 _<center>Fig.C-03: Map of the JBUF. Trees sampled were ...</center>_
 
 
@@ -73,19 +72,19 @@ _<center>Fig.C-03: Map of the JBUF. Trees sampled were ...</center>_
     6) Additional picture, if judged necessary.
   See an exemple of _Picea jezoensis_.
  
-   ![alt text](General.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+   ![PJGeneral](assets/images_srérat/Picea_jezoensis_General.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
    _<center>Fig.C-04: General picture of Picea jezoensis</center>_
 
-  ![alt text](Picea_jezoensis_UUID.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+  ![PJUUID](assets/images_srérat/Picea_jezoensis_UUID.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   _<center>Fig.C-05: Picture the UUID and panel of Picea jezoensis</center>_
 
-  ![alt text](Picea_jezoensis_UUID+Falcon.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+  ![PJUUIDFalcon](assets/images_srérat/Picea_jezoensis_UUID+Falcon.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   _<center>Fig.C-06: Picture of the UUID, the panel, and a sample code of Picea jezoensis</center>_
 
-  ![alt text](Picea_jezoensis_details.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+  ![PJDetails](assets/images_srérat/Picea_jezoensis_details.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
  _<center>Fig.C-07: Detailled picture of a branch, needles, and buds of Picea jezoensis</center>_
 
-  ![alt text](Picea_jezoensis_Cut.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+  ![PjCut](assets/images_srérat/Picea_jezoensis_Cut.jpg){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   _<center>Fig.C-08: The location of the sampling is indicated with the scalpel</center>_
 
   The different pictures and the geolocalisation of the sampled plants, are then imported on iNaturalist to confirm the belonging of the specimen to a species. This, allows the collectors to harvest large quantities of plant matter without having to be trained botanists themselves, speeding up the progression of the project and allowing for interesting citizen science initiatives.
@@ -108,7 +107,7 @@ _<center>Fig.C-03: Map of the JBUF. Trees sampled were ...</center>_
   The vial needs to be labelled and associated to a container, ensuring the continued tracking of the sample from the garden to the freezer.
   The vials' container is then stored in a -70	°C freezer, and is ready for LC-MS and analysis.
 
-  ![alt text](Extrac_RedCap.jfif){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+ ![RedCap](assets/images_srérat/Extrac_RedCap.PNG){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   _<center>Fig.C-08 Glass vials with hermetically sealed cap containing the supernatant</center>_
 
 
@@ -116,7 +115,7 @@ _<center>Fig.C-03: Map of the JBUF. Trees sampled were ...</center>_
 
  Before using the, 120 microliters of the extracted liquid is pipetted from the hermetical vial to a new vial containing an insert to form an aliquot (see next fig). The vials are closed with a slitted cap which allows the machine to access the solution. These aliquots are the final step needed before analysing the samples through liquid chromatography mass spectrometry (LCMS).
   
-  ![alt text](Extrac_WhiteCap.jfif){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
+  ![WhiteCap](assets/images_srérat/Extrac_WhiteCap.PNG){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   
   _<center>Fig.C-09 Glass vials containing inserts and ready for analysis</center>_
 
