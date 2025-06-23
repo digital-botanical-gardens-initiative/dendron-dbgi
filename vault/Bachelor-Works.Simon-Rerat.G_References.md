@@ -1,8 +1,8 @@
 ---
 id: 2y2m8md570w0m4tx2yhetgu
-title: References
+title: G_References
 desc: ''
-updated: 1750426081734
+updated: 1750679039798
 created: 1750241751532
 ---
 
@@ -11,7 +11,7 @@ Allard, P.-M., Bisson, J. & Rutz, A. ISDB: In Silico Spectral Databases of Natur
 2. ## ^3kvwdyctonnv
 Allard, P.-M. et al. Integration of Molecular Networking and In-Silico MS/MS Fragmentation for Natural Products Dereplication. Anal Chem 88, 3317–3323 (2016).
 3.
-Barry A., T. Carboniferous Lepidodendraceae and Lepidocarpacea. ResearchGate (1978) doi:10.1007/BF02957853.
+Barry A., T. Carboniferous Lepidodendraceae and Lepidocarpacea. ResearchGate (1978) doi:10.1007/BF02957853. ^56bhng6wvl4d
 4.
 Chambers, M. C. et al. A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol 30, 918–920 (2012). ^fzqjsn1h7hq4
 5.
