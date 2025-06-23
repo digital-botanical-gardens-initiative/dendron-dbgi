@@ -2,15 +2,15 @@
 id: j0dw5yx7u1t2uyitabax2h8
 title: A_Contents
 desc: ''
-updated: 1750669917710
+updated: 1750697014816
 created: 1750240950545
 ---
 Structure of the thesis:
-# Abstract
+# [[Bachelor-Works.Simon-Rerat.A_Abstract.md]]
 
 ## [[Bachelor-Works.Simon-Rerat.B_Background]]
-### EMI
-### DBGI
+### Earth Metablome Initiative
+### Digital Botanical Gardens Initiative
 ### Definition of the tree
 ### iNaturalist
 
@@ -21,7 +21,7 @@ Structure of the thesis:
 ### UUID & Sample tracking
 
 ## [[Bachelor-Works.Simon-Rerat.D_Metabolomic Analysis]]
-### LC-MS parameters
+### Liquid Chromatograph-Mass Spectrometry parameters
 ### Data processing 
 ### Molecular networking
 

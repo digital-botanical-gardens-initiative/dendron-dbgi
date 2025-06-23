@@ -2,11 +2,11 @@
 id: t942xq2f8o2247mgu5700pr
 title: D_Metabolomic Analysis
 desc: ''
-updated: 1750672508126
+updated: 1750696990344
 created: 1741178117755
 ---
-## QQCHOSE
-### LC-MS parameters
+
+### Liquid Chromatograph-Mass Spectrometry parameters
  The chromatographic separation was performed on a Vanquish Flex UPLC system (Thermo Fisher Scientific) interfaced with a Q‐Exactive Plus mass spectrometer (Thermo Fisher Scientific), using a heated electrospray ionization (HESI‐II) source. The Thermo Scientific Xcalibur 3.1 software was used for instrument control. The LC conditions were as follows: column, Waters BEH C18 100 × 2.1 mm, 1.7 μm; mobile phase, (A) water with 0.1% formic acid; (B) acetonitrile with 0.1% formic acid; flow rate, 600 μL/min; injection volume, 2 μL; gradient, linear gradient of 2%−100% B over 10 min and isocratic at 100% B for 2 min. 
  
  The optimized HESI‐II parameters were as follows: source voltage, 3.5 kV (pos); sheath gas flow rate (N2), 55 units; auxiliary gas flow rate, 15 units; spare gas flow rate, 3.0; capillary temperature, 350°C, S‐Lens RF Level, 50. The mass analyzer was calibrated using a mixture of caffeine, methionine–arginine–phenylalanine–alanine–acetate, sodium dodecyl sulfate, sodium taurocholate, and Ultramark 1621 in an acetonitrile/methanol/water solution containing 1% formic acid by direct injection. 

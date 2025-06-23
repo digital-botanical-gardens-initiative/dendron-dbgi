@@ -2,10 +2,10 @@
 id: it2hbdgf7o7mejku2hwo817
 title: B_Background
 desc: ''
-updated: 1750679113214
+updated: 1750697039560
 created: 1743421306755
 ---
-## EMI:
+## Earth Metablomoe Initiative
 
 The goal of the Earth Metabolome Initiatve (EMI) is similar in scale to the Earth Biogenome Project. Yet instead of gene diversity, it takes an interest in chemical diversity (chemiodiversity). Its goal is simple, yet ambitious: Document the entirety of the chemiodiversity of all known living organisms. All the while anthropogenic biodiversity loss is speeding up.
 
@@ -16,7 +16,7 @@ It roots for the creation of a new web of knowledge, linking metabolomics, biolo
 To reach this goal, the EMI team will have to develop  informatical, organisational, and scientific tools tailor made for its needs.
 This is where the Digital Botanical Gardens Initiative (DBGI) comes into place [[(The EMI Consortium., 2022)|Bachelor-Works.Simon-Rerat.G_References#^mzjl22v177hk]].
 
-## DBGI:
+## Digital Botanical Gardens Initiative
 
 The Digital Botanical Gardens Initiative (DBGI) is designed as a pilot of the EMI. It has a central role to play in it as its goals are to design, automate, and optimize the workflow leading to metabolomic analysis. Said workflow has to be scalable to be appliable to the EMI.
 
