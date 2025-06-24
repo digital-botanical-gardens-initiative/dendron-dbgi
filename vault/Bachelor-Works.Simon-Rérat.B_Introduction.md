@@ -1,11 +1,12 @@
 ---
 id: it2hbdgf7o7mejku2hwo817
-title: B_Background
+title: B_Introduction
 desc: ''
-updated: 1750697039560
+updated: 1750771717214
 created: 1743421306755
 ---
-## Earth Metablomoe Initiative
+
+## B_1.  Earth Metabolome Initiative
 
 The goal of the Earth Metabolome Initiatve (EMI) is similar in scale to the Earth Biogenome Project. Yet instead of gene diversity, it takes an interest in chemical diversity (chemiodiversity). Its goal is simple, yet ambitious: Document the entirety of the chemiodiversity of all known living organisms. All the while anthropogenic biodiversity loss is speeding up.
 
@@ -14,15 +15,15 @@ Like the Human Genome project, the EMI should benefit Humanity as a whole, by he
 
 It roots for the creation of a new web of knowledge, linking metabolomics, biology, chemistry, and other open datasets together.
 To reach this goal, the EMI team will have to develop  informatical, organisational, and scientific tools tailor made for its needs.
-This is where the Digital Botanical Gardens Initiative (DBGI) comes into place [[(The EMI Consortium., 2022)|Bachelor-Works.Simon-Rerat.G_References#^mzjl22v177hk]].
+This is where the Digital Botanical Gardens Initiative (DBGI) comes into place [[(The EMI Consortium., 2022)|Bachelor-Works.Simon-Rérat.H_References#^mzjl22v177hk]].
 
-## Digital Botanical Gardens Initiative
+## B_2.  Digital Botanical Gardens Initiative
 
 The Digital Botanical Gardens Initiative (DBGI) is designed as a pilot of the EMI. It has a central role to play in it as its goals are to design, automate, and optimize the workflow leading to metabolomic analysis. Said workflow has to be scalable to be appliable to the EMI.
 
 Its main goal is the collection, management, and sharing of digital informations and physical dryed plant samples acquired in living botanical collections.
 To do so, it focuses on large scale characterisation of the chemiodiverstiy of plants through mass spectrometric approaches.
-Not to forget the creation of a knowledge graphe by recouping the informations from many databases (such as Botalista, Open tree of life [[(Rutz et al. 2022)|Bachelor-Works.Simon-Rerat.G_References#^fktchxtnov0t]], LOTUS [[(Rutz et al. 2019)|Bachelor-Works.Simon-Rerat.G_References#^o885ohckztyp]], ...) to organise, structure and connect them all.
+Not to forget the creation of a knowledge graphe by recouping the informations from many databases (such as Botalista, Open tree of life [[(Rutz et al. 2022)|Bachelor-Works.Simon-Rérat.H_References#^fktchxtnov0t]], LOTUS [[(Rutz et al. 2019)|Bachelor-Works.Simon-Rérat.H_References#^o885ohckztyp]], ...) to organise, structure and connect them all.
 
 As the methods of the DBGI while be applied to the EMI, its methods and workflow need to be scalable to match the scale of such an ambitious project. And ultimately, be applicable in wild, hard to reach ecosystems.
 This should help visualise and search the functioning of ecosystems, orient research and conservation efforts.
@@ -30,14 +31,14 @@ This should help visualise and search the functioning of ecosystems, orient rese
 Using botanical gardens as a stepping stone to OIREIJFNN
 The DBGI restricts itself to botanical gardens for they are species rich, easily accessible, somewhat controlled environment.
 
-As of now, only the Jardin Botanique de l'Université de Fribourg (JBUF) and the Jardin Botanique de Neuchâtel (JBN) are part of the initiative. The causes being practical, founding teams have their offices located in Fribourg and Neuchâtel respectively, and ther unique characteristics, the JBUF organised a part of its collection according to the APG IV [[(UNIFR about JBUF)|Bachelor-Works.Simon-Rerat.G_References#^d7ia8j3v0iru]], and the JBN has a plants collection of ethnomedicinal value [[(The DBGI Consortium, 2022)|Bachelor-Works.Simon-Rerat.G_References#^bc56ak014tej]].
+As of now, only the Jardin Botanique de l'Université de Fribourg (JBUF) and the Jardin Botanique de Neuchâtel (JBN) are part of the initiative. The causes being practical, founding teams have their offices located in Fribourg and Neuchâtel respectively, and ther unique characteristics, the JBUF organised a part of its collection according to the APG IV [[(UNIFR about JBUF)|Bachelor-Works.Simon-Rérat.H_References#^d7ia8j3v0iru]], and the JBN has a plants collection of ethnomedicinal value [[(The DBGI Consortium, 2022)|Bachelor-Works.Simon-Rérat.H_References#^bc56ak014tej]].
 
 
-## Definition of "tree"
+## B_3.  Definition of "tree"
 
-Defining what a tree is might seem childish at first glance. However, this simple question is all the more relevant as many definitions exist [[(Lund, 2015)|Bachelor-Works.Simon-Rerat.G_References#^d46zf9idf9g7]], but none seem to be universally agreed upon in botany [[(Hallé, 2008)|Bachelor-Works.Simon-Rerat.G_References#^gyjd2mvhbdtp]].
+Defining what a tree is might seem childish at first glance. However, this simple question is all the more relevant as many definitions exist [[(Lund, 2015)|Bachelor-Works.Simon-Rérat.H_References#^d46zf9idf9g7]], but none seem to be universally agreed upon in botany [[(Hallé, 2008)|Bachelor-Works.Simon-Rérat.H_References#^gyjd2mvhbdtp]].
 
-Phylogeny leaves us somewhat clueless to what a tree is, as tree-like growth forms appeared indepentently many time through Life's long history. Indeed, lycopods, ferns, sphenopsids, gymnosperms and a few families of angiosperms, such as palms, _Dracaena_, _Fagaceae_, _Malvaceae_, ... [[(John, Peter, 2007)|Bachelor-Works.Simon-Rerat.G_References#^fuce5gbkvsxx]] all came up with their own version of what we would today call a tree. The first modern tree, _Archaeopteris_ appeared during the Devonian [[(Meyer-Berthaud et all,. 1999)|Bachelor-Works.Simon-Rerat.G_References#^eslokokmo0rs]] period forming large forests. It lived through the Carboniferous aswell, where it formed massiv forests along _Equisetaceae_ of the family _Lepidondendron_ [[(Fairon-Demaret, 1986|Bachelor-Works.Simon-Rerat.G_References#^4m68ue3rs0cy]], [[Barry, 1978)|Bachelor-Works.Simon-Rerat.G_References#^56bhng6wvl4d]]). Still observable to this day, the tree ferns (_Cyatheales_) are also a fascinanting exemple of non-spermatophytes arborescent growth forms.
+Phylogeny leaves us somewhat clueless to what a tree is, as tree-like growth forms appeared indepentently many time through Life's long history. Indeed, lycopods, ferns, sphenopsids, gymnosperms and a few families of angiosperms, such as palms, _Dracaena_, _Fagaceae_, _Malvaceae_, ... [[(John, Peter, 2007)|Bachelor-Works.Simon-Rérat.H_References#^fuce5gbkvsxx]] all came up with their own version of what we would today call a tree. The first modern tree, _Archaeopteris_ appeared during the Devonian [[(Meyer-Berthaud et all,. 1999)|Bachelor-Works.Simon-Rérat.H_References#^eslokokmo0rs]] period forming large forests. It lived through the Carboniferous aswell, where it formed massiv forests along _Equisetaceae_ of the family _Lepidondendron_ [[(Fairon-Demaret, 1986)|Bachelor-Works.Simon-Rérat.H_References#^4m68ue3rs0cy]], [[(Barry, 1978)|Bachelor-Works.Simon-Rérat.H_References#^56bhng6wvl4d]]. Still observable to this day, the tree ferns (_Cyatheales_) are also a fascinanting exemple of non-spermatophytes arborescent growth forms.
 
 The JBUF has been using sigils provided in the "_Zander. Handwörterbuch der Pflanzennamen_", a horticultural dictionnary, as a taxonomic basis to classify their plants. In horticulture, a tree is often described as a plant producing a lignified trunk and reaching a minimum of 4 meters in height in its adult stage. As it is somewhat arbitrary, and wouldn't be applicable to many plants on woul call a tree, this definition doesn't seem relevant in the context of the DBGI.
 
@@ -52,7 +53,7 @@ It originally reads as follow:
     De grandes feuilles si l'arbre n'a pas de branches;
     Des branches qui assurent la photosynthèse si les feuilles sont trop petite pour assurer cette fonction ou absentes;
     Des branches feuillées dans le cas général.
-Enfin, l’arbre est un «grand» végétal. Sa hauteur, le diamètre de son tronc, sa longévité sont évalués au regard des dimensions et de la durée de vie de l’être humain. » [[(Hallé, 2008)|Bachelor-Works.Simon-Rerat.G_References#^gyjd2mvhbdtp]].
+Enfin, l’arbre est un «grand» végétal. Sa hauteur, le diamètre de son tronc, sa longévité sont évalués au regard des dimensions et de la durée de vie de l’être humain. » [[(Hallé, 2008)|Bachelor-Works.Simon-Rérat.H_References#^gyjd2mvhbdtp]].
 
 Which could be roughly translated as :
 « A tree is a generally perennial plant possessing one or more trunk growing vertically. Its anatomy makes the trunk self-supporting, allowing to rise above its neighbours, competitors for light, a summit, or crown, which, can have three different constitutions depending on the species:
@@ -63,7 +64,7 @@ Finally, a tree is a «large» plant. Its height, the diameter of its trunk, its
 
 In short, a tree is a rather large plant, when compared to human standards, which  grows a self-supporting trunk.
 
-## iNaturalist
+## B_4.  iNaturalist
 All pictures taken while sampling are periodically uploaded on the iNaturalist website on the [DBGI profile](https://www.inaturalist.org/projects/digital-botanical-gardens-initiative). This allows to confirm the belonging of a sampled individual to a certain species by external experts. 
 
 This tool is crucial for the DBGI, and mostly for the EMI, due to their scale. The quantity of organisms to sample is large. Therefore, specialists working on all branches of the tree of life are needed to reach the EMI's goal. Using iNaturalist allows to save up ressources by having a preexisting channel of access to them.

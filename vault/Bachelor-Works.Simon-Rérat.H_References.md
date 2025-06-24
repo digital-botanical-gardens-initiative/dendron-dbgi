@@ -1,11 +1,11 @@
 ---
 id: 2y2m8md570w0m4tx2yhetgu
-title: G_References
+title: H_References
 desc: ''
-updated: 1750679039798
+updated: 1750771600024
 created: 1750241751532
 ---
-
+Organised in alphabetical order:
 1.
 Allard, P.-M., Bisson, J. & Rutz, A. ISDB: In Silico Spectral Databases of Natural Products. Zenodo (2021). ^95ccwy2tn3xk
 2. ## ^3kvwdyctonnv
@@ -27,7 +27,7 @@ Dührkop, K. et al. Systematic classification of unknown metabolites using high-
 10.
 Fairon-Demaret, M. Some uppermost Devonian megafloras: a stratigraphical review. asgb (1986). ^4m68ue3rs0cy
 11.
-Guralnick, R. P. et al. Community Next Steps for Making Globally Unique Identifiers Work for Biocollections Data. Zookeys 133–154 (2015) doi:10.3897/zookeys.494.9352. ^al5dxwfbt2sg
+Guralnick, R. P. et al. Community Next Steps for Making Globally Unique Identifiers Work for Biocollections Data. Zookeys 133–154 (2015) doi:10.3897/zookeys.494.9352.  ^3p0q0bvyjtbc
 12.
 Hallé, F. Aux origines des plantes. vol. Vol. 1 (Fayard, Paris, 2008). ^gyjd2mvhbdtp
 13.
