@@ -2,7 +2,7 @@
 id: eu1plal3d6wub84ws6fp1gt
 title: C_Methods
 desc: ''
-updated: 1750776268596
+updated: 1750776895401
 created: 1741178110506
 ---
 
@@ -164,7 +164,7 @@ flowchart TB
      G-->GJ(7.Freeze dry for 72 hours)
 
 
-     -->H[8.Weighing: 50mg +-2,5mg]
+     -->H[8.Weighing: 50mg +-2,5mg and add the adapted beads]
      H--Transfer of data to-->id99
     H-->I[9.Shake]
     I--If not woody-->II[2,5 minutes at 25Hz]

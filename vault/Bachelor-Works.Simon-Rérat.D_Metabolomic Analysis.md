@@ -2,7 +2,7 @@
 id: t942xq2f8o2247mgu5700pr
 title: D_Metabolomic Analysis
 desc: ''
-updated: 1750776017453
+updated: 1750776550326
 created: 1741178117755
 ---
 
@@ -33,7 +33,7 @@ A network was then created where edges were filtered to have a cosine score abov
 
 Finally, the maximum size of a spectral family was set to 100, and the lowest‐scoring edges were removed from molecular families until the molecular family size was below this threshold. The spectra in the network were then searched against GNPS spectral libraries. All matches kept between network spectra and library spectra were required to have a score above 0.7 and at least six matched peaks.
 
- The resulting MN is available online at **https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=XXXXXXX (OUR MN IS TO HEAVY TO BE RENDERED ON LINE ON GNPS RIGHT ?)**. The converted mass spectrometry data files, the corresponding metadata table, and the metabolite annotation results table, together with a Cytoscape file corresponding to the full MN annotated with the experimental and theoretical spectral matches are available under the MassIVE ID **MSVXXXXXXXX (IS IT POSSIBLE TO ADD MY DATA HERE ?)**
+The resulting MN is available online at **https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=XXXXXXX (OUR MN IS TO HEAVY TO BE RENDERED ON LINE ON GNPS RIGHT ?)**. The converted mass spectrometry data files, the corresponding metadata table, and the metabolite annotation results table, together with a Cytoscape file corresponding to the full MN annotated with the experimental and theoretical spectral matches are available under the MassIVE ID **MSVXXXXXXXX (IS IT POSSIBLE TO ADD MY DATA HERE ?)**
 
 
 

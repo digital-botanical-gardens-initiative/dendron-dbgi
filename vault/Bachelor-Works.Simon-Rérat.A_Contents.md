@@ -2,10 +2,10 @@
 id: j0dw5yx7u1t2uyitabax2h8
 title: A_Contents
 desc: ''
-updated: 1750772954429
+updated: 1750776458239
 created: 1750240950545
 ---
-This thesis will be structured as follow:
+This thesis is structured as follow:
 
 
 ## [[Bachelor-Works.Simon-Rérat.B_Introduction]]
