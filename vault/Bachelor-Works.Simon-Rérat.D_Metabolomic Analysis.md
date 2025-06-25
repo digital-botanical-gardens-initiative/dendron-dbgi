@@ -2,7 +2,7 @@
 id: t942xq2f8o2247mgu5700pr
 title: D_Metabolomic Analysis
 desc: ''
-updated: 1750776550326
+updated: 1750851313080
 created: 1741178117755
 ---
 
@@ -20,11 +20,15 @@ created: 1741178117755
 
 The raw MS data was converted from .RAW (Thermo) standard data format to .mzML format using the MSConvert software, part of the ProteoWizard package [[(Chambers et al., 2012)|Bachelor-Works.Simon-Rérat.H_References#^fzqjsn1h7hq4]]. The converted files were treated using the MZmine software suite v. 2.53 [[(Pluskal et al., 2010)|Bachelor-Works.Simon-Rérat.H_References#^ktra0w22cs9d]]. The parameters were adjusted as follows: the centroid mass detector was used for mass detection with the noise level set to 2.0E4 for the MS level set to 1, and to 0 for the MS level set to 2.
 
- The ADAP chromatogram builder was used and set to a minimum group size of scans of 5, minimum group intensity threshold of 2.0E4, minimum highest intensity of 2.0E4, and m/z tolerance of 12 ppm (Myers et al., 2017). For chromatogram deconvolution, the algorithm used was the wavelets (ADAP). The intensity window signal‐to‐noise (S/N) was used as an S/N estimator with a S/N ratio set at 15, a minimum feature height at 2.0E4, a coefficient area threshold at 80, a peak duration range from 0.02 to 1.00 min and the retention time (RT) wavelet range from 0.02 to 0.05 min. Corresponding MS2 was paired with the following parameters (0.025 Da and 0.15 min). Isotopes were detected using the isotope peaks grouper with a m/z tolerance of 8 ppm, an RT tolerance of 0.08 min (absolute), the maximum charge set at 4, and the lowest m/z was used as the representative isotope. Peak alignment was performed using the join aligner method (m/z tolerance at 12 ppm), absolute RT tolerance 0.08 min, weight for m/z at 30, and weight for RT at 30. The aligned feature list **(14'563 features, what is a feature ? IS EQUIVALENT TO NUMBER OF NODES IN NETWORK??)** was exported using the export to Global Natural Product Social Molecular Networking (GNPS) Feature‐Based Molecular Network (FBMN) module. 
+ The ADAP chromatogram builder was used and set to a minimum group size of scans of 5, minimum group intensity threshold of 2.0E4, minimum highest intensity of 2.0E4, and m/z tolerance of 12 ppm (Myers et al., 2017). 
+ 
+ For chromatogram deconvolution, the algorithm used was the wavelets (ADAP). The intensity window signal‐to‐noise (S/N) was used as an S/N estimator with a S/N ratio set at 15, a minimum feature height at 2.0E4, a coefficient area threshold at 80, a peak duration range from 0.02 to 1.00 min and the retention time (RT) wavelet range from 0.02 to 0.05 min. Corresponding MS2 was paired with the following parameters (0.025 Da and 0.15 min). 
+ 
+ Isotopes were detected using the isotope peaks grouper with a m/z tolerance of 8 ppm, an RT tolerance of 0.08 min (absolute), the maximum charge set at 4, and the lowest m/z was used as the representative isotope. 
+ 
+ Peak alignment was performed using the join aligner method (m/z tolerance at 12 ppm), absolute RT tolerance 0.08 min, weight for m/z at 30, and weight for RT at 30. The aligned feature list composed of 14'563 elements was exported using the export to Global Natural Product Social Molecular Networking (GNPS) Feature‐Based Molecular Network (FBMN) module. 
 
-
-
-**My data is accessible on GNPS, mais alors où ? ¯\_(ツ)_/¯**
+The [resulting data](https://gnps2.org/status?task=4e5060d5d8204d90b5c44867b808e9d1) can be found online on the GNPS platform.
 
 
 ### D_3.    Molecular networking
@@ -33,13 +37,15 @@ A network was then created where edges were filtered to have a cosine score abov
 
 Finally, the maximum size of a spectral family was set to 100, and the lowest‐scoring edges were removed from molecular families until the molecular family size was below this threshold. The spectra in the network were then searched against GNPS spectral libraries. All matches kept between network spectra and library spectra were required to have a score above 0.7 and at least six matched peaks.
 
-The resulting MN is available online at **https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=XXXXXXX (OUR MN IS TO HEAVY TO BE RENDERED ON LINE ON GNPS RIGHT ?)**. The converted mass spectrometry data files, the corresponding metadata table, and the metabolite annotation results table, together with a Cytoscape file corresponding to the full MN annotated with the experimental and theoretical spectral matches are available under the MassIVE ID **MSVXXXXXXXX (IS IT POSSIBLE TO ADD MY DATA HERE ?)**
+The resulting MN is available [online](https://gnps2.org/status?task=4e5060d5d8204d90b5c44867b808e9d1) and can be downloaded for further inspection.
+
+ The converted mass spectrometry data files, the corresponding metadata table, and the metabolite annotation results table, together with a Cytoscape file corresponding to the full MN annotated with the experimental and theoretical spectral matches are available under the MassIVE ID **MSVXXXXXXXX (IS IT POSSIBLE TO ADD MY DATA HERE ?)**
 
 
 
 ### D_4.    Metabolite annotation
 #### Experimental spectral libraries search
-The full spectral data were compared to the Global Natural Products Social Molecular Networking (GNPS) experimental spectral libraries: **https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=XXXXXview=advanced_view (ADD A LINK TO MY DATA).**
+The full spectral data were compared to the Global Natural Products Social Molecular Networking (GNPS) experimental spectral libraries: **https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=4e5060d5d8204d90b5c44867b808e9d1view=advanced_view (ADD A LINK TO MY DATA).**
 
 #### Theoretical spectral libraries search
 In addition to experimental spectral libraries search we have shown that spectral matching against theoretical spectral libraries of natural products was an efficient way to cover a much wider, yet relevant, spectral space [[(Allard et al., 2016)|Bachelor-Works.Simon-Rérat.H_References#^3kvwdyctonnv]]. Furthermore, we showed that taking into account the taxonomical distance between the biological source of the candidate structure and the biological source of the annotated extracts greatly improved the overall quality of the annotation results [[(Rutz et al., 2019)|Bachelor-Works.Simon-Rérat.H_References#^fktchxtnov0t]]. Thus, in addition to the spectral search performed at the molecular networking step against publicly available spectral libraries (see previous section) a taxonomically informed metabolite annotation was performed. 
