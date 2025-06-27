@@ -2,7 +2,7 @@
 id: t942xq2f8o2247mgu5700pr
 title: D_Metabolomic Analysis
 desc: ''
-updated: 1751028418928
+updated: 1751029373559
 created: 1741178117755
 ---
 
@@ -44,11 +44,13 @@ The resulting MN is available [online](https://gnps2.org/status?task=4e5060d5d82
 
  The converted mass spectrometry data files, the corresponding metadata table, and the metabolite annotation results table, together with a Cytoscape file corresponding to the full MN annotated with the experimental and theoretical spectral matches are available under the MassIVE ID **MSVXXXXXXXX (IS IT POSSIBLE TO ADD MY DATA HERE ?)**
 
-
+#TODO No you can remove this for now. We will upload a MASSIVCE data when all trees have been processed and annotated.
 
 ### D_4.    Metabolite annotation
 #### Experimental spectral libraries search
 The full spectral data were compared to the Global Natural Products Social Molecular Networking (GNPS) experimental spectral libraries: **https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=4e5060d5d8204d90b5c44867b808e9d1view=advanced_view (ADD A LINK TO MY DATA).**
+
+#TODO no longer relevant as this was only present in the legacy GNPS platform
 
 #### Theoretical spectral libraries search
 In addition to experimental spectral libraries search we have shown that spectral matching against theoretical spectral libraries of natural products was an efficient way to cover a much wider, yet relevant, spectral space [[(Allard et al., 2016)|Bachelor-Works.Simon-Rérat.H_References#^3kvwdyctonnv]]. Furthermore, we showed that taking into account the taxonomical distance between the biological source of the candidate structure and the biological source of the annotated extracts greatly improved the overall quality of the annotation results [[(Rutz et al., 2019)|Bachelor-Works.Simon-Rérat.H_References#^fktchxtnov0t]]. Thus, in addition to the spectral search performed at the molecular networking step against publicly available spectral libraries (see previous section) a taxonomically informed metabolite annotation was performed. 
@@ -59,3 +61,11 @@ For this, we first established a large theoretical spectral database of natural 
  The biological sources metadata are available online [[(Rutz, Bisson, et al., 2022)|Bachelor-Works.Simon-Rérat.H_References#^fktchxtnov0t]].
  
   The taxonomically informed metabolite annotation was performed using the met_annot_enhancer scripts version v0.1 from [this Github repository](https://github.com/mandelbrot-project/met_annot_enhancer/releases/tag/v0.1). Sirius  [[(Dührkop et al., 2019)|Bachelor-Works.Simon-Rérat.H_References#^sex97gfkmrw2]](v.5.5.7) and CANOPUS [[(Djoumbou Feunang et al., 2016)|Bachelor-Works.Simon-Rérat.H_References#^j5t0u383qi9x]]; [[Dührkop et al., 2021|Bachelor-Works.Simon-Rérat.H_References#^jmetzeoa22lo]]; [[Kim et al., 2021|Bachelor-Works.Simon-Rérat.H_References#^d66eman67xtj]] were also employed to proceed to metabolite annotation and attribution of chemical classes to MSMS spectra. ^0rszpeprlcpr
+
+
+#TODO add link to the relevant files form the jbuf tree github repo 
+
+
+- SIRIUS annotations https://github.com/digital-botanical-gardens-initiative/jbuf-trees/tree/bfc35444deaaf341b8523f6c130788285529a6d4/docs/mapp_project_00067/mapp_batch_00174/results/sirius
+
+- Taxonomicall reponderated metabolite annotations https://github.com/digital-botanical-gardens-initiative/jbuf-trees/tree/bfc35444deaaf341b8523f6c130788285529a6d4/docs/mapp_project_00067/mapp_batch_00174/results/met_annot_enhancer/mapp_batch_00174

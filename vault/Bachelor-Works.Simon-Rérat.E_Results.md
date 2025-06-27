@@ -2,7 +2,7 @@
 id: rqqvuywbbcig3ek5uvzt8py
 title: E_Results
 desc: ''
-updated: 1751024554907
+updated: 1751029368398
 created: 1750242137495
 ---
 As a result of this bachelor's work, a molecular network composed of 42 species and 110 samples has been created for a total of 14'563 nodes. The whole list of samples analysed, and their linked metadata can be found on [here](https://github.com/digital-botanical-gardens-initiative/jbuf-trees/blob/main/docs/mapp_project_00067/mapp_batch_00174/metadata/original/mapp_batch_00174_metadata.tsv)
@@ -27,3 +27,6 @@ All the metadata used to produce such a network is accessible on [this Github re
 
 
 All the results produced by the project can be found on [this Github repository](https://github.com/digital-botanical-gardens-initiative/jbuf-trees/tree/main/docs/mapp_project_00067/mapp_batch_00174/results).
+
+
+#TODO It would be nice to describe the Taxus baccata cluster as higlighted DAB and taxanes derivatives !

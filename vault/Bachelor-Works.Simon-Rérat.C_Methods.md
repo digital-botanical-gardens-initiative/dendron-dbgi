@@ -2,13 +2,13 @@
 id: eu1plal3d6wub84ws6fp1gt
 title: C_Methods
 desc: ''
-updated: 1751028076486
+updated: 1751029359991
 created: 1741178110506
 ---
 
 In this project, the already tested DBGI methodology will be applied on trees. They differ from precedently sampled plants as they bear lignified organs (bark, branches, pinecones, ...) which cannot be pulverised by the spherical metal beads used in the standard protocol. However, this nuisance might be overcome by using discoid beads instead.
 
-So far, each sample wasn't considered as being linked to a peculiar specimen. They were considered independant from each other, even tho they came from the very same individual. As the samples were mostly leaves. This wasn't a big issue for not much more than a single sample was taken from the same indivudal.
+So far, each sample wasn't considered as being linked to a peculiar specimen. They were considered independant from each other, even tho they came from the very same individual. As the samples were mostly leaves. This wasn't a big issue for no more than a single sample was taken from the same indivudal.
 
 <center>
 
@@ -101,6 +101,8 @@ This work might show a strong bias toward gymnosperms as they tended to show a g
   The tubes are then temporarily submerged in liquid nitrogen.
   If they can't be freeze-dryed immediatelly, all tubes are stored in a -70°C freezer.
 
+#TODO Add  the inaturalist link to the collected specimen here, Picea jezoensis.
+
   ### C_2.  Extraction 
 
   The freeze-drying process needs to be at least 72 hours long to make sure the samples are absolutely dry. 
@@ -132,6 +134,7 @@ This work might show a strong bias toward gymnosperms as they tended to show a g
 
 
 
+#TODO add wikipedia link to UUID and relevant references
 
 ### C_4. Sample Tracking & UUID
 One of the key aspect of the DBGI is establishing and preserving linkage between the field and the database. Therefore, a reliable sample tracking system is necessary to keep track of the numerous samples for the entirety of their processing. As soon as a sample has been collected, a unique code is assigned to it. It will follow it through each stage of preparation, from extraction to storage by being reported on all containers the sample will go through. This allows to efficiently link the data, and the metadata of the sample into the database.
