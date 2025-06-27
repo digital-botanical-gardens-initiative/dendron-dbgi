@@ -2,7 +2,7 @@
 id: eu1plal3d6wub84ws6fp1gt
 title: C_Methods
 desc: ''
-updated: 1750776895401
+updated: 1751028076486
 created: 1741178110506
 ---
 
@@ -62,7 +62,7 @@ This work might show a strong bias toward gymnosperms as they tended to show a g
 ### C_1 Sampling
 
   The classical DBGI methodology was applied to collect different organs. The main difference being the use of a standard secateurs, and a telescopic one to cut branches off.
-  For each sample, the geographical position of the specimen is marked down on the JBUF QField map .
+  For each sample, the geographical position of the specimen is marked down on a map of the JBUF using the [QField app](https://qfield.org/).
   At least 5 pictures must be taken for each sample:
 
   1) The whole specimen (Figure C-04).
@@ -105,13 +105,14 @@ This work might show a strong bias toward gymnosperms as they tended to show a g
 
   The freeze-drying process needs to be at least 72 hours long to make sure the samples are absolutely dry. 
   Directly after the freeze-drying process, all the perforated caps need to be switched with standard, disinfected, non-perforated caps to avoid contamination from the environment. The falcon tubes are then scanned and stored in a labeled rack. From now on, the tubes will be stored in said racks to allow easy access to the samples if need be.
-  The first step of the extraction process is the weighing. 50 mg needs to be weighted and inserted in a 2ml Eppendorf tube with a rounded bottom. 3 metal beads, or 3 disc beads if the sample is a needle or lignified, are added. An error up to 5% is accepted. To separate the tubes containing  normal beads from the discoids beads, the letter β is written on the tubes containing the discoid beads.
 
-  The Eppendorf tubes then go in the MM40 Retsch machine (shaker) for 2.5 minutes at 25Hz for standard beads, and 5 minutes at 25Hz for the discoid beads. Then, 1,5ml of the DBGI extraction solution is added. Said solution is made of a mix of 80% methanol, 20% distilled water, and 0,1% formic acid. The newly rehydrated samples go back in the Retsch machine for a second round with the same settings.
+  The first step of the extraction process is the weighing. 50 mg needs to be weighted and inserted in a 2ml Eppendorf tube with a rounded bottom. An error up to ±5% (±2.5 milligrams) is accepted.  Three 4mm metal beads, or three  disc beads if the sample is a needle, lignified, or deemed to hard, are added. 
+
+  The Eppendorf tubes then go in the MM40 Retsch machine (shaker) for 2.5 minutes at 25Hz for standard beads, and 5 minutes at 25Hz for the discoid beads to grind the dried plant matter into a powder. Then, 1,5ml of the DBGI extraction solution is added. Said solution is made of a mix of 80% methanol, 20% distilled water, and 0,1% formic acid. The newly rehydrated samples go back in the Retsch machine for a second round with the same settings depending on their content.
   
   The tubes are then centrifugated for 2 minutes at 13'000 RPM to split the supernatant from the plant deposit which precipitates.
 
-  Afterward, as much of the supernatant (usually 1,4ml) is collected and pipetted in a glass vial with a hermetically sealed cap (Figure C-08). Floating particles need to be avoided for they clogg the LC-MS.
+  Afterward, as much of the supernatant (usually 1,4ml) is carefully collected and pipetted in a glass vial (2 milliliters) with a hermetically sealed cap (Figure C-08). Floating particles need to be avoided for they tend to clogg the LC-MS.
   The vial needs to be labelled and associated to a container, ensuring the continued tracking of the sample from the garden to the freezer.
   The vials' container is then stored in a -70	°C freezer, and is ready for LC-MS and analysis.
 
@@ -121,7 +122,8 @@ This work might show a strong bias toward gymnosperms as they tended to show a g
 
   ### C_3.  Analysis
 
- Before using the, 120 microliters of the extracted liquid is pipetted from the hermetical vial to a new vial containing an insert to form an aliquot (Figure C-09). The vials are closed with a slitted cap which allows the machine to access the solution. These aliquots are the final step needed before analysing the samples through liquid chromatography-mass spectrometry (LCMS).
+    120 microliters of the extracted liquid is pipetted from the hermetically sealed vial to a new vial containing an insert to create an aliquot (Figure C-09). The new vials are closed with a slitted cap which allows the machine to access the solution. These aliquots are the final step needed before analysing the samples through untargeted liquid chromatography-mass spectrometry (LCMS).
+    The spectra produced by the machine are then analysed by specialised software (see chapter D_Metabolomic Analysis).
   
   ![WhiteCap](assets/images_srérat/Extrac_WhiteCap.PNG){max-height: 500px, max-width: 500px, display: block, margin: 0 auto}
   

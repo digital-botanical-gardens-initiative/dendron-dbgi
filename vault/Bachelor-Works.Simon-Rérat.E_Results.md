@@ -2,10 +2,10 @@
 id: rqqvuywbbcig3ek5uvzt8py
 title: E_Results
 desc: ''
-updated: 1750776743841
+updated: 1751024554907
 created: 1750242137495
 ---
-As a result of this bachelor's work, a molecular network composed of 42 species and 110 samples has been created for a total of 14'563 nodes.
+As a result of this bachelor's work, a molecular network composed of 42 species and 110 samples has been created for a total of 14'563 nodes. The whole list of samples analysed, and their linked metadata can be found on [here](https://github.com/digital-botanical-gardens-initiative/jbuf-trees/blob/main/docs/mapp_project_00067/mapp_batch_00174/metadata/original/mapp_batch_00174_metadata.tsv)
 
 ![MolNetworkAll](assets/images_srérat/MolecularNetwork_All.PNG){max-height: 800px, max-width: 1400px, display: block, margin: 0 auto}
    _<center>Fig.D-01: Screenshot of the general molecular network present in the analysed samples of JBUF trees. The different colors represent the proportion of repartition of a certain compound across different organs._

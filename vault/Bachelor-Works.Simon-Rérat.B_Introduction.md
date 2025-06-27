@@ -2,18 +2,20 @@
 id: it2hbdgf7o7mejku2hwo817
 title: B_Introduction
 desc: ''
-updated: 1750771717214
+updated: 1751027311198
 created: 1743421306755
 ---
 
 ## B_1.  Earth Metabolome Initiative
 
-The goal of the Earth Metabolome Initiatve (EMI) is similar in scale to the Earth Biogenome Project. Yet instead of gene diversity, it takes an interest in chemical diversity (chemiodiversity). Its goal is simple, yet ambitious: Document the entirety of the chemiodiversity of all known living organisms. All the while anthropogenic biodiversity loss is speeding up.
+The Earth Metabolome Initiative (EMI) was founded in 2022 by Pierre-Marie Allard (UNIFR) and Emmanual Defossez (UNINE). It is a collective open science project aiming to better understand the metabolomic on our planet.
+
+The goal of the Earth Metabolome Initiatve is similar in scale to the Earth Biogenome Project. Yet instead of gene diversity, it takes an interest in chemical diversity (chemiodiversity). Its goal is simple, yet ambitious: Document the entirety of the chemiodiversity of all known living organisms, from the humblest of bacteria to the gigantic redwood. All the while anthropogenic biodiversity loss is speeding up.
 
 Similarly to the Human Genome Project, which was an ambitious project aswell, the means necessary to achieve the goal of the EMI are massive and wouldn't have been reachable without the collaboration of many teams from around the world. Yet the benefits Humanity sowed from it were enormous (development in bioarcheology, evolution, forensic sciences, animal husbandry, ...).
-Like the Human Genome project, the EMI should benefit Humanity as a whole, by helping better understand the chemical fundations of the biosphere, help develop biosinspired drugs, providing molecular arguments in favor of the protection of biodiversity, ... .
+Like the Human Genome project, the EMI should benefit Humanity as a whole, by helping better understand the chemical fundations of the biosphere, help develop drugs inspired by natural products (NP), providing molecular arguments in favor of the protection of biodiversity, ... .
 
-It roots for the creation of a new web of knowledge, linking metabolomics, biology, chemistry, and other open datasets together.
+It roots for the creation of a new web of knowledge, linking metabolomics, biology, chemistry, and other open datasets together to help better visualise the whole spectrum of metabolites across the living.
 To reach this goal, the EMI team will have to develop  informatical, organisational, and scientific tools tailor made for its needs.
 This is where the Digital Botanical Gardens Initiative (DBGI) comes into place [[(The EMI Consortium., 2022)|Bachelor-Works.Simon-Rérat.H_References#^mzjl22v177hk]].
 
