@@ -2,9 +2,12 @@
 id: wo6jaa4tha41ijphuq2rqyz
 title: Simon-Rérat
 desc: ''
-updated: 1750772602955
+updated: 1751349326216
 created: 1743421297486
 ---
+# Assembling humble bundles of samples
+
+
 This project was conducted by Simon Rérat, under the supervision of Pierre-Marie Allard and Edouard Brülhart.
 
 It revolved around the implementation of individual organism tracking through the use of Universally Unique IDentifiers (UUIDs), the sampling of different plant organs coming from a single individual, and the sampling of trees in the Jardin Botanique de l'Université de Fribourg (JBUF).

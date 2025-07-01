@@ -2,7 +2,7 @@
 id: it2hbdgf7o7mejku2hwo817
 title: B_Introduction
 desc: ''
-updated: 1751029320489
+updated: 1751030968516
 created: 1743421306755
 ---
 
@@ -30,15 +30,11 @@ Not to forget the creation of a knowledge graphe by recouping the informations f
 As the methods of the DBGI will be applied to the EMI, its methods and workflow need to be scalable to match the scale of such an ambitious project. And ultimately, be applicable in wild, hard to reach ecosystems.
 This should help visualise and search the functioning of ecosystems, orient research and conservation efforts.
 
-#TODO what is OIREIJFNN?
-
-
-Using botanical gardens as a stepping stone to OIREIJFNN
+Using botanical gardens as a stepping stone to reach your goal of having a methodology usable in wild, uncotrolled environment makes sense. Indeed, as botanical gardens are semi-controlled environment it is a sensible middle point to use them to test new methodology..
 The DBGI restricts itself to botanical gardens for they are species rich, easily accessible, somewhat controlled environment.
 
-#TODO link website of botanical gardens 
 
-As of now, only the Jardin Botanique de l'Université de Fribourg (JBUF) and the Jardin Botanique de Neuchâtel (JBN) are part of the initiative. The causes being practical, founding teams have their offices located in Fribourg and Neuchâtel respectively, and ther unique characteristics, the JBUF organised a part of its collection according to the APG IV [[(UNIFR about JBUF)|Bachelor-Works.Simon-Rérat.H_References#^d7ia8j3v0iru]], and the JBN has a plants collection of ethnomedicinal value [[(The DBGI Consortium, 2022)|Bachelor-Works.Simon-Rérat.H_References#^bc56ak014tej]].
+As of now, only the Jardin Botanique de l'Université de Fribourg [(JBUF)](https://www.unifr.ch/jardin-botanique/fr/) and the Jardin Botanique de Neuchâtel [(JBN)](https://www.jbneuchatel.ch/) are part of the initiative. The causes being practical, founding teams have their offices located in Fribourg and Neuchâtel respectively, and ther unique characteristics, the JBUF organised a part of its collection according to the APG IV [[(UNIFR about JBUF)|Bachelor-Works.Simon-Rérat.H_References#^d7ia8j3v0iru]], and the JBN has a plants collection of ethnomedicinal value [[(The DBGI Consortium, 2022)|Bachelor-Works.Simon-Rérat.H_References#^bc56ak014tej]].
 
 
 ## B_3. Definition of "tree"
@@ -49,9 +45,8 @@ Phylogeny leaves us somewhat clueless to what a tree is, as tree-like growth for
 
 The JBUF has been using sigils provided in the "_Zander. Handwörterbuch der Pflanzennamen_", a horticultural dictionnary, as a taxonomic basis to classify their plants. In horticulture, a tree is often described as a plant producing a lignified trunk and reaching a minimum of 4 meters in height in its adult stage. As it is somewhat arbitrary, and wouldn't be applicable to many plants one would call a tree, this definition doesn't seem relevant in the context of the DBGI.
 
-#TODO which are the 8 basic families of the Raunkier system?
 
-A more scientific way of describing what a tree is would be to use the 8 basic families of the Raunkier system in order to separate the different forms of plants. In our case, all the trees would fall into the category of the phanerophytes. However, this category doesn't allow to differentiate between bush, shrubs, and trees. This, in itself is a big enough problem. The Raunkier system is based on the location of the plant's growth-point during seasons providing adverse conditions, such as cold, and dry seasons. Thus excluding plants living in environment presenting only good seasons, i.e. tropical plants.
+A more scientific way of describing what a tree is would be to use the life forms of the Raunkier system, which are the Phanerophytes, the Epiphytes, the Chamaephytes, the Hemicryptophytes, the Cryptophytes, the Therophytes, the Aerophytes, the Geophytes, the Helophytes, the Hydrophytes, in order to separate the different forms of plants. In our case, all the trees would fall into the category of the phanerophytes. However, this category doesn't allow to differentiate between bush, shrubs, and trees. This, in itself is a big enough problem. The Raunkier system is based on the location of the plant's growth-point during seasons providing adverse conditions, such as cold, and dry seasons. Thus excluding plants living in environment presenting only good seasons, i.e. tropical plants.
 As the DBGI, and by extension the EMI, is a project of international scope, the Raunkier system doesn't seem to provide a relevant definition.
 Furthermore, it defines the lignification of the trunk as a necessary criteria for being a tree and the presence of a single trunk. Excluding many arborescent growth forms people would consider trees such as the banana tree, thuja, or the papaya tree in the process.
 
