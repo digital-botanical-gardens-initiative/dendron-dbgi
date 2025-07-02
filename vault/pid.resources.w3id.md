@@ -2,7 +2,7 @@
 id: wxrby2azg9j0rzt5puijiht
 title: W3id
 desc: ''
-updated: 1751458177783
+updated: 1751481674236
 created: 1751457223523
 ---
 
@@ -24,3 +24,6 @@ https://journals.sagepub.com/doi/full/10.3233/DS-190022
 ## Notes
 
 
+I created the https://github.com/perma-id/w3id.org/pull/5094/commits/b14d8ab269f9f599ce10ce9d41775820ce1ab853 mostly for testing purposes.
+
+I will now proceed to create the emi, dbgi and commons-lab w3id redirects.
