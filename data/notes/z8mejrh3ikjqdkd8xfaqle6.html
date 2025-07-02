@@ -1,0 +1,16 @@
+<h1 id="2023-04-24">2023-04-24<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-04-24"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.04.24</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul>
+<li>Check discussion: <a href="https://github.com/orgs/digital-botanical-gardens-initiative/discussions">https://github.com/orgs/digital-botanical-gardens-initiative/discussions</a></li>
+<li>Check Zulip</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>Tried to do a plot to visualize molecular diversity
+A t-SNE (t-Distributed Stochastic Neighbor Embedding) or UMAP (Uniform Manifold Approximation and Projection) plot could be useful for this purpose. Both are dimensionality reduction techniques that can help visualize high-dimensional data in 2D or 3D. You can use these techniques to visualize the similarity between molecules based on their features.</p>
+<p>First needed to convert your molecular data into numerical features => As it is computationaly demanding, I created a script (<a href="https://github.com/digital-botanical-gardens-initiative/dashboard/blob/2fd9559bae8da9c1fe287dc1818d23926b8c8b47/smiles_to_ecfp.py">'smiles_to_ecfp.py'</a>) that is running outside the app (maybe once everyday?) and that add the values to a table ('umap') in the 'lotus' postgresql database.<br>
+Was trying to use umap at first but it was too memory consuming so I switched to t-SNE. It gives me a result that can be ploted but it is still computationally demanding and I should find another way or adapt this technique to visualize the diversity faster.</p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<h2 id="important-for-redaction">Important for redaction<a aria-hidden="true" class="anchor-heading icon-link" href="#important-for-redaction"></a></h2>
