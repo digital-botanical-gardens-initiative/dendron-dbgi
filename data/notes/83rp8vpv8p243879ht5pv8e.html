@@ -1,0 +1,23 @@
+<h1 id="2023-10-20">2023-10-20<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-10-20"></a></h1>
+<h1 id="this-is-edouards-dbgi-daily-open-notebook">This is Edouard's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-edouards-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.10.20</p>
+<h1 id="to-discuss">To discuss<a aria-hidden="true" class="anchor-heading icon-link" href="#to-discuss"></a></h1>
+<h2 id="application-development-is-going-well">Application development is going well:<a aria-hidden="true" class="anchor-heading icon-link" href="#application-development-is-going-well"></a></h2>
+<ul>
+<li>Falcon mode is ready</li>
+<li>Weighting mode is ready</li>
+<li>Extraction mode is ready</li>
+<li>Aliquots mode is fast ready (still needs to manage blanks)</li>
+<li>Injection mode still needs to be discussed</li>
+<li>Signaling mode is ready (but not tested in application)</li>
+<li>Find mode still needs to be implemented</li>
+<li>Tracking mode still needs to be developed</li>
+<li>Reatribution mode still needs to be developed, but it's not a big deal. It just has to replace the actual container of the sample by the new one, and all the system will manage the changes.</li>
+</ul>
+<h2 id="but-some-questions-remain">But some questions remain:<a aria-hidden="true" class="anchor-heading icon-link" href="#but-some-questions-remain"></a></h2>
+<ul>
+<li>How to manage extraction blanks? For now, blanks are stored in a different collection as lab extracts, because lab extracts elements need to be linked to field samples. And as blanks are not field samples I prefered to implement them in another collection. But this situation leads to a question: how to manage blanks aliquots for the mass spec injection?</li>
+<li>How to organize sample list creation for mass spec analysis? First, which name for the reads. Second, how to manage different LC/GC configurations? Some solutions are possible, like creating a template and let the user add a new configuration if needed. But how to format this? Which types of LC/GC racks exist?</li>
+<li>For tracking mode, how can we manage this? My idea would be to add a mode to create space labels like rooms, fridges, etc. If the application is connected to a brady printer, it will print a label to stick directly on the space. But at which level do we have to go and what for names do we have to give? Then, the user will scan this code, the code of the sample he will put on this space and the link will be created in the database.</li>
+<li>For signaling mode, would it be good to add deletion of full boxes, racks? I think not, because it is not 100% sure that the content of the box/rack is up to date. It could lead to bad signaling.</li>
+</ul>

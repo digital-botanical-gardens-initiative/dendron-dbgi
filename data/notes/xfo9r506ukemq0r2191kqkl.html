@@ -1,0 +1,116 @@
+<h1 id="postgres">postgres<a aria-hidden="true" class="anchor-heading icon-link" href="#postgres"></a></h1>
+<h1 id="connect-to-postgresql">Connect to postgresql<a aria-hidden="true" class="anchor-heading icon-link" href="#connect-to-postgresql"></a></h1>
+<pre class="language-bash"><code class="language-bash">psql -U username
+</code></pre>
+<h1 id="database">DATABASE<a aria-hidden="true" class="anchor-heading icon-link" href="#database"></a></h1>
+<h2 id="create-new-database">Create new database<a aria-hidden="true" class="anchor-heading icon-link" href="#create-new-database"></a></h2>
+<pre class="language-psql"><code class="language-psql">CREATE DATABASE dbname;
+</code></pre>
+<h2 id="list-all-database">list all database<a aria-hidden="true" class="anchor-heading icon-link" href="#list-all-database"></a></h2>
+<pre class="language-psql"><code class="language-psql">\l
+</code></pre>
+<h2 id="connect-to-the-database">Connect to the database<a aria-hidden="true" class="anchor-heading icon-link" href="#connect-to-the-database"></a></h2>
+<pre class="language-psql"><code class="language-psql">\c database_name
+</code></pre>
+<h1 id="table">TABLE<a aria-hidden="true" class="anchor-heading icon-link" href="#table"></a></h1>
+<h2 id="create-a-new-table">Create a new table<a aria-hidden="true" class="anchor-heading icon-link" href="#create-a-new-table"></a></h2>
+<pre class="language-psql"><code class="language-psql">CREATE TABLE table_name(             
+   column1 datatype,             
+   column2 datatype,        
+   column3 datatype,         
+   .....            
+   columnN datatype,         
+   PRIMARY KEY( one or more columns )          
+   );
+</code></pre>
+<h3 id="generate-table-layout-to-create-new-table-before-importing-csv-in-the-db">Generate table layout to create new table before importing csv in the db:<a aria-hidden="true" class="anchor-heading icon-link" href="#generate-table-layout-to-create-new-table-before-importing-csv-in-the-db"></a></h3>
+<p>In bash terminal:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">head</span> -n <span class="token number">20</span> table.csv <span class="token operator">|</span> csvsql --no-constraints --tables table_name
+</code></pre>
+<p>This will give an sql command to crate the new table. The datatypes may have to be changed.</p>
+<h3 id="list-tables-in-a-db">List tables in a db<a aria-hidden="true" class="anchor-heading icon-link" href="#list-tables-in-a-db"></a></h3>
+<pre class="language-psql"><code class="language-psql">\d
+</code></pre>
+<h3 id="describe-each-table">Describe each table<a aria-hidden="true" class="anchor-heading icon-link" href="#describe-each-table"></a></h3>
+<pre class="language-psql"><code class="language-psql">\d table_name
+</code></pre>
+<h2 id="add-a-column">Add a column<a aria-hidden="true" class="anchor-heading icon-link" href="#add-a-column"></a></h2>
+<pre class="language-psql"><code class="language-psql">ALTER TABLE table_name
+ADD COLUMN new_column_name data_type constraint;
+</code></pre>
+<h2 id="drop-a-table">Drop a table<a aria-hidden="true" class="anchor-heading icon-link" href="#drop-a-table"></a></h2>
+<pre class="language-psql"><code class="language-psql">DROP TABLE name;
+</code></pre>
+<h2 id="insert-data-in-table">Insert data in table<a aria-hidden="true" class="anchor-heading icon-link" href="#insert-data-in-table"></a></h2>
+<p>⚠️ The table should already exist</p>
+<h3 id="manually">Manually<a aria-hidden="true" class="anchor-heading icon-link" href="#manually"></a></h3>
+<pre class="language-psql"><code class="language-psql">INSERT INTO table_name (column1, column2, column3,...columnN)              
+VALUES (value1_row1, value2_row1, value3_row1,...valueN_row1),        
+         (value1_row2, value2_row2, value3_row2,...valueN_row2),          
+            ....;         
+</code></pre>
+<p>No need to specify the columns name if one is adding values for all the columns of the table. But the order of the values should be the same as the column.</p>
+<h3 id="from-a-csv-file">From a csv file<a aria-hidden="true" class="anchor-heading icon-link" href="#from-a-csv-file"></a></h3>
+<pre class="language-psql"><code class="language-psql">COPY table_name     
+FROM 'path/to/csv'       
+DELIMITER ';'       
+CSV HEADER
+</code></pre>
+<h2 id="update-data-in-table">Update data in table<a aria-hidden="true" class="anchor-heading icon-link" href="#update-data-in-table"></a></h2>
+<pre class="language-psql"><code class="language-psql">UPDATE table_name      
+SET column1 = value1,       
+   column2 = value2,       
+   ...        
+WHERE condition;
+</code></pre>
+<h2 id="delete-data-from-table">Delete data from table<a aria-hidden="true" class="anchor-heading icon-link" href="#delete-data-from-table"></a></h2>
+<pre class="language-psql"><code class="language-psql">DELETE FROM table_name        
+WHERE condition;
+</code></pre>
+<h2 id="constraints">Constraints<a aria-hidden="true" class="anchor-heading icon-link" href="#constraints"></a></h2>
+<h3 id="when-defining-the-table">When defining the table<a aria-hidden="true" class="anchor-heading icon-link" href="#when-defining-the-table"></a></h3>
+<pre class="language-psql"><code class="language-psql">CREATE TABLE TABLE (
+	column_1 data_type,
+	column_2 data_type,
+	… 
+   PRIMARY KEY (column_1, column_2),
+   CONSTRAINT constraint_name
+   FOREIGN KEY(fk_columns) 
+	REFERENCES parent_table(parent_key_columns)
+);
+</code></pre>
+<h3 id="after-creation">After creation<a aria-hidden="true" class="anchor-heading icon-link" href="#after-creation"></a></h3>
+<pre class="language-psql"><code class="language-psql">ALTER TABLE products 
+ADD PRIMARY KEY (product_no);
+
+ALTER TABLE child_table 
+ADD CONSTRAINT constraint_name 
+FOREIGN KEY (fk_columns) 
+REFERENCES parent_table (parent_key_columns);
+</code></pre>
+<h2 id="some-useful-clauses">Some useful clauses<a aria-hidden="true" class="anchor-heading icon-link" href="#some-useful-clauses"></a></h2>
+<h3 id="select-statement">Select statement<a aria-hidden="true" class="anchor-heading icon-link" href="#select-statement"></a></h3>
+<p>The SELECT statement returns all rows from one or more columns in a table.</p>
+<pre class="language-psql"><code class="language-psql">SELECT column_1, column_2, ..., column_n    (or * for all columns)     
+FROM table_name       
+other clauses;
+</code></pre>
+<h3 id="where-clause">Where clause<a aria-hidden="true" class="anchor-heading icon-link" href="#where-clause"></a></h3>
+<p>If one need to select data that satisfy a specified condition, one can use a WHERE clause as follow:       </p>
+<pre class="language-psql"><code class="language-psql">SELECT select_list     
+FROM table_name       
+WHERE condition        
+</code></pre>
+<p>The condition should be true, false or unknown. It can be a boolean expression or a combination of boolean expressions using the AND and OR operators.</p>
+<h1 id="sequence">SEQUENCE<a aria-hidden="true" class="anchor-heading icon-link" href="#sequence"></a></h1>
+<h2 id="restart-the-sequence-padding">Restart the sequence padding<a aria-hidden="true" class="anchor-heading icon-link" href="#restart-the-sequence-padding"></a></h2>
+<p>If one do a mistake in the emi_external_id incremantation and needs to go back in the sequence:</p>
+<pre class="language-psql"><code class="language-psql">SELECT setval('samples_padding',1057); #If one want to restart the sequence at 1057
+</code></pre>
+<h1 id="to-go-further">To go further<a aria-hidden="true" class="anchor-heading icon-link" href="#to-go-further"></a></h1>
+<p><a href="https://www.postgresqltutorial.com/">https://www.postgresqltutorial.com/</a></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/l5hk8footuy2893u4zi6yvs">Basics</a></li>
+</ul>
