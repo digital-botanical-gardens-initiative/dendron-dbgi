@@ -2,7 +2,7 @@
 id: wxrby2azg9j0rzt5puijiht
 title: W3id
 desc: ''
-updated: 1751481674236
+updated: 1751880774066
 created: 1751457223523
 ---
 
@@ -27,3 +27,30 @@ https://journals.sagepub.com/doi/full/10.3233/DS-190022
 I created the https://github.com/perma-id/w3id.org/pull/5094/commits/b14d8ab269f9f599ce10ce9d41775820ce1ab853 mostly for testing purposes.
 
 I will now proceed to create the emi, dbgi and commons-lab w3id redirects.
+
+
+
+Disha
+
+Disha says:changes reqd: 1) trzdb-globi data; 2) metabolite data by onto - check if remake afresh or replace in turtle file; c) change in ontology - simple replacement? 
+
+11:21
+
+Disha says:d) npc ontology - replace urls 
+
+11:21
+T
+Tarcisio
+
+Tarcisio says:emi.ttl
+emi-ols.ttl
+emi_no_import.ttl
+/doc/ontology* 
+
+11:29
+D
+Disha
+
+Disha says:
+dishatandon.vit@gmail.com
+ 
