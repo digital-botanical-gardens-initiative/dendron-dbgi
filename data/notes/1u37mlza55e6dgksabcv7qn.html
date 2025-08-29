@@ -1,0 +1,39 @@
+<h1 id="dbgi-plugin">DBGI-plugin<a aria-hidden="true" class="anchor-heading icon-link" href="#dbgi-plugin"></a></h1>
+<h1 id="welcome-to-the-dbgi-plugin-page">Welcome to the DBGI plugin page!<a aria-hidden="true" class="anchor-heading icon-link" href="#welcome-to-the-dbgi-plugin-page"></a></h1>
+<h2 id="this-plugin-aims-to-suit-the-needs-for-the-dbgi-project-on-qgis">This plugin aims to suit the needs for the DBGI project on QGIS.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-plugin-aims-to-suit-the-needs-for-the-dbgi-project-on-qgis"></a></h2>
+<h3 id="description">Description:<a aria-hidden="true" class="anchor-heading icon-link" href="#description"></a></h3>
+<p>For instance, this plugin performs two tasks:</p>
+<ul>
+<li>Creating geopackage layers for the Digital Botanical Gardens Initiative project</li>
+<li>Modifying deprecated geopackage layers created with the v0.1 of this plugin</li>
+</ul>
+<p>In the future, this plugin could eventually perform more tasks depending on te DBGI project's needs.</p>
+<h3 id="example-of-use">Example of use:<a aria-hidden="true" class="anchor-heading icon-link" href="#example-of-use"></a></h3>
+<h4 id="1-install-the-plugin">1. Install the plugin:<a aria-hidden="true" class="anchor-heading icon-link" href="#1-install-the-plugin"></a></h4>
+<ul>
+<li>Open QGIS, go to Plugins -> Manage And Install Plugins... -> All -> DBGI</li>
+<li>Or download the zipped plugin <a href="https://github.com/digital-botanical-gardens-initiative/gpkg_creator/releases/download/v0.2/gpkg_creator_v2.zip">here</a>, open QGIS and go to Plugins -> Manage And Install Plugins... -> Install from ZIP and select the zipped file to install it.</li>
+</ul>
+<h4 id="2-create-a-geopackage-for-the-dbgi-project">2. Create a geopackage for the DBGI project:<a aria-hidden="true" class="anchor-heading icon-link" href="#2-create-a-geopackage-for-the-dbgi-project"></a></h4>
+<ul>
+<li>Open the needed QGIS project (to know how to do it, go <a href="https://www.dbgi.org/dendron-dbgi/notes/qug423ond4xtns8lelu38p2/">there</a> )</li>
+<li>In QGIS go to Vector -> DBGI -> Create a DBGI geopackage</li>
+<li>Enter the name of your geopackage (no white space please)</li>
+<li>Choose the identification's layer (a list of species name that you anticipate to collect) (.csv or .gpkg). If there is no species names layer, add one to the project (A new feature will come if no species names layer available, work in progress...)</li>
+<li>Select identification name : choose the field in the species names layer that contains the binomial nomenclature (e.g. idTaxon)</li>
+<li>Select collector's layer (e.g. collector list)</li>
+<li>Save with ctrl + s. Your new layer is now added to the QGIS project.</li>
+</ul>
+<h4 id="3-sync-back-with-qfieldcloud">3. Sync back with QFieldCloud<a aria-hidden="true" class="anchor-heading icon-link" href="#3-sync-back-with-qfieldcloud"></a></h4>
+<ul>
+<li>In the QGIS project, go to Plugins -> QFieldSync -> Synchronize Current Cloud Project</li>
+<li>!!! Warning !!! At this step you could corrupt the project. So make sure to click on Prefer cloud, and then tick under the little laptop icon only your layer (your_layer_name.gpkg), the cloud attachment (name_of_project_attachment.zip) and the project (name_of_project .qgs) (Figure 1).</li>
+<li>Perform actions</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images/sync_back_QGIS.png" alt="sync back" style="max-width:600px;display:block;margin:0 auto;"><em>Figure 1: Add the layer to the cloud project</em></p>
+<p><a href="/dendron-dbgi/notes/9doklqvi0ouralfpxr5gukv">QGIS</a></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/qug423ond4xtns8lelu38p2">QGIS</a></li>
+</ul>

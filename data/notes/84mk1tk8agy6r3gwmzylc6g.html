@@ -1,0 +1,21 @@
+<h1 id="2024-01-26">2024-01-26<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-01-26"></a></h1>
+<h1 id="this-is-marcos-daily-open-notebook">This is Marco's daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-marcos-daily-open-notebook"></a></h1>
+<p>Today is 2024.01.26</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled></li>
+</ul>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<ul>
+<li>Will start running the experiments for the decision tree model. I will runn</li>
+</ul>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> change graph to a dumped version of <code>graph.remove_singleton_nodes()</code> because we might have some problem with the hash. </li>
+<li class="task-list-item"><input type="checkbox" checked disabled> ask why by changing the model, the sketching needs to be run again <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span></span> so first problem was that the graph was loaded in parallel so it resulted in a different hash. I changed it to <code>load_edge_list_in_parallel=False, load_node_list_in_parallel=False</code> and now it works.</li>
+</ul>
