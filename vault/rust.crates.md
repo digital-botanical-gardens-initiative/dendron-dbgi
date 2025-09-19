@@ -2,7 +2,7 @@
 id: kotmdk3ujmxdyetvxfsxqan
 title: Crates
 desc: ''
-updated: 1706689837260
+updated: 1757794091695
 created: 1706680759301
 ---
 
@@ -47,3 +47,25 @@ https://lib.rs/crates/inaturalist
 
 
 
+
+
+"utils/functional_properties",
+
+
+### Publishing a crate
+
+Publishing
+- Ensure metadata in `Cargo.toml` is complete (description, license, repository, readme, categories, keywords). This repo includes them already.
+- Make sure the package does not ship large datasets — this crate restricts the package contents via `include` to only source files and docs.
+- Create a crates.io account and get an API token.
+  - `cargo login <your-token>`
+- Dry-run to validate the package:
+  - `cargo publish --dry-run`
+- Publish:
+  - `cargo publish`
+- Tag a release on GitHub (optional but recommended):
+  - `git tag -a v0.1.0 -m "colonizer v0.1.0" && git push --tags`
+
+License
+- Dual-licensed under MIT or Apache-2.0.
+- You may choose either license when using this work.
