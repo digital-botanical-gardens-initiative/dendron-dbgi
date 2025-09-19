@@ -1,0 +1,233 @@
+<h1 id="2024-02-08">2024-02-08<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-08"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.08</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p>Point on the tables in emi-monorepo with <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">people.luca-cappelletti (Private)</a></p>
+<p>This happens in /Users/pma/Dropbox/git_repos/COMMONS_Lab/EMI/emi-monorepo/web/backend/migrations</p>
+<ul>
+<li>Locations (universities, rooms etc.) ex. static_container</li>
+<li>Containers are mobile containers (e.g. a box with a plant in it)</li>
+</ul>
+<p>To create a table using diesel</p>
+<p>diesel migration generate create_item_types_table</p>
+<p>See <a href="https://github.com/earth-metabolome-initiative/emi-monorepo/tree/ec8f5b531a2d952ee723282b0d572eb498fc819d/web/backend">https://github.com/earth-metabolome-initiative/emi-monorepo/tree/ec8f5b531a2d952ee723282b0d572eb498fc819d/web/backend</a></p>
+<p>Some ChatGPT help</p>
+<p>Certainly! Database normalization is a process used to organize a database into tables and columns. The main idea with normalization is to divide a database into parts to minimize redundant data, ensure data dependencies make sense, and simplify the schema to make it more robust against anomalies when inserting, updating, or deleting data. The process is typically broken down into several "normal forms" (NF). Achieving third normal form (3NF) is often considered sufficient for most applications, ensuring a good balance between database performance and complexity.</p>
+<h3 id="first-normal-form-1nf">First Normal Form (1NF)<a aria-hidden="true" class="anchor-heading icon-link" href="#first-normal-form-1nf"></a></h3>
+<p>For a table to be in the First Normal Form:</p>
+<ul>
+<li>It should have a primary key: A unique identifier for each row in the table.</li>
+<li>The values in each column of the table should be atomic (no multi-value attributes or repeating groups).</li>
+<li>The entries in any column must be of the same data type.</li>
+</ul>
+<h3 id="second-normal-form-2nf">Second Normal Form (2NF)<a aria-hidden="true" class="anchor-heading icon-link" href="#second-normal-form-2nf"></a></h3>
+<p>To achieve the Second Normal Form, a table must first be in 1NF and then:</p>
+<ul>
+<li>All non-key attributes must be fully functional and dependent on the primary key. This means that any fields in the table that do not depend on the primary key should be moved to a separate table.</li>
+</ul>
+<h3 id="third-normal-form-3nf">Third Normal Form (3NF)<a aria-hidden="true" class="anchor-heading icon-link" href="#third-normal-form-3nf"></a></h3>
+<p>For a table to be in the Third Normal Form, it must first meet all the criteria for 2NF, and then:</p>
+<ul>
+<li>It must eliminate any transitive dependency. A table is in 3NF if it is in 2NF and all its non-key attributes are not only fully functionally dependent on the primary key but also are directly dependent on it and not on any other non-key attributes.</li>
+</ul>
+<h3 id="applying-normalization-to-3nf-with-examples">Applying Normalization to 3NF with Examples<a aria-hidden="true" class="anchor-heading icon-link" href="#applying-normalization-to-3nf-with-examples"></a></h3>
+<p>Let’s take a hypothetical example related to the Earth Metabolome Initiative to demonstrate moving through these normal forms:</p>
+<p><strong>Unnormalized Table:</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>SampleID</th><th>SampleName</th><th>CollectionDate</th><th>ContainerType</th><th>LocationName</th><th>OrganizationName</th></tr></thead><tbody><tr><td>1</td><td>WaterSample1</td><td>2024-01-01</td><td>Tube</td><td>Amazon Basin</td><td>OrgA</td></tr></tbody></table></div>
+<p>This table stores everything together, leading to redundancy if, for example, multiple samples come from the same location.</p>
+<p><strong>1NF Adjustments:</strong></p>
+<p>Split into separate tables to ensure atomicity and eliminate repeating groups:</p>
+<ul>
+<li>Samples (SampleID, SampleName, CollectionDate, ContainerID, LocationID)</li>
+<li>Containers (ContainerID, ContainerType)</li>
+<li>Locations (LocationID, LocationName)</li>
+<li>Organizations (OrganizationID, OrganizationName)</li>
+</ul>
+<p><strong>2NF Adjustments:</strong></p>
+<p>Assume each of these tables is now in 1NF. For 2NF, we ensure all attributes in each table are fully dependent on the primary key. If there were a table where part of the primary key (in case of composite keys) did not determine some of the attributes, we would need to adjust, but our current design avoids this issue.</p>
+<p><strong>3NF Adjustments:</strong></p>
+<p>To move to 3NF, check for transitive dependencies, where a non-key attribute depends on another non-key attribute. Suppose in our Organizations table, we had "OrganizationType" and "OrganizationAddress," and suppose "OrganizationType" could determine "OrganizationAddress" (a bit contrived, but useful for illustration). In that case, we might move "OrganizationAddress" to a separate table where "OrganizationType" is the key, ensuring every non-key attribute only depends on the primary key.</p>
+<h3 id="conclusion-and-application">Conclusion and Application<a aria-hidden="true" class="anchor-heading icon-link" href="#conclusion-and-application"></a></h3>
+<p>Normalization, up to 3NF, helps in designing a database that:</p>
+<ul>
+<li>Minimizes redundancy</li>
+<li>Avoids update anomalies</li>
+<li>Ensures data integrity</li>
+</ul>
+<p>By applying these principles to your database for the Earth Metabolome Initiative, you can design a schema that is efficient, scalable, and robust. Each entity—Samples, Containers, Locations, and Organizations—should be designed to adhere to these normal forms. This approach helps in managing complex data relationships and ensures the database remains flexible and efficient as the project evolves.</p>
+<p>Let's illustrate the normalization process using a simplified example related to the Earth Metabolome Initiative, showing how a table evolves through the First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).</p>
+<h3 id="initial-unnormalized-table">Initial Unnormalized Table<a aria-hidden="true" class="anchor-heading icon-link" href="#initial-unnormalized-table"></a></h3>
+<p>Imagine we start with a table that combines sample data, container information, location details, and organization info all in one:</p>
+<p><strong>Unnormalized Samples Table</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>SampleID</th><th>SampleName</th><th>CollectionDate</th><th>ContainerType</th><th>LocationName</th><th>Latitude</th><th>Longitude</th><th>OrganizationName</th><th>OrganizationType</th></tr></thead><tbody><tr><td>1</td><td>WaterSample1</td><td>2024-01-01</td><td>Tube</td><td>Amazon Basin</td><td>-3.4653</td><td>-62.2159</td><td>OrgA</td><td>Research Institute</td></tr><tr><td>2</td><td>SoilSample1</td><td>2024-02-01</td><td>Box</td><td>Sahara Desert</td><td>23.4162</td><td>25.6628</td><td>OrgB</td><td>University</td></tr></tbody></table></div>
+<h3 id="first-normal-form-1nf-1">First Normal Form (1NF)<a aria-hidden="true" class="anchor-heading icon-link" href="#first-normal-form-1nf-1"></a></h3>
+<p>To convert to 1NF, we ensure the table has a primary key, and all attributes are atomic (no repeating groups or arrays).</p>
+<p><strong>Samples Table (1NF)</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>SampleID</th><th>SampleName</th><th>CollectionDate</th><th>ContainerID</th><th>LocationID</th><th>OrganizationID</th></tr></thead></table></div>
+<p><strong>Containers Table (1NF)</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+<table><thead><tr><th>ContainerID</th><th>ContainerType</th></tr></thead></table></div>
+<p><strong>Locations Table (1NF)</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+<table><thead><tr><th>LocationID</th><th>LocationName</th><th>Latitude</th><th>Longitude</th></tr></thead></table></div>
+<p><strong>Organizations Table (1NF)</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+<table><thead><tr><th>OrganizationID</th><th>OrganizationName</th><th>OrganizationType</th></tr></thead></table></div>
+<h3 id="second-normal-form-2nf-1">Second Normal Form (2NF)<a aria-hidden="true" class="anchor-heading icon-link" href="#second-normal-form-2nf-1"></a></h3>
+<p>For 2NF, we ensure that all non-key attributes are fully functional and dependent on the primary key. Since our 1NF tables are already designed with this in mind, where each non-key attribute depends on the primary key, our tables from 1NF are already in 2NF.</p>
+<h3 id="third-normal-form-3nf-1">Third Normal Form (3NF)<a aria-hidden="true" class="anchor-heading icon-link" href="#third-normal-form-3nf-1"></a></h3>
+<p>To achieve 3NF, we remove transitive dependencies, meaning no non-key attribute depends on another non-key attribute.</p>
+<p>In our initial design, there's no clear transitive dependency within the simplified tables provided. However, let's illustrate what might happen if there was a transitive dependency. Suppose in the Organizations table, OrganizationType somehow determined another attribute like "FundingSource," which is not directly related to the primary key (OrganizationID).</p>
+<p><strong>Organizations Table Before 3NF Adjustment</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+<table><thead><tr><th>OrganizationID</th><th>OrganizationName</th><th>OrganizationType</th><th>FundingSource</th></tr></thead></table></div>
+<p>To adjust for 3NF, we would remove any transitive dependency:</p>
+<p><strong>Organizations Table (3NF)</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+<table><thead><tr><th>OrganizationID</th><th>OrganizationName</th><th>OrganizationType</th></tr></thead></table></div>
+<p><strong>Funding Sources Table (3NF)</strong></p>
+<div class="table-responsive">
+
+
+
+
+
+
+<table><thead><tr><th>OrganizationType</th><th>FundingSource</th></tr></thead></table></div>
+<p>However, given the initial tables provided, there's no evident transitive dependency, so let's assume our 1NF tables, which were already in 2NF, also meet the criteria for 3NF given the data attributes we've outlined.</p>
+<h3 id="illustrated-tables-in-3nf">Illustrated Tables in 3NF<a aria-hidden="true" class="anchor-heading icon-link" href="#illustrated-tables-in-3nf"></a></h3>
+<ul>
+<li><strong>Samples Table</strong></li>
+<li><strong>Containers Table</strong></li>
+<li><strong>Locations Table</strong></li>
+<li><strong>Organizations Table</strong></li>
+</ul>
+<p>Each of these tables is designed to ensure that there's no redundancy, each non-key attribute fully depends on the primary key, and there are no transitive dependencies. This design helps ensure data integrity, simplifies data management, and supports efficient queries.</p>
+<p>When you have a NULL you have an absence of knowledge
+Else you have a value</p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow-one-day--or-never">Todo tomorrow, one day ... or never<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow-one-day--or-never"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>
+<p>The Experimental Natural Products Knowledge Graph (ENPKG) framework combines a sample-centric approach with semantic enrichment to organize large heterogeneous metabolomics data sets as a knowledge graph. Harmonization of experimental data with publicly available data sets and federated queries mechanisms enable efficient information extraction and the contextualization of metabolomics studies, thereby offering exciting opportunities for drug discovery and global chemodiversity characterization.</p>
+<p>The ENPKG framework combines a sample-centric approach with semantic enrichment to organize heterogeneous metabolomics data sets as a knowledge graph. Harmonization with publicly available ressources offer exciting opportunities for drug discovery and global chemodiversity characterization.</p>
+<p>The ENPKG framework organizes large heterogeneous metabolomics data sets as a knowledge graph, offering exciting opportunities for drug discovery and chemodiversity characterization.</p>

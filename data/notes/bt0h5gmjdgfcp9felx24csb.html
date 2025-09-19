@@ -1,0 +1,86 @@
+<h1 id="tables">Tables<a aria-hidden="true" class="anchor-heading icon-link" href="#tables"></a></h1>
+<p>Here you have a little summary of each table that is present in our database, with the corresponding structure in the database (<em>figure 1</em>):</p>
+<ul>
+<li>
+<p><a href="/dendron-dbgi/notes/ploib7o182r8bxrq6lslcdb">Emi_codes</a>: A table that stores all EMI projects informations. It permits to organize all these projects in the database and different services.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/68pzj6aqpf6do48hsu3u8z3">Universities</a>: A table that stores all universities involved in this project.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/3ojhoeczudbmo6uaxz56is9">Labels</a>: A table that stores all the sample labels we generate using the <a href="/dendron-dbgi/notes/szi7vn6sgd6kpo53xrbiio8">label-creator</a> software. This permits to only obtain unique labels to avoid duplicate samples for each project.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/909a4vp1kea3o5mebeg258c">Mobile_containers</a>: A table that stores all mobile containers labels. It permits to have unique labels for mobile containers and thus track all our samples.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/7qceogmyqyt0kvw064c09ww">Static_containers</a>: A table that stores all static containers labels. It permits to have unique labels for static containers and thus track all our samples.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/h6tefmuwe0ucv8u5pwop6qm">QField_data</a>: A table that stores the collection metadata. This also permit to check that samples labels used during the collection are effectively unique and present in the <a href="/dendron-dbgi/notes/3ojhoeczudbmo6uaxz56is9">Labels</a> table.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/40ozssnrxio5yb4sz9fpug7">QField_data_obs</a>: A table that store the observations metadata from specimens we cuouldn't collect during collection campains.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/3nkwwom9ozjp8t7lr8bkbto">Inat_data</a>: A table that stores the <a href="/dendron-dbgi/notes/wa0r6af9zkfrpejj600lga0">iNaturalist</a> metadata. These data are fetched from <a href="/dendron-dbgi/notes/wa0r6af9zkfrpejj600lga0">iNaturalist</a>, in order to have a community taxon resolution or curation, retrieved by the <a href="/dendron-dbgi/notes/3bls9c5p4unqddel8t5qh41">inat-fetcher</a> script.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/f7t8dhqqnrtoirw7b2cf8sc">Inaturalist_Commented_Observations</a>: A table that stores all iNaturalist observations made for the project that have comments or multiple identifications by the community. It permits to involved botanical gardens to have a feedback on their specimens identification.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/5a4axfecdxrxrygafqxb3f4">Field_samples</a>: A table that stores the field samples metadata. It makes the link between collection and iNaturalist metadata and the laboratory metadata.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/kh2f6xm05wppq0zv09mixle">Batch</a>: A table that stores the batches. It permits to track samples batches in order to evaluate the quality of the treatment. For example, we can track which samples have been extractec with which solvent batch. In consequence, if we have a contaminated solvent, we can manage to exclude these contaminants from the features list of the involved samples. </p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/wuswh5qyq57slw1lu25u0bu">Extraction_methods</a>: A table that stores the extraction methods used inside the project. It permits to track which samples have been extracted with which extraction method.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/qhkperw4qbwptd0yn958bod">Lab_extracts</a>: A table that stores all generated lab extracts from the field samples.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/q58kwmxh1u46kil8gr1vdwp">Aliquots</a>: A table that stores all generated aliquots from the lab extracts.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/ffutpyuvg3wd6z9cvgrx0jl">Injection_Methods</a>: A table that stores the injection methods used inside the project. It permits to track which samples have been injected with which injection method.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/9wwn85rgfpkn1hz4pu6geal">Mass_spectrometers</a>: A table that stores all mass spectrometers involved in the project.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/udzpt2df0626di4loo6xc2b">Mass_spectrometry_analysis</a>:A table that stores all mass spectrometry filename and injection informations.</p>
+</li>
+<li>
+<p><a href="/dendron-dbgi/notes/r69cj8a351i23ftsna08evq">SI_units</a>: A table that stores all International System units with the corresponding conversions. It permits to call them in all our services in order to define and convert units.</p>
+</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/db_schema.svg" alt="image import"><em>Figure 1: Database structure with links between tables. Tables that have "etc" as last column have been shortened in order to keep a readable figure. These supplementary columns are presented in the corresponding table chapter.</em></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/dendron-dbgi/notes/q58kwmxh1u46kil8gr1vdwp">Aliquots</a></li>
+<li><a href="/dendron-dbgi/notes/kh2f6xm05wppq0zv09mixle">Batch</a></li>
+<li><a href="/dendron-dbgi/notes/ploib7o182r8bxrq6lslcdb">Emi_codes</a></li>
+<li><a href="/dendron-dbgi/notes/wuswh5qyq57slw1lu25u0bu">Extraction_methods</a></li>
+<li><a href="/dendron-dbgi/notes/5a4axfecdxrxrygafqxb3f4">Field_samples</a></li>
+<li><a href="/dendron-dbgi/notes/3nkwwom9ozjp8t7lr8bkbto">Inat_data</a></li>
+<li><a href="/dendron-dbgi/notes/f7t8dhqqnrtoirw7b2cf8sc">Inaturalist_Commented_Observations</a></li>
+<li><a href="/dendron-dbgi/notes/ffutpyuvg3wd6z9cvgrx0jl">Injection_Methods</a></li>
+<li><a href="/dendron-dbgi/notes/qhkperw4qbwptd0yn958bod">Lab_extracts</a></li>
+<li><a href="/dendron-dbgi/notes/3ojhoeczudbmo6uaxz56is9">Labels</a></li>
+<li><a href="/dendron-dbgi/notes/9wwn85rgfpkn1hz4pu6geal">Mass_spectrometers</a></li>
+<li><a href="/dendron-dbgi/notes/udzpt2df0626di4loo6xc2b">Mass_spectrometry_analysis</a></li>
+<li><a href="/dendron-dbgi/notes/909a4vp1kea3o5mebeg258c">Mobile_containers</a></li>
+<li><a href="/dendron-dbgi/notes/h6tefmuwe0ucv8u5pwop6qm">QField_data</a></li>
+<li><a href="/dendron-dbgi/notes/40ozssnrxio5yb4sz9fpug7">QField_data_obs</a></li>
+<li><a href="/dendron-dbgi/notes/r69cj8a351i23ftsna08evq">SI_units</a></li>
+<li><a href="/dendron-dbgi/notes/7qceogmyqyt0kvw064c09ww">Static_containers</a></li>
+<li><a href="/dendron-dbgi/notes/68pzj6aqpf6do48hsu3u8z3">Universities</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/utxt2dpc9ytwb941oz4nfg8">Database</a></li>
+</ul>

@@ -1,0 +1,29 @@
+<h1 id="2024-03-04">2024-03-04<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-03-04"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.03.04</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul>
+<li>Setup WebSockets for the emi-monorepo to allow the frontend to receive updates from the backend</li>
+</ul>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<ul>
+<li>Since adding the code directly would be a lot of work to debug, I started by creating a prototype in the <a href="https://github.com/LucaCappelletti94/actix_yew_websockets">actix_yew_websockets</a> repo. Once it works, I will integrate it into the emi-monorepo.</li>
+</ul>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li>Managed to get several points of the integration of the WebSockets between the frontend and the backend working. I still do not understand severela key points of the concrete integration between frontend and backend, but I am making progress.</li>
+<li>Contacted authors of <a href="https://github.com/gbaranski/ezsockets">ezsockets</a> and <a href="https://github.com/security-union/yew-websocket">yew-websocket</a> who already worked on similar problems to ask for help. It is unclear whether their repos are still maintained, but I will try to get in touch with them.</li>
+</ul>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<ul>
+<li>One of the alternatives to Yew as a frontend framework called <a href="https://leptos-use.rs/network/use_websocket.html">Leptos</a> that seems to support WebSockets out of the box. Yew used to support Websockets, but for <em>reasons</em> they dropped support for it, I have no idea yet why. Swtching the repo at this point to Leptos would be a lot of work, but it could be a good alternative for the future. I still hope to get Yew to work for now.</li>
+<li>Found this tutorial on using <a href="https://github.com/sachiniyer/mnist-wasm/blob/24ba3cd78442de1c142756eb4bde5bf42f870a3c/site/src/model_agent.rs">WebWorkers</a> which could be useful for part of the work with WebSockets.</li>
+<li>While in <a href="https://blog.devgenius.io/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f">this tutorial they use a Yew Agent to handle the multi-subscribers issues to a websocket</a> it seems that <a href="https://docs.rs/yew-agent/0.3.0/yew_agent/">in the latest yew-agents</a> they renames Agents to Workers and now handle the multi-subscriber issue out of the box with methods such as <a href="https://docs.rs/yew-agent/latest/yew_agent/reactor/fn.use_reactor_subscription.html">use_reactor_subscription</a>. They renamed agents to workers because they use WebWorkers under the hood, and by calling them workers they make it clear that WebWorkers are used under the hood.</li>
+<li>I have found this tutorial that makes use of the <a href="https://github.com/rust-adventure/yt-yew-agents-0.21/blob/5ae99276c083dac0436ff80b61949ed6a56cccf6/src/lib.rs#L14">use_reactor_subscription method</a>, which may be an important Rosetta stone to understand how to use WebWorkers &#x26; WebSockets with Yew.</li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul>
+<li>Remove <a href="https://github.com/hamza1311/reqwasm/issues/34">reqwasm</a> as apparently they stopped developmemt and merged it into gloo-net.</li>
+<li>Continue trying to get WebSockets to work with Yew.</li>
+<li>Understand how to convert standard WebSocket messages, such as Text and Bytes, or more <a href="https://docs.rs/actix-web-actors/latest/actix_web_actors/ws/enum.Message.html">as listed from the actix web actors</a>, into a standardized and more general pourpose enumeration that may be used with Yew Agents in our application. I hope to find some documentation that is less tautological than the one I found so far.</li>
+</ul>

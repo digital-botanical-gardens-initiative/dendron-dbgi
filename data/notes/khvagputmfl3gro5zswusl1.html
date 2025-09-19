@@ -1,0 +1,98 @@
+<h1 id="setup">Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#setup"></a></h1>
+<h3 id="defining-a-note-trait-for-daily-logs">Defining a Note trait for daily logs<a aria-hidden="true" class="anchor-heading icon-link" href="#defining-a-note-trait-for-daily-logs"></a></h3>
+<p>The idea is to be able to have a template and a note trait which can easily create note following the behaviors of a Daily Journal Note.
+For this we followed <a href="https://wiki.dendron.so/notes/kwgbkl58xka0zsib8uhhkfw/">https://wiki.dendron.so/notes/kwgbkl58xka0zsib8uhhkfw/</a> and <a href="https://wiki.dendron.so/notes/bdZhT3nF8Yz3WDzKp7hqh/">https://wiki.dendron.so/notes/bdZhT3nF8Yz3WDzKp7hqh/</a></p>
+<p>I resume below the followed recipe.</p>
+<h4 id="set-the-notes-trait">Set the Notes trait<a aria-hidden="true" class="anchor-heading icon-link" href="#set-the-notes-trait"></a></h4>
+<ol>
+<li>
+<p>Create a new Note Trait
+Run the command Dendron: Configure Note Traits. Give your new trait a unique name. In this example, we'll call the trait open-notebook-pma. Hit Enter and a open-notebook-pma.js file will appear in your editor. This is where you define your custom trait logic.</p>
+</li>
+<li>
+<p>Add the trait behavior
+Add in Javascript code to have custom settings when creating the note name and the note title.</p>
+</li>
+</ol>
+<p>Here we used </p>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">OnWillCreate</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token doc-comment comment">/**
+     * This example sets a prefix of 'planning', and then adds a date hierarchy
+     * using the luxon module.
+     */</span>
+    <span class="token function">setNameModifier</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// This example sets a prefix of 'planning', and then adds a date</span>
+      <span class="token comment">// hierarchy using the luxon module.</span>
+      <span class="token keyword control-flow">return</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">"open-notebook-dbgi.pma."</span> <span class="token operator">+</span> luxon<span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">DateTime</span></span><span class="token punctuation">.</span><span class="token method function property-access">local</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">toFormat</span><span class="token punctuation">(</span><span class="token string">"yyyy.MM.dd"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">promptUserForModification</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">OnCreate</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// This example will use the currentNoteName property, extract the</span>
+      <span class="token comment">// yyyy.MM.dd date portion of the note name, and then reformat it with</span>
+      <span class="token comment">// dashes.</span>
+      <span class="token keyword control-flow">return</span> props<span class="token punctuation">.</span><span class="token property-access">currentNoteName</span><span class="token punctuation">.</span><span class="token method function property-access">split</span><span class="token punctuation">(</span><span class="token string">"."</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">slice</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">join</span><span class="token punctuation">(</span><span class="token string">"-"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token doc-comment comment">/**
+     * Apply a template to each note. NOTE: If you want to use this code, you
+     * will need a note file called `templates.planning-template.md` in your
+     * Dendron workspace.
+     */</span>
+    <span class="token function-variable function">setTemplate</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+      <span class="token keyword control-flow">return</span> <span class="token string">"templates.open-notebook-pma"</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="edit-the-template">Edit the template.<a aria-hidden="true" class="anchor-heading icon-link" href="#edit-the-template"></a></h4>
+<p>You can (optionally) have a template for your journal notes.
+Here I used the following <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">templates.open-notebook-pmallard (Private)</a>.
+This template can be modified according to your needs.</p>
+<h4 id="set-a-keyboard-shortcut">Set a keyboard shortcut<a aria-hidden="true" class="anchor-heading icon-link" href="#set-a-keyboard-shortcut"></a></h4>
+<p>I added a keyboard shortcut for it. But this needs to be done locally in your VSCode preferences (its not part of the published Dendron)
+For this you can</p>
+<ol>
+<li>Run the VSCode Command Preferences: Open Keyboard Shortcuts (JSON) (Cmd+Shift + P)</li>
+<li>Add the following entry to the bottom of your keybindings.json file, with the shortcut key combo of your choice:
+{
+"key": "cmd+o cmd+n",
+"command": "dendron.customCommand.open-notebook-pmallard"
+}</li>
+</ol>
+<p>I have created additional traits for DBGI members. You should find yours :) Else please ask.</p>
+<p>They are called, respectively :</p>
+<ul>
+<li>open-notebook-acsima.js</li>
+<li>open-notebook-bmulhauser.js</li>
+<li>open-notebook-brinn.js</li>
+<li>open-notebook-cdessimoz.js</li>
+<li>open-notebook-dagosti.js</li>
+<li>open-notebook-dmietchen.js</li>
+<li>open-notebook-ebruelhart.js</li>
+<li>open-notebook-edefossez.js</li>
+<li>open-notebook-ewillighagen.js</li>
+<li>open-notebook-gkozlowski.js</li>
+<li>open-notebook-hluetcke.js</li>
+<li>open-notebook-jgalgonek.js</li>
+<li>open-notebook-mwang.js</li>
+<li>open-notebook-mwannier.js</li>
+<li>open-notebook-nalvarez.js</li>
+<li>open-notebook-pcudremauroux.js</li>
+<li>open-notebook-pmallard.js</li>
+<li>open-notebook-tmendes.js</li>
+</ul>
+<p>Adapt your keyboard shortcuts so that it leads to your own note traits.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/tofizf0eb38rduuw6ffnzba">Welcome</a></li>
+<li><a href="/dendron-dbgi/notes/66jqbal9euipagyvgmctw48">2022-11-03</a></li>
+<li><a href="/dendron-dbgi/notes/pavm24gkbkhlul1izg1yjtk">2022-12-27</a></li>
+<li><a href="/dendron-dbgi/notes/gm75s8kkf5ma494mkful592">2023-01-13</a></li>
+<li><a href="/dendron-dbgi/notes/r1al025p6bsylkky0x789h0">2024-05-23</a></li>
+<li><a href="/dendron-dbgi/notes/f1b58fewgynd36i6voll7gc">Open Science</a></li>
+</ul>

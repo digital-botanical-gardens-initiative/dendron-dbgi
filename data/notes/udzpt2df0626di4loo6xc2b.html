@@ -1,0 +1,41 @@
+<h1 id="mass_spectrometry_analysis">Mass_spectrometry_analysis<a aria-hidden="true" class="anchor-heading icon-link" href="#mass_spectrometry_analysis"></a></h1>
+<p>Mass_Spectrometry_Analysis table (<em>Figure 1</em>) permits to store the mass_spec_ID with all the associated metadata:</p>
+<ul>
+<li>
+<p>aliquot_id: Format date_operator_dbgi_xxxxxx_xx_xx (sample) or date_operator_dbgi_batch_blk_xxxxxx_xx (blank). Child of aliquot_id format dbgi_xxxxxx_xx_xx (sample) or dbgi_batch_blk_xxxxxx_xx (blank). This ID corresponds to the label of the virtual object mass spectrometry file.</p>
+</li>
+<li>
+<p>user_created, date_created_user_updated, date_updated: Informations about who created/modified the Mass_Spectrometry_Analysis informations and when.</p>
+</li>
+<li>
+<p>UUID_mass_spec: UUID of the MS file, generated during creation of the virtual object.</p>
+</li>
+<li>
+<p>aliquot_id: This ID corresponds to the label of the physical object aliquot. Provides a link to <a href="/dendron-dbgi/notes/q58kwmxh1u46kil8gr1vdwp">Aliquots</a> parent.</p>
+</li>
+<li>
+<p>status: Permits to track the status of the MS file (example: OK, lost, corrupted, etc.).</p>
+</li>
+<li>
+<p>injection_volume: Stores the volume that has been injected inside the mass spectrometer.</p>
+</li>
+<li>
+<p>injection_method: Corresponds to the <a href="/dendron-dbgi/notes/ffutpyuvg3wd6z9cvgrx0jl">Injection_Methods</a> used to create this file. Provides a link to the method and the associated informations.</p>
+</li>
+<li>
+<p>ms_id: This ID corresponds to the label of the physical object mass spectrometer. Provides a link to <a href="/dendron-dbgi/notes/9wwn85rgfpkn1hz4pu6geal">Mass_spectrometers</a> parent.</p>
+</li>
+<li>
+<p>converted: A boolean field that informs if the MS file has been converted to a .MZml file.</p>
+</li>
+<li>
+<p>added: A boolean field taht informs if the corresponding .MZml file has been added to the data treatment workflow.</p>
+</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/mass_spectrometry_analysis.svg" alt="image import"></p>
+<p><em>Figure 1: Mass_Spectrometry_Analysis table structure</em></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+</ul>

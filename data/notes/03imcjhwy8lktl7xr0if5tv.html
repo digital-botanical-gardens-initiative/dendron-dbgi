@@ -1,0 +1,152 @@
+<h1 id="2025-02-24">2025-02-24<a aria-hidden="true" class="anchor-heading icon-link" href="#2025-02-24"></a></h1>
+<h1 id="this-is-edouards-dbgi-daily-open-notebook">This is Edouard's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-edouards-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2025.02.24</p>
+<h1 id="rethinking-connection-between-emi-services">Rethinking connection between EMI services<a aria-hidden="true" class="anchor-heading icon-link" href="#rethinking-connection-between-emi-services"></a></h1>
+<h2 id="services">Services<a aria-hidden="true" class="anchor-heading icon-link" href="#services"></a></h2>
+<ul>
+<li>
+<p>QFieldCloud: To collect on the field. Smartphone -> QField -> QFieldCloud</p>
+</li>
+<li>
+<p>iNaturalist: Community curation. Automatic upload from QFieldCloud</p>
+</li>
+<li>
+<p>Nextcloud: Pictures and CSV storage. Automatic upload from QFieldCloud</p>
+</li>
+<li>
+<p>Directus: Database. Automatic upload from QFieldCloud and iNaturalist</p>
+</li>
+</ul>
+<h2 id="processes">Processes<a aria-hidden="true" class="anchor-heading icon-link" href="#processes"></a></h2>
+<ul>
+<li>
+<p>QFieldCloud: Service is running and ready to collect</p>
+</li>
+<li>
+<p>iNaturalist: Automatic upload made by pictures-manager</p>
+</li>
+<li>
+<p>Nextcloud: Pictures automatic upload made by pictures-manager, CSV automatic upload made by qfieldcloud-fetcher</p>
+</li>
+<li>
+<p>Directus: QFieldCloud data automatically fetched by qfieldcloud-fetcher, iNaturalist data automatically fetched by inaturalist-fetcher</p>
+</li>
+</ul>
+<h2 id="repositories">Repositories<a aria-hidden="true" class="anchor-heading icon-link" href="#repositories"></a></h2>
+<h3 id="existing">Existing<a aria-hidden="true" class="anchor-heading icon-link" href="#existing"></a></h3>
+<ul>
+<li>
+<p>NextCloud</p>
+</li>
+<li>
+<p>QFieldCloud</p>
+</li>
+<li>
+<p>directus-db</p>
+</li>
+<li>
+<p>gpkg-creator</p>
+</li>
+<li>
+<p>iNaturalist_import_bot</p>
+</li>
+<li>
+<p>directus-requests</p>
+</li>
+<li>
+<p>label_creator</p>
+</li>
+<li>
+<p>inat_commented_directus</p>
+</li>
+<li>
+<p>CSV-storage</p>
+</li>
+<li>
+<p>ms-sample-list-creator</p>
+</li>
+<li>
+<p>qfieldcloud-fetcher</p>
+</li>
+<li>
+<p>inat-fetcher</p>
+</li>
+<li>
+<p>label-creator</p>
+</li>
+<li>
+<p>directus-migration-scripts</p>
+</li>
+<li>
+<p>ms-metadata-fetcher</p>
+</li>
+<li>
+<p>pictures-manager</p>
+</li>
+<li>
+<p>Pictures_manager</p>
+</li>
+</ul>
+<h3 id="to-delete">To delete<a aria-hidden="true" class="anchor-heading icon-link" href="#to-delete"></a></h3>
+<ul>
+<li>
+<p>iNaturalist_import_bot: Transfer and modify</p>
+</li>
+<li>
+<p>directus-requests: Useless, check for resources and delete</p>
+</li>
+<li>
+<p>label_creator: replaced by label-creator. Check for resources and delete</p>
+</li>
+<li>
+<p>inat_commented_directus: Useless, integrate this to inat-fetcher</p>
+</li>
+<li>
+<p>CSV-storage: Useless, check for resources and delete</p>
+</li>
+<li>
+<p>Pictures_manager: Useless, check for resources and delete</p>
+</li>
+<li>
+<p>DBGI_tracking_android: Useless, check for resources and delete</p>
+</li>
+</ul>
+<h3 id="to-keep-with-status">To keep with status<a aria-hidden="true" class="anchor-heading icon-link" href="#to-keep-with-status"></a></h3>
+<ul>
+<li>
+<p>NextCloud: Running and working</p>
+</li>
+<li>
+<p>QFieldCloud: Running and working</p>
+</li>
+<li>
+<p>label-creator: Working</p>
+</li>
+<li>
+<p>gpkg-creator: Working</p>
+</li>
+<li>
+<p>ms-sample-list-creator: Working</p>
+</li>
+<li>
+<p>directus-db: Running but to clarify (prod, dev, etc) -> deleted and replaced by 3 repos (Directus-prod, Directus-dev and directus-backup)</p>
+</li>
+<li>
+<p>qfieldcloud-fetcher: To check and improve</p>
+</li>
+<li>
+<p>inat-fetcher: To check and improve</p>
+</li>
+<li>
+<p>ms-metadata-fetcher: To check and improve</p>
+</li>
+<li>
+<p>pictures-manager: To check and improve</p>
+</li>
+<li>
+<p>inaturalist-import-bot: Convert old iNaturalist_import_bot to this one</p>
+</li>
+<li>
+<p>directus-migration-scripts: Paused for now</p>
+</li>
+</ul>

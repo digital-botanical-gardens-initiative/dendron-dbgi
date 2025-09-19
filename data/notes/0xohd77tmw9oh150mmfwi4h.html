@@ -1,0 +1,47 @@
+<h1 id="2023-04-21">2023-04-21<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-04-21"></a></h1>
+<h1 id="this-is-edouards-dbgi-daily-open-notebook">This is Edouard's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-edouards-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.04.21</p>
+<h1 id="to-do">To do<a aria-hidden="true" class="anchor-heading icon-link" href="#to-do"></a></h1>
+<h1 id="graph-treatment">graph treatment<a aria-hidden="true" class="anchor-heading icon-link" href="#graph-treatment"></a></h1>
+<p>Doc pour mzmine: sur le site de GNPS</p>
+<h1 id="done">done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h1>
+<h1 id="perspectives">Perspectives<a aria-hidden="true" class="anchor-heading icon-link" href="#perspectives"></a></h1>
+<h1 id="notes">notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h1>
+<p>Today I'm experiencing some stuff to make an automated way to export and manage QFieldcloud data. Here is a code storage, in case I have some troubles with the original one:</p>
+<p>#!/usr/bin/env python3</p>
+<p>import requests
+import os
+import re
+from qfieldcloud_sdk import sdk</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#Server (Private)</a> connection
+client = sdk.Client(url='<a href="https://dbgimap.hopto.org/api/v1/&#x27;">https://dbgimap.hopto.org/api/v1/'</a>)
+client.login(username='edouardbrulhart', password='861510Eb.98')</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#List (Private)</a> the different projects for the specified user
+projects = client.list_projects()</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#Create (Private)</a> the variables to stores projects ids and projects names
+projects_names = []
+projects_ids = []</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#Loops (Private)</a> over the projects list and extracts the ids and names
+for d in projects:
+for key, value in d.items():
+if key.startswith('id'):
+projects_ids.append(value)
+elif key.startswith('name'):
+projects_names.append(value)</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#Create (Private)</a> the variable names list to store each files list for each project
+variables_list = [project_name + '_list' for project_name in projects_names]</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#Little (Private)</a> loop to extract files lists for each project
+files_dict = {}</p>
+<p>for i, id in enumerate(projects_ids):
+key = variables_list[i]
+files_dict[key] = client.list_remote_files(project_id=id)</p>
+<p>print(files_dict[1])
+print(files_dict[2])</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#filenames (Private)</a> = []</p>
+<h1 id="extract-filename-using-regex">extract filename using regex<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-filename-using-regex"></a></h1>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#for (Private)</a> item in files:</p>
+<h1 id="filename--researchrwgpkg-itemname">filename = re.search(r'(\w+).gpkg', item['name'])<a aria-hidden="true" class="anchor-heading icon-link" href="#filename--researchrwgpkg-itemname"></a></h1>
+<h1 id="if-filename">if filename:<a aria-hidden="true" class="anchor-heading icon-link" href="#if-filename"></a></h1>
+<h1 id="filenamesappendfilenamegroup1">filenames.append(filename.group(1))<a aria-hidden="true" class="anchor-heading icon-link" href="#filenamesappendfilenamegroup1"></a></h1>
+<h1 id="code">code<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h1>
+<h1 id="links">links<a aria-hidden="true" class="anchor-heading icon-link" href="#links"></a></h1>

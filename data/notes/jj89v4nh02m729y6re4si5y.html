@@ -1,0 +1,154 @@
+<h1 id="2023-09-01">2023-09-01<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-09-01"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.09.01</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p><a href="/dendron-dbgi/notes/u3r5ovqpurmj36nsvmetsl8">Semantic-model</a></p>
+<p>Working on the EMI semantic model at <a href="/dendron-dbgi/notes/u3r5ovqpurmj36nsvmetsl8">Semantic-model</a></p>
+<p>Checking if the mermaid format used by Tarcisio can be used to draft the model directly in dendron notes</p>
+<div class="mermaid">
+  graph TD
+		d[":Mass-Spectrometer-A"]-->|rdf:type|sosa:Platform
+		d-->|sosa:hosts|d2["Sampler-A"]
+		d2-->|rdf:type|sosa:Sampler
+		d2-->|sosa:madeSampling|oo["Sampling-S1"]
+    oo-->|rdf:type|a["sosa:Sampling"]
+    oo-->|"sosa:hasFeatureOfInterest -> prov:used"|s["Raw-Material-S1"]
+    oo-->|sosa:hasResult|es1["Extracted-Sample-S1"]
+    es1-->|rdf:type|emi:ExtractSample
+    s-->|rdf:type|sSample["sosa:Sample, emi:RawMaterial"]
+    s-->|sosa:isSampleOf|t["a Taxon"]
+    t-->|rdf:type|w["&#x3C;a href=http://www.wikidata.org/entity/Q16521>wikidata:Q16521&#x3C;/a>"]
+    s-->|"emi:isClassifiedWith (optional)"|w2["Specimen Type Vocabulary"]
+    oo-->|sosa:usedProcedure|proc["Sampling-procedure-S1"]
+    proc-->|rdf:type|sosa:Procedure
+</div>
+<p><a href="https://www.w3.org/TR/vocab-ssn/#intro">https://www.w3.org/TR/vocab-ssn/#intro</a></p>
+<p><a href="https://github.com/w3c/sdw-sosa-ssn">https://github.com/w3c/sdw-sosa-ssn</a></p>
+<p>The Semantic Sensor Network (SSN) ontology is an ontology for describing sensors and their observations, the involved procedures, the studied features of interest, the samples used to do so, and the observed properties, as well as actuators. SSN follows a horizontal and vertical modularization architecture by including a lightweight but self-contained core ontology called SOSA (Sensor, Observation, Sample, and Actuator) for its elementary classes and properties. With their different scope and different degrees of axiomatization, SSN and SOSA are able to support a wide range of applications and use cases, including satellite imagery, large-scale scientific monitoring, industrial and household infrastructures, social sensing, citizen science, observation-driven ontology engineering, and the Web of Things. Both ontologies are described below, and examples of their usage are given.</p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h3 id="discussion-with-donat">Discussion with Donat<a aria-hidden="true" class="anchor-heading icon-link" href="#discussion-with-donat"></a></h3>
+<p>Present: Donat, Guido Sautter, Felipe Simoes</p>
+<ul>
+<li>On ants</li>
+</ul>
+<p><a href="https://scholar.google.com/citations?user=mr4ptE4AAAAJ&#x26;hl=en&#x26;oi=ao">https://scholar.google.com/citations?user=mr4ptE4AAAAJ&#x26;hl=en&#x26;oi=ao</a></p>
+<p>Morgan</p>
+<p><a href="http://antbase.org/agosticv_2003.html">http://antbase.org/agosticv_2003.html</a></p>
+<p>Gökçen, O.A., Morgan, D.E., Dani, F.R., Agosti,D., Wehner, R., 2002. Dufour gl contents of ants of the Cataglyphisbicolor group. Journal of Chemical Ecology 28 (1), 71-87.</p>
+<h4 id="phytochem">Phytochem<a aria-hidden="true" class="anchor-heading icon-link" href="#phytochem"></a></h4>
+<ul>
+<li>Issues form 100 - 208</li>
+<li>1400 left to process</li>
+<li>900 papers in TreatmentBank</li>
+</ul>
+<p>See : <a href="https://tb.plazi.org/GgServer/dioStats/stats?outputFields=bib.year+bib.source&#x26;groupingFields=bib.year+bib.source&#x26;FP-bib.source=Phytochemistry&#x26;format=HTML">https://tb.plazi.org/GgServer/dioStats/stats?outputFields=bib.year+bib.source&#x26;groupingFields=bib.year+bib.source&#x26;FP-bib.source=Phytochemistry&#x26;format=HTML</a></p>
+<p>Before 2020 pagination change </p>
+<p><a href="https://tb.plazi.org/GgServer/srsStats/stats?outputFields=doc.uuid+doc.articleUuid+bib.source+tax.name&#x26;groupingFields=doc.uuid+doc.articleUuid+bib.source+tax.name&#x26;FP-bib.source=Phytochemistry&#x26;format=HTML">https://tb.plazi.org/GgServer/srsStats/stats?outputFields=doc.uuid+doc.articleUuid+bib.source+tax.name&#x26;groupingFields=doc.uuid+doc.articleUuid+bib.source+tax.name&#x26;FP-bib.source=Phytochemistry&#x26;format=HTML</a></p>
+<p>Two dashboards</p>
+<p>Some zipfile couldn't be opened.
+Scrapping bot Issue 200, 203, 204 + issue 116.</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@pma (Private)</a> Launch the bot again for these</p>
+<p>Definition of a Taxonomic Treatment</p>
+<p><a href="https://tb.plazi.org/GgServer/html/9E75879AFFF7FF8F6952B0FFFF7AF9B6">https://tb.plazi.org/GgServer/html/9E75879AFFF7FF8F6952B0FFFF7AF9B6</a></p>
+<p><a href="https://tb.plazi.org/GgServer/pdsStats">https://tb.plazi.org/GgServer/pdsStats</a></p>
+<ul>
+<li>Guido Sautter most of the coding for Plazi since 2012. In Germany.</li>
+<li>Felipe Simoes joined Plazi in 2020 (Porto Allegre) head of a team of 8.</li>
+</ul>
+<p>Mind the timezones next time that we set a meeting !</p>
+<p>European Journal of Taxonomy</p>
+<p><a href="https://lookerstudio.google.com/u/0/reporting/bd7418d7-b12d-4eaa-a512-ba3afca1e1d1/page/p_98ckqtsnnc/edit">https://lookerstudio.google.com/u/0/reporting/bd7418d7-b12d-4eaa-a512-ba3afca1e1d1/page/p_98ckqtsnnc/edit</a></p>
+<p>Q: Are the taxon linked to their WD QID ?</p>
+<p>Andra Waagmesteer added TaxoTreatments to WD</p>
+<p>Should be possible ...</p>
+<p><a href="https://tb.plazi.org/GgServer/dioStats/stats?outputFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source+cont.treatCount&#x26;groupingFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source&#x26;orderingFields=doc.name&#x26;FP-bib.source=Phytochemistry&#x26;format=HTML">https://tb.plazi.org/GgServer/dioStats/stats?outputFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source+cont.treatCount&#x26;groupingFields=doc.articleUuid+doc.name+bib.title+bib.year+bib.source&#x26;orderingFields=doc.name&#x26;FP-bib.source=Phytochemistry&#x26;format=HTML</a></p>
+<p>Q: Asked for the possibility to accessed "raw tagged JATS" for the paper where a full Taxonomic Treatment wouldn't have been detected.
+JATS xml</p>
+<p>Switch html to xml in the first link to access to the tagged JATS version of the article</p>
+<p><a href="https://tb.plazi.org/GgServer/html/9E75879AFFF7FF8F6952B0FFFF7AF9B6">https://tb.plazi.org/GgServer/html/9E75879AFFF7FF8F6952B0FFFF7AF9B6</a></p>
+<blockquote>
+<blockquote>
+<blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><a href="https://tb.plazi.org/GgServer/xml/9E75879AFFF7FF8F6952B0FFFF7AF9B6">https://tb.plazi.org/GgServer/xml/9E75879AFFF7FF8F6952B0FFFF7AF9B6</a></p>
+<p><a href="https://tb.plazi.org/GgServer/taxPubL1/9E75879AFFF7FF8F6952B0FFFF7AF9B6">https://tb.plazi.org/GgServer/taxPubL1/9E75879AFFF7FF8F6952B0FFFF7AF9B6</a></p>
+<h3 id="chat-with-unine-communication">Chat with UniNe communication<a aria-hidden="true" class="anchor-heading icon-link" href="#chat-with-unine-communication"></a></h3>
+<p>Discussion with XXXX ? Ask Manu on the EMI project</p>
+<p>"A la une" Université de Neuchatel</p>
+<p>Projet Sinergia qui se termine (Herbiers de Rousseau)
+FOCUS + pendant pour le futur </p>
+<p>Dies Academicus.</p>
+<ul>
+<li>
+<p>Matthieu Avenzzi directeur du centre de dialectologie</p>
+</li>
+<li>
+<p>Mention de l'heritage de Augustin Pyramus de Candolle</p>
+</li>
+</ul>
+<ul>
+<li>Chris kahlemayer</li>
+</ul>
+<p>NCCR Plant Survival</p>
+<h2 id="schemaorg-vs-skos">Schema.org vs. SKOS<a aria-hidden="true" class="anchor-heading icon-link" href="#schemaorg-vs-skos"></a></h2>
+<p>Deviated on another ChatGPT query :</p>
+<p>Please briefly describe Schema.org and SKOS and resume what are they similarities and differences.</p>
+<blockquote>
+<p><strong>Schema.org</strong>:</p>
+<ul>
+<li>Schema.org is a collaborative project by major search engines like Google, Bing, Yahoo, and others.</li>
+<li>It provides a structured vocabulary (set of terms and definitions) to describe content on the web.</li>
+<li>It's mainly used for marking up web pages so that search engines can understand and display content more effectively in search results. For example, it helps in displaying rich snippets, which are enhanced search results with additional information like ratings and event details.</li>
+<li>Schema.org is primarily used for enhancing the visibility of web content in search results and for providing structured data on web pages.</li>
+</ul>
+<p><strong>SKOS (Simple Knowledge Organization System)</strong>:</p>
+<ul>
+<li>SKOS is a widely used standard for organizing and representing knowledge, particularly for creating and managing controlled vocabularies, taxonomies, and thesauri.</li>
+<li>It's designed to help people and software systems to organize and navigate complex sets of information by defining relationships and concepts in a structured way.</li>
+<li>SKOS is used in various domains, including libraries, cultural heritage institutions, and information management, to create and manage controlled vocabularies.</li>
+<li>It's focused on knowledge organization and management, making it easier to categorize and retrieve information.</li>
+</ul>
+<p><strong>Similarities</strong>:</p>
+<ol>
+<li>
+<p><strong>Semantic Structure</strong>: Both Schema.org and SKOS provide a structured way to describe and organize information. They use defined terms and relationships to create a semantic structure.</p>
+</li>
+<li>
+<p><strong>Interoperability</strong>: Both standards aim to enhance the interoperability of data and information. They help systems and applications understand and process data consistently.</p>
+</li>
+<li>
+<p><strong>Web Integration</strong>: While their primary purposes differ, both Schema.org and SKOS can be used on the web. Schema.org is more focused on enhancing the presentation of web content in search results, while SKOS helps in organizing knowledge on the web.</p>
+</li>
+</ol>
+<p><strong>Differences</strong>:</p>
+<ol>
+<li>
+<p><strong>Primary Purpose</strong>: The primary purpose of Schema.org is to enhance the visibility and presentation of web content in search engine results. In contrast, SKOS is primarily used for organizing knowledge and creating controlled vocabularies.</p>
+</li>
+<li>
+<p><strong>Domain of Use</strong>: Schema.org is mainly used in the context of web content, websites, and search engine optimization. SKOS, on the other hand, is used in a broader range of domains, including libraries, cultural heritage institutions, and knowledge management.</p>
+</li>
+<li>
+<p><strong>Granularity</strong>: Schema.org terms are often more granular and specific, focusing on describing web content elements like products, events, and reviews. SKOS, on the other hand, is used to create broader taxonomies and thesauri, organizing knowledge into hierarchies of concepts.</p>
+</li>
+</ol>
+<p>In summary, Schema.org is primarily for enhancing web content visibility, while SKOS is for organizing knowledge and creating controlled vocabularies. Both standards use structured semantics but have different domains of application and granularity in terms of the information they represent.</p>
+</blockquote>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

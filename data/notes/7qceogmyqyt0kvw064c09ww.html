@@ -1,0 +1,46 @@
+<h1 id="static_containers">Static_containers<a aria-hidden="true" class="anchor-heading icon-link" href="#static_containers"></a></h1>
+<p>Static_container table (<em>Figure 1</em>) permits to create and reserve labels for the static containers. These labels are created using the <a href="/dendron-dbgi/notes/szi7vn6sgd6kpo53xrbiio8">label-creator</a> software:</p>
+<ul>
+<li>
+<p>container_id: Format container_static_xxxxxx.</p>
+</li>
+<li>
+<p>user_created, date_created_user_updated, date_updated: Informations about who created/modified the static container informations and when.</p>
+</li>
+<li>
+<p>UUID_container: UUID of the static container, generated during creation of the physical object.</p>
+</li>
+<li>
+<p>container_location: Where the mobile container is located. Inferred from the <a href="/dendron-dbgi/notes/68pzj6aqpf6do48hsu3u8z3">Universities</a> table.</p>
+</li>
+<li>
+<p>reserved: Permits to inform if the container label is reserved or not. If container labels haven't been used, they can be used for another purpose.</p>
+</li>
+</ul>
+<p>Static containers are for example:</p>
+<ul>
+<li>
+<p>Fridges</p>
+</li>
+<li>
+<p>Freezers</p>
+</li>
+<li>
+<p>Rooms</p>
+</li>
+<li>
+<p>Buildings</p>
+</li>
+<li>
+<p>etc.</p>
+</li>
+</ul>
+<p>They can be nested in another static container. For example, a fridge is inside a room that is inside a building.</p>
+<p>This table is not yet implemented in our tracking system. Only mobile containers are handled.</p>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/static_containers.svg" alt="image import"></p>
+<p><em>Figure 1: Static_Container table structure</em></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+</ul>

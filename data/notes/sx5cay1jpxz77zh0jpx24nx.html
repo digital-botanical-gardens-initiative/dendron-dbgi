@@ -1,0 +1,19 @@
+<h1 id="16">16<a aria-hidden="true" class="anchor-heading icon-link" href="#16"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.08.16</p>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p>Working on fourth module of DBGI pipeline.</p>
+<h3 id="output-of-the-fourth-module">Output of the fourth module<a aria-hidden="true" class="anchor-heading icon-link" href="#output-of-the-fourth-module"></a></h3>
+<h4 id="compound-identification">Compound identification<a aria-hidden="true" class="anchor-heading icon-link" href="#compound-identification"></a></h4>
+<p>A TSV document called <code>compound_identification.tsv</code>. </p>
+<p>The column called molecular formula contains the best hit for the molecular structure of the particular sample obtained from Sirius. The Sirius system uses a large database from PubChem, so we could find contaminants compounds such as pesticides. </p>
+<p>NOTE: we can lookup the information about the molecule using the inchkey on PubChem, and by using the available infodump we can mine several additional information about the molecule. Analogously, we can ingest CHEBI for the same goals.</p>
+<h4 id="zip-files">Zip files<a aria-hidden="true" class="anchor-heading icon-link" href="#zip-files"></a></h4>
+<p>The several ZIP files produces by the fourth module are produced by Sirius, they are annotations for each of the samples and feature within each sample. These ZIP documents can generally be ignored for the purpose of the DBGI pipeline.</p>
+<h4 id="canopus-compound-summary">Canopus compound summary<a aria-hidden="true" class="anchor-heading icon-link" href="#canopus-compound-summary"></a></h4>
+<p>A TSV document called <code>canopus_compound_summary.tsv</code>.</p>
+<p>Canopus is less rigid, and can identify compounds that are not present in the PubChem database. The columns referring to canopus are called NPC#pathway, NPC#pathwat probability, NPC@#superclass, NPC#superclass probability, NPC#class and NPC#class probability.</p>
+<h3 id="working-on-fifth-module-meta-analysis">Working on Fifth module, meta analysis<a aria-hidden="true" class="anchor-heading icon-link" href="#working-on-fifth-module-meta-analysis"></a></h3>
+<p>The fifth module of the pipeline retrieves the WikiData IDs associated</p>
+<h3 id="note-on-possibility-of-siamese-network-or-similarity-tree">Note on possibility of siamese network or similarity tree<a aria-hidden="true" class="anchor-heading icon-link" href="#note-on-possibility-of-siamese-network-or-similarity-tree"></a></h3>
+<p>We can reasonably create a siamese network to compute an embedding that captures all the cosine similarities of the specters computed in the MGFs. Also, we can reasonably directly build a similarity tree.</p>

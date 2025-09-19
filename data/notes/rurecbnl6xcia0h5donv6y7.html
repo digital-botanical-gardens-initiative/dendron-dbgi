@@ -1,0 +1,107 @@
+<h1 id="2024-02-15">2024-02-15<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-15"></a></h1>
+<h1 id="this-is-marcos-daily-open-notebook">This is Marco's daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-marcos-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.15</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h3 id="call-with-luca">Call with Luca<a aria-hidden="true" class="anchor-heading icon-link" href="#call-with-luca"></a></h3>
+<p>Once I have found the best model, I can proceed with the following : </p>
+<pre class="language-python"><code class="language-python">graph_with_only_in_taxon <span class="token operator">=</span> graph<span class="token punctuation">.</span>filter_from_names<span class="token punctuation">(</span>
+    edge_type_names_to_keep<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"biolink:in_taxon"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+graph_without_in_taxon <span class="token operator">=</span> graph<span class="token punctuation">.</span>filter_from_names<span class="token punctuation">(</span>
+    edge_type_names_to_remove<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"biolink:in_taxon"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+pos <span class="token operator">=</span> graph_with_only_in_taxon
+neg <span class="token operator">=</span> graph_with_only_in_taxon<span class="token punctuation">.</span>sample_negative_graph<span class="token punctuation">(</span>
+    number_of_negative_samples<span class="token operator">=</span>graph_with_only_in_taxon<span class="token punctuation">.</span>get_number_of_directed_edges<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    sample_edge_types<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
+    only_from_same_component<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
+    use_scale_free_distribution<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span>
+    random_state<span class="token operator">=</span><span class="token number">23391</span> <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token number">3</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+
+sketching_features <span class="token operator">=</span> HyperSketchingPy<span class="token punctuation">(</span>
+    hops<span class="token operator">=</span>number_of_hops<span class="token punctuation">,</span>
+    normalize<span class="token operator">=</span>normalize<span class="token punctuation">,</span>
+    graph<span class="token operator">=</span>graph
+<span class="token punctuation">)</span>
+sketching_features<span class="token punctuation">.</span>fit<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+<span class="token comment"># sketching for positive training edges</span>
+pos_sources <span class="token operator">=</span> pos<span class="token punctuation">.</span>get_directed_source_node_ids<span class="token punctuation">(</span><span class="token punctuation">)</span>
+pos_destinations <span class="token operator">=</span> pos<span class="token punctuation">.</span>get_directed_destination_node_ids<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+sk_positive_features <span class="token operator">=</span> sketching_features<span class="token punctuation">.</span>positive<span class="token punctuation">(</span>
+    sources<span class="token operator">=</span>pos_sources<span class="token punctuation">,</span>
+    destinations<span class="token operator">=</span>pos_destinations<span class="token punctuation">,</span>
+    feature_combination<span class="token operator">=</span>combination<span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+
+
+<span class="token comment"># sketching for training negatives</span>
+neg_sources <span class="token operator">=</span> neg<span class="token punctuation">.</span>get_directed_source_node_ids<span class="token punctuation">(</span><span class="token punctuation">)</span>
+neg_destinations <span class="token operator">=</span> neg<span class="token punctuation">.</span>get_directed_destination_node_ids<span class="token punctuation">(</span><span class="token punctuation">)</span>
+sk_negative_features <span class="token operator">=</span> sketching_features<span class="token punctuation">.</span>negative<span class="token punctuation">(</span>
+    sources<span class="token operator">=</span>neg_sources<span class="token punctuation">,</span>
+    destinations<span class="token operator">=</span>neg_destinations<span class="token punctuation">,</span>
+    feature_combination<span class="token operator">=</span>combination<span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+
+X <span class="token operator">=</span> np<span class="token punctuation">.</span>concatenate<span class="token punctuation">(</span><span class="token punctuation">[</span> sk_positive_features<span class="token punctuation">,</span> sk_negative_features<span class="token punctuation">]</span><span class="token punctuation">)</span>
+label_pos <span class="token operator">=</span> np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>sk_positive_features<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+label_neg <span class="token operator">=</span> np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>sk_negative_features<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+label <span class="token operator">=</span> np<span class="token punctuation">.</span>concatenate<span class="token punctuation">(</span><span class="token punctuation">[</span>label_pos<span class="token punctuation">,</span> label_neg<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment"># randomize the order of the training data</span>
+random_state<span class="token operator">=</span><span class="token number">43</span>
+indices <span class="token operator">=</span> np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>X<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+rnd <span class="token operator">=</span> np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>RandomState<span class="token punctuation">(</span>random_state<span class="token punctuation">)</span>
+rnd<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span>indices<span class="token punctuation">)</span>
+X_shuffled <span class="token operator">=</span> X<span class="token punctuation">[</span>indices<span class="token punctuation">]</span>
+
+label_shuffled <span class="token operator">=</span> label<span class="token punctuation">[</span>indices<span class="token punctuation">]</span>
+
+</code></pre>
+<p>Then fit the model. Save it.</p>
+<p>Once we have our model we need to do the predictions on the bipartite graph (the bipartite grpah being the 8 billion pairs of possible molecules)</p>
+<ul>
+<li>train graph</li>
+<li>iterate over species</li>
+<li>for each species genrerate link graph between that species and all molecules --> create features of that graph</li>
+<li>predict</li>
+<li>order the predictions and keep scores above 0.75 </li>
+<li>for each species create csv with species name</li>
+<li>in csv you have the molecule corresponding to the node and the score ATTENTION : Flag pairs that are already present in graph ! <code>graph.get_neighbour_node_ids_from_node_name("wd:Q43656")</code></li>
+</ul>
+<p>Example of for one species : </p>
+<pre class="language-python"><code class="language-python">sketching_features <span class="token operator">=</span> HyperSketchingPy<span class="token punctuation">(</span>
+    hops<span class="token operator">=</span>number_of_hops<span class="token punctuation">,</span>
+    normalize<span class="token operator">=</span>normalize<span class="token punctuation">,</span>
+    graph<span class="token operator">=</span>graph<span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+sketching_features<span class="token punctuation">.</span>fit<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+pair_sketching <span class="token operator">=</span> sketching_features<span class="token punctuation">.</span>unknown<span class="token punctuation">(</span>
+    sources<span class="token operator">=</span>molecules<span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token string">"uint32"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    destinations<span class="token operator">=</span>homo_sapiens<span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token string">"uint32"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    feature_combination<span class="token operator">=</span><span class="token string">"addition"</span>
+<span class="token punctuation">)</span>
+
+model<span class="token punctuation">.</span>predict_proba<span class="token punctuation">(</span>pair_sketching<span class="token punctuation">)</span>
+</code></pre>
+<p>With : <code>molecules = np.array([all_molecules nodes id ])</code> and  <code>homo_sapiens = np.array([15, 15, 15, ...])</code></p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled></li>
+</ul>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul>
+<li>[ ]</li>
+</ul>

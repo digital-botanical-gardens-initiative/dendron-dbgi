@@ -1,0 +1,74 @@
+<h1 id="laboratory-application">Laboratory Application<a aria-hidden="true" class="anchor-heading icon-link" href="#laboratory-application"></a></h1>
+<p>The laboratory application is an android application coded using <a href="https://kotlinlang.org/">Kotlin</a> programming language with <a href="https://developer.android.com/studio?hl">Android Studio</a> IDE (Integrated Development Environment). Android Studio permits to create and test the application on Android phones.</p>
+<p>The application can be downloaded <a href="https://github.com/digital-botanical-gardens-initiative/DBGI_tracking_android/releases">here</a>.</p>
+<p>This application is free and open source. The source code can be found <a href="https://github.com/digital-botanical-gardens-initiative/DBGI_tracking_android">there</a>.</p>
+<h2 id="connection"><a href="/dendron-dbgi/notes/xvxsf3dxv17ajlxffib7pfy">Connection</a><a aria-hidden="true" class="anchor-heading icon-link" href="#connection"></a></h2>
+<p>The application will ask <a href="/dendron-dbgi/notes/ieyeybee3t9qu8mfy5lkpth">Directus</a> credentials in order to have access to the database. If the connection is successful, it will redirect to the printer connection screen to choose if the user wants to connect a <a href="https://www.brady.eu/">Brady</a> printer or not. For now, the compatible printers are <a href="https://www.bradyid.com/label-printers/portable/m211-portable-bluetooth-label-printer-pid-170380">Brady M211</a> and <a href="https://www.bradyid.com/label-printers/portable/m511-portable-bluetooth-label-printer-pid-170969">Brady M511</a>.</p>
+<h2 id="home-page"><a href="/dendron-dbgi/notes/7taur6unqrnfxb1yxynycve">Home-Page</a><a aria-hidden="true" class="anchor-heading icon-link" href="#home-page"></a></h2>
+<p>The Home Page screen permits to choose which step in the laboratory you want to perform. Actually, six modes are available (<em>Figure 1</em>):</p>
+<ul>
+<li>
+<p>Falcon Mode</p>
+</li>
+<li>
+<p>Weighting Mode</p>
+</li>
+<li>
+<p>Extraction Mode</p>
+</li>
+<li>
+<p>Aliquots Mode</p>
+</li>
+<li>
+<p>Signaling Mode (available soon)</p>
+</li>
+<li>
+<p>Find Mode (available soon)</p>
+</li>
+</ul>
+<h2 id="falcon-mode"><a href="/dendron-dbgi/notes/yaxymakkq1g25x257rx1070">Falcon-Mode</a><a aria-hidden="true" class="anchor-heading icon-link" href="#falcon-mode"></a></h2>
+<p>The Falcon Mode permits to associate the field samples colleced in Falcon tubes to a 24 holes rack. The operation is made in two steps:</p>
+<ul>
+<li>
+<p>Scan the rack label you want to fill</p>
+</li>
+<li>
+<p>Scan the samples you want to put inside</p>
+</li>
+</ul>
+<p>The application will check if there is already samples in the rack and count the ones that are added. It permits to avoid attribution errors and doesn't let users attribute more samples than the rack can contain (<em>Figure 1</em>).</p>
+<h2 id="weighting-mode"><a href="/dendron-dbgi/notes/pfdpnk3izpbyabgx9i9npko">Weighting-Mode</a><a aria-hidden="true" class="anchor-heading icon-link" href="#weighting-mode"></a></h2>
+<p>The Weighting Mode permits to collect metadata about the weighting process and also prints a label for the new sample created. The application will let the user choose the weight SI unit that suits the best to his need and the tolerance. The tolerance is here to avoid typing errors during the weight entry. The user can also choose to ignore weight constraint to have a completely free weighting cession.</p>
+<p>Once these options are set, the user will then have access to a QR reader to scan samples and attribute the weight. If a printer is connected, the label for the new sample will be automatically printed. This label is suffixed _tmp, as it is a transitional object that won't be kept after the extraction process (<em>Figure 1</em>).</p>
+<h2 id="extraction-mode"><a href="/dendron-dbgi/notes/1yrhcmefwr4nn76nmz8r6c3">Extraction-Mode</a><a aria-hidden="true" class="anchor-heading icon-link" href="#extraction-mode"></a></h2>
+<p>The extraction Mode permits to collect metadata about the extraction process and also prints a label for the extract vial. The user has the option to generate a new batch ID, that permits to track the solvent quality. If thi button is pressed, two labels will be printed, one for the solvent batch, in order to link it with the samples extracted with this solvent, and the other one to create a blank of this solvent in order to track the quality. Then the user can choose the extraction method and enter the solvent volume he will add to the sample. Then he will have to scan a vial box in order to associate the newly created solvents to this box. There is the same check as with Falcon rack to avoid attribution errors.</p>
+<p>Once thes options are set, the user will then have access to a QR reader to scan weighted samples and create the extract label, that is the same as in the Weighting mode but without _tmp suffix, as the extract will enter in the extract collection (<em>Figure 1</em>).</p>
+<h2 id="aliquots-mode"><a href="/dendron-dbgi/notes/32zr0dn70q23a2j2y2ymt35">Aliquots-Mode</a><a aria-hidden="true" class="anchor-heading icon-link" href="#aliquots-mode"></a></h2>
+<p>The aliquot mode permits to collect metadata about the aliquot process and also prints a label for the aliquot vial. The user has to enter the volume he wants to prelevate and scan a vial box.</p>
+<p>Once thes options are set, the user will then have access to a QR reader to scan extracts and create the aliquot label (<em>Figure 1</em>).</p>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/laboratory_app_workflow.svg" alt="lab-app-workflow"><em>Figure 1: Laboratory application workflow</em></p>
+<h2 id="signaling-mode"><a href="/dendron-dbgi/notes/irja9akhmvo1ryicbyuhm7v">Signaling-Mode</a><a aria-hidden="true" class="anchor-heading icon-link" href="#signaling-mode"></a></h2>
+<p>This mode is for now a state-in-progress. It is not available for now.</p>
+<p>It is here to change status of all sorts of samples if they are broken, lost, empty, etc. That option aims to manage the whole sample storage in order to keep it up-to-date.</p>
+<p>This use-case can already be performed manually using the <a href="/dendron-dbgi/notes/ieyeybee3t9qu8mfy5lkpth">Directus</a> web interface.</p>
+<h2 id="find-mode"><a href="/dendron-dbgi/notes/mucmgivic803ogj3trnda6b">Find-Mode</a><a aria-hidden="true" class="anchor-heading icon-link" href="#find-mode"></a></h2>
+<p>This mode is for now a state-in-progress. It is not available for now.</p>
+<p>It is here to permit user to find where a specific sample is stored, using the racks and/or boxes associated to it.</p>
+<p>This use-case can already be performed manually using the <a href="/dendron-dbgi/notes/ieyeybee3t9qu8mfy5lkpth">Directus</a> web interface.</p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/dendron-dbgi/notes/32zr0dn70q23a2j2y2ymt35">Aliquots-Mode</a></li>
+<li><a href="/dendron-dbgi/notes/xvxsf3dxv17ajlxffib7pfy">Connection</a></li>
+<li><a href="/dendron-dbgi/notes/1yrhcmefwr4nn76nmz8r6c3">Extraction-Mode</a></li>
+<li><a href="/dendron-dbgi/notes/yaxymakkq1g25x257rx1070">Falcon-Mode</a></li>
+<li><a href="/dendron-dbgi/notes/mucmgivic803ogj3trnda6b">Find-Mode</a></li>
+<li><a href="/dendron-dbgi/notes/7taur6unqrnfxb1yxynycve">Home-Page</a></li>
+<li><a href="/dendron-dbgi/notes/irja9akhmvo1ryicbyuhm7v">Signaling-Mode</a></li>
+<li><a href="/dendron-dbgi/notes/pfdpnk3izpbyabgx9i9npko">Weighting-Mode</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/4u9167irz9kzo0w3noogs2t">Laboratory</a></li>
+</ul>

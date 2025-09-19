@@ -1,0 +1,26 @@
+<h1 id="2024-08-19">2024-08-19<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-08-19"></a></h1>
+<h1 id="this-is-edouards-dbgi-daily-open-notebook">This is Edouard's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-edouards-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.08.19</p>
+<h1 id="writing-an-issue-about-qfield-sync-plugin-that-doesnt-support-segment-paths-for-a-qfieldcloud-self-hosted-instance">Writing an issue about QField Sync plugin that doesn't support segment paths for a QFieldCloud self-hosted instance<a aria-hidden="true" class="anchor-heading icon-link" href="#writing-an-issue-about-qfield-sync-plugin-that-doesnt-support-segment-paths-for-a-qfieldcloud-self-hosted-instance"></a></h1>
+<p>I've encountered a bug with the QField Sync plugin where it incorrectly handles the base URL for connecting to a self-hosted QFieldCloud instance, served using a custom nginx configuration. Specifically, the plugin is removing the /qfieldcloud/ segment from the URL, which leads to a 404 Not Found error when attempting to authenticate or interact with the API.</p>
+<p><strong>Steps to Reproduce:</strong></p>
+<ul>
+<li>Configure the QField Sync plugin with a base URL that includes the /qfieldcloud/ segment, e.g., <a href="https://emi-collection.unifr.ch/qfieldcloud/">https://emi-collection.unifr.ch/qfieldcloud/</a>.</li>
+<li>Attempt to perform an action that requires authentication or interaction with the API (e.g., logging in or syncing).</li>
+<li>Observe that the plugin makes requests to URLs without the /qfieldcloud/ segment, e.g., <a href="https://emi-collection.unifr.ch/api/v1/auth/login/">https://emi-collection.unifr.ch/api/v1/auth/login/</a>.</li>
+</ul>
+<p><strong>Expected Behavior:</strong></p>
+<p>The QField Sync plugin should use the full base URL provided, including all path segments, so that requests are correctly routed to the API endpoints. For example, the URL <a href="https://emi-collection.unifr.ch/qfieldcloud/api/v1/auth/login/">https://emi-collection.unifr.ch/qfieldcloud/api/v1/auth/login/</a> should be used instead of <a href="https://emi-collection.unifr.ch/api/v1/auth/login/">https://emi-collection.unifr.ch/api/v1/auth/login/</a>.</p>
+<p><strong>Actual Behavior:</strong></p>
+<p>The plugin removes the /qfieldcloud/ path segment from the URL, resulting in incorrect requests like <a href="https://emi-collection.unifr.ch/api/v1/auth/login/">https://emi-collection.unifr.ch/api/v1/auth/login/</a>, which leads to 404 Not Found errors.</p>
+<p><strong>Additional Information:</strong></p>
+<p>  I have tested to connect to the instance using a web browser, QField application and directly using curl and confirmed that it works with the /qfieldcloud/ path segment.
+The issue seems to be specific to how the plugin constructs URLs.</p>
+<p><strong>Environment:</strong></p>
+<ul>
+<li>QField Sync Plugin Version: 4.10.1</li>
+<li>QGIS Version: 3.38.2</li>
+<li>Operating System: Ubuntu 22.04</li>
+<li>QFieldCloud URL: <a href="https://emi-collection.unifr.ch/qfieldcloud/">https://emi-collection.unifr.ch/qfieldcloud/</a></li>
+</ul>
+<p>Thank you for your attention to this issue. Please let me know if you need any further details or if there is a workaround available.</p>

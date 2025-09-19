@@ -1,0 +1,78 @@
+<h1 id="2023-07-26">2023-07-26<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-07-26"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.07.26</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p>Meeting OpenBis</p>
+<p>Catherina, Henry, Juan Fuentes</p>
+<p>Design of the storage.</p>
+<p>One layer is missing.
+The rack layer</p>
+<p>Attach barcodes to everything.</p>
+<p>Is the approach described in <a href="https://datascience.codata.org/articles/10.5334/dsj-2021-011">https://datascience.codata.org/articles/10.5334/dsj-2021-011</a> suitable for the DBGI project.</p>
+<ul>
+<li>
+<p>discussion obout models and processes</p>
+</li>
+<li>
+<p>Data models :
+not only specific by field but also by the research
+semantic annotation </p>
+</li>
+</ul>
+<p><a href="https://metadatacenter.org/">https://metadatacenter.org/</a>
+<a href="https://dwc.tdwg.org/">https://dwc.tdwg.org/</a></p>
+<p>Problem : </p>
+<p>1- semantic annotation
+2- how do you feed the model</p>
+<p><a href="https://www.dissco.eu/">https://www.dissco.eu/</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">https://en.wikipedia.org/wiki/Universally_unique_identifier</a>
+<a href="https://community.airtable.com/t5/base-design/how-to-create-a-unique-id-using-a-formula-in-the-primary-field/td-p/69008">https://community.airtable.com/t5/base-design/how-to-create-a-unique-id-using-a-formula-in-the-primary-field/td-p/69008</a></p>
+<p>Words of WilliamPorter are worth reading</p>
+<blockquote>
+<p>“Match columns” vs Key columns
+In relational database systems, data in different tables is always linked when a value in a column in one table precisely matches a corresponding value in a column in the other table. In some platforms these are called “match fields” (“match columns”). Most of the time database developers like me call these “key” fields. But there may be a useful distinction between “match columns” and “key columns”.</p>
+<p>As I said, keys should be unique (within their table) and immutable; and I went on to say that one of the ways you make a key value immutable is by making it meaningless outside the database. Properly generated keys tend to look like this: “UmNygMQcY1twgeD9r”.</p>
+<p>The problem is, precisely because good key values are meaningless to us humans, it’s rather awkward for us to use them. We don’t like to look at values like UmNygMQcY1twgeD9r, we find it extremely hard to pick UmNygMQcY1twgeD9r out of a list that also includes rMqkwlLC5eMx77Hsp etc. Your eyes are probably getting blurry reading this paragraph. :slightly_smiling_face:</p>
+<p>This is why Airtable hides these values from us. Instead, in Airtable we get what I would call match fields. When a new order comes in, we switch to a view of the Orders table, click into the Accounts column (which is a Link to Another Table column) and Airtable shows us a list of known accounts, by name, so it’s easy for us to pick the right one. Behind the scenes, of course, meaningless key values are being used to link the order to the account, but we don’t see any of that.</p>
+<p>So the match field is the meaningful token that allows us human beings to use the base; but invisible, meaningless key values are used to make the actual links between tables. And because that’s the case, if we change the name of the Acme account from Acme Inc to Acme Industries LLP, none of the links between Acme and its orders get broken. The invisible, meaningless IDs did not change.</p>
+<p>.</p>
+<p>Match values not always unique!
+Now, here’s where it gets tricky. Primary keys (i.e. the key values in the One tables) must be unique. But the column we most naturally use as a match column sometimes will include duplicates, or more precisely, not “duplicates” but rather, values that are not unique. (This is an important distinction. The result of 2 + 5 is the same as the result of 4 + 3, but the first 7 is not a “duplicate” of the second 7. They’re just both 7s.)</p>
+<p>I build systems in which the top level table in the hierarchy is almost always a list of people–typically, hundreds or thousands of people. I see a lot of this sort of thing:</p>
+<p>Candace Moreno
+Carlos Garcia
+Carlos Garcia
+Catherine Lawrence
+Sometimes we can determine that the first Carlos Garcia is actually Carlos Garcia, Sr., and the second one is Carlos Garcia, Jr. That helps. But we can’t always do this. Or perhaps we have middle names–but often we don’t. Sometimes you just have two or more records with identical names.</p>
+<p>Once we are able to figure out that it’s the first Carlos Garcia that we want, then the link between him and (say) the rows in the Orders table that belong to him will be made using the invisible key values, and everything is fine from that point on. But Which Carlos Garcia? is a question that occurs a lot, in Airtable and in other database systems as well. It’s a big deal for example when you Google a name like “John Adams”, or when you look for a name in the huge database known as Wikipedia. See for example this page which attempts to “disambiguate” the name John Adams.</p>
+<p>So we tend to create meaningful distinguishers to help us keep things apart. In my systems I’ll often write a calc that puts the first name, middle name, last name, name suffix and birth date into a single column. So users can see something like this:</p>
+<p>Carlos M Garcia (4/1/1980)
+Carlos Garcia, Sr. (8/18/1968)
+These are easy calcs to write. In Airtable, we’ll often write a calc like this and use it as the primary column for the table. If you’re dealing with a table where every record = a person, and the name and birthdate are not reliably distinct, you might have to add some other column like Zip Code or drivers license number or whatever you’ve got. Then when you link to that person’s record from a Many table, in Airtable the “Link to Another Table” will use that calculated column as the match column.</p>
+<p>I suspect this may be exactly what you need to do in your system. Create a primary column that is a formula field containing several values that give you a unique result.</p>
+<p>.</p>
+<p>But the key values are always the most important thing!
+Still, it’s always the hidden key values that do the real linking. So if your base includes, say, three or four or five tables (not just two), and you’re implementing the suggestions I gave you earlier about using the RECORD_ID() function to get primary key values out into the open, then you just need to do the same thing for all the tables in your base. In other words, in every table, a field named Record_ID that gets that row’s primary key value, and also in every Many or “Child” table, a field named something like Parent_Record_ID that looks up the Record_ID value from the linked parent record.</p>
+<p>Then if you export your multi-table base’s data to another system, you make sure to export those key columns as well.</p>
+<p>.</p>
+<p>Too much work?
+Yeah, it’s a little bit of work. But you don’t have to worry about the key columns at all if your system is never going to leave Airtable. And while we often do have to create those “disambiguated” primary column calculations, they not too hard.</p>
+<p>The truth is, Airtable isn’t really all that easy, once you go beyond grocery lists. But the same can be said of every database system I know, and I’m familar with quite a few.</p>
+</blockquote>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

@@ -1,0 +1,22 @@
+<h1 id="ressources">Ressources<a aria-hidden="true" class="anchor-heading icon-link" href="#ressources"></a></h1>
+<h1 id="anticipated-lotus">Anticipated LOTUS<a aria-hidden="true" class="anchor-heading icon-link" href="#anticipated-lotus"></a></h1>
+<h2 id="features">Features<a aria-hidden="true" class="anchor-heading icon-link" href="#features"></a></h2>
+<p>One possible solution to having features per node types in our model would be to use the textual description of the species and molecules</p>
+<h3 id="species">Species<a aria-hidden="true" class="anchor-heading icon-link" href="#species"></a></h3>
+<p>In the case of species, we could think that the textual description of the species is just description of its taxonomy. <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span></span> we could maybe use SciBERT for that.
+Here is an example:</p>
+<ul>
+<li><a href="https://w.wiki/8paM">https://w.wiki/8paM</a></li>
+</ul>
+<h3 id="molecules">Molecules<a aria-hidden="true" class="anchor-heading icon-link" href="#molecules"></a></h3>
+<p>For the molecules however, this is more difficult. </p>
+<ul>
+<li>one potential solution would be to use the information in the wikidata page and use it as text. 
+<ul>
+<li>Here is an example : <a href="https://w.wiki/8qrK">https://w.wiki/8qrK</a></li>
+</ul>
+</li>
+<li>One other solution would be to use ChemBERT to contextualize the SMILES however that means that we use a different model that for the molecules. </li>
+<li>But then why couldn't we just use the molecular fingerprints ?</li>
+</ul>
+<p>ChemBERT : <a href="https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1">https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1</a></p>

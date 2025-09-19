@@ -1,0 +1,26 @@
+<h1 id="inaturalist">iNaturalist<a aria-hidden="true" class="anchor-heading icon-link" href="#inaturalist"></a></h1>
+<blockquote>
+<p>"iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" (<a href="/dendron-dbgi/notes/aalkz4u5xmrhcr781vlxge3">_f</a>)</p>
+</blockquote>
+<h2 id="inaturalist-advantages-and-utility">iNaturalist advantages and utility<a aria-hidden="true" class="anchor-heading icon-link" href="#inaturalist-advantages-and-utility"></a></h2>
+<p>iNaturalist allows to link our samples with pictures, DBGI sample code and location. We can precise the plant phenology too. It contains a community curation system linked with a machine learning technology to correct or add an identification of each sampled plants.</p>
+<p>We can create projects with a delimited area where each added plant will automatically fit in when uploaded. This is what we have done with the Jardin Botanique de l'Université de Fribourg. With this, all our samples are grouped together. This allows then to export the data in batch with the <a href="https://pyinaturalist.readthedocs.io/en/latest/index.html">pyinaturalist client</a> for the iNaturalist API, to obtain all these informations on a CSV file.</p>
+<p><img src="/dendron-dbgi/assets/images/iNaturalist_page.png" alt="Build settings orthomosaic" style="max-width:600px;display:block;margin:0 auto;"><em>iNaturalist page of Physalis peruviana with all the usefull fields described</em></p>
+<h2 id="inaturalist-import">iNaturalist import<a aria-hidden="true" class="anchor-heading icon-link" href="#inaturalist-import"></a></h2>
+<p>For now, we haven't found a satisfying automatized manner to import pictures and locations from the drone map. We have to export the locations and DBGI sample codes from <a href="https://www.dbgi.org/dendron-dbgi/notes/s2z62u99lhdo7dvz3093fbb/">QGIS</a> and add them manually to each plant profile :</p>
+<p>1) Create an iNaturalist account or connect you on the <a href="https://www.inaturalist.org/login">iNaturalist page</a> on a computer.</p>
+<p>2) Put the pictures taken on the field in the DBGI account google photo.</p>
+<p>3) Download them on the computer.</p>
+<p>4) Click on the <em>uploader</em> button at the top of your profile page after connection and <em>choose files</em> to select the pictures to upload.</p>
+<p>5) Group the pictures of the same plant by selecting them all using <em>ctrl + click</em> and clicking on the <em>combine</em> button at the top.</p>
+<p>6) Click the <em>Select all</em> and select <em>captive/cultivated</em> if all the plants are cultivated and add the "Digital Botanical Gardens Initiative" on the projects field. Deselct all.</p>
+<p>7) Add the species name for each plant on the "species name" field.</p>
+<p>8) Add the location for each plant using the <a href="https://www.dbgi.org/dendron-dbgi/notes/s2z62u99lhdo7dvz3093fbb/">QGIS</a> exported CSV in the <em>Location</em> field.</p>
+<p>9) Add the dbgi_id in the <em>Fields</em> field for each plant.</p>
+<p>10) Submit the observations.</p>
+<p>However, it seems to be possible to directly link the pictures taken on the field with the plant name and the location to make automated batch imports using <a href="https://www.dbgi.org/dendron-dbgi/notes/s2z62u99lhdo7dvz3093fbb/">QField</a>. Work in progress...</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/yhy9x9k5bc082v5f87abgnv">iNaturalist</a></li>
+</ul>

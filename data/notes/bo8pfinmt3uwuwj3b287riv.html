@@ -1,0 +1,22 @@
+<h1 id="2024-03-07">2024-03-07<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-03-07"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.03.07</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul>
+<li>Extend the <a href="https://github.com/LucaCappelletti94/actix_yew_websockets">Actix/Yew/WebSocket example</a> to also include Diesel and Postgres, using pg_notify to notify the frontend of changes in the database.</li>
+<li>Clean a bit more the code so to make it more reusable with less duplication.</li>
+<li>Add housekeeping routines for websocket, such as ping/pong and reconnection.</li>
+</ul>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li>Cleaned up as much as possible the WebSocket code, but yew makes it really hard to simplify it further.</li>
+<li>Extended the example to include Diesel and Postgres, using pg_notify to notify the frontend of changes in the database.</li>
+<li>Discovered that Diesel does not support pg_notify out of the box, so I will have to implement it myself. I have found examples using the Postgres drivers <a href="https://github.dev/KenMan79/graph-node/blob/671d885ea4376dad95e93a31278b08fae2acd0a2/store/postgres/src/chain_head_listener.rs">here</a>. Alternatively here they do a similar thing with <a href="https://github.com/sfackler/rust-postgres/blob/3e4be865318ddd4a6b4493d689703db32ca3d184/tokio-postgres/tests/test/main.rs#L615-L648">tokio</a>. I have asked informations on the Diesel forum, we will see if they have a better solution.</li>
+</ul>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<ul>
+<li>Found an example that (defines a pg_notify function for Diesel)[https://github.com/KenMan79/graph-node/blob/671d885ea4376dad95e93a31278b08fae2acd0a2/store/postgres/src/functions.rs#L10]</li>
+<li>Found an example that <a href="https://github.com/KenMan79/graph-node/blob/671d885ea4376dad95e93a31278b08fae2acd0a2/store/postgres/src/chain_head_listener.rs#L100">uses pg_notify with Diesel</a></li>
+</ul>

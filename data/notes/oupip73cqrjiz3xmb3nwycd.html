@@ -1,0 +1,87 @@
+<h1 id="2023-03-22">2023-03-22<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-03-22"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.03.22</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul>
+<li>Check discussion: <a href="https://github.com/orgs/digital-botanical-gardens-initiative/discussions">https://github.com/orgs/digital-botanical-gardens-initiative/discussions</a></li>
+<li>Check Zulip</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<p>layout with list of multiple images: </p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">smile_to_img</span><span class="token punctuation">(</span>smile<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    img_ls <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+    buffered <span class="token operator">=</span> BytesIO<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    d2d <span class="token operator">=</span> rdMolDraw2D<span class="token punctuation">.</span>MolDraw2DSVG<span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span>
+    opts <span class="token operator">=</span> d2d<span class="token punctuation">.</span>drawOptions<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    opts<span class="token punctuation">.</span>clearBackground <span class="token operator">=</span> <span class="token boolean">False</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> smile<span class="token punctuation">:</span>
+        d2d<span class="token punctuation">.</span>DrawMolecule<span class="token punctuation">(</span>Chem<span class="token punctuation">.</span>MolFromSmiles<span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        d2d<span class="token punctuation">.</span>FinishDrawing<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        img_str <span class="token operator">=</span> d2d<span class="token punctuation">.</span>GetDrawingText<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        buffered<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span>img_str<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        img_str <span class="token operator">=</span> base64<span class="token punctuation">.</span>b64encode<span class="token punctuation">(</span>buffered<span class="token punctuation">.</span>getvalue<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        img_str <span class="token operator">=</span> <span class="token string-interpolation"><span class="token string">f"data:image/svg+xml;base64,</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">repr</span><span class="token punctuation">(</span>img_str<span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token format-spec">-1]</span><span class="token punctuation">}</span></span><span class="token string">"</span></span>
+        img_ls<span class="token punctuation">.</span>append<span class="token punctuation">(</span>img_str<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> img_ls
+
+<span class="token keyword">def</span> <span class="token function">element_visualization</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span> column<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    CSV_PATH <span class="token operator">=</span> <span class="token string-interpolation"><span class="token string">f'</span><span class="token interpolation"><span class="token punctuation">{</span>os<span class="token punctuation">.</span>getcwd<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">/data/230106_frozen_metadata.csv'</span></span>
+
+    df <span class="token operator">=</span> dd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span>CSV_PATH<span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">'manual_validation'</span><span class="token punctuation">:</span> <span class="token string">'object'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'organism_taxonomy_07tribe'</span><span class="token punctuation">:</span> <span class="token string">'object'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'organism_taxonomy_10varietas'</span><span class="token punctuation">:</span> <span class="token string">'object'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'organism_taxonomy_gbifid'</span><span class="token punctuation">:</span> <span class="token string">'object'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'organism_taxonomy_ncbiid'</span><span class="token punctuation">:</span> <span class="token string">'float64'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'organism_taxonomy_ottid'</span><span class="token punctuation">:</span> <span class="token string">'float64'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'structure_cid'</span><span class="token punctuation">:</span> <span class="token string">'float64'</span><span class="token punctuation">,</span>
+                                        <span class="token string">'structure_taxonomy_classyfire_chemontid'</span><span class="token punctuation">:</span> <span class="token string">'float64'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    df <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token punctuation">(</span>df<span class="token punctuation">[</span>column<span class="token punctuation">]</span> <span class="token operator">==</span> element<span class="token punctuation">)</span><span class="token punctuation">]</span>
+    df <span class="token operator">=</span> df<span class="token punctuation">.</span>compute<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+    smiles <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'structure_smiles'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>to_list<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    imgs <span class="token operator">=</span> smile_to_img<span class="token punctuation">(</span>smiles<span class="token punctuation">)</span>
+
+    <span class="token comment"># Create a list of html.Img elements for the images</span>
+    img_elements <span class="token operator">=</span> <span class="token punctuation">[</span>
+        html<span class="token punctuation">.</span>Img<span class="token punctuation">(</span>
+            src<span class="token operator">=</span>img_str<span class="token punctuation">,</span>
+            style<span class="token operator">=</span><span class="token punctuation">{</span>
+                <span class="token string">"width"</span><span class="token punctuation">:</span> <span class="token string">"100%"</span><span class="token punctuation">,</span>
+                <span class="token string">"background-color"</span><span class="token punctuation">:</span> <span class="token string-interpolation"><span class="token string">f"rgba(255,255,255,</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token number">0.7</span><span class="token punctuation">}</span></span><span class="token string">)"</span></span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span>
+        <span class="token keyword">for</span> img_str <span class="token keyword">in</span> imgs
+    <span class="token punctuation">]</span>
+
+    layout <span class="token operator">=</span> html<span class="token punctuation">.</span>Div<span class="token punctuation">(</span>img_elements<span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> layout
+
+
+layout <span class="token operator">=</span> element_visualization<span class="token punctuation">(</span><span class="token string">'http://www.wikidata.org/entity/Q43656'</span><span class="token punctuation">,</span><span class="token string">'structure_wikidata'</span><span class="token punctuation">)</span>
+
+dash<span class="token punctuation">.</span>register_page<span class="token punctuation">(</span><span class="token string">'element'</span><span class="token punctuation">,</span> path<span class="token operator">=</span><span class="token string">'/element'</span><span class="token punctuation">,</span> layout<span class="token operator">=</span>layout<span class="token punctuation">,</span> icon<span class="token operator">=</span><span class="token string">"bi bi-house"</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<ul>
+<li>GNPS dashboard => link to it with Massive id => <a href="https://ccms-ucsd.github.io/GNPSDocumentation/api/">https://ccms-ucsd.github.io/GNPSDocumentation/api/</a></li>
+</ul>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<h2 id="important-for-redaction">Important for redaction<a aria-hidden="true" class="anchor-heading icon-link" href="#important-for-redaction"></a></h2>
+<p>Dask instead of pandas:<br>
+<a href="https://datascientyst.com/read_csv-skip-rows-condition-values-pandas/">https://datascientyst.com/read_csv-skip-rows-condition-values-pandas/</a></p>
+<p>Dask is a powerful library for parallel computing in Python, designed to handle large-scale datasets that cannot fit into memory on a single machine. Here are some advantages of using Dask to load a dataframe in Python:</p>
+<pre><code>Scalability: Dask can handle datasets that are larger than the memory of a single machine, by breaking them down into smaller chunks and distributing the work across multiple cores and/or machines. This allows you to work with datasets that would otherwise be impossible to handle using traditional Python libraries like Pandas.
+
+Familiar API: Dask has a Pandas-like API, which makes it easy to learn and use if you are already familiar with Pandas. This means that you can use many of the same methods and functions that you would use with a Pandas dataframe, but with the added scalability of Dask.
+
+Lazy evaluation: Dask uses lazy evaluation, which means that it only computes the data when it is needed. This allows you to work with large datasets without having to load all the data into memory at once, which can save time and resources.
+
+Parallel processing: Dask can use multiple cores and/or machines to process data in parallel, which can greatly speed up computations. This can be especially useful for tasks like data cleaning, transformation, and aggregation.
+
+Integration with other libraries: Dask integrates well with other Python libraries, such as NumPy, Scikit-Learn, and TensorFlow. This allows you to use Dask in conjunction with other tools to build complex data processing and machine learning pipelines.
+</code></pre>
+<p>Overall, using Dask to load a dataframe in Python can be advantageous when working with large datasets that cannot fit into memory on a single machine, or when you need to perform computationally intensive tasks that would benefit from parallel processing.</p>

@@ -1,0 +1,114 @@
+<h1 id="2023-05-11">2023-05-11<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-05-11"></a></h1>
+<h1 id="this-is-audreys-dbgi-daily-open-notebook">This is Audrey's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-audreys-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.05.11</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul>
+<li>Collect plant at Jbuf </li>
+<li>Seminar at 3 pm </li>
+<li>Continue poster (mzmine treatment + MN)</li>
+</ul>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<p><strong>1/ Collect plant from Jbuf (only the one in the syst. 1 / 2 and 3)</strong></p>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Clematis heraclifoia </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Clematis recta </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Clematis vitalba </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Lonicera caprifolium </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Lonicera Kamtschatica </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Lonicera perclymenum </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Lonicera tatarica </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Lonicera xylosteum </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Euonymus alatus </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> Euonymus europeaus </p>
+</li>
+</ul>
+<p>Plant were collected according the dbgi protocole <a href="/dendron-dbgi/notes/a4ngr68s9ad0hxptzdp28uq">Edouard-Brülhart</a> ; fews leaves of plant were collected and put into coffee filter and then into a falcon with pre drilled plastic caps. Falcon are placed into liquid nitrogen during the harvesting before beeing lyophilized. Falcon are placed at -70°C before being freeze drying. </p>
+<p>Clematis florida, Clematis tangutica and Lonicera nigra from the system couldn't be collect (no leave or not enough). </p>
+<p><strong>2/ treatment Coleus with modification of level noise</strong> (not finish pb with transfer of the dataset)</p>
+<p>Treatement of X072067ALC.dataCompass.mzxml ; X072068ALC.dataCompass.mzxml ; X072069ALC.dataCompass.mzxml (Bk, aerial part, roots)</p>
+<p>Datatreatment :</p>
+<p>a/ Conversion raw data to MzXmL using CompassBruker (or Preteowizard (MS convert) under windows si Thermo data)</p>
+<p>b/ treatment Mzmine 2.53 </p>
+<ul>
+<li>access to mzmine cf <a href="http://www.dbgi.org/dendron-dbgi/notes/mn44v5c7fa6f4qqoz117s8k/">http://www.dbgi.org/dendron-dbgi/notes/mn44v5c7fa6f4qqoz117s8k/</a> </li>
+<li>Raw data import </li>
+<li>Mass detection </li>
+</ul>
+<p>MS level 1 : Noise level 2E3 </p>
+<p>MS level 2 : Noise level 1E2 </p>
+<ul>
+<li>Built chromato (ADAP)</li>
+</ul>
+<p>RT = 0.5 - 21 min ; MS1 ; centroided ; peak scan = 5 ; treshold 5E2 ; min 1E4  m/z = 0.01 </p>
+<ul>
+<li>
+<p>deconvolution : wavelet ; auto ; 0.025 Da ; 0,15 min </p>
+</li>
+<li>
+<p>isotope peak grouper : m/z 0.001 - 5 ppm ; rt 0.08 min ; max charge 2 lowest m/z</p>
+</li>
+<li>
+<p>aligment : (not the bk 1st) 0.01 m/z or 12 ppm ; RT tolerance 0.1 min</p>
+</li>
+<li>
+<p>filter : feature list rows filter :  MS/MS +  two ions in the isotopic pattern </p>
+</li>
+<li>
+<p>gap filling : same Rt &#x26; MS range gap filler </p>
+</li>
+<li>
+<p>feature list method - identification - adduct + complexe </p>
+</li>
+</ul>
+<p>Export to gitrepo (serveur)</p>
+<p>3/to push files on git : </p>
+<ul>
+<li>powershell : </li>
+</ul>
+<pre><code>git repo / coleus_projet etc etc. 
+git pull 
+git add "chemin du fichier" 
+git commit -m "blabla" 
+git push 
+
+</code></pre>
+<ul>
+<li>visual code "dendron gitrepo"
+pull (to load document locally)</li>
+</ul>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul>
+<li>Collect 9 plants from the differents localisation</li>
+</ul>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

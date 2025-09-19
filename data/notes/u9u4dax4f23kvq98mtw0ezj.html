@@ -1,0 +1,36 @@
+<h1 id="knowledge-transmission">Knowledge Transmission<a aria-hidden="true" class="anchor-heading icon-link" href="#knowledge-transmission"></a></h1>
+<h2 id="deploying---a-qfield-instance">Deploying   a Qfield instance<a aria-hidden="true" class="anchor-heading icon-link" href="#deploying---a-qfield-instance"></a></h2>
+<p>At the moment there is one living on the commons server</p>
+<p><a href="https://github.com/digital-botanical-gardens-initiative/QFieldCloud">https://github.com/digital-botanical-gardens-initiative/QFieldCloud</a></p>
+<p>Cloned current in commons /git_repos</p>
+<p>The instruction to fetch </p>
+<p>the .env is saved in /media/share/mapp/private/dbgi-files-backup/QfieldCloud/.env</p>
+<p>The NGINX conf is saved in <a href="https://github.com/digital-botanical-gardens-initiative/emi-collection-config">https://github.com/digital-botanical-gardens-initiative/emi-collection-config</a></p>
+<h2 id="access-the-vm">Access the VM<a aria-hidden="true" class="anchor-heading icon-link" href="#access-the-vm"></a></h2>
+<p>(base) ➜  ~ ssh -Y <a href="/dendron-dbgi/mailto:root@emi-collection.unifr.ch">root@emi-collection.unifr.ch</a></p>
+<p>Certificate are living in /etc/nginx/ssl</p>
+<h2 id="nextcloud">Nextcloud<a aria-hidden="true" class="anchor-heading icon-link" href="#nextcloud"></a></h2>
+<p>emi-collection.unifr.ch/nextcloud</p>
+<p>Same for nextcloud
+(base) allardpm@commons-server:/git_repos/NextCloud$ cp .env /media/share/mapp/private/dbgi-files-backup/nextcloud/</p>
+<p>Manage pictures and Qfield csv files</p>
+<h2 id="qgis">QGis<a aria-hidden="true" class="anchor-heading icon-link" href="#qgis"></a></h2>
+<p>Open QGis
+Download QfieldSync
+Download DBGI plugin</p>
+<h2 id="we-have-an-issue-with-the-gpkg-creator">we have an issue with the gpkg creator<a aria-hidden="true" class="anchor-heading icon-link" href="#we-have-an-issue-with-the-gpkg-creator"></a></h2>
+<p>plugin is beeing rebuilt
+URL pointing to the new directus emi-collection instance are modified in </p>
+<p><a href="https://github.com/digital-botanical-gardens-initiative/gpkg-creator/commit/8c49d71f7f86c984b60ddf3ddb8023477e4ae3e0">https://github.com/digital-botanical-gardens-initiative/gpkg-creator/commit/8c49d71f7f86c984b60ddf3ddb8023477e4ae3e0</a>
+This is the repo for the DBGI plugin</p>
+<p>Now we need to publish the plugin</p>
+<p>For this you need to create an account at <a href="https://www.osgeo.org/community/getting-started-osgeo/osgeo_userid/">https://www.osgeo.org/community/getting-started-osgeo/osgeo_userid/</a></p>
+<p>Go to directus to create a new project</p>
+<h2 id="todo">Todo<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<p>Add colin and marco to the emi-collection VM</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Add colin and marco to the emi-collection VM</li>
+<li class="task-list-item"><input type="checkbox" disabled> Create a cronjob user to gather all cronjobs</li>
+<li class="task-list-item"><input type="checkbox" disabled> Setup a common KeePassXC db for all EMI passwords</li>
+<li class="task-list-item"><input type="checkbox" disabled> Setup a SMTP email server for the EMI</li>
+</ul>

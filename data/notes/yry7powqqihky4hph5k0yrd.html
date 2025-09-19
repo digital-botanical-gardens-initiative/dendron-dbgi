@@ -1,0 +1,19 @@
+<h1 id="2023-05-15">2023-05-15<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-05-15"></a></h1>
+<h1 id="this-is-edouards-dbgi-daily-open-notebook">This is Edouard's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-edouards-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.05.15</p>
+<h1 id="to-do">To do<a aria-hidden="true" class="anchor-heading icon-link" href="#to-do"></a></h1>
+<h1 id="done">done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h1>
+<h1 id="topics-we-have-to-discuss">Topics we have to discuss<a aria-hidden="true" class="anchor-heading icon-link" href="#topics-we-have-to-discuss"></a></h1>
+<ul>
+<li>How to distinguish wild from cultivated/captive specimens? -> possibility to add this information on the layer name (via the QGIS plugin). So that we can renseign if the layer contains wild or cultivated plants. It is a minimal error way to do it, since whole projects could contain cultivated and wild specimens.</li>
+<li>As clic bot is risky, I created a new account to upload the observations, in case of problems with inat. So that if the account is banned, we don't loose the older plants that were performed manually. But I think that an impersonal account (with dbgi mail for example) could be better.</li>
+<li>The upload of one observation takes approximatively 45 seconds to be performed by the bot. So until approx. 300 observations a day it's totally viable (3 hours and 45 minutes), but more than that will need another bot (not really a problem since we can run another bot with another inat account)</li>
+<li>When and how many times a week do I have to run the code?</li>
+</ul>
+<h1 id="notes">notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h1>
+<p>The clic bot for inat is fast ready (It's working on my personal computer, I only need to adapt it to my server settings). I tested multiple configurations, and all seems to work well. I'll make some tests with the real data soon.</p>
+<p>To secure the thing, I'll make things as follow:
+As the ina import is made with a clic bot, it's not secure. So I'll generate a folder with a copy of the pictures, sorted in folders with the dbgi code. So that each observation has it's own folder. Like that, it's much easier to upload them on inat. And once the observation is submitted, the folder will be deleted. So if the bot is no more working, we will see an accumulation of folders.</p>
+<p>On the other side, I'll create another folder with the "original" pictures. This one will be shared on Nextcloud. As an API is much more secure, I'll use this import to secure the pictures removing on the qfieldcloud server.</p>
+<h1 id="code">code<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h1>
+<h1 id="links">links<a aria-hidden="true" class="anchor-heading icon-link" href="#links"></a></h1>

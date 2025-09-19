@@ -1,0 +1,55 @@
+<h1 id="2023-12-19">2023-12-19<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-12-19"></a></h1>
+<h1 id="this-is-marcos-daily-open-notebook">This is Marco's daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-marcos-daily-open-notebook"></a></h1>
+<p>Today is 2023.12.19</p>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>Prep work for starting the job on January.</p>
+<p>This query : <a href="https://w.wiki/8YzQ">https://w.wiki/8YzQ</a> will recursively find all the parent taxon of a species all the way to the "Biota" group. This should then be useful to create the LOTUS graph to use in <a href="https://github.com/AnacletoLAB/grape/tree/main">grape</a>. </p>
+<p>I should then :</p>
+<ul>
+<li>get all the species that are linked to a referenced molecule using this query : <a href="https://w.wiki/8Z7Y">https://w.wiki/8Z7Y</a></li>
+<li>for each species get their taxonomy thanks to this query : <a href="https://w.wiki/8YzQ">https://w.wiki/8YzQ</a></li>
+<li>create a list of all the nodes (species : 37082 ) and their taxonomy </li>
+<li>create a list of all the edges of the tree</li>
+<li>once this is done create a tree of molecules (already done in an other repo) and link them together (try to do it with weighted edges between species and molecules)</li>
+<li>Then talk to Luca</li>
+</ul>
+<p>Here is an example of how to retrieve the data : </p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> sys
+<span class="token keyword">from</span> SPARQLWrapper <span class="token keyword">import</span> SPARQLWrapper<span class="token punctuation">,</span> JSON
+
+endpoint_url <span class="token operator">=</span> <span class="token string">"https://query.wikidata.org/sparql"</span>
+
+query <span class="token operator">=</span> <span class="token triple-quoted-string string">"""SELECT ?entity ?entityLabel (count(?mid) as ?depth) WHERE {
+  wd:Q27438471 wdt:P171* ?mid.
+  ?entity wdt:P225 ?entityLabel.
+  ?mid wdt:P171* ?entity.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+} group by ?entity ?entityLabel
+order by ?depth"""</span>
+
+
+<span class="token keyword">def</span> <span class="token function">get_results</span><span class="token punctuation">(</span>endpoint_url<span class="token punctuation">,</span> query<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    user_agent <span class="token operator">=</span> <span class="token string">"WDQS-example Python/%s.%s"</span> <span class="token operator">%</span> <span class="token punctuation">(</span>sys<span class="token punctuation">.</span>version_info<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> sys<span class="token punctuation">.</span>version_info<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token comment"># TODO adjust user agent; see https://w.wiki/CX6</span>
+    sparql <span class="token operator">=</span> SPARQLWrapper<span class="token punctuation">(</span>endpoint_url<span class="token punctuation">,</span> agent<span class="token operator">=</span>user_agent<span class="token punctuation">)</span>
+    sparql<span class="token punctuation">.</span>setQuery<span class="token punctuation">(</span>query<span class="token punctuation">)</span>
+    sparql<span class="token punctuation">.</span>setReturnFormat<span class="token punctuation">(</span>JSON<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> sparql<span class="token punctuation">.</span>query<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>convert<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+results <span class="token operator">=</span> get_results<span class="token punctuation">(</span>endpoint_url<span class="token punctuation">,</span> query<span class="token punctuation">)</span>
+pd<span class="token punctuation">.</span>json_normalize<span class="token punctuation">(</span>results<span class="token punctuation">[</span><span class="token string">'results'</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'bindings'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<p>packages used : python 3.11.*, pip, grape</p>
+<p>Here are the NaN values of the species in LOTUS. It seems to confirm what I saw during the Master thesis where GBIF seems to have the most species known. The total is 37082 species. </p>
+<ul>
+<li>NaN is NCBI : 8133</li>
+<li>NaN is GBIF : 736</li>
+<li>NaN is OTL : 8073</li>
+</ul>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>

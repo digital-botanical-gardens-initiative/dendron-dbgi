@@ -1,0 +1,70 @@
+<h1 id="wetlab">wetlab<a aria-hidden="true" class="anchor-heading icon-link" href="#wetlab"></a></h1>
+<p><strong>DBGI Workflow</strong> : from the creation of an DBGI_ID to the LC-MS analysis</p>
+<p>In order to use the workflow you will need to have the following account / application : directus, Avery, Qfield, Inaturalist</p>
+<h2 id="dbgi-labelisation">DBGI Labelisation<a aria-hidden="true" class="anchor-heading icon-link" href="#dbgi-labelisation"></a></h2>
+<h3 id="principle">Principle<a aria-hidden="true" class="anchor-heading icon-link" href="#principle"></a></h3>
+<p>  DBGI_ID will allow you to link the plant, the extract and analysis. </p>
+<p>  DBGI_ID can be composed of : </p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>plant identification</th><th>extract code</th><th>vial code</th></tr></thead><tbody><tr><td>dbgi_XXXXXX</td><td>YY</td><td>ZZ</td></tr></tbody></table></div>
+<h2 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h2>
+<p>  The <strong>plant identification</strong> helps you to connect all the plant metadata (localisation, species, genus). </p>
+<p>  The <strong>extract code</strong> is corresponding to the stock vial obtained and conserved in freezer. </p>
+<p>  The <strong>vial code</strong> is referring to the vial analysed. Usually around 150 µL of stock extract is taken and transferred to a vial for analysis. </p>
+<p>  At each step you will need to print labels to identify falcon or vials. </p>
+<h3 id="pratical">Pratical<a aria-hidden="true" class="anchor-heading icon-link" href="#pratical"></a></h3>
+<p>  a. Creation of an account on directus  </p>
+<p>  b. Implementation of the dbgi_ID list using <a href="/dendron-dbgi/notes/l5hk8footuy2893u4zi6yvs">Basics</a> protocol. </p>
+<p>  c. Download the .csv file with your new dbgi_id </p>
+<p>  d. Add the following column </p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>plant identification</th><th>extract code</th><th>vial code</th></tr></thead><tbody><tr><td>dbgi_XXXXXX</td><td>YY</td><td>ZZ</td></tr></tbody></table></div>
+<h2 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h2>
+<p>  e. Label creation using Avery. </p>
+<p>  Import the corresponding template to avery. Then import  the dbgi_ID list. </p>
+<p>  For plant sample select the column dbgi_ID ; modify the QR code according the dbgi_ID (check QR code with a QR code reader)</p>
+<p>  For vial label use the vial label columm and create an associated QR code</p>
+<p>  f. Print label
+Sample label are print on L4732 sheet and Vial label are print on L4731 sheet</p>
+<p>  g. Labelling falcon tube/vial + protect with scotch tape </p>
+<h2 id="plants-collect"><strong>Plant's collect</strong><a aria-hidden="true" class="anchor-heading icon-link" href="#plants-collect"></a></h2>
+<p>  a. Before collecting : provide for sufficient falcon tubes with DBGI-ID </p>
+<p>  b. Use Qfield software (following the <a href="http://www.dbgi.org/dendron-dbgi/notes/h33m4gr8eny7li4yhlxotdb">Qfield protocol section 'utilisation of Qfield'</a> during collection </p>
+<p>  c. The transfert of the data collected on iNaturalist is automatic (check with Edouard if there is any problem at this step)</p>
+<h2 id="extraction"><strong>Extraction</strong><a aria-hidden="true" class="anchor-heading icon-link" href="#extraction"></a></h2>
+<p>Follow the extraction <a href="http://www.dbgi.org/dendron-dbgi/notes/mpboa8wpvhpygf5fw4o9v11/">protocol</a> </p>
+<p>150 µL in one vial for analysis LC-MS/MS + one stock vial with ~ 1000 µL in the freezer </p>
+<h2 id="lc-ms-analysis"><strong>LC-MS analysis</strong><a aria-hidden="true" class="anchor-heading icon-link" href="#lc-ms-analysis"></a></h2>
+<p>  a. Preparation of the samples list </p>
+<p>  b. Analysis </p>
+<h2 id="datatreatment"><strong>Datatreatment</strong><a aria-hidden="true" class="anchor-heading icon-link" href="#datatreatment"></a></h2>
+<p>   for datatreament follow the <a href="https://github.com/mandelbrot-project/met_annot_enhancer"><strong>link</strong></a>
+</p>

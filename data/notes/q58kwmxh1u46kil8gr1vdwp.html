@@ -1,0 +1,33 @@
+<h1 id="aliquots">Aliquots<a aria-hidden="true" class="anchor-heading icon-link" href="#aliquots"></a></h1>
+<p>Aliquots table (<em>Figure 1</em>) permits to store the aliquot ID with all the associated metadata:</p>
+<ul>
+<li>
+<p>aliquot_id: Format dbgi_xxxxxx_xx_xx (sample) or dbgi_batch_blk_xxxxxx_xx (blank). Child of lab_extract_id format dbgi_xxxxxx_xx (sample) or dbgi_batch_blk_xxxxxx (blank). This ID corresponds to the label of the physical object aliquot.</p>
+</li>
+<li>
+<p>user_created, date_created_user_updated, date_updated: Informations about who created/modified the aliquots informations and when.</p>
+</li>
+<li>
+<p>UUID_aliquot: UUID of the aliquot, generated during creation of the physical object.</p>
+</li>
+<li>
+<p>lab_extract_id: This ID corresponds to the label of the physical object laboratory extract. Provides a link to <a href="/dendron-dbgi/notes/qhkperw4qbwptd0yn958bod">Lab_extracts</a> parent.</p>
+</li>
+<li>
+<p>status: Permits to track the status of the aliquot (example: OK, lost, broken, etc.).</p>
+</li>
+<li>
+<p>aliquot_volume_microliter: Stores the volume that has been prelevated in the parent laboratory extract.</p>
+</li>
+<li>
+<p>mobile_container_id: This ID corresponds to the label of a physical mobile container. Provides a link to <a href="/dendron-dbgi/notes/909a4vp1kea3o5mebeg258c">Mobile_containers</a> where the aliquot is stored.</p>
+</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/aliquots.svg" alt="image import"></p>
+<p><em>Figure 1: Aliquots table structure</em></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+<li><a href="/dendron-dbgi/notes/udzpt2df0626di4loo6xc2b">Mass_spectrometry_analysis</a></li>
+</ul>

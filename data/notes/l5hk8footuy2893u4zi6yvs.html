@@ -1,0 +1,65 @@
+<h1 id="basics">Basics<a aria-hidden="true" class="anchor-heading icon-link" href="#basics"></a></h1>
+<h2 id="explore-the-tables">Explore the tables<a aria-hidden="true" class="anchor-heading icon-link" href="#explore-the-tables"></a></h2>
+<p>The data can be explored by going in the 'content' section (Cube on the module bar). The tables are listed on the left.<br>
+By clicking on one item, one can navigate through all the values of that one item. Some tables are read-only mode (e.g. Pyinat) and others can be edited (e.g. Samples).<br>
+One can search for a particular item on the top right part and add a filter to see only items of interest.</p>
+<p>The data can be visualized with other layouts (e.g. map) than the table one by changing the layout options on the right menu.</p>
+<h2 id="how-to-add-items-to-the-samples-table">How to add items to the samples table<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-add-items-to-the-samples-table"></a></h2>
+<ol>
+<li>
+<p>Copy the Google sheet <a href="https://docs.google.com/spreadsheets/d/1InPLr6_0xfWM-2EsMkkRt4Nxzvg_4ju8qRBxP4RzaXU/edit?usp=sharing">template</a>:
+<img src="/dendron-dbgi/assets/images/make_copy.png" alt="google sheet copy" style="max-width:600px;display:block;margin:0 auto;">
+Or export the table as a csv from directus:
+<img src="/dendron-dbgi/assets/images/directus-samples.jpg" alt="directus samples" style="max-width:600px;display:block;margin:0 auto;">
+<img src="/dendron-dbgi/assets/images/directus-export.jpg" alt="directus export" style="max-width:600px;display:block;margin:0 auto;"></p>
+</li>
+<li>
+<p>Fill the template with your data (no need to add the dbgi_spl_id,user_created,date_created,user_updated,date_updated - it is autoincremented)
+<img src="/dendron-dbgi/assets/images/template.png" alt="samples template" style="max-width:600px;display:block;margin:0 auto;"></p>
+</li>
+<li>
+<p>Save the file in a <strong>COMMA</strong> separated csv file</p>
+</li>
+<li>
+<p>Import the data on directus
+<img src="/dendron-dbgi/assets/images/directus-import.jpg" alt="directus import" style="max-width:600px;display:block;margin:0 auto;"></p>
+</li>
+</ol>
+<h3 id="redo-sequence">redo sequence<a aria-hidden="true" class="anchor-heading icon-link" href="#redo-sequence"></a></h3>
+<p>If one does a mistake and needs to get back in the incremantation of the emi_external_id:</p>
+<ol>
+<li>Delete the wrong entries</li>
+<li>Connect to the psql database <p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">postgres</span></div>
+<a href="/dendron-dbgi/notes/xfo9r506ukemq0r2191kqkl" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h1 id="connect-to-postgresql">Connect to postgresql<a aria-hidden="true" class="anchor-heading icon-link" href="#connect-to-postgresql"></a></h1>
+<pre class="language-bash"><code class="language-bash">psql -U username
+</code></pre></div></div><p></p></li>
+<li>Restart the sequence padding <p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">postgres</span></div>
+<a href="/dendron-dbgi/notes/xfo9r506ukemq0r2191kqkl" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="restart-the-sequence-padding">Restart the sequence padding<a aria-hidden="true" class="anchor-heading icon-link" href="#restart-the-sequence-padding"></a></h2>
+<p>If one do a mistake in the emi_external_id incremantation and needs to go back in the sequence:</p>
+<pre class="language-psql"><code class="language-psql">SELECT setval('samples_padding',1057); #If one want to restart the sequence at 1057
+</code></pre></div></div><p></p></li>
+</ol>
+<h2 id="change-password">Change password<a aria-hidden="true" class="anchor-heading icon-link" href="#change-password"></a></h2>
+<p>In the 'user directory' section (peoples on the module bar), one can select its own user and change its password and other informations.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/vrl2ey4vuvmomo8zj14wx6u">wetlab</a></li>
+<li><a href="/dendron-dbgi/notes/eskkdd6xy9vcwqs4ckd84fz">2023-05-04</a></li>
+</ul>
