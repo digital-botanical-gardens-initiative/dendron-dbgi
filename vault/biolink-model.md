@@ -2,13 +2,13 @@
 id: 7ic8gy5h3i6v906dzrig6hy
 title: Biolink Model
 desc: ''
-updated: 1705847064914
+updated: 1769119558745
 created: 1705846495453
 ---
 
 Infos from https://www.youtube.com/watch?v=RE1hFm8lvJA&t=2s&ab_channel=InternationalSocietyforBiocuration
 
-
+https://biolink.github.io/biolink-model/
 
 
 Biolink model adopted in frame of the NCATS project.

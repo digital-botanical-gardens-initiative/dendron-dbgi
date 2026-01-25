@@ -2,7 +2,7 @@
 id: 47hwysfl8xb1zadx9ystskg
 title: Jbb
 desc: ''
-updated: 1765545967061
+updated: 1766855427583
 created: 1765438857231
 ---
 
@@ -15,6 +15,22 @@ http://www.jbb.gov.co
 
 
 Create a qfielcloud project
+
+
+1. open QGIS as super_emi
+
+![](/assets/images/2025-12-27-18-07-34.png)
+
+Create new project
+
+![](/assets/images/2025-12-27-18-08-01.png)
+
+Save and sync to qfieldcloud
+Manually add the collector list, species list and observation subject
+
+
+
+### Deprecated
 
 Public adress is 
 https://emi-collection.unifr.ch/qfieldcloud/admin/login/?next=/admin/
@@ -35,6 +51,8 @@ People can also be added
 
 ![](/assets/images/2025-12-11-14-29-27.png)
 
+
+
 ### Print labels for the collection Tubes
 
 label_creator
@@ -44,3 +62,17 @@ label_creator
 Print in Apercu.
 105%
 
+### QGIS project for data collection
+
+Open QGIS and sync project from Qfieldcloud
+
+
+![](/assets/images/2025-12-27-17-03-24.png)
+
+![](/assets/images/2025-12-27-17-05-36.png)
+
+Select your project
+
+![](/assets/images/2025-12-27-17-06-10.png)
+
+![](/assets/images/2025-12-27-17-06-33.png)
