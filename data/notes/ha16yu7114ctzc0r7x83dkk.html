@@ -1,0 +1,70 @@
+<h1 id="rdb-tables">rdb-tables<a aria-hidden="true" class="anchor-heading icon-link" href="#rdb-tables"></a></h1>
+<p>Think about experimental methods open repositaries.
+Then Method 1 could have its DOI associated</p>
+<p>2 DB </p>
+<ul>
+<li>EMI DB</li>
+<li>Project DB (DBGI DB)</li>
+</ul>
+<p>Across project DB all headers should be identical.</p>
+<p>List of tables to be implemented in the Project DB</p>
+<ul>
+<li>
+<p>Sub-projects </p>
+</li>
+<li>
+<p>Labels (currentky the Samples table)</p>
+</li>
+</ul>
+<p>This table collect the currently reserved and or used labels (corresponds to all printe labels untill now)</p>
+<ul>
+<li>Field_Samples</li>
+</ul>
+<p>This table contains the efectively collected and dryed samples
+id example : dbgi_000001</p>
+<p>PK : field_sample_id (e.g dbgi_000001)
+FK : inat_observation_id (e.g 117770387)</p>
+<ul>
+<li>Lab_Extracts</li>
+</ul>
+<p>PK : lab_extract_id (e.g dbgi_000001_01)
+FK : field_sample_id (e.g dbgi_000001)</p>
+<ul>
+<li>Aliquots </li>
+</ul>
+<p>PK : aliquot_id (e.g dbgi_000001_01_01)
+FK : lab_extract_id (e.g dbgi_000001_01)</p>
+<ul>
+<li>Mass_Spectrometry_Analysis </li>
+</ul>
+<p>PK : mass_spec_id (e.g 20230918_EB_dbgi_000001_01_01_pos.mzXML)
+FK : aliquot_id (e.g dbgi_000001_01_01)</p>
+<h2 id="tuesday-26-september-2023">Tuesday 26 September 2023<a aria-hidden="true" class="anchor-heading icon-link" href="#tuesday-26-september-2023"></a></h2>
+<ul>
+<li>we want to have a <code>status</code> column in all table documenting a single physical object (a priori not for racks, MS analysis etc)
+This should allow to capture the fact that a given sample has rotten (often seen when weighing) or that a vial has been lost, spilled etc. </li>
+</ul>
+<p>For now we go for two possible values OK / NOTOK  + an additional <code>comments</code> column where more infos are given for the NOTOK status</p>
+<ul>
+<li>
+<p>In the Lab Extracts table : we want to be able to monitor any level of depth in the extraction process. For this we will use a DAG  that is monitor for each sample its corresponding parent sample.</p>
+</li>
+<li>
+<p>To generalize the Rack and Boxes tables we propose new table called containers
+They are suffixed by the number of position (Higher number first if applicable)</p>
+</li>
+</ul>
+<p>e.g. container_8x3</p>
+<p>The container inside this table wouzld be labelled as follow container_8x3_000001</p>
+<ul>
+<li>This also means we ant to label the fridges and racks </li>
+</ul>
+<p>fridge_000001 fridge
+fridge_000001_01 shelves</p>
+<p><del>fridge_000001_01_01 racks</del> since racks are mobiles we in fact track them using the container_XxX nomenclature</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/se52zr89ov9hlvdol71v5w6">2023-09-22</a></li>
+<li><a href="/dendron-dbgi/notes/otika9pnqo7mo6pq9ti6by6">2023-09-26</a></li>
+</ul>

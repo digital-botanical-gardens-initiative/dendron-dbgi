@@ -1,0 +1,180 @@
+<h1 id="2023-05-05">2023-05-05<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-05-05"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.05.05</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h3 id="micro-hackaton">Micro hackaton<a aria-hidden="true" class="anchor-heading icon-link" href="#micro-hackaton"></a></h3>
+<p>Ana, Tarcisio, PM</p>
+<ul>
+<li>Prepare a subgraph for Tobias</li>
+<li>Make sure to add Ana to EMI mailing.</li>
+</ul>
+<p>Sources of input data ?
+Who are the producers ? </p>
+<pre><code>  - inat user collectors
+  - ms results
+  others ?
+</code></pre>
+<p>Where does this data go ?</p>
+<pre><code>- openBis
+- wikibase
+- KG
+- directus.dbgi.com
+- massive
+</code></pre>
+<p>Dataset DBGI"tropical" datset
+135 or so plants coming from a tropical greenhouse in JBUF</p>
+<ul>
+<li><a href="http://directus.dbgi.org/admin/content/samples">http://directus.dbgi.org/admin/content/samples</a>
+<a href="https://directus.io/">https://directus.io/</a></li>
+</ul>
+<p><a href="https://www.degruyter.com/document/doi/10.1515/pac-2021-2007/html">https://www.degruyter.com/document/doi/10.1515/pac-2021-2007/html</a></p>
+<p>Should be integer     enpkg:has_row_id 6.0 ;</p>
+<p><a href="https://metabolomics-usi.ucsd.edu/dashinterface/?usi1=mzspec%3AMSV000090090%3ADBGI_01_04_001_features_ms2_pos.mgf%3Ascan%3A108&#x26;width=10.0&#x26;height=6.0&#x26;mz_min=None&#x26;mz_max=None&#x26;max_intensity=125&#x26;annotate_precision=4&#x26;annotation_rotation=90&#x26;cosine=standard&#x26;fragment_mz_tolerance=0.1&#x26;grid=True&#x26;annotate_peaks=%5B%5B55.05500030517578%2C%2069.07050323486328%2C%2083.08589935302734%2C%2097.10150146484375%2C%20111.11720275878906%2C%20135.1168975830078%2C%20163.14759826660156%2C%20247.24139404296875%2C%20265.2521057128906%2C%20282.27850341796875%5D%2C%20%5B%5D%5D">https://metabolomics-usi.ucsd.edu/dashinterface/?usi1=mzspec%3AMSV000090090%3ADBGI_01_04_001_features_ms2_pos.mgf%3Ascan%3A108&#x26;width=10.0&#x26;height=6.0&#x26;mz_min=None&#x26;mz_max=None&#x26;max_intensity=125&#x26;annotate_precision=4&#x26;annotation_rotation=90&#x26;cosine=standard&#x26;fragment_mz_tolerance=0.1&#x26;grid=True&#x26;annotate_peaks=%5B%5B55.05500030517578%2C%2069.07050323486328%2C%2083.08589935302734%2C%2097.10150146484375%2C%20111.11720275878906%2C%20135.1168975830078%2C%20163.14759826660156%2C%20247.24139404296875%2C%20265.2521057128906%2C%20282.27850341796875%5D%2C%20%5B%5D%5D</a></p>
+<p>Think about the hard encoding of the dbgi ids in the Massive URL
+Benchmark this when we run the dbgi tropical set with the correct dbgi ids</p>
+<p>enpkg:AAJKTJJGBYWRHK enpkg:has_npc_class enpkg:npc_Acetogenins ;
+enpkg:has_npc_pathway enpkg:npc_Polyketides ;
+enpkg:has_npc_superclass enpkg:npc_Linear_polyketides ;
+enpkg:has_smiles "CCCCCCCCCCCCC(C1CCC(O1)C2CCC(O2)CC(CCCCCC(CC3=CC(OC3=O)C)O)O)O" ;
+enpkg:is_InChIkey2D_of enpkg:AAJKTJJGBYWRHK-GJCPBGCDSA-N,
+enpkg:AAJKTJJGBYWRHK-QCOIHMLWSA-N,
+enpkg:AAJKTJJGBYWRHK-SCPMWOMPSA-N,
+enpkg:AAJKTJJGBYWRHK-UHFFFAOYSA-N .</p>
+<p>Declare inchikey
+for example : </p>
+<p>enpkg:AAJKTJJGBYWRHK enpkg:has_npc_class enpkg:npc_Acetogenins ;
+enpkg:has_InChIKey "AAJKTJJGBYWRHK" ;
+enpkg:has_npc_pathway enpkg:npc_Polyketides ;
+enpkg:has_npc_superclass enpkg:npc_Linear_polyketides ;
+enpkg:has_smiles "CCCCCCCCCCCCC(C1CCC(O1)C2CCC(O2)CC(CCCCCC(CC3=CC(OC3=O)C)O)O)O" ;
+enpkg:is_InChIkey2D_of enpkg:AAJKTJJGBYWRHK-GJCPBGCDSA-N,
+enpkg:AAJKTJJGBYWRHK-QCOIHMLWSA-N,
+enpkg:AAJKTJJGBYWRHK-SCPMWOMPSA-N,
+enpkg:AAJKTJJGBYWRHK-UHFFFAOYSA-N .</p>
+<h2 id="tasks">Tasks<a aria-hidden="true" class="anchor-heading icon-link" href="#tasks"></a></h2>
+<p>PM:</p>
+<ul>
+<li>establish a graphical overview of this dataflow
+draw.io
+<a href="https://app.diagrams.net/#G1tmt-gJGJyj1DSSI1JhGonQqF1BCk-VY4">https://app.diagrams.net/#G1tmt-gJGJyj1DSSI1JhGonQqF1BCk-VY4</a></li>
+</ul>
+<p><a href="https://idsm.elixir-czech.cz/chemweb/">https://idsm.elixir-czech.cz/chemweb/</a>
+<a href="https://chembl.gitbook.io/chembl-interface-documentation/downloads">https://chembl.gitbook.io/chembl-interface-documentation/downloads</a>
+<a href="https://pubchem.ncbi.nlm.nih.gov/docs/rdf">https://pubchem.ncbi.nlm.nih.gov/docs/rdf</a></p>
+<p>Huernia schneideriana</p>
+<h2 id="observation">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation"></a></h2>
+<p>dbgi_001057 ~ 155584652
+dbgi_001057_01
+dbgi_001057_01_01
+20230505Z1400001_dbgi_001057_01.mzML</p>
+<h2 id="discused-with-audrey-just-now">Discused with Audrey just now<a aria-hidden="true" class="anchor-heading icon-link" href="#discused-with-audrey-just-now"></a></h2>
+<p>Huernia schneideriana</p>
+<h2 id="observation-1">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-1"></a></h2>
+<p>dbgi_001057 ~ 155584652
+dbgi_001057_01 ~ extraction
+dbgi_001057_01_01 ~ vial
+dbgi_001057_01_02 ~ vial
+dbgi_001057_01_03 ~ vial
+dbgi_001057_01_04 ~ vial</p>
+<p>20230505Z1400001_ALC_dbgi_001057_01_01.mzML
+20230505Z1401101_ALC_dbgi_001057_01_01.mzML</p>
+<h2 id="species">species<a aria-hidden="true" class="anchor-heading icon-link" href="#species"></a></h2>
+<p>Huernia schneideriana</p>
+<h2 id="observation-2">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-2"></a></h2>
+<p>dbgi_001057 ~ 155584652 ~ CETAF</p>
+<h2 id="extract">extract<a aria-hidden="true" class="anchor-heading icon-link" href="#extract"></a></h2>
+<p>dbgi_001057_01</p>
+<h2 id="mass-spec-run">mass spec run<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-run"></a></h2>
+<p>dbgi_001057_01_02</p>
+<h2 id="mass-spec-filename">mass spec filename<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-filename"></a></h2>
+<p>202305_Tarcisio_INternalSIB_01.mzML ~ MSV000090090 ~ DOI</p>
+<h2 id="species-1">species<a aria-hidden="true" class="anchor-heading icon-link" href="#species-1"></a></h2>
+<p>Huernia schneideriana</p>
+<h2 id="observation-3">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-3"></a></h2>
+<p>dbgi_001057 ~ 155584652 ~ CETAF0000001</p>
+<h2 id="extract-1">extract<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-1"></a></h2>
+<p>CETAF0000001_dbgi_001057_01</p>
+<h2 id="mass-spec-run-1">mass spec run<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-run-1"></a></h2>
+<p>CETAF0000001_run</p>
+<h2 id="mass-spec-filename-1">mass spec filename<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-filename-1"></a></h2>
+<p>202305_Tarcisio_INternalSIB_01.mzML ~ MSV000090090 ~ DOI</p>
+<h2 id="species-2">species<a aria-hidden="true" class="anchor-heading icon-link" href="#species-2"></a></h2>
+<p>Huernia schneideriana</p>
+<h2 id="observation-4">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-4"></a></h2>
+<p>dbgi_001057 ~ 155584652 ~ CETAF0000001</p>
+<h2 id="extract-2">extract<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-2"></a></h2>
+<p>CETAF0000001_PMA01</p>
+<h2 id="mass-spec-run-2">mass spec run<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-run-2"></a></h2>
+<p>CETAF0000001_01_01</p>
+<h2 id="mass-spec-filename-2">mass spec filename<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-filename-2"></a></h2>
+<p>202305_Tarcisio_INternalSIB_01.mzML ~ MSV000090091 ~ DOI</p>
+<h2 id="species-3">species<a aria-hidden="true" class="anchor-heading icon-link" href="#species-3"></a></h2>
+<p>Huernia schneideriana</p>
+<h2 id="observation-5">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-5"></a></h2>
+<p>dbgi_001057 ~ 155584652 ~ CETAF0000002</p>
+<h2 id="extract-3">extract<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-3"></a></h2>
+<p>CETAF0000002_PMA01</p>
+<h2 id="mass-spec-run-3">mass spec run<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-run-3"></a></h2>
+<p>CETAF0000001_01_01</p>
+<h2 id="mass-spec-filename-3">mass spec filename<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-filename-3"></a></h2>
+<p>202305_Tarcisio_INternalSIB_01.mzML ~ MSV000090091 ~ DOI</p>
+<h2 id="species-4">species<a aria-hidden="true" class="anchor-heading icon-link" href="#species-4"></a></h2>
+<p>Huernia fliosososo</p>
+<h2 id="observation-6">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-6"></a></h2>
+<p>TArciusooID01 ~ 1555841</p>
+<h2 id="extract-4">extract<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-4"></a></h2>
+<p>TArciusooID01_01</p>
+<h2 id="mass-spec-run-4">mass spec run<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-run-4"></a></h2>
+<p>TArciusooID01_01_01</p>
+<h2 id="mass-spec-filename-4">mass spec filename<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-filename-4"></a></h2>
+<p>202305_Tarcisio_INternalSIB_01.mzML</p>
+<h2 id="species-5">species<a aria-hidden="true" class="anchor-heading icon-link" href="#species-5"></a></h2>
+<p>Huernia fliosososo</p>
+<h2 id="observation-7">observation<a aria-hidden="true" class="anchor-heading icon-link" href="#observation-7"></a></h2>
+<p>TArciusooID01 ~ 1555841</p>
+<h2 id="extract-5">extract<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-5"></a></h2>
+<p>TArciusooID01_01</p>
+<h2 id="mass-spec-run-5">mass spec run<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-run-5"></a></h2>
+<p>TArciusooID01_01_01</p>
+<h2 id="mass-spec-filename-5">mass spec filename<a aria-hidden="true" class="anchor-heading icon-link" href="#mass-spec-filename-5"></a></h2>
+<p>202305_Tarcisio_INternalSIB_01.mzML</p>
+<p>Huernia schneideriana
+dbgi_001057 ~ 155584652
+dbgi_001057_02
+dbgi_001057_02_01
+20230505Z1400001_dbgi_001057_02.mzML</p>
+<p>Huernia schneideriana
+dbgi_001088 ~ 1555878787
+dbgi_001088_01
+20240505Z1400001_dbgi_001088.mzML</p>
+<p>Alpinia officinarum</p>
+<p>DBGI_01_04_004 ()
+DBGI_01_04_004_extract
+20220513_PMA_DBGI_01_04_004.mzML</p>
+<p>DBGI_01_04_004 ()
+DBGI_01_04_004_extract
+20220513_PMA_DBGI_01_04_004.mzML</p>
+<p>Should be a requirement ?
+<a href="https://cetaf.org/resources/best-practices/#:~:text=CETAF%20Stable%20Identifiers&#x26;text=Stable%20identifiers%20are%20globally%20unique,them%20with%20the%20semantic%20web">https://cetaf.org/resources/best-practices/#:~:text=CETAF%20Stable%20Identifiers&#x26;text=Stable%20identifiers%20are%20globally%20unique,them%20with%20the%20semantic%20web</a>.</p>
+<p>Lets discuss this with DONat
+<a href="https://riojournal.com/article/97374/">https://riojournal.com/article/97374/</a></p>
+<p>sample_filename_pos	sample_id	sample_type	organism_species	ipen	sample_prep_mode	sample_substance_name	massive_id
+20220513_PMA_DBGI_01_04_004.mzML	DBGI_01_04_004	sample	Alpinia officinarum	XX 0 FRIBG 20040092	liquid_nitrogen	DBGI_01_04_004_extract	MSV000090090</p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p><a href="https://www.cetaf.org/wp-content/uploads/CETAF-stable-identifiers-for-specimens-poster.pdf?_ga=2.233198302.1318400479.1683303704-271587775.1683303704">https://www.cetaf.org/wp-content/uploads/CETAF-stable-identifiers-for-specimens-poster.pdf?_ga=2.233198302.1318400479.1683303704-271587775.1683303704</a></p>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

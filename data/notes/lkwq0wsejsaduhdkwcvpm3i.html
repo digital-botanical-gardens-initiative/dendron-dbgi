@@ -1,0 +1,39 @@
+<h1 id="2023-03-14">2023-03-14<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-03-14"></a></h1>
+<h1 id="this-is-maëlles-dbgi-daily-open-notebook">This is Maëlle's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-maëlles-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.03.14</p>
+<h2 id="todo">TODO<a aria-hidden="true" class="anchor-heading icon-link" href="#todo"></a></h2>
+<ul>
+<li>
+<p>Check discussion: <a href="https://github.com/orgs/digital-botanical-gardens-initiative/discussions">https://github.com/orgs/digital-botanical-gardens-initiative/discussions</a></p>
+</li>
+<li>
+<p>Check Zulip</p>
+</li>
+<li>
+<p>try searching bar instead of dropdown</p>
+</li>
+<li>
+<p>have a look at databricks</p>
+</li>
+<li>
+<p>frictionless <a href="https://frictionlessdata.io/">https://frictionlessdata.io/</a></p>
+</li>
+</ul>
+<h2 id="code">CODE<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h2>
+<h2 id="notes">NOTES<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h3 id="openbis-workshop">openBIS workshop<a aria-hidden="true" class="anchor-heading icon-link" href="#openbis-workshop"></a></h3>
+<p>⚠️ discuss backup of our postgres with pma</p>
+<h3 id="databricks">databricks<a aria-hidden="true" class="anchor-heading icon-link" href="#databricks"></a></h3>
+<p><a href="https://hevodata.com/learn/what-is-databricks/">https://hevodata.com/learn/what-is-databricks/</a></p>
+<h2 id="todo-next">TODO NEXT<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-next"></a></h2>
+<h2 id="important-for-redaction">Important for redaction<a aria-hidden="true" class="anchor-heading icon-link" href="#important-for-redaction"></a></h2>
+<p>From ChatGPT for search bar:</p>
+<p>If you have a large DataFrame and want to optimize the performance of your search function, there are a few things you can do:</p>
+<pre><code>Use vectorized operations instead of loops: In general, it's faster to use vectorized operations on a pandas DataFrame than to iterate over each row or column. For example, you can use the apply() method to apply a function to each element of a DataFrame column, or the str.contains() method to search for a pattern in a DataFrame column.
+
+Use regular expressions carefully: Regular expressions can be powerful, but they can also be slow if the pattern is complex or the data is large. If possible, use simpler patterns that can be matched efficiently.
+
+Use indexing: If you're searching for matches in a DataFrame column, you can use indexing to speed up the search. For example, if you know that a column is sorted, you can use binary search to quickly find the range of rows that match your search pattern.
+
+Use parallel processing: If your machine has multiple cores, you can use parallel processing to speed up the search. For example, you can split the DataFrame into chunks and process each chunk in parallel using the multiprocessing module.
+</code></pre>

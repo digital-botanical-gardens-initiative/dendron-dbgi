@@ -1,0 +1,201 @@
+<h1 id="conversations">conversations<a aria-hidden="true" class="anchor-heading icon-link" href="#conversations"></a></h1>
+<h1 id="relevant-parts-of-email-conversations-on-nanopubs">Relevant parts of email conversations on nanopubs<a aria-hidden="true" class="anchor-heading icon-link" href="#relevant-parts-of-email-conversations-on-nanopubs"></a></h1>
+<h2 id="involved-persons">Involved persons<a aria-hidden="true" class="anchor-heading icon-link" href="#involved-persons"></a></h2>
+<ul>
+<li>ACS : Ana Claudia Sima</li>
+<li>DA : Donat Agosti</li>
+<li>LP : Lyubomir Penev</li>
+<li>PMA : Pierre-Marie Allard</li>
+<li>TK : Tobias Kühn</li>
+</ul>
+<p><a href="https://dbgikg.commons-lab.org/sparql?name=dbgi_np_template&#x26;infer=true&#x26;sameAs=true&#x26;query=PREFIX%20enpkg%3A%20%3Chttps%3A%2F%2Fenpkg.commons-lab.org%2Fkg%2F%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0A%0ACONSTRUCT%20%7B%20%09%09%0A%20%20%20%20%0A%09%3Fextract%20enpkg%3Ahas_lab_process%20%3Fdbgi_sample%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Asubmitted_taxon%20%3Fsubmitted_taxon%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_wd_id%20%3Fwdid%20.%0A%20%20%20%20%3Fdbgi_sample%20rdfs%3Alabel%20%22Sample%20DBGI_01_04_001%22%20.%0A%20%20%20%20%3Fdbgi_sample%20enpkg%3Ahas_LCMS%20%3FLCMS_analysis%20.%0A%20%20%20%20%3FLCMS_analysis%20enpkg%3Ahas_lcms_feature_list%20%3FLCMSFeatureList%20.%20%0A%20%20%20%20%3FLCMSFeatureList%20enpkg%3Ahas_lcms_feature%20%3FLCMSFeature%20.%0A%20%20%20%20%3FLCMSFeature%20rdfs%3Alabel%20%22lcms_feature%20mzspec%3AMSV000090090%3ADBGI_01_04_001_features_ms2_pos.mgf%3Ascan%3A1%22%20.%0A%20%20%20%20%3FLCMSFeature%20enpkg%3Ahas_sirius_annotation%20%3FSiriusStructureAnnotation%20.%0A%20%20%20%20%3FSiriusStructureAnnotation%20enpkg%3Ahas_InChIkey2D%20%3FIK2D%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_sirius_score%20%3FSiriusScore%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_sirius_adduct%20%3FSiriusAdduct%20.%0A%20%20%20%20%3FIK2D%20enpkg%3Ais_InChIkey2D_of%20%3FIK3D%20%3B%0A%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_npc_pathway%20%3FNPCPathway%20.%0A%20%20%20%20%3FIK3D%20enpkg%3Ahas_wd_id%20%3FIK3D_wd%20.%0A%20%0A%0A%7D%20WHERE%20%7B%0A%20%20%20%20%0A%09%3Fextract%20enpkg%3Ahas_lab_process%20%3Fdbgi_sample%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Asubmitted_taxon%20%3Fsubmitted_taxon%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_wd_id%20%3Fwdid%20.%0A%20%20%20%20%3Fdbgi_sample%20rdfs%3Alabel%20%22Sample%20DBGI_01_04_001%22%20.%0A%20%20%20%20%3Fdbgi_sample%20enpkg%3Ahas_LCMS%20%3FLCMS_analysis%20.%0A%20%20%20%20%3FLCMS_analysis%20enpkg%3Ahas_lcms_feature_list%20%3FLCMSFeatureList%20.%20%0A%20%20%20%20%3FLCMSFeatureList%20enpkg%3Ahas_lcms_feature%20%3FLCMSFeature%20.%0A%20%20%20%20%3FLCMSFeature%20rdfs%3Alabel%20%22lcms_feature%20mzspec%3AMSV000090090%3ADBGI_01_04_001_features_ms2_pos.mgf%3Ascan%3A1%22%20.%0A%20%20%20%20%3FLCMSFeature%20enpkg%3Ahas_sirius_annotation%20%3FSiriusStructureAnnotation%20.%0A%20%20%20%20%3FSiriusStructureAnnotation%20enpkg%3Ahas_InChIkey2D%20%3FIK2D%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_sirius_score%20%3FSiriusScore%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_sirius_adduct%20%3FSiriusAdduct%20.%0A%20%20%20%20%3FIK2D%20enpkg%3Ais_InChIkey2D_of%20%3FIK3D%20%3B%0A%20%20%20%20%20%20%20%20%20%20enpkg%3Ahas_npc_pathway%20%3FNPCPathway%20.%0A%20%20%20%20%3FIK3D%20enpkg%3Ahas_wd_id%20%3FIK3D_wd%20.%0A%20%0A%7D%0A%0A">nanopub_template_query_dbgi</a></p>
+<p>To make it simple we connect the two WD described molecules (<a href="https://www.wikidata.org/wiki/Q105306594">https://www.wikidata.org/wiki/Q105306594</a> and <a href="https://www.wikidata.org/wiki/Q105306595">https://www.wikidata.org/wiki/Q105306595</a>) to the following biological source (<a href="https://www.wikidata.org/wiki/Q4669565">https://www.wikidata.org/wiki/Q4669565</a>) through mass spec experiments and their computational interpretation.</p>
+<h2 id="lp">LP<a aria-hidden="true" class="anchor-heading icon-link" href="#lp"></a></h2>
+<blockquote>
+<p>Dear Pierre-Marie,</p>
+<p>Thank you very much for your detailed response. No need to say, that we are much interested in this particular format of nanopubs for biodiversity which we can add to the list of already developed or "in-progress" biodiversity nanopub templates.</p>
+<p>From my point of view, to match the format, we should have the following pre-conditions about the sources to which we can link the different elements of the nanopub format. To save time for separate discussions, I CC Tobias and Daniel Mietchen with whom we collaborate in designing biodiversity nanopubs for quite some time already.</p>
+<p>So, in your example I think we should consider (and hopefully have) the following elements:</p>
+<ol>
+<li>This organism - Where to take the HTTP ID for that particular specimen? - It is not possible to get it from one universal place, as such does not exist yet. The user, however, should be able to paste the HTTP ID taken from the resource where this specimen is presented digitally, e.g. iDigBio, or some EU institutions using CETAF HTTP IDs.</li>
+<li>Belonging to Taxon X - A  dropdown list displaying taxon names taken from a specific "trusted sources" dumb of ChecklistBank from which the user can select a name  is already embedded in the workflow of the Biodiversity Data Journal at Nanodash. If the taxon is not present, then the user can put the http link to a missing name using one of the few trusted nomenclators (IPNI, ZooBank, Index Fungorum or Mycobank, and few else). NOTE: these taxon names are Taxon IDs, not really TaxonConcept IDs (not ideal, but certainly better than nothing, especially at the start of all this).</li>
+<li>Contains (or extracted from) (relationship, can be taken from several ontologies)</li>
+<li>Chemical compound - where to take the HTTP IDs for these from? The best would be a controlled vocabulary, but I am sure you know this landscape much better than us.</li>
+<li>Who has published this: - ORCID of the creator, easy and already existing in Nanodash.</li>
+<li>Where this assertion has been taken from? - ideally from an article DOI, or if this is de novo information, then perhaps using a category "unpublished data" or so.</li>
+<li>When this has been published - timestamp, easy.</li>
+</ol>
+<h2 id="lb">LB<a aria-hidden="true" class="anchor-heading icon-link" href="#lb"></a></h2>
+<p>In our proposal on modelling a general structure for biodiversity nanopubs, the subject (OrganismID, IdentifeidAs [TaxonNameID], AccordingTo [TaxonConceptID], LifeStageID) might be re-used in several templates, while the predicate and the object should use different ontologies, depending on the use case. Currently we develop several other templates with the intention to follow a general pattern which would make modifications to it easy and coherent, hence my questions:</p>
+<p>Which ontology do you use for the predicate (e.g., relation between an organism and a chemical compound (or gene) extracted  from it)?
+Which controlled vocabulary of chemical compounds do you use look up the ID of the compound in question?
+Would your model fit into the general pattern as illustrated below? </p>
+<p>A comment would be much appreciated!</p>
+<p>Best regards,
+Lyubomir</p>
+<p>SUBJECT
+Identical in (most) biodiversity nanopubs:  </p>
+<p>OrganismID:
+IdentifiedAs: TaxonNameID
+According to (Sec.): TaxonConceptID
+LifeStage: Ontology-based</p>
+<p>PREDICATE (RELATION)
+Relation: Terms from different ontologies depending on the template, e.g. “preys on”, “occurs in”, “contains”</p>
+<p>OBJECT</p>
+<p>Different for the different biodiversity nanopub templates (see below under the different templates). </p>
+<p>PUBLICATION INFO</p>
+<p>Identical in all biodiversity nanopubs:
+BasisOfRecord:drop-down list of terms according to dwc:BasisOfRecird (DOI, event, preserved specimen, etc., see <a href="https://dwc.tdwg.org/terms/#dwc:basisOfRecord">https://dwc.tdwg.org/terms/#dwc:basisOfRecord</a>)
+Source: DOI, or website LINK, or "unpublished data"
+Published by: ORCID ID
+Published at: TimeStamp</p>
+<p>Template 1: Biotic interaction between organisms</p>
+<p>The predicate is using the Relations Ontology (RO).</p>
+<p>The object is of the same structure as the subject (see above): OrganismID, IdentifiedAs, AccordingTo, LifeStageTemplate 2: Relation between an organism and the environment </p>
+<p>The predicate is using the Relations Ontology (RO).</p>
+<p>The object uses the ENVO ontology to list the terms of habitats.
+Template 3: Relation between an organism and a chemical compound  </p>
+<p>The predicate is using the ……………….</p>
+<p>The subject is using……..</p>
+</blockquote>
+<h2 id="follow-up-tk">Follow-up (TK)<a aria-hidden="true" class="anchor-heading icon-link" href="#follow-up-tk"></a></h2>
+<blockquote>
+<p>Dear Lyubo and all,</p>
+<p>Overall, this looks great. I have some smaller questions/comments below.</p>
+<blockquote>
+<ol start="2">
+<li>IdentifiedAs:TaxonNameID</li>
+<li>According to (Sec.): TaxonConceptID</li>
+</ol>
+</blockquote>
+<p>What's the difference between TaxonNameID and TaxonConceptID. To me, it
+sounds like they are the same (or only one of them is needed)?</p>
+<blockquote>
+<p>PUBLICATION INFO</p>
+<p>Identical in all biodiversity nanopubs:</p>
+<ol start="6">
+<li>
+<p>BasisOfRecord:drop-down list of terms according to dwc:BasisOfRecird
+(DOI, event, preserved specimen, etc., see
+<a href="https://urldefense.com/v3/__https://dwc.tdwg.org/terms/*dwc:basisOfRecord__;Iw!!Dc8iu7o!z2vibAQJKJ2kIBe8pi2vl5Kl8GqCGS5ku_4JgNsVj93Z5y07vibHk-ErQ00ny2ptXlscmwVEwC4cSol-38a344XmUfGW$">https://urldefense.com/v3/__https://dwc.tdwg.org/terms/*dwc:basisOfRecord__;Iw!!Dc8iu7o!z2vibAQJKJ2kIBe8pi2vl5Kl8GqCGS5ku_4JgNsVj93Z5y07vibHk-ErQ00ny2ptXlscmwVEwC4cSol-38a344XmUfGW$</a>
+<a href="https://urldefense.com/v3/__https://dwc.tdwg.org/terms/*dwc:basisOfRecord__;Iw!!Dc8iu7o!z2vibAQJKJ2kIBe8pi2vl5Kl8GqCGS5ku_4JgNsVj93Z5y07vibHk-ErQ00ny2ptXlscmwVEwC4cSol-38a344XmUfGW$">https://urldefense.com/v3/__https://dwc.tdwg.org/terms/*dwc:basisOfRecord__;Iw!!Dc8iu7o!z2vibAQJKJ2kIBe8pi2vl5Kl8GqCGS5ku_4JgNsVj93Z5y07vibHk-ErQ00ny2ptXlscmwVEwC4cSol-38a344XmUfGW$</a>)</p>
+</li>
+<li>
+<p>Source: DOI, or website LINK, or "unpublished data"</p>
+</li>
+</ol>
+</blockquote>
+<p>Yes, we can easily add that! A variant of 7 is already implemented.</p>
+<p>But these two would be in the provenance graph, and not the publication
+info one.</p>
+<blockquote>
+<p>Template 1: Biotic interaction between organisms</p>
+</blockquote>
+<p>So you are saying we should be refering to organisms and not taxons? Or
+do we maybe need both?</p>
+<p>I have been interpreting these in the way that statements refering to
+taxons are meant to be more general, for example that wolves "somewhat
+regularly" eat rabbits, which is different form "I saw one specific
+wolve eating one specific rabbit". Don't we need both, of if we want to
+have just one of them, wouldn't it rather be the more general one
+involving taxons?</p>
+<p>You also mentioned in the other email that you suggest to remove the
+life cycle stages for uniformity. I think I would leave them in, at
+least for Template 1, as they look useful for certain cases and can be
+marked as optional. But up to you.</p>
+</blockquote>
+<h2 id="follow-up-lb">Follow-up (LB)<a aria-hidden="true" class="anchor-heading icon-link" href="#follow-up-lb"></a></h2>
+<blockquote>
+<p>Dear Tobias, </p>
+<p>Please find my comments inline below.</p>
+<p>Best regards,</p>
+<h2 id="lyubo">Lyubo<a aria-hidden="true" class="anchor-heading icon-link" href="#lyubo"></a></h2>
+<p>Lyubomir Penev
+ORCID: <a href="http://orcid.org/0000-0002-2186-5033">http://orcid.org/0000-0002-2186-5033</a></p>
+<p>On Mon, Jun 12, 2023 at 3:52 PM Tobias Kuhn <a href="/dendron-dbgi/mailto:kuhntobias@gmail.com">kuhntobias@gmail.com</a> wrote:
+Dear Lyubo and all,</p>
+<p>Overall, this looks great. I have some smaller questions/comments below.</p>
+<blockquote>
+<ol start="2">
+<li>IdentifiedAs:TaxonNameID</li>
+<li>According to (Sec.): TaxonConceptID</li>
+</ol>
+</blockquote>
+<p>What's the difference between TaxonNameID and TaxonConceptID. To me, it
+sounds like they are the same (or only one of them is needed)?
+Authors often use one and the same taxon name but according to different sources that define that name. This implies the name could have different meaning in the two cases. This is very confusing we all know this, but this is how the system works. The field "According to" defines the concept used for the taxon name identified in the previous field. Taxonomist understand this very well, which I can't say for (most) other biologists. Therefore I propose the following workflow to identify the taxon concept, including an instruction text for the authors:</p>
+<p>According to (Sec.):</p>
+<p>Citation of the Taxon Concept used to define the above name (entered in IdentifiedAs),
+normally in the form of literature reference with DOI, or link to the respective treatment (TaxonConcept) at
+TreatmentBank.</p>
+<p>The list of treatments is dynamic and can be downloaded anytime from this link at TreatmentBank (see also the instructions of Guido Sautter in the comment).</p>
+<p>The system searches for the name pasted in the above field (IdentifiedAs) and yields back a list of treatments from the Treatmentbank API that relate to this name from which the user should choose.</p>
+<p>The list displays the Taxon names and the literature reference linked to each them from TreatmentBank; there can be more than one treatment per name; the user select the record from the list and the system gets the HTTP ID to that particular treatments at TreatmentBank</p>
+<p>Ideally, after a taxon name is selected in the IdentifiedAs field, the system automatically displays all available Taxon Concepts (treatments) in the AccordingTo field.</p>
+<p>In the future there will be an API built at GNUB to serve that purpose; in the meantime we used the workflow described above.</p>
+<p>What happens if no treatment (TaxonConcept) is found in the list? </p>
+<p>The user is asked to enter the literature reference (citation of authors and year, or full reference, or DOI) according to which the organism has been identified with the taxon name specified in the IdentifiedAs field.</p>
+<p>The system generates an UUID for that “missing” concept</p>
+<p>The UUID and the related Taxon Concept are harvested regularly by TreatmentBank which creates a “stab” for that missing treatment.</p>
+<p>Instruction text for the authors:</p>
+<p>“Select the Taxon Concept used to define the taxon name above. The taxon concept consists of the full names of the taxon plus the literature source, according to which the organism has been identified as belonging to a particular taxon name. If you don’t find the Taxon Concept in the list, then enter the literature reference, either as citation of authors and year, or full reference of the literature source, or article DOI.”</p>
+<blockquote>
+<p>PUBLICATION INFO</p>
+<p>Identical in all biodiversity nanopubs:</p>
+<ol start="6">
+<li>
+<p>BasisOfRecord:drop-down list of terms according to dwc:BasisOfRecird
+(DOI, event, preserved specimen, etc., see
+<a href="https://dwc.tdwg.org/terms/#dwc:basisOfRecord">https://dwc.tdwg.org/terms/#dwc:basisOfRecord</a>
+<a href="https://dwc.tdwg.org/terms/#dwc:basisOfRecord">https://dwc.tdwg.org/terms/#dwc:basisOfRecord</a>)</p>
+</li>
+<li>
+<p>Source: DOI, or website LINK, or "unpublished data"</p>
+</li>
+</ol>
+</blockquote>
+<p>Yes, we can easily add that! A variant of 7 is already implemented.</p>
+<p>But these two would be in the provenance graph, and not the publication
+info one.</p>
+<p>Sure, you know better. Sorry for this omission.</p>
+<blockquote>
+<p>Template 1: Biotic interaction between organisms</p>
+</blockquote>
+<p>So you are saying we should be refering to organisms and not taxons? Or
+do we maybe need both?
+We need both, as this kind of observation is always based on an organism or group of organisms. We are fully aware that in many cases we can't provide an ID for the organism that we have observed, however in this case we should mint an internal UUID to keep the system coherent.</p>
+<p>I have been interpreting these in the way that statements refering to
+taxons are meant to be more general, for example that wolves "somewhat
+regularly" eat rabbits, which is different form "I saw one specific
+wolve eating one specific rabbit". Don't we need both, of if we want to
+have just one of them, wouldn't it rather be the more general one
+involving taxons?</p>
+<p>For the wide public yes, they will like just a more general statement. For professional purposes to which nanopubs belong, we would need both, I am afraid.  </p>
+<p>You also mentioned in the other email that you suggest to remove the
+life cycle stages for uniformity. I think I would leave them in, at
+least for Template 1, as they look useful for certain cases and can be
+marked as optional. But up to you.</p>
+<p>It can be left  as such, but deprecated or just made inactive in the templates it is not needed. I wouldn't take it out entirely, as it belongs to the "general pattern" of the subject which we are trying to unify now.</p>
+</blockquote>
+<h2 id="tk">TK<a aria-hidden="true" class="anchor-heading icon-link" href="#tk"></a></h2>
+<blockquote>
+<p>I made this Nanodash template to reflect most of what your query showed
+(ORCID login required):
+<a href="https://nanodash.petapico.org/publish?template=http:**Apurl.org*np*RA1ekjkshpkdtjNKNnCbdHlGRfT65IkN6sttki16dzvvw">https://nanodash.petapico.org/publish?template=http:**Apurl.org*np*RA1ekjkshpkdtjNKNnCbdHlGRfT65IkN6sttki16dzvvw</a></p>
+<p>Feel free to try it out. You can select "Example" under "Publication
+info" if you want to test it with non-serious data.</p>
+<p>I already connected it to the Checklistbank-powered API we have set up
+for some other biodiversity templates for the taxon IDs.</p>
+<p>Currently it will mint many new identifiers (for extract, sample,
+analysis, feature list, feature, and annotation). I assume many of them
+should also be filled with existing identifiers to be looked up. This
+also depends on the workflow of when who should introduce what kinds of
+things, and at which point who is referring back to them.</p>
+<p>There are also a number of modeling decisions we could discuss. E.g.
+with triples like "A enpkg:has_wd_id B", it would modeling-wise make
+more sense to just use B instead of A, or use a more precise relation
+like isExtractOfTaxon. But I understand that you might have practical
+reasons for this. I'd be happy to discuss in any case.</p>
+<p>I hope that makes sense and is moving in the right direction from your
+side. Curious to hear your thoughts in any case.</p>
+</blockquote>

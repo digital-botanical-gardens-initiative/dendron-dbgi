@@ -1,0 +1,124 @@
+<h1 id="2023-06-15">2023-06-15<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-06-15"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.06.15</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h3 id="meeting-on-the-emi-semantic-model">Meeting on the EMI semantic model<a aria-hidden="true" class="anchor-heading icon-link" href="#meeting-on-the-emi-semantic-model"></a></h3>
+<p>Ana, Tarcisio and Luca</p>
+<ul>
+<li>Their is a graphical schema (based on Arnaud's scheme for ENPKG here)
+<a href="https://app.diagrams.net/#G1g1nAgeIZEwBL63Adcwb1dDVOOO2rE2H1">https://app.diagrams.net/#G1g1nAgeIZEwBL63Adcwb1dDVOOO2rE2H1</a></li>
+</ul>
+<p><a href="https://github.com/digital-botanical-gardens-initiative/earth_metabolome_ontology">https://github.com/digital-botanical-gardens-initiative/earth_metabolome_ontology</a></p>
+<ul>
+<li>Decided to establish the licence of the semantic model to CC0</li>
+<li>Add ORCID as contributors</li>
+<li>protégé <a href="https://protege.stanford.edu/">https://protege.stanford.edu/</a> </li>
+<li>Tarcisio reserved prefixes dbgi / emi at prefix.cc and purl.</li>
+</ul>
+<p>Luca mentionned that we should think beforehand on the problems that could arise from having highly connected nodes (stars) such as a node ISDB linked to from all annotations with a has_ISDB_annotation edge. </p>
+<p>We need to think about a metamodel.
+<a href="https://github.com/biolink">https://github.com/biolink</a></p>
+<p>We need to think about constraints (e.g. IK should have and associated IK2D)</p>
+<p>Ended up taking the rest of the notes at : ether pad </p>
+<p><a href="https://mypads2.framapad.org/p/notes-june-2023-1o1hws9v1">https://mypads2.framapad.org/p/notes-june-2023-1o1hws9v1</a></p>
+<p><a href="https://microbiomedata.org/">https://microbiomedata.org/</a></p>
+<hr>
+<h4 id="hard-copy-of-the-meetings-notes">Hard copy of the meetings notes<a aria-hidden="true" class="anchor-heading icon-link" href="#hard-copy-of-the-meetings-notes"></a></h4>
+<h3 id="meeting-on-the-emi-semantic-model-1">Meeting on the EMI semantic model<a aria-hidden="true" class="anchor-heading icon-link" href="#meeting-on-the-emi-semantic-model-1"></a></h3>
+<p>Meeting notes 15.06.2023</p>
+<ul>
+<li>Their is a graphical schema (based on Arnaud's scheme for ENPKG here)
+<a href="https://app.diagrams.net/#G1g1nAgeIZEwBL63Adcwb1dDVOOO2rE2H1">https://app.diagrams.net/#G1g1nAgeIZEwBL63Adcwb1dDVOOO2rE2H1</a></li>
+</ul>
+<p><a href="https://github.com/digital-botanical-gardens-initiative/earth_metabolome_ontology">https://github.com/digital-botanical-gardens-initiative/earth_metabolome_ontology</a></p>
+<p>Partecipants</p>
+<ul>
+<li>Tarcisio Mendes</li>
+<li>Ana-Claudia Sima</li>
+<li>Luca Cappelletti</li>
+<li>Pierre-Marie Allard</li>
+</ul>
+<p>Comments: </p>
+<pre><code>- Define Meta-Model in addition to Semantic Model
+- Allows topological embedding of the classes, defining fully a distance between the classes that can be used in general ML tasks
+- allows explicitly defining Metadata classes (e.g. "Information Source") and properties
+</code></pre>
+<ul>
+<li>
+<p>allows Quality Control through e.g. disjointness / other constraints, e.g. whenever InChiKey is present in the data -> InChiKey2D should be present</p>
+</li>
+<li>
+<p>Can be concretely implemented as a suite of tests to run as part of GitHub repository associated to data / data quality continuous integration</p>
+</li>
+<li>
+<p>Topological checks may be integrated as part of the continuous integration - e.g. adding elements that become singletons should not be allowed for release versions</p>
+</li>
+<li>
+<p>Draw inspiration from BioLink Model? (<a href="https://github.com/biolink">https://github.com/biolink</a>)</p>
+</li>
+<li>
+<p>BioLink can be an inspiration, but has also known problem and some aspects should not be imitated</p>
+</li>
+<li>
+<p>Next meeting we can list specifically these aspects which we should take care of not reproducing.</p>
+</li>
+<li>
+<p>Add explicit, "verbose" descriptions to classes in addition to simple labels</p>
+</li>
+<li>
+<p>Allows to use the textual embedding as part of features for ML models</p>
+</li>
+<li>
+<p>how about retrieving these via cross-references whenever possible? e.g. the cross-refs to WikiData items</p>
+</li>
+<li>
+<p>Logo associated to project</p>
+</li>
+<li>
+<p>Possible logos may be created using tools such as MidJourney (examples provided on the Zulip platform)</p>
+</li>
+</ul>
+<p>For next meeting:</p>
+<pre><code>- Microbiological data: https://microbiomedata.org/
+- Where will the data release be available from? Zenodo? Internet Archive? In what formats?
+- For now ENPKG related graphs are versionned at Zenodo (https://zenodo.org/communities/enpkg/?page=1&#x26;size=20) still grouped by batches (here 96 well plates). We will work on moving to 1 profile = 1 Zenodo repo. (Note that frictionless can do quality control on Zenodo archives, would work very well on case we have the graph in a tsv format)  
+- The GRAPE library can ingest TSV / CSV formats from urls, any server accessible with get requests will do
+- discuss Quality Control options - at what level should constraints be defined? 
+- OWL language? SHACL? Meta-model constraints + Github tests where adding bogus new elements should not be allowable
+</code></pre>
+<ul>
+<li>ML model that indicates possible missing fields / incorrect new data you are trying to add based on the existing data already in the graphical</li>
+</ul>
+<h3 id="workshop-by-luca-on-gnn">Workshop by Luca on GNN<a aria-hidden="true" class="anchor-heading icon-link" href="#workshop-by-luca-on-gnn"></a></h3>
+<p>Justin Reese indicates these meetings each 2 weeks</p>
+<p>https://www..com/feed/update/urn:li:activity:7074081027261874176/</p>
+<p>Topic of negative sampling. A pretty complex topi</p>
+<p><img src="/dendron-dbgi/assets/images/2023-06-15-17-11-34.png"></p>
+<p>Embeddings : a representation of categorical elements in a vector space.</p>
+<p>Allows to make operation like </p>
+<p>(King - Men) + Woman ~ Queen</p>
+<p><img src="/dendron-dbgi/assets/images/2023-06-15-17-12-39.png"></p>
+<p><img src="/dendron-dbgi/assets/images/2023-06-15-17-21-16.png"></p>
+<p><a href="http://kghub.org/">http://kghub.org/</a></p>
+<p><a href="https://openreview.net/pdf?id=m1oqEOAozQU">https://openreview.net/pdf?id=m1oqEOAozQU</a></p>
+<p><a href="https://diegogalpy.github.io/">https://diegogalpy.github.io/</a></p>
+<p>graph convolution</p>
+<p><a href="https://en.wikipedia.org/wiki/Laplacian_matrix">https://en.wikipedia.org/wiki/Laplacian_matrix</a>
+<a href="https://en.wikipedia.org/wiki/Adjacency_matrix">https://en.wikipedia.org/wiki/Adjacency_matrix</a></p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

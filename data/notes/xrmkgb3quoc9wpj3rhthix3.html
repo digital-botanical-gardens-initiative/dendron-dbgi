@@ -1,0 +1,86 @@
+<h1 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h1>
+<p>Kept below.
+Not much notes taken. Lot of chat !
+We might want to have a different ratio next time.</p>
+<p>Starting at 9:30 </p>
+<ul>
+<li>Physical at Pavillon Vert. See here for location details <a href="https://www.unifr.ch/scimed/fr/pavillonvert">https://www.unifr.ch/scimed/fr/pavillonvert</a></li>
+<li>Remote at <a href="https://meet.jit.si/DBGI_talks">https://meet.jit.si/DBGI_talks</a></li>
+</ul>
+<h1 id="welcome-and-workshop-members-introduction-15-min">Welcome and workshop members’ introduction (15 min)<a aria-hidden="true" class="anchor-heading icon-link" href="#welcome-and-workshop-members-introduction-15-min"></a></h1>
+<p>Present</p>
+<p>ACS (Ana Claudia Sima)
+ED (Emmanuel Defossez)
+FM (Florence Mehl)
+HL (Henry Luetcke - remote)
+LC (Luca Cappelletti)
+MP (Marco Pagni)
+MV (Marco Visani)
+MW (Maëlle Wannier)
+PMA (Pierre-Marie Allard)
+TM (Tarcisio Mendes)</p>
+<p>intro round</p>
+<h1 id="review-ontology-engineering-activities-rest-of-the-morning">Review: ontology engineering activities (rest of the morning)<a aria-hidden="true" class="anchor-heading icon-link" href="#review-ontology-engineering-activities-rest-of-the-morning"></a></h1>
+<ul>
+<li>
+<p>Organism taxonomy.</p>
+</li>
+<li>
+<p>Relying on WD as an aggregator of taxonomies.</p>
+</li>
+</ul>
+<p>Marco : 2 problems. To have an identifier for a taxon (afterwards not sure why this is not adressed by WD) An identifier with clear release cycles (not so easily tracked at WD)
+They are WD dumps.</p>
+<p>Luca: Keeping the mapping safe is N°1, 2 and 3 problem.
+<strong>No consensus.</strong></p>
+<p>BUT, in the meantime, in the DBGI-KG context we will use WD id.</p>
+<p>Manu : important to have solution for sampling of soils, water, honeys etc.
+More generally we should create (or re-use if existing) a statement of this type "macroscopic taxon is / apparently major biological organism of sample is"
+The biomeaggregation specimen type defined at <a href="http://cor.esipfed.org/ont?iri=https://w3id.org/isample/vocabulary/specimentype/0.9/biomeaggregation">http://cor.esipfed.org/ont?iri=https://w3id.org/isample/vocabulary/specimentype/0.9/biomeaggregation</a> might be of inetrest.</p>
+<ul>
+<li>Instantiation process.</li>
+</ul>
+<p>Wd need to understand ways to map specimen &#x3C;-> main define taxon (macroscopic taxon, possibly microscopic taxon)</p>
+<ul>
+<li>
+<p>Natural Product Taxonomy (with <a href="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System" title="Simple Knowledge Organization System (SKOS) is a W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary. SKOS is part of the Semantic Web family of standards built upon RDF and RDFS, and its main objective is to enable easy publication and use of such vocabularies as linked data.">SKOS</a> - NPClassifier)</p>
+</li>
+<li>
+<p>NPClassifier (<a href="https://npclassifier.ucsd.edu/">https://npclassifier.ucsd.edu/</a>)</p>
+</li>
+<li>
+<p>Classyfire (<a href="http://classyfire.wishartlab.com/">http://classyfire.wishartlab.com/</a>)</p>
+</li>
+</ul>
+<p><a href="https://www.bobdc.com/blog/skosibm/">https://www.bobdc.com/blog/skosibm/</a></p>
+<p>SKOS could allow to mapp chemical taxonomies across them.
+Nice thing is that Classyfire classes are already mapped with CHEMONT. See <a href="http://classyfire.wishartlab.com/entities/ULGZDMOVFRHVEP-UHFFFAOYSA-N">http://classyfire.wishartlab.com/entities/ULGZDMOVFRHVEP-UHFFFAOYSA-N</a></p>
+<p>We will get in touch with Ming (NPClassifier maintainer and DBGI computational mass spec advisor) once we have a "SKOSsed" version of NPC. </p>
+<p><strong>NPClassifier should be used for the taxonomy.</strong></p>
+<ul>
+<li>MS2 spectrum and LCMS analysis</li>
+</ul>
+<ul>
+<li>
+<p>Laboratory object description</p>
+</li>
+<li>
+<p>Metadata for provenance (e.g, Prov-O) <a href="https://www.w3.org/TR/prov-o/">https://www.w3.org/TR/prov-o/</a></p>
+<p><img src="/dendron-dbgi/assets/images/2023-07-13-21-30-30.png"></p>
+</li>
+</ul>
+<p>Q: could the entity be a triple ?
+Q: could the entity be a more complex graph ? </p>
+<p>Luca suggests that we implement at one point quality control in the form of Continuous Integration checks.</p>
+<ul>
+<li>CI on grammatical correctness of the terms used in the model.</li>
+<li>CI to log the granularity of the chemical annotations / biological taxonomy completion.
+This would allow to understand how precisely we have defined a given spectral annotation and how precisely on organism was chracterized and this, at the full graph level.</li>
+</ul>
+<h4 id="archived">Archived<a aria-hidden="true" class="anchor-heading icon-link" href="#archived"></a></h4>
+<p>We initially kept notes on the following pad <a href="https://mypads2.framapad.org/p/emi-semantic-model-notes-rf2evz9uw">https://mypads2.framapad.org/p/emi-semantic-model-notes-rf2evz9uw</a></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/mr8692oaa717fbwx3sny852">Program</a></li>
+</ul>

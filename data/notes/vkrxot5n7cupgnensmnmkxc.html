@@ -1,0 +1,22 @@
+<h1 id="2024-02-14">2024-02-14<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-02-14"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.02.14</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul>
+<li>Continue to work on making executable SQL the Diesel migrations for the emi-monorepo</li>
+</ul>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<ul>
+<li>Refactored all Diesel migrations to make them executable</li>
+<li>Identified some missing tables to be added still to the Diesel migrations</li>
+</ul>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<ul>
+<li>Add the missing tables to the Diesel migrations</li>
+</ul>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li>We can undo diesel migrations only if we do not rename the directories. If we rename the directories, we need to manually undo the migration in the database or, as this is just a test run, delete the database and recreate it from scratch.</li>
+<li>To undo all the migrations, we can use <code>diesel migration revert --all</code></li>
+<li>The number or the timestamp on the left of a Diesel migration directory is used to enforce the order of the migrations. If we rename the directory, we need to manually update the number or the timestamp to enforce the correct order of the migrations.</li>
+</ul>

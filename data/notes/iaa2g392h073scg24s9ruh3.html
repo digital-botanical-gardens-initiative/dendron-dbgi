@@ -1,0 +1,58 @@
+<h1 id="treatment">Treatment<a aria-hidden="true" class="anchor-heading icon-link" href="#treatment"></a></h1>
+<p>Notes taken for the organization of the DBGI pilot MS data for its intake as a graph.</p>
+<h2 id="export-of-the-minimal-required-files">Export of the minimal required files<a aria-hidden="true" class="anchor-heading icon-link" href="#export-of-the-minimal-required-files"></a></h2>
+<ul>
+<li>mgf</li>
+<li>quant table</li>
+<li>mgf sirius</li>
+</ul>
+<p>Starting from the mzmine project</p>
+<p>use th /media/share/DBGI/{} following pattern to export with the original filename</p>
+<p>python script availabl at </p>
+<p><a href="https://github.com/mandelbrot-project/indifiles_annotation/blob/main/organization/rename_pos.py">https://github.com/mandelbrot-project/indifiles_annotation/blob/main/organization/rename_pos.py</a></p>
+<p>Maybe bash command line could be more flexible.
+Let's try</p>
+<p>We inspire from <a href="https://stackoverflow.com/a/10536148">https://stackoverflow.com/a/10536148</a></p>
+<p>for file in prefix*;
+do
+mv "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>i</mi><mi>l</mi><mi>e</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">file" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord mathnormal">i</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord">""</span></span></span></span></span>{file#XY TD-}"
+done</p>
+<p>and adapt (note we echo first for safety)</p>
+<p>for file in 20220513<em>PMA</em>*;
+do
+echo mv "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>i</mi><mi>l</mi><mi>e</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">file" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord mathnormal">i</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord">""</span></span></span></span></span>{file##20220513<em>PMA</em>}"
+done</p>
+<p>Seems to work</p>
+<p>So we can </p>
+<p>for file in 20220513<em>PMA</em>*;
+do
+mv "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>i</mi><mi>l</mi><mi>e</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">file" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord mathnormal">i</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord">""</span></span></span></span></span>{file##20220513<em>PMA</em>}"
+done</p>
+<p>Now we are left with the extensions
+We inspire from </p>
+<h1 id="rename-all-txt-to-text">Rename all <em>.txt to </em>.text<a aria-hidden="true" class="anchor-heading icon-link" href="#rename-all-txt-to-text"></a></h1>
+<p>for f in *.txt; do
+mv -- "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">f" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord">""</span></span></span></span></span>{f%.txt}.text"
+done</p>
+<p>And adapt to </p>
+<p>for f in *.mzML_chromatograms_deconvoluted_deisotoped.mgf; do
+mv -- "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">f" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord">""</span></span></span></span></span>{f%.mzML_chromatograms_deconvoluted_deisotoped.mgf}_sirius_pos.mgf"
+done</p>
+<p>and </p>
+<p>for f in *.mzML_chromatograms_deconvoluted_deisotoped_quant.csv; do
+mv -- "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">f" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord">""</span></span></span></span></span>{f%.mzML_chromatograms_deconvoluted_deisotoped_quant.csv}_features_quant_pos.csv"
+done</p>
+<p>Now we are left with mgf (sirius and classical)
+We will use pattern expansion to limit our suffix editing</p>
+<p>ls DBGI<em>01_04</em>{001..100}_sirius_pos.mgf</p>
+<p>In fact its easier to mv all file with the sirius_pos.mg extension to a temp folder
+mv *sirius_pos.mgf sirius
+Do the substitution </p>
+<p>for f in *.mgf; do
+mv -- "<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi mathvariant="normal">"</mi><mi mathvariant="normal">"</mi></mrow><annotation encoding="application/x-tex">f" "</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord">""</span></span></span></span></span>{f%.mgf}_features_ms2_pos.mgf"
+done</p>
+<p>Now that we have our file we would like to create subfolder for them and move them accordingly</p>
+<p><a href="https://unix.stackexchange.com/a/485309">https://unix.stackexchange.com/a/485309</a></p>
+<p>Adapted
+for i in <code>ls -ltrh directorypath| awk '{print $NF}'| awk -F "_f|_s" '{print $1}'| sort| uniq</code>; do mkdir $i; yes|mv  $i* $i; done</p>
+<p>Works nicely !</p>

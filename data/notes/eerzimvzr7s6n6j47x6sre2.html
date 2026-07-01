@@ -1,0 +1,29 @@
+<h1 id="bibliography-gestion">Bibliography-gestion<a aria-hidden="true" class="anchor-heading icon-link" href="#bibliography-gestion"></a></h1>
+<h1 id="how-to-use-zotero-to-add-references-on-the-digitized-botanical-gardens-initiative-dendron">How to use Zotero to add references on the Digitized Botanical gardens initiative Dendron:<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-use-zotero-to-add-references-on-the-digitized-botanical-gardens-initiative-dendron"></a></h1>
+<h2 id="zotero-installation-and-setup">Zotero installation and setup:<a aria-hidden="true" class="anchor-heading icon-link" href="#zotero-installation-and-setup"></a></h2>
+<p>Zotero: <a href="https://www.zotero.org/download/">https://www.zotero.org/download/</a>.</p>
+<p>Now you have to add the "dbgi-bibliography" shared folder on Zotero to access to all the Project references. For this, go to <a href="https://www.zotero.org/groups/4613367/dbgi-bibliography">https://www.zotero.org/groups/4613367/dbgi-bibliography</a>, login or register and join the Zotero group. Now you can add your references in the folder to import them on Dendron.</p>
+<h2 id="mandatory-zotero-add-ons-installation">Mandatory Zotero add-ons installation:<a aria-hidden="true" class="anchor-heading icon-link" href="#mandatory-zotero-add-ons-installation"></a></h2>
+<ul>
+<li>Better BibTex for Zotero: <a href="https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.3.0/zotero-better-bibtex-6.3.0.xpi">https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.3.0/zotero-better-bibtex-6.3.0.xpi</a></li>
+<li>ZotFile: <a href="https://github.com/jlegewie/zotfile/releases/download/v5.1.1/zotfile-5.1.1-fx.xpi">https://github.com/jlegewie/zotfile/releases/download/v5.1.1/zotfile-5.1.1-fx.xpi</a></li>
+<li>Mdnotes for Zotero: <a href="https://github.com/argenos/zotero-mdnotes/releases/download/0.2.0-alpha5/mdnotes-0.2.0-alpha5.xpi">https://github.com/argenos/zotero-mdnotes/releases/download/0.2.0-alpha5/mdnotes-0.2.0-alpha5.xpi</a></li>
+</ul>
+<p>Click on the link, download the add-on file, open Zotero, go to Tools -> Add-ons -> drag and drop the add-on file in the Add-ons Manager -> Install Now</p>
+<h2 id="set-the-add-ons-settings">Set the add-ons settings:<a aria-hidden="true" class="anchor-heading icon-link" href="#set-the-add-ons-settings"></a></h2>
+<h3 id="better-bibtex-for-zotero">Better Bibtex for Zotero:<a aria-hidden="true" class="anchor-heading icon-link" href="#better-bibtex-for-zotero"></a></h3>
+<p>Go in Zotero to Edit -> Better BibteX and follow these settings:
+<img src="/dendron-dbgi/assets/images/Bibtex_settings.png" alt="Better BibteX settings" style="max-width:600px;display:block;margin:0 auto;"></p>
+<h3 id="zotfile">Zotfile:<a aria-hidden="true" class="anchor-heading icon-link" href="#zotfile"></a></h3>
+<p>Go in Zotero to Tools -> Zotfile Preferences... and follow these settings in the "Renaming Rules" tab:
+<img src="/dendron-dbgi/assets/images/Zotfile_settings.png" alt="Zotfile settings" style="max-width:600px;display:block;margin:0 auto;"></p>
+<h3 id="mdnotes-fo-zotero">Mdnotes fo Zotero:<a aria-hidden="true" class="anchor-heading icon-link" href="#mdnotes-fo-zotero"></a></h3>
+<p>Go in Zotero to Tools -> Mdnotes preferences and follow these settings:
+<img src="/dendron-dbgi/assets/images/Mdnotes_settings_1.png" alt="Mdnotes settings 1" style="max-width:600px;display:block;margin:0 auto;">
+<img src="/dendron-dbgi/assets/images/Mdnotes_settings_2.png" alt="Mdnotes settings 2" style="max-width:600px;display:block;margin:0 auto;"></p>
+<h2 id="references-import-on-dendron">References import on Dendron:<a aria-hidden="true" class="anchor-heading icon-link" href="#references-import-on-dendron"></a></h2>
+<p>1) Just for the first import: Create a folder named "biblio" on your computer and replace "path to "biblio" folder" with the correct pass of the folder.</p>
+<p>2) Go on the "dbgi-bibliography" folder in Zotero, select the new added references to export, right click on it -> Better BibTeX -> Refresh BibTeX key -> right click -> Manage Attachments -> Rename and Move -> right click -> mdnotes -> Export to markdown. You now should have the references listed in the "biblio" folder in this format: "authorname_year.md".</p>
+<p>3) To configure the import: Go to Visual Studio Code -> ctrl + shift + p -> Dendron: Configure Pod -> dendron.markdown import markdown. Then add the "biblio" folder path after "src:". Normally, some paths are already present, so comment them with "#" to keep the path for the others.</p>
+<p>4) For the first and next imports, you just have to repeat the 2nd step and then go to Visual Studio Code -> press ctrl+shift+p -> Dendron: Import Pod -> dendron.markdown and your references present in the "biblio" folder will be imported in the Dendron.</p>
+<p>Now you can add theses references in text ensured with double hooks.</p>

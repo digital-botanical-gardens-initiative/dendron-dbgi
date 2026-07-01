@@ -1,0 +1,58 @@
+<h1 id="2024-06-02">2024-06-02<a aria-hidden="true" class="anchor-heading icon-link" href="#2024-06-02"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2024.06.02</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<p>Working on the query optimizations with Luca</p>
+<pre><code>    let query = bio_ott_taxon_items::dsl::bio_ott_taxon_items
+    .filter(
+        // We try to write the raw SQL in order to us the '&#x3C;&#x3C;%' operator.
+        diesel::dsl::sql::&#x3C;diesel::sql_types::Bool>(
+            &#x26;format!(
+                "'{}' &#x3C;&#x3C;% name",
+                query
+            ),
+        ),
+    )
+    .limit(limit.unwrap_or(10))
+    .offset(offset.unwrap_or(0));
+</code></pre>
+<p>works</p>
+<pre><code>    let query = bio_ott_taxon_items::dsl::bio_ott_taxon_items
+        .filter(
+            crate::sql_function_bindings::strict_word_similarity_op(
+                bio_ott_taxon_items::dsl::name,
+                query,
+            )
+        )
+        .order(
+            crate::sql_function_bindings::strict_word_similarity(
+                bio_ott_taxon_items::dsl::name,
+                query,
+            ),
+        )
+        .limit(limit.unwrap_or(10))
+        .offset(offset.unwrap_or(0));
+</code></pre>
+<p>Doesnt.</p>
+<p>However I would like to use the second function call and no direct SQL definition. How should I proceed ?</p>
+<p>Lats one returns</p>
+<p>[2024-06-02T14:41:00Z DEBUG backend::models::bio_ott_taxon_items] SELECT "bio_ott_taxon_items"."id", "bio_ott_taxon_items"."name", "bio_ott_taxon_items"."ott_id", "bio_ott_taxon_items"."ott_rank_id", "bio_ott_taxon_items"."wikidata_id", "bio_ott_taxon_items"."ncbi_id", "bio_ott_taxon_items"."gbif_id", "bio_ott_taxon_items"."irmng_id", "bio_ott_taxon_items"."worms_id", "bio_ott_taxon_items"."domain_id", "bio_ott_taxon_items"."kingdom_id", "bio_ott_taxon_items"."phylum_id", "bio_ott_taxon_items"."class_id", "bio_ott_taxon_items"."order_id", "bio_ott_taxon_items"."family_id", "bio_ott_taxon_items"."genus_id", "bio_ott_taxon_items"."parent_id", "bio_ott_taxon_items"."icon_id", "bio_ott_taxon_items"."color_id" FROM "bio_ott_taxon_items" WHERE strict_word_similarity_op("bio_ott_taxon_items"."name", $1) ORDER BY strict_word_similarity("bio_ott_taxon_items"."name", $2) LIMIT $3 OFFSET $4 -- binds: ["sapiens", "sapiens", 10, 0]</p>
+<p>[2024-06-02T15:52:18Z DEBUG backend::models::bio_ott_taxon_items] SELECT "bio_ott_taxon_items"."id", "bio_ott_taxon_items"."name", "bio_ott_taxon_items"."ott_id", "bio_ott_taxon_items"."ott_rank_id", "bio_ott_taxon_items"."wikidata_id", "bio_ott_taxon_items"."ncbi_id", "bio_ott_taxon_items"."gbif_id", "bio_ott_taxon_items"."irmng_id", "bio_ott_taxon_items"."worms_id", "bio_ott_taxon_items"."domain_id", "bio_ott_taxon_items"."kingdom_id", "bio_ott_taxon_items"."phylum_id", "bio_ott_taxon_items"."class_id", "bio_ott_taxon_items"."order_id", "bio_ott_taxon_items"."family_id", "bio_ott_taxon_items"."genus_id", "bio_ott_taxon_items"."parent_id", "bio_ott_taxon_items"."icon_id", "bio_ott_taxon_items"."color_id" FROM "bio_ott_taxon_items" WHERE strict_word_similarity_commutator_op($1, "bio_ott_taxon_items"."name") ORDER BY strict_word_similarity_dist_commutator_op($2, "bio_ott_taxon_items"."name") LIMIT $3 OFFSET $4 -- binds: ["sapiens", "sapiens", 10, 0]</p>
+<p>[2024-06-02T15:29:26Z DEBUG backend::models::bio_ott_taxon_items] SELECT "bio_ott_taxon_items"."id", "bio_ott_taxon_items"."name", "bio_ott_taxon_items"."ott_id", "bio_ott_taxon_items"."ott_rank_id", "bio_ott_taxon_items"."wikidata_id", "bio_ott_taxon_items"."ncbi_id", "bio_ott_taxon_items"."gbif_id", "bio_ott_taxon_items"."irmng_id", "bio_ott_taxon_items"."worms_id", "bio_ott_taxon_items"."domain_id", "bio_ott_taxon_items"."kingdom_id", "bio_ott_taxon_items"."phylum_id", "bio_ott_taxon_items"."class_id", "bio_ott_taxon_items"."order_id", "bio_ott_taxon_items"."family_id", "bio_ott_taxon_items"."genus_id", "bio_ott_taxon_items"."parent_id", "bio_ott_taxon_items"."icon_id", "bio_ott_taxon_items"."color_id" FROM "bio_ott_taxon_items" WHERE 'sapiens' &#x3C;&#x3C;% name LIMIT $1 OFFSET $2 -- binds: [10, 0]</p>
+<h2 id="todo-tomorrow-one-day--or-never">Todo tomorrow, one day ... or never<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow-one-day--or-never"></a></h2>
+<h3 id="-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

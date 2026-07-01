@@ -1,0 +1,41 @@
+<h1 id="extension">Extension<a aria-hidden="true" class="anchor-heading icon-link" href="#extension"></a></h1>
+<p>Documenting intent to install an extension for the DBGI Directus instance</p>
+<p>Why ? Looking for a way to have clickable links.
+Could not install directly from the Directus Market place.</p>
+<p>Looking to install <a href="https://github.com/utomic-media/directus-extension-field-actions">https://github.com/utomic-media/directus-extension-field-actions</a></p>
+<p>Following </p>
+<p><a href="https://docs.directus.io/extensions/installing-extensions.html">https://docs.directus.io/extensions/installing-extensions.html</a> (via the Extensions Directory)</p>
+<p>On the COMMONS server, whe have </p>
+<p>The git fetcher script <a href="https://github.com/commons-research/commons-server-git-fetcher">https://github.com/commons-research/commons-server-git-fetcher</a></p>
+<p>Should get </p>
+<p><a href="https://github.com/digital-botanical-gardens-initiative/directus-db">https://github.com/digital-botanical-gardens-initiative/directus-db</a></p>
+<ol>
+<li>Create an Extensions Folder</li>
+</ol>
+<p>At the root of your project, create an extensions folder if one doesn't already exist to house your extensions.</p>
+<p>The .env file indicates that our project is in DIRECTUS_LOCATION=/docker/directus</p>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /docker/directus
+<span class="token function">mkdir</span> extensions
+</code></pre>
+<p>We also create the following dirs <a href="https://github.com/utomic-media/directus-extension-field-actions?tab=readme-ov-file#%EF%B8%8F-installation-manually">https://github.com/utomic-media/directus-extension-field-actions?tab=readme-ov-file#%EF%B8%8F-installation-manually</a></p>
+<p>And the dl the extension
+wget on the files <a href="https://github.com/utomic-media/directus-extension-field-actions/releases/tag/v1.8.4">https://github.com/utomic-media/directus-extension-field-actions/releases/tag/v1.8.4</a></p>
+<p>root@commons-server:/docker/directus/extensions# tree
+.
+└── directus-extension-field-actions
+├── dist
+│   ├── api.js
+│   └── app.js
+└── package.json</p>
+<p>2 directories, 3 files</p>
+<p>(base) allardpm@commons-server:/git_repos/commons-server-git-fetcher$ bash master_script.sh</p>
+<p>cd to the directus git </p>
+<pre class="language-bash"><code class="language-bash"><span class="token punctuation">(</span>base<span class="token punctuation">)</span> allardpm@commons-server:/git_repos/directus-db$
+<span class="token function">docker</span> compose down
+<span class="token function">docker</span> compose build
+<span class="token function">docker</span> compose up -d
+</code></pre>
+<p>Yay !!
+<img src="/dendron-dbgi/assets/images/2024-05-09-11-11-49.png"></p>
+<p>Now renders </p>
+<p><img src="/dendron-dbgi/assets/images/2024-05-09-11-16-38.png"></p>

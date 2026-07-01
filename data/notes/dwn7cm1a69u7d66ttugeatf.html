@@ -1,0 +1,77 @@
+<h1 id="sparql">Sparql<a aria-hidden="true" class="anchor-heading icon-link" href="#sparql"></a></h1>
+<h3 id="anticipated-lotus">anticipated lotus<a aria-hidden="true" class="anchor-heading icon-link" href="#anticipated-lotus"></a></h3>
+<p>I am currently trying to be able to have all species of Wikidata available for predictions. </p>
+<p>I neeed to use this endpoint to get my data quickly: <a href="https://qlever.cs.uni-freiburg.de/wikidata">https://qlever.cs.uni-freiburg.de/wikidata</a></p>
+<p>The idea would be to have a dataframe with for each species, its taxonomy in the same way as in LOTUS. To do so, </p>
+<ol>
+<li>
+<p>tu as ?taxon ?parent, à partir de là tu peux reconstuire toute la taxo (en dehors de sparql, comme t'as dû prendre dans lotus-search?) </p>
+<pre class="language-python"><code class="language-python"> <span class="token keyword">import</span> csv
+ <span class="token keyword">import</span> logging
+ <span class="token keyword">from</span> collections <span class="token keyword">import</span> defaultdict<span class="token punctuation">,</span> deque
+ <span class="token keyword">from</span> pathlib <span class="token keyword">import</span> Path
+ <span class="token keyword">from</span> tqdm <span class="token keyword">import</span> tqdm
+ 
+ logging<span class="token punctuation">.</span>basicConfig<span class="token punctuation">(</span>
+     level<span class="token operator">=</span>logging<span class="token punctuation">.</span>INFO<span class="token punctuation">,</span> <span class="token builtin">format</span><span class="token operator">=</span><span class="token string">"%(asctime)s - %(levelname)s - %(message)s"</span>
+ <span class="token punctuation">)</span>
+ <span class="token keyword">def</span> <span class="token function">convert_to_int_safe</span><span class="token punctuation">(</span>s<span class="token punctuation">:</span> <span class="token builtin">str</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span> <span class="token operator">|</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+     <span class="token keyword">try</span><span class="token punctuation">:</span>
+         result <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span>
+         <span class="token keyword">return</span> result
+     <span class="token keyword">except</span> ValueError<span class="token punctuation">:</span>
+         logging<span class="token punctuation">.</span>error<span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"</span><span class="token interpolation"><span class="token punctuation">{</span>s<span class="token punctuation">}</span></span><span class="token string"> is not a valid integer."</span></span><span class="token punctuation">)</span>
+         <span class="token keyword">return</span> <span class="token boolean">None</span>
+ 
+ 
+ <span class="token keyword">def</span> <span class="token function">generate_taxon_parents_with_distance</span><span class="token punctuation">(</span>path<span class="token punctuation">:</span> Path<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token builtin">tuple</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">,</span> <span class="token builtin">int</span><span class="token punctuation">,</span> <span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+     graph <span class="token operator">=</span> defaultdict<span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">)</span>
+     distances <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+     <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>path <span class="token operator">/</span> <span class="token string">"full_wikidata_taxonomy_edges.csv"</span><span class="token punctuation">,</span> <span class="token string">"r"</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+         reader <span class="token operator">=</span> csv<span class="token punctuation">.</span>reader<span class="token punctuation">(</span>f<span class="token punctuation">)</span>
+         headers <span class="token operator">=</span> <span class="token builtin">next</span><span class="token punctuation">(</span>reader<span class="token punctuation">)</span>
+         taxon_index <span class="token operator">=</span> headers<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">"child"</span><span class="token punctuation">)</span>
+         parent_index <span class="token operator">=</span> headers<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">"parent"</span><span class="token punctuation">)</span>
+ 
+         <span class="token keyword">for</span> row <span class="token keyword">in</span> reader<span class="token punctuation">:</span>
+             taxon_id <span class="token operator">=</span> row<span class="token punctuation">[</span>taxon_index<span class="token punctuation">]</span>
+             parent_id <span class="token operator">=</span> row<span class="token punctuation">[</span>parent_index<span class="token punctuation">]</span>
+ 
+             <span class="token keyword">if</span> taxon_id <span class="token keyword">is</span> <span class="token boolean">None</span> <span class="token keyword">or</span> parent_id <span class="token keyword">is</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+                 <span class="token keyword">continue</span>
+             graph<span class="token punctuation">[</span>taxon_id<span class="token punctuation">]</span><span class="token punctuation">.</span>append<span class="token punctuation">(</span>parent_id<span class="token punctuation">)</span>
+     <span class="token comment"># Good ol' BFS</span>
+     <span class="token keyword">for</span> node <span class="token keyword">in</span> tqdm<span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">(</span>graph<span class="token punctuation">.</span>keys<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+         visited <span class="token operator">=</span> <span class="token punctuation">{</span>node<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">}</span>
+         queue <span class="token operator">=</span> deque<span class="token punctuation">(</span><span class="token punctuation">[</span>node<span class="token punctuation">]</span><span class="token punctuation">)</span>
+         <span class="token keyword">while</span> queue<span class="token punctuation">:</span>
+             current_node <span class="token operator">=</span> queue<span class="token punctuation">.</span>popleft<span class="token punctuation">(</span><span class="token punctuation">)</span>
+             current_distance <span class="token operator">=</span> visited<span class="token punctuation">[</span>current_node<span class="token punctuation">]</span>
+ 
+             <span class="token keyword">for</span> neighbor <span class="token keyword">in</span> graph<span class="token punctuation">[</span>current_node<span class="token punctuation">]</span><span class="token punctuation">:</span>
+                 <span class="token keyword">if</span> neighbor <span class="token keyword">not</span> <span class="token keyword">in</span> visited<span class="token punctuation">:</span>
+                     queue<span class="token punctuation">.</span>append<span class="token punctuation">(</span>neighbor<span class="token punctuation">)</span>
+                     visited<span class="token punctuation">[</span>neighbor<span class="token punctuation">]</span> <span class="token operator">=</span> current_distance <span class="token operator">+</span> <span class="token number">1</span>
+                     distances<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">(</span>node<span class="token punctuation">,</span> neighbor<span class="token punctuation">,</span> current_distance <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+ 
+     <span class="token keyword">return</span> distances
+</code></pre>
+<p> This is super fast and results in a 9'000'000 rows dataframe. We can then think of getting the child as index, the <code>taxon_rank</code> of each parent from this query: </p>
+<pre class="language-sparql"><code class="language-sparql"><span class="token keyword">PREFIX</span> <span class="token function"><span class="token prefix">wdt<span class="token punctuation">:</span></span></span> <span class="token url"><span class="token punctuation">&#x3C;</span>http://www.wikidata.org/prop/direct/<span class="token punctuation">></span></span>
+
+<span class="token keyword">PREFIX</span> <span class="token function"><span class="token prefix">rdfs<span class="token punctuation">:</span></span></span> <span class="token url"><span class="token punctuation">&#x3C;</span>http://www.w3.org/2000/01/rdf-schema#<span class="token punctuation">></span></span>
+<span class="token keyword">PREFIX</span> <span class="token function"><span class="token prefix">wd<span class="token punctuation">:</span></span></span> <span class="token url"><span class="token punctuation">&#x3C;</span>http://www.wikidata.org/entity/<span class="token punctuation">></span></span>
+<span class="token keyword">SELECT</span> <span class="token variable">?rank</span> <span class="token variable">?rank_label</span><span class="token punctuation">{</span>
+    <span class="token variable">?rank</span> <span class="token function"><span class="token prefix">wdt<span class="token punctuation">:</span></span><span class="token local-name">P31</span></span> <span class="token function"><span class="token prefix">wd<span class="token punctuation">:</span></span><span class="token local-name">Q427626</span></span><span class="token punctuation">;</span>
+        <span class="token function"><span class="token prefix">rdfs<span class="token punctuation">:</span></span><span class="token local-name">label</span></span> <span class="token variable">?rank_label</span><span class="token punctuation">.</span>
+<span class="token keyword">FILTER</span> <span class="token punctuation">(</span><span class="token keyword">LANG</span><span class="token punctuation">(</span><span class="token variable">?rank_label</span><span class="token punctuation">)</span> = <span class="token string">"en"</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>
+</li>
+<li>
+<p>tu as ?taxon ?rank que tu peux join sur ?taxon</p>
+</li>
+<li>
+<p>tu as ?rank ?rank_label que tu peux join sur le résultat d'avant sur ?rank</p>
+</li>
+</ol>

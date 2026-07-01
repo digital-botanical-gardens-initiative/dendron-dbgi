@@ -1,0 +1,27 @@
+<h1 id="2023-05-01">2023-05-01<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-05-01"></a></h1>
+<h1 id="this-is-edouards-dbgi-daily-open-notebook">This is Edouard's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-edouards-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.05.01</p>
+<h1 id="to-do">To do<a aria-hidden="true" class="anchor-heading icon-link" href="#to-do"></a></h1>
+<h1 id="done">done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h1>
+<h1 id="perspectives">Perspectives<a aria-hidden="true" class="anchor-heading icon-link" href="#perspectives"></a></h1>
+<h1 id="notes">notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h1>
+<p>The code to change pictures metadata is done and is working. It is available on github: <a href="https://github.com/digital-botanical-gardens-initiative/iNaturalist_uploader">https://github.com/digital-botanical-gardens-initiative/iNaturalist_uploader</a></p>
+<p>The code is made to adapt. It signifies that if we create a new project or a new layer, it will be integrated. If a project is created, don't forget to add the dbgi user as manager, because it is the one that is used to download the files.</p>
+<p>What the code is doing:</p>
+<ul>
+<li>Downloads gpkg layers (point layers) and pictures</li>
+<li>Changes pictures names by deleting all problematic symbols and replacing white spaces by underscores</li>
+<li>Detects the CRS (Coordinates reference system) of gpkg files and converts to EPSG:4326, that is the CRS used by inat</li>
+<li>Converts the gpkg files to csv files</li>
+<li>Compresses pictures if they are bigger than 5MB (while loop with little decrease each time, so that the pictures are not compressed to heavily)</li>
+<li>Adds coordinates and dbgi code in pictures metadata to facilitate inat import.</li>
+</ul>
+<p>Now stays some questions to finish the job correclty:</p>
+<ul>
+<li>Which cloud to use? (already discussed about nextcloud)</li>
+<li>Where to host ? (On the field collection server or on another server)</li>
+<li>clicbot or not clicbot ? And if clicbot, how to manage it? (As inat won't be happy if they know)</li>
+<li>How to organize pictures on the cloud? (one folder per sample with folder named with dbgi code, one folder per layer, one folder per layer per upload, ...)</li>
+</ul>
+<h1 id="code">code<a aria-hidden="true" class="anchor-heading icon-link" href="#code"></a></h1>
+<h1 id="links">links<a aria-hidden="true" class="anchor-heading icon-link" href="#links"></a></h1>

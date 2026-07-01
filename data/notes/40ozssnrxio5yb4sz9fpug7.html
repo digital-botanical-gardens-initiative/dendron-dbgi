@@ -1,0 +1,65 @@
+<h1 id="qfield_data_obs">QField_data_obs<a aria-hidden="true" class="anchor-heading icon-link" href="#qfield_data_obs"></a></h1>
+<p>QField_Data_Obs table (<em>Figure 1</em>) permits to store the observations we made on the field without collecting. This is a solution we found to keep a track on specimens we couldn't collect at this time because no clear collection process (mammals or birds for example):</p>
+<ul>
+<li>
+<p>latitude: The latitude of the observation. Acts as unique identifier. As the organism hasn't been collected, there is field_sample_id to connect.</p>
+</li>
+<li>
+<p>status: The status of the observation. For example, <em>collected</em> if the organism has been collected in a new collection cession.</p>
+</li>
+<li>
+<p>user_created, date_created_user_updated, date_updated: Informations about who created/modified the QField_Data_Obs informations and when.</p>
+</li>
+<li>
+<p>longitude: The longitude of the observation.</p>
+</li>
+<li>
+<p>comment_eco: Stores possible comments from the collector on the ecology of the observed specimen</p>
+</li>
+<li>
+<p>soil_type: The type of soil present where the specimen has been observed.</p>
+</li>
+<li>
+<p>weather: Weather during the observation process.</p>
+</li>
+<li>
+<p>comment_env: Stores possible comments from the collector on the environment of the observed specimen.</p>
+</li>
+<li>
+<p>field_sample_name: The taxon name of the observed specimen</p>
+</li>
+<li>
+<p>ipen: The unique identifier of the specimen. Only present for botanical gardens specimens, given by the botanical garden.</p>
+</li>
+<li>
+<p>herbivory_percent: Only for plants and mushrooms. Gives the percent of specimen eaten by an herbivor.</p>
+</li>
+<li>
+<p>temperature_celsius: Temperature during the observation process.</p>
+</li>
+<li>
+<p>collector_fullname: Fullname of the observer.</p>
+</li>
+<li>
+<p>collector_orcid: the ORCID of the observer.</p>
+</li>
+<li>
+<p>collector_inat: iNaturalist username of the collector. Permits to tag the collector while observation is uploaded in iNaturalist.</p>
+</li>
+<li>
+<p>collection_date: The date of the observation</p>
+</li>
+<li>
+<p>is_wild: Boolean field that indicates if the observed specimen is wild or captive.</p>
+</li>
+<li>
+<p>inat_upload: Boolean field that indicates if the observed specimen should be uploaded in iNaturalist or not. Makes the difference between unique macroscopic specimen observations and multiple/microscopic/non-living objects observations.</p>
+</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/qfield_data_obs.svg" alt="image import"></p>
+<p><em>Figure 1: QField_Data_Obs table structure</em></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+</ul>

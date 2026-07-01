@@ -1,0 +1,233 @@
+<h1 id="2023-08-09">2023-08-09<a aria-hidden="true" class="anchor-heading icon-link" href="#2023-08-09"></a></h1>
+<h1 id="this-is-pmas-dbgi-daily-open-notebook">This is PMA's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-pmas-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.08.09</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<h3 id="have-a-look-at-the-dbgi-discussion-forum">Have a look at the DBGI discussion forum<a aria-hidden="true" class="anchor-heading icon-link" href="#have-a-look-at-the-dbgi-discussion-forum"></a></h3>
+<pre><code>- https://github.com/orgs/digital-botanical-gardens-initiative/discussions
+</code></pre>
+<h3 id=""><a aria-hidden="true" class="anchor-heading icon-link" href="#"></a></h3>
+<h3 id="-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#-1"></a></h3>
+<h2 id="doing">Doing<a aria-hidden="true" class="anchor-heading icon-link" href="#doing"></a></h2>
+<p>Meeting sample tracking</p>
+<p>Manu, Edouard, PM</p>
+<p>Starting from notes taken on the <a href="/dendron-dbgi/notes/uychcr92ff7k1rombsetop3">2023-07-27</a></p>
+<p>Looking into the noveltries of the qfield app
+-dpownload on deggoglzided android --- semms to work fine</p>
+<ul>
+<li>Think about using a defined taxonomy for the field called "sample_name" rather than an excel list per garden.
+For example we could use the <a href="https://tree.opentreeoflife.org/about/taxonomy-version/ott3.5">https://tree.opentreeoflife.org/about/taxonomy-version/ott3.5</a></li>
+</ul>
+<p>When using QGis
+we should make sure to use only LTS releases <a href="https://qgis.org/en/site/">https://qgis.org/en/site/</a></p>
+<p>Addition of 2 tabs "individual metadata" and "environmental metadata" (on top of the main "sample metadata")</p>
+<ul>
+<li>Define which field we want</li>
+<li>We should define which controlled vocabularies are used to fill the newly proposed fields</li>
+</ul>
+<p>For e.g. <a href="https://en.wikipedia.org/wiki/Root" title="In vascular plants, the roots are the organs of a plant that are modified to provide anchorage for the plant and take in water and nutrients into the plant body, which allows  plants to grow taller and faster. They are most often below the surface of the soil, but roots can also be aerial or aerating, that is, growing up above the ground or especially above water.">root</a> is could be fetched from the Plant Ontology <a href="https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009005">https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009005</a>
+PO:0025004</p>
+<h1 id="phenology">Phenology<a aria-hidden="true" class="anchor-heading icon-link" href="#phenology"></a></h1>
+<p>Flowering stage <a href="https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0007616?lang=en">https://www.ebi.ac.uk/ols4/ontologies/po/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0007616?lang=en</a></p>
+<p>Where are the other stages e.g fruiting </p>
+<p>IPEN and related individuals identifiers</p>
+<p>Peek into <a href="https://www.ebi.ac.uk/ols4/ontologies/envo">ENVO</a> and <a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore">ECOCORE</a></p>
+<p>E.g. humus <a href="https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000000?lang=en">https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000000?lang=en</a></p>
+<p>E.g Rain <a href="https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001564">https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001564</a></p>
+<p>Herbivory <a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000020">https://www.ebi.ac.uk/ols4/ontologies/ecocore/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000020</a></p>
+<p><a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore">https://www.ebi.ac.uk/ols4/ontologies/ecocore</a>
+<a href="https://www.ebi.ac.uk/ols4/ontologies/envo">https://www.ebi.ac.uk/ols4/ontologies/envo</a></p>
+<p>For Edouard</p>
+<p>Readlist </p>
+<ul>
+<li><a href="https://datascience.codata.org/articles/10.5334/dsj-2021-011">https://datascience.codata.org/articles/10.5334/dsj-2021-011</a></li>
+<li><a href="https://www.pnas.org/doi/abs/10.1073/pnas.1423041112">https://www.pnas.org/doi/abs/10.1073/pnas.1423041112</a></li>
+</ul>
+<p>And a constraint to the sample_name field so that the "unknown" value is automatically enforced when the "no_name_on_list" button is checked.</p>
+<p>Dig a bit the Directus tuto's <a href="https://www.dbgi.org/dendron-dbgi/notes/dy871a7dv1wcjmkvrte9ex7/">https://www.dbgi.org/dendron-dbgi/notes/dy871a7dv1wcjmkvrte9ex7/</a></p>
+<p>Created a new test layer in the JBUF project on QGis
+Also synced it with Qfield
+Added and additonal field with a constrained vocabulary (helicity l/r)</p>
+<h2 id="we-start-working-on-qgisorg">We start working on qgis.org<a aria-hidden="true" class="anchor-heading icon-link" href="#we-start-working-on-qgisorg"></a></h2>
+<h3 id="how-to-handle-large-lists-eg-the-otl-species-list-in-qgis-and-qfield-">How to handle large lists (e.g. the OTL species list) in QGis AND QField ?<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-handle-large-lists-eg-the-otl-species-list-in-qgis-and-qfield-"></a></h3>
+<p>Is a relational DB a solution.
+E.g. <a href="https://postgis.net/">https://postgis.net/</a></p>
+<p>Can this be handled by a smartphone ?</p>
+<p><a href="https://github.com/opengisch/QField/discussions/2235">https://github.com/opengisch/QField/discussions/2235</a></p>
+<p>We check that with chatGPT</p>
+<p>"I have a large tabular dataset ([4528269 rows x 15 columns]) which I would like to acces in QField and QGis.
+However accessing the file as a simple .tsv takes ages. What solutipon could you propose us ?"</p>
+<p>Dealing with large tabular datasets in QField and QGIS can indeed be challenging due to performance issues. Here are a few strategies you can consider to improve the speed and efficiency of working with your dataset:</p>
+<ol>
+<li>
+<p><strong>Spatial Indexing</strong>: If your dataset has a spatial component (geographical coordinates), make sure to create a spatial index for it. This will significantly speed up spatial queries and visualization. In QGIS, right-click on the layer, go to Properties > Source > Create Spatial Index.</p>
+</li>
+<li>
+<p><strong>Data Simplification</strong>: If the level of detail in your dataset isn't necessary for your specific use case, consider simplifying the data. This could involve reducing the number of rows, aggregating data at coarser resolutions, or applying simplification algorithms to geometry. The "Simplify" tool in QGIS can help with this.</p>
+</li>
+<li>
+<p><strong>Filtering and Subset Creation</strong>: If you don't need the entire dataset all the time, consider creating subsets based on specific criteria or regions of interest. This can make it more manageable to work with and faster to load.</p>
+</li>
+<li>
+<p><strong>Database Management Systems</strong>: If your dataset is too large to be efficiently handled as a simple TSV file, consider using a spatial database system like PostgreSQL with the PostGIS extension. This will allow you to store and query the data more efficiently. QGIS supports connections to PostgreSQL databases.</p>
+</li>
+<li>
+<p><strong>Indexed Attributes</strong>: Create indexes on columns that you frequently use for querying and analysis. This will speed up queries involving those columns.</p>
+</li>
+<li>
+<p><strong>Data Simplification</strong>: If the nature of your analysis allows, you can perform data simplification techniques. This might involve decimating points, simplifying lines, or simplifying polygons, depending on your dataset type.</p>
+</li>
+<li>
+<p><strong>Use Data-Driven Pages</strong>: If you're working with geographical data, use QGIS's Data-Driven Pages feature to only load and display a subset of your data at a time. This can greatly improve rendering performance.</p>
+</li>
+<li>
+<p><strong>File Format</strong>: Consider converting your dataset to more efficient file formats such as GeoPackage or SQLite. These formats offer better performance and support for spatial indexing.</p>
+</li>
+<li>
+<p><strong>Parallel Processing</strong>: Some operations in QGIS can be performed in parallel. If you have access to a multi-core processor, this can significantly speed up certain tasks.</p>
+</li>
+<li>
+<p><strong>Hardware Considerations</strong>: Sometimes, hardware limitations can also impact performance. Ensure that you're using a machine with sufficient RAM and processing power to handle the dataset.</p>
+</li>
+<li>
+<p><strong>Optimize Styling</strong>: Simplify the styling of your layers, especially if you're dealing with complex symbology. Complex styles can slow down rendering.</p>
+</li>
+<li>
+<p><strong>Update Software</strong>: Make sure you're using the latest version of QField and QGIS, as newer versions often come with performance improvements.</p>
+</li>
+<li>
+<p><strong>Data Generalization</strong>: If your data allows, you might be able to generalize or aggregate some of the data to reduce the overall volume while maintaining the important insights.</p>
+</li>
+</ol>
+<p>Remember that the optimal solution will depend on your specific use case and requirements. It's a good idea to experiment with a combination of these strategies to find what works best for your situation.</p>
+<p>" We asked to expand on point 4"</p>
+<p>Certainly, point 4 refers to using a Database Management System (DBMS) to handle your large tabular dataset. A popular choice for this purpose is PostgreSQL, combined with the PostGIS extension if you're dealing with spatial data. Here's a more detailed explanation of how this approach can benefit you:</p>
+<ol>
+<li>
+<p><strong>Data Storage</strong>: Using a DBMS allows you to store your data in a structured, optimized manner. Instead of a flat TSV file, data is organized in tables, rows, and columns, which makes querying and managing the data more efficient.</p>
+</li>
+<li>
+<p><strong>Indexing</strong>: A DBMS allows you to create various types of indexes on your data. Indexes speed up data retrieval, especially when filtering or searching for specific records. Spatial indexes, in the case of PostGIS, enhance the performance of spatial queries.</p>
+</li>
+<li>
+<p><strong>Efficient Queries</strong>: Databases are designed to handle large datasets and complex queries. SQL (Structured Query Language) enables you to perform powerful operations on your data, filtering, aggregating, and joining tables as needed.</p>
+</li>
+<li>
+<p><strong>Concurrency</strong>: Modern DBMSs can handle multiple users accessing the data simultaneously without data corruption or performance degradation. This is especially useful in collaborative projects.</p>
+</li>
+<li>
+<p><strong>Transaction Management</strong>: DBMSs provide mechanisms to ensure data integrity through transactions. If an operation fails midway, the database can revert to its previous state, preventing inconsistent data.</p>
+</li>
+<li>
+<p><strong>Data Backup and Recovery</strong>: Databases offer built-in backup and recovery mechanisms, which can be crucial when dealing with valuable or irreplaceable data.</p>
+</li>
+<li>
+<p><strong>Data Versioning and History</strong>: Some DBMSs support versioning and maintaining historical records. This can be helpful in scenarios where you need to track changes over time.</p>
+</li>
+<li>
+<p><strong>Scalability</strong>: If your dataset continues to grow, a DBMS can often be scaled to handle the increased load without significant performance degradation.</p>
+</li>
+</ol>
+<p>To set up PostgreSQL and PostGIS for your project:</p>
+<ol>
+<li>
+<p><strong>Install PostgreSQL</strong>: Download and install PostgreSQL from the official website. During installation, remember the username and password you set up.</p>
+</li>
+<li>
+<p><strong>Install PostGIS</strong>: PostGIS is an extension for PostgreSQL that adds spatial capabilities. You can install it using your system's package manager or by downloading it from the PostGIS website.</p>
+</li>
+<li>
+<p><strong>Create a Database</strong>: Using a tool like pgAdmin (a graphical interface for PostgreSQL), create a new database.</p>
+</li>
+<li>
+<p><strong>Enable PostGIS</strong>: Once you have your database, enable PostGIS by executing the PostGIS-specific SQL scripts that come with the installation.</p>
+</li>
+<li>
+<p><strong>Import Data</strong>: Import your large tabular dataset into the PostgreSQL database. You can use tools like <code>pgAdmin</code> or the <code>psql</code> command-line tool to execute SQL commands.</p>
+</li>
+<li>
+<p><strong>Create Indexes</strong>: Depending on your data's structure and usage patterns, create appropriate indexes on columns that are frequently queried or used for filtering.</p>
+</li>
+<li>
+<p><strong>Connect QGIS</strong>: In QGIS, you can add a connection to your PostgreSQL database using the "Add PostGIS Layers" option. This allows you to work with your data seamlessly within QGIS.</p>
+</li>
+</ol>
+<p>Remember that working with a DBMS does require some learning curve, especially if you're new to SQL and database concepts. However, the benefits in terms of performance, management, and scalability can greatly outweigh the initial effort.</p>
+<h3 id="we-now-peek-into-the-other-field-wich-we-want-to-fill-when-collecting-the-samples">We now peek into the other field wich we want to fill when collecting the samples<a aria-hidden="true" class="anchor-heading icon-link" href="#we-now-peek-into-the-other-field-wich-we-want-to-fill-when-collecting-the-samples"></a></h3>
+<p>We work on a first example (the field corresponding to the plants/organisms parts)</p>
+<p>First we dl the full PO</p>
+<p><a href="https://www.ebi.ac.uk/ols4/ontologies/po">https://www.ebi.ac.uk/ols4/ontologies/po</a></p>
+<p><a href="/dendron-dbgi/notes/1zjozmiisx66kr2wbj8t5uw">plant_structure_PO</a></p>
+<p>We couldnt find a way to dl or export from Protégé
+We found a txt version directly on the git <a href="https://github.com/Planteome/plant-ontology">https://github.com/Planteome/plant-ontology</a>
+<a href="https://github.com/Planteome/plant-ontology/blob/22bed9a0efa8879ef89e1bffa0a9df74397eaa6e/plant-ontology.txt">https://github.com/Planteome/plant-ontology/blob/22bed9a0efa8879ef89e1bffa0a9df74397eaa6e/plant-ontology.txt</a></p>
+<h3 id="we-should-think-of-a-git-versionning-mechanism-of-the-collections-layers">We should think of a git versionning mechanism of the collections Layers<a aria-hidden="true" class="anchor-heading icon-link" href="#we-should-think-of-a-git-versionning-mechanism-of-the-collections-layers"></a></h3>
+<p>Check possibility to </p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> QGIS export as csv</li>
+<li class="task-list-item"><input type="checkbox" disabled> CSV git versioning</li>
+<li class="task-list-item"><input type="checkbox" disabled> Ability to reimport an exported CSV</li>
+</ul>
+<ol>
+<li>User pushed from QField to QField cloud</li>
+<li>PosGres is versioned to git </li>
+</ol>
+<p>We created an issue <a href="https://github.com/digital-botanical-gardens-initiative/gpkg_creator/issues/5">here</a> to start documenting the wanted field</p>
+<p>This issue is meant to docment the field we want to implement in the QField collection app interface.</p>
+<p>For now this is designed in the typical collection case of the DBGI (e.g. collection of plants or plants parts). This will need to be evolved when expanding to 1. EMI samples of organisms or ensemble of organisms. 2. mostly abiotic samples (e.g. soil, water etc)</p>
+<p>DBGI case</p>
+<h2 id="collection_campaign">collection_campaign<a aria-hidden="true" class="anchor-heading icon-link" href="#collection_campaign"></a></h2>
+<p>Here we gather information regarding the curent collection campaign.</p>
+<h3 id="firstname">firstname<a aria-hidden="true" class="anchor-heading icon-link" href="#firstname"></a></h3>
+<p>(e.g. Edouard)</p>
+<h3 id="lastname">lastname<a aria-hidden="true" class="anchor-heading icon-link" href="#lastname"></a></h3>
+<p>(e.g. Brülhart)</p>
+<h3 id="orcid">ORCID<a aria-hidden="true" class="anchor-heading icon-link" href="#orcid"></a></h3>
+<p>(e.g. 0000-0003-3950-4065)</p>
+<h3 id="project_name">project_name<a aria-hidden="true" class="anchor-heading icon-link" href="#project_name"></a></h3>
+<p>(e.g. DBGI)</p>
+<h3 id="location_name">location_name<a aria-hidden="true" class="anchor-heading icon-link" href="#location_name"></a></h3>
+<p>(e.g. Botanical Garden University of Fribourg)</p>
+<h2 id="sample">sample<a aria-hidden="true" class="anchor-heading icon-link" href="#sample"></a></h2>
+<p>Here we gather information regarding the sample (i.e. the physical material which ends up into the collection tube)</p>
+<h3 id="sample_id">sample_id<a aria-hidden="true" class="anchor-heading icon-link" href="#sample_id"></a></h3>
+<p>(e.g. dbgi_000001) </p>
+<p>This id is internal to your collection program. It should be unique within your project. This id is obtained by scanning a barcode or QRcode of the pre-labelled sample tube.</p>
+<h3 id="uuid">UUID<a aria-hidden="true" class="anchor-heading icon-link" href="#uuid"></a></h3>
+<p>(e.g. 95301d2b-d1da-4691-97e1-8cb6836a9a5a)
+Automatically generated by QField.</p>
+<h3 id="organ">organ<a aria-hidden="true" class="anchor-heading icon-link" href="#organ"></a></h3>
+<p>(e.g. root)</p>
+<p>The vocabulary is controlled by the terms of the <a href="https://www.ebi.ac.uk/ols/ontologies/po">PO</a> </p>
+<h2 id="individual">individual<a aria-hidden="true" class="anchor-heading icon-link" href="#individual"></a></h2>
+<p>Here we gather information regarding the major targeted macroscopic biological organism (e.g. the whole plant from which several leaves have been sampled). We are aware that multiple biological taxa can be sampled at the same time (e.g. endophytes, nematodes, small insects. Hence the precision of <strong>major targeted macroscopic biological organism</strong>)</p>
+<h3 id="taxon">taxon<a aria-hidden="true" class="anchor-heading icon-link" href="#taxon"></a></h3>
+<p>(e.g. <em>Aconitum vulparia</em>) </p>
+<p>This name is obtained from a list of taxa which is coming from the <a href="https://tree.opentreeoflife.org/about/taxonomy-version/ott3.5">OTL taxonomy</a>
+If the taxa is not determined, the "ND" value is available.</p>
+<h3 id="phenology-1">phenology<a aria-hidden="true" class="anchor-heading icon-link" href="#phenology-1"></a></h3>
+<h3 id="health_state">health_state<a aria-hidden="true" class="anchor-heading icon-link" href="#health_state"></a></h3>
+<h3 id="traits">traits<a aria-hidden="true" class="anchor-heading icon-link" href="#traits"></a></h3>
+<h3 id="herbivory_pressure">herbivory_pressure<a aria-hidden="true" class="anchor-heading icon-link" href="#herbivory_pressure"></a></h3>
+<h3 id="-2">...<a aria-hidden="true" class="anchor-heading icon-link" href="#-2"></a></h3>
+<h2 id="environment">environment<a aria-hidden="true" class="anchor-heading icon-link" href="#environment"></a></h2>
+<p>Here we gather any other relevant environmental information.</p>
+<h3 id="abiotic">abiotic<a aria-hidden="true" class="anchor-heading icon-link" href="#abiotic"></a></h3>
+<h4 id="weather">weather<a aria-hidden="true" class="anchor-heading icon-link" href="#weather"></a></h4>
+<p>E.g Rain <a href="https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001564">https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001564</a></p>
+<h4 id="soil_type">soil_type<a aria-hidden="true" class="anchor-heading icon-link" href="#soil_type"></a></h4>
+<p>E.g. humus <a href="https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000000?lang=en">https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000000?lang=en</a></p>
+<h3 id="biotic">biotic<a aria-hidden="true" class="anchor-heading icon-link" href="#biotic"></a></h3>
+<p>Herbivory <a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000020">https://www.ebi.ac.uk/ols4/ontologies/ecocore/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000020</a></p>
+<h3 id="-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#-3"></a></h3>
+<p>Peek into <a href="https://www.ebi.ac.uk/ols4/ontologies/envo">ENVO</a> and <a href="https://www.ebi.ac.uk/ols4/ontologies/ecocore">ECOCORE</a></p>
+<h2 id="paused">Paused<a aria-hidden="true" class="anchor-heading icon-link" href="#paused"></a></h2>
+<h2 id="done">Done<a aria-hidden="true" class="anchor-heading icon-link" href="#done"></a></h2>
+<h2 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h2>
+<h2 id="todo-tomorrow">Todo tomorrow<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-tomorrow"></a></h2>
+<h3 id="-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#-4"></a></h3>
+<h3 id="-5"><a aria-hidden="true" class="anchor-heading icon-link" href="#-5"></a></h3>
+<h3 id="-6"><a aria-hidden="true" class="anchor-heading icon-link" href="#-6"></a></h3>
+<h2 id="today-i-learned-that">Today I learned that<a aria-hidden="true" class="anchor-heading icon-link" href="#today-i-learned-that"></a></h2>
+<ul>
+<li></li>
+</ul>

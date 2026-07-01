@@ -1,0 +1,54 @@
+<h1 id="lab_extracts">Lab_extracts<a aria-hidden="true" class="anchor-heading icon-link" href="#lab_extracts"></a></h1>
+<p>Lab_extracts table (<em>Figure 1</em>) permits to store the laboratory extracts ID with all the associated metadata:</p>
+<ul>
+<li>
+<p>lab_extract_id: Format dbgi_xxxxxx_xx (sample) or dbgi_batch_blk_xxxxxx (blank). Child of field_sample format dbgi_xxxxxx. This ID corresponds to the label of the physical object laboratory extract. The blanks are generated from the batch ID, by adding the <em>_blk</em> part.</p>
+</li>
+<li>
+<p>user_created, date_created_user_updated, date_updated: Informations about who created/modified the Lab_extracts informations and when.</p>
+</li>
+<li>
+<p>UUID_lab_extract: UUID of the laboratory extract, generated during creation of the physical object.</p>
+</li>
+<li>
+<p>field_sample_id: This ID corresponds to the label of the physical object field sample. Provides a link to <a href="/dendron-dbgi/notes/5a4axfecdxrxrygafqxb3f4">Field_samples</a> parent.</p>
+</li>
+<li>
+<p>dried_plant_weight: Provides the dried weight used to make the extract. This column is deprecated, replaced by dried_weight.</p>
+</li>
+<li>
+<p>extraction_method: Corresponds to the <a href="/dendron-dbgi/notes/wuswh5qyq57slw1lu25u0bu">Extraction_methods</a> used to create this extract. Provides a link the method and the associated informations.</p>
+</li>
+<li>
+<p>status: Permits to track the status of the aliquot (example: OK, lost, broken, etc.).</p>
+</li>
+<li>
+<p>batch_id: The ID of the solvent batch used. Permits to link the sample to the batch and the associated informations.</p>
+</li>
+<li>
+<p>solvent_volume_micro: Stores the solvent volume used to create the extract. This column is deprecated, replaced by solvent_volume.</p>
+</li>
+<li>
+<p>mobile_container_id: This ID corresponds to the label of a physical mobile container. Provides a link to <a href="/dendron-dbgi/notes/909a4vp1kea3o5mebeg258c">Mobile_containers</a> where the laboratory extract is stored.</p>
+</li>
+<li>
+<p>dried_weight: Provides the dried weight used to make the extract.</p>
+</li>
+<li>
+<p>solvent_volume: Stores the solvent volume used to create the extract.</p>
+</li>
+<li>
+<p>dried_weight_unit: The unit associated to dried_weight. This column is linked to the <a href="/dendron-dbgi/notes/r69cj8a351i23ftsna08evq">SI_units</a> table, where all SI units are provided.</p>
+</li>
+<li>
+<p>solvent_volume_unit: The unit associated to solvent_volume. This column is linked to the <a href="/dendron-dbgi/notes/r69cj8a351i23ftsna08evq">SI_units</a> table, where all SI units are provided.</p>
+</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/lab_extracts.svg" alt="image import"></p>
+<p><em>Figure 1: Lab_Extracts table structure</em></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+<li><a href="/dendron-dbgi/notes/q58kwmxh1u46kil8gr1vdwp">Aliquots</a></li>
+</ul>

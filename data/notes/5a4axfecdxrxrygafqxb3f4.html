@@ -1,0 +1,36 @@
+<h1 id="field_samples">Field_samples<a aria-hidden="true" class="anchor-heading icon-link" href="#field_samples"></a></h1>
+<p>Field_Samples table (<em>Figure 1</em>) permits to store the field samples ID with all the associated metadata:</p>
+<ul>
+<li>
+<p>field_sample_id: Format dbgi_xxxxxx (sample). Linked to <a href="/dendron-dbgi/notes/h6tefmuwe0ucv8u5pwop6qm">QField_data</a> and <a href="/dendron-dbgi/notes/3nkwwom9ozjp8t7lr8bkbto">Inat_data</a> tables. This ID corresponds to the label of the physical object field sample.</p>
+</li>
+<li>
+<p>user_created, date_created_user_updated, date_updated: Informations about who created/modified the Field_samples informations and when.</p>
+</li>
+<li>
+<p>UUID_field_sample: UUID of the field sample, generated during creation of the physical object.</p>
+</li>
+<li>
+<p>status: Permits to track the status of the field sample (example: OK, lost, mouldy, etc.).</p>
+</li>
+<li>
+<p>mobile_container_id: This ID corresponds to the label of a physical mobile container. Provides a link to <a href="/dendron-dbgi/notes/909a4vp1kea3o5mebeg258c">Mobile_containers</a> to know where the field sample is stored.</p>
+</li>
+<li>
+<p>qfield_link: Provides a link to the QField observation.</p>
+</li>
+<li>
+<p>inaturalist_link: Provides the URL of the iNaturalist observation corresponding to this sample.</p>
+</li>
+<li>
+<p>inat_observation_id: Provides the iNaturalist identifier of the iNaturalist observation.</p>
+</li>
+</ul>
+<p><img src="/dendron-dbgi/assets/images_bruelhed/field_samples.svg" alt="image import"></p>
+<p><em>Figure 1: Field_Samples table structure</em></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+<li><a href="/dendron-dbgi/notes/qhkperw4qbwptd0yn958bod">Lab_extracts</a></li>
+</ul>

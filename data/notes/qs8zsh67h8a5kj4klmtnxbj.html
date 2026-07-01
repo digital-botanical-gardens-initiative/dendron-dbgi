@@ -1,0 +1,41 @@
+<h1 id="17">17<a aria-hidden="true" class="anchor-heading icon-link" href="#17"></a></h1>
+<h1 id="this-is-luca-cappellettis-dbgi-daily-open-notebook">This is Luca Cappelletti's DBGI daily open-notebook.<a aria-hidden="true" class="anchor-heading icon-link" href="#this-is-luca-cappellettis-dbgi-daily-open-notebook"></a></h1>
+<p>Today is 2023.07.21</p>
+<h2 id="todo-today">Todo today<a aria-hidden="true" class="anchor-heading icon-link" href="#todo-today"></a></h2>
+<ul>
+<li>Continuing to work on the <a href="https://github.com/enpkg/enpkg_workflow">ENPKG Workflow</a> so as to plan a very needed holystic refactoring.</li>
+</ul>
+<h2 id="global-problems-encountered">Global problems encountered<a aria-hidden="true" class="anchor-heading icon-link" href="#global-problems-encountered"></a></h2>
+<h3 id="absence-of-documentation">Absence of documentation<a aria-hidden="true" class="anchor-heading icon-link" href="#absence-of-documentation"></a></h3>
+<p>The code does not have any meaningful documentation associated to the functions. The name of the variables often does not convey any meaning.</p>
+<h3 id="inconsistent-formatting">Inconsistent formatting<a aria-hidden="true" class="anchor-heading icon-link" href="#inconsistent-formatting"></a></h3>
+<p>Some files use 4-spaced tabs, some use 2-spaced tabs.</p>
+<h3 id="json-like-objects-being-hardcoded-in-the-code">JSON-like objects being hardcoded in the code<a aria-hidden="true" class="anchor-heading icon-link" href="#json-like-objects-being-hardcoded-in-the-code"></a></h3>
+<p>In several instances, JSON-like objects are hardcoded in the code. This is a problem because it makes the code less clean and more difficult to maintain.</p>
+<h3 id="lack-of-tests">Lack of tests<a aria-hidden="true" class="anchor-heading icon-link" href="#lack-of-tests"></a></h3>
+<p>The entire code base lacks any test suites.</p>
+<h3 id="lack-of-uniformity-across-repositories">Lack of uniformity across repositories<a aria-hidden="true" class="anchor-heading icon-link" href="#lack-of-uniformity-across-repositories"></a></h3>
+<p>It is unclear why there exists different very small repositories for each step of the workflow. It would be much more convenient to have a single repository with a folder for each step of the workflow, and system to test the comprehensive execution of it.</p>
+<h3 id="script-and-methods-are-mixed">Script and methods are mixed<a aria-hidden="true" class="anchor-heading icon-link" href="#script-and-methods-are-mixed"></a></h3>
+<p>The code is a mix of scripts and methods. This makes it difficult to understand what is the intended use of the code. While the code base should be rather clearly a module, it is constructed as a set of scripts that are meant to be run in a specific order from bash with a set of parameters.</p>
+<h3 id="list-of-requirements-identified">List of requirements identified<a aria-hidden="true" class="anchor-heading icon-link" href="#list-of-requirements-identified"></a></h3>
+<p>The following list of libraries used in the code has been identified, which will need to be accounted for in the refactoring. Hopefully some of them can be removed, but several would introduce a significant overhead as they are APIs to external resources. I need help to understand exactly what they are used for.</p>
+<ul>
+<li><code>pandas</code> - Used for CSV manipulation</li>
+<li><a href="https://github.com/OpenTreeOfLife/python-opentree"><code>opentree</code></a> - Used to query the open tree of life API</li>
+<li><code>sqlite3</code> - It is currently unclear why this is used.</li>
+<li><a href="https://github.com/rdkit/rdkit"><code>rdkit</code></a> - Used for chemical structure manipulation</li>
+<li><a href="https://github.com/chembl/chembl_webresource_client"><code>chembl_webresource_client</code></a> - Used to query the ChEMBL API</li>
+<li><a href="/dendron-dbgi/"><code>npscorer</code></a> - Unclear what this is for.</li>
+<li><a href="https://github.com/mandelbrot-project/memo"><code>memo_ms</code></a> - Used for Ms2 basEd saMple vectOrization. I need to ask what that is, seems to be a package developed from within the lab.</li>
+<li><a href="https://github.com/matchms/matchms"><code>matchms</code></a> - Python library for processing (tandem) mass spectrometry data and for computing spectral similarities. Seems to be wholly in Python, which seems like a bad call for something that needs to be fast.</li>
+<li><a href="https://canopus.vercel.app/"><code>canopus</code></a> - Package for GraphQL. It is unclear why this is used in the pipeline.</li>
+<li>[<code>sirius</code>] - What is this?</li>
+<li><a href="https://networkx.org/"><code>networkx</code></a> - Used for minimal graph analysis, such as computing connected components. Why is this done here?</li>
+<li><a href="https://plotly.com/python/"><code>plotly</code></a> - Used for plotting something, still have to understand what.</li>
+</ul>
+<h2 id="for-next-week">For next week<a aria-hidden="true" class="anchor-heading icon-link" href="#for-next-week"></a></h2>
+<ul>
+<li>Delve into whether the data models suggested by <a href="https://www..com/in/chrismungall/">Chris Mungall</a> are a viable solution for the characterization of biological samples.</li>
+<li>Ask to Pierre-Marie for help understanding how to start using the data <a href="https://zenodo.org/record/8152039">made available on Zenodo</a> for testing the <a href="https://github.com/enpkg/enpkg_data_organization/tree/refactoring">data organization</a> and in chain all others to avoid breaking the pipeline during the refactoring.</li>
+</ul>

@@ -1,0 +1,36 @@
+<h1 id="notes">Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a></h1>
+<p>Diving in the Directus DBGI DB with Edouard</p>
+<ul>
+<li>Before touching anything we check what are the backup mechanisms of the DBGI Directus DB (<a href="https://directus.dbi.org">https://directus.dbi.org</a>)</li>
+</ul>
+<p>Edouard suggest that in fact we directly create  Docker container for the directus instance</p>
+<p>We check stuff at <a href="https://docs.directus.io/self-hosted/quickstart.html">https://docs.directus.io/self-hosted/quickstart.html</a></p>
+<p>We have a wroking docker compose <a href="https://github.com/digital-botanical-gardens-initiative/directus-db">https://github.com/digital-botanical-gardens-initiative/directus-db</a>
+We have got some issues which were solved by <a href="https://github.com/directus/directus/issues/20542">https://github.com/directus/directus/issues/20542</a></p>
+<p>psql -U postgres</p>
+<p>We export the old dbgi_directus instance </p>
+<p>pg_dump -U directus -d directus_dbgi -f 20240202_directus_dbgi.sql</p>
+<p>Monday 05 February 2024</p>
+<p>We add a pg database to pgadmin</p>
+<ul>
+<li>dashboard </li>
+<li>add new server</li>
+</ul>
+<p>To backup a db, open it right click backup (tar compression)</p>
+<p>Then restore the image on the new db</p>
+<p>On the server side :</p>
+<ul>
+<li>sudo docker ps</li>
+<li>sudo docker stop xxxxxxxxx</li>
+<li>sudo docker rm xxxxxxxxx</li>
+<li>sudo docker image ls</li>
+<li>sudo docker rmi xxxxxxxxx</li>
+</ul>
+<p>We then remove the docker volumes</p>
+<p>sudo docker volume ls
+sudo docker volume rm xxxxxxxxx</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/nb3ha1jadnmfq57rfhpjm0k">2024-02-02</a></li>
+</ul>

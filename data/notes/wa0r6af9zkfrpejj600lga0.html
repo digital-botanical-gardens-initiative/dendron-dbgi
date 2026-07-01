@@ -1,0 +1,16 @@
+<h1 id="inaturalist">iNaturalist<a aria-hidden="true" class="anchor-heading icon-link" href="#inaturalist"></a></h1>
+<p>We use <a href="https://www.inaturalist.org/home">iNaturalist</a> to resolve or confirm taxons of specimens we collect for the DBGI project, and more generally for the EMI project.</p>
+<p>"iNaturalist is an online social network of people sharing biodiversity information to help each other learn about nature" (<a href="/dendron-dbgi/notes/aalkz4u5xmrhcr781vlxge3">_f</a>)</p>
+<h2 id="inaturalist-advantages-and-utility">iNaturalist advantages and utility<a aria-hidden="true" class="anchor-heading icon-link" href="#inaturalist-advantages-and-utility"></a></h2>
+<p>iNaturalist allows to link our samples with pictures, sample code and location. We can precise the plant phenology too. It contains a community curation system linked with a machine learning technology to correct or add an identification of each observed specimen.</p>
+<p>We can create projects with a delimited area where each added plant will automatically fit in when uploaded. This is what we have done with the Jardin Botanique de l'Université de Fribourg. With this, all our samples are grouped together. This allows then to export the data in batch with the <a href="/dendron-dbgi/notes/3bls9c5p4unqddel8t5qh41">inat-fetcher</a> to obtain all iNaturalist metadata in the <a href="/dendron-dbgi/notes/utxt2dpc9ytwb941oz4nfg8">Database</a>.</p>
+<p><img src="/dendron-dbgi/assets/images/iNaturalist_page.png" alt="Build settings orthomosaic" style="max-width:600px;display:block;margin:0 auto;"><em>iNaturalist page of Physalis peruviana with all the usefull fields described</em></p>
+<h2 id="inaturalist-import">iNaturalist import<a aria-hidden="true" class="anchor-heading icon-link" href="#inaturalist-import"></a></h2>
+<p>The iNaturalist import is made automatically using collection informations from the <a href="/dendron-dbgi/notes/w4qmirl0lfwt4035zizh3vt">QField</a> collection application.</p>
+<p>The <a href="/dendron-dbgi/notes/drw6wxmq7cgp7sg08uf56rq">Pictures_manager</a> python script retrieves collection metadata from <a href="/dendron-dbgi/notes/6c0o64alpn9ytm0qaxdfa9a">QFieldCloud</a> server and generates pictures with all needed metadata for iNaturalist. Then, the <a href="/dendron-dbgi/notes/gr7dr9ty3pmvc7y9xqmomzj">iNaturalist_import_bot</a> python script will automatically upload these pictures in iNaturalist and generate the observations.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-dbgi/notes/bt0h5gmjdgfcp9felx24csb">Tables</a></li>
+<li><a href="/dendron-dbgi/notes/3bls9c5p4unqddel8t5qh41">inat-fetcher</a></li>
+</ul>
